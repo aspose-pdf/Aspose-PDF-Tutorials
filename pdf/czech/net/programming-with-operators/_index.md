@@ -29,6 +29,7 @@ Výukové programy „Programování s operátory“ v Aspose.PDF pro .NET vás 
 | [Vytvoření vlastního grafického stavu v PDF pomocí Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Naučte se, jak vytvořit vlastní grafický stav v PDF pomocí Aspose.PDF pro .NET. |  
 | [Přidání obdélníku do PDF s Aspose.Pdf – Kompletní průvodce C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Naučte se, jak pomocí Aspose.PDF přidat obdélník do PDF souboru v jazyce C#. |  
 | [Úprava slovníku zdrojů PDF pomocí Aspose.PDF – C# průvodce](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Naučte se, jak upravit slovník zdrojů PDF pomocí Aspose.PDF v jazyce C#. |  
+| [Vytvořit prázdný PDF slovník v C# pomocí Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Naučte se, jak vytvořit prázdný PDF slovník v C# pomocí Aspose.Pdf. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,6 +25,7 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 | [Relleno de texto en árabe](./arabic-text-filling/) Aprenda a rellenar texto en árabe en formularios PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus habilidades de manipulación de PDF.  
 | [Cuadro combinado](./combo-box/) Aprenda a agregar un cuadro combinado a un PDF con Aspose.PDF para .NET. Siga nuestra guía paso a paso para crear formularios PDF interactivos fácilmente.  
 | [Crear documento](./create-doc/) | Aprenda a crear documentos PDF interactivos con botones de opción usando Aspose.PDF para .NET en esta completa guía paso a paso. |  
+| [Crear campo de formulario PDF en C# – guía paso a paso](./create-pdf-form-field-in-c-step-by-step-guide/) Aprenda a crear campos de formulario PDF en C# con Aspose.PDF paso a paso.  
 | [Eliminar campo de formulario en un documento PDF](./delete-form-field/) Aprenda a eliminar campos de formulario en documentos PDF con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y entusiastas del PDF.  
 | [Determinar el campo obligatorio en el formulario PDF](./determine-required-field/) Aprenda a determinar los campos obligatorios en un formulario PDF con Aspose.PDF para .NET. Nuestra guía paso a paso simplifica la gestión de formularios y mejora su flujo de trabajo de automatización de PDF.  
 | [XFA dinámico a formato Acro](./dynamic-xfa-to-acro-form/) | Aprenda a convertir formularios XFA dinámicos a AcroForms estándar usando Aspose.PDF para .NET en este tutorial paso a paso. |  

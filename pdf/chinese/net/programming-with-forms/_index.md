@@ -59,6 +59,7 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 | [创建 PDF 文本框字段 – 分步指南](./create-pdf-textbox-field-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 PDF 中创建文本框字段，提升表单交互功能。|  
 | [使用 C# 将 FDF 导入 PDF – 完整分步指南](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 将 FDF 文件导入 PDF，实现表单数据填充。|
 | [使用 Aspose.PDF 保存 PDF 文档 – 完整指南](./save-pdf-document-with-aspose-pdf-complete-guide/) 本完整指南演示如何使用 Aspose.PDF for .NET 保存 PDF 文档，包括示例代码和最佳实践。|
+| [在 C# 中创建 PDF 表单字段 – 步骤指南](./create-pdf-form-field-in-c-step-by-step-guide/) 通过本分步指南学习如何在 C# 中创建 PDF 表单字段。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

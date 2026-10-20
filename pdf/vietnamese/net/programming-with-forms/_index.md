@@ -60,6 +60,7 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Tạo trường hộp văn bản PDF – Hướng dẫn từng bước](./create-pdf-textbox-field-step-by-step-guide/) | Tìm hiểu cách tạo trường hộp văn bản trong PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |
 | [Nhập FDF vào PDF bằng C# – Hướng dẫn chi tiết từng bước](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Tìm hiểu cách nhập tệp FDF vào tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 | [Lưu tài liệu PDF với Aspose.PDF – hướng dẫn đầy đủ](./save-pdf-document-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm các tùy chọn và ví dụ thực tế. |
+| [Tạo trường biểu mẫu PDF trong C# – hướng dẫn từng bước](./create-pdf-form-field-in-c-step-by-step-guide/) | Tìm hiểu cách tạo trường biểu mẫu PDF trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,7 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [PDF szövegdoboz mező létrehozása – Lépés‑ről‑lépésre útmutató](./create-pdf-textbox-field-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre szövegdoboz mezőt PDF-ben az Aspose.PDF for .NET segítségével ebben a lépésről‑lépésre útmutatóban. |
 | [FDF importálása PDF-be C#‑val – Teljes lépésről‑lépésre útmutató](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Tanulja meg, hogyan importálhat FDF fájlokat PDF dokumentumokba C#‑ban az Aspose.PDF for .NET segítségével, lépésről‑lépésre. |
 | [PDF dokumentum mentése az Aspose.PDF segítségével – teljes útmutató](./save-pdf-document-with-aspose-pdf-complete-guide/) | Ismerje meg, hogyan menthet PDF dokumentumot az Aspose.PDF használatával ebben a teljes útmutatóban. |
+| [PDF űrlapmező létrehozása C#‑ban – lépésről lépésre útmutató](./create-pdf-form-field-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre PDF űrlapmezőket C#‑ban az Aspose.PDF for .NET segítségével lépésről lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,7 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Validar assinatura digital de PDF em C# com Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Aprenda a validar assinaturas digitais de PDFs usando C# e Aspose.PDF. Guia passo a passo. |
 | [Verificar assinatura PDF em C# – guia completo](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aprenda a validar assinaturas PDF em C# usando Aspose.PDF, passo a passo, cobrindo verificação, extração e análise de certificados. |
 | [Tutorial de assinatura PDF: validar uma assinatura digital PDF com Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aprenda a validar assinaturas digitais em PDFs usando Aspose.PDF para .NET, passo a passo. |
+| [Criar opções de assinatura em C# – guia completo de assinatura digital](./create-signature-options-in-c-full-guide-to-digital-signing/) | Aprenda a criar opções avançadas de assinatura digital em C# usando Aspose.PDF, passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

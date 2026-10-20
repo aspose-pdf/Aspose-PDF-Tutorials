@@ -29,6 +29,7 @@
 | [إنشاء حالة رسومية مخصصة في PDF باستخدام Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) تعلم كيفية إنشاء حالة رسومية مخصصة في ملفات PDF باستخدام Aspose.PDF لـ .NET.  
 | [إضافة مستطيل PDF باستخدام Aspose.Pdf – دليل C# كامل](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | دليل شامل خطوة بخطوة لإضافة مستطيل إلى ملف PDF باستخدام Aspose.PDF في C#. |  
 | [تحرير قاموس موارد PDF باستخدام Aspose.PDF – دليل C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | دليل شامل لتعديل قاموس موارد PDF باستخدام Aspose.PDF في C# خطوة بخطوة. |  
+| [إنشاء قاموس PDF فارغ في C# باستخدام Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | تعلم كيفية إنشاء قاموس PDF فارغ باستخدام Aspose.Pdf في C# لتخصيص ملفات PDF بسهولة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

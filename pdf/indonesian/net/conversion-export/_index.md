@@ -207,7 +207,6 @@ Pelajari cara menyimpan file PDF menjadi HTML menggunakan Aspose.PDF dengan pand
 ### [Konversi PDF ke TIFF dalam .NET Menggunakan Aspose.PDF: Panduan Langkah demi Langkah](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke gambar TIFF menggunakan Aspose.PDF untuk .NET. Kuasai kedalaman warna khusus dan teknik pemrosesan gambar tingkat lanjut.
 ### [Cara Menyimpan PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-save-pdf-with-aspose-step-by-step-guide/)
-Pelajari cara menyimpan dokumen PDF menggunakan Aspose dengan contoh kode C# langkah demi langkah.
 ### [Simpan PDF sebagai PNG dan Konversi ke PDF/X‑1a dengan Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 ### [Mengonversi PDF ke HTML dalam C# – Panduan Cepat dengan Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Pelajari cara mengonversi PDF ke HTML dengan cepat menggunakan Aspose.Pdf dalam C#.
@@ -225,6 +224,7 @@ Pelajari cara mengonversi PDF ke HTML dan menghilangkan gambar secara otomatis m
 
 ### [Simpan PDF sebagai HTML – Buat PDF, tambahkan bentuk persegi panjang](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 Pelajari cara menyimpan PDF sebagai HTML, membuat PDF, dan menambahkan bentuk persegi panjang menggunakan Aspose.PDF untuk .NET.
+### [Simpan PDF sebagai HTML dan Konversi ke PDF/X‑4 dengan Aspose.PDF di C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 
 ## Sumber Daya Tambahan
 

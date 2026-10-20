@@ -65,6 +65,7 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Aggiungi trasparenza al PDF con Aspose.PDF – Guida completa C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Scopri come applicare la trasparenza ai PDF usando Aspose.PDF per .NET con esempi di codice C# completi. |
 | [Come modificare l'opacità in PDF con Aspose.PDF – Guida completa](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Scopri come modificare l'opacità di elementi PDF usando Aspose.PDF per .NET in questa guida dettagliata. |
 | [Come aggiungere la numerazione Bates in PDF con Aspose – Guida passo‑passo](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Scopri come inserire la numerazione Bates nei PDF usando Aspose.PDF per .NET con esempi di codice dettagliati. |
+| [Come impostare le opzioni di numerazione Bates in C# – guida completa](./how-to-set-bates-numbering-options-in-c-complete-guide/) Scopri come configurare le opzioni di numerazione Bates nei PDF con Aspose.PDF per .NET, includendo esempi di codice. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

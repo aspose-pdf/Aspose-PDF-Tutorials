@@ -29,6 +29,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med operatorer" guidar dig g
 | [Skapa anpassat grafikstatus i PDF med Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Lär dig hur du skapar en anpassad grafikstatus i en PDF med Aspose.PDF för .NET i denna steg-för-steg-guide. |  
 | [Lägg till rektangel PDF med Aspose.Pdf – Komplett C#-guide](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Lär dig hur du lägger till en rektangel i en PDF med Aspose.Pdf i en komplett C#-guide. |
 | [Redigera PDF-resursordbok med Aspose.PDF – C#-guide](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Lär dig hur du redigerar PDF:s resursordbok med Aspose.PDF i C# i denna steg-för-steg-guide. |
+| [Skapa tom PDF-dictionary i C# med Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Lär dig hur du skapar en tom PDF-dictionary i C# med Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

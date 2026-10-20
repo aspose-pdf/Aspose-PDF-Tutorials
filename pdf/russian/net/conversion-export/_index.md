@@ -277,6 +277,8 @@
 ### [Преобразование PDF в HTML на C# – Быстрое руководство с Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Краткое руководство по конвертации PDF в HTML с помощью Aspose.Pdf на C#, включая примеры кода и настройку параметров.
 
+### [Сохраните PDF как HTML и конвертируйте в PDF/X‑4 с помощью Aspose.PDF на C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+  
 ### [Как сохранить PDF с помощью Aspose – пошаговое руководство](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Подробное руководство по сохранению PDF-файлов с использованием Aspose.PDF в .NET.
 ### [Конвертировать DOCX в HTML на C# – Полное руководство по программированию](./convert-docx-to-html-in-c-complete-programming-guide/)

@@ -29,6 +29,7 @@ De tutorials "Programmeren met operatoren" van Aspose.PDF voor .NET begeleiden u
 | [Aangepaste graphics state maken in PDF met Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Leer hoe u een aangepaste graphics state maakt in een PDF met Aspose.PDF voor .NET. |  
 | [Rechthoek toevoegen aan PDF met Aspose.Pdf – Complete C#-gids](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Leer hoe u een rechthoek toevoegt aan een PDF-bestand met Aspose.Pdf in C# met deze volledige stap‑voor‑stap gids. |  
 | [PDF Resource Dictionary bewerken met Aspose.PDF – C#-gids](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Leer hoe u de resource dictionary van een PDF bewerkt met Aspose.PDF in C#. |  
+| [Lege PDF-dictionary maken in C# met Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Leer hoe u een lege PDF-dictionary maakt met Aspose.Pdf in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

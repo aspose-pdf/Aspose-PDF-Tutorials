@@ -72,6 +72,7 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Uzyskaj osadzone podpisy PDF w C# – Kompletny przewodnik](./get-embedded-signatures-pdf-in-c-complete-guide/) | Dowiedz się, jak pobrać osadzone podpisy z plików PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku. |  
 | [Weryfikacja cyfrowego podpisu PDF w C# przy użyciu Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Dowiedz się, jak weryfikować cyfrowe podpisy PDF w C# przy użyciu Aspose.PDF – krok po kroku. |  
 | [Weryfikacja podpisu PDF w C# z Aspose.PDF – kompletny przewodnik](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Dowiedz się, jak weryfikować podpisy PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku. |  
+| [Utwórz opcje podpisu w C# – pełny przewodnik po cyfrowym podpisywaniu](./create-signature-options-in-c-full-guide-to-digital-signing/) | Kompletny przewodnik tworzenia opcji podpisu cyfrowego w C# przy użyciu Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

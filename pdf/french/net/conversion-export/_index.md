@@ -293,6 +293,9 @@ Apprenez à exporter des documents DOCX à partir de PDF en C# avec Aspose.PDF, 
 ### [Convertir un PDF en HTML en C# – Guide complet étape par étape](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 Apprenez à convertir des fichiers PDF en HTML avec Aspose.PDF pour .NET en C#, grâce à un guide complet et détaillé étape par étape.
 
+### [Enregistrer un PDF en HTML et le convertir en PDF/X‑4 avec Aspose.PDF en C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Apprenez à sauvegarder un PDF au format HTML puis à le convertir en PDF/X‑4 avec Aspose.PDF en C#.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

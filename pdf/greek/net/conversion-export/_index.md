@@ -239,6 +239,8 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 - [Λήψη Aspose.PDF για το Διαδίκτυο](https://releases.aspose.com/pdf/net/)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+### [Αποθήκευση PDF ως HTML και μετατροπή σε PDF/X‑4 με το Aspose.PDF σε C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Μάθετε πώς να αποθηκεύσετε PDF ως HTML και να το μετατρέψετε σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

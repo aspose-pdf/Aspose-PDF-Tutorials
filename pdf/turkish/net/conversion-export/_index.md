@@ -240,6 +240,8 @@ Aspose.PDF for .NET kullanarak PDF'yi HTML'ye kaydederken yeni bir PDF oluşturu
 ### [PDF'den HTML'ye Görüntü Dışa Aktarımını Atlamanın Yolu – Tam C# Kılavuzu](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
 Aspose.PDF for .NET ile PDF'den HTML'ye dönüştürürken görüntüleri dışa aktarmamayı sağlayan C# kod örneklerini keşfedin.
 
+### [C#'ta Aspose.PDF ile PDF'yi HTML olarak kaydedin ve PDF/X‑4'e dönüştürün](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

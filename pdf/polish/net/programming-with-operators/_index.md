@@ -29,6 +29,7 @@ Samouczki „Programowanie z operatorami” Aspose.PDF for .NET przeprowadzą Ci
 | [Utwórz niestandardowy stan graficzny w PDF przy użyciu Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Dowiedz się, jak tworzyć własny stan graficzny w pliku PDF przy użyciu Aspose.Pdf dla .NET. |  
 | [Dodaj prostokąt PDF przy użyciu Aspose.Pdf – Kompletny przewodnik C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Kompletny przewodnik krok po kroku, jak dodać prostokąt do dokumentu PDF przy użyciu Aspose.PDF w C#. |  
 | [Edytuj słownik zasobów PDF przy użyciu Aspose.PDF – przewodnik C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Krok po kroku pokażemy, jak edytować słownik zasobów PDF przy użyciu Aspose.PDF w C#. |  
+| [Utwórz pusty słownik PDF w C# przy użyciu Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Dowiedz się, jak utworzyć pusty słownik PDF w C# przy użyciu Aspose.Pdf w kilku prostych krokach. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

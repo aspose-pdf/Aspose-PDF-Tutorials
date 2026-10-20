@@ -29,6 +29,7 @@ Hướng dẫn "Lập trình với Toán tử" của Aspose.PDF cho .NET hướn
 | [Tạo trạng thái đồ họa tùy chỉnh trong PDF bằng Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Hướng dẫn tạo và áp dụng trạng thái đồ họa tùy chỉnh trong PDF bằng Aspose.Pdf cho .NET. |
 | [Thêm hình chữ nhật PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách thêm hình chữ nhật vào tài liệu PDF bằng Aspose.Pdf cho .NET sử dụng C#. |
 | [Chỉnh sửa Từ điển tài nguyên PDF với Aspose.PDF – Hướng dẫn C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Hướng dẫn chi tiết cách chỉnh sửa từ điển tài nguyên trong tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |
+| [Tạo từ điển PDF trống trong C# với Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Hướng dẫn tạo một từ điển PDF rỗng trong C# bằng Aspose.Pdf cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

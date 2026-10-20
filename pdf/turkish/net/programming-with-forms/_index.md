@@ -60,6 +60,7 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [PDF Metin Kutusu Alanı Oluştur – Adım Adım Kılavuz](./create-pdf-textbox-field-step-by-step-guide/) | Bu adım adım rehberde Aspose.PDF for .NET kullanarak PDF belgesine metin kutusu alanı eklemeyi öğrenin. |
 | [C# ile PDF'ye FDF İçe Aktarma – Tam Adım Adım Kılavuz](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile FDF dosyasını PDF'ye nasıl aktaracağınızı adım adım öğrenin. |  
 | [Aspose.PDF ile PDF Belgesini Kaydet – tam rehber](./save-pdf-document-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF belgelerini kaydetmenin tüm adımlarını öğrenin. |  
+| [C#'ta PDF form alanı oluşturma – adım adım rehber](./create-pdf-form-field-in-c-step-by-step-guide/) | C# kullanarak PDF form alanı oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

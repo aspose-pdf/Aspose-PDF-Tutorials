@@ -65,6 +65,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [如何使用 Aspose 為 PDF 添加浮水印 – 添加文字覆蓋 PDF](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) |透過本教學了解如何使用 Aspose.PDF for .NET 在 PDF 中加入文字浮水印，提升文件的可視化與安全性。 |  
 | [如何使用 Aspose.PDF 更改 PDF 透明度 – 完整指南](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 PDF 中調整透明度，以提升文件的視覺效果。 |  
 | [如何在 PDF 中使用 Aspose 添加 Bates 編號 – 步驟指南](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) |透過本分步指南了解如何使用 Aspose.PDF for .NET 在 PDF 文件中添加 Bates 編號，以提升文件的追蹤與管理。 |
+| [在 C# 中設定 Bates 編號選項 – 完整指南](./how-to-set-bates-numbering-options-in-c-complete-guide/) |本完整指南說明如何在 C# 中設定 Bates 編號的各項選項，以提升文件追蹤與管理。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

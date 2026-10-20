@@ -74,6 +74,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Validasi Tanda Tangan Digital PDF di C# dengan Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Pelajari cara memvalidasi tanda tangan digital PDF menggunakan Aspose.PDF untuk .NET di C#.  
 | [Verifikasi Tanda Tangan PDF di C# – panduan lengkap](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Panduan lengkap untuk memverifikasi tanda tangan PDF menggunakan Aspose.PDF di C#. Bahasa Indonesia:  
 | [Tutorial Tanda Tangan PDF: Validasi Tanda Tangan Digital PDF dengan Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Pelajari cara memvalidasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET. Bahasa Indonesia:  
+| [Buat opsi tanda tangan di C# – panduan lengkap penandatanganan digital](./create-signature-options-in-c-full-guide-to-digital-signing/) | Pelajari cara membuat opsi tanda tangan digital di C# dengan panduan lengkap menggunakan Aspose.PDF untuk .NET. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

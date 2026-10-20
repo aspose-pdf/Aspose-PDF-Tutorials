@@ -64,6 +64,7 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Agregar transparencia a PDF con Aspose.PDF – Guía completa en C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a aplicar transparencia a sus documentos PDF usando Aspose.PDF para .NET con esta guía completa en C#. |
 | [Cómo cambiar la opacidad en PDF con Aspose.PDF – Guía completa](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Aprenda a modificar la opacidad de elementos en un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
 | [Cómo agregar numeración Bates en PDF con Aspose – Guía paso a paso](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Aprenda a aplicar numeración Bates a sus documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
+| [Cómo establecer opciones de numeración Bates en C# – guía completa](./how-to-set-bates-numbering-options-in-c-complete-guide/) | Aprenda a configurar opciones de numeración Bates en PDFs usando Aspose.PDF para .NET con esta guía paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -257,6 +257,9 @@
 เรียนรู้วิธีการแปลงเอกสาร PDFเป็นภาพ TIFFโดยใช้ Aspose.PDF สำหรับ .NET เชี่ยวชาญความลึกสีที่กำหนดเองและเทคนิคการประมวลผลภาพขั้นสูง
 
 ### [บันทึก PDF เป็น HTMLด้วย Aspose.PDF – คู่มือ C# อย่างรวดเร็ว](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+### [บันทึก PDF เป็น HTML และแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF ใน C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+เรียนรู้วิธีบันทึก PDF เป็น HTML แล้วแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF ใน C#
+
 
 ### [วิธีบันทึก PDF ด้วย Aspose – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF ด้วย Aspose อย่างละเอียดด้วยขั้นตอนที่ชัดเจน

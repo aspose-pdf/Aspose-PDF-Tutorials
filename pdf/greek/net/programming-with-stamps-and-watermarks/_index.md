@@ -63,6 +63,7 @@
 | [Πώς να προσθέσετε υδατογράφημα PDF – Προσθήκη κειμένου επικάλυψης PDF με το Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Μάθετε πώς να προσθέσετε υδατογράφημα κειμένου σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με βήμα-βήμα οδηγίες. |  
 | [Προσθήκη διαφάνειας σε PDF με Aspose.PDF – Πλήρης οδηγός C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Μάθετε πώς να εφαρμόσετε διαφάνεια σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET σε πλήρη οδηγό C#. |  
 | [Πώς να αλλάξετε τη διαφάνεια σε PDF με το Aspose.PDF – Πλήρης Οδηγός](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) Μάθετε πώς να ρυθμίσετε τη διαφάνεια των στοιχείων σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό. |  
+| [Πώς να ορίσετε επιλογές αρίθμησης Bates σε C# – πλήρης οδηγός](./how-to-set-bates-numbering-options-in-c-complete-guide/) Μάθετε πώς να ρυθμίσετε τις επιλογές αρίθμησης Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

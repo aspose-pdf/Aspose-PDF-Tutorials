@@ -60,6 +60,7 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Skapa PDF-dokument C# – Steg‑för‑steg‑guide för flersidiga formulär](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Lär dig skapa PDF-dokument med flera sidor och formulär i C# med Aspose.PDF för .NET i en steg‑för‑steg‑guide. |
 | [Importera FDF till PDF med C# – Komplett steg‑för‑steg‑guide](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Lär dig hur du importerar FDF-filer till PDF med C# med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide. |
 | [Spara PDF-dokument med Aspose.PDF – komplett guide](./save-pdf-document-with-aspose-pdf-complete-guide/) | Lär dig hur du sparar PDF-dokument med Aspose.PDF i en komplett steg-för-steg-guide. |
+| [Skapa PDF-formulärfält i C# – steg‑för‑steg‑guide](./create-pdf-form-field-in-c-step-by-step-guide/) | Lär dig hur du skapar ett PDF-formulärfält i C# med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

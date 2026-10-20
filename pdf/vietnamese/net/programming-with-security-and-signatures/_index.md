@@ -71,6 +71,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Xác thực chữ ký số PDF trong C# với Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Học cách xác thực chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 | [Xác minh chữ ký PDF trong C# với Aspose.PDF – hướng dẫn đầy đủ](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách xác minh chữ ký PDF bằng Aspose.PDF trong C#. |  
 | [Xác thực chữ ký số PDF với Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Học cách xác thực chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET. |  
+| [Tạo các tùy chọn chữ ký trong C# – hướng dẫn đầy đủ về ký số](./create-signature-options-in-c-full-guide-to-digital-signing/) | Học cách tạo các tùy chọn chữ ký số trong C# với hướng dẫn chi tiết và toàn diện. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

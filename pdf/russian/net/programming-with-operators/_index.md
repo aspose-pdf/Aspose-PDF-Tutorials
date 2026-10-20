@@ -29,6 +29,7 @@
 | [Создать пользовательское графическое состояние в PDF с помощью Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Узнайте, как создать пользовательское графическое состояние в PDF с помощью Aspose.Pdf для .NET. |  
 | [Добавить прямоугольник в PDF с Aspose.Pdf – Полное руководство C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Подробное руководство по добавлению прямоугольника в PDF с помощью Aspose.PDF для .NET на C#. |
 | [Редактировать словарь ресурсов PDF с Aspose.PDF – Руководство C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Подробное руководство по редактированию словаря ресурсов PDF с помощью Aspose.PDF для .NET на C#. |
+| [Создать пустой PDF-словарь в C# с Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Узнайте, как создать пустой словарь PDF в C# с помощью Aspose.Pdf. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

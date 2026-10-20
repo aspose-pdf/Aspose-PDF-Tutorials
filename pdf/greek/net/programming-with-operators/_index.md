@@ -29,6 +29,7 @@
 | [Δημιουργία προσαρμοσμένης κατάστασης γραφικών σε PDF χρησιμοποιώντας το Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Μάθετε πώς να δημιουργήσετε προσαρμοσμένη κατάσταση γραφικών σε PDF με το Aspose.PDF για .NET. |
 | [Προσθήκη ορθογωνίου PDF με Aspose.Pdf – Πλήρης οδηγός C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Οδηγός βήμα προς βήμα για την προσθήκη ορθογωνίου σε PDF με Aspose.PDF για .NET σε C#. |  
 | [Επεξεργασία λεξικού πόρων PDF με Aspose.PDF – Οδηγός C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Οδηγός βήμα προς βήμα για την επεξεργασία του λεξικού πόρων PDF χρησιμοποιώντας Aspose.PDF για .NET σε C#. |  
+| [Δημιουργία κενής λεξικού PDF σε C# με Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Μάθετε πώς να δημιουργήσετε ένα κενό λεξικό PDF σε C# χρησιμοποιώντας το Aspose.Pdf. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

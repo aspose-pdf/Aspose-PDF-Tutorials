@@ -109,6 +109,8 @@ pdf.Save("output.pdf");
 | [How to Add Watermark PDF – Add Text Overlay PDF with Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Learn how to add a text watermark overlay to PDF files using Aspose.PDF for .NET with step-by-step instructions. |  
 | [Add transparency to PDF with Aspose.PDF – Complete C# Guide](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Learn how to add transparency to PDF files using Aspose.PDF for .NET with a comprehensive C# guide. |  
 | [How to Change Opacity in PDF with Aspose.PDF – Complete Guide](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Learn how to change opacity in PDF files using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
+| [Add Bates Numbering PDF in C# – Complete Guide](./add-bates-numbering-pdf-in-c-complete-guide/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a comprehensive C# guide. |  
+| [How to set bates numbering options in C# – complete guide](./how-to-set-bates-numbering-options-in-c-complete-guide/) | Learn how to set Bates numbering options in PDF files using Aspose.PDF for .NET with this complete C# guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

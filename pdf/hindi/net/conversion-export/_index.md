@@ -241,9 +241,6 @@ Aspose.PDF .NET का उपयोग करके HTML दस्तावे�
 ### [Aspose.PDF .NET का उपयोग करके वेब पेजों को PDF में कैसे बदलें: एक व्यापक गाइड](./convert-web-pages-to-pdf-aspose-pdf-net/)
 इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके वेब पेजों को PDF में बदलना सीखें। दस्तावेज़ प्रबंधन और ऑफ़लाइन पहुँच के लिए बिल्कुल सही।
 
-### [Aspose.PDF .NET के साथ PDF को HTML में बदलें: एक व्यापक गाइड](./aspose-pdf-net-pdf-to-html-conversion/)
-.NET के लिए Aspose.PDF का उपयोग करके PDF-से-HTML रूपांतरण में महारत हासिल करें। अनुकूलन योग्य विकल्पों के साथ दस्तावेज़ की पहुँच और सहभागिता को बढ़ाएँ।
-
 ### [PDF से HTML में छवि निर्यात को छोड़ने का तरीका – पूर्ण C# गाइड](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
 PDF को HTML में बदलते समय छवियों को निर्यात न करने की सेटिंग और कोड उदाहरण सीखें।
 
@@ -267,6 +264,8 @@ C# और Aspose.PDF का उपयोग करके PDF को HTML मे�
 
 ### [PDF को HTML में बदलें और PDF हस्ताक्षर सत्यापित करें – पूर्ण Aspose .NET गाइड](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 PDF को HTML में परिवर्तित करने और PDF हस्ताक्षर की जाँच करने के लिए पूर्ण Aspose .NET गाइड।
+### [Aspose.PDF के साथ C# में PDF को HTML के रूप में सहेजें और PDF/X‑4 में बदलें](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+C# में Aspose.PDF का उपयोग करके PDF को पहले HTML में सहेजें और फिर PDF/X‑4 फ़ॉर्मेट में बदलें।
 
 ### [.NET के लिए Aspose.PDF के साथ PDF से HTML रूपांतरण](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
@@ -294,6 +293,9 @@ Aspose.Pdf का उपयोग करके C# में PDF को HTML म�
 Aspose.PDF का उपयोग करके PDF को HTML में बदलें और सभी छवियों को हटाने की पूरी प्रक्रिया सीखें।
 ### [Aspose.PDF के साथ PDF को HTML के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 PDF को HTML में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम अभ्यासों के साथ।
+### [Aspose.PDF .NET के साथ PDF को HTML में कैसे बदलें: एक व्यापक गाइड](./aspose-pdf-net-pdf-to-html-conversion/)
+.NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में कैसे बदलें, फ़ॉन्ट को TTF और WOFF में सुरक्षित रखें और उच्च निष्ठा बनाए रखें।
+
 
 ## अतिरिक्त संसाधन
 

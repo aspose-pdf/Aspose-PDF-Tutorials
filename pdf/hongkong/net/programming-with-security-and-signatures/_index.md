@@ -65,6 +65,7 @@
 | [在 C# 中使用 Aspose.PDF 驗證 PDF 數位簽章](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 文件的數位簽章，確保文件的真實性與完整性。 |  
 | [在 C# 中驗證 PDF 簽章 – 完整指南（使用 Aspose.PDF）](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的步驟與技巧。 |  
 | [使用 Aspose.PDF 驗證 PDF 數位簽章的教學](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) |  |  
+| [在 C# 中建立簽章選項 – 數位簽署完整指南](./create-signature-options-in-c-full-guide-to-digital-signing/) |了解如何在 C# 中建立多種簽章選項的完整指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

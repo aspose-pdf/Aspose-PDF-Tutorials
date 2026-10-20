@@ -60,6 +60,7 @@
 | [إنشاء حقل نص في PDF – دليل خطوة بخطوة](./create-pdf-textbox-field-step-by-step-guide/) تعلم كيفية إنشاء حقل نص في مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [استيراد FDF إلى PDF باستخدام C# – دليل شامل خطوة بخطوة](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) تعرّف على كيفية استيراد ملفات FDF إلى مستندات PDF باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
 | [حفظ مستند PDF باستخدام Aspose.PDF – دليل كامل](./save-pdf-document-with-aspose-pdf-complete-guide/) تعلم كيفية حفظ مستند PDF باستخدام Aspose.PDF خطوة بخطوة. |
+| [إنشاء حقل نموذج PDF في C# – دليل خطوة بخطوة](./create-pdf-form-field-in-c-step-by-step-guide/) تعلم كيفية إنشاء حقل نموذج PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

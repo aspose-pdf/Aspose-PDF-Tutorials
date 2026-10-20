@@ -29,6 +29,7 @@
 - [สร้างสถานะกราฟิกที่กำหนดเองใน PDF ด้วย Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | เรียนรู้วิธีสร้างและกำหนดสถานะกราฟิกที่กำหนดเองในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET  
 - [เพิ่มสี่เหลี่ยม PDF ด้วย Aspose.Pdf – คู่มือ C# ฉบับสมบูรณ์](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET ด้วยตัวอย่างโค้ด C# อย่างละเอียด  
 - [แก้ไขพจนานุกรมทรัพยากร PDF ด้วย Aspose.PDF – คู่มือ C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | เรียนรู้วิธีแก้ไขพจนานุกรมทรัพยากรของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ในคู่มือ C# ที่เข้าใจง่าย  
+- [สร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | สร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

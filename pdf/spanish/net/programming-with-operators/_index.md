@@ -29,6 +29,7 @@ Los tutoriales "Programación con Operadores" de Aspose.PDF para .NET le guiará
 | [Crear estado gráfico personalizado en PDF usando Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Aprenda a crear y aplicar estados gráficos personalizados en PDF con Aspose.PDF para .NET. |
 | [Agregar rectángulo PDF con Aspose.Pdf – Guía completa en C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a añadir un rectángulo a un PDF usando Aspose.PDF para .NET con esta guía paso a paso en C#. |
 | [Editar el diccionario de recursos PDF con Aspose.PDF – Guía en C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Aprenda a editar el diccionario de recursos de un PDF usando Aspose.PDF para .NET con esta guía paso a paso en C#. |
+| [Crear diccionario PDF vacío en C# con Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) Aprenda a crear un diccionario PDF vacío en C# usando Aspose.PDF para .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -300,6 +300,8 @@ Aprenda a guardar documentos PDF con Aspose mediante una guía paso a paso que c
 Aprenda a renderizar archivos PDF como imágenes PNG usando C# y Aspose.PDF con ejemplos paso a paso.
 ### [Cómo renderizar PDF a PNG con Aspose – Guía completa](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 Aprenda a renderizar archivos PDF en imágenes PNG de alta calidad usando Aspose con esta guía paso a paso.
+### [Guardar PDF como HTML y convertir a PDF/X‑4 con Aspose.PDF en C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Aprenda a guardar un PDF como HTML y luego convertirlo a PDF/X‑4 usando Aspose.PDF en C#.
 
 ## Recursos adicionales
 

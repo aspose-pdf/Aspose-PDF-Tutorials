@@ -133,6 +133,8 @@ Ismerje meg, hogyan konvertálhat PDF dokumentumokat HTML-be, és hogyan távol�
 Ismerje meg, hogyan hozhat létre PDF-et, adhat hozzá téglalap alakzatot, majd mentheti HTML formátumban az Aspose.PDF .NET segítségével.
 ### [PDF mentése HTML-be az Aspose.PDF használatával – lépésről lépésre útmutató](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 Ismerje meg, hogyan menthet PDF fájlokat HTML formátumba az Aspose.PDF .NET segítségével lépésről lépésre útmutatóval.
+### [PDF mentése HTML-ként és konvertálása PDF/X‑4 formátumba az Aspose.PDF használatával C#-ban](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Ismerje meg, hogyan menthet PDF-et HTML-ként, majd konvertálhatja PDF/X‑4 formátumba az Aspose.PDF for .NET segítségével C#-ban.
 
 
 ### [PDF konvertálása PPTX-be az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./convert-pdf-to-pptx-aspose-dotnet-guide/)

@@ -293,6 +293,9 @@ Leer hoe u een enkele PDF-pagina omzet naar een PNG-afbeelding met Aspose.PDF vo
 ### [Hoe PDF-pagina's renderen als PNG-afbeeldingen – volledige Aspose.PDF-gids](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
 Leer stap voor stap PDF-pagina's omzetten naar PNG-afbeeldingen met Aspose.PDF in .NET, inclusief codevoorbeelden en optimalisatietips.
 
+### [PDF opslaan als HTML en converteren naar PDF/X‑4 met Aspose.PDF in C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Leer hoe u een PDF opslaat als HTML en vervolgens converteert naar PDF/X‑4 met Aspose.PDF in C#.
+
 ## Aanvullende bronnen
 ### [PDF naar HTML-conversie met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-pdf-to-html-conversion/)
 Beheers PDF-naar-HTML-conversie met Aspose.PDF voor .NET. Verbeter de toegankelijkheid en interactie van uw documenten met aanpasbare opties.

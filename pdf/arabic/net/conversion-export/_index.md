@@ -267,6 +267,9 @@
 ### [تحويل docx إلى png في C# – دليل شامل](./convert-docx-to-png-in-c-complete-guide/)
 دليل خطوة بخطوة لتحويل ملفات docx إلى صور PNG باستخدام C# و Aspose.PDF.
 
+### [حفظ ملف PDF كـ HTML وتحويله إلى PDF/X‑4 باستخدام Aspose.PDF في C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+تعلم كيفية حفظ PDF كملف HTML ثم تحويله إلى صيغة PDF/X‑4 باستخدام Aspose.PDF في C#.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

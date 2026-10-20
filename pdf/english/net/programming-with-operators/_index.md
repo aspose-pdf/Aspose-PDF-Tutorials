@@ -21,6 +21,7 @@ Aspose.PDF for .NET's "Programming with Operators" tutorials guide you through t
 | Title | Description |
 | --- | --- | 
 | [Create custom graphics state in PDF using Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Learn how to create a custom graphics state in a PDF using Aspose.PDF for .NET in this step-by-step guide. |  
+| [Create empty PDF dictionary in C# with Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Learn how to create an empty PDF dictionary using Aspose.PDF for .NET in C#. |  
 | [Draw XForm On Page](./draw-xform-on-page/) | earn how to draw XForms in PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
 | [Iterate Collection C# – Simple Guide to Loop Over Items](./iterate-collection-c-simple-guide-to-loop-over-items/) | Learn how to loop over collections in C# using simple examples with Aspose.PDF for .NET. |  
 | [PDF Operators](./pdf-operators/) | Step-by-step guide to using PDF operators with Aspose.PDF for .NET. Add an image to a PDF page and specify its position. |  

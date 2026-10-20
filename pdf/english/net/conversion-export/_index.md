@@ -336,6 +336,8 @@ Learn how to convert DOCX files to PNG images using Aspose.PDF for .NET in C#. S
 Learn how to convert PDF to HTML while omitting images using Aspose.PDF for .NET, preserving layout and reducing file size.
 ### [how to render pdf pages as PNG images – complete Aspose.PDF guide](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
 Learn how to render PDF pages as PNG images using Aspose.PDF for .NET with a complete step-by-step guide.
+### [Save PDF as HTML and Convert to PDF/X‑4 with Aspose.PDF in C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Learn how to save a PDF as HTML and then convert it to PDF/X‑4 format using Aspose.PDF for .NET in C#.
 
 ## Additional Resources
 

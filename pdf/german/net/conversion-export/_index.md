@@ -274,7 +274,6 @@ Erfahren Sie, wie Sie PDFs mit Aspose in HTML konvertieren, inklusive C#‑Codeb
 Erfahren Sie, wie Sie PDF-Dokumente mit externen PNG-Bildern mit Aspose.PDF für .NET in HTML konvertieren. Diese Anleitung gewährleistet Layouterhaltung und optimierte Web-Performance.
 
 ### [Wie man PDF mit Aspose speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-pdf-with-aspose-step-by-step-guide/)
-Erfahren Sie, wie Sie PDFs mithilfe von Aspose in .NET speichern, inklusive Codebeispielen und bewährten Methoden.
 ### [PDF als HTML speichern mit Aspose.PDF – Schnellleitfaden für C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Erfahren Sie, wie Sie PDFs schnell in HTML konvertieren und dabei C#-Beispiele nutzen.
 ### [PDF als HTML speichern mit Aspose.PDF – Vollständige C#-Anleitung](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
@@ -288,6 +287,7 @@ Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.PDF für .NET in PNG-Bilder in C# 
 
 ### [PDF ohne Bilder speichern – PDF mit Aspose in HTML konvertieren](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
 Erfahren Sie, wie Sie PDFs ohne eingebettete Bilder in HTML konvertieren und dabei die Dateigröße reduzieren.
+### [PDF als HTML speichern und in PDF/X‑4 konvertieren mit Aspose.PDF in C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 
 ## Weitere Ressourcen
 

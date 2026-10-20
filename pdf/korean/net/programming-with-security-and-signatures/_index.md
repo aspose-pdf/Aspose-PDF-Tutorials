@@ -69,6 +69,7 @@
 | [C#에서 Aspose.PDF를 사용한 PDF 디지털 서명 검증](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Aspose.PDF for .NET을 활용해 C#에서 PDF 디지털 서명을 검증하고 무결성을 확인하는 방법을 단계별로 안내합니다. |  
 | [C#에서 Aspose.PDF를 사용한 PDF 서명 검증 – 완전 가이드](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 활용하여 C#에서 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
 | [Aspose.PDF로 PDF 디지털 서명 검증](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aspose.PDF for .NET을 사용하여 PDF 디지털 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [C#에서 서명 옵션 만들기 – 디지털 서명 완전 가이드](./create-signature-options-in-c-full-guide-to-digital-signing/) | Aspose.PDF for .NET을 사용하여 C#에서 다양한 디지털 서명 옵션을 설정하고 적용하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

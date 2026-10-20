@@ -74,6 +74,7 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [PDF digitális aláírás ellenőrzése C#-ban az Aspose.PDF segítségével](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírásait C#-ban az Aspose.PDF for .NET használatával. |
 | [PDF aláírás ellenőrzése C#-ban – teljes útmutató](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#-ban az Aspose.PDF használatával, részletes lépésről-lépésre útmutató. |
 | [PDF aláírás oktatóanyag: PDF digitális aláírás ellenőrzése az Aspose.PDF segítségével](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) |  |
+| [Aláírási beállítások létrehozása C#-ban – teljes útmutató a digitális aláíráshoz](./create-signature-options-in-c-full-guide-to-digital-signing/) | Ismerje meg, hogyan hozhat létre aláírási beállításokat C#-ban a digitális aláíráshoz. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

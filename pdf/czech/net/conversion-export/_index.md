@@ -236,6 +236,8 @@ Kompletní průvodce převodem PDF do HTML s pomocí Aspose.PDF a odstraněním 
 
 ### [Uložení PDF jako HTML pomocí Aspose.PDF – krok za krokem](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.PDF převést PDF soubory do HTML pomocí podrobného krok‑za‑krokem návodu.
+### [Uložte PDF jako HTML a převeďte na PDF/X‑4 pomocí Aspose.PDF v C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Naučte se uložit PDF jako HTML a následně jej převést na PDF/X‑4 pomocí Aspose.PDF v C#.
 
 ## Další zdroje
 

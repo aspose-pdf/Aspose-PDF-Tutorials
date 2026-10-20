@@ -265,6 +265,8 @@ Hướng dẫn chi tiết cách lưu tài liệu PDF thành HTML bằng Aspose.P
 
 ### [Lưu PDF dưới dạng HTML với C# – Hướng dẫn chi tiết từng bước](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết từng bước cách lưu PDF thành HTML bằng C# sử dụng Aspose.PDF, kèm ví dụ mã thực tế.
+### [Lưu PDF dưới dạng HTML và Chuyển đổi sang PDF/X‑4 với Aspose.PDF trong C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Hướng dẫn lưu PDF dưới dạng HTML, sau đó chuyển đổi sang định dạng PDF/X‑4 bằng Aspose.PDF trong C#.
 
 ### [Cách lưu PDF với Aspose – Hướng dẫn từng bước](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu PDF bằng Aspose trong .NET, bao gồm các bước cấu hình và ví dụ mã thực tế.

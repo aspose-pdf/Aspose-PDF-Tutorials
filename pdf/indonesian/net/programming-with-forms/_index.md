@@ -60,6 +60,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Formulir Multi Halaman di C# dengan Aspose.Pdf – Panduan Langkah‑per‑Langkah](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Pelajari cara membuat formulir PDF multi halaman menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Impor FDF ke PDF dengan C# – Panduan Lengkap Langkah demi Langkah](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Pelajari cara mengimpor file FDF ke PDF menggunakan C# dengan panduan langkah demi langkah lengkap. Bahasa Indonesia:  
 | [Simpan Dokumen PDF dengan Aspose.PDF – panduan lengkap](./save-pdf-document-with-aspose-pdf-complete-guide/) | Pelajari cara menyimpan dokumen PDF menggunakan Aspose.PDF dengan panduan lengkap langkah demi langkah. Bahasa Indonesia:  
+| [Buat bidang formulir PDF di C# – panduan langkah demi langkah](./create-pdf-form-field-in-c-step-by-step-guide/) | Pelajari cara membuat bidang formulir PDF menggunakan C# dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

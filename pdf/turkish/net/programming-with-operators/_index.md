@@ -29,6 +29,7 @@ Aspose.PDF for .NET'in "Operatörlerle Programlama" eğitimleri, PDF programlama
 | [Aspose.Pdf ile PDF'de Özel Grafik Durumu Oluşturma](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Aspose.PDF for .NET ile PDF içinde özel bir grafik durumu nasıl oluşturulur öğrenin. |  
 | [Aspose.Pdf ile Dikdörtgen PDF Ekle – Tam C# Rehberi](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF belgesine dikdörtgen eklemeyi adım adım öğrenin. |  
 | [Aspose.PDF ile PDF Kaynak Sözlüğünü Düzenleme – C# Rehberi](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Aspose.PDF for .NET kullanarak PDF kaynak sözlüğünü nasıl düzenleyeceğinizi adım adım öğrenin. |  
+| [C# ile Aspose.Pdf kullanarak boş PDF sözlüğü oluşturma](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak C# içinde boş bir PDF sözlüğü oluşturmayı öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
