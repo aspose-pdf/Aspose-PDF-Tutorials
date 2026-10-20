@@ -30,6 +30,7 @@ Aspose.PDF for .NET の「演算子を使ったプログラミング」チュー
 | [Aspose.Pdfで矩形PDFを追加 – 完全なC#ガイド](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して、C# で矩形を PDF に描画する方法をステップバイステップで解説します。 |  
 | [Aspose.PDFでPDFリソース辞書を編集 – C# ガイド](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) Aspose.PDF for .NET を使用して、PDF のリソース辞書を編集し、カスタムリソースを管理する方法をステップバイステップで解説します。 |  
 | [Aspose.Pdf を使用した C# で空の PDF 辞書を作成する](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) Aspose.PDF for .NET を使い、C# で空の PDF 辞書オブジェクトを作成する手順を解説します。 |  
+| [C# で PDF に空のグラフィックスステートを作成する方法](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) Aspose.PDF for .NET を使用して、C# で PDF の空のグラフィックスステートを作成する手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

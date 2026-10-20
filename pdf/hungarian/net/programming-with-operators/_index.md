@@ -30,6 +30,7 @@ Az Aspose.PDF for .NET „Operátorokkal való programozás” című oktatóany
 | [Téglalap hozzáadása PDF-hez Aspose.Pdf segítségével – Teljes C# útmutató](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Ismerd meg, hogyan adhatsz hozzá téglalap alakú elemet PDF-hez Aspose.Pdf használatával C#-ban, lépésről lépésre útmutató. |  
 | [PDF erőforrás-szótár szerkesztése Aspose.PDF – C# útmutató](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Tanuld meg, hogyan szerkesztheted a PDF erőforrás-szótárát az Aspose.PDF for .NET használatával C#-ban. |  
 | [Üres PDF szótár létrehozása C#-ban az Aspose.Pdf segítségével](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Ismerje meg, hogyan hozhat létre üres PDF szótárat C#-ban az Aspose.Pdf könyvtárral. |  
+| [Üres grafikus állapot létrehozása PDF-ben C#-val](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Ismerd meg, hogyan hozhatsz létre üres grafikus állapotot PDF-ben C# használatával az Aspose.PDF for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

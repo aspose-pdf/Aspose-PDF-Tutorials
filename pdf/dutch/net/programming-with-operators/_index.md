@@ -30,6 +30,7 @@ De tutorials "Programmeren met operatoren" van Aspose.PDF voor .NET begeleiden u
 | [Rechthoek toevoegen aan PDF met Aspose.Pdf – Complete C#-gids](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Leer hoe u een rechthoek toevoegt aan een PDF-bestand met Aspose.Pdf in C# met deze volledige stap‑voor‑stap gids. |  
 | [PDF Resource Dictionary bewerken met Aspose.PDF – C#-gids](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Leer hoe u de resource dictionary van een PDF bewerkt met Aspose.PDF in C#. |  
 | [Lege PDF-dictionary maken in C# met Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Leer hoe u een lege PDF-dictionary maakt met Aspose.Pdf in C#. |  
+| [Lege grafische status maken in een PDF met C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Leer hoe u een lege grafische status maakt in een PDF met C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -30,6 +30,7 @@ Os tutoriais "Programação com Operadores" do Aspose.PDF para .NET guiam você 
 | [Adicionar retângulo PDF com Aspose.Pdf – Guia completo em C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a adicionar um retângulo a um PDF usando Aspose.PDF para .NET com este guia completo em C#. |  
 | [Editar dicionário de recursos PDF com Aspose.PDF – Guia C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Aprenda a editar o dicionário de recursos de um PDF usando Aspose.PDF para .NET em C#. |  
 | [Criar dicionário PDF vazio em C# com Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Aprenda a criar um dicionário PDF vazio usando Aspose.Pdf para .NET em C# neste tutorial passo a passo. |  
+| [Como criar um estado gráfico vazio em um PDF com C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Aprenda a criar um estado gráfico vazio em um PDF usando C# e Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
