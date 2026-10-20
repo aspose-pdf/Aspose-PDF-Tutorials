@@ -77,6 +77,8 @@ Hướng dẫn chi tiết cách so sánh các tài liệu PDF và tạo báo cá
 
 ### [So sánh hai tài liệu PDF – Hướng dẫn C# toàn diện](./compare-two-pdf-documents-complete-c-guide/)
 Hướng dẫn chi tiết cách so sánh hai tệp PDF bằng C# và tạo báo cáo sự khác biệt một cách toàn diện.
+### [Thêm Độ Trong Suốt vào PDF với Aspose.Pdf – Hướng Dẫn .NET Toàn Diện](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Tìm hiểu cách thêm độ trong suốt vào tệp PDF bằng Aspose.Pdf cho .NET, kèm ví dụ mã chi tiết.
 
 ## Tài nguyên bổ sung
 

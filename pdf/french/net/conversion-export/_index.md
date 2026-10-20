@@ -271,9 +271,13 @@ Un tutoriel de code pour Aspose.PDF Net
 
 ### [Comment enregistrer du HTML à partir d'un PDF – Guide étape par étape](./how-to-save-html-from-pdf-step-by-step-guide/)
 Apprenez à extraire et enregistrer le contenu HTML d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé.
+### [Comment ignorer l'exportation d'images lors de la conversion PDF en HTML – Guide complet C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Apprenez à désactiver l'exportation d'images lors de la conversion PDF en HTML avec Aspose.PDF pour .NET en C#.
 
 ### [Conversion PDF en TIFF dans .NET avec Aspose.PDF : guide étape par étape](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Apprenez à convertir des documents PDF en images TIFF avec Aspose.PDF pour .NET. Maîtrisez les profondeurs de couleurs personnalisées et les techniques avancées de traitement d'image.
+### [Enregistrer un PDF en HTML avec Aspose.PDF – guide étape par étape](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Apprenez à convertir un PDF en HTML en suivant un guide complet avec Aspose.PDF pour .NET, incluant les meilleures pratiques et le code C#.
 
 ### [Convertir un PDF en PDF/X‑1a, exporter la page en PNG et ajouter un tampon de texte](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Apprenez à convertir un PDF au format PDF/X‑1a, à exporter une page en PNG et à ajouter un tampon de texte avec Aspose.PDF pour .NET.
@@ -288,6 +292,9 @@ Apprenez à convertir rapidement des fichiers PDF en HTML en C# à l'aide d'Aspo
 Apprenez à exporter des documents DOCX à partir de PDF en C# avec Aspose.PDF, étape par étape, incluant le code et les meilleures pratiques.
 ### [Convertir un PDF en HTML en C# – Guide complet étape par étape](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 Apprenez à convertir des fichiers PDF en HTML avec Aspose.PDF pour .NET en C#, grâce à un guide complet et détaillé étape par étape.
+
+### [Enregistrer un PDF en HTML et le convertir en PDF/X‑4 avec Aspose.PDF en C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Apprenez à sauvegarder un PDF au format HTML puis à le convertir en PDF/X‑4 avec Aspose.PDF en C#.
 
 ## Ressources supplémentaires
 

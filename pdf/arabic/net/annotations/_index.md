@@ -38,6 +38,7 @@
 | [كيفية استخدام الإصلاح في Aspose.PDF – إصلاح التعليقات التوضيحية المكسورة](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) |تعلم كيفية إصلاح التعليقات التوضيحية المكسورة في ملفات PDF باستخدام أداة الإصلاح في Aspose.PDF لـ .NET. |
 | [إضافة تعليقات توضيحية إلى ملف PDF باستخدام Aspose.PDF - دليل شامل](./add-annotation-pdf-with-aspose-pdf-complete-guide/) دليل شامل يوضح كيفية إضافة تعليقات توضيحية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [رسم مستطيل على ملف PDF باستخدام C# – دليل خطوة بخطوة](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) تعلم كيفية رسم مستطيل على مستند PDF باستخدام C# و Aspose.PDF خطوة بخطوة.  
+| [رسم مستطيل على ملف PDF – دليل خطوة بخطوة بلغة C#](./draw-rectangle-on-pdf-step-by-step-c-guide/) | تعلم كيفية رسم مستطيل على مستند PDF باستخدام Aspose.PDF لـ .NET مع مثال كامل بلغة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

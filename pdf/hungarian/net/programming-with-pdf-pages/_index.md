@@ -50,6 +50,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [Üres oldal hozzáadása PDF-hez Aspose.PDF – Teljes útmutató](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Lépésről lépésre bemutatja, hogyan szúrhat be üres oldalt PDF dokumentumba az Aspose.PDF for .NET segítségével. |  
 | [Oldalakra osztás](./split-to-pages/) Könnyedén bontsd fel a PDF fájlokat különálló oldalakra az Aspose.PDF for .NET segítségével ezzel az átfogó oktatóanyaggal. Lépésről lépésre útmutató mellékelve. |  
 | [PDF oldalméretek frissítése](./update-dimensions/) | Fedezze fel, hogyan frissítheti könnyedén a PDF oldalak méreteit az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |  
+| [Átlátszóság módosítása PDF-ben C#-ben az Aspose.Pdf‑vel – lépésről‑lépésre útmutató](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Tanulja meg, hogyan állíthatja be a PDF oldalak átlátszóságát C#‑ben az Aspose.Pdf segítségével ebben a részletes útmutatóban. |  
 | [PDF fájl tartalmának nagyítása](./zoom-to-page-contents/) | Ebben az átfogó útmutatóban megtudhatja, hogyan nagyíthatja az oldalak tartalmát PDF fájlokban az Aspose.PDF for .NET segítségével. Javítsa PDF dokumentumait az Ön igényei szerint. |
 | [Oldalszámok hozzáadása PDF-hez C#‑vel – Teljes lépésről‑lépésre útmutató](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Lépésről lépésre útmutató a PDF oldalszámok hozzáadásához C#‑ben az Aspose.PDF for .NET használatával. |
 | [PDF dokumentum létrehozása C# – Bates-számozás hozzáadása](./create-pdf-document-c-add-bates-numbering/) | Lépésről lépésre útmutató a Bates-számozás hozzáadásához PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET segítségével. |
@@ -63,6 +64,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [Bates-számozás hozzáadása PDF-ekhez C#‑vel – Teljes útmutató](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Lépésről lépésre útmutató a PDF-ek Bates-számozásának hozzáadásához C#‑ben az Aspose.PDF for .NET használatával. |
 | [PDF oldal duplikálása Aspose.Pdf‑vel – Teljes útmutató](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Lépésről lépésre bemutatja, hogyan másolhat vagy duplikálhat egy oldalt PDF dokumentumban az Aspose.PDF for .NET segítségével. |
 | [Bates-számozás hozzáadása PDF-hez az Aspose.PDF segítségével – Teljes útmutató](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Lépésről lépésre útmutató a Bates-számozás PDF-fájlokhoz való hozzáadásához az Aspose.PDF for .NET használatával. |
+| [Bates számozás hozzáadása PDF-hez Aspose‑val – lépésről‑lépésre útmutató](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá Bates‑számozást PDF dokumentumokhoz az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

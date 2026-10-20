@@ -165,7 +165,9 @@ Apprenez à optimiser les polices PDF à l'aide d'Aspose.PDF .NET, rationalisez 
 Un tutoriel de code pour Aspose.PDF Net
 
 ### [Styliser le texte dans les PDF balisés avec Aspose.PDF pour .NET | Guide pour la création de PDF accessibles et esthétiques](./style-text-tagged-pdfs-aspose-pdf-net/)
-Apprenez à styliser le texte des documents PDF balisés avec Aspose.PDF pour .NET. Ce guide présente l'installation, les techniques et les applications pratiques pour améliorer l'accessibilité.
+
+### [Comment résumer un PDF avec Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Apprenez à résumer automatiquement le contenu d'un PDF en utilisant Aspose.Pdf.AI avec un guide étape par étape en C#.
 
 ### [Comment censurer un PDF avec Aspose – Guide étape par étape](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Apprenez à masquer ou supprimer des informations sensibles d'un PDF en utilisant Aspose.PDF pour .NET, avec un guide complet pas à pas.

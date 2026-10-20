@@ -54,6 +54,7 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Créer un PDF balisé en C# – Guide complet étape par étape](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide complet et détaillé. |
 | [Comment baliser un PDF avec Aspose.Pdf – Guide complet de programmation](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Apprenez à baliser un PDF avec Aspose.Pdf grâce à ce guide complet de programmation étape par étape. |
 | [Créer un élément Span PDF avec Aspose – Charger le PDF et baliser le contenu](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Apprenez à créer un élément Span dans un PDF, charger le fichier et appliquer des balises avec Aspose.PDF pour .NET. |
+| [Créer un document PDF C# – Positionner le texte et ajouter l'arbre structurel](./create-pdf-document-c-position-text-and-add-structural-tree/) | Apprenez à positionner du texte et à ajouter un arbre de structure dans un PDF avec Aspose.PDF pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

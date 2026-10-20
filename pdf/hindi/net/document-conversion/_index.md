@@ -90,9 +90,13 @@
 | [Aspose के साथ PDF कैसे बदलें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Aspose का उपयोग करके PDF को विभिन्न स्वरूपों में बदलने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका। |
 | [Aspose.PDF के साथ PDF को PDF/X‑4 में परिवर्तित करें – पूर्ण C# गाइड](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
 | [C# में PDF को PDF/X‑1A में परिवर्तित करें – पूर्ण चरण-दर-चरण गाइड](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑1A फ़ॉर्मेट में बदलना सीखें। |
+| [C# में PDF को PDF/X‑1a में परिवर्तित करें – पूर्ण गाइड](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑1a फ़ॉर्मेट में बदलना सीखें। |
 
 | [C# में PDF को PDF/X‑1a में परिवर्तित करें – चरण‑दर‑चरण गाइड](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑1a फ़ॉर्मेट में बदलना सीखें। |
 | [Aspose.Pdf के साथ PDF को PDFX में परिवर्तित करें – पूर्ण गाइड](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Aspose.Pdf का उपयोग करके PDF को PDFX फ़ॉर्मेट में बदलने की पूरी मार्गदर्शिका। |
+| [C# में PDF/X-4 docx रूपांतरण बनाएं – पूर्ण गाइड](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | C# का उपयोग करके PDF/X-4 को DOCX में बदलने की पूरी प्रक्रिया सीखें। |
+| [C# में PDF को PDF/X‑4 में परिवर्तित करें – पूर्ण Aspose.Pdf गाइड](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | C# में Aspose.PDF के साथ PDF को PDF/X‑4 में बदलने की पूरी प्रक्रिया सीखें। |
+| [PDFX4 रूपांतरण ट्यूटोरियल – PDF मानक सेट करें और Aspose का उपयोग करके PDF को परिवर्तित करें](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Aspose के साथ PDF मानक सेट करके PDF को PDF/X‑4 में बदलने की चरण-दर-चरण मार्गदर्शिका। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

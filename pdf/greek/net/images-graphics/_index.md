@@ -57,6 +57,14 @@
 
 ### [Πώς να προσθέσετε σχήμα σε PDF με το Aspose.PDF σε C# – Οδηγός βήμα προς βήμα](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Μάθετε πώς να προσθέσετε σχήματα σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με παραδείγματα C#.
+### [Πώς να προσθέσετε κατάσταση γραφικών και να ελέγξετε τη διαφάνεια σε PDF χρησιμοποιώντας το Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Μάθετε πώς να διαχειριστείτε την κατάσταση γραφικών και τη διαφάνεια σε PDF με το Aspose.PDF για .NET.
+### [Πώς να προσθέσετε διαφάνεια σε PDF και να σχεδιάσετε ορθογώνιο σε PDF με το Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Μάθετε πώς να εφαρμόσετε διαφάνεια και να σχεδιάσετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET.
+
+### [Πώς να ορίσετε διαφάνεια σε PDF με το Aspose PDF σε C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+
+Μάθετε πώς να εφαρμόζετε διαφάνεια σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#.
 
 ### [Αποτελεσματική αναγνώριση εικόνας PDF με το Aspose.PDF για .NET](./master-image-identification-aspose-pdf-net/)
 Μάθετε πώς να αναγνωρίζετε εικόνες σε κλίμακα του γκρι και RGB σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτό το σεμινάριο καλύπτει την εγκατάσταση, την εξαγωγή εικόνων και συμβουλές απόδοσης.
@@ -190,6 +198,10 @@
 Μάθετε πώς να προσθέτετε ExtGState σε PDF χρησιμοποιώντας το Aspose.Pdf για .NET, βελτιώνοντας τη διαφάνεια και τα εφέ.
 ### [Προσθήκη κατάστασης γραφικών σε PDF με το Aspose.Pdf – οδηγός βήμα προς βήμα](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Μάθετε πώς να διαχειρίζεστε την κατάσταση γραφικών σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα‑βήμα.
+### [Προσθήκη προσαρμοσμένου ExtGState σε PDF με το Aspose.PDF – Οδηγός βήμα προς βήμα](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε και να εφαρμόσετε προσαρμοσμένες καταστάσεις ExtGState σε PDF χρησιμοποιώντας το Aspose.PDF για .NET.
+### [Ορισμός διαφάνειας PDF σε C# με το Aspose.PDF – πλήρης οδηγός](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Μάθετε πώς να ορίζετε τη διαφάνεια των PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C# με αυτόν τον πλήρη οδηγό.
 
 ## Πρόσθετοι Πόροι
 

@@ -54,6 +54,7 @@ De tutorials "Programmeren met getagde PDF's" van Aspose.PDF voor .NET begeleide
 | [Hoe een getagde PDF bewerken met Aspose.Pdf – Complete gids](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u een getagde PDF kunt bewerken met Aspose.Pdf voor .NET in deze volledige handleiding. |
 | [Maak getagde PDF in C# – Volledige stapsgewijze handleiding](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, volledig stap‑voor‑stap uitgelegd. |  
 | [Hoe PDF taggen met Aspose.Pdf – Complete programmeergids](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Leer stap voor stap hoe u PDF's tagt met Aspose.Pdf in C#, inclusief volledige codevoorbeelden en best practices. |
+| [PDF-document maken in C# – Tekst positioneren en structurele boom toevoegen](./create-pdf-document-c-position-text-and-add-structural-tree/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt, tekst positioneert en een structurele boom toevoegt in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

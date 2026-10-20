@@ -87,6 +87,8 @@ C# kullanarak PDF dosyalarındaki imza adlarını nasıl alacağınızı adım a
 
 ### [C# ile PDF İmzasını Doğrulama – Tam Adım Adım Kılavuz](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
 C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı adım adım gösteren kapsamlı bir rehber.
+### [Aspose.PDF ile PDF'yi doğrulama – C#'ta PDF imza geçerliliğini kontrol edin](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+C# ile PDF imzasının geçerliliğini kontrol etmeyi öğrenin.
 
 ### [PDF Belgesi Yükle C# – PDF/X‑4'e Dönüştür ve İmzaları Listele](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 C# kullanarak PDF belgesini yükleyin, PDF/X‑4 formatına dönüştürün ve imzaları listeleyin.
@@ -142,6 +144,7 @@ Aspose.PDF ile PDF dosyalarındaki imzaları kontrol etmeyi adım adım öğreni
 
 ### [C# ile PDF'den İmzaları Nasıl Alırsınız – Adım Adım Kılavuz](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 C# kullanarak PDF'den imzaları çıkarmayı adım adım öğrenin.
+### [Aspose.PDF ile PDF İmzalarını Doğrulama](./how-to-verify-pdf-signatures-with-aspose-pdf/)
 
 ## Ek Kaynaklar
 

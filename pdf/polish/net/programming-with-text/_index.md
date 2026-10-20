@@ -72,6 +72,8 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | [Segmenty tekstu w pliku PDF](./text-segments/) | Dowiedz się, jak wyszukiwać określone segmenty tekstu w pliku PDF za pomocą wyrażeń regularnych w Aspose.PDF dla platformy .NET. |  
 | [Użyj skryptu Latex w pliku PDF](./use-latex-script/) | Dowiedz się, jak używać skryptu Latex do dodawania wyrażeń matematycznych lub wzorów do pliku PDF za pomocą Aspose.PDF dla platformy .NET. |
 | [Utwórz element span w Word przy użyciu C# – Kompletny przewodnik](./create-span-element-in-word-with-c-complete-guide/) | Dowiedz się, jak programowo tworzyć elementy span w dokumentach Word przy użyciu C# w tym kompletnym przewodniku. |
+| [Generuj podsumowanie PDF przy użyciu Aspose.Pdf.AI i OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Dowiedz się, jak generować podsumowanie dokumentu PDF przy użyciu Aspose.Pdf.AI i OpenAI w .NET. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

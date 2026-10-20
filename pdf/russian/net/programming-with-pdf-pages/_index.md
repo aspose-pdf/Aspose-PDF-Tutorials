@@ -34,6 +34,7 @@
 
 | Название | Описание |
 | --- | --- | 
+| [Изменить непрозрачность PDF в C# – пошаговое руководство](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Пошаговое руководство по изменению непрозрачности PDF с помощью Aspose.PDF для .NET на C#. |
 | [Изменить ориентацию](./change-orientation/) | Пошаговое руководство по изменению ориентации страницы PDF с помощью Aspose.PDF для .NET. Легко следовать и внедрять в свои проекты. |  
 | [Объединить PDF-файлы](./concatenate-pdf-files/) | Объединяйте файлы PDF без усилий с помощью Aspose.PDF для .NET с помощью этого подробного пошагового руководства. |  
 | [Удалить определенную страницу в PDF-файле](./delete-particular-page/) | Узнайте, как удалить определенную страницу из PDF-файла с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. |  
@@ -63,6 +64,7 @@
 | [Дублирование страницы PDF с Aspose.Pdf – Полное руководство](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Пошаговое руководство по дублированию страницы PDF с помощью Aspose.Pdf для .NET. Простая реализация для всех уровней. |
 | [Добавить нумерацию Бейтса в PDF с Aspose.PDF – Полное руководство](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |  
 | [Добавить пустую страницу PDF с Aspose.PDF – Полное руководство](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению пустой страницы в PDF с помощью Aspose.PDF для .NET. |  
+| [Добавить нумерацию Бейтса в PDF с Aspose – пошаговое руководство](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

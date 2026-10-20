@@ -55,6 +55,10 @@ Výukový program pro kódování Aspose.PDF Net
 Naučte se, jak pomocí Aspose.PDF v C# přidat různé tvary do PDF dokumentů v tomto podrobném návodu.
 ### [Přidání ExtGState do PDF pomocí Aspose.PDF – Kompletní průvodce](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Naučte se, jak přidat ExtGState do PDF dokumentů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci.
+### [Jak přidat průhlednost do PDF a nakreslit obdélník v PDF pomocí Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Naučte se, jak nastavit průhlednost a kreslit obdélníky v PDF dokumentech pomocí Aspose.PDF pro .NET.
+### [Nastavení průhlednosti PDF v C# pomocí Aspose.PDF – kompletní průvodce](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Naučte se, jak nastavit průhlednost PDF dokumentů v C# pomocí Aspose.PDF, včetně praktických ukázek kódu.
 
 ### [Efektivní identifikace obrázků PDF s Aspose.PDF pro .NET](./master-image-identification-aspose-pdf-net/)
 Naučte se, jak identifikovat obrázky ve stupních šedi a RGB v PDF pomocí Aspose.PDF pro .NET. Tento tutoriál se zabývá instalací, extrakcí obrázků a tipy pro výkon.
@@ -96,7 +100,7 @@ Naučte se, jak bez problémů přidávat obrázky do PDF dokumentů pomocí Asp
 Naučte se, jak bez problémů přidávat obrázky do PDF souborů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá přidáváním obrázků do existujících PDF souborů a vytvářením nových ze souborů DICOM.
 
 ### [Jak přidat záhlaví obrázku do PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./add-image-header-pdf-aspose-dotnet/)
-Naučte se, jak přidat záhlaví obrázků do dokumentů PDF pomocí Aspose.PDF pro .NET s tímto komplexním podrobným návodem.
+Naučte se, jak přidat záhlaví obrázků do PDF dokumentů pomocí Aspose.PDF pro .NET s tímto komplexním podrobným návodem.
 
 ### [Jak přidat obrazové razítko do záhlaví PDF pomocí Aspose.PDF pro .NET](./add-image-stamp-pdf-header-aspose-pdf/)
 Naučte se, jak přidávat obrázková razítka do záhlaví PDF pomocí Aspose.PDF pro .NET, a jak tak vylepšit značku a profesionalitu.
@@ -168,7 +172,7 @@ Naučte se, jak efektivně nahrazovat obrázky v PDF dokumentech pomocí Aspose.
 Naučte se, jak upravit velikost obrázků v PDF pomocí nástroje Aspose.PDF pro .NET, který je ideální pro vytváření profesionálních dokumentů a prezentací.
 
 ### [Zvládnutí umístění obrázků v PDF pomocí Aspose.PDF pro .NET](./optimize-image-placement-aspose-pdf-net/)
-Naučte se optimalizovat umístění obrázků v PDF dokumentech pomocí Aspose.PDF pro .NET. Zlepšete kvalitu a efektivitu dokumentů pomocí praktických návodů.
+Naučte se, jak optimalizovat umístění obrázků v PDF dokumentech pomocí Aspose.PDF pro .NET. Zlepšete kvalitu a efektivitu dokumentů pomocí praktických návodů.
 
 ### [Optimalizace obrázků PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./optimize-pdf-images-aspose-pdf-dotnet/)
 Naučte se, jak komprimovat a optimalizovat obrázky v PDF dokumentech pomocí Aspose.PDF pro .NET, zmenšit velikost souboru a zároveň zachovat kvalitu. Ideální pro vývojáře a správce dokumentů.
@@ -181,9 +185,12 @@ Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomoc
 
 ### [Přidání průhlednosti do PDF pomocí Aspose PDF v C# – krok za krokem průvodce](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Naučte se, jak přidat průhlednost do PDF dokumentů pomocí Aspose.PDF v C# krok za krokem.
-
 ### [Jak přidat průhlednost do PDF pomocí Aspose.PDF v C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Naučte se, jak pomocí Aspose.PDF v C# přidat průhlednost do PDF dokumentů, včetně nastavení alfa kanálu a efektů.
+### [Přidání vlastního ExtGState PDF pomocí Aspose.PDF: Podrobný návod](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF vytvořit a použít vlastní ExtGState pro nastavení průhlednosti a dalších grafických parametrů v PDF.
+### [Jak nastavit průhlednost v PDF pomocí Aspose.PDF pro .NET v C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Naučte se, jak nastavit průhlednost objektů v PDF dokumentech pomocí Aspose.PDF pro .NET v C#.
 
 ### [Jak ověřit PDF a přidat obdélník – Kompletní průvodce](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Naučte se, jak pomocí Aspose.PDF pro .NET ověřit PDF soubor a přidat obdélníkový tvar do dokumentu.
@@ -197,6 +204,8 @@ Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidat obdélník do PDF dokum
 
 ### [Přidání grafického stavu PDF pomocí Aspose.PDF – krok za krokem](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.PDF spravovat grafický stav PDF, včetně nastavení průhlednosti a kompozice, krok za krokem.
+### [Jak přidat grafický stav PDF a řídit průhlednost pomocí Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Naučte se, jak nastavit stav grafiky a ovládat průhlednost v PDF pomocí Aspose.PDF.
 
 ## Další zdroje
 

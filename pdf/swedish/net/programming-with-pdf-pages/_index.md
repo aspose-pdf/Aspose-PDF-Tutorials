@@ -63,6 +63,8 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Lägg till Bates-nummerering i PDF-filer med C# – Komplett guide](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-filer med C# och Aspose.PDF för .NET. |
 | [Lägg till Bates-nummerering i PDF med Aspose.PDF – Komplett guide](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-filer med Aspose.PDF för .NET. |
 | [Lägg till tom sida i PDF med Aspose.PDF – Komplett guide](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Steg-för-steg-guide för att lägga till en tom sida i en PDF med Aspose.PDF för .NET. |
+| [Ändra opacitet i PDF med C# – steg‑för‑steg‑guide](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Lär dig hur du ändrar opaciteten i en PDF med Aspose.PDF för .NET i en steg‑för‑steg‑guide. |
+| [Lägg till Bates-nummerering i PDF med Aspose – steg‑för‑steg‑guide](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Lär dig hur du lägger till Bates-nummerering i en PDF med Aspose i en detaljerad steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

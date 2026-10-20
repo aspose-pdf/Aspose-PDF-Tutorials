@@ -63,6 +63,8 @@
 - [ทำสำเนาหน้ PDF ด้วย Aspose.Pdf – คู่มือเต็มขั้นตอน](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีทำสำเนาหน้าหนึ่งในไฟล์ PDF อย่างง่ายดายด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [เพิ่มหมายเลข Bates ให้ PDF ด้วย Aspose.PDF – คู่มือเต็มขั้นตอน](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [เพิ่มหน้าเปล่าใน PDF ด้วย Aspose.PDF – คู่มือเต็มขั้นตอน](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีเพิ่มหน้าเปล่าในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [เปลี่ยนความทึบของ PDF ใน C# ด้วย Aspose.Pdf – คู่มือขั้นตอนเต็ม](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | คำแนะนำทีละขั้นตอนในการปรับความทึบของหน้า PDF ด้วย Aspose.Pdf สำหรับ .NET
+- [เพิ่มหมายเลขบาเตส PDF ด้วย Aspose – คู่มือเต็มขั้นตอน](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | เรียนรู้วิธีเพิ่มหมายเลขบาเตสในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็ม
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

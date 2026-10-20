@@ -20,6 +20,7 @@ Unsere Tutorials zur Dokumenterstellung bieten umfassende Anleitungen zur progra
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3‑Dokument mit drei Seiten erstellen mit Aspose.Pdf für .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="PDF/X‑1‑Dokument mit Aspose.PDF für .NET erstellen" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [Erstellen Sie PDF-Broschüren mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./aspose-pdf-net-create-booklets-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET professionelle PDF-Broschüren erstellen. Dieses Tutorial behandelt Einrichtung, Implementierung und praktische Anwendungen.
 ### [Erstellen Sie PDFs aus XML und XSLT mit Aspose.PDF .NET: Eine Schritt-für-Schritt-Anleitung](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -111,6 +112,10 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen und au
 
 ### [Erstellen Sie ein PDF/X‑4-Dokument in C# – Schritt‑für‑Schritt‑Anleitung](./create-pdf-x-4-document-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF/X‑4-Dokument in C# erstellen, inklusive Codebeispielen und Konfiguration.
+### [PDF-Dokument mit einer leeren Seite und Rechteck erstellen](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument mit einer leeren Seite und einem gezeichneten Rechteck erstellen.
+### [Erstellen Sie ein PDF-Dokument in C# mit Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Ein Code‑Tutorial zum Erstellen eines PDF‑Dokuments in C# mit Aspose.PDF.
 
 ## Weitere Ressourcen
 

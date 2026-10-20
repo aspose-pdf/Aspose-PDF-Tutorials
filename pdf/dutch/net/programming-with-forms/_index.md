@@ -25,6 +25,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [Arabische tekst invullen](./arabic-text-filling/) | Leer hoe u Arabische tekst in PDF-formulieren kunt invullen met Aspose.PDF voor .NET met deze stap‑voor‑stap tutorial. Verbeter uw vaardigheden in PDF-bewerking. |  
 | [Keuzelijst](./combo-box/) Leer hoe u een keuzelijst met invoervak aan een PDF toevoegt met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding om eenvoudig interactieve PDF-formulieren te maken. |  
 | [Document maken](./create-doc/) | Leer hoe u interactieve PDF-documenten met keuzerondjes maakt met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze handleiding. |  
+| [PDF-formulierveld maken in C# – stapsgewijze handleiding](./create-pdf-form-field-in-c-step-by-step-guide/) | Leer hoe u een PDF-formulierveld maakt met C# en Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [Formulierveld verwijderen in PDF-document](./delete-form-field/) | Leer hoe u formuliervelden uit PDF-documenten verwijdert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars en PDF-liefhebbers. |  
 | [Bepaal het vereiste veld in het PDF-formulier](./determine-required-field/) | Leer hoe u verplichte velden in een PDF-formulier kunt bepalen met Aspose.PDF voor .NET. Onze stapsgewijze handleiding vereenvoudigt formulierbeheer en verbetert uw PDF-automatiseringsworkflow. |  
 | [Dynamische XFA naar Acro-formulier](./dynamic-xfa-to-acro-form/) | Leer in deze stapsgewijze zelfstudie hoe u dynamische XFA-formulieren naar standaard AcroForms kunt converteren met behulp van Aspose.PDF voor .NET. |  
@@ -59,6 +60,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [Tekstvak toevoegen aan PDF-formulier – Complete C#-gids](./add-text-box-to-pdf-form-complete-c-guide/) | Leer hoe u een tekstvak toevoegt aan een PDF-formulier met Aspose.PDF voor .NET in deze stapsgewijze C#-handleiding. |
 | [PDF-tekstvak maken – Stapsgewijze handleiding](./create-pdf-textbox-field-step-by-step-guide/) | Leer hoe u een tekstvak toevoegt aan een PDF-document met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [FDF importeren in PDF met C# – Complete stap‑voor‑stap‑gids](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Leer hoe u een FDF-bestand in een PDF importeert met C# met deze volledige stap‑voor‑stap‑handleiding. |
+| [PDF-document opslaan met Aspose.PDF – volledige gids](./save-pdf-document-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u PDF-documenten opslaat met Aspose.PDF voor .NET in deze volledige gids. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

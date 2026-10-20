@@ -79,6 +79,9 @@ Aspose.Pdf を使って PDF ドキュメントを視覚的に比較し、差分�
 ### [2つの PDF ドキュメントを比較する – 完全 C# ガイド](./compare-two-pdf-documents-complete-c-guide/)
 C# と Aspose.PDF を使用して、2 つの PDF ドキュメントを比較し、差分を生成する方法をステップバイステップで学びます。
 
+### [Aspose.PDF for .NET を使用して PDF に透明性を追加する – 完全ガイド](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Aspose.PDF for .NET を使って PDF に透明オブジェクトや画像を追加し、透過効果を実装する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

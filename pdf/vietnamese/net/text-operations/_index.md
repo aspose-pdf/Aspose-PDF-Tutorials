@@ -172,6 +172,11 @@ Khám phá cách hỏi đáp nội dung PDF bằng Aspose AI Copilot trong .NET.
 
 ### [Cách xóa nhạy cảm PDF với Aspose – Hướng dẫn từng bước](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Tìm hiểu cách xóa thông tin nhạy cảm khỏi tài liệu PDF một cách an toàn bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
+### [Cách tóm tắt PDF với Aspose.Pdf.AI – hướng dẫn](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Pdf.AI để tóm tắt nội dung PDF một cách nhanh chóng và hiệu quả.
+
+### [Định dạng văn bản trong tệp PDF được gắn thẻ bằng Aspose.PDF cho .NET | Hướng dẫn tạo PDF dễ tiếp cận và thẩm mỹ](./style-text-tagged-pdfs-aspose-pdf-net/)
+Tìm hiểu cách định dạng văn bản trong các tài liệu PDF được gắn thẻ với Aspose.PDF cho .NET. Hướng dẫn này bao gồm cài đặt, kỹ thuật và ứng dụng thực tế để tăng cường khả năng truy cập.
 
 ## Tài nguyên bổ sung
 

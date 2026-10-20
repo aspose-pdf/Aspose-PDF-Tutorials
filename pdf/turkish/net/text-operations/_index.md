@@ -172,6 +172,7 @@ Aspose.Pdf for .NET kullanarak PDF belgelerinde metin aramayı adım adım öğr
 Aspose.PDF.AI kullanarak PDF belgelerini otomatik olarak özetlemenin adım adım rehberi.
 
 ### [AI Sohbet PDF: Aspose AI Copilot ile PDF Sorularını Sorun](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+### [Aspose.PDF .NET ile Aspose.Pdf.AI kullanarak PDF özetleme – kılavuz](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## Ek Kaynaklar
 
