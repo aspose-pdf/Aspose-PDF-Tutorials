@@ -62,7 +62,7 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 EMF](./convert-pdf-to-emf-aspose-dotnet/)
 Aspose.PDF Net 程式碼教學
 
-### [使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML：流輸出指南](./convert-pdf-html-asposedotnet-guide/)
+### [使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML：流輸出指南](./convert-pdf-html-aspose-dotnet-guide/)
 了解如何使用串流輸出透過 Aspose.PDF for .NET 將 PDF 檔案轉換為 HTML。增強您的網路整合和可存取性。
 
 ### [使用 Aspose.PDF 在 .NET 中將 PDF 轉換為 HTML，無需儲存影像](./convert-pdf-html-net-asposepdf-no-images/)
