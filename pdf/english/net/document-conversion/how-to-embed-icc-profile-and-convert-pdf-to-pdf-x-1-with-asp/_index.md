@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-09-18
-description: How to embed ICC profile while converting PDF to PDF/X-1 using Aspose.Pdf.
-  Learn step‑by‑step conversion and ICC embedding in C#.
+description: "Learn how to embed ICC profile while converting PDF to PDF/X-1 using Aspose.Pdf. Follow step‑by‑step conversion and ICC embedding in C#."
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -13,8 +12,7 @@ keywords:
 - convert pdf using aspose
 language: en
 lastmod: 2026-09-18
-og_description: How to embed ICC profile while converting PDF to PDF/X-1 using Aspose.Pdf.
-  Follow the complete C# guide to create PDF/X-1 compliant files.
+og_description: "Learn how to embed ICC profile while converting PDF to PDF/X-1 using Aspose.Pdf. Follow the complete C# guide to create PDF/X-1 compliant files."
 og_image_alt: Screenshot of Aspose.Pdf conversion to PDF/X-1 with embedded ICC profile
 og_title: How to embed ICC profile and convert PDF to PDF/X-1 with Aspose.Pdf
 schemas:
@@ -42,7 +40,7 @@ tags:
 - ICC profile
 - PDF/X-1
 - C#
-title: How to embed ICC profile and convert PDF to PDF/X-1 with Aspose.Pdf
+title: Learn how to embed ICC profile and convert PDF to PDF/X-1 with Aspose.Pdf
 url: /net/document-conversion/how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/
 ---
 
@@ -211,18 +209,16 @@ Next, you might explore:
 
 Feel free to experiment with different ICC files, page contents, and PDF/A conversion options. Mastering these techniques ensures your PDFs meet the strict color‑management and metadata requirements of modern printing pipelines. Happy coding!
 
-
 ## What should you learn next?
-
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [How to Embed and Subset Fonts in PDFs Using Aspose.PDF for .NET - A Comprehensive Guide](/pdf/english/net/text-operations/embed-subset-fonts-aspose-pdf-net/)
 - [How to Convert PDF Pages to Images Using Aspose.PDF for .NET (Step-by-Step Guide)](/pdf/english/net/conversion-export/convert-pdf-pages-to-images-aspose-pdf-net/)
-- [How to Convert PDF to XML Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](/pdf/english/net/conversion-export/pdf-to-xml-conversion-aspose-pdf-net/)
+- [How to Convert PDF to XML Using Aspose.PDF for .NET: A Step-by-Step Guide](/pdf/english/net/conversion-export/pdf-to-xml-conversion-aspose-pdf-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

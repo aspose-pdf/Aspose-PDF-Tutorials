@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-09-18
-description: Learn how to create summary PDF using Aspose.Pdf.AI. This guide shows
+description: Learn how to generate summary PDF using Aspose.Pdf.AI. This guide shows
   how to summarize PDF, set options, create client, and generate the summary.
 draft: false
 images:
@@ -14,21 +14,21 @@ keywords:
 - how to generate summary
 language: en
 lastmod: 2026-09-18
-og_description: Create summary PDF in C# with Aspose.Pdf.AI. Follow this complete
+og_description: Generate summary PDF in C# with Aspose.Pdf.AI. Follow this complete
   tutorial to summarize PDF, set options, create client, and generate the summary.
 og_image_alt: Screenshot of a C# IDE showing code that creates a summary PDF using
   Aspose.Pdf.AI
-og_title: How to create summary PDF with Aspose.Pdf.AI – step‑by‑step C# guide
+og_title: How to generate summary PDF with Aspose.Pdf.AI – step‑by‑step C# guide
 schemas:
 - author: Aspose
   dateModified: '2026-09-18'
-  description: Learn how to create summary PDF using Aspose.Pdf.AI. This guide shows
+  description: Learn how to generate summary PDF using Aspose.Pdf.AI. This guide shows
     how to summarize PDF, set options, create client, and generate the summary.
-  headline: How to create summary PDF with Aspose.Pdf.AI in C#
+  headline: How to generate summary PDF with Aspose.Pdf.AI in C#
   type: TechArticle
-- description: Learn how to create summary PDF using Aspose.Pdf.AI. This guide shows
+- description: Learn how to generate summary PDF using Aspose.Pdf.AI. This guide shows
     how to summarize PDF, set options, create client, and generate the summary.
-  name: How to create summary PDF with Aspose.Pdf.AI in C#
+  name: How to generate summary PDF with Aspose.Pdf.AI
   steps:
   - name: How to create client
     text: The first action is to create an `OpenAIClient`. This client wraps the OpenAI
@@ -52,7 +52,7 @@ tags:
 - Aspose.Pdf.AI
 - C#
 - PDF summarization
-title: How to create summary PDF with Aspose.Pdf.AI in C#
+title: How to generate summary PDF with Aspose.Pdf.AI in C#
 url: /net/programming-with-text/how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/
 ---
 
@@ -60,7 +60,7 @@ url: /net/programming-with-text/how-to-create-summary-pdf-with-aspose-pdf-ai-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to create summary PDF with Aspose.Pdf.AI in C#
+# How to generate summary PDF with Aspose.Pdf.AI in C#
 
 If you need to **create summary PDF** files automatically, this tutorial shows you exactly how. Using Aspose.Pdf.AI you can **summarize PDF** documents, retrieve plain‑text summaries, and generate a new PDF that contains only the most important information.
 
@@ -267,7 +267,7 @@ Running the program prints the text summary to the console and creates `Summary_
 
 ## Conclusion
 
-You now know **how to create summary PDF** files with Aspose.Pdf.AI in C#. The tutorial covered **how to summarize PDF**, **how to create client**, **how to set options**, and **how to generate summary** documents, giving you a complete, production‑ready solution.  
+You now know **how to generate summary PDF** files with Aspose.Pdf.AI in C#. The tutorial covered **how to summarize PDF**, **how to create client**, **how to set options**, and **how to generate summary** documents, giving you a complete, production‑ready solution.  
 
 From here you can explore advanced features such as multi‑language summarization, custom prompt engineering, or integrating the summary generation into an ASP.NET Core API. Experiment with different temperature settings and document sizes to find the sweet spot for your specific use case.
 
@@ -283,4 +283,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
