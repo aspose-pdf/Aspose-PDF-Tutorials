@@ -172,6 +172,8 @@
 ### [Как суммировать PDF с помощью Aspose.Pdf.AI — полное руководство](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
 
 ### [AI‑чат PDF: задавайте вопросы PDF с Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+### [Как суммировать PDF с помощью Aspose.Pdf.AI – руководство](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Узнайте, как быстро создавать резюме PDF-документов с помощью Aspose.Pdf.AI в .NET.
 ### [Как преобразовать PDF в резюме с помощью Aspose.Pdf.AI на C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
 Узнайте, как с помощью Aspose.Pdf.AI преобразовать PDF в краткое резюме, используя C#.
 

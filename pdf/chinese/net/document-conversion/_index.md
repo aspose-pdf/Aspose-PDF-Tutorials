@@ -68,6 +68,7 @@
 | [如何使用 Aspose 将 PDF 转换为 PDF/X-4 – 步骤指南](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X‑4，适用于各种 .NET 项目。|  
 | [PDF 转 PNG 教程 – 在 C# 中将 PDF 页面转换为 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 PDF 页面转换为 PNG 图像。|  
 | [如何在 C# 中设置 PDF 转换选项 – Aspose 指南](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | 通过本分步指南了解如何在 C# 中使用 Aspose.PDF for .NET 设置 PDF 转换选项，实现自定义输出。|
+| [如何使用 Aspose 将 PDF 转换为 PDF/X‑1A 并使用 ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为符合 PDF/X‑1A 标准并嵌入 ICC 配置文件。|  
 
 | [Aspose PDF 转 HTML 转换（C#）完整指南](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | 通过本完整分步指南，了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 HTML，实现高质量网页输出。|  
 | [加载 PDF 文档 C# – 转换为 PDF/X-4 步骤指南](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | 通过本分步指南学习使用 Aspose.PDF for .NET 在 C# 中加载 PDF 并将其转换为 PDF/X-4。|  
@@ -110,6 +111,9 @@
 | [PDF 转 PDF/X‑1a – 步骤详解 C# 教程](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑1a，适用于高质量文档输出。|  
 | [使用 Aspose.Pdf 将 PDF 转换为 PDFX – 完整指南](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | 通过本完整指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为 PDFX。|
 | [在 C# 中创建 PDF/X-4 docx 转换 – 完整指南](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF/X-4 转换为 DOCX。|  
+| [在 C# 中将 PDF 转换为 PDF/X‑1a – 完整指南](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | 通过本完整指南学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为符合 PDF/X‑1a 标准的文件。|
+| [使用 C# 将 PDF 转换为 PDF/X-4 – 完整 Aspose.Pdf 指南](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) 通过本完整分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X-4。|  
+| [pdfx4 转换教程 – 设置 PDF 标准并使用 Aspose 转换 PDF](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | 了解如何使用 Aspose.PDF for .NET 设置 PDF/X‑4 标准并转换 PDF。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

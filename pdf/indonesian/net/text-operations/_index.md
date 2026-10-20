@@ -175,6 +175,7 @@ Pelajari cara mengaburkan informasi sensitif dalam file PDF menggunakan Aspose.P
 
 ### [AI Chat PDF: Ajukan Pertanyaan PDF dengan Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Gunakan Aspose AI Copilot untuk menanyakan pertanyaan tentang konten PDF secara interaktif.
+### [Cara Meringkas PDF dengan Aspose.Pdf.AI – Panduan](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## Sumber Daya Tambahan
 

@@ -64,6 +64,7 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 | [Duplicate PDF Page with Aspose.Pdf – Complete Guide](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Step-by-step guide to duplicate a PDF page using Aspose.PDF for .NET, with clear code examples and easy implementation. |
 | [Add Bates Numbering to PDF with Aspose.PDF – Complete Guide](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Step-by-step guide to add Bates numbering to a PDF using Aspose.PDF for .NET. Easy to follow and implement. |
 | [Add Blank Page PDF with Aspose.PDF – Complete Guide](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Step-by-step guide to add a blank page to a PDF using Aspose.PDF for .NET. Easy to follow and implement. |
+| [Add bates numbering pdf with Aspose – step‑by‑step guide](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Step-by-step guide to add Bates numbering to a PDF using Aspose.PDF for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

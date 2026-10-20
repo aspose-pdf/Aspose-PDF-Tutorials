@@ -289,6 +289,11 @@ C# で Aspose.Words を利用し、docx ファイルを高品質な HTML に変�
 ### [C#でdocxをpngに変換する – 完全ガイド](./convert-docx-to-png-in-c-complete-guide/)
 C# と Aspose.Words for .NET を使用して、docx ファイルを高品質な PNG 画像に変換する方法をステップバイステップで解説します。
 ### [PDF ページを PNG に変換する – 完全 Aspose.Pdf ガイド](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+### [PDF から HTML への画像エクスポートをスキップする方法 – 完全 C# ガイド](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+### [Aspose.PDF で PDF を HTML として保存する – ステップバイステップ ガイド](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+
+### [C# で Aspose.PDF を使用して PDF を HTML として保存し、PDF/X‑4 に変換する](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Aspose.PDF を使い、PDF を HTML に保存し、さらに PDF/X‑4 形式に変換する方法を解説します。
 
 ## 追加リソース
 

@@ -20,6 +20,7 @@ Nuestros tutoriales de creación de documentos ofrecen una guía completa para g
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Crear un documento PDF/X‑3 con tres páginas usando Aspose.Pdf para .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Cómo crear un documento PDF/X‑1 con Aspose.PDF para .NET" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [Cree folletos PDF con Aspose.PDF para .NET: guía paso a paso](./aspose-pdf-net-create-booklets-tutorial/)
 Aprenda a crear folletos PDF profesionales con Aspose.PDF para .NET. Este tutorial abarca la configuración, la implementación y las aplicaciones prácticas.
 ### [Cree archivos PDF a partir de XML y XSLT con Aspose.PDF .NET: una guía paso a paso](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -113,6 +114,8 @@ Aprenda a generar documentos PDF con numeración Bates utilizando Aspose.PDF par
 Aprenda a crear documentos PDF/X‑4 en C# con Aspose.PDF mediante una guía paso a paso.
 ### [Crear documento PDF con una página en blanco y un rectángulo](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Aprenda a crear un documento PDF, agregar una página en blanco y dibujar un rectángulo usando Aspose.PDF para .NET.
+### [Crear documento PDF en C# con Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Aprenda a crear un documento PDF básico en C# utilizando Aspose.PDF, con ejemplos de código paso a paso.
 
 ## Recursos adicionales
 

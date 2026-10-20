@@ -76,6 +76,7 @@ Aspose.Pdf का उपयोग करके प्रत्येक PDF ल�
 
 ### [Aspose.Pdf के साथ PDF पर OCR चलाने की पूरी C# गाइड](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Aspose.Pdf का उपयोग करके PDF में OCR लागू करने और पाठ निकालने के लिए चरण-दर-चरण C# कोड देखें।
+### [Aspose.Pdf के साथ PDF में पारदर्शिता जोड़ें – पूर्ण .NET गाइड](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 
 ## अतिरिक्त संसाधन
 

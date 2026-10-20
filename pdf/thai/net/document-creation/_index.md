@@ -96,7 +96,6 @@
 ### [สร้างเอกสาร PDF – เพิ่มหน้าใน PDF, แท็กหัวเรื่อง, และกำหนดตำแหน่งองค์ประกอบ](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
 เรียนรู้วิธีสร้างเอกสาร PDF เพิ่มหน้า แท็กหัวเรื่อง และกำหนดตำแหน่งขององค์ประกอบต่างๆ ด้วย Aspose.PDF สำหรับ .NET
 
-
 ### [สร้างเอกสาร PDF ใน C# – เพิ่มหน้าเปล่า, แท็กและ Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
 เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# พร้อมเพิ่มหน้าเปล่า แท็ก และ Span อย่างง่ายดาย
 
@@ -120,6 +119,10 @@
 
 ### [สร้างเอกสาร PDF/X‑4 ด้วย C# – คู่มือทีละขั้นตอน](./create-pdf-x-4-document-c-step-by-step-guide/)
 เรียนรู้วิธีสร้างเอกสาร PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
+
+### [วิธีสร้างเอกสาร PDF/X‑1 ด้วย Aspose.PDF สำหรับ .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
+### [สร้างเอกสาร PDF ด้วย C# และ Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

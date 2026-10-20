@@ -65,6 +65,13 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [C# ile PDF İmzalarını Al – Tam Programlama Rehberi](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarındaki dijital imzaları nasıl alacağınızı öğrenin. |
 | [C# ile PDF Dijital İmzasını Kontrol Et – Tam Rehber](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dijital imzalarını nasıl kontrol edeceğinizi öğrenin. |  
 | [C# ile PDF dijital imzasını doğrulama – PDF imzasını doğrulama](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | Aspose.PDF for .NET kullanarak C# ile PDF dijital imzasını nasıl doğrulayacağınızı öğrenin. |  
+| [Aspose ile PDF Doğrulama: Dijital İmzaları Doğrulama](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı öğrenin. |  
+| [C# ile Gömülü İmzaları PDF'de Al – Tam Kılavuz](./get-embedded-signatures-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki gömülü imzaları nasıl alacağınızı adım adım öğrenin. |  
+| [C# ile PDF Dijital İmzasını Doğrulama – Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak C# ile PDF dijital imzasını nasıl doğrulayacağınızı öğrenin. |  
+| [C# ile PDF imzasını doğrulama – Aspose.PDF tam rehberi](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını doğrulama rehberi. |  
+| [PDF imza öğreticisi: Aspose.PDF ile PDF dijital imzasını doğrulama](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aspose.PDF for .NET kullanarak PDF dijital imzasını nasıl doğrulayacağınızı öğrenin. |  
+| [C# ile PDF İmzasını Doğrulama – Tam Programlama Rehberi](./verify-pdf-signature-in-c-complete-programming-guide/) | Aspose.PDF for .NET ile C# kullanarak PDF imzalarını nasıl doğrulayacağınızı öğrenin. Adım adım tam rehber. |  
+| [C#'ta imza seçenekleri oluşturma – dijital imzalama tam rehberi](./create-signature-options-in-c-full-guide-to-digital-signing/) | Aspose.PDF for .NET kullanarak C# ile imza seçeneklerini oluşturmayı ve dijital imzalama sürecini adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -100,7 +107,6 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [PDF İmza Çıkarma Öğreticisi – C# ile PDF İmzalarını Listeleme](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarındaki dijital imzaları nasıl listeleyeceğinizi öğrenin. |  
 | [C# ile PDF Dijital İmzasını Doğrulama – Aspose.PDF Tam Kılavuzu](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Aspose.PDF for .NET kullanarak C# ile PDF dijital imzalarını nasıl doğrulayacağınızı öğrenin. |  
 | [C# ile CA Sunucusunu Yapılandırma – Word Belgesi İmzalarını Doğrulama İçin Tam Kılavuz](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Aspose.Words for .NET kullanarak C# ile CA sunucusunu yapılandırıp Word belgelerinin dijital imzalarını doğrulamayı öğrenin. |  
-| [C# ile PDF İmzasını Doğrulama – Tam Programlama Rehberi](./verify-pdf-signature-in-c-complete-programming-guide/) | Aspose.PDF for .NET ile C# kullanarak PDF imzalarını nasıl doğrulayacağınızı öğrenin. Adım adım tam rehber. |
 | [C# ile PDF İmzalarını Doğrulama – Tam Adım Adım Kılavuz](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını nasıl doğrulayacağınızı adım adım öğrenin. |  
 | [Aspose ile PDF'de İmza Doğrulama – Rehber](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Aspose kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı adım adım öğrenin. |  
 | [Aspose.PDF ile PDF imzalarını doğrulama – Tam Kılavuz](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Aspose.PDF kullanarak PDF imzalarını adım adım nasıl doğrulayacağınızı öğrenin. |  

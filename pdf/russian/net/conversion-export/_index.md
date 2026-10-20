@@ -80,11 +80,13 @@
 ### [Конвертируйте PDF в HTML с пользовательскими размерами с помощью Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Учебник по коду для Aspose.PDF Net
 
-### [Конвертируйте PDF в HTML с помощью пользовательских URL-адресов изображений с помощью Aspose.PDF .NET: подробное руководство](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
+### [Конвертируйте PDF в HTML с пользовательскими URL-адресами изображений с помощью Aspose.PDF .NET: подробное руководство](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Узнайте, как преобразовывать PDF-документы в формат HTML с помощью Aspose.PDF для .NET, включая настройку URL-адресов изображений и реализацию индивидуальной стратегии экономии ресурсов.
 
 ### [Преобразование PDF в HTML и проверка подписи PDF – Полное руководство Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Узнайте, как конвертировать PDF в HTML и проверять цифровую подпись PDF с помощью Aspose.PDF для .NET, используя пошаговые примеры кода.
+### [Как пропустить экспорт изображений при преобразовании PDF в HTML – Полное руководство на C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Узнайте, как отключить экспорт изображений при конвертации PDF в HTML с помощью Aspose.PDF для .NET на C#.
 
 ### [Конвертируйте PDF в PNG с помощью Aspose.PDF .NET: улучшенная подсказка шрифтов для четкой визуализации текста](./convert-pdf-png-aspose-net-font-hinting/)
 Узнайте, как преобразовывать PDF-документы в высококачественные изображения PNG с помощью Aspose.PDF .NET, обеспечивая четкую визуализацию текста с помощью подсказок шрифтов.
@@ -126,7 +128,7 @@
 ### [Конвертация PS в PDF на C# с помощью Aspose.PDF .NET: пошаговое руководство](./convert-ps-to-pdf-aspose-dotnet-csharp/)
 Узнайте, как эффективно преобразовывать файлы PostScript в PDF в ваших приложениях .NET с помощью Aspose.PDF. Следуйте этому всеобъемлющему руководству с примерами кода.
 
-### [Конвертируйте RGB PDF-файлы в оттенки серого с помощью Aspose.PDF для .NET | Подробное руководство](./convert-rgb-pdfs-to-grayscale-aspose-pdf-net/)
+### [Конвертируйте PDF в RGB в оттенки серого с помощью Aspose.PDF для .NET | Подробное руководство](./convert-rgb-pdfs-to-grayscale-aspose-pdf-net/)
 Узнайте, как эффективно преобразовать RGB PDF в оттенки серого с помощью Aspose.PDF для .NET. Это пошаговое руководство обеспечивает согласованность дизайна и уменьшение размера файла.
 
 ### [Конвертируйте TeX в PDF с помощью Aspose.PDF для .NET: пошаговое руководство](./convert-tex-to-pdf-aspose-dotnet-guide/)
@@ -275,6 +277,8 @@
 ### [Преобразование PDF в HTML на C# – Быстрое руководство с Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Краткое руководство по конвертации PDF в HTML с помощью Aspose.Pdf на C#, включая примеры кода и настройку параметров.
 
+### [Сохраните PDF как HTML и конвертируйте в PDF/X‑4 с помощью Aspose.PDF на C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+  
 ### [Как сохранить PDF с помощью Aspose – пошаговое руководство](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Подробное руководство по сохранению PDF-файлов с использованием Aspose.PDF в .NET.
 ### [Конвертировать DOCX в HTML на C# – Полное руководство по программированию](./convert-docx-to-html-in-c-complete-programming-guide/)
@@ -282,6 +286,8 @@
 Узнайте, как преобразовать файлы DOCX в изображения PNG с помощью C# и Aspose.PDF, следуя пошаговым инструкциям и примерам кода.
 ### [Сохранить PDF как HTML – создать PDF, добавить прямоугольную форму](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 Создайте PDF, добавьте прямоугольник и сохраните как HTML с помощью Aspose.PDF для .NET.
+### [Сохраните PDF как HTML с помощью Aspose.PDF – пошаговое руководство](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Узнайте, как сохранить PDF в формате HTML с помощью Aspose.PDF для .NET, используя пошаговые примеры кода.
 
 ## Дополнительные ресурсы
 

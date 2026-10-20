@@ -64,6 +64,7 @@
 | [Дублирование страницы PDF с Aspose.Pdf – Полное руководство](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Пошаговое руководство по дублированию страницы PDF с помощью Aspose.Pdf для .NET. Простая реализация для всех уровней. |
 | [Добавить нумерацию Бейтса в PDF с Aspose.PDF – Полное руководство](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |  
 | [Добавить пустую страницу PDF с Aspose.PDF – Полное руководство](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению пустой страницы в PDF с помощью Aspose.PDF для .NET. |  
+| [Добавить нумерацию Бейтса в PDF с Aspose – пошаговое руководство](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

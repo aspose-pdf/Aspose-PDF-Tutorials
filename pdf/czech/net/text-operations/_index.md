@@ -172,6 +172,8 @@ Naučte se, jak efektivně redigovat PDF dokumenty pomocí Aspose.PDF pro .NET s
 ### [Jak shrnout PDF pomocí Aspose.Pdf.AI – kompletní průvodce](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
 
 ### [AI chat PDF: kladení otázek k PDF pomocí Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+### [Jak shrnout PDF pomocí Aspose.Pdf.AI – průvodce](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Naučte se, jak pomocí Aspose.Pdf.AI automaticky vytvořit souhrn obsahu PDF dokumentu v .NET.
 ### [Jak převést PDF na souhrn pomocí Aspose.Pdf.AI v C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
 Naučte se, jak pomocí Aspose.Pdf.AI v C# převést PDF dokument na stručný souhrn s ukázkovým kódem.
 

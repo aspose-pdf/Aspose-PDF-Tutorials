@@ -60,7 +60,7 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 创建带有边框高亮的 PDF：开发人员综合指南](./create-pdf-borders-highlight-aspose-pdf-net/)
 了解如何使用 Aspose.PDF .NET 提取和高亮段落，创建视觉上更具吸引力的 PDF 文档。使用自定义边框增强文档的可读性。
 
-### [使用 Aspose.PDF .NET 在 PDF 中绘制透明形状](./draw-transparent-shapes-aspose-pdf-net/)
+### [使用 Aspose.PDF for .NET 在 PDF 中绘制透明形状](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF for .NET 在 C# 中为 PDF 添加透明度 – 分步指南](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
@@ -75,6 +75,14 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 在 PDF 中管理图形状态，实现透明度、混合模式等高级绘图效果。
 ### [使用 Aspose.PDF 添加图形状态并控制透明度](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 了解如何使用 Aspose.PDF 管理图形状态并设置透明度，以创建更丰富的 PDF 内容。
+### [使用 Aspose.PDF for .NET 在 PDF 中添加透明度并绘制矩形](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+学习如何在 PDF 中设置透明度并绘制矩形，以实现高级视觉效果。
+### [如何在 PDF 中使用 Aspose.Pdf C# 设置透明度：分步指南](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+了解如何在 PDF 文档中使用 Aspose.Pdf C# 设置元素透明度，实现更丰富的视觉效果。
+### [在 C# 中使用 Aspose.PDF 设置 PDF 不透明度 – 完整指南](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+了解如何在 PDF 中设置整体或特定对象的不透明度，以实现视觉效果。
+### [使用 Aspose.PDF for .NET 为 PDF 添加透明度：分步指南](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+了解如何使用 Aspose.PDF for .NET 在 PDF 文档中设置透明效果，提升视觉表现。
 
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。
@@ -203,6 +211,7 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 设置图像背景来增强您的 PDF 文档。本指南涵盖设置、实施和优化技巧。
 
 ### [图像叠加 PDF 教程 – 添加遮罩并启用自动托盘选择](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+### [使用 Aspose.PDF for .NET 添加自定义 ExtGState PDF – 分步指南](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## 其他资源
 

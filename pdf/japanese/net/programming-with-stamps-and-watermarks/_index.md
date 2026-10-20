@@ -61,6 +61,9 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [ベーツ番号付けチュートリアル：AsposeでPDFに番号を追加する](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Aspose.PDF for .NET を使用して PDF にベーツ番号を付与し、文書の追跡と管理を容易にする方法をステップバイステップで解説します。 |  
 | [PDF に透かしを追加する方法 – Aspose でテキストオーバーレイ PDF を追加](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Aspose.PDF for .NET を使用し、テキストオーバーレイで PDF に透かしを追加する方法をステップバイステップで紹介します。 |  
 | [Aspose.PDF で PDF に透過性を追加する – 完全 C# ガイド](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して PDF に透過効果を適用する方法を、C# のサンプルコードと共にステップバイステップで解説します。 |  
+| [Aspose.PDF を使用して PDF の不透明度を変更する方法 – 完全ガイド](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して PDF の不透明度を変更する手順を、ステップバイステップで詳しく解説します。 |  
+| [Aspose を使用して PDF にベーツ番号を追加する方法 – ステップバイステップ ガイド](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) Aspose.PDF for .NET を使用して PDF にベーツ番号を追加する手順を、ステップバイステップで解説します。 |  
+| [C#でBates番号付けオプションを設定する – 完全ガイド](./how-to-set-bates-numbering-options-in-c-complete-guide/) Aspose.PDF for .NET を使用して C# で Bates 番号付けオプションを設定する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

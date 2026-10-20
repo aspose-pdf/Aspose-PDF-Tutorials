@@ -19,6 +19,7 @@
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET का उपयोग करके तीन पृष्ठों वाला PDF/X‑3 दस्तावेज़ बनाएं" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Aspose.PDF for .NET के साथ PDF/X‑1 दस्तावेज़ कैसे बनाएं" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF पुस्तिकाएँ बनाएँ: एक चरण-दर-स्तर मार्गदर्शिका](./aspose-pdf-net-create-booklets-tutorial/)
 .NET के लिए Aspose.PDF के साथ पेशेवर PDF पुस्तिकाएँ बनाना सीखें। यह ट्यूटोरियल सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करता है।
 ### [Aspose.PDF .NET का उपयोग करके XML और XSLT से PDF बनाएं: एक चरण-दर-चरण मार्गदर्शिका](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -111,6 +112,8 @@ Aspose.Pdf का उपयोग करके PDF दस्तावेज़ �
 ### [C# में बेत्स नंबरिंग के साथ नया PDF दस्तावेज़ बनाएं](./create-new-pdf-document-with-bates-numbering-in-c/)
 
 ### [C# में PDF/X‑4 दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-x-4-document-c-step-by-step-guide/)
+### [C# के साथ Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाएं](./create-pdf-document-in-c-with-aspose-pdf/)
+C# में Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने का चरण‑दर‑चरण मार्गदर्शन।
 
 ## अतिरिक्त संसाधन
 

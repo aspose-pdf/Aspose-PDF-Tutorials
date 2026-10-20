@@ -17,6 +17,9 @@ Entdecken Sie, wie Sie PDF-Dokumente mit visuellen Elementen aufwerten – mit u
 
 ## Verfügbare Tutorials
 
+### [Benutzerdefinierten ExtGState-PDF mit Aspose.PDF hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET benutzerdefinierte ExtGState-Objekte zu PDFs hinzufügen.
+
 ### [Bildstempel zu PDFs hinzufügen mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./add-image-stamp-to-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bildstempel, z. B. Logos, zu jeder Seite einer PDF-Datei hinzufügen. Werten Sie Ihre Dokumente mit professionellem Branding auf.
 
@@ -40,6 +43,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Rechtecke zu PDFs hinzufügen, po
 
 ### [Rechteck in PDF mit C# zeichnen – Schritt‑für‑Schritt‑Anleitung](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF-Dokument zeichnen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung.
+
 ### [Wie man PDF validiert und ein Rechteck hinzufügt – Vollständiger Leitfaden](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs validieren und Rechtecke hinzufügen, um Dokumente zu prüfen und zu markieren.
 ### [Rechteck zu PDF hinzufügen mit C#: Schritt‑für‑Schritt‑Anleitung](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
@@ -58,12 +62,20 @@ Ein Code-Tutorial für Aspose.PDF Net
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen – eine praktische Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
+### [Wie man Transparenz in einem PDF mit Aspose.Pdf C# festlegt](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Erfahren Sie, wie Sie mit Aspose.Pdf C# Transparenz in PDFs hinzufügen und anpassen.
 
 ### [Transparenz zu PDF mit Aspose.PDF in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen.
 
 ### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
+### [Wie man Transparenz zu PDF hinzufügt und ein Rechteck in PDF zeichnet mit Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Ein Code-Tutorial für Aspose.PDF Net
+### [PDF-Deckkraft in C# mit Aspose.PDF festlegen – vollständige Anleitung](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Deckkraft von PDF-Elementen in C# einstellen.
+### [Transparenz zu PDF-Dateien mit Aspose.PDF für .NET hinzufügen](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz zu PDF-Dokumenten hinzufügen und visuelle Effekte erzeugen.
 
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.

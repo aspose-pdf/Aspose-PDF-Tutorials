@@ -172,6 +172,8 @@ Leer hoe u gevoelige informatie uit PDF-documenten kunt verwijderen met Aspose.P
 Leer hoe u met Aspose.Pdf.AI automatisch een samenvatting van PDF-documenten genereert en integreert in uw .NET-toepassing.
 
 ### [AI-chat-PDF: PDF-vragen stellen met Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+### [Hoe PDF samen te vatten met Aspose.Pdf.AI – handleiding](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Leer hoe u met Aspose.Pdf.AI automatisch samenvattingen van PDF-documenten genereert in .NET.
 ### [Hoe PDF te converteren naar een samenvatting met Aspose.Pdf.AI in C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
 Leer hoe u met Aspose.Pdf.AI een PDF-bestand omzet naar een samenvatting met C#.
 

@@ -69,6 +69,12 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [PDF aláírás ellenőrzése C#-ban – Teljes Aspose.PDF útmutató](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF-aláírásokat C#-ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
 | [PDF aláírások lekérése C#-ban – Teljes programozási útmutató](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Ismerje meg, hogyan kérheti le a PDF dokumentumok digitális aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
 | [PDF digitális aláírás ellenőrzése C#-ban – Teljes útmutató](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírásait C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutató. |  
+| [PDF validálása az Aspose-szal: Digitális aláírások ellenőrzése](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírásait az Aspose.PDF for .NET segítségével. |
+| [Beágyazott aláírások lekérése PDF-ben C#-ban – Teljes útmutató](./get-embedded-signatures-pdf-in-c-complete-guide/) | Ismerje meg, hogyan kérheti le a beágyazott aláírásokat PDF-fájlokból C#-ban az Aspose.PDF for .NET segítségével. |
+| [PDF digitális aláírás ellenőrzése C#-ban az Aspose.PDF segítségével](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírásait C#-ban az Aspose.PDF for .NET használatával. |
+| [PDF aláírás ellenőrzése C#-ban – teljes útmutató](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#-ban az Aspose.PDF használatával, részletes lépésről-lépésre útmutató. |
+| [PDF aláírás oktatóanyag: PDF digitális aláírás ellenőrzése az Aspose.PDF segítségével](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) |  |
+| [Aláírási beállítások létrehozása C#-ban – teljes útmutató a digitális aláíráshoz](./create-signature-options-in-c-full-guide-to-digital-signing/) | Ismerje meg, hogyan hozhat létre aláírási beállításokat C#-ban a digitális aláíráshoz. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

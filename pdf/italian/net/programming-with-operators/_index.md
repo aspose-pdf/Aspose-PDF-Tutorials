@@ -27,6 +27,10 @@ tutorial "Programmazione con operatori" di Aspose.PDF per .NET ti guideranno att
 | [Iterare una collezione C# – Guida semplice per scorrere gli elementi](./iterate-collection-c-simple-guide-to-loop-over-items/) | Scopri come iterare una collezione in C# con una guida pratica usando Aspose.PDF per .NET. |  
 | [Crea dizionario PDF vuoto in C# – Guida completa Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Scopri come creare un dizionario PDF vuoto in C# con Aspose.PDF per .NET in questa guida dettagliata passo passo. |  
 | [Crea stato grafico personalizzato in PDF usando Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Impara a creare uno stato grafico personalizzato in PDF con Aspose.PDF per .NET. |  
+| [Aggiungi rettangolo PDF con Aspose.Pdf – Guida completa C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Impara a disegnare un rettangolo in un PDF usando Aspose.PDF per .NET con una guida completa in C#. |  
+| [Modifica il dizionario delle risorse PDF con Aspose.PDF – Guida C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Scopri come modificare il dizionario delle risorse di un PDF usando Aspose.PDF per .NET in C#. |  
+| [Crea un dizionario PDF vuoto in C# con Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Guida passo passo per creare un dizionario PDF vuoto in C# utilizzando Aspose.Pdf. |  
+| [Come creare uno stato grafico vuoto in un PDF con C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Scopri come creare uno stato grafico vuoto in un PDF usando Aspose.PDF per .NET con C# in questa guida passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

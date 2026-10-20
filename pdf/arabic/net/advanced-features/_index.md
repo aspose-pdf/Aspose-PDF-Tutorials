@@ -79,6 +79,9 @@
 ### [مقارنة مستندين PDF – دليل كامل بلغة C#](./compare-two-pdf-documents-complete-c-guide/)
 تعرف على كيفية مقارنة مستندين PDF باستخدام C# وإنشاء فرق شامل باستخدام Aspose.PDF.
 
+### [إضافة الشفافية إلى ملفات PDF باستخدام Aspose.Pdf – دليل كامل .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+تعلم كيفية تطبيق تأثير الشفافية على مستندات PDF باستخدام Aspose.Pdf في بيئة .NET خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

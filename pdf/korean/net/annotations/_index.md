@@ -38,6 +38,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에 주석을 추가하는 방법�
 | [Aspose.PDF에서 복구 사용 방법 – 손상된 주석 수정](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Aspose.PDF의 Repair 기능을 활용하여 손상된 주석을 복구하고 PDF 문서를 정상화하는 단계별 가이드입니다. |
 | [Aspose.PDF로 PDF에 주석 추가 - 완전 가이드](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 다양한 주석을 추가하는 방법을 단계별로 자세히 안내합니다. |  
 | [C#를 사용하여 PDF에 사각형 그리기 – 단계별 가이드](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) Aspose.PDF for .NET을 사용하여 C#로 PDF에 사각형을 그리는 방법을 단계별로 안내합니다. |  
+| [PDF에 사각형 그리기 – 단계별 C# 가이드](./draw-rectangle-on-pdf-step-by-step-c-guide/) | PDF에 사각형을 그리는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

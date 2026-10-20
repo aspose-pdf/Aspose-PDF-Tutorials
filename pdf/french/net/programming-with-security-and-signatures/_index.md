@@ -67,6 +67,12 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 | [Récupérer les signatures PDF en C# – Guide complet de programmation](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Apprenez à extraire les signatures numériques des fichiers PDF en C# avec Aspose.PDF pour .NET grâce à un guide complet étape par étape. |
 | [Comment vérifier la signature numérique d'un PDF en C# – Guide complet](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Apprenez à vérifier les signatures numériques d'un PDF en C# avec Aspose.PDF, étape par étape, pour assurer l'authenticité de vos documents. |
 | [Vérifier la signature numérique PDF en C# – valider la signature PDF](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | Apprenez à valider les signatures numériques des PDF en C# avec Aspose.PDF pour .NET, étape par étape. |
+| [Comment valider un PDF avec Aspose : vérifier les signatures numériques](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Apprenez à valider les signatures numériques d’un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
+| [Obtenir les signatures intégrées PDF en C# – Guide complet](./get-embedded-signatures-pdf-in-c-complete-guide/) | Apprenez à extraire les signatures intégrées d'un PDF en C# avec Aspose.PDF, étape par étape. |
+| [Valider la signature numérique PDF en C# avec Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Apprenez à valider les signatures numériques d’un PDF en C# avec Aspose.PDF, guide étape par étape. |
+| [Vérifier la signature PDF en C# avec Aspose.PDF – guide complet](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Apprenez à vérifier les signatures PDF en C# avec Aspose.PDF grâce à un guide complet étape par étape. |
+| [Tutoriel de signature PDF : valider une signature numérique PDF avec Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Apprenez à valider les signatures numériques d'un PDF avec Aspose.PDF pour .NET, étape par étape. |  
+| [Créer des options de signature en C# – guide complet de la signature numérique](./create-signature-options-in-c-full-guide-to-digital-signing/) | Apprenez à créer et configurer des options de signature numérique en C# avec Aspose.PDF, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
