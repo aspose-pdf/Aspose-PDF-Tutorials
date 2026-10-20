@@ -170,6 +170,8 @@ Aspose.Pdf का उपयोग करके C# में PDF फ़ाइल�
 ### [AI चैट PDF: Aspose AI कोपायलट के साथ PDF प्रश्न पूछें](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Aspose AI कोपायलट का उपयोग करके PDF से प्रश्न पूछने और उत्तर प्राप्त करने का तरीका जानें।
 ### [Aspose.Pdf.AI के साथ PDF का सारांश कैसे बनाएं – गाइड](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+### [C# में Aspose.Pdf.AI के साथ PDF को सारांश में बदलने का तरीका](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Aspose.Pdf.AI का उपयोग करके PDF को सारांश में बदलने की प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

@@ -48,7 +48,7 @@
 تعرّف على كيفية تضمين خطوط Type 1 القياسية في مستندات PDF باستخدام Aspose.PDF .NET. وفّر طباعةً متناسقة على جميع الأجهزة باستخدام هذا الدليل السهل الاستخدام.
 
 ### [استخراج الخطوط من ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./extract-fonts-aspose-pdf-net/)
-تعرّف على كيفية استخراج الخطوط بكفاءة من مستندات PDF باستخدام Aspose.PDF لـ .NET. مثالي لتدقيق المستندات وحفظها رقميًا.
+تعرّف على كيفية استخراج الخطوط بكفاءة من ملفات PDF باستخدام Aspose.PDF لـ .NET. مثالي لتدقيق المستندات وحفظها رقميًا.
 
 ### [استخراج قيم حقول PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./extract-pdf-field-values-aspose-dotnet-guide/)
 تعرّف على كيفية استخراج قيم الحقول من ملفات PDF باستخدام Aspose.PDF لـ .NET بلغة C#. يغطي هذا الدليل التثبيت والتنفيذ وأفضل الممارسات.
@@ -173,6 +173,8 @@
 ### [كيفية تلخيص ملفات PDF باستخدام Aspose.Pdf.AI – دليل شامل](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
 
 ### [محادثة AI مع PDF: اسأل أسئلة حول PDF باستخدام Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+### [كيفية تحويل PDF إلى ملخص باستخدام Aspose.Pdf.AI في C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+تعلم كيفية تحويل ملفات PDF إلى ملخصات باستخدام Aspose.Pdf.AI مع C#.
 
 ## موارد إضافية
 

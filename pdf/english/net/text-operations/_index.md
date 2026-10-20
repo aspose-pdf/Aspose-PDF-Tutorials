@@ -77,6 +77,9 @@ Learn how to efficiently extract text from stamp annotations in PDF documents us
 ### [Extracting Text from PDF Columns using Aspose.PDF for .NET&#58; A Comprehensive Guide](./pdf-column-text-extraction-aspose-dotnet/)
 Learn how to efficiently extract text from multi-column PDFs in your .NET applications with Aspose.PDF. Follow this comprehensive guide to set up, implement, and optimize column text extraction.
 
+### [How to convert PDF to summary with Aspose.Pdf.AI in C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Learn how to use Aspose.Pdf.AI to generate a concise summary of a PDF document in C# with step-by-step code examples.
+
 ### [How to Detect Text and Images in PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./detect-text-images-pdf-aspose-pdf-net/)
 Learn how to efficiently detect text and images in PDF files using Aspose.PDF for .NET. This guide covers setup, extraction techniques, and practical applications.
 

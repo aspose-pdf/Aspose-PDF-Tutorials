@@ -65,6 +65,8 @@ Hướng dẫn cách thêm trạng thái đồ họa và điều chỉnh độ t
 ### [Đặt độ trong suốt PDF trong C# với Aspose.PDF – hướng dẫn đầy đủ](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Hướng dẫn chi tiết cách thiết lập độ trong suốt cho tài liệu PDF bằng C# và Aspose.PDF.
 ### [Cách thêm độ trong suốt vào tệp PDF bằng Aspose.PDF cho .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+### [Cách thay đổi độ trong suốt trong PDF bằng Aspose.PDF cho .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Tìm hiểu cách thay đổi độ trong suốt của các phần tử trong tài liệu PDF bằng Aspose.PDF cho .NET.
 
 ### [Nhận dạng hình ảnh PDF hiệu quả với Aspose.PDF cho .NET](./master-image-identification-aspose-pdf-net/)
 Tìm hiểu cách xác định hình ảnh thang độ xám và RGB trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo cài đặt, trích xuất hình ảnh và hiệu suất.

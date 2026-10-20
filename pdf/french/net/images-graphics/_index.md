@@ -131,6 +131,8 @@ Découvrez comment améliorer vos documents PDF en créant des rectangles avec t
 
 ### [Comment valider un PDF et ajouter un rectangle – guide complet](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Apprenez à valider la conformité d'un PDF et à dessiner un rectangle à l'aide d'Aspose.PDF pour .NET, avec du code C# étape par étape.
+### [Comment changer l'opacité dans un PDF avec Aspose.Pdf pour .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Apprenez à ajuster la transparence des éléments dans un PDF en utilisant Aspose.PDF pour .NET.
 
 ### [Comment supprimer des images de fichiers PDF avec Aspose.PDF pour .NET – Guide complet](./delete-images-aspose-pdf-net/)
 Découvrez comment supprimer efficacement des images de fichiers PDF avec Aspose.PDF pour .NET. Ce guide présente la configuration, des exemples de code et les bonnes pratiques.

@@ -173,6 +173,8 @@
 Μάθετε πώς να χρησιμοποιείτε το Aspose AI Copilot για να κάνετε ερωτήσεις σε αρχεία PDF και να λαμβάνετε απαντήσεις μέσω AI.
 ### [Πώς να συνοψίσετε PDF με το Aspose.Pdf.AI – οδηγός](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 Μάθετε πώς να δημιουργείτε περιλήψεις PDF χρησιμοποιώντας το Aspose.Pdf.AI με αυτόν τον βήμα-βήμα οδηγό.
+### [Πώς να μετατρέψετε PDF σε σύνοψη με το Aspose.Pdf.AI σε C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose.Pdf.AI για να δημιουργήσετε σύνοψη PDF σε C#.
 
 ## Πρόσθετοι Πόροι
 

@@ -167,6 +167,8 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF for .NET 設定標籤的 PDF 中的文字樣式 |無障礙美觀 PDF 建立指南](./style-text-tagged-pdfs-aspose-pdf-net/)
 
 ### [使用 Aspose.Pdf.AI 摘要 PDF 的指南](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+### [如何使用 Aspose.PDF .NET 將 PDF 轉換為摘要](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+了解如何使用 Aspose.Pdf.AI 在 C# 中將 PDF 文件自動生成摘要，提升資訊提取效率。
 
 ### [如何使用 Aspose 對 PDF 進行遮蔽 – 步驟指南](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 中遮蔽敏感資訊，保護資料安全。

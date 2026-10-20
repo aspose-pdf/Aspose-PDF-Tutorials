@@ -125,6 +125,8 @@ Naučte se, jak vylepšit své PDF dokumenty vytvořením obdélníků s alfa pr
 
 ### [Jak přidat průhlednost do PDF souborů pomocí Aspose.PDF pro .NET: Podrobný návod](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 Naučte se, jak přidat průhlednost do PDF souborů pomocí Aspose.PDF pro .NET.
+### [Jak změnit neprůhlednost v PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Naučte se, jak upravit průhlednost objektů v PDF pomocí Aspose.PDF pro .NET.
 
 ### [Jak odstranit obrázky ze souborů PDF pomocí Aspose.PDF pro .NET - Kompletní průvodce](./delete-images-aspose-pdf-net/)
 Naučte se, jak efektivně mazat obrázky ze souborů PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, příklady kódu a osvědčenými postupy.

@@ -177,6 +177,9 @@ Aprenda a remover informações confidenciais de PDFs usando Aspose.PDF para .NE
 ### [Estilizar texto em PDFs marcados usando Aspose.PDF para .NET | Guia para criação de PDFs acessíveis e estéticos](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aprenda a estilizar texto em documentos PDF marcados com o Aspose.PDF para .NET. Este guia aborda instalação, técnicas e aplicações práticas para aprimorar a acessibilidade.
 
+### [Como converter PDF em resumo com Aspose.Pdf.AI em C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Aprenda a gerar resumos de PDFs usando Aspose.Pdf.AI com C#, incluindo configuração e exemplos de código.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

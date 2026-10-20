@@ -211,6 +211,8 @@
 
 ### [เพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF – คู่มือขั้นตอนโดยละเอียด](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 เรียนรู้วิธีการเพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF ผ่านคู่มือขั้นตอนโดยละเอียด
+### [วิธีเปลี่ยนความทึบแสงใน PDF ด้วย Aspose.PDF สำหรับ .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+เรียนรู้วิธีปรับความทึบแสงของวัตถุใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

@@ -45,7 +45,7 @@ Découvrez comment intégrer facilement des polices personnalisées à vos docum
 Apprenez à intégrer des polices dans vos documents PDF avec Aspose.PDF pour .NET. Assurez une typographie cohérente sur toutes les plateformes grâce à ce tutoriel complet.
 
 ### [Intégrer des polices Type 1 dans des PDF avec Aspose.PDF .NET | Guide complet](./embed-type-1-fonts-aspose-pdf-net/)
-Apprenez à intégrer des polices Type 1 standard dans des documents PDF avec Aspose.PDF pour .NET. Assurez une typographie cohérente sur tous les appareils grâce à ce guide facile à suivre.
+Apprenez à intégrer des polices Type 1 standard dans des documents PDF avec Aspose.PDF .NET. Assurez une typographie cohérente sur tous les appareils grâce à ce guide facile à suivre.
 
 ### [Extraire les polices des fichiers PDF avec Aspose.PDF pour .NET : guide complet](./extract-fonts-aspose-pdf-net/)
 Apprenez à extraire efficacement les polices de vos documents PDF avec Aspose.PDF pour .NET. Idéal pour l'audit de documents et la préservation numérique.
@@ -176,6 +176,7 @@ Apprenez à résumer automatiquement le contenu d'un PDF à l'aide d'Aspose.Pdf.
 
 ### [IA Chat PDF : poser des questions sur le PDF avec Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Utilisez le copilote IA d'Aspose pour interroger vos documents PDF et obtenir des réponses précises via une interface de chat.
+### [Comment convertir un PDF en résumé avec Aspose.Pdf.AI en C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
 
 ## Ressources supplémentaires
 

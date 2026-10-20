@@ -98,6 +98,9 @@ Lär dig hur du effektivt markerar text i PDF-dokument med Aspose.PDF .NET, med 
 ### [Hur man mäter strängbredd i Aspose.PDF för .NET: En guide om användning av teckensnitt och texttillstånd](./measuring-string-width-aspose-pdf-net/)
 Lär dig hur du mäter strängbredder noggrant med hjälp av Aspose.PDF för .NET med Font- och TextState-objekt. Den här guiden täcker detaljerade implementeringssteg, praktiska tillämpningar och prestandatips.
 
+### [Hur man konverterar PDF till sammanfattning med Aspose.Pdf.AI i C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Lär dig hur du använder Aspose.Pdf.AI för att skapa en sammanfattning av en PDF-fil med C#.
+
 ### [Så här roterar du text i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./rotate-text-aspose-pdf-net-guide/)
 Bemästra textrotation i PDF-filer med Aspose.PDF för .NET med hjälp av den här omfattande guiden. Lär dig hur du effektivt förbättrar dina dokumentlayouter med roterad text.
 

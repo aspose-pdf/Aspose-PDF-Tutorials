@@ -137,6 +137,8 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan membuat persegi panjang den
 
 ### [Cara Menambahkan Transparansi ke PDF dan Menggambar Persegi Panjang pada PDF dengan Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 Pelajari cara menambahkan efek transparansi dan menggambar persegi panjang pada PDF menggunakan Aspose.PDF untuk .NET.
+### [Cara Mengubah Opasitas dalam PDF dengan Aspose.Pdf untuk .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Pelajari cara mengubah tingkat transparansi elemen dalam PDF menggunakan Aspose.Pdf untuk .NET.
 
 ### [Cara Menghapus Gambar dari File PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./delete-images-aspose-pdf-net/)
 Pelajari cara menghapus gambar dari file PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan praktik terbaik.

@@ -421,6 +421,8 @@ Lär dig hur du effektivt ersätter bilder i PDF-dokument med Aspose.PDF för .N
 Lär dig hur du effektivt ersätter bilder i PDF-dokument med Aspose.PDF för .NET. Effektivisera dina dokumentuppdateringar med den här omfattande utvecklarguiden.
 ### [Hur man ställer in bildstorlek i en PDF med Aspose.PDF för .NET](./set-image-size-pdf-aspose-dotnet/)
 Lär dig hur du justerar bildstorlekar i PDF-filer med Aspose.PDF för .NET, perfekt för att skapa professionella dokument och presentationer.
+### [Hur du ändrar opacitet i en PDF med Aspose.PDF för .NET: En steg-för-steg-guide](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Lär dig hur du justerar genomskinligheten för objekt i PDF-dokument med Aspose.PDF för .NET.
 
 ## Ytterligare resurser
 

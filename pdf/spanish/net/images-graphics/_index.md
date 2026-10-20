@@ -102,6 +102,8 @@ Aprenda a comprimir imágenes en documentos Word sin perder calidad usando Aspos
 Aprenda a superponer imágenes en PDFs, agregar una máscara y habilitar la selección automática de bandeja con Aspose.PDF para .NET.
 ### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Un tutorial de código para Aspose.PDF Net
+### [Cómo cambiar la opacidad en un PDF con Aspose.PDF para .NET: guía paso a paso](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Aprenda a modificar la opacidad de elementos en archivos PDF usando Aspose.PDF para .NET con ejemplos de código C#.
 
 ### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aprenda

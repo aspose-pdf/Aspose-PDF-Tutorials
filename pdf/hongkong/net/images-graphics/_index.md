@@ -75,6 +75,8 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 在 PDF 中設定不透明度，以控制圖形和文字的透明效果。
 ### [如何使用 Aspose.PDF for .NET 為 PDF 檔案新增透明度](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 了解如何使用 Aspose.PDF for .NET 為 PDF 文件設定透明度，以提升視覺效果和層次感。
+### [如何使用 Aspose.PDF for .NET 在 PDF 中更改不透明度：逐步指南](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+了解如何使用 Aspose.PDF for .NET 設定 PDF 中圖形或文字的不透明度，以增強視覺效果。
 
 ### [使用 Aspose.PDF for .NET 實現高效率的 PDF 影像識別](./master-image-identification-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 識別 PDF 中的灰階和 RGB 影像。本教學涵蓋安裝、影像擷取和效能技巧。

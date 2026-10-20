@@ -173,6 +173,8 @@ Aspose.PDF.AI kullanarak PDF belgelerini otomatik olarak özetlemenin adım adı
 
 ### [AI Sohbet PDF: Aspose AI Copilot ile PDF Sorularını Sorun](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 ### [Aspose.PDF .NET ile Aspose.Pdf.AI kullanarak PDF özetleme – kılavuz](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+### [C#'ta Aspose.Pdf.AI ile PDF'yi Özetleme](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Aspose.Pdf.AI kullanarak PDF dosyalarını özetleyip kısa bir metin elde etmeyi C# ile öğrenin.
 
 ## Ek Kaynaklar
 

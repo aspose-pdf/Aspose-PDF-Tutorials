@@ -199,6 +199,8 @@ Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 품질 손실 
 ### [이미지 오버레이 PDF 튜토리얼 – 마스크 추가 및 자동 트레이 선택 활성화](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 
 ### [Aspose.PDF를 사용하여 사용자 정의 ExtGState PDF 추가 – 단계별 가이드](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+### [Aspose.PDF for .NET을 사용하여 PDF에서 투명도 변경하는 방법](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Aspose.PDF for .NET을 활용해 PDF 요소의 투명도를 조절하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

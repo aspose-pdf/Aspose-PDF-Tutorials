@@ -83,6 +83,8 @@ Pelajari cara mendeteksi teks dan gambar dalam file PDF secara efisien menggunak
 ### [Cara Mengedit PDF dengan Aspose.PDF untuk .NET: Menambahkan Teks Berformat Menjadi Mudah](./edit-pdfs-aspose-pdf-net-formatted-text/)
 Pelajari cara menambahkan teks berformat ke PDF Anda menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup cara membuka, mengedit, dan memformat file PDF dengan mudah.
 
+### [Cara Mengonversi PDF menjadi Ringkasan dengan Aspose.Pdf.AI di C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+
 ### [Cara Menyematkan dan Membuat Subset Font dalam PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./embed-subset-fonts-aspose-pdf-net/)
 Pelajari cara menyematkan dan membuat subset font dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup instalasi, strategi penyematan font, dan pengoptimalan ukuran dokumen.
 

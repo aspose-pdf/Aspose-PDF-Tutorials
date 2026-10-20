@@ -174,6 +174,7 @@ Aspose.Pdf for .NET을 사용하여 PDF 문서에서 텍스트 검색을 수행�
 ### [AI 채팅 PDF: Aspose AI Copilot을 사용하여 PDF 질문하기](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Aspose AI Copilot을 활용해 PDF에 질문하고 답변을 얻는 방법을 단계별로 안내합니다.
 ### [Aspose.Pdf.AI를 사용하여 PDF 요약하기 – 가이드](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+### [C#에서 Aspose.Pdf.AI를 사용하여 PDF를 요약으로 변환하는 방법](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
 
 ## 추가 자료
 

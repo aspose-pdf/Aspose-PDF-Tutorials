@@ -144,6 +144,8 @@ Erfahren Sie, wie Sie Ihre PDF-Dokumente verbessern, indem Sie mit Aspose.PDF f�
 
 ### [Rechteck zu PDF mit C# hinzufügen – Vollständiger Aspose PDF Leitfaden](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF hinzufügen und anpassen.
+### [Wie Sie die Deckkraft in einem PDF mit Aspose.Pdf für .NET ändern](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Deckkraft von Elementen in PDFs anpassen.
 
 ### [So löschen Sie Bilder aus PDF-Dateien mit Aspose.PDF für .NET – Vollständige Anleitung](./delete-images-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET effizient Bilder aus PDF-Dateien löschen. Diese Anleitung behandelt die Einrichtung, Codebeispiele und bewährte Methoden.

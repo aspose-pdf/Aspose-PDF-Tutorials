@@ -212,6 +212,7 @@ Dowiedz się, jak używać klasy GraphicsAbsorber do wyodrębniania grafiki wekt
 Dowiedz się, jak dodać ExtGState do plików PDF przy użyciu Aspose.PDF dla .NET, aby kontrolować przezroczystość i inne efekty graficzne.
 ### [Dodaj niestandardowy ExtGState do PDF przy użyciu Aspose.PDF – przewodnik krok po kroku](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Dowiedz się, jak dodać niestandardowy ExtGState do plików PDF przy użyciu Aspose.PDF, krok po kroku.
+### [Jak zmienić przezroczystość w pliku PDF za pomocą Aspose.PDF dla .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 
 ## Dodatkowe zasoby
 

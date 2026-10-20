@@ -73,9 +73,6 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF 在 PDF 中添加 ExtGState，以实现透明度和混合模式等高级图形效果。
 ### [使用 Aspose.PDF for .NET 添加图形状态 PDF：分步指南](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 中管理图形状态，实现透明度、混合模式等高级绘图效果。
-### [使用 Aspose.PDF for .NET 在 PDF 中创建透明矩形](./create-transparent-rectangles-aspose-pdf-dotnet/)
-了解如何使用 Aspose.PDF for .NET 创建具有 Alpha 透明度的矩形来增强 PDF 文档。请遵循本分步指南。
-
 ### [使用 Aspose.PDF 添加图形状态并控制透明度](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 了解如何使用 Aspose.PDF 管理图形状态并设置透明度，以创建更丰富的 PDF 内容。
 ### [使用 Aspose.PDF for .NET 在 PDF 中添加透明度并绘制矩形](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
@@ -146,6 +143,12 @@ Aspose.PDF Net 代码教程
 
 ### [如何使用 Aspose.PDF 在 .NET 中创建带图像的标签 PDF](./create-tagged-pdf-image-dotnet/)
 了解如何使用 Aspose.PDF for .NET 创建嵌入图像的可访问带标签的 PDF。增强所有用户的文档可访问性和演示效果。
+
+### [如何使用 Aspose.PDF for .NET 在 PDF 中创建透明矩形](./create-transparent-rectangles-aspose-pdf-dotnet/)
+了解如何使用 Aspose.PDF for .NET 创建具有 Alpha 透明度的矩形来增强 PDF 文档。请遵循本分步指南。
+
+### [使用 Aspose.PDF for .NET 更改 PDF 不透明度](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+了解如何在 PDF 中调整元素的不透明度，以实现所需的视觉效果。
 
 ### [如何使用 Aspose.PDF for .NET 从 PDF 文件中删除图像 - 完整指南](./delete-images-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 高效地从 PDF 文件中删除图像。本指南涵盖设置、代码示例和最佳实践。

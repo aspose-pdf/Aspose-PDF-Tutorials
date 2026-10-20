@@ -176,6 +176,8 @@ Aprenda a interactuar con documentos PDF mediante preguntas usando el Copiloto d
 ### [Cómo redactar PDF con Aspose – Guía paso a paso](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Aprenda a redactar información confidencial en documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso.
 ### [Cómo resumir PDF con Aspose.Pdf.AI – guía](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+### [Cómo convertir PDF a resumen con Aspose.Pdf.AI en C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Aprenda a generar un resumen de un archivo PDF usando Aspose.Pdf.AI con código C# paso a paso.
 
 ## Recursos adicionales
 
