@@ -23,6 +23,12 @@
 - [วาด XForm บนหน้า](./draw-xform-on-page/) | เรียนรู้วิธีการวาด XForms ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตัวดำเนินการ PDF](./pdf-operators/) | คำแนะนำทีละขั้นตอนในการใช้ตัวดำเนินการ PDF กับ Aspose.PDF สำหรับ .NET เพิ่มรูปภาพลงในหน้า PDF และระบุตำแหน่งของรูปภาพ -  
 | [ลบวัตถุกราฟิกออกจากไฟล์ PDF](./remove-graphics-objects/) เรียนรู้วิธีการลบวัตถุกราฟิกออกจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ ทำให้ภารกิจการจัดการ PDF ของคุณง่ายขึ้น |  
+- [วนรอบคอลเลกชัน C# – คู่มือแบบง่ายสำหรับการวนลูปรายการ](./iterate-collection-c-simple-guide-to-loop-over-items/) | เรียนรู้วิธีวนลูปผ่านคอลเลกชันใน C# อย่างง่ายด้วย Aspose.PDF สำหรับ .NET
+- [สร้างพจนานุกรม PDF ว่างใน C# – คู่มือ Aspose.Pdf ฉบับสมบูรณ์](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | เรียนรู้วิธีสร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF อย่างละเอียดในคู่มือฉบับสมบูรณ์  
+- [วิธีเปลี่ยนความโปร่งใสของ PDF ใน C# ด้วย Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | เรียนรู้วิธีปรับความโปร่งใสของ PDF ด้วย Aspose.Pdf ใน C# อย่างละเอียด
+- [สร้างสถานะกราฟิกที่กำหนดเองใน PDF ด้วย Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | เรียนรู้วิธีสร้างและกำหนดสถานะกราฟิกที่กำหนดเองในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET  
+- [เพิ่มสี่เหลี่ยม PDF ด้วย Aspose.Pdf – คู่มือ C# ฉบับสมบูรณ์](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET ด้วยตัวอย่างโค้ด C# อย่างละเอียด  
+- [แก้ไขพจนานุกรมทรัพยากร PDF ด้วย Aspose.PDF – คู่มือ C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | เรียนรู้วิธีแก้ไขพจนานุกรมทรัพยากรของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ในคู่มือ C# ที่เข้าใจง่าย  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

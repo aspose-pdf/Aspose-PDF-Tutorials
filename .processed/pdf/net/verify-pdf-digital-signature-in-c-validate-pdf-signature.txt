@@ -1,0 +1,7 @@
+Title: Verify PDF digital signature in C# – validate PDF signature
+Slug: verify-pdf-digital-signature-in-c-validate-pdf-signature
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-08-05T07:42:01.857577
+SourceRepo: AI Search API
+Keywords: verify pdf digital signature, validate pdf signature
+PRNumber: 114

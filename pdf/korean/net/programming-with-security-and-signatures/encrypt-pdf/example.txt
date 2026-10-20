@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: 이 튜토리얼은 Aspose.Pdf를 사용하여 기존 PDF를 로드하고, 권한을 제한하며, 사용자(클라이언트)와 소유자(관리자) 비밀번호를 모두 사용해 AES‑256 알고리즘으로 암호화하고, 보호된 문서를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 소스 및 대상 파일 경로와 사용자(클라이언트) 및 소유자(관리자) 비밀번호를 선언합니다.
+//ExStepSummary:1: 소스 PDF가 존재하는지 확인하고, 존재하지 않을 경우 오류 메시지를 표시하고 중단합니다.
+//ExStepSummary:2: PDF를 열고, 콘텐츠 수정 및 추출만 허용하며, 두 비밀번호를 사용해 AES‑256으로 암호화하고, 보호된 파일을 저장한 뒤 성공 메시지를 표시합니다.
+//ExStepSummary:3: 발생하는 모든 오류를 잡아 예외 메시지를 오류 콘솔에 기록합니다.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

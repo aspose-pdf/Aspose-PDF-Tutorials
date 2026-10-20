@@ -17,6 +17,8 @@
 
 ## Mevcut Eğitimler
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Aspose.Pdf for .NET ile Açıklamaları Hariç Tutan Yan Yana PDF Karşılaştırması" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [.NET için Aspose.PDF Kullanarak PDF'lere Form Alanları Ekleme: Kapsamlı Bir Kılavuz](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Aspose.PDF for .NET kullanarak PDF'lere metin, onay kutusu, birleşik kutu, liste kutusu ve çok satırlı alanların nasıl ekleneceğini öğrenin. Bu kılavuz kurulum, kod örnekleri ve entegrasyon ipuçlarını kapsar.
 

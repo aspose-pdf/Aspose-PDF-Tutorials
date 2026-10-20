@@ -64,6 +64,20 @@ Naucz się tworzyć dostępne, stylizowane i oznaczone dokumenty PDF przy użyci
 
 ### [Jak porównywać pliki PDF w C# – Kompletny przewodnik po generowaniu różnic PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Dowiedz się, jak porównać dwa pliki PDF i wygenerować ich różnice przy użyciu Aspose.PDF dla .NET w C#.
+### [Zapisz każdą warstwę PDF przy użyciu Aspose.Pdf – przewodnik krok po kroku](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak wyodrębnić i zapisać poszczególne warstwy PDF przy użyciu Aspose.Pdf w .NET.
+
+### [Jak uruchomić OCR w PDF przy użyciu Aspose.Pdf – Kompletny przewodnik C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Dowiedz się, jak używać Aspose.Pdf do rozpoznawania tekstu w plikach PDF w C#.
+
+### [Edycja przezroczystości PDF w C# – przewodnik krok po kroku](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Dowiedz się, jak modyfikować przezroczystość elementów w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#.
+
+### [Porównywanie dokumentów PDF za pomocą Aspose.Pdf – Kompletny przewodnik po wizualnym różnicowaniu](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Dowiedz się, jak porównać dwa dokumenty PDF i wygenerować wizualne różnice przy użyciu Aspose.Pdf w .NET.
+
+### [Porównaj dwa dokumenty PDF – Kompletny przewodnik C#](./compare-two-pdf-documents-complete-c-guide/)
+Dowiedz się, jak porównać dwa pliki PDF i wygenerować ich różnice przy użyciu Aspose.PDF w C#.
 
 ### [Dodaj przezroczystość do PDF przy użyciu Aspose.Pdf – Kompletny przewodnik .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 Dowiedz się, jak dodać przezroczystość do dokumentów PDF przy użyciu Aspose.Pdf w .NET, z przykładami kodu C#.

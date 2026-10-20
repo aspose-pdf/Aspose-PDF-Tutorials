@@ -17,6 +17,12 @@ Biztonsági és jogosultságokkal foglalkozó oktatóanyagaink bemutatják, hogy
 
 ## Elérhető oktatóanyagok
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="PDF titkosítása, hogy csak űrlapkitöltés legyen engedélyezve az Aspose.Pdf for .NET használatával" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="PDF titkosítása kizárólag űrlapkitöltéshez AES‑256‑al az Aspose.Pdf for .NET használatával" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="PDF titkosítása nyomtatás tiltásával az Aspose.PDF for .NET használatával" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [PDF jelszavak módosítása az Aspose.PDF for .NET segítségével](./change-pdf-password-aspose-pdf-net-guide/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
@@ -51,7 +57,7 @@ Ismerje meg, hogyan távolíthatja el hatékonyan a használati jogokat egy PDF-
 Ismerje meg, hogyan állíthatja be és kezelheti a PDF-engedélyeket az Aspose.PDF for .NET segítségével, biztosítva a biztonságos dokumentummegosztást. Kövesse lépésről lépésre szóló útmutatónkat a hatékony megvalósítás érdekében.
 
 ### [Lejárati dátum beállítása PDF fájlokban az Aspose.PDF for .NET használatával (C# oktatóanyag)](./set-pdf-expiry-date-aspose-dotnet/)
-Tanuld meg, hogyan állíthatsz be lejárati dátumot egy PDF-ben az Aspose.PDF for .NET használatával C#-ban. Ez az oktatóanyag részletes kódpéldákkal ismerteti a telepítést, a konfigurációt és a megvalósítást.
+Tanuld meg, hogyan állíthatsz be lejárati dátumot egy PDF-ben az Aspose.PDF for .NET segítségével C#-ban. Ez az oktatóanyag részletes kódpéldákkal ismerteti a telepítést, a konfigurációt és a megvalósítást.
 
 ### [.NET felhasználó-megszemélyesítés implementálása az Aspose.PDF segítségével: Lépésről lépésre útmutató](./implement-net-user-impersonation-aspose-pdf-guide/)
 Ismerje meg, hogyan valósíthatja meg a felhasználók megszemélyesítését .NET alkalmazásokban az Aspose.PDF segítségével. Ez az útmutató mindent lefed a könyvtár beállításától kezdve a feladatok különböző felhasználói környezetekben történő végrehajtásáig.
@@ -62,11 +68,19 @@ Ismerje meg, hogyan valósíthat meg biztonságos digitális aláírásokat és 
 ### [PDF-szerkesztés elsajátítása az Aspose.PDF .NET segítségével: Átfogó útmutató a biztonságos dokumentumkezeléshez](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Ismerje meg, hogyan szerkesztheti biztonságosan a PDF-fájlokat az Aspose.PDF .NET használatával. Ez az útmutató annotációalapú és előnézeti megközelítéseket ismertet, biztosítva, hogy dokumentumai továbbra is megfelelőek maradjanak.
 
+### [Redakció alkalmazása PDF-re az Aspose Plugin Managerrel – Teljes útmutató](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Ismerje meg, hogyan alkalmazhat redakciót PDF-fájlokra az Aspose Plugin Manager segítségével, lépésről lépésre útmutatóval.
+### [PDF kitakarása az Aspose.Pdf segítségével – Teljes lépésről‑lépésre útmutató](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Ismerje meg, hogyan végezhet el PDF kitakarást az Aspose.Pdf használatával részletes, lépésről‑lépésre útmutatóval.
+
 ### [PDF fájlok feloldása és visszafejtése az Aspose.PDF for .NET segítségével: Teljes körű útmutató](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Ismerje meg, hogyan oldhatja fel és dekódolhatja vissza a védett PDF-fájlokat az Aspose.PDF for .NET segítségével C#-ban. Ez az útmutató a beállítást, a dekódolás lépéseit és a bevált gyakorlatokat ismerteti.
 
 ### [PDF jelszavak ellenőrzése az Aspose.PDF .NET segítségével: Lépésről lépésre útmutató a biztonsághoz és az engedélyekhez](./verify-pdf-passwords-aspose-dot-net-guide/)
 Tanulja meg, hogyan ellenőrizheti PDF-jelszavait az Aspose.PDF for .NET segítségével C#-ban. Ez az átfogó útmutató leegyszerűsíti a dokumentumok biztonságát és a hozzáférés-vezérlést.
+
+### [PDF kitakarása és érzékeny adatok eltávolítása C#-ban](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Tanulja meg, hogyan takarhatja ki a PDF-et és távolíthatja el az érzékeny adatokat C#-ban az Aspose.PDF for .NET segítségével.
 
 ## További források
 

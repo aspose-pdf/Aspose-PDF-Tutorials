@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Bu öğreticide, yeni bir PDF belgesi oluşturmayı, üç boş sayfa eklemeyi, dönüşüm hatalarını kaydederek PDF/X‑3 uyumluluğuna dönüştürmeyi ve sonucu Aspose.Pdf Document sınıfını kullanarak kaydetmeyi gösterir.
+//ExStepSummary:0: Çıktı PDF dosyasının adını ve dönüşüm günlüğünün yolunu tanımlayın.
+//ExStepSummary:1: Doğru şekilde temizlenmesini sağlamak için bir using bloğu içinde yeni bir Document nesnesi örnekleyin.
+//ExStepSummary:2: Belgeye üç boş sayfa ekleyin, böylece sayfa sayısı artar.
+//ExStepSummary:3: Belgeyi PDF/X‑3 formatına dönüştürün, dönüşüm sorunlarını günlüğe kaydedin.
+//ExStepSummary:4: PDF/X‑3 uyumlu belgeyi diske kaydedin ve using bloğunu kapatın.
+//ExStepSummary:5: Dosyanın nereye kaydedildiğini gösteren bir onay mesajını konsola yazdırın.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

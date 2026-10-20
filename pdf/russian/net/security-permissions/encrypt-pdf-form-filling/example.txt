@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Этот учебный материал демонстрирует, как открыть существующий PDF с помощью Aspose.Pdf, ограничить разрешения так, чтобы была разрешена только заполнение форм, зашифровать его паролями просмотра и владельца с использованием AES‑256 и сохранить защищённый файл.
+//ExStepSummary:0: Определите пути к исходному и целевому файлам, а также пароли просмотра и владельца.
+//ExStepSummary:1: Проверьте, существует ли исходный PDF, и при его отсутствии завершите работу с сообщением об ошибке.
+//ExStepSummary:2: Начните блок try, чтобы обработать любые ошибки, которые могут возникнуть во время обработки.
+//ExStepSummary:3: Откройте существующий PDF-файл, создав объект Document с именем pdfDoc.
+//ExStepSummary:4: Установите разрешения, позволяющие только заполнение форм, зашифруйте документ паролями просмотра и владельца с использованием AES‑256 и сохраните защищённый PDF.
+//ExStepSummary:5: Выведите сообщение подтверждения в консоль и закройте блок try.
+//ExStepSummary:6: Перехватите любые исключения и выведите сообщение об ошибке в консоль.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

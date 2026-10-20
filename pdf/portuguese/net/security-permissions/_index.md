@@ -17,6 +17,12 @@ Nossos tutoriais de segurança e permissões demonstram como proteger documentos
 
 ## Tutoriais disponíveis
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Criptografar PDF para permitir apenas o preenchimento de formulários usando Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Criptografar PDF apenas para preenchimento de formulários com AES‑256 usando Aspose.Pdf para .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Criptografar PDF com Permissão de Não‑Impressão Usando Aspose.PDF para .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Alterar senhas de PDF com Aspose.PDF para .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Um tutorial de código para Aspose.PDF Net
 
@@ -62,11 +68,19 @@ Aprenda a implementar assinaturas digitais seguras e verificação para PDFs em 
 ### [Dominando a redação de PDF com Aspose.PDF .NET: um guia completo para manuseio seguro de documentos](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Aprenda a redigir PDFs com segurança usando o Aspose.PDF .NET. Este guia aborda abordagens baseadas em anotações e fachadas, garantindo que seus documentos permaneçam em conformidade.
 
+### [Como Redigir PDF e Remover Dados Sensíveis de PDF em C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Aprenda a redigir PDFs e eliminar informações confidenciais usando Aspose.PDF para .NET em C#.
+### [Como redigir PDF com Aspose.Pdf – Guia completo passo a passo](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Aprenda a redigir PDFs de forma segura usando Aspose.PDF .NET com instruções passo a passo e exemplos de código.
+
 ### [Desbloqueie e descriptografe arquivos PDF com Aspose.PDF para .NET: um guia completo](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Aprenda a desbloquear e descriptografar arquivos PDF protegidos usando o Aspose.PDF para .NET em C#. Este guia aborda a configuração, as etapas de descriptografia e as práticas recomendadas.
 
 ### [Verifique senhas de PDF com Aspose.PDF .NET: um guia passo a passo para segurança e permissões](./verify-pdf-passwords-aspose-dot-net-guide/)
 Aprenda a verificar senhas de PDF usando o Aspose.PDF para .NET em C#. Este guia completo simplifica a segurança de documentos e o controle de acesso.
+
+### [Aplicar Redação a PDF com o Gerenciador de Plugins Aspose – Guia Completo](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Aprenda a aplicar redação em PDFs usando o Gerenciador de Plugins Aspose com este guia passo a passo.
 
 ## Recursos adicionais
 

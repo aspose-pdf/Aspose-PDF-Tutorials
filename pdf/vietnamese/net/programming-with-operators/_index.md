@@ -23,6 +23,12 @@ Hướng dẫn "Lập trình với Toán tử" của Aspose.PDF cho .NET hướn
 | [Vẽ XForm Trên Trang](./draw-xform-on-page/) | hướng dẫn cách vẽ XForms trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. |  
 | [Toán tử PDF](./pdf-operators/) | Hướng dẫn từng bước sử dụng toán tử PDF với Aspose.PDF cho .NET. Thêm hình ảnh vào trang PDF và chỉ định vị trí của hình ảnh đó. |  
 | [Xóa Đối Tượng Đồ Họa Trong Tệp PDF](./remove-graphics-objects/) Tìm hiểu cách xóa các đối tượng đồ họa khỏi tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Đơn giản hóa các tác vụ thao tác PDF của bạn. |  
+| [Lặp qua Collection C# – Hướng dẫn đơn giản để duyệt các mục](./iterate-collection-c-simple-guide-to-loop-over-items/) | Hướng dẫn cách lặp qua các phần tử trong Collection bằng C# một cách dễ hiểu và nhanh chóng. |  
+| [Tạo Từ Điển PDF Trống trong C# – Hướng Dẫn Toàn Diện Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Hướng dẫn chi tiết cách tạo một từ điển PDF trống trong C# bằng Aspose.PDF cho .NET. |  
+| [Cách thay đổi độ trong suốt PDF trong C# bằng Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Hướng dẫn thay đổi độ trong suốt của tài liệu PDF bằng Aspose.Pdf trong C#. |  
+| [Tạo trạng thái đồ họa tùy chỉnh trong PDF bằng Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Hướng dẫn tạo và áp dụng trạng thái đồ họa tùy chỉnh trong PDF bằng Aspose.Pdf cho .NET. |
+| [Thêm hình chữ nhật PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách thêm hình chữ nhật vào tài liệu PDF bằng Aspose.Pdf cho .NET sử dụng C#. |
+| [Chỉnh sửa Từ điển tài nguyên PDF với Aspose.PDF – Hướng dẫn C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Hướng dẫn chi tiết cách chỉnh sửa từ điển tài nguyên trong tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

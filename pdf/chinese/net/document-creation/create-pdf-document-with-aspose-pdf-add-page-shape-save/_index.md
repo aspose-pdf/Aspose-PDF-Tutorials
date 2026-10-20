@@ -42,8 +42,6 @@ url: /zh/net/document-creation/create-pdf-document-with-aspose-pdf-add-page-shap
 
 **先决条件：** .NET 6+（或 .NET Framework 4.6+）、Visual Studio 或任意 C# IDE，以及有效的 Aspose.PDF 许可证（或免费评估版）。不需要其他第三方库。
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## 第一步 – 初始化 PDF 文档

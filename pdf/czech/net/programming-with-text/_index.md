@@ -21,7 +21,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | --- | --- | 
 | [Přidat a vyhledat skrytý text v souboru PDF](./add-and-search-hidden-text/) | Naučte se přidávat a vyhledávat skrytý text v PDF dokumentech pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu. |  
 | [Přidání seřazeného seznamu HTML do dokumentů](./add-html-ordered-list-into-documents/) | Naučte se přidávat seřazené seznamy HTML do PDF dokumentů pomocí Aspose.PDF pro .NET. Objevte podrobné pokyny v tomto podrobném tutoriálu. |  
-| [Přidání HTML pomocí DOMu](./add-html-using-dom/) V tomto podrobném návodu se naučte, jak přidat HTML obsah do PDF dokumentů pomocí Aspose.PDF pro .NET. Snadno vylepšete své PDF soubory pomocí dynamického formátování HTML. |  
+| [Přidání HTML pomocí DOMu](./add-html-using-dom/) V tomto podrobném návodu se naučte, jak přidat HTML obsah do PDF dokumentů pomocí Aspose.PDF pro .NET. Snadno vylepšete své PDF soubory pomocí dynamického formátování HTML. |
 | [Přidání HTML pomocí DOM a přepsání PDF](./add-html-using-dom-and-overwrite/) | Naučte se, jak přidat HTML obsah do PDF pomocí Aspose.PDF pro .NET. Tento podrobný návod pokrývá vše od nastavení až po konečné uložení. |  
 | [Přidat odsazení následujících řádků v souboru PDF](./add-subsequent-lines-indent/) | Naučte se, jak přidat odsazení následujících řádků do PDF souborů pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu krok za krokem pro profesionální formátování textu. |  
 | [Přidat textový okraj do PDF souboru](./add-text-border/) | Naučte se, jak přidat textový okraj do PDF souboru pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vylepšete své PDF dokumenty. |  
@@ -39,6 +39,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | [Extrahovat textovou stránku v souboru PDF](./extract-text-page/) | Naučte se, jak extrahovat text z konkrétní stránky v PDF souboru pomocí Aspose.PDF pro .NET. |  
 | [Extrakce textu pomocí textového zařízení](./extract-text-using-text-device/) | Naučte se, jak extrahovat text z PDF dokumentu pomocí textového zařízení v Aspose.PDF pro .NET. |  
 | [Dynamické získání šířky textu](./get-width-of-text-dynamically/) | Naučte se dynamicky měřit šířku textu pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem určeném pro vývojáře. |  
+| [Generovat souhrn PDF pomocí Aspose.Pdf.AI a OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Naučte se automaticky vytvářet souhrny PDF pomocí Aspose.Pdf.AI a OpenAI s podrobným návodem a ukázkami kódu. |  
 | [Skrytý textový blok v souboru PDF](./hidden-text-block/) | Vytvářejte interaktivní PDF soubory se skrytými textovými bloky pomocí Aspose.PDF pro .NET. Tento tutoriál poskytuje podrobný návod, jak vylepšit vaše dokumenty. |  
 | [Zvýraznit znak v souboru PDF](./highlight-character-in-pdf/) | Naučte se v tomto komplexním průvodci krok za krokem zvýrazňovat znaky v PDF pomocí Aspose.PDF pro .NET. |  
 | [Vícesloupcové odstavce v souboru PDF](./multicolumn-paragraphs/) | Naučte se, jak vytvářet a spravovat vícesloupcové odstavce v souborech PDF pomocí Aspose.PDF pro .NET s naším podrobným návodem. |  
@@ -70,6 +71,8 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | [Text a obrázek jako odstavec v souboru PDF](./text-and-image-as-paragraph/) | Vytvářejte PDF soubory s textem a obrázky pomocí Aspose.PDF pro .NET. Naučte se krok za krokem přidávat text a vložené obrázky. |  
 | [Textové segmenty v souboru PDF](./text-segments/) | Naučte se, jak vyhledávat konkrétní textové segmenty v souboru PDF pomocí regulárních výrazů v Aspose.PDF pro .NET. |  
 | [Použití Latexového skriptu v PDF souboru](./use-latex-script/) | Naučte se, jak pomocí Latexového skriptu přidávat matematické výrazy nebo vzorce do PDF souboru pomocí Aspose.PDF pro .NET. |  
+| [Přidat Batesova čísla do PDF – Bates číslování PDF](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Naučte se přidávat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET. Podrobný návod s ukázkami kódu. |  
+| [Vytvořit prvek Span v aplikaci Word pomocí C# – Kompletní průvodce](./create-span-element-in-word-with-c-complete-guide/) | Naučte se vytvořit prvek Span v dokumentu Word pomocí C# s podrobným návodem a ukázkami kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
