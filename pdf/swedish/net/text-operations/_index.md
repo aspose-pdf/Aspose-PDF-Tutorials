@@ -169,6 +169,12 @@ En kodhandledning för Aspose.PDF Net
 ### [Hur man maskar PDF med Aspose – steg‑för‑steg‑guide](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Lär dig hur du maskar känslig information i PDF-filer med Aspose i en detaljerad steg‑för‑steg‑guide.
 
+### [Hur du sammanfattar PDF med Aspose.Pdf.AI – en komplett guide](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Lär dig hur du använder Aspose.Pdf.AI för att automatiskt generera sammanfattningar av PDF-dokument med en steg-för-steg-guide i .NET.
+
+### [AI-chatt PDF: ställ frågor om PDF med Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Lär dig hur du använder Aspose AI Copilot för att ställa frågor och få svar från PDF-dokument via en chattfunktion.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

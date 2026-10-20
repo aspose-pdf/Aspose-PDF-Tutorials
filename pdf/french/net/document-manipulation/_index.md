@@ -104,6 +104,9 @@ Découvrez comment extraire efficacement des pages spécifiques de PDF dans vos 
 ### [Extraire des pages spécifiques d'un PDF avec Aspose.PDF pour .NET](./extract-pdf-pages-aspose-dotnet/)
 Un tutoriel de code pour Aspose.PDF Net
 
+### [Enregistrer un PDF modifié avec Aspose.PDF – Guide complet C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Apprenez à enregistrer un PDF modifié en utilisant Aspose.PDF pour .NET avec un guide complet en C#.
+
 ### [Masquer les numéros de page de la table des matières dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET : guide étape par étape](./hide-toc-page-numbers-aspose-pdf-dotnet/)
 Découvrez comment supprimer les numéros de page d'une table des matières dans vos fichiers PDF avec Aspose.PDF pour .NET. Ce guide propose des instructions étape par étape et des options de configuration clés.
 
@@ -346,6 +349,9 @@ Apprenez à aplatir les couches d'un PDF, puis à l'exporter et extraire son con
 Apprenez à aplatir les couches d'un PDF pour simplifier le fichier et améliorer la compatibilité, grâce à Aspose.PDF, avec un guide complet pas à pas.
 
 ### [Différence visuelle de PDF en C# – Guide complet pour comparer deux PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+
+### [Enregistrer le PDF mis à jour – Modifier les ressources PDF avec Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Apprenez à enregistrer un PDF modifié après avoir édité ses ressources avec Aspose.PDF pour .NET.
 
 ## Ressources supplémentaires
 

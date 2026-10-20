@@ -61,6 +61,8 @@ C# में Aspose.PDF का उपयोग करके PDF फ़ाइल 
 ### [PDF को अनुकूलित करने का तरीका – Aspose.Pdf के साथ पूर्ण गाइड](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
 Aspose.Pdf का उपयोग करके PDF फ़ाइलों को अनुकूलित करने के सभी चरणों को सीखें, जिससे आकार घटे और प्रदर्शन सुधरे।
 
+### [.NET में PDF को अनुकूलित कैसे करें – .NET में PDF को चरण-दर-चरण संपीड़ित करें](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

@@ -284,6 +284,10 @@ Learn how to export PDF files to HTML using Aspose.PDF in C# with step‑by‑st
 Learn how to save PDF files as HTML using Aspose.PDF in C#, with step‑by‑step code examples and best practices.
 
 ### [PDF to TIFF Conversion in .NET Using Aspose.PDF: A Step‑By‑Step Guide]({{< relref "pdf-to-tiff-conversion-aspose-pdf-net.md" >}})
+### [Save PDF as HTML – Create PDF, add rectangle shape](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Learn how to generate a PDF, add a rectangle shape, and save it as HTML using Aspose.PDF for .NET.
+
+### [PDF to TIFF Conversion in .NET Using Aspose.PDF&#58; A Step-by-Step Guide](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Learn how to convert PDF documents to TIFF images using Aspose.PDF for .NET. Master custom color depths and advanced image processing techniques.
 
 ### [How to Save HTML from PDF – Step‑By‑Step Guide]({{< relref "how-to-save-html-from-pdf-step-by-step-guide.md" >}})

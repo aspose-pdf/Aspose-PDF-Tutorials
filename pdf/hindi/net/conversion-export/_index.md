@@ -84,6 +84,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [C# के साथ PDF को HTML के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 C# में Aspose.PDF का उपयोग करके PDF को HTML में बदलने की पूरी प्रक्रिया सीखें। कोड उदाहरण और सेटअप निर्देश शामिल हैं।
+### [PDF को HTML के रूप में सहेजें – PDF बनाएं, आयताकार आकार जोड़ें](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+PDF बनाकर आयताकार आकार जोड़ें और उसे HTML फ़ाइल के रूप में सहेजें। Aspose.PDF .NET के साथ चरण-दर-चरण मार्गदर्शिका।
 
 ### [छवियों को सहेजे बिना Aspose.PDF का उपयोग करके .NET में PDF को HTML में बदलें](./convert-pdf-html-net-asposepdf-no-images/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को HTML में कैसे परिवर्तित किया जाए, बिना छवियों को अलग से सहेजे। हमारे विस्तृत गाइड के साथ लेआउट अखंडता बनाए रखें।

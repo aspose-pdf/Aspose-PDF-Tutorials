@@ -29,6 +29,8 @@ Nesta série de tutoriais, exploraremos vários aspectos da manipulação de tex
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Parágrafos com várias colunas em PDF usando Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Como usar Aspose para extrair texto de um PDF escaneado – guia passo a passo" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

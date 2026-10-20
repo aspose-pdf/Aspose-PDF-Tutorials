@@ -281,7 +281,7 @@ Naučte se, jak efektivně rozdělit PDF soubory z konkrétní stránky pomocí 
 ### [Rozdělení stránek PDF na jednotlivé soubory pomocí Aspose.PDF .NET (tutoriál C#)](./split-pdf-pages-aspose-net-csharp/)
 Naučte se, jak rozdělit soubor PDF na jednotlivé stránky pomocí nástroje Aspose.PDF pro .NET a C#. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
-### [Rozdělení stránek PDF do samostatných souborů pomocí Aspose.PDF pro .NET: Komplexní průvodce](./aspose-pdf-split-pdf-pages-net/)
+### [Rozdělení stránek PDF do samostatných souborů pomocí Aspose.PDF .NET: Komplexní průvodce](./aspose-pdf-split-pdf-pages-net/)
 Naučte se, jak rozdělit stránky PDF do samostatných souborů pomocí Aspose.PDF pro .NET. Tato komplexní příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
 
 ### [Rozdělení a vytváření PDF souborů pomocí Aspose.PDF .NET | Průvodce manipulací s dokumenty](./split-create-pdf-aspose-pdf-net/)
@@ -293,6 +293,8 @@ Naučte se, jak v C# pomocí Aspose.PDF skrýt citlivý text a odstranit obsah z
 Naučte se, jak zploštit vrstvy PDF a exportovat nebo extrahovat jejich obsah pomocí Aspose.PDF pro .NET v C#.
 
 Naučte se, jak zploštit PDF soubory pomocí Aspose.PDF v tomto kompletním průvodci.
+### [Uložení upraveného PDF pomocí Aspose.PDF – Kompletní průvodce C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET uložit změněný PDF soubor v C# s podrobnými ukázkami kódu a tipy pro efektivní práci.
 
 ### [Ultimátní průvodce manipulací s PDF pomocí Aspose.PDF .NET: Efektivní načítání, ukládání a nahrazování textu](./master-pdf-manipulation-aspose-pdf-net/)
 Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá načítáním, ukládáním a nahrazováním textu v PDF souborech, což je ideální pro vývojáře, kteří hledají efektivitu.
@@ -304,6 +306,8 @@ Naučte se, jak pomocí Aspose.PDF pro .NET v C# odstranit vložená písma z PD
 Naučte se, jak sloučit vrstvy PDF souborů pomocí Aspose.PDF pro .NET v jazyce C#.
 ### [Jak opravit PDF soubory pomocí Aspose.PDF – Kompletní průvodce](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Naučte se, jak opravit poškozené PDF soubory pomocí Aspose.PDF v tomto podrobném průvodci.
+### [Uložení aktualizovaného PDF – úprava PDF zdrojů pomocí Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Naučte se, jak uložit změny v PDF a upravit jeho zdroje pomocí Aspose.PDF.
 
 ## Další zdroje
 

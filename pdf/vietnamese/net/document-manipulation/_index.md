@@ -205,7 +205,7 @@ Tìm hiểu cách loại bỏ các hành động mở không mong muốn khỏi 
 Tìm hiểu cách chia các trang PDF thành từng tệp riêng lẻ một cách hiệu quả bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Nâng cao kỹ năng thao tác tài liệu của bạn ngay hôm nay.
 
 ### [Cách chia trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./split-pdf-pages-aspose-pdf-net/)
-Tìm hiểu cách tách các trang cụ thể từ PDF thành các tệp riêng biệt bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cách xử lý và thiết lập luồng.
+Tìm hiểu cách tách các trang PDF thành các tệp riêng biệt bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cách xử lý và thiết lập luồng.
 
 ### [Cách chia trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./split-pdf-pages-aspose-pdf-net-guide/)
 Tìm hiểu cách chia trang PDF bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Làm chủ thao tác tài liệu trong C# và tối ưu hóa quy trình làm việc của bạn.
@@ -342,6 +342,10 @@ Tìm hiểu cách xóa phông chữ nhúng khỏi PDF bằng Aspose.PDF cho .NET
 ### [So sánh PDF trực quan trong C# – Hướng dẫn đầy đủ để so sánh hai PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 ### [Cách Sửa Các Tệp PDF Với Aspose.Pdf – Hướng Dẫn Toàn Diện](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Tìm hiểu cách khắc phục lỗi và sửa chữa tệp PDF bị hỏng bằng Aspose.Pdf trong .NET với hướng dẫn chi tiết.
+### [Lưu PDF Đã Cập Nhật – Chỉnh sửa Tài Nguyên PDF với Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Hướng dẫn cách lưu tài liệu PDF đã chỉnh sửa và cập nhật tài nguyên PDF bằng Aspose.Pdf trong .NET.
+### [Lưu PDF đã chỉnh sửa bằng Aspose.PDF – Hướng dẫn C# đầy đủ](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Tìm hiểu cách lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF trong C# với hướng dẫn chi tiết và ví dụ thực tế.
 
 ## Tài nguyên bổ sung
 

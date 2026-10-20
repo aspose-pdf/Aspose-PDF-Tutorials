@@ -75,6 +75,8 @@
 ### [Πώς να βελτιστοποιήσετε PDF – Πλήρης οδηγός με Aspose.PDF](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
 Μάθετε πώς να βελτιστοποιήσετε αρχεία PDF με τον πλήρη οδηγό μας, χρησιμοποιώντας το Aspose.PDF για βέλτιστη απόδοση και μικρότερο μέγεθος.
 
+### [Πώς να βελτιστοποιήσετε PDF σε .NET – συμπίεση PDF σε .NET βήμα προς βήμα](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

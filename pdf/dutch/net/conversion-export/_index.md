@@ -248,9 +248,6 @@ Ontdek hoe u de conversie van PDF naar HTML kunt optimaliseren met Aspose.PDF vo
 ### [PDF naar HTML converteren met Aspose.PDF .NET: afbeeldingen opslaan als externe PNG's](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Leer hoe u PDF-documenten naar HTML converteert met externe PNG-afbeeldingen met Aspose.PDF voor .NET. Deze handleiding zorgt voor behoud van de lay-out en optimalisatie van de webprestaties.
 
-### [PDF naar HTML-conversie met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-pdf-to-html-conversion/)
-Beheers PDF-naar-HTML-conversie met Aspose.PDF voor .NET. Verbeter de toegankelijkheid en interactie van uw documenten met aanpasbare opties.
-
 ### [PDF naar HTML converteren met Aspose.PDF .NET: een uitgebreide handleiding](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 Leer hoe u PDF-bestanden in C# naar HTML converteert met Aspose.PDF, stap‑voor‑stap met voorbeeldcode.
 
@@ -267,14 +264,10 @@ Leer hoe u PDF's converteert naar HTML en daarbij alle afbeeldingen uit het resu
 ### [Hoe u afbeeldingsexport in PDF naar HTML overslaat – Complete C#‑gids](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
 Leer hoe u met Aspose.PDF voor .NET de export van afbeeldingen uitschakelt bij conversie van PDF naar HTML in C#.
 
-### [PDF naar HTML-conversie met Aspose.PDF voor .NET](./pdf-to-html-conversion-aspose-dot-net/)
 ### [PDF naar HTML converteren en PDF-handtekening verifiëren – volledige Aspose .NET-gids](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Leer hoe u PDF's naar HTML converteert en de digitale handtekening controleert met Aspose.PDF voor .NET.
 
 Een codetutorial voor Aspose.PDF Net
-
-### [PDF naar TIFF-conversie in .NET met Aspose.PDF: een stapsgewijze handleiding](./pdf-to-tiff-conversion-aspose-pdf-net/)
-Leer hoe u PDF-documenten naar TIFF-afbeeldingen converteert met Aspose.PDF voor .NET. Beheers aangepaste kleurdiepten en geavanceerde beeldverwerkingstechnieken.
 
 ### [PDF converteren naar PDF/X-1a, pagina exporteren als PNG en tekststempel toevoegen](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Leer hoe u een PDF naar PDF/X-1a converteert, een pagina exporteert als PNG en een tekststempel toevoegt met Aspose.PDF voor .NET.
@@ -295,12 +288,14 @@ Leer hoe u een enkele PDF-pagina omzet naar een PNG-afbeelding met Aspose.PDF vo
 Leer stap voor stap PDF-pagina's omzetten naar PNG-afbeeldingen met Aspose.PDF in .NET, inclusief codevoorbeelden en optimalisatietips.
 
 ## Aanvullende bronnen
+### [PDF naar HTML-conversie met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-pdf-to-html-conversion/)
+Beheers PDF-naar-HTML-conversie met Aspose.PDF voor .NET. Verbeter de toegankelijkheid en interactie van uw documenten met aanpasbare opties.
 
-- [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)
-- [Aspose.PDF voor Net API-referentie](https://reference.aspose.com/pdf/net/)
-- [Download Aspose.PDF voor Net](https://releases.aspose.com/pdf/net/)
-- [Gratis ondersteuning](https://forum.aspose.com/)
-- [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+### [PDF naar HTML-conversie met Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
+Een codetutorial voor Aspose.PDF Net
+
+### [PDF opslaan als HTML – PDF maken, rechthoekvorm toevoegen](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Leer hoe u een PDF maakt, een rechthoekvorm toevoegt en deze opslaat als HTML met Aspose.PDF voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

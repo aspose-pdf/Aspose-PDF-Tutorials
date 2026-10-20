@@ -169,6 +169,11 @@ Apprenez à styliser le texte des documents PDF balisés avec Aspose.PDF pour .N
 
 ### [Comment censurer un PDF avec Aspose – Guide étape par étape](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Apprenez à masquer ou supprimer des informations sensibles d'un PDF en utilisant Aspose.PDF pour .NET, avec un guide complet pas à pas.
+### [Comment résumer un PDF avec Aspose.Pdf.AI – guide complet](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Apprenez à résumer automatiquement le contenu d'un PDF à l'aide d'Aspose.Pdf.AI grâce à ce guide complet.
+
+### [IA Chat PDF : poser des questions sur le PDF avec Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Utilisez le copilote IA d'Aspose pour interroger vos documents PDF et obtenir des réponses précises via une interface de chat.
 
 ## Ressources supplémentaires
 

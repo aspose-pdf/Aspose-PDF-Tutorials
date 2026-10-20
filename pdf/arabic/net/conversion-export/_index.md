@@ -244,6 +244,8 @@
 تعلم كيفية تحويل ملفات PDF إلى HTML باستخدام C# و Aspose.PDF خطوة بخطوة مع أمثلة عملية وإعدادات متقدمة.
 ### [تحويل PDF إلى HTML: دليل كامل لتحويل PDF وإزالة الصور](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 دليل شامل يوضح كيفية تحويل PDF إلى HTML وإزالة الصور باستخدام Aspose.PDF.
+### [حفظ PDF كـ HTML – إنشاء PDF وإضافة شكل مستطيل](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+تعلم كيفية حفظ PDF كملف HTML وإنشاء PDF وإضافة شكل مستطيل باستخدام Aspose.PDF لـ .NET
 
 ### [تحويل PDF إلى TIFF في .NET باستخدام Aspose.PDF: دليل خطوة بخطوة](./pdf-to-tiff-conversion-aspose-pdf-net/)
 تعلّم كيفية تحويل مستندات PDF إلى صور TIFF باستخدام Aspose.PDF لـ .NET. أتقن أعماق الألوان المخصصة وتقنيات معالجة الصور المتقدمة.

@@ -1,13 +1,92 @@
 ---
-date: '2026-02-22'
-description: Pelajari cara mengonversi PDF ke HTML, merender lapisan PDF, dan menyimpan
-  PDF sebagai HTML menggunakan Aspose.PDF untuk Java. Panduan langkah demi langkah
-  yang mencakup memuat dokumen PDF di Java dan penyiapan pustaka.
+date: '2026-07-27'
+description: Pelajari cara menyimpan PDF sebagai HTML dengan rendering lapisan menggunakan
+  Aspose.PDF for Java, perpustakaan konversi PDF Java terkemuka. Termasuk penyiapan,
+  memuat PDF, dan opsi HTML.
 keywords:
-- PDF layer rendering
+- save pdf as html
+- convert pdf to html java
+- load pdf document java
+- java pdf conversion library
+- aspose pdf java tutorial
+lastmod: '2026-07-27'
+og_description: Simpan PDF sebagai HTML dengan Aspose.PDF for Java, perpustakaan konversi
+  PDF Java teratas, dan pertahankan setiap lapisan PDF sebagai elemen HTML terpisah.
+  Ikuti langkah‑demi‑langkah penyiapan, pemuatan, dan konfigurasi.
+og_image_alt: 'Guide: Save PDF as HTML and render layers using Aspose.PDF for Java'
+og_title: Simpan PDF sebagai HTML dengan Rendering Lapisan – Aspose.PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to save PDF as HTML with layer rendering using Aspose.PDF
+    for Java, the leading java pdf conversion library. Includes setup, loading PDF,
+    and HTML options.
+  headline: Save PDF as HTML and Render Layers with Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to save PDF as HTML with layer rendering using Aspose.PDF
+    for Java, the leading java pdf conversion library. Includes setup, loading PDF,
+    and HTML options.
+  name: Save PDF as HTML and Render Layers with Aspose.PDF for Java
+  steps:
+  - name: Specify Your Document Directory
+    text: '*Why this step?*: Defining a directory helps streamline file access and
+      management within your project.'
+  - name: Create a New Instance of the Document Class
+    text: The `Document` class is Aspose.PDF's top‑level representation of a PDF file.
+      *Explanation:* This code snippet opens `input2.pdf` from your specified directory,
+      allowing you to work with its content.
+  - name: Instantiate an HtmlSaveOptions Object
+    text: '`HtmlSaveOptions` controls how PDF content is translated to HTML, including
+      CSS handling and layer conversion. *Why this step?*: `HtmlSaveOptions` provides
+      various settings to control the conversion process from PDF to HTML.'
+  - name: Set Option for Rendering Layers Separately
+    text: The `setConvertMarkedContentToLayers(true)` option ensures that marked content
+      in your PDF is rendered as separate layers within the resulting HTML, maintaining
+      structural fidelity. *Explanation:* This option ensures that marked content
+      in your PDF is rendered as separate layers within the resulting
+  - name: Specify Your Output Directory
+    text: '*Why this step?*: Specifying an output directory helps organize and retrieve
+      your converted files efficiently.'
+  - name: Save Document with Layer Configuration
+    text: The `save` method writes the PDF to HTML using the previously defined `HtmlSaveOptions`.
+      *Explanation:* This command saves the PDF as HTML, applying the configured layer
+      settings from `htmlOptions`. **Troubleshooting Tips:** Ensure that your directory
+      paths are correctly set and accessible. If error
+  type: HowTo
+- questions:
+  - answer: Render each PDF layer as a separate HTML element while you **save pdf
+      as html**.
+    question: 'Load pdf document java** – opening a PDF file with Aspose.PDF
+
+      - Configuring HTML save options to render layers separately
+
+      - Saving a PDF as an HTML file with specific layer configurations
+
+      - Real‑world use cases for a **java pdf conversion library**
+
+
+      Let''s begin by outlining the prerequisites.
+
+
+      ## Quick Answers
+
+      - **What is the main purpose?'
+  - answer: Aspose.PDF for Java, the leading **java pdf conversion library**.
+    question: Which library is used?
+  - answer: A trial works for testing; a full license is required for production.
+    question: Do I need a license?
+  - answer: Yes – process them in chunks and monitor memory usage.
+    question: Can I convert large PDFs?
+  - answer: HTML files that preserve each PDF layer.
+    question: What output format does it produce?
+  type: FAQPage
+tags:
+- save pdf as html
 - Aspose.PDF Java
-- convert PDF to HTML
-title: Konversi PDF ke HTML dan Render Lapisan dengan Aspose.PDF Java
+- PDF layer rendering
+- java pdf conversion
+- HTML conversion
+title: Simpan PDF sebagai HTML dan Render Lapisan dengan Aspose.PDF for Java
 url: /id/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
@@ -17,15 +96,13 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Convert PDF to HTML and Render PDF Layers with Aspose.PDF Java
-## Advanced Features
+# Simpan PDF sebagai HTML dan Render Lapisan PDF dengan Aspose.PDF Java
+## Fitur Lanjutan
 
-### Introduction
-Di era digital saat ini, mengelola dan mengonversi dokumen secara efisien sangat penting bagi bisnis maupun pengembang. Jika Anda perlu **convert pdf to html** sambil mempertahankan konten berlapis, panduan ini akan membantu Anda menguasai penggunaan Aspose.PDF dalam Java.
+### Pendahuluan
+Dalam lanskap digital saat ini, mengelola dokumen secara efisien sangat penting, dan **save pdf as html** adalah kebutuhan umum untuk aplikasi berbasis web. Panduan ini menunjukkan cara menggunakan Aspose.PDF untuk Java—**java pdf conversion library** terkemuka—untuk memuat PDF, mengonfigurasi opsi HTML, dan **save pdf as html** sambil menjaga setiap lapisan PDF sebagai elemen HTML yang terpisah. Anda akan melihat mengapa pendekatan ini penting, cara menyiapkannya, dan skenario dunia nyata di mana konversi berlapis bersinar.
 
-Aspose.PDF Java memungkinkan Anda membuka, memuat, dan mengonversi PDF ke berbagai format sambil menjaga integritas strukturalnya. Hal ini menjadikannya alat penting untuk aplikasi web, tugas ekstraksi data, dan skenario apa pun di mana Anda perlu **convert pdf to html** atau **save pdf as html**.
-
-**What You'll Learn:**
+**Apa yang Akan Anda Pelajari:**
 - Menyiapkan pustaka Aspose.PDF dalam proyek Java Anda
 - **Load pdf document java** – membuka file PDF dengan Aspose.PDF
 - Mengonfigurasi opsi penyimpanan HTML untuk merender lapisan secara terpisah
@@ -34,21 +111,27 @@ Aspose.PDF Java memungkinkan Anda membuka, memuat, dan mengonversi PDF ke berbag
 
 Mari kita mulai dengan merinci prasyarat.
 
-## Quick Answers
-- **What is the main purpose?** Merender lapisan PDF sebagai elemen HTML terpisah sambil mengonversi PDF ke HTML.  
-- **Which library is used?** Aspose.PDF for Java, sebuah **java pdf conversion library** terkemuka.  
-- **Do I need a license?** Versi percobaan dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.  
-- **Can I convert large PDFs?** Ya – proses dalam potongan dan pantau penggunaan memori.  
-- **What output format does it produce?** File HTML yang mempertahankan setiap lapisan PDF.
+## Jawaban Cepat
+- **Apa tujuan utama?** Render setiap lapisan PDF sebagai elemen HTML terpisah saat Anda **save pdf as html**.  
+- **Pustaka mana yang digunakan?** Aspose.PDF untuk Java, **java pdf conversion library** terkemuka.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.  
+- **Bisakah saya mengonversi PDF besar?** Ya – proses dalam potongan dan pantau penggunaan memori.  
+- **Format output apa yang dihasilkan?** File HTML yang mempertahankan setiap lapisan PDF.
 
-## Prerequisites
-### Required Libraries, Versions, and Dependencies
+## Apa itu “save pdf as html”?
+**Save pdf as html** berarti mengonversi dokumen PDF menjadi file HTML sambil mempertahankan kesetiaan visual dan struktural dari aslinya. Aspose.PDF untuk Java melakukan konversi ini dalam satu langkah, menangani font, gambar, dan konten berlapis secara otomatis.
+
+## Mengapa menggunakan Aspose.PDF untuk Java?
+Aspose.PDF mendukung **50+** format masukan dan keluaran, dapat memproses PDF hingga **2 GB** tanpa memuat seluruh file ke memori, dan menyediakan rendering lapisan deterministik melalui `setConvertMarkedContentToLayers`. Kemampuan terukur ini memastikan hasil yang dapat diprediksi untuk konversi skala perusahaan.
+
+## Prasyarat
+### Pustaka, Versi, dan Dependensi yang Diperlukan
 Untuk mengikuti tutorial ini, pastikan Anda memiliki:
-- Java Development Kit (JDK) terpasang di sistem Anda.
-- IDE seperti IntelliJ IDEA atau Eclipse untuk menulis kode.
-- Pemahaman dasar tentang konsep pemrograman Java.
+- Java Development Kit (JDK) 11 atau lebih tinggi terpasang.
+- IDE seperti IntelliJ IDEA atau Eclipse.
+- Pengetahuan dasar pemrograman Java.
 
-### Environment Setup Requirements
+### Persyaratan Penyiapan Lingkungan
 Sertakan Aspose.PDF dalam proyek Anda menggunakan Maven atau Gradle:
 
 **Maven:**
@@ -60,128 +143,135 @@ Sertakan Aspose.PDF dalam proyek Anda menggunakan Maven atau Gradle:
 </dependency>
 ```
 
+Untuk referensi API detail, lihat [Aspose's documentation](https://reference.aspose.com/pdf/java/).  
+Anda juga dapat mengunduhnya [di sini](https://releases.aspose.com/pdf/java/).
+
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition Steps
+### Langkah-langkah Akuisisi Lisensi
 - **Free Trial:** Unduh versi percobaan dari [Aspose's download page](https://releases.aspose.com/pdf/java/).  
-- **Temporary License:** Dapatkan lisensi sementara untuk akses penuh fitur melalui [this link](https://purchase.aspose.com/temporary-license/).  
+- **Temporary License:** Dapatkan lisensi sementara untuk akses penuh fitur melalui [tautan ini](https://purchase.aspose.com/temporary-license/).  
 - **Purchase:** Untuk penggunaan jangka panjang, pertimbangkan membeli lisensi di [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-## Setting Up Aspose.PDF for Java
-Setelah Anda menginstal alat yang diperlukan dan menyertakan Aspose.PDF dalam proyek, lanjutkan dengan menyiapkan pustaka.
+## Menyiapkan Aspose.PDF untuk Java
+Setelah Anda menginstal alat yang diperlukan dan menyertakan Aspose.PDF dalam proyek Anda, lanjutkan dengan menyiapkan pustaka.
 
-### Basic Initialization and Setup
+### Inisialisasi Dasar dan Penyiapan
+Kelas `Document` adalah objek inti Aspose.PDF yang mewakili satu file PDF dalam memori.  
 Pertama, impor kelas yang diperlukan:
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.HtmlSaveOptions;
 ```
-Untuk menginisialisasi Aspose.PDF, buat instance `Document` baru yang menunjuk ke lokasi file PDF Anda. Ini penting untuk memuat dan memanipulasi PDF.
+Untuk menginisialisasi Aspose.PDF, buat instance `Document` baru yang menunjuk ke lokasi file PDF Anda. Langkah ini penting untuk memuat dan memanipulasi PDF.
 
-## How to Convert PDF to HTML with Aspose.PDF Java
-Bagian ini menggabungkan langkah memuat, mengonfigurasi, dan menyimpan yang diperlukan untuk **convert pdf to html** sambil mempertahankan lapisan.
+## Cara Menyimpan PDF sebagai HTML dengan Aspose.PDF Java
+Muat PDF Anda dengan `new Document("input.pdf")` dan konfigurasikan `HtmlSaveOptions` untuk merender lapisan—kemudian panggil `doc.save("output.html", htmlOptions)`. Pola dua langkah ini mengonversi file sambil mempertahankan setiap lapisan konten yang ditandai sebagai `<div>` independen dalam HTML yang dihasilkan, memberi Anda kontrol penuh atas gaya dan interaktivitas.
 
-### Open and Load PDF Document
-**Overview:** Pelajari cara membuka PDF yang sudah ada menggunakan Aspose.PDF di Java.
+### Membuka dan Memuat Dokumen PDF
+**Ikhtisar:** Pelajari cara membuka PDF yang ada menggunakan Aspose.PDF di Java.
 
-#### Step 1: Specify Your Document Directory
+#### Langkah 1: Tentukan Direktori Dokumen Anda
 ```java
 // Define the path where your PDF files are stored.
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
-*Why this step?*: Menentukan direktori membantu menyederhanakan akses dan manajemen file dalam proyek Anda.
+*Mengapa langkah ini?*: Menentukan direktori membantu menyederhanakan akses dan manajemen file dalam proyek Anda.
 
-#### Step 2: Create a New Instance of the Document Class
+#### Langkah 2: Buat Instance Baru dari Kelas Document
+Kelas `Document` adalah representasi tingkat atas Aspose.PDF dari file PDF.  
 ```java
 // Load an existing PDF document into the Aspose.PDF Document object.
 Document doc = new Document(dataDir + "/input2.pdf");
 ```
-*Explanation:* Potongan kode ini membuka `input2.pdf` dari direktori yang Anda tentukan, memungkinkan Anda bekerja dengan isinya.
+*Penjelasan:* Potongan kode ini membuka `input2.pdf` dari direktori yang Anda tentukan, memungkinkan Anda bekerja dengan isinya.
 
-### Configure HTML Save Options for Rendering Layers Separately
-**Overview:** Pelajari cara mengonfigurasi opsi penyimpanan agar lapisan PDF diperlakukan sebagai elemen HTML terpisah.
+### Mengonfigurasi Opsi Penyimpanan HTML untuk Merender Lapisan Secara Terpisah
+**Ikhtisar:** Pelajari cara mengonfigurasi opsi penyimpanan untuk memperlakukan lapisan PDF sebagai elemen HTML terpisah.
 
-#### Step 1: Instantiate an HtmlSaveOptions Object
+#### Langkah 1: Buat Objek HtmlSaveOptions
+`HtmlSaveOptions` mengontrol bagaimana konten PDF diterjemahkan ke HTML, termasuk penanganan CSS dan konversi lapisan.  
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
 ```
-*Why this step?*: `HtmlSaveOptions` menyediakan berbagai pengaturan untuk mengendalikan proses konversi dari PDF ke HTML.
+*Mengapa langkah ini?*: `HtmlSaveOptions` menyediakan berbagai pengaturan untuk mengontrol proses konversi dari PDF ke HTML.
 
-#### Step 2: Set Option for Rendering Layers Separately
+#### Langkah 2: Atur Opsi untuk Merender Lapisan Secara Terpisah
+Opsi `setConvertMarkedContentToLayers(true)` memastikan bahwa konten yang ditandai dalam PDF Anda dirender sebagai lapisan terpisah dalam HTML yang dihasilkan, menjaga kesetiaan struktural.  
 ```java
 htmlOptions.setConvertMarkedContentToLayers(true);
 ```
-*Explanation:* Opsi ini memastikan bahwa konten yang ditandai dalam PDF Anda dirender sebagai lapisan terpisah dalam HTML yang dihasilkan, menjaga kesetiaan struktural.
+*Penjelasan:* Opsi ini memastikan bahwa konten yang ditandai dalam PDF Anda dirender sebagai lapisan terpisah dalam HTML yang dihasilkan, menjaga kesetiaan struktural.
 
-### Save PDF Document as HTML with Layer Configuration
-**Overview:** Langkah ini menjelaskan cara menyimpan dokumen yang telah dikonfigurasi sebagai file HTML menggunakan Aspose.PDF.
+### Menyimpan Dokumen PDF sebagai HTML dengan Konfigurasi Lapisan
+**Ikhtisar:** Langkah ini mencakup penyimpanan dokumen yang telah dikonfigurasi sebagai file HTML menggunakan Aspose.PDF.
 
-#### Step 1: Specify Your Output Directory
+#### Langkah 1: Tentukan Direktori Output Anda
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
-*Why this step?*: Menentukan direktori output membantu mengatur dan mengambil file yang telah dikonversi secara efisien.
+*Mengapa langkah ini?*: Menentukan direktori output membantu mengatur dan mengambil file yang dikonversi dengan efisien.
 
-#### Step 2: Save Document with Layer Configuration
+#### Langkah 2: Simpan Dokumen dengan Konfigurasi Lapisan
+Metode `save` menulis PDF ke HTML menggunakan `HtmlSaveOptions` yang telah didefinisikan sebelumnya.  
 ```java
 doc.save(outputDir + "/renderPDFDataLayersAsSeparateHTMLLayerElement.html", htmlOptions);
 ```
-*Explanation:* Perintah ini menyimpan PDF sebagai HTML, menerapkan pengaturan lapisan yang telah dikonfigurasi pada `htmlOptions`.
+*Penjelasan:* Perintah ini menyimpan PDF sebagai HTML, menerapkan pengaturan lapisan yang dikonfigurasi dari `htmlOptions`.
 
-**Troubleshooting Tips:** Pastikan jalur direktori Anda sudah benar dan dapat diakses. Jika terjadi kesalahan saat menyimpan, periksa izin file.
+**Tips Pemecahan Masalah:** Pastikan jalur direktori Anda sudah diatur dengan benar dan dapat diakses. Jika terjadi kesalahan saat menyimpan, periksa izin file.
 
-## Practical Applications
+## Aplikasi Praktis
 - **Web Content Conversion:** Mengonversi PDF berlapis menjadi konten web interaktif sambil mempertahankan strukturnya.  
 - **Data Extraction:** Mengekstrak lapisan data tertentu untuk analisis atau integrasi dengan sistem lain.  
-- **Enhanced Document Viewing:** Menyediakan pengalaman melihat yang lebih baik dengan mempertahankan lapisan asli dokumen pada platform web.
+- **Enhanced Document Viewing:** Menyediakan pengalaman tampilan yang lebih baik bagi pengguna dengan mempertahankan lapisan asli dokumen pada platform web.
 
-## Performance Considerations
-- **Optimizing Performance:** Gunakan pengaturan Aspose.PDF untuk menyeimbangkan antara kecepatan dan akurasi, sesuaikan opsi seperti `HtmlSaveOptions` sesuai kebutuhan.  
+## Pertimbangan Kinerja
+- **Optimizing Performance:** Gunakan pengaturan Aspose.PDF untuk **menyeimbangkan** kecepatan dan akurasi, menyesuaikan opsi seperti `HtmlSaveOptions` sesuai kebutuhan.  
 - **Resource Usage Guidelines:** Pantau penggunaan memori Java untuk mencegah kebocoran. Proses dokumen besar dalam potongan yang dapat dikelola bila diperlukan.  
-- **Best Practices for Memory Management:** Secara rutin profil aplikasi Anda untuk mengidentifikasi potensi inefisiensi pada operasi Aspose.PDF.
+- **Best Practices for Memory Management:** Secara rutin profil aplikasi Anda untuk mengidentifikasi potensi ketidakefisienan pada operasi Aspose.PDF.
 
-## Conclusion
-Dengan mengikuti panduan ini, Anda telah belajar cara membuka dan memanipulasi file PDF menggunakan Aspose.PDF Java sambil mengonfigurasi opsi penyimpanan HTML khusus. Sekarang Anda dapat **convert pdf to html** dan merender lapisan PDF ke HTML terstruktur secara efisien.
+## Kesimpulan
+Dengan mengikuti panduan ini, Anda telah belajar cara membuka dan memanipulasi file PDF menggunakan Aspose.PDF Java sambil mengonfigurasi opsi penyimpanan HTML tertentu. Sekarang Anda dapat **save pdf as html** dan merender lapisan PDF ke dalam HTML terstruktur secara efisien.
 
-**Next Steps:** Bereksperimenlah dengan fitur tambahan Aspose.PDF, seperti penyuntingan atau penggabungan dokumen. Jelajahi [Aspose's documentation](https://reference.aspose.com/pdf/java/) untuk pembelajaran lebih lanjut.
+**Langkah Selanjutnya:** Bereksperimen dengan fitur tambahan Aspose.PDF, seperti mengedit atau menggabungkan dokumen. Jelajahi [Aspose PDF Java Documentation](https://reference.aspose.com/pdf/java/) untuk pembelajaran lebih lanjut.
 
 ## FAQ
-**Q:** What is Aspose.PDF Java used for?  
-**A:** It's a **java pdf conversion library** that lets you create, edit, and convert PDF files in Java applications.
+**Q:** Apa kegunaan Aspose.PDF Java?  
+**A:** Ini adalah **java pdf conversion library** yang memungkinkan Anda membuat, mengedit, dan mengonversi file PDF dalam aplikasi Java.
 
-**Q:** How do I handle large PDFs with Aspose.PDF?  
-**A:** Break down tasks into smaller chunks or optimize memory usage settings, such as processing pages individually.
+**Q:** Bagaimana cara menangani PDF besar dengan Aspose.PDF?  
+**A:** Bagi tugas menjadi potongan lebih kecil atau optimalkan pengaturan penggunaan memori, seperti memproses halaman secara individual.
 
-**Q:** Can I customize the output HTML format?  
-**A:** Yes, using `HtmlSaveOptions` you can tailor various aspects of the conversion, including layer rendering.
+**Q:** Bisakah saya menyesuaikan format HTML output?  
+**A:** Ya, dengan `HtmlSaveOptions` Anda dapat menyesuaikan berbagai aspek konversi, termasuk rendering lapisan.
 
-**Q:** Is there a free version of Aspose.PDF Java?  
-**A:** A trial version is available for evaluation purposes [here](https://releases.aspose.com/pdf/java/).
+**Q:** Apakah ada versi gratis Aspose.PDF Java?  
+**A:** Versi percobaan tersedia untuk tujuan evaluasi [di sini](https://releases.aspose.com/pdf/java/).
 
-**Q:** Where do I find support if I face issues with Aspose.PDF?  
-**A:** Visit the [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10) for community and official support.
+**Q:** Di mana saya menemukan dukungan jika mengalami masalah dengan Aspose.PDF?  
+**A:** Kunjungi [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10) untuk dukungan komunitas dan resmi.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
+**Q:** Bisakah saya menggunakan pendekatan ini untuk merender lapisan PDF dalam aplikasi Spring Boot?**  
+**A:** Tentu saja. Kelas Aspose.PDF yang sama berfungsi di lingkungan Java apa pun, termasuk Spring Boot, selama pustaka berada di classpath.
 
-**Q:** Can I use this approach to render PDF layers in a Spring Boot application?**  
-**A:** Absolutely. The same Aspose.PDF classes work in any Java environment, including Spring Boot, as long as the library is on the classpath.
+**Q:** Apakah opsi `setConvertMarkedContentToLayers` memengaruhi ekstraksi teks?**  
+**A:** Itu hanya memengaruhi proses konversi HTML. API ekstraksi teks tetap tidak terpengaruh.
 
-**Q:** Does the `setConvertMarkedContentToLayers` option affect text extraction?**  
-**A:** It only influences the HTML conversion process. Text extraction APIs remain unaffected.
+**Q:** Bagaimana jika PDF saya berisi lapisan terenkripsi?**  
+**A:** Muat dokumen dengan kata sandi yang sesuai menggunakan `new Document(path, password)`, lalu terapkan opsi HTML yang sama.
 
-**Q:** What if my PDF contains encrypted layers?**  
-**A:** Load the document with the appropriate password using `new Document(path, password)`, then apply the same HTML options.
+**Q:** Apakah ada cara untuk menata setiap lapisan HTML secara individual?**  
+**A:** Setelah konversi, setiap lapisan dibungkus dalam `<div>` terpisah dengan ID unik, memungkinkan Anda menargetnya dengan CSS atau JavaScript.
 
-**Q:** Is there a way to style each HTML layer individually?**  
-**A:** After conversion, each layer is wrapped in a separate `<div>` with a unique ID, allowing you to target them with CSS or JavaScript.
+**Q:** Versi Aspose.PDF mana yang diperlukan untuk rendering lapisan?**  
+**A:** Fitur `setConvertMarkedContentToLayers` telah tersedia sejak versi 20.9; tutorial ini menggunakan versi 25.3.
 
-**Q:** Which version of Aspose.PDF is required for layer rendering?**  
-**A:** The `setConvertMarkedContentToLayers` feature has been available since version 20.9; this tutorial uses version 25.3.
-
-## Resources
+## Sumber Daya
 - Documentation: [Aspose PDF Java Documentation](https://reference.aspose.com/pdf/java/)  
 - Download: [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/)  
 - Purchase: [Purchase Aspose Products](https://purchase.aspose.com/buy)  
@@ -189,18 +279,25 @@ Dengan mengikuti panduan ini, Anda telah belajar cara membuka dan memanipulasi f
 - Temporary License: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)  
 - Support: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-Start exploring the capabilities of Aspose.PDF Java today and enhance your document processing workflows!
+Mulailah menjelajahi kemampuan Aspose.PDF Java hari ini dan tingkatkan alur kerja pemrosesan dokumen Anda!
 
 ---
 
-**Last Updated:** 2026-02-22  
+**Last Updated:** 2026-07-27  
 **Tested With:** Aspose.PDF 25.3 for Java  
 **Author:** Aspose
 
+## Tutorial Terkait
+
+- [How to create pdf layers with Aspose.PDF for Java – Step-by-Step Guide](/pdf/java/advanced-features/create-pdf-layers-aspose-java/)
+- [Convert PDF to Multipage HTML Using Aspose.PDF for Java: A Complete Guide](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [pdf to html java – Convert PDF to HTML with Embedded Resources Using Aspose.PDF for Java](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

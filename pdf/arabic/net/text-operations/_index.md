@@ -168,6 +168,10 @@
 
 ### [كيفية تمويه PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 
+### [كيفية تلخيص ملفات PDF باستخدام Aspose.Pdf.AI – دليل شامل](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [محادثة AI مع PDF: اسأل أسئلة حول PDF باستخدام Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

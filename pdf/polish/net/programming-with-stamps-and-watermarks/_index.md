@@ -62,6 +62,8 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Jak dodać stempel PDF – Kompletny przewodnik z automatycznym dopasowaniem tekstu](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Dowiedz się, jak dodać stempel do pliku PDF z automatycznym dopasowaniem tekstu, korzystając z Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |  
 | [Samouczek numeracji Bates: Dodaj numery do PDF przy użyciu Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Dowiedz się, jak dodać numerację Bates do plików PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |  
 | [Jak dodać znak wodny PDF – Dodaj nakładkę tekstową PDF z Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Dowiedz się, jak dodać znak wodny tekstowy do pliku PDF przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
+| [Dodaj przezroczystość do PDF przy użyciu Aspose.PDF – Kompletny przewodnik C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Dowiedz się, jak zastosować przezroczystość w dokumentach PDF przy użyciu Aspose.PDF dla .NET w języku C# – krok po kroku. |  
+| [Jak zmienić przezroczystość w PDF przy użyciu Aspose.PDF – Kompletny przewodnik](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Dowiedz się, jak zmienić przezroczystość elementów w plikach PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku. |
 | [Jak dodać numerację Bates w pliku PDF za pomocą Aspose – przewodnik krok po kroku](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Dowiedz się, jak w prosty sposób dodać numerację Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET, krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

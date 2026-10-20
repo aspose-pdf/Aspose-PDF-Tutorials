@@ -87,6 +87,10 @@
 | [如何使用 Aspose 轉換 PDF – 完整步驟指南](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) |本完整步驟指南說明如何使用 Aspose.PDF for .NET 轉換 PDF，涵蓋設定、執行與最佳化技巧。 |
 | [在 C# 中將 PDF 轉換為 PDF/X‑1A – 完整分步指南](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑1A。 |
 | [使用 Aspose.PDF 將 PDF 轉換為 PDF/X-4 – 完整 C# 教學](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) |透過本完整教學了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4。 |
+| [在 C# 中將 PDF 轉換為 PDF/X‑1a – ASP.NET PDF 分步教學](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑1a 格式。 |
+| [使用 Aspose.Pdf 將 PDF 轉換為 PDFX 完整指南](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) |本完整指南說明如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X 格式，包含程式碼範例與步驟說明。 |
+| [在 C# 中建立 PDF/X-4 docx 轉換 – 完整指南](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) |了解如何在 C# 中使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X-4 並處理 docx 檔案。 |
+| [在 C# 中將 PDF 轉換為 PDF/X‑1A – 完整指南](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為符合 PDF/X‑1A 標準的文件。 |
 | [使用 C# 將 PDF 轉換為 PDF/X‑4 – 完整 Aspose.Pdf 教學](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) |本完整指南示範如何在 C# 中使用 Aspose.PDF 將 PDF 轉換為 PDF/X‑4，涵蓋設定與最佳實踐。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
