@@ -60,6 +60,7 @@
 | [Создать PDF‑документ C# – Пошаговое руководство по многостраничным формам](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Узнайте, как создавать многостраничные PDF‑формы на C# с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Создать многостраничную форму в C# с Aspose.Pdf – пошаговое руководство](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Узнайте, как создать многостраничную форму PDF в C# с помощью Aspose.Pdf, следуя пошаговому руководству. |
 | [Импорт FDF в PDF с C# – Полное пошаговое руководство](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Узнайте, как импортировать файлы FDF в PDF с помощью C# и Aspose.PDF для .NET в этом полном пошаговом руководстве. |
+| [Сохранить PDF-документ с Aspose.PDF – полное руководство](./save-pdf-document-with-aspose-pdf-complete-guide/) | Узнайте, как полностью сохранить PDF-документ с помощью Aspose.PDF для .NET в этом подробном руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,9 @@ C#와 Aspose.PDF를 사용하여 PDF 투명도를 편집하는 방법을 단계�
 ### [두 PDF 문서 비교 – 완전 C# 가이드](./compare-two-pdf-documents-complete-c-guide/)
 C#을 사용하여 두 PDF 문서를 비교하고 차이를 생성하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Pdf를 사용하여 PDF에 투명도 추가 – 완전 .NET 가이드](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Aspose.Pdf를 사용해 PDF에 투명 효과를 적용하고, .NET 환경에서 완전한 구현 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -25,6 +25,10 @@ Os tutoriais "Programação com Operadores" do Aspose.PDF para .NET guiam você 
 | [Remover objetos gráficos em arquivo PDF](./remove-graphics-objects/) Aprenda a remover objetos gráficos de um arquivo PDF usando o Aspose.PDF para .NET neste guia passo a passo. Simplifique suas tarefas de manipulação de PDF. |  
 | [Iterar Coleção C# – Guia Simples para Percorrer Itens](./iterate-collection-c-simple-guide-to-loop-over-items/) | Aprenda a percorrer coleções em C# usando laços, com exemplos claros no Aspose.PDF para .NET. |  
 | [Criar Dicionário PDF Vazio em C# – Guia Completo Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Aprenda a criar um dicionário PDF vazio usando Aspose.PDF para .NET em C# neste guia completo. |  
+| [Como alterar a transparência de PDF em C# usando Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Aprenda a modificar a transparência de elementos em PDFs usando Aspose.PDF para .NET em C#. |  
+| [Criar estado gráfico personalizado em PDF usando Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Aprenda a criar um estado gráfico personalizado em PDF usando Aspose.PDF para .NET. |  
+| [Adicionar retângulo PDF com Aspose.Pdf – Guia completo em C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a adicionar um retângulo a um PDF usando Aspose.PDF para .NET com este guia completo em C#. |  
+| [Editar dicionário de recursos PDF com Aspose.PDF – Guia C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Aprenda a editar o dicionário de recursos de um PDF usando Aspose.PDF para .NET em C#. |  
 | [Criar dicionário PDF vazio em C# com Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Aprenda a criar um dicionário PDF vazio usando Aspose.Pdf para .NET em C# neste tutorial passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

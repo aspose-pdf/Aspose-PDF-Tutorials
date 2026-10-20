@@ -85,6 +85,8 @@
 
 ### [แปลง PDF เป็น HTML ด้วย C# – คู่มือด่วนกับ Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 เรียนรู้วิธีแปลง PDF เป็น HTML อย่างรวดเร็วด้วย C# และ Aspose.Pdf ด้วยขั้นตอนง่าย ๆ
+### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือขั้นตอนโดยขั้นตอน](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
 
 ### [แปลง PDF เป็น PNG ด้วย Aspose.PDF .NET: ปรับปรุงการแสดงข้อความให้คมชัดยิ่งขึ้น](./convert-pdf-png-aspose-net-font-hinting/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ PNG คุณภาพสูงโดยใช้ Aspose.PDF .NET รับประกันการแสดงผลข้อความคมชัดผ่านการบอกใบ้แบบอักษร
@@ -296,6 +298,8 @@
 ### [บันทึก PDF เป็น HTML – สร้าง PDF และเพิ่มรูปสี่เหลี่ยม](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 เรียนรู้วิธีบันทึก PDF เป็น HTML พร้อมการสร้าง PDF และเพิ่มรูปสี่เหลี่ยมโดยใช้ Aspose.PDF สำหรับ .NET
 
+
+### [วิธีข้ามการส่งออกรูปภาพใน PDF ไปเป็น HTML – คู่มือ C# ฉบับสมบูรณ์](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

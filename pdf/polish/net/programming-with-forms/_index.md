@@ -90,6 +90,7 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 | [Dodaj pole tekstowe do formularza PDF – Kompletny przewodnik C#](./add-text-box-to-pdf-form-complete-c-guide/) | Dowiedz się, jak dodać pole tekstowe do formularza PDF przy użyciu Aspose.PDF dla .NET w tym kompletnym przewodniku C#. |
 | [Utwórz pole tekstowe PDF – przewodnik krok po kroku](./create-pdf-textbox-field-step-by-step-guide/) | Dowiedz się, jak dodać pole tekstowe do dokumentu PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |
 | [Importowanie FDF do PDF w C# – Kompletny przewodnik krok po kroku](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Dowiedz się, jak importować pliki FDF do dokumentów PDF przy użyciu Aspose.PDF dla .NET i języka C# w tym szczegółowym samouczku. |
+| [Zapisz dokument PDF przy użyciu Aspose.PDF – kompletny przewodnik](./save-pdf-document-with-aspose-pdf-complete-guide/) | Dowiedz się, jak zapisać dokument PDF przy użyciu Aspose.PDF w pełnym przewodniku krok po kroku. |
 | [Utwórz pole formularza PDF w C# – przewodnik krok po kroku](./create-pdf-form-field-in-c-step-by-step-guide/) | Dowiedz się, jak w C# tworzyć pola formularzy PDF przy użyciu Aspose.PDF w tym szczegółowym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

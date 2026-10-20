@@ -51,6 +51,7 @@
 | [บทแนะนำการใส่หมายเลข Bates: เพิ่มหมายเลขลงใน PDF ด้วย Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | เรียนรู้วิธีใส่หมายเลข Bates ลงใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด |  
 | [วิธีเพิ่มลายน้ำ PDF – เพิ่มข้อความซ้อนบน PDF ด้วย Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | เรียนรู้วิธีเพิ่มลายน้ำข้อความลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอน |
 | [เพิ่มความโปร่งใสให้กับ PDF ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มสำหรับ C#  
+| [วิธีเพิ่มหมายเลข Bates ในไฟล์ PDF ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,7 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Create Accessible Text Span in PDF with Aspose: Full C# Guide](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Learn how to create an accessible text span in a PDF using Aspose.PDF for .NET with this comprehensive C# guide. |  
 | [How to Edit Tagged PDF with Aspose.Pdf – Complete Guide](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Learn how to edit tagged PDFs using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
 | [How to Tag PDF with Aspose.Pdf – Complete Programming Guide](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Learn how to tag PDFs using Aspose.PDF in this comprehensive programming guide. |  
+| [Create PDF Document C# – Position Text and Add Structural Tree](./create-pdf-document-c-position-text-and-add-structural-tree/) | Learn how to position text and add a structural tree in a PDF document using Aspose.PDF for .NET in C# with this step‑by‑step tutorial. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

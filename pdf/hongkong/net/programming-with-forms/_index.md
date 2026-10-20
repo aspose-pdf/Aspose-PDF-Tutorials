@@ -60,6 +60,7 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 | [建立 PDF 文件（C#）– 多頁表單逐步指南](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) |本逐步指南說明如何使用 Aspose.PDF for .NET 以 C# 建立包含多頁表單的 PDF 文件。 |  
 | [使用 Aspose.Pdf 在 C# 中建立多頁表單 – 步驟指南](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 在 C# 中建立多頁 PDF 表單，提升表單功能與使用者體驗。 |
 | [使用 C# 將 FDF 匯入 PDF – 完整步驟指南](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) |本教學示範如何使用 Aspose.PDF for .NET 透過 C# 將 FDF 檔案匯入 PDF，完整步驟說明。 |  
+| [使用 Aspose.PDF 保存 PDF 文件 – 完整指南](./save-pdf-document-with-aspose-pdf-complete-guide/) |本完整指南說明如何使用 Aspose.PDF for .NET 將 PDF 文件儲存至檔案或串流。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

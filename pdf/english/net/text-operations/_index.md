@@ -173,6 +173,7 @@ Learn how to redact sensitive information from PDF files using Aspose.PDF for .N
 Learn how to generate concise summaries of PDF documents using Aspose.Pdf.AI with a step-by-step guide.
 
 ### [ai chat pdf: ask PDF questions with Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+### [How to summarize PDF with Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## Additional Resources
 

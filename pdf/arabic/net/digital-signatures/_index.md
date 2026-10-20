@@ -100,6 +100,11 @@
 ### [كيفية الحصول على التوقيعات من ملف PDF باستخدام C# – دليل خطوة بخطوة](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 تعلم كيفية استخراج جميع التوقيعات من ملفات PDF باستخدام C# خطوة بخطوة.
 
+### [كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+دليل شامل للتحقق من صحة توقيعات PDF باستخدام Aspose.PDF.
+### [كيفية التحقق من صحة ملف PDF باستخدام Aspose.PDF – فحص صلاحية توقيع PDF في C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+دليل شامل للتحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -198,6 +198,10 @@ Naučte se, jak optimalizovat převod PDF do HTML pomocí Aspose.PDF pro .NET se
 ### [Konverze PDF do HTML pomocí Aspose.PDF .NET: Uložení obrázků jako externích PNG souborů](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 ### [Konverze PDF do HTML pomocí Aspose.PDF .NET: Komplexní průvodce](./aspose-pdf-net-pdf-to-html-conversion/)
 Zvládněte převod PDF do HTML pomocí Aspose.PDF pro .NET. Zlepšete přístupnost a interakce s dokumenty pomocí přizpůsobitelných možností.
+
+### [Jak přeskočit export obrázků při převodu PDF do HTML – Kompletní průvodce v C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Naučte se, jak v C# vypnout export obrázků při konverzi PDF do HTML pomocí Aspose.PDF .NET a optimalizovat výstup.
+
 ### [Konverze PDF do HTML pomocí Aspose.PDF pro .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Výukový program pro kódování Aspose.PDF Net
 ### [Jak exportovat PDF do HTML v C# – Kompletní průvodce Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
@@ -230,6 +234,8 @@ Naučte se, jak uložit PDF bez vložených obrázků a převést jej do HTML po
 ### [Aspose PDF do HTML: Kompletní průvodce převodem PDF a odstraněním obrázků](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Kompletní průvodce převodem PDF do HTML s pomocí Aspose.PDF a odstraněním obrázků pro optimalizaci velikosti souboru.
 
+### [Uložení PDF jako HTML pomocí Aspose.PDF – krok za krokem](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF převést PDF soubory do HTML pomocí podrobného krok‑za‑krokem návodu.
 ### [Uložte PDF jako HTML a převeďte na PDF/X‑4 pomocí Aspose.PDF v C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 Naučte se uložit PDF jako HTML a následně jej převést na PDF/X‑4 pomocí Aspose.PDF v C#.
 

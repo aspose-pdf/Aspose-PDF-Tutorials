@@ -89,6 +89,8 @@ Aprenda a guardar archivos PDF como HTML usando C# y Aspose.PDF con ejemplos det
 Aprenda a convertir PDFs a HTML sin guardar imágenes, reduciendo el tamaño del archivo y preservando la estructura del documento.
 ### [Aspose PDF a HTML: Guía completa para convertir PDFs y eliminar imágenes](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Aprenda a convertir archivos PDF a HTML y eliminar imágenes incrustadas usando Aspose.PDF para .NET.
+### [Cómo omitir la exportación de imágenes al convertir PDF a HTML – Guía completa en C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Aprenda a convertir PDF a HTML sin generar archivos de imagen, optimizando el proceso con Aspose.PDF para .NET y C#.
 
 ### [Convierta PDF a HTML en .NET con rutas de imagen personalizadas usando Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Aprenda a convertir archivos PDF a formato HTML con Aspose.PDF para .NET y personalice las rutas de las imágenes de forma eficiente. Ideal para la integración web.
@@ -255,6 +257,9 @@ Aprenda a convertir archivos PDF a imágenes y a resaltar texto con Aspose.PDF p
 
 ### [Domine Aspose.PDF .NET: Convierta PDF a HTML con CSS personalizado](./aspose-pdf-net-license-html-conversion-custom-css/)
 Aprenda a aplicar una licencia Aspose.PDF y a convertir archivos PDF a HTML con CSS personalizado usando C#. Desbloquee todas las capacidades de procesamiento de documentos hoy mismo.
+
+### [Guardar PDF como HTML con Aspose.PDF – guía paso a paso](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Aprenda a guardar documentos PDF como HTML utilizando Aspose.PDF con una guía paso a paso.
 
 ### [Domine la sustitución de fuentes y la conversión de PDF con Aspose.PDF .NET para lograr conformidad y coherencia de marca](./mastering-font-substitution-pdf-conversion-asposepdf-net/)
 Aprenda a gestionar las fuentes faltantes sustituyéndolas y a convertir archivos PDF a formatos estandarizados con Aspose.PDF .NET. Garantice el cumplimiento normativo y la coherencia de marca en todas las plataformas.

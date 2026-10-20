@@ -79,6 +79,9 @@
 ### [Сравнение PDF-документов с Aspose.Pdf – Полное руководство по визуальному сравнению](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
 Узнайте, как сравнивать PDF-документы и визуально отображать различия с помощью Aspose.Pdf.
 
+### [Добавление прозрачности в PDF с Aspose.Pdf – Полное руководство для .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Узнайте, как добавить прозрачность в PDF-документы с помощью Aspose.Pdf для .NET, используя полное руководство с примерами кода.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

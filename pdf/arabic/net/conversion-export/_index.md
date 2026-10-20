@@ -230,6 +230,9 @@
 ### [حفظ PDF كـ HTML باستخدام Aspose – دليل كامل C#](./save-pdf-as-html-with-aspose-complete-c-guide/)
 
 ### [حفظ PDF كـ HTML باستخدام C# – دليل شامل خطوة بخطوة](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+### [كيفية تخطي تصدير الصور في تحويل PDF إلى HTML – دليل كامل C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+دليل شامل يوضح كيفية تخطي تصدير الصور عند تحويل PDF إلى HTML باستخدام C#.
+### [حفظ PDF كـ HTML باستخدام Aspose.PDF – دليل خطوة بخطوة](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 
 ### [تحويل PDF إلى HTML باستخدام Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net

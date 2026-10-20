@@ -63,6 +63,8 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [C# ile PDF'lere Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [Aspose.Pdf ile PDF Sayfasını Kopyala – Tam Kılavuz](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak bir PDF sayfasını nasıl kopyalayacağınızı adım adım öğrenin. |
 | [Aspose.PDF ile PDF'e Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF belgelerine Bates numaralandırması eklemeyi adım adım öğrenin. |
+| [C# ile Aspose.Pdf kullanarak PDF Opaklığını Değiştir – adım adım kılavuz](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET ile C# kullanarak PDF dosyalarının opaklığını nasıl değiştireceğinizi adım adım gösteren kılavuz. |
+| [Aspose ile Bates Numaralandırması PDF Ekle – Tam Adım‑Adım Kılavuz](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

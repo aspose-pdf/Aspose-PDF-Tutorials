@@ -63,6 +63,8 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 | [Duplicar página PDF com Aspose.Pdf – Guia completo](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aprenda a duplicar uma página em um PDF usando Aspose.PDF para .NET com este guia passo a passo. |
 | [Adicionar numeração Bates ao PDF com Aspose.PDF – Guia completo](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Aprenda a aplicar numeração Bates em PDFs usando Aspose.PDF com este guia passo a passo completo. |
 | [Adicionar página em branco PDF com Aspose.PDF – Guia completo](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Aprenda a adicionar uma página em branco a um PDF usando Aspose.PDF com este guia passo a passo completo. |
+| [Alterar opacidade de PDF em C# com Aspose.PDF – guia passo a passo](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Aprenda a mudar a opacidade de elementos em um PDF usando C# e Aspose.PDF neste guia passo a passo. |
+| [Adicionar numeração Bates a PDF com Aspose – guia passo a passo](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Aprenda a adicionar numeração Bates a arquivos PDF usando Aspose.PDF em um guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

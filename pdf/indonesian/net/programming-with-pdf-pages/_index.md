@@ -51,6 +51,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Dibagi Menjadi Halaman](./split-to-pages/) Pisahkan PDF ke dalam halaman-halaman individual dengan mudah menggunakan Aspose.PDF for .NET dengan tutorial lengkap ini. Panduan langkah demi langkah disertakan. Bahasa Indonesia:  
 | [Perbarui Dimensi Halaman PDF](./update-dimensions/) | Temukan cara memperbarui dimensi halaman PDF dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Perbesar Isi Halaman Dalam File PDF](./zoom-to-page-contents/) | Pelajari cara memperbesar konten halaman dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Sempurnakan dokumen PDF Anda sesuai dengan kebutuhan spesifik Anda. |  
+| [Ubah Opasitas PDF dengan C# – Panduan Langkah demi Langkah](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Panduan langkah demi langkah untuk mengubah opasitas PDF menggunakan C# dengan Aspose.PDF untuk .NET. Bahasa Indonesia:  
 | [Menambahkan nomor halaman PDF dengan C# – Panduan Langkah demi Langkah Lengkap](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Panduan langkah demi langkah untuk menambahkan nomor halaman pada file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |  
 | [Buat Dokumen PDF C# – Tambahkan Penomoran Bates](./create-pdf-document-c-add-bates-numbering/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada dokumen PDF menggunakan C# dengan Aspose.PDF untuk .NET. |  
 | [Menambahkan Penomoran Bates pada PDF – Panduan Langkah demi Langkah untuk Menomori Halaman PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |
@@ -63,6 +64,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Menambahkan Penomoran Bates ke PDF dengan C# – Panduan Lengkap](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates ke file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |  
 | [Duplikat Halaman PDF dengan Aspose.Pdf – Panduan Lengkap](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Panduan lengkap untuk menduplikasi halaman PDF menggunakan Aspose.Pdf dalam aplikasi .NET Anda. |  
 | [Menambahkan Penomoran Bates ke PDF dengan Aspose.PDF – Panduan Lengkap](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Panduan langkah demi langkah menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
+| [Menambahkan penomoran Bates pada PDF dengan Aspose – panduan langkah demi langkah](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

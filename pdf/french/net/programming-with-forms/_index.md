@@ -60,6 +60,7 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Ajouter une zone de texte à un formulaire PDF – Guide complet C#](./add-text-box-to-pdf-form-complete-c-guide/) | Apprenez à ajouter une zone de texte à un formulaire PDF avec Aspose.PDF pour .NET en suivant ce guide complet C# étape par étape. |
 | [Créer un champ de zone de texte PDF – Guide étape par étape](./create-pdf-textbox-field-step-by-step-guide/) | Apprenez à créer un champ de zone de texte dans un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 | [Importer un FDF dans un PDF avec C# – Guide complet étape par étape](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Apprenez à importer un fichier FDF dans un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Enregistrer un document PDF avec Aspose.PDF – guide complet](./save-pdf-document-with-aspose-pdf-complete-guide/) | Apprenez à enregistrer un document PDF avec Aspose.PDF grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

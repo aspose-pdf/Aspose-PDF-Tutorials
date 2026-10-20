@@ -20,6 +20,7 @@ Nasze samouczki tworzenia dokumentów zapewniają kompleksowe wskazówki dotycz�
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Utwórz dokument PDF/X‑3 z trzema stronami przy użyciu Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Jak utworzyć dokument PDF/X‑1 przy użyciu Aspose.PDF dla .NET" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [Tworzenie broszur PDF przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./aspose-pdf-net-create-booklets-tutorial/)
 Dowiedz się, jak tworzyć profesjonalne broszury PDF za pomocą Aspose.PDF dla .NET. Ten samouczek obejmuje konfigurację, implementację i praktyczne zastosowania.
 ### [Tworzenie plików PDF z XML i XSLT przy użyciu Aspose.PDF .NET: przewodnik krok po kroku](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -111,6 +112,11 @@ Dowiedz się, jak dodać numerację Bates do nowo tworzonego dokumentu PDF w C# 
 
 ### [Tworzenie dokumentu PDF/X‑4 w C# – przewodnik krok po kroku](./create-pdf-x-4-document-c-step-by-step-guide/)
 Dowiedz się, jak stworzyć dokument PDF/X‑4 w C# przy użyciu Aspose.PDF, krok po kroku.
+### [Jak utworzyć dokument PDF z pustą stroną i prostokątem](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Dowiedz się, jak w C# dodać pustą stronę i narysować prostokąt w dokumencie PDF przy użyciu Aspose.PDF.
+
+### [Utwórz dokument PDF w C# przy użyciu Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
+Dowiedz się, jak w C# stworzyć dokument PDF przy użyciu biblioteki Aspose.Pdf, dodając strony, kształty i zapisując plik.
 
 ## Dodatkowe zasoby
 
