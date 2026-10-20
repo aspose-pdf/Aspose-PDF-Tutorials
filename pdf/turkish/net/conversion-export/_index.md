@@ -204,6 +204,8 @@ Aspose.PDF Net için bir kod öğreticisi
 
 ### [PDF'yi Aspose.PDF .NET ile HTML'ye dönüştürün – Adım Adım Kılavuz](./how-to-save-html-from-pdf-step-by-step-guide/)
 Aspose.PDF for .NET kullanarak PDF'den HTML'yi kaydetmeyi öğrenin. Bu adım adım kılavuz, kod örnekleri ve en iyi uygulamaları içerir.
+### [Aspose.PDF ile PDF'yi HTML Olarak Kaydetme – Adım Adım Kılavuz](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF for .NET kullanarak PDF dosyalarını HTML formatına nasıl kaydedeceğinizi adım adım öğrenin.
 
 ### [Aspose.PDF Kullanarak .NET'te PDF'yi TIFF'e Dönüştürme: Adım Adım Kılavuz](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF belgelerini TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Özel renk derinliklerinde ve gelişmiş görüntü işleme tekniklerinde ustalaşın.

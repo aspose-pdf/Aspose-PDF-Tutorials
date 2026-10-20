@@ -64,6 +64,7 @@
 | [Aspose.Pdf के साथ PDF पृष्ठ को डुप्लिकेट करें – पूर्ण गाइड](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aspose.PDF का उपयोग करके .NET में PDF पृष्ठ को डुप्लिकेट करने की पूरी चरण‑दर‑चरण गाइड। |
 | [Aspose.PDF के साथ PDF में Bates नंबरिंग जोड़ें – पूर्ण गाइड](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबरिंग जोड़ने की पूर्ण चरण‑दर‑चरण मार्गदर्शिका। |
 | [C# में Aspose.Pdf के साथ PDF की अपारदर्शिता बदलें – चरण‑दर‑चरण गाइड](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | C# में Aspose.Pdf का उपयोग करके PDF की अपारदर्शिता बदलने की चरण‑दर‑चरण मार्गदर्शिका। |
+| [Aspose के साथ Bates नंबरिंग PDF जोड़ें – चरण‑दर‑चरण गाइड](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Aspose के साथ PDF में Bates नंबरिंग जोड़ने की चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

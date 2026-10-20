@@ -68,6 +68,8 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [Aspose ile PDF Doğrulama: Dijital İmzaları Doğrulama](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı öğrenin. |  
 | [C# ile Gömülü İmzaları PDF'de Al – Tam Kılavuz](./get-embedded-signatures-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki gömülü imzaları nasıl alacağınızı adım adım öğrenin. |  
 | [C# ile PDF Dijital İmzasını Doğrulama – Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak C# ile PDF dijital imzasını nasıl doğrulayacağınızı öğrenin. |  
+| [C# ile PDF imzasını doğrulama – Aspose.PDF tam rehberi](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını doğrulama rehberi. |  
+| [PDF imza öğreticisi: Aspose.PDF ile PDF dijital imzasını doğrulama](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aspose.PDF for .NET kullanarak PDF dijital imzasını nasıl doğrulayacağınızı öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

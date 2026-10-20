@@ -194,6 +194,9 @@ Aprenda a substituir imagens em documentos PDF com eficiência usando o Aspose.P
 ### [Como definir o tamanho da imagem em um PDF usando Aspose.PDF para .NET](./set-image-size-pdf-aspose-dotnet/)
 Aprenda a ajustar o tamanho das imagens em PDFs com o Aspose.PDF para .NET, perfeito para criar documentos e apresentações profissionais.
 
+### [Definir opacidade de PDF em C# com Aspose.PDF – guia completo](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Aprenda a definir a opacidade de elementos em PDFs usando Aspose.PDF para .NET em C# com este guia passo a passo.
+
 ### [Dominando o posicionamento de imagens em PDFs usando Aspose.PDF para .NET](./optimize-image-placement-aspose-pdf-net/)
 Aprenda a otimizar o posicionamento de imagens em documentos PDF com o Aspose.PDF para .NET. Melhore a qualidade e a eficiência dos seus documentos com guias práticos.
 

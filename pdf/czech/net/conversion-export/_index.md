@@ -234,6 +234,9 @@ Naučte se, jak uložit PDF bez vložených obrázků a převést jej do HTML po
 ### [Aspose PDF do HTML: Kompletní průvodce převodem PDF a odstraněním obrázků](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Kompletní průvodce převodem PDF do HTML s pomocí Aspose.PDF a odstraněním obrázků pro optimalizaci velikosti souboru.
 
+### [Uložení PDF jako HTML pomocí Aspose.PDF – krok za krokem](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF převést PDF soubory do HTML pomocí podrobného krok‑za‑krokem návodu.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

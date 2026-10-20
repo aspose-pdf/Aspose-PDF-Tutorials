@@ -90,6 +90,7 @@
 | [Δημιουργία μετατροπής docx σε PDF/X‑4 με C# – πλήρης οδηγός](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε PDF/X‑4 χρησιμοποιώντας Aspose.PDF για .NET σε C# με αυτόν τον πλήρη οδηγό. |  
 | [Μετατροπή PDF σε PDF/X‑1a σε C# – Πλήρης Οδηγός](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε αρχεία PDF σε PDF/X‑1a χρησιμοποιώντας το Aspose.PDF για .NET σε C# με αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 | [Μετατροπή PDF σε PDF/X-4 με C# – Πλήρης Οδηγός Aspose.Pdf](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X-4 χρησιμοποιώντας το Aspose.PDF για .NET με C# σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
+| [Σεμινάριο μετατροπής PDFX4 – ορισμός προτύπου PDF και μετατροπή PDF με το Aspose](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Μάθετε πώς να ορίσετε πρότυπο PDF/X‑4 και να μετατρέψετε PDF χρησιμοποιώντας το Aspose.PDF για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

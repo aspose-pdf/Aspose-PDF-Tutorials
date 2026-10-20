@@ -112,6 +112,8 @@ Aspose.Pdf का उपयोग करके PDF दस्तावेज़ �
 ### [C# में बेत्स नंबरिंग के साथ नया PDF दस्तावेज़ बनाएं](./create-new-pdf-document-with-bates-numbering-in-c/)
 
 ### [C# में PDF/X‑4 दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-x-4-document-c-step-by-step-guide/)
+### [C# के साथ Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाएं](./create-pdf-document-in-c-with-aspose-pdf/)
+C# में Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने का चरण‑दर‑चरण मार्गदर्शन।
 
 ## अतिरिक्त संसाधन
 

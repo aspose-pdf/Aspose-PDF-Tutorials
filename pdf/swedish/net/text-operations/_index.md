@@ -75,7 +75,7 @@ Lär dig hur du effektivt extraherar text från specifika sidor i en PDF med Asp
 Lär dig hur du effektivt extraherar text från stämpelanteckningar i PDF-dokument med hjälp av Aspose.PDF för .NET. Den här handledningen täcker installation, implementering och praktiska tillämpningar.
 
 ### [Extrahera text från PDF-kolumner med Aspose.PDF för .NET: En omfattande guide](./pdf-column-text-extraction-aspose-dotnet/)
-Lär dig hur du effektivt extraherar text från PDF-filer med flera kolumner i dina .NET-applikationer med Aspose.PDF. Följ den här omfattande guiden för att konfigurera, implementera och optimera extrahering av kolumntext.
+Lär dig hur du effektivt extraherar text från PDF-filer med flera kolumner i dina .NET-applikationer med Aspose.PDF. Följ den här omfattande guiden för att konfigurera, implementera och optimera extraktions av kolumntext.
 
 ### [Så här identifierar du text och bilder i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./detect-text-images-pdf-aspose-pdf-net/)
 Lär dig hur du effektivt identifierar text och bilder i PDF-filer med Aspose.PDF för .NET. Den här guiden täcker installation, extraheringstekniker och praktiska tillämpningar.
@@ -174,6 +174,8 @@ Lär dig hur du använder Aspose.Pdf.AI för att automatiskt generera sammanfatt
 
 ### [AI-chatt PDF: ställ frågor om PDF med Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Lär dig hur du använder Aspose AI Copilot för att ställa frågor och få svar från PDF-dokument via en chattfunktion.
+### [Hur du sammanfattar PDF med Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Lär dig hur du använder Aspose.Pdf.AI för att automatiskt skapa sammanfattningar av PDF-dokument med .NET.
 
 ## Ytterligare resurser
 

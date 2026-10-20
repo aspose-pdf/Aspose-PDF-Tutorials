@@ -292,6 +292,8 @@ PDF को PDF/X-1a फ़ॉर्मेट में परिवर्ति�
 Aspose.Pdf का उपयोग करके C# में PDF को HTML में बदलने और सहेजने की पूरी प्रक्रिया सीखें।
 ### [Aspose PDF से HTML: PDFs को परिवर्तित करने और छवियों को हटाने के लिए पूर्ण गाइड](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Aspose.PDF का उपयोग करके PDF को HTML में बदलें और सभी छवियों को हटाने की पूरी प्रक्रिया सीखें।
+### [Aspose.PDF के साथ PDF को HTML के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+PDF को HTML में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम अभ्यासों के साथ।
 
 ## अतिरिक्त संसाधन
 

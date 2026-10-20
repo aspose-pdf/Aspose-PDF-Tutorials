@@ -121,6 +121,8 @@
 เรียนรู้วิธีสร้างเอกสาร PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
 
 ### [วิธีสร้างเอกสาร PDF/X‑1 ด้วย Aspose.PDF สำหรับ .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
+### [สร้างเอกสาร PDF ด้วย C# และ Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

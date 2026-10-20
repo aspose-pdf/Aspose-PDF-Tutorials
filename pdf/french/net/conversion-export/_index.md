@@ -276,6 +276,8 @@ Apprenez à désactiver l'exportation d'images lors de la conversion PDF en HTML
 
 ### [Conversion PDF en TIFF dans .NET avec Aspose.PDF : guide étape par étape](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Apprenez à convertir des documents PDF en images TIFF avec Aspose.PDF pour .NET. Maîtrisez les profondeurs de couleurs personnalisées et les techniques avancées de traitement d'image.
+### [Enregistrer un PDF en HTML avec Aspose.PDF – guide étape par étape](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Apprenez à convertir un PDF en HTML en suivant un guide complet avec Aspose.PDF pour .NET, incluant les meilleures pratiques et le code C#.
 
 ### [Convertir un PDF en PDF/X‑1a, exporter la page en PNG et ajouter un tampon de texte](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Apprenez à convertir un PDF au format PDF/X‑1a, à exporter une page en PNG et à ajouter un tampon de texte avec Aspose.PDF pour .NET.

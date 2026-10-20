@@ -50,6 +50,8 @@ Panduan langkah demi langkah untuk menandatangani PDF menggunakan C# dan Aspose.
 Panduan lengkap langkah demi langkah untuk menandatangani PDF menggunakan C# dan Aspose.PDF.
 ### [Verifikasi Tanda Tangan PDF di C# – Panduan Lengkap Langkah demi Langkah](./verify-pdf-signature-in-c-complete-step-by-step-guide/)
 Panduan langkah demi langkah untuk memverifikasi tanda tangan PDF menggunakan C# dan Aspose.PDF.
+### [Cara Memvalidasi PDF dengan Aspose.PDF – memeriksa keabsahan tanda tangan PDF di C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+Panduan langkah demi langkah untuk memvalidasi tanda tangan PDF menggunakan Aspose.PDF di C#.
 
 
 

@@ -70,6 +70,8 @@
 | [Aspose के साथ PDF को मान्य कैसे करें: डिजिटल हस्ताक्षर सत्यापित करें](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में डिजिटल हस्ताक्षर कैसे सत्यापित करें, सीखें। |  
 | [C# में एम्बेडेड सिग्नेचर PDF प्राप्त करें – पूर्ण गाइड](./get-embedded-signatures-pdf-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में एम्बेडेड सिग्नेचर वाले PDF को प्राप्त करने की पूरी गाइड। |  
 | [C# में Aspose.PDF के साथ PDF डिजिटल हस्ताक्षर को मान्य करें](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Aspose.PDF का उपयोग करके C# में PDF डिजिटल हस्ताक्षर को कैसे सत्यापित करें, सीखें। |  
+| [C# में PDF हस्ताक्षर सत्यापित करें – Aspose.PDF के साथ पूर्ण गाइड](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aspose.PDF का उपयोग करके C# में PDF हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण गाइड में जानें। |  
+| [PDF हस्ताक्षर ट्यूटोरियल: Aspose.PDF के साथ PDF डिजिटल हस्ताक्षर सत्यापित करें](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aspose.PDF का उपयोग करके PDF डिजिटल हस्ताक्षर को कैसे सत्यापित करें, इस चरण-दर-चरण गाइड में जानें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

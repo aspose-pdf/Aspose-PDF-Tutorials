@@ -71,6 +71,8 @@
 | [AsposeでPDFを検証する方法 – デジタル署名を確認する](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) Aspose.PDF for .NET を使用して、PDF のデジタル署名を検証する手順を学びましょう。ステップバイステップのガイドです。 |  
 | [C# で埋め込み署名 PDF を取得する – 完全ガイド](./get-embedded-signatures-pdf-in-c-complete-guide/) Aspose.PDF for .NET を使用して、PDF に埋め込まれたデジタル署名を取得し、検証する方法を学びます。ステップバイステップの完全ガイドです。 |  
 | [C# で Aspose.PDF を使用して PDF デジタル署名を検証する](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証する方法を学びます。ステップバイステップのガイドです。 |  
+| [C# で PDF 署名を検証する – Aspose.PDF 完全ガイド](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証する方法を学びます。 |  
+| [Aspose.PDF を使用した PDF デジタル署名の検証](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) Aspose.PDF for .NET を使って PDF のデジタル署名を検証し、信頼性を確認する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

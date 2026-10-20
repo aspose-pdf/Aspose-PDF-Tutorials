@@ -210,6 +210,8 @@ Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan C# d
 
 ### [Menambahkan Status Grafik PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Pelajari cara mengelola status grafik dalam PDF menggunakan Aspose.PDF, termasuk transparansi, komposit, dan efek lanjutan.
+### [Mengatur Opasitas PDF di C# dengan Aspose.PDF – panduan lengkap](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Pelajari cara mengatur tingkat transparansi halaman PDF menggunakan Aspose.PDF untuk .NET dengan C#.
 
 ## Sumber Daya Tambahan
 

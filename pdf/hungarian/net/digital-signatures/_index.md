@@ -80,6 +80,9 @@ Ismerje meg, hogyan kérheti le a PDF aláírások neveit C#-ban az Aspose.PDF f
 ### [PDF digitális aláírás ellenőrzése – Teljes útmutató az Aspose.PDF használatával](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
 Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírását lépésről lépésre az Aspose.PDF segítségével.
 
+### [Hogyan validáljuk a PDF-et az Aspose.PDF segítségével – ellenőrizze a PDF aláírás érvényességét C#-ban](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+Ismerje meg, hogyan ellenőrizheti egy PDF aláírásának érvényességét C#-ban az Aspose.PDF használatával.
+
 ### [PDF dokumentum betöltése C# – Konvertálás PDF/X‑4 formátumba és aláírások listázása](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Ismerje meg, hogyan tölthet be PDF-et C#-ban, konvertálhatja PDF/X‑4-re, és listázhatja a benne lévő aláírásokat az Aspose.PDF for .NET használatával.
 ### [PDF aláírás ellenőrzése Aspose-szal – PDF konvertálása HTML-re](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)

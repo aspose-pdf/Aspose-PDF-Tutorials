@@ -290,6 +290,8 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML，並在過程中移除所有圖像，以減少檔案大小。
 ### [如何在 PDF 轉 HTML 時跳過圖像匯出 – 完整 C# 指南](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML 時跳過圖像匯出，以提升效能。
+### [使用 Aspose.PDF 將 PDF 儲存為 HTML：逐步指南](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF 將 PDF 檔案保存為 HTML 格式，提供完整步驟與程式碼範例。
 
 ## 其他資源
 

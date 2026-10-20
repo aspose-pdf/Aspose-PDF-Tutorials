@@ -58,6 +58,7 @@
 | [สร้าง PDF พร้อมหน้าและฟิลด์กล่องข้อความ – คู่มือ C# เต็มรูปแบบ](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | เรียนรู้วิธีสร้าง PDF พร้อมหน้าและฟิลด์กล่องข้อความโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนเต็ม -  |
 | [สร้างเอกสาร PDF ด้วย C# – คู่มือขั้นตอนการสร้างแบบฟอร์มหลายหน้า](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | เรียนรู้วิธีสร้าง PDF หลายหน้าและเพิ่มฟิลด์ฟอร์มด้วย Aspose.PDF สำหรับ .NET อย่างง่ายดาย |  
 | [นำเข้า FDF ไปยัง PDF ด้วย C# – คู่มือขั้นตอนเต็ม](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | เรียนรู้วิธีนำเข้าไฟล์ FDF ไปยัง PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ |
+| [บันทึกเอกสาร PDF ด้วย Aspose.PDF – คู่มือฉบับสมบูรณ์](./save-pdf-document-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF อย่างครบถ้วนด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนละเอียดในคู่มือฉบับสมบูรณ์นี้ |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

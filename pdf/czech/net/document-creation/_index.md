@@ -117,6 +117,8 @@ Naučte se, jak vytvořit PDF dokument s Batesovým číslováním pomocí Aspos
 Naučte se, jak vytvořit PDF/X‑4 dokument v C# pomocí Aspose.PDF krok za krokem.
 ### [Jak vytvořit PDF dokument s prázdnou stránkou a obdélníkem](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Naučte se vytvořit PDF dokument s prázdnou stránkou a nakresleným obdélníkem pomocí Aspose.PDF pro .NET.
+### [Vytvořte PDF dokument v C# pomocí Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Naučte se, jak pomocí Aspose.PDF v C# vytvořit PDF dokument, přidat stránky, tvary a uložit soubor.
 
 ## Další zdroje
 

@@ -288,6 +288,7 @@ Lär dig steg-för-steg hur du exporterar PDF-filer till HTML med Aspose.PDF i C
 ### [Konvertera docx till html i C# – Komplett programmeringsguide](./convert-docx-to-html-in-c-complete-programming-guide/)
 Lär dig hur du konverterar DOCX-filer till HTML med Aspose.PDF för .NET i C# med steg-för-steg-exempel.
 ### [Spara PDF som HTML – Skapa PDF, lägg till rektangel](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+### [Spara PDF som HTML med Aspose.PDF – steg‑för‑steg‑guide](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 
 ## Ytterligare resurser
 

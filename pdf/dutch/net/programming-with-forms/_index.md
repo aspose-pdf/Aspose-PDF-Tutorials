@@ -59,6 +59,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [Tekstvak toevoegen aan PDF-formulier – Complete C#-gids](./add-text-box-to-pdf-form-complete-c-guide/) | Leer hoe u een tekstvak toevoegt aan een PDF-formulier met Aspose.PDF voor .NET in deze stapsgewijze C#-handleiding. |
 | [PDF-tekstvak maken – Stapsgewijze handleiding](./create-pdf-textbox-field-step-by-step-guide/) | Leer hoe u een tekstvak toevoegt aan een PDF-document met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [FDF importeren in PDF met C# – Complete stap‑voor‑stap‑gids](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Leer hoe u een FDF-bestand in een PDF importeert met C# met deze volledige stap‑voor‑stap‑handleiding. |
+| [PDF-document opslaan met Aspose.PDF – volledige gids](./save-pdf-document-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u PDF-documenten opslaat met Aspose.PDF voor .NET in deze volledige gids. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

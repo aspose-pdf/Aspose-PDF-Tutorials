@@ -29,6 +29,8 @@ Leer stap voor stap hoe u een PDF-document maakt met Aspose.Pdf in .NET.
 
 ### [PDF/X‑4-document maken in C# – een stapsgewijze handleiding](./create-pdf-x-4-document-c-step-by-step-guide/)
 Leer hoe u een PDF/X‑4-document genereert met Aspose.PDF voor .NET in C#, stap voor stap uitgelegd.
+### [PDF-document maken in C# met Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Leer hoe u een PDF-document maakt in C# met Aspose.PDF.
 
 ### [PDF's maken van XML en XSLT met Aspose.PDF .NET: een stapsgewijze handleiding](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
 Leer hoe u XML-gegevens naar PDF-formaat converteert met Aspose.PDF voor .NET met XSLT-transformaties. Deze handleiding behandelt de installatie, binding en aanpassing.

@@ -293,6 +293,8 @@ Aspose-PDF Net 代码教程
 了解如何使用 Aspose 将 PDF 转换为 HTML，同时去除图像以减小文件体积。
 ### [Aspose PDF 转 HTML：完整指南，转换 PDF 并移除图像](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML，并在转换过程中删除图像，以减小文件大小。
+### [使用 Aspose.PDF 将 PDF 保存为 HTML：分步指南](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+学习如何使用 Aspose.PDF 将 PDF 文档转换并保存为 HTML，提供完整代码示例和关键技巧。
 
 ## 其他资源
 

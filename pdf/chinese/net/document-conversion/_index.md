@@ -112,6 +112,7 @@
 | [在 C# 中创建 PDF/X-4 docx 转换 – 完整指南](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF/X-4 转换为 DOCX。|  
 | [在 C# 中将 PDF 转换为 PDF/X‑1a – 完整指南](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | 通过本完整指南学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为符合 PDF/X‑1a 标准的文件。|
 | [使用 C# 将 PDF 转换为 PDF/X-4 – 完整 Aspose.Pdf 指南](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) 通过本完整分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X-4。|  
+| [pdfx4 转换教程 – 设置 PDF 标准并使用 Aspose 转换 PDF](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | 了解如何使用 Aspose.PDF for .NET 设置 PDF/X‑4 标准并转换 PDF。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

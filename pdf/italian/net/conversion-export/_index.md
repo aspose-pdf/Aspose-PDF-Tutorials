@@ -266,6 +266,8 @@ Scopri come estrarre e salvare il contenuto HTML da un PDF usando Aspose.PDF per
 
 ### [Conversione da PDF a TIFF in .NET con Aspose.PDF: una guida passo passo](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Scopri come convertire documenti PDF in immagini TIFF utilizzando Aspose.PDF per .NET. Padroneggia profondità di colore personalizzate e tecniche avanzate di elaborazione delle immagini.
+### [Salva PDF come HTML con Aspose.PDF – guida passo‑passo](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Scopri come salvare PDF come file HTML utilizzando Aspose.PDF con esempi di codice C# passo‑passo.
 
 ### [Convertire PDF in PDF/X-1a, esportare pagina PNG e aggiungere timbro di testo](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Scopri come convertire un PDF in PDF/X‑1a, esportare le pagine come PNG e aggiungere timbri di testo usando Aspose.PDF per .NET.

@@ -114,6 +114,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen und au
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF/X‑4-Dokument in C# erstellen, inklusive Codebeispielen und Konfiguration.
 ### [PDF-Dokument mit einer leeren Seite und Rechteck erstellen](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument mit einer leeren Seite und einem gezeichneten Rechteck erstellen.
+### [Erstellen Sie ein PDF-Dokument in C# mit Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Ein Code‑Tutorial zum Erstellen eines PDF‑Dokuments in C# mit Aspose.PDF.
 
 ## Weitere Ressourcen
 

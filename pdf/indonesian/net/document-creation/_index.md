@@ -114,6 +114,8 @@ Pelajari cara membuat dokumen PDF secara lengkap dengan Aspose.PDF melalui pandu
 ### [Buat Dokumen PDF/X‑4 C# – Panduan Langkah demi Langkah](./create-pdf-x-4-document-c-step-by-step-guide/)
 ### [Cara Membuat Dokumen PDF dengan Halaman Kosong dan Persegi Panjang](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Pelajari cara membuat dokumen PDF dengan menambahkan halaman kosong dan menggambar persegi panjang menggunakan Aspose.PDF untuk .NET.
+### [Buat Dokumen PDF di C# dengan Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
+Pelajari cara membuat dokumen PDF menggunakan Aspose.Pdf di C# dengan contoh kode lengkap.
 
 ## Sumber Daya Tambahan
 

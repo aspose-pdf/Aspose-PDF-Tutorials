@@ -132,6 +132,8 @@
 
 ### [Создание PDF/X‑4 документа C# – пошаговое руководство](./create-pdf-x-4-document-c-step-by-step-guide/)
 Узнайте, как создать документ PDF/X‑4 в C# с помощью Aspose.PDF, следуя пошаговым инструкциям.
+### [Создание PDF‑документа в C# с Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Узнайте, как создать PDF‑документ в C# с помощью Aspose.PDF.
 
 ## Дополнительные ресурсы
 

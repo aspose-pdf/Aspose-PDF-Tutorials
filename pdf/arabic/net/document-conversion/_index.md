@@ -92,6 +92,7 @@
 | [إنشاء صورة PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) |تعلم كيفية إنشاء صورة PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
 | [كيفية تحويل PDF باستخدام Aspose – دليل شامل خطوة بخطوة](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose خطوة بخطوة مع شرح مفصل وأمثلة برمجية. |
 | [تحويل PDF إلى PDF/X‑1A باستخدام C# – دليل كامل](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑1A باستخدام Aspose.PDF لـ .NET مع دليل خطوة بخطوة. |
+| [دليل تحويل PDFX4 – تعيين معيار PDF وتحويل PDF باستخدام Aspose](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) |تعلم كيفية تعيين معيار PDF/X‑4 وتحويل ملفات PDF باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

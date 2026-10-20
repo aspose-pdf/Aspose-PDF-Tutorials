@@ -144,6 +144,8 @@ pdf.Save("encrypted.pdf");
 | [How to Validate PDF with Aspose: Verify Digital Signatures](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Learn how to validate PDF digital signatures using Aspose.PDF for .NET. Follow this step-by-step guide to verify authenticity. |
 | [Validate PDF Digital Signature in C# with Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Learn how to validate a PDF's digital signature in C# using Aspose.PDF with a clear step-by-step guide. |
 | [Get Embedded Signatures PDF in C# – Complete Guide](./get-embedded-signatures-pdf-in-c-complete-guide/) | Learn how to extract embedded signatures from PDF files using Aspose.PDF for .NET in C#. Follow this step-by-step guide. |
+| [Verify PDF signature in C# with Aspose.PDF – complete guide](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Learn how to verify PDF signatures in C# using Aspose.PDF. Step-by-step guide for developers. |  
+| [pdf signature tutorial: validate a PDF digital signature with Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Learn how to validate a PDF digital signature using Aspose.PDF for .NET. Step-by-step guide for developers. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

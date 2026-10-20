@@ -70,6 +70,8 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Hur man validerar PDF med Aspose: Verifiera digitala signaturer](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Lär dig hur du verifierar digitala signaturer i PDF med Aspose.PDF för .NET i en steg-för-steg-guide. |
 | [Hämta inbäddade signaturer PDF i C# – Komplett guide](./get-embedded-signatures-pdf-in-c-complete-guide/) | Lär dig hur du hämtar inbäddade signaturer från PDF-filer med Aspose.PDF för .NET i C#. |
 | [Validera PDF-digital signatur i C# med Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. |
+| [Verifiera PDF-signatur i C# med Aspose.PDF – komplett guide](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF genom en komplett steg-för-steg-guide. |
+| [PDF-signaturhandledning: validera en digital PDF-signatur med Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Lär dig hur du validerar en digital PDF-signatur med Aspose.PDF i C# – steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

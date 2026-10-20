@@ -102,6 +102,8 @@
 
 ### [كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
 دليل شامل للتحقق من صحة توقيعات PDF باستخدام Aspose.PDF.
+### [كيفية التحقق من صحة ملف PDF باستخدام Aspose.PDF – فحص صلاحية توقيع PDF في C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+دليل شامل للتحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF.
 
 ## موارد إضافية
 

@@ -116,6 +116,8 @@ Tanulja meg, hogyan hozhat létre PDF/X‑4 dokumentumot C#‑ban az Aspose.PDF 
 Tanuld meg, hogyan hozhatsz létre PDF dokumentumot Bates-számozással C#-ban az Aspose.PDF for .NET segítségével.
 ### [PDF dokumentum létrehozása üres oldallal és téglalappal](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, üres oldallal és téglalap rajzolásával az Aspose.PDF for .NET segítségével.
+### [PDF dokumentum létrehozása C#-ban az Aspose.Pdf segítségével](./create-pdf-document-in-c-with-aspose-pdf/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban az Aspose.Pdf használatával.
 
 ## További források
 

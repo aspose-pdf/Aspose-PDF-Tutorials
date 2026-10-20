@@ -126,6 +126,8 @@ Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET
 Lär dig hur du använder grafikstatus för att hantera transparens i PDF-dokument med Aspose.PDF för .NET.
 ### [Hur du lägger till transparens i PDF och ritar en rektangel i PDF med Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 Lär dig hur du lägger till transparens och ritar en rektangel i PDF-dokument med Aspose.PDF för .NET.
+### [Ställ in PDF-opacitet i C# med Aspose.PDF – komplett guide](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Lär dig hur du justerar opaciteten för PDF-element i C# med Aspose.PDF, inklusive exempel på genomskinlighet och lagerhantering.
 
 ### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide (ny version)](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.

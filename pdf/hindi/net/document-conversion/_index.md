@@ -96,6 +96,7 @@
 | [Aspose.Pdf के साथ PDF को PDFX में परिवर्तित करें – पूर्ण गाइड](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Aspose.Pdf का उपयोग करके PDF को PDFX फ़ॉर्मेट में बदलने की पूरी मार्गदर्शिका। |
 | [C# में PDF/X-4 docx रूपांतरण बनाएं – पूर्ण गाइड](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | C# का उपयोग करके PDF/X-4 को DOCX में बदलने की पूरी प्रक्रिया सीखें। |
 | [C# में PDF को PDF/X‑4 में परिवर्तित करें – पूर्ण Aspose.Pdf गाइड](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | C# में Aspose.PDF के साथ PDF को PDF/X‑4 में बदलने की पूरी प्रक्रिया सीखें। |
+| [PDFX4 रूपांतरण ट्यूटोरियल – PDF मानक सेट करें और Aspose का उपयोग करके PDF को परिवर्तित करें](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Aspose के साथ PDF मानक सेट करके PDF को PDF/X‑4 में बदलने की चरण-दर-चरण मार्गदर्शिका। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

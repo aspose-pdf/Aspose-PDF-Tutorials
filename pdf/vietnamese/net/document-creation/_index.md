@@ -116,6 +116,8 @@ Hướng dẫn chi tiết cách tạo tài liệu PDF/X‑4 bằng C# sử dụn
 Hướng dẫn tạo tài liệu PDF mới và áp dụng đánh số Bates bằng C# với Aspose.PDF.
 ### [Cách tạo tài liệu PDF với trang trắng và hình chữ nhật](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Hướng dẫn cách tạo tài liệu PDF với trang trắng và hình chữ nhật bằng Aspose.PDF cho .NET.
+### [Tạo tài liệu PDF trong C# với Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
+Hướng dẫn tạo tài liệu PDF bằng C# sử dụng Aspose.Pdf.
 
 ## Tài nguyên bổ sung
 

@@ -291,6 +291,8 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang HTML và lo
 ### [Cách render các trang PDF thành hình ảnh PNG – hướng dẫn đầy đủ Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
 ### [Lưu PDF dưới dạng HTML – Tạo PDF, thêm hình chữ nhật](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 Hướng dẫn tạo PDF, chèn hình chữ nhật và lưu dưới dạng HTML bằng Aspose.PDF cho .NET.
+### [Lưu PDF dưới dạng HTML với Aspose.PDF – hướng dẫn từng bước](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu PDF dưới dạng HTML bằng Aspose.PDF trong .NET, bao gồm các tùy chọn cấu hình và ví dụ mã.
 
 ## Tài nguyên bổ sung
 

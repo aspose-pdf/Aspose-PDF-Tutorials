@@ -93,6 +93,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [Läs in PDF-dokument och konvertera till PDF/X‑4 – Komplett guide](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Lär dig hur du läser in ett PDF-dokument och konverterar det till PDF/X‑4-format med Aspose.PDF för .NET i denna kompletta steg‑för‑steg‑guide. |
 | [Hur du konverterar PDF med Aspose – Komplett steg‑för‑steg‑guide](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Lär dig hur du konverterar PDF-filer med Aspose i en komplett steg‑för‑steg‑guide för .NET. |
 
+| [pdfx4 konverteringshandledning – ange PDF-standard och konvertera PDF med Aspose](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Lär dig hur du ställer in PDF-standard och konverterar PDF-filer till PDF/X‑4 med Aspose.PDF för .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

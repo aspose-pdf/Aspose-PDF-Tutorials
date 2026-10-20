@@ -144,6 +144,8 @@ Lär dig hur du kontrollerar och validerar digitala signaturer i PDF-filer med A
 ### [Validera PDF-signatur och lista PDF-signaturer med Aspose.PDF – Komplett guide](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 Lär dig hur du validerar PDF-signaturer och listar befintliga signaturer med Aspose.PDF för .NET i en komplett guide.
 
+### [Hur man validerar PDF med Aspose.PDF – kontrollera PDF-signaturens giltighet i C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

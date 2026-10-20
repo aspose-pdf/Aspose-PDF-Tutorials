@@ -153,6 +153,8 @@ Learn how to validate a PDF signature and enumerate all signatures in a PDF usin
 
 ### [How to get signatures from a PDF in C# – step‑by‑step guide](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Learn how to extract digital signatures from a PDF using C# and Aspose.PDF for .NET in a step‑by‑step tutorial.
+### [How to validate PDF with Aspose.PDF – check pdf signature validity in C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+Learn how to validate a PDF's digital signature using Aspose.PDF in C#.
 
 ## Additional Resources
 

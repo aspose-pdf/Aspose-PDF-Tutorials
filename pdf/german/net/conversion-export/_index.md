@@ -101,6 +101,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET die erste Seite eines PDFs als PN
 Erfahren Sie, wie Sie PDFs mit Aspose in hochwertige PNG-Bilder konvertieren – Schritt‑für‑Schritt‑Anleitung mit C#‑Beispielen.
 ### [Konvertieren Sie PDF-Seite in PNG – Vollständige Aspose.PDF-Anleitung](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Seiten in PNG-Bilder konvertieren – eine vollständige Schritt‑für‑Schritt‑Anleitung.
+### [PDF als HTML speichern mit Aspose.PDF – Schritt‑für‑Schritt‑Anleitung](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 
 ### [Konvertieren Sie PDF in PPTX mit Aspose.PDF für .NET: Schritt-für-Schritt-Anleitung](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET effizient in PowerPoint-Präsentationen konvertieren. Diese Schritt-für-Schritt-Anleitung behandelt die grundlegende Konvertierung, erweiterte Funktionen wie Bildfolien und die Fortschrittsverfolgung.

@@ -294,6 +294,8 @@ Dowiedz się, jak konwertować pliki PDF do HTML w C# przy użyciu Aspose.PDF, k
 Dowiedz się, jak konwertować pliki PDF do HTML i usuwać obrazy, zachowując formatowanie przy użyciu Aspose.PDF dla .NET.
 ### [Zapisz PDF jako HTML – Utwórz PDF, dodaj kształt prostokąta](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 Dowiedz się, jak zapisać PDF jako HTML, tworząc najpierw plik PDF i dodając kształt prostokąta.
+### [Zapisz PDF jako HTML przy użyciu Aspose.PDF – przewodnik krok po kroku](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak zapisać plik PDF jako HTML przy użyciu Aspose.PDF w .NET.
 
 ## Dodatkowe zasoby
 

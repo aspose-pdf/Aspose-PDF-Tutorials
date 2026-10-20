@@ -72,6 +72,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hin
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
 ### [Wie man Transparenz zu PDF hinzufügt und ein Rechteck in PDF zeichnet mit Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 Ein Code-Tutorial für Aspose.PDF Net
+### [PDF-Deckkraft in C# mit Aspose.PDF festlegen – vollständige Anleitung](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Deckkraft von PDF-Elementen in C# einstellen.
 
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.

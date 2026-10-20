@@ -118,6 +118,9 @@ Scopri come generare un documento PDF da zero utilizzando Aspose.Pdf con questa 
 Scopri come aggiungere numerazione Bates a un documento PDF generato con Aspose.PDF per .NET in C#.
 
 
+### [Creare documento PDF in C# con Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Scopri come creare un documento PDF in C# utilizzando Aspose.PDF.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

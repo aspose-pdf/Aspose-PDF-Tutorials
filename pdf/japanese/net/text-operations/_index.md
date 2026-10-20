@@ -174,6 +174,7 @@ Aspose.PDF AI を活用し、PDF の内容を自動的に要約する手順と�
 
 ### [AIチャットPDF: Aspose AI CopilotでPDFに質問する](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Aspose AI Copilot を使用して、PDF の内容に自然言語で質問し、即座に回答を取得する方法を学びます。
+### [Aspose.Pdf.AI を使用して PDF を要約する方法 – ガイド](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## 追加リソース
 

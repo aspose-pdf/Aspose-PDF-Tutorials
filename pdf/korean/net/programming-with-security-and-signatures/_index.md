@@ -67,6 +67,8 @@
 | [Aspose를 사용하여 PDF 검증하기: 디지털 서명 확인](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Aspose.PDF for .NET을 사용해 PDF 파일의 디지털 서명을 검증하고 무결성을 확인하는 방법을 단계별로 안내합니다. |  
 | [C#에서 내장 서명 PDF 가져오기 – 완전 가이드](./get-embedded-signatures-pdf-in-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 포함된 서명을 추출하는 방법을 단계별로 안내합니다. |  
 | [C#에서 Aspose.PDF를 사용한 PDF 디지털 서명 검증](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Aspose.PDF for .NET을 활용해 C#에서 PDF 디지털 서명을 검증하고 무결성을 확인하는 방법을 단계별로 안내합니다. |  
+| [C#에서 Aspose.PDF를 사용한 PDF 서명 검증 – 완전 가이드](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 활용하여 C#에서 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [Aspose.PDF로 PDF 디지털 서명 검증](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aspose.PDF for .NET을 사용하여 PDF 디지털 서명을 검증하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

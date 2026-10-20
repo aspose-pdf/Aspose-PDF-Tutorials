@@ -115,6 +115,9 @@ Dowiedz się, jak stworzyć dokument PDF/X‑4 w C# przy użyciu Aspose.PDF, kro
 ### [Jak utworzyć dokument PDF z pustą stroną i prostokątem](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Dowiedz się, jak w C# dodać pustą stronę i narysować prostokąt w dokumencie PDF przy użyciu Aspose.PDF.
 
+### [Utwórz dokument PDF w C# przy użyciu Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
+Dowiedz się, jak w C# stworzyć dokument PDF przy użyciu biblioteki Aspose.Pdf, dodając strony, kształty i zapisując plik.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

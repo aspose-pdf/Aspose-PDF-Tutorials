@@ -229,6 +229,9 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Aspose PDF σε HTML: Πλήρης Οδηγός για τη Μετατροπή PDF και Αφαίρεση Εικόνων](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Μάθετε πώς να μετατρέψετε PDF σε HTML και να αφαιρέσετε τις εικόνες χρησιμοποιώντας το Aspose.PDF για .NET.
 
+### [Αποθήκευση PDF ως HTML με το Aspose.PDF – οδηγός βήμα προς βήμα](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε αρχεία PDF σε μορφή HTML χρησιμοποιώντας το Aspose.PDF με βήμα‑βήμα οδηγίες.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

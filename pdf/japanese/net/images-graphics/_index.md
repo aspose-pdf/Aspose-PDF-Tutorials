@@ -206,6 +206,8 @@ Aspose.Pdf の GraphicsAbsorber を使用して、PDF からベクター グラ�
 Aspose.Pdf の ExtGState 機能を活用し、PDF の透明度やブレンドモードなど高度な描画設定を追加する方法をステップバイステップで解説します。
 ### [Aspose.PDF を使用してカスタム ExtGState PDF を追加する: ステップバイステップ ガイド](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF を使用して、PDF にカスタム ExtGState を追加し、透明度やブレンドモードを制御する方法をステップバイステップで学びます。
+### [Aspose.PDF for .NET を使用して C# で PDF の不透明度を設定する：完全ガイド](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET を使い、C# で PDF の不透明度を設定する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

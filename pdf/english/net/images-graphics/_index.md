@@ -231,6 +231,8 @@ Learn how to extract vector graphics from PDF files using the GraphicsAbsorber c
 
 ### [image overlay pdf tutorial – add mask & enable automatic tray selection](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 Learn how to overlay images on PDFs, apply masks, and enable automatic tray selection using Aspose.PDF for .NET.
+### [Set PDF opacity in C# with Aspose.PDF – complete guide](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Learn how to set PDF opacity using Aspose.PDF for .NET in C#, with clear step-by-step code examples.
 
 ## Additional Resources
 

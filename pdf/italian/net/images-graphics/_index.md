@@ -204,6 +204,8 @@ Scopri come estrarre grafica vettoriale da PDF usando GraphicsAbsorber di Aspose
 Scopri come utilizzare ExtGState per gestire trasparenza ed effetti grafici nei PDF con Aspose.Pdf in C#.
 ### [Aggiungere ExtGState personalizzato a PDF con Aspose.PDF – guida passo passo](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Scopri come creare e applicare uno stato grafico ExtGState personalizzato nei PDF usando Aspose.PDF per .NET.
+### [Impostare l'opacità PDF in C# con Aspose.PDF – guida completa](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Scopri come impostare l'opacità dei PDF usando Aspose.PDF per .NET in C#, con esempi pratici e consigli di ottimizzazione.
 
 ## Risorse aggiuntive
 

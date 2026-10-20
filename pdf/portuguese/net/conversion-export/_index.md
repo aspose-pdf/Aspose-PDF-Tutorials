@@ -292,6 +292,8 @@ Aprenda a salvar documentos PDF usando Aspose, com exemplos de código C# e dica
 Aprenda a salvar PDFs como HTML usando Aspose.PDF em C# com este guia completo.
 ### [Converter docx para html em C# – Guia de Programação Completo](./convert-docx-to-html-in-c-complete-programming-guide/)
 Aprenda a converter arquivos DOCX em HTML usando C# com Aspose.PDF, passo a passo com exemplos de código.
+### [Salvar PDF como HTML com Aspose.PDF – guia passo a passo](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Aprenda a converter PDFs em HTML preservando layout e recursos usando Aspose.PDF para .NET, com instruções detalhadas passo a passo.
 
 ## Recursos adicionais
 
