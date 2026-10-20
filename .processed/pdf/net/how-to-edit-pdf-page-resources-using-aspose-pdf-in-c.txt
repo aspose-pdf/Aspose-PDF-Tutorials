@@ -1,0 +1,7 @@
+Title: How to edit PDF page resources using Aspose.PDF in C#
+Slug: how-to-edit-pdf-page-resources-using-aspose-pdf-in-c
+Category: programming-with-pdf-pages
+ProcessedDate: 2026-10-20T18:44:48.761016
+SourceRepo: AI Search API
+Keywords: edit pdf page resources
+PRNumber: 165
