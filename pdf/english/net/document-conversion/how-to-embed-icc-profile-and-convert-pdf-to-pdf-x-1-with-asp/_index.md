@@ -40,7 +40,7 @@ tags:
 - ICC profile
 - PDF/X-1
 - C#
-title: Learn how to embed ICC profile and convert PDF to PDF/X-1 with Aspose.Pdf
+title: Embed ICC profile and convert PDF to PDF/X-1 using Aspose.Pdf
 url: /net/document-conversion/how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/
 ---
 

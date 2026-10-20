@@ -52,7 +52,7 @@ tags:
 - Aspose.Pdf.AI
 - C#
 - PDF summarization
-title: How to generate summary PDF with Aspose.Pdf.AI in C#
+title: How to generate a summary PDF using the Aspose.Pdf.AI API in C#
 url: /net/programming-with-text/how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/
 ---
 
@@ -60,7 +60,7 @@ url: /net/programming-with-text/how-to-create-summary-pdf-with-aspose-pdf-ai-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to generate summary PDF with Aspose.Pdf.AI in C#
+# How to generate a summary PDF using Aspose.Pdf.AI in C#
 
 If you need to **create summary PDF** files automatically, this tutorial shows you exactly how. Using Aspose.Pdf.AI you can **summarize PDF** documents, retrieve plain‑text summaries, and generate a new PDF that contains only the most important information.
 
@@ -281,7 +281,7 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Create a PDF Portfolio Using Aspose.PDF for .NET&#58; A Comprehensive Guide](/pdf/english/net/pdf-portfolios/create-pdf-portfolio-aspose-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

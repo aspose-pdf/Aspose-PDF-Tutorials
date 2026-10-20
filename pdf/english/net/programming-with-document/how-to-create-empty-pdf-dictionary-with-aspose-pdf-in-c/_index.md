@@ -30,7 +30,7 @@ tags:
 - PDF
 - C#
 - Aspose.PDF
-title: Learn how to create empty PDF dictionary with Aspose.PDF in C#
+title: How to create an empty PDF dictionary using Aspose.PDF for .NET in C#
 url: /net/programming-with-document/how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/
 ---
 
