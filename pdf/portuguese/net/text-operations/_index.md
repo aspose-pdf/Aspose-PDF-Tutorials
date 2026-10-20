@@ -174,6 +174,9 @@ Aprenda a usar o Aspose AI Copilot para fazer perguntas a PDFs e obter respostas
 Aprenda a remover informações confidenciais de PDFs usando Aspose.PDF para .NET com este tutorial detalhado passo a passo.
 ### [Como resumir PDF com Aspose.Pdf.AI – guia](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
+### [Estilizar texto em PDFs marcados usando Aspose.PDF para .NET | Guia para criação de PDFs acessíveis e estéticos](./style-text-tagged-pdfs-aspose-pdf-net/)
+Aprenda a estilizar texto em documentos PDF marcados com o Aspose.PDF para .NET. Este guia aborda instalação, técnicas e aplicações práticas para aprimorar a acessibilidade.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

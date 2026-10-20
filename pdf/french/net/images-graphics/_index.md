@@ -204,6 +204,9 @@ Apprenez à manipuler l'état graphique d'un PDF avec Aspose.PDF pour .NET grâc
 
 ### [Ajouter un ExtGState personnalisé à un PDF avec Aspose.PDF – guide étape par étape](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 
+### [Définir l'arrière-plan des images dans les fichiers PDF avec Aspose.PDF pour .NET : guide complet](./aspose-pdf-net-set-image-backgrounds/)
+Découvrez comment améliorer vos documents PDF en définissant des images d'arrière-plan avec Aspose.PDF pour .NET. Ce guide présente des conseils de configuration, de mise en œuvre et d'optimisation.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)
