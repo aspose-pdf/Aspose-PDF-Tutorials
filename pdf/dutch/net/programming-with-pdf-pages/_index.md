@@ -59,12 +59,13 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [Bates-nummers toevoegen in C# – Stapsgewijze handleiding](./add-bates-numbering-in-c-step-by-step-guide/) | Leer hoe u Bates‑nummers toevoegt aan een PDF met C# en Aspose.PDF voor .NET in deze stap‑voor‑stap handleiding. |
 | [PDF-pagina's herschikken in C# – Complete stap‑voor‑stap handleiding](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Leer hoe u PDF-pagina's in de gewenste volgorde kunt plaatsen met Aspose.PDF voor .NET in C# via een gedetailleerde stap‑voor‑stap handleiding. |
 | [PDF-pagina's herschikken met Aspose.Pdf – Complete C#‑handleiding](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Leer hoe u PDF-pagina's kunt herschikken met Aspose.Pdf in C# met deze volledige stap‑voor‑stap handleiding. |
-| [Bates-nummering toevoegen aan PDF's met C# – Volledige gids](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Leer hoe u Bates-nummers aan PDF-documenten toevoegt met C# en Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
+| [Bates-nummering toevoegen aan PDF's met C# – Volledige gids](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Leer hoe u Bates‑nummers aan PDF-documenten toevoegt met C# en Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
 | [PDF-pagina dupliceren met Aspose.PDF – Complete gids](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Leer hoe u een PDF-pagina dupliceert met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
-| [Bates-nummers toevoegen aan PDF met Aspose.PDF – Volledige gids](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u Bates-nummers aan een PDF toevoegt met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
-| [Lege pagina toevoegen aan PDF met Aspose.PDF – Volledige gids](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u een lege pagina aan een PDF toevoegt met Aspose.PDF in deze volledige stap‑voor‑stap handleiding. |
+| [Bates-nummers toevoegen aan PDF met Aspose.PDF – Complete gids](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u Bates‑nummers aan een PDF toevoegt met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
+| [Lege pagina toevoegen aan PDF met Aspose.PDF – Complete gids](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u een lege pagina aan een PDF toevoegt met Aspose.PDF in deze volledige stap‑voor‑stap handleiding. |
 | [PDF-opaciteit wijzigen in C# met Aspose.Pdf – stapsgewijze handleiding](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Leer hoe u de doorzichtigheid van PDF-elementen aanpast met Aspose.Pdf in C# via een stapsgewijze handleiding. |
 | [Bates-nummers toevoegen aan PDF met Aspose – stapsgewijze handleiding](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Leer hoe u Bates‑nummering aan PDF‑bestanden toevoegt met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
+| [Hoe PDF-paginaressources bewerken met Aspose.PDF in C#](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Leer hoe u PDF-paginaressources kunt aanpassen met Aspose.PDF voor .NET in C# via een stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,4 +106,3 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

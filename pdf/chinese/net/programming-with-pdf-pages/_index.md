@@ -31,7 +31,9 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 
 {{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比较页面尺寸不同的 PDF" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/" title="使用 Aspose 为 PDF 添加 Bates 编号 – 完整分步指南" imgSrc="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="使用 Aspose.PDF for .NET 在 C# 中编辑 PDF 页面资源" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | --- | --- | 
 | [改变方向](./change-orientation/) 使用 Aspose.PDF for .NET 更改 PDF 页面方向的分步指南。易于遵循并在您的项目中实施。|  
@@ -104,4 +106,3 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

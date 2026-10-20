@@ -30,7 +30,22 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 
 {{< tutorial-card link="./compare-pdfs/" title="Compare PDFs com Tamanhos de Página Diferentes Usando Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/" title="Adicionar numeração Bates a PDF com Aspose – guia passo a passo" >}}
 
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Como editar recursos de página PDF usando Aspose.PDF em C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 | Título | Descrição |
 | --- | --- | 
@@ -105,4 +120,3 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

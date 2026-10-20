@@ -32,7 +32,22 @@
 
 {{< tutorial-card link="./compare-pdfs/" title="เปรียบเทียบ PDF ที่มีขนาดหน้าต่างกันโดยใช้ Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/" title="เพิ่มหมายเลขบาเตส PDF ด้วย Aspose – คู่มือเต็มขั้นตอน" >}}
 
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="แก้ไขทรัพยากรหน้า PDF ด้วย Aspose.PDF ใน C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 - [การเปลี่ยนแปลงทิศทาง](./change-orientation/) | คำแนะนำทีละขั้นตอนในการเปลี่ยนทิศทางของหน้า PDF ด้วย Aspose.PDF สำหรับ .NET ทำตามและนำไปใช้กับโปรเจ็กต์ของคุณได้ง่าย -  
 | [เชื่อมโยงไฟล์ PDF](./concatenate-pdf-files/) | เชื่อมโยงไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้  
@@ -59,7 +74,7 @@
 - [สร้างเอกสาร PDF ด้วย C# – เพิ่มหมายเลข Bates](./create-pdf-document-c-add-bates-numbering/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านตัวอย่าง C# อย่างละเอียด  
 - [เพิ่มหมายเลข Bates ให้ PDF – คู่มือขั้นตอนเต็มสำหรับการใส่หมายเลขหน้า PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 - [เพิ่มหมายเลขบาเตสใน PDF ด้วย Aspose – คู่มือเต็มขั้นตอน](./add-bates-numbering-pdf-with-aspose-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลขบาเตสในไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
-- [เพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย C# – คู่มือเต็มขั้นตอน](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [เพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย C# – คู่มือเต็มขั้นตอน](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [ทำสำเนาหน้ PDF ด้วย Aspose.Pdf – คู่มือเต็มขั้นตอน](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีทำสำเนาหน้าหนึ่งในไฟล์ PDF อย่างง่ายดายด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [เพิ่มหมายเลข Bates ให้ PDF ด้วย Aspose.PDF – คู่มือเต็มขั้นตอน](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [เพิ่มหน้าเปล่าใน PDF ด้วย Aspose.PDF – คู่มือเต็มขั้นตอน](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีเพิ่มหน้าเปล่าในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ

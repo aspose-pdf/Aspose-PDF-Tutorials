@@ -31,7 +31,9 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 
 {{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET を使用して、ページサイズが異なるPDFを比較する" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/" title="Aspose.PDF を使用したベーツ番号付け PDF の追加 – 完全ステップバイステップガイド" imgSrc="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Aspose.PDF を使用して C# で PDF ページリソースを編集する方法" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | --- | --- | 
 | [方向転換](./change-orientation/) Aspose.PDF for .NET を使って PDF のページの向きを変更する手順をステップバイステップで説明します。簡単に理解でき、プロジェクトに実装できます。 |  
@@ -104,4 +106,3 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

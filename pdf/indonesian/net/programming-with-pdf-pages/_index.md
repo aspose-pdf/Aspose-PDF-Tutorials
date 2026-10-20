@@ -32,7 +32,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 
 {{< tutorial-card link="./compare-pdfs/" title="Bandingkan PDF dengan Ukuran Halaman Berbeda Menggunakan Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Cara mengedit sumber daya halaman PDF menggunakan Aspose.PDF di C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | [Ubah Orientasi](./change-orientation/) | Panduan langkah demi langkah untuk mengubah orientasi halaman PDF dengan Aspose.PDF untuk .NET. Mudah diikuti dan diterapkan dalam proyek Anda. Bahasa Indonesia:  
 | [Gabungkan File PDF](./concatenate-pdf-files/) | Gabungkan file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
@@ -56,15 +56,15 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Buat Dokumen PDF C# – Tambahkan Penomoran Bates](./create-pdf-document-c-add-bates-numbering/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada dokumen PDF menggunakan C# dengan Aspose.PDF untuk .NET. |  
 | [Menambahkan Penomoran Bates pada PDF – Panduan Langkah demi Langkah untuk Menomori Halaman PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |
 | [Buat Dokumen PDF C# – Panduan Menambahkan Bentuk & Halaman Kosong](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Panduan langkah demi langkah untuk membuat dokumen PDF, menambahkan bentuk dan halaman kosong menggunakan Aspose.PDF untuk .NET. |  
-| [Menambahkan penomoran Bates pada PDF dengan Aspose – Panduan Lengkap](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
-| [Menambahkan Penomoran Bates di C# – Panduan Langkah demi Langkah](./add-bates-numbering-in-c-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
+| [Menambahkan penomoran Bates pada PDF dengan Aspose – Panduan Lengkap](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |
+| [Menambahkan Penomoran Bates di C# – Panduan Langkah demi Langkah](./add-bates-numbering-in-c-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada PDF menggunakan Aspose.PDF untuk .NET dengan C#. |
 | [Menambahkan Halaman ke PDF – Panduan Langkah demi Langkah untuk Pengembang C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Panduan langkah demi langkah untuk menambahkan halaman ke file PDF menggunakan Aspose.PDF untuk .NET dengan C#. Mudah diikuti. |
 | [Menata Ulang Halaman PDF di C# – Panduan Langkah demi Langkah Lengkap](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Panduan langkah demi langkah untuk menata ulang halaman PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |
 | [Urutkan Ulang Halaman PDF dengan Aspose.Pdf – Panduan Lengkap C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Panduan langkah demi langkah untuk mengurutkan ulang halaman PDF menggunakan Aspose.PDF untuk .NET dengan C#. Mudah diikuti. |  
-| [Menambahkan Penomoran Bates ke PDF dengan C# – Panduan Lengkap](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates ke file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |  
-| [Duplikat Halaman PDF dengan Aspose.Pdf – Panduan Lengkap](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Panduan lengkap untuk menduplikasi halaman PDF menggunakan Aspose.Pdf dalam aplikasi .NET Anda. |  
-| [Menambahkan Penomoran Bates ke PDF dengan Aspose.PDF – Panduan Lengkap](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Panduan langkah demi langkah menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
-| [Menambahkan penomoran Bates pada PDF dengan Aspose – panduan langkah demi langkah](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
+| [Menambahkan Penomoran Bates ke PDF dengan C# – Panduan Lengkap](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates ke file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |
+| [Duplikat Halaman PDF dengan Aspose.Pdf – Panduan Lengkap](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Panduan lengkap untuk menduplikasi halaman PDF menggunakan Aspose.Pdf dalam aplikasi .NET Anda. |
+| [Menambahkan Penomoran Bates ke PDF dengan Aspose.PDF – Panduan Lengkap](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Panduan langkah demi langkah menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |
+| [Menambahkan penomoran Bates pada PDF dengan Aspose – panduan langkah demi langkah](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -94,9 +94,9 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-| [Buat Halaman PDF Kosong – Tutorial Menggambar PDF Lengkap](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Panduan lengkap untuk membuat halaman PDF kosong menggunakan Aspose.PDF untuk .NET dengan teknik menggambar PDF penuh. |  
-| [Menambahkan Halaman ke PDF dengan Aspose – Panduan Lengkap C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Panduan langkah demi langkah menambahkan halaman ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |  
-| [Buat Dokumen PDF di C# – Tambahkan Halaman ke PDF & Persegi Panjang](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Panduan langkah demi langkah untuk membuat dokumen PDF di C#, menambahkan halaman serta menggambar persegi panjang menggunakan Aspose.PDF untuk .NET. |  
+| [Buat Halaman PDF Kosong – Tutorial Menggambar PDF Lengkap](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Panduan lengkap untuk membuat halaman PDF kosong menggunakan Aspose.PDF untuk .NET dengan teknik menggambar PDF penuh. |
+| [Menambahkan Halaman ke PDF dengan Aspose – Panduan Lengkap C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Panduan langkah demi langkah menambahkan halaman ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |
+| [Buat Dokumen PDF di C# – Tambahkan Halaman ke PDF & Persegi Panjang](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Panduan langkah demi langkah untuk membuat dokumen PDF di C#, menambahkan halaman serta menggambar persegi panjang menggunakan Aspose.PDF untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,4 +105,3 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

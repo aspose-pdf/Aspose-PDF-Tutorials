@@ -30,7 +30,22 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 
 {{< tutorial-card link="./compare-pdfs/" title="So sánh PDF với kích thước trang khác nhau bằng Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/" title="Thêm đánh số Bates cho PDF bằng Aspose – hướng dẫn từng bước" >}}
 
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Cách chỉnh sửa tài nguyên trang PDF bằng Aspose.PDF trong C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 | Tiêu đề | Mô tả |
 | --- | --- | 
