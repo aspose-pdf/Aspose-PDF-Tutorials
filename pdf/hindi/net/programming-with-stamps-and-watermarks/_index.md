@@ -62,6 +62,7 @@ Aspose.PDF के "स्टैम्प और वॉटरमार्क क�
 | [बेट्स नंबरिंग ट्यूटोरियल: Aspose के साथ PDF में नंबर जोड़ें](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Aspose.PDF के साथ .NET में PDF फ़ाइलों में बेट्स नंबरिंग जोड़ने की चरण-दर-चरण गाइड। |  
 | [Aspose.PDF के साथ PDF में पारदर्शिता जोड़ें – पूर्ण C# गाइड](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF का उपयोग करके .NET में PDF में पारदर्शिता लागू करने के चरणों को सीखें। |  
 | [Aspose.PDF के साथ PDF में अपारदर्शिता बदलने का तरीका – पूर्ण गाइड](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF के साथ PDF में अपारदर्शिता बदलने के चरणों को इस पूर्ण गाइड में जानें। |
+| [Aspose के साथ PDF में बेट्स नंबरिंग कैसे जोड़ें – चरण-दर-चरण गाइड](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में बेट्स नंबरिंग जोड़ने की चरण-दर-चरण प्रक्रिया सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

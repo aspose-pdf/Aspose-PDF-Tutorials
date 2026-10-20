@@ -27,6 +27,8 @@ tutorial "Programmazione con operatori" di Aspose.PDF per .NET ti guideranno att
 | [Iterare una collezione C# – Guida semplice per scorrere gli elementi](./iterate-collection-c-simple-guide-to-loop-over-items/) | Scopri come iterare una collezione in C# con una guida pratica usando Aspose.PDF per .NET. |  
 | [Crea dizionario PDF vuoto in C# – Guida completa Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Scopri come creare un dizionario PDF vuoto in C# con Aspose.PDF per .NET in questa guida dettagliata passo passo. |  
 | [Crea stato grafico personalizzato in PDF usando Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Impara a creare uno stato grafico personalizzato in PDF con Aspose.PDF per .NET. |  
+| [Aggiungi rettangolo PDF con Aspose.Pdf – Guida completa C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Impara a disegnare un rettangolo in un PDF usando Aspose.PDF per .NET con una guida completa in C#. |  
+| [Modifica il dizionario delle risorse PDF con Aspose.PDF – Guida C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Scopri come modificare il dizionario delle risorse di un PDF usando Aspose.PDF per .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

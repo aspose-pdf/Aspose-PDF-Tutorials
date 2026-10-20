@@ -59,6 +59,7 @@ Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如�
 | [在 C# 中创建带标签的 PDF – 完整分步指南](./create-tagged-pdf-in-c-full-step-by-step-guide/) 本教程详细演示在 C# 中使用 Aspose.PDF for .NET 创建符合 PDF/UA 标准的带标签 PDF 的每一步操作。|  
 | [使用 Aspose.Pdf 标记 PDF – 完整编程指南](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | 通过本完整分步指南，学习使用 Aspose.Pdf 在 .NET 中标记 PDF，实现完整的编程实践。|  
 | [使用 Aspose 创建 Span 元素 PDF – 加载 PDF 并标记内容](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | 学习如何使用 Aspose.PDF for .NET 加载 PDF 并创建 Span 元素进行内容标记。|  
+| [在 C# 中创建 PDF 文档 – 定位文本并添加结构树](./create-pdf-document-c-position-text-and-add-structural-tree/) 通过本分步教程，学习如何在 C# 中创建 PDF 文档，定位文本位置并构建结构树，以实现可访问性和组织性。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

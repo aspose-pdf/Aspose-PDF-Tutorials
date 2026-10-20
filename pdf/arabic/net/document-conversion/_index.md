@@ -73,6 +73,7 @@
 | [تحويل PDF إلى PDF/X-1a باستخدام C# – دليل خطوة بخطوة](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/X-1a باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |  
 | [تحويل PDF إلى PDFX باستخدام Aspose.Pdf – دليل كامل](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) |تعرف على كيفية تحويل ملفات PDF إلى PDF/X باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |  
 | [إنشاء تحويل docx إلى PDF/X-4 في C# – دليل شامل](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | تعلّم خطوة بخطوة كيفية تحويل ملفات docx إلى صيغة PDF/X-4 باستخدام Aspose.PDF لـ .NET مع C#. |  
+| [تحويل PDF إلى PDF/X-4 باستخدام C# – دليل Aspose.Pdf الكامل](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X-4 باستخدام C# مع Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |  
 | [دليل pdf إلى png – تحويل صفحات PDF إلى PNG باستخدام C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |تعلم كيفية تحويل صفحات ملفات PDF إلى صور PNG باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
 | [كيفية تعيين خيارات تحويل PDF في C# – دليل Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) |تعلم كيفية ضبط خيارات التحويل لإنشاء ملفات PDF مخصصة باستخدام Aspose.PDF لـ .NET في C#. |
 | [إنشاء عنصر span وإضافته إلى الصفحة – تحويل DOCX إلى PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) |تعلم كيفية إنشاء عنصر span وإضافته إلى صفحة PDF أثناء تحويل مستند DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |

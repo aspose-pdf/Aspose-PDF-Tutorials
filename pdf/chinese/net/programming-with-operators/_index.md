@@ -27,6 +27,8 @@ Aspose.PDF for .NET 的“使用运算符编程”教程将指导您了解 PDF �
 | [在 C# 中创建空 PDF 字典 – 完整 Aspose.Pdf 指南](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) 本完整指南展示如何使用 Aspose.PDF for .NET 在 C# 中创建空的 PDF 字典。|  
 | [如何在 C# 中使用 Aspose.Pdf 更改 PDF 透明度](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | 本教程演示如何在 C# 中使用 Aspose.Pdf 调整 PDF 元素的透明度。|  
 | [在 PDF 中使用 Aspose.Pdf 创建自定义图形状态](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) 通过本教程了解如何使用 Aspose.Pdf 在 PDF 中创建自定义图形状态，以实现高级绘图效果。|  
+| [使用 Aspose.Pdf 添加矩形 PDF – 完整 C# 指南](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | 本指南详细演示如何使用 Aspose.Pdf 在 C# 中向 PDF 添加矩形形状。|  
+| [使用 Aspose.PDF 编辑 PDF 资源字典 – C# 指南](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | 本指南展示如何使用 Aspose.PDF for .NET 在 C# 中编辑 PDF 资源字典，实现自定义资源管理。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

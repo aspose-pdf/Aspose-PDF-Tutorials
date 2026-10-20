@@ -246,6 +246,8 @@ Meistern Sie die PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET. Verbessern 
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET in HTML umwandeln und die digitale Signatur prüfen.
 ### [PDF als HTML speichern mit Aspose.Pdf – Vollständige C#-Anleitung](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
 Erfahren Sie, wie Sie PDFs mit Aspose.Pdf in HTML konvertieren und dabei vollständige C#-Beispiele nutzen.
+### [Wie man den Bildexport bei PDF-zu-HTML überspringt – Vollständige C#-Anleitung](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET den Export von Bildern beim Konvertieren von PDF nach HTML deaktivieren.
 
 ### [PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Ein Code-Tutorial für Aspose.PDF Net

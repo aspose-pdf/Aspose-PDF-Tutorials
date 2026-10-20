@@ -61,6 +61,7 @@ Tutorial "Pemrograman dengan Stempel dan Tanda Air" Aspose.PDF untuk .NET memand
 | [Cara Menambahkan Tanda Air PDF – Tambahkan Overlay Teks PDF dengan Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Pelajari cara menambahkan tanda air teks ke file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode langkah demi langkah. |
 | [Tambahkan Transparansi ke PDF dengan Aspose.PDF – Panduan Lengkap C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Pelajari cara menambahkan transparansi ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap C# ini. Bahasa Indonesia:  
 | [Cara Mengubah Opasitas dalam PDF dengan Aspose.PDF – Panduan Lengkap](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Pelajari cara mengatur tingkat transparansi objek dalam PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode praktis. |
+| [Cara Menambahkan Penomoran Bates dalam PDF dengan Aspose – Panduan Langkah‑per‑Langkah](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Pelajari cara menambahkan penomoran Bates ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

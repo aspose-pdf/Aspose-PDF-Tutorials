@@ -63,6 +63,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [PDF en PPT](./pdf-to-ppt/) | Apprenez à convertir un PDF en PowerPoint avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour les présentations. |  
 | [PDF en SVG](./pdf-to-svg/) | Découvrez comment convertir des fichiers PDF au format SVG avec Aspose.PDF pour .NET grâce au tutoriel étape par étape. Idéal pour les développeurs et les designers. |  
 | [Convertir PDF en PDF/X‑1a en C# – Guide complet](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | Apprenez à convertir un PDF en PDF/X‑1a en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Convertir un PDF en PDF/X-4 avec C# – Guide complet Aspose.PDF](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | Apprenez à convertir un PDF en PDF/X‑4 en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [PDF vers TeX](./pdf-to-tex/) | Apprenez à convertir des PDF en TeX avec Aspose.PDF pour .NET grâce à un guide étape par étape. Idéal pour les développeurs souhaitant améliorer leurs compétences en traitement de documents. |  
 | [PDF vers XLS](./pdf-to-xls/) Convertissez facilement des fichiers PDF au format XLS avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour une extraction de données fluide. |  
 | [PDF en XML](./pdf-to-xml/) | Découvrez comment convertir un PDF en XML avec Aspose.PDF pour .NET grâce à ce tutoriel complet. Guide étape par étape avec exemples de code inclus. |  

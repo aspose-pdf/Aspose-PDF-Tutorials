@@ -64,6 +64,7 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Come aggiungere filigrana PDF – Aggiungere sovrapposizione di testo PDF con Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Scopri come aggiungere una filigrana di testo a un PDF usando Aspose.PDF per .NET con esempi di codice passo passo. |  
 | [Aggiungi trasparenza al PDF con Aspose.PDF – Guida completa C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Scopri come applicare la trasparenza ai PDF usando Aspose.PDF per .NET con esempi di codice C# completi. |
 | [Come modificare l'opacità in PDF con Aspose.PDF – Guida completa](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Scopri come modificare l'opacità di elementi PDF usando Aspose.PDF per .NET in questa guida dettagliata. |
+| [Come aggiungere la numerazione Bates in PDF con Aspose – Guida passo‑passo](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Scopri come inserire la numerazione Bates nei PDF usando Aspose.PDF per .NET con esempi di codice dettagliati. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

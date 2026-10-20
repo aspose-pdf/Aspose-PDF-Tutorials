@@ -92,6 +92,7 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [Konwertuj PDF do PDF/X‑1A w C# – Kompletny przewodnik krok po kroku](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Dowiedz się, jak w C# konwertować PDF do formatu PDF/X‑1A przy użyciu Aspose.PDF dla .NET, korzystając z tego kompletniego przewodnika krok po kroku. |
 | [Konwertuj PDF do PDFX przy użyciu Aspose.Pdf – Kompletny przewodnik](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Dowiedz się, jak konwertować pliki PDF do formatu PDF/X przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |
 | [Utwórz konwersję docx do PDF/X‑4 w C# – kompletny przewodnik](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Dowiedz się, jak w C# konwertować pliki docx do formatu PDF/X‑4, korzystając z Aspose.PDF dla .NET w pełnym przewodniku krok po kroku. |
+| [Konwertuj PDF do PDF/X‑4 przy użyciu C# – Kompletny przewodnik Aspose.PDF](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | Pełny przewodnik, jak w C# konwertować pliki PDF do formatu PDF/X‑4 przy użyciu biblioteki Aspose.PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

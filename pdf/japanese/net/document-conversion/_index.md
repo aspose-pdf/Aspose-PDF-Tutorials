@@ -91,6 +91,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [Aspose.Pdf を使用した PDF から PDFX への変換 – 完全ガイド](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使って PDF を PDFX 形式に変換する手順をステップバイステップで解説します。 |  
 | [C#でPDF/X‑4へのdocx変換を作成 – 完全ガイド](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して C# で docx を PDF/X‑4 に変換する方法を学びます。 |
 | [C#でPDFをPDF/X‑1Aに変換 – 完全ガイド](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C#でPDFをPDF/X‑1A形式に変換する方法をステップバイステップで解説します。 |  
+| [C#でPDFをPDF/X‑4に変換 – 完全なAspose.PDFガイド](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 に変換する完全ガイドです。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

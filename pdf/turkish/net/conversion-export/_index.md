@@ -235,6 +235,8 @@ Aspose.PDF for .NET ile PDF'den resimleri çıkartarak HTML'ye dönüştürmeyi 
 
 ### [PDF'yi HTML olarak kaydet – PDF oluştur, dikdörtgen şekil ekle](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 Aspose.PDF for .NET kullanarak PDF'yi HTML'ye kaydederken yeni bir PDF oluşturup içine dikdörtgen şekil eklemeyi öğrenin.
+### [PDF'den HTML'ye Görüntü Dışa Aktarımını Atlamanın Yolu – Tam C# Kılavuzu](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Aspose.PDF for .NET ile PDF'den HTML'ye dönüştürürken görüntüleri dışa aktarmamayı sağlayan C# kod örneklerini keşfedin.
 
 ## Ek Kaynaklar
 

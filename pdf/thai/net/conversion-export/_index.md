@@ -294,6 +294,8 @@
 เรียนรู้วิธีบันทึก PDF เป็น HTML พร้อมการสร้าง PDF และเพิ่มรูปสี่เหลี่ยมโดยใช้ Aspose.PDF สำหรับ .NET
 
 
+### [วิธีข้ามการส่งออกรูปภาพใน PDF ไปเป็น HTML – คู่มือ C# ฉบับสมบูรณ์](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)
