@@ -63,6 +63,7 @@ Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Cod
 | [PDF-Seite duplizieren mit Aspose.Pdf – Vollständige Anleitung](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Pdf für .NET eine PDF‑Seite duplizieren – Schritt‑für‑Schritt‑Anleitung für einfache Implementierung. |
 | [Bates-Nummerierung zu PDF hinzufügen mit Aspose.PDF – Vollständige Anleitung](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates‑Nummerierung zu PDF‑Dokumenten hinzufügen – Schritt‑für‑Schritt‑Anleitung. |
 | [Leere Seite zu PDF hinzufügen – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere Seite zu einer PDF-Datei hinzufügen – vollständige Schritt‑für‑Schritt‑Anleitung. |
+| [PDF-Opazität in C# mit Aspose.Pdf ändern – Schritt‑für‑Schritt‑Anleitung](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Transparenz von PDF‑Inhalten in C# anpassen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [Bates‑Nummerierung zu PDF hinzufügen mit Aspose – Schritt‑für‑Schritt‑Anleitung](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates‑Nummerierung zu PDFs hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

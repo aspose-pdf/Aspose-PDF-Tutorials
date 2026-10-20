@@ -33,6 +33,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Fyllningslinjetext i PDF-fil](./fill-stroke-text/) | Lär dig hur du enkelt fyller i strecktext i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden full av praktiska exempel. |  
 | [Hämta vattenstämpel från PDF-fil](./get-watermark/) | Lär dig hur du extraherar vattenstämplar från PDF-filer med Aspose.PDF för .NET med en steg-för-steg-guide. Detaljerad handledning för extraktion av vattenstämplar. |  
 | [Lägg till vattenstämpel i PDF i C# – Komplett guide med Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Lär dig hur du lägger till ett vattenstämpel i PDF-filer med C# och Aspose.PDF i en komplett steg-för-steg-guide. |
+| [Ändra opacitet i PDF med Aspose.PDF – Komplett guide](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Lär dig hur du justerar opaciteten i PDF-filer med Aspose.PDF för .NET i en tydlig steg-för-steg-guide. |
 | [Bild och sidnummer i sidhuvuds- och sidfotssektionen](./image-and-page-number-in-header-footer-section/) Lär dig hur du lägger till en bild och sidnummer i din PDF-fils sidhuvud och sidfot med hjälp av Aspose.PDF för .NET i den här steg-för-steg-handledningen. |  
 | [Bild och sidnummer i sidhuvuds- och sidfotsavsnittet infogat](./image-and-page-number-in-header-footer-section-inline/) | Lär dig hur du lägger till en bild och ett sidnummer infogat i sidhuvudet i en PDF med Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
 | [Bild i sidfot](./image-in-footer/) | Lär dig hur du lägger till en bild i sidfoten på en PDF med Aspose.PDF för .NET med den här detaljerade steg-för-steg-handledningen. Perfekt för att förbättra dina dokument. |  
@@ -63,6 +64,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Bates-numreringshandledning: Lägg till nummer i PDF med Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Lär dig hur du använder Bates-numrering för att automatiskt lägga till unika sidnummer i PDF-dokument med Aspose.PDF för .NET. |  
 | [Hur man lägger till vattenstämpel i PDF – Lägg till textöverlägg i PDF med Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Lär dig hur du lägger till en textbaserad vattenstämpel i en PDF med Aspose.PDF för .NET i denna steg-för-steg-guide. |
 | [Lägg till transparens i PDF med Aspose.PDF – Komplett C#-guide](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Lär dig hur du lägger till transparens i PDF-filer med Aspose.PDF för .NET i en komplett C#-guide. |  
+| [Hur du lägger till Bates-nummerering i PDF med Aspose – Steg‑för‑steg‑guide](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Lär dig hur du lägger till Bates-nummerering i PDF-filer med Aspose.PDF för .NET i en tydlig steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

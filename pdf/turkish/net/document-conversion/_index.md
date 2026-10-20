@@ -89,6 +89,9 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [PDF'yi C#'ta PDF/X‑1A'ye Dönüştür – Tam Kılavuz](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑1A formatına C# ile nasıl dönüştüreceğinizi adım adım öğrenin. |
 | [C# ile PDF'yi PDF/X‑1a'ya Dönüştür – Adım Adım Kılavuz](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarını PDF/X‑1a formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
 | [Aspose.PDF ile PDF'yi PDFX'e Dönüştür – Tam Kılavuz](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF'yi PDFX formatına nasıl dönüştüreceğinizi öğrenin. |
+| [C#'ta PDF/X‑4 docx dönüşümü oluşturma – tam rehber](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak C# ile docx dosyalarını PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |
+| [PDF'yi C#'ta PDF/X‑1A'ya Dönüştür – Tam Kılavuz](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarını PDF/X‑1A formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
+| [C# ile PDF'yi PDF/X‑4'e Dönüştür – Tam Aspose.PDF Rehberi](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | Aspose.PDF for .NET ile C# kullanarak PDF dosyalarını PDF/X‑4 formatına dönüştürmenin tam rehberi. |
 | [PDF/X‑4'e Dönüştürme Öğreticisi – PDF Standardını Ayarlayın ve Aspose Kullanarak PDF Dönüştürün](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Aspose.PDF for .NET ile PDF standardını ayarlayıp PDF'yi dönüştürmeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

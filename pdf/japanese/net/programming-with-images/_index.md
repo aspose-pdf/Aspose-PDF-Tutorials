@@ -53,6 +53,7 @@ Aspose.PDF for .NET の「画像を使ったプログラミング」チュート
 | [Word に図を追加 – 完全な C# プログラミング ガイド](./add-figure-to-word-complete-c-programming-guide/) Aspose.PDF for .NET を使用して、C# で Word 文書に図を追加する方法をステップバイステップで解説します。 |  
 | [DOCX の画像を圧縮 – ファイルサイズを削減](./compress-images-in-docx-reduce-file-size/) Aspose.PDF for .NET を使用して、DOCX 内の画像を圧縮し、ファイルサイズを小さくする方法を学びます。 |  
 | [Aspose.PDF で PDF の画像をトリミングする – 完全ガイド](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して、PDF 内の画像をトリミングする方法をステップバイステップで学びます。コード例と解説付き。 |  
+| [PDF画像説明用AIコパイロットの作成 – ステップバイステップガイド](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) Aspose.PDF for .NET を使用して、PDF画像の説明を生成する AI コパイロットを作成する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

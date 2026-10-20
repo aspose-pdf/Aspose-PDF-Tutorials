@@ -101,12 +101,14 @@ pdf.Save("output.pdf");
 | [Image In Header](./image-in-header/) | Learn how to add an image to the header of a PDF using Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [Page Number In Header Footer Using Floating Box](./page-number-in-header-footer-using-floating-box/) | Easily add page numbers in your PDF header and footer using a Floating Box with Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [Page Number Stamps In PDF File](./page-number-stamps/) | Learn how to add page number stamps to PDF files using Aspose.PDF for .NET through our easy-to-follow guide, complete with code example. |  
+| [How to Add Bates Numbering in PDF with Aspose – Step‑by‑Step Guide](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a clear step‑by‑step guide. |
 | [Table In Header Footer Section](./table-in-header-footer-section/) | Learn how to easily add text to the footer of a PDF file using Aspose.PDF for .NET. Step-by-step guide included for seamless integration. |  
 | [Text In Footer Of PDF File](./text-in-footer/) | Learn how to add text in the footer of PDF file with Aspose.PDF for .NET. |  
 | [Text In Header Of PDF File](./text-in-header/) | Learn to add text headers to PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your documents efficiently and effectively. |  
 | [Bates Numbering Tutorial: Add Numbers to PDF with Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Learn how to add Bates numbering to PDF documents using Aspose.PDF for .NET with step-by-step instructions and sample code. |  
 | [How to Add Watermark PDF – Add Text Overlay PDF with Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Learn how to add a text watermark overlay to PDF files using Aspose.PDF for .NET with step-by-step instructions. |  
 | [Add transparency to PDF with Aspose.PDF – Complete C# Guide](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Learn how to add transparency to PDF files using Aspose.PDF for .NET with a comprehensive C# guide. |  
+| [How to Change Opacity in PDF with Aspose.PDF – Complete Guide](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Learn how to change opacity in PDF files using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

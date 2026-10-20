@@ -26,7 +26,7 @@ Aspose.PDF .NET을 사용하여 PDF 파일 크기를 줄이는 방법을 알아�
 Aspose.PDF를 사용하여 .NET에서 PDF 관리를 최적화하는 방법을 알아보세요. 이 가이드에서는 원활한 문서 조작을 위한 페이지 삽입, 스트림 처리 및 성능 최적화 기술을 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 사용되지 않는 스트림을 제거하여 PDF를 최적화하는 방법](./optimize-pdfs-remove-unused-streams-aspose-pdf-net/)
-Aspose.PDF for .NET을 사용하여 PDF 파일을 간소화하고 크기를 줄이는 방법을 알아보세요. 이 가이드에서는 사용하지 않는 스트림 제거, 성능 향상, 문서 관리 최적화에 대해 다룹니다.
+Aspose.PDF for .NET을 사용하여 PDF 파일을 간소화하고 크기를 줄이는 방법을 알아보세요. 이 가이드는 사용하지 않는 스트림 제거, 성능 향상, 문서 관리 최적화에 대해 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF 크기를 줄이는 방법: 단계별 가이드](./shrink-pdf-size-aspose-pdf-net/)
 이 포괄적인 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일 크기를 효과적으로 줄이는 방법을 알아보세요. 문서를 손쉽게 최적화하고 저장 효율성을 높여보세요.
@@ -72,6 +72,8 @@ Aspose.PDF for .NET을 사용해 C#에서 PDF 파일 크기를 빠르게 줄이�
 C#을 사용해 Aspose PDF의 이미지 압축 기능으로 PDF 파일 크기를 신속하게 감소시키는 방법을 단계별로 안내합니다.
 ### [PDF 최적화 방법 – Aspose.Pdf를 사용한 완전 가이드](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
 Aspose.Pdf를 활용하여 PDF 파일을 최적화하는 단계별 방법을 배우고, 성능 향상과 파일 크기 감소를 실현하세요.
+### [.NET에서 PDF 최적화 방법 – 단계별 PDF 압축 가이드](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+이 가이드는 .NET 환경에서 PDF 파일을 압축하여 크기를 줄이고 성능을 향상시키는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

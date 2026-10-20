@@ -80,11 +80,13 @@
 ### [Конвертируйте PDF в HTML с пользовательскими размерами с помощью Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Учебник по коду для Aspose.PDF Net
 
-### [Конвертируйте PDF в HTML с помощью пользовательских URL-адресов изображений с помощью Aspose.PDF .NET: подробное руководство](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
+### [Конвертируйте PDF в HTML с пользовательскими URL-адресами изображений с помощью Aspose.PDF .NET: подробное руководство](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Узнайте, как преобразовывать PDF-документы в формат HTML с помощью Aspose.PDF для .NET, включая настройку URL-адресов изображений и реализацию индивидуальной стратегии экономии ресурсов.
 
 ### [Преобразование PDF в HTML и проверка подписи PDF – Полное руководство Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Узнайте, как конвертировать PDF в HTML и проверять цифровую подпись PDF с помощью Aspose.PDF для .NET, используя пошаговые примеры кода.
+### [Как пропустить экспорт изображений при преобразовании PDF в HTML – Полное руководство на C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Узнайте, как отключить экспорт изображений при конвертации PDF в HTML с помощью Aspose.PDF для .NET на C#.
 
 ### [Конвертируйте PDF в PNG с помощью Aspose.PDF .NET: улучшенная подсказка шрифтов для четкой визуализации текста](./convert-pdf-png-aspose-net-font-hinting/)
 Узнайте, как преобразовывать PDF-документы в высококачественные изображения PNG с помощью Aspose.PDF .NET, обеспечивая четкую визуализацию текста с помощью подсказок шрифтов.

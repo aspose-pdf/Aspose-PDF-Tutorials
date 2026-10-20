@@ -79,6 +79,9 @@ Pelajari cara membandingkan dokumen PDF secara visual menggunakan Aspose.Pdf den
 ### [Bandingkan Dua Dokumen PDF – Panduan Lengkap C#](./compare-two-pdf-documents-complete-c-guide/)
 Pelajari cara membandingkan dua dokumen PDF menggunakan C# dengan Aspose.PDF secara lengkap.
 
+### [Menambahkan Transparansi ke PDF dengan Aspose.Pdf – Panduan Lengkap .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Pelajari cara menambahkan efek transparansi pada PDF menggunakan Aspose.Pdf untuk .NET dengan contoh kode lengkap.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

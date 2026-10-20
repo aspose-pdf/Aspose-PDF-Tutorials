@@ -85,6 +85,9 @@ Scopri come convertire i file PDF in HTML utilizzando Aspose.PDF per .NET senza 
 ### [Salva PDF senza immagini – Converti PDF in HTML con Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
 Scopri come salvare PDF senza includere le immagini convertendoli in HTML con Aspose, riducendo le dimensioni del file.
 
+### [Come ignorare l'esportazione delle immagini nella conversione da PDF a HTML – Guida completa C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Scopri come convertire PDF in HTML senza esportare le immagini, usando Aspose.PDF per .NET con C#.
+
 Scopri come convertire i file PDF in formato HTML utilizzando Aspose.PDF per .NET e personalizzare i percorsi delle immagini in modo efficiente. Ideale per l'integrazione web.
 
 ### [Converti PDF in HTML con Aspose.PDF per .NET: conserva i font nei formati TTF e WOFF](./convert-pdf-html-aspose-net-truetype-woff/)

@@ -169,6 +169,11 @@ Dowiedz się, jak stylizować tekst w oznaczonych dokumentach PDF za pomocą Asp
 
 ### [Jak redagować PDF za pomocą Aspose – przewodnik krok po kroku](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Dowiedz się, jak usuwać wrażliwe informacje z plików PDF przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku.
+### [Jak podsumować PDF przy użyciu Aspose.Pdf.AI – kompletny przewodnik](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Dowiedz się, jak podsumować dokumenty PDF przy użyciu Aspose.Pdf.AI, korzystając z pełnego przewodnika krok po kroku.
+
+### [AI czat PDF: zadawaj pytania do PDF za pomocą Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Dowiedz się, jak używać Aspose AI Copilot do zadawania pytań i uzyskiwania odpowiedzi z dokumentów PDF.
 ### [Jak podsumować PDF za pomocą Aspose.Pdf.AI – przewodnik](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 Dowiedz się, jak wykorzystać Aspose.Pdf.AI do automatycznego podsumowywania treści dokumentów PDF w aplikacjach .NET.
 

@@ -276,6 +276,8 @@ Aprenda a extrair e salvar o conteúdo HTML de um PDF usando Aspose.PDF para .NE
 Aprenda a salvar PDFs como HTML usando Aspose.Pdf em C#, com exemplos completos e dicas de otimização.
 ### [Converter PDF para HTML em C# – Guia Completo Passo a Passo](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 Aprenda a converter PDFs para HTML em C# usando Aspose.PDF, com instruções detalhadas e dicas de otimização.
+### [Como pular a exportação de imagens ao converter PDF para HTML – Guia completo em C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Aprenda a converter PDFs para HTML sem exportar imagens, usando C# e Aspose.PDF, com um guia passo a passo completo.
 
 ### [Conversão de PDF para TIFF no .NET usando Aspose.PDF: um guia passo a passo](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aprenda a converter documentos PDF em imagens TIFF usando o Aspose.PDF para .NET. Domine profundidades de cores personalizadas e técnicas avançadas de processamento de imagens.

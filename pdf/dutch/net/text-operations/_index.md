@@ -168,6 +168,10 @@ Leer hoe u tekst in gelabelde PDF-documenten kunt stylen met Aspose.PDF voor .NE
 
 ### [Hoe PDF te redigeren met Aspose – een stapsgewijze handleiding](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Leer hoe u gevoelige informatie uit PDF-documenten kunt verwijderen met Aspose.PDF voor .NET via een duidelijke stap‑voor‑stap gids.
+### [Hoe PDF samen te vatten met Aspose.Pdf.AI – een volledige handleiding](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Leer hoe u met Aspose.Pdf.AI automatisch een samenvatting van PDF-documenten genereert en integreert in uw .NET-toepassing.
+
+### [AI-chat-PDF: PDF-vragen stellen met Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 ### [Hoe PDF samen te vatten met Aspose.Pdf.AI – handleiding](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 Leer hoe u met Aspose.Pdf.AI automatisch samenvattingen van PDF-documenten genereert in .NET.
 

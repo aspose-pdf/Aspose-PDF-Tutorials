@@ -169,6 +169,9 @@
 
 ### [Как скрыть конфиденциальную информацию в PDF с помощью Aspose – пошаговое руководство](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Узнайте, как эффективно скрывать конфиденциальные данные в PDF-документах с помощью Aspose, следуя пошаговому руководству.
+### [Как суммировать PDF с помощью Aspose.Pdf.AI — полное руководство](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI‑чат PDF: задавайте вопросы PDF с Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 ### [Как суммировать PDF с помощью Aspose.Pdf.AI – руководство](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 Узнайте, как быстро создавать резюме PDF-документов с помощью Aspose.Pdf.AI в .NET.
 

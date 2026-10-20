@@ -78,6 +78,8 @@ Lär dig att visuellt jämföra PDF-dokument och skapa diff-filer med Aspose.Pdf
 
 ### [Jämför två PDF-dokument – Komplett C#-guide](./compare-two-pdf-documents-complete-c-guide/)
 Lär dig att jämföra två PDF-dokument i C# och skapa diff-filer med Aspose.PDF för .NET.
+### [Lägg till transparens i PDF med Aspose.Pdf – Komplett .NET-guide](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose.Pdf för .NET i en komplett guide.
 
 ## Ytterligare resurser
 

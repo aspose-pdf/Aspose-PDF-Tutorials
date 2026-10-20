@@ -169,6 +169,11 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF 对 PDF 进行编辑（遮蔽）——分步指南](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 对 PDF 文档进行敏感信息遮蔽，包括文本和图像的删除与隐藏，确保文档安全合规。
+### [使用 Aspose.PDF AI 对 PDF 进行摘要的完整指南](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+了解如何使用 Aspose.Pdf.AI 自动生成 PDF 内容摘要的完整步骤和代码示例。
+
+### [AI 聊天 PDF：使用 Aspose AI Copilot 提问 PDF 文档](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+了解如何使用 Aspose AI Copilot 与 PDF 进行交互式问答，轻松获取文档信息。
 ### [如何使用 Aspose.Pdf.AI 总结 PDF – 指南](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 了解如何使用 Aspose.Pdf.AI 对 PDF 文档进行自动摘要，提升信息提取效率。
 

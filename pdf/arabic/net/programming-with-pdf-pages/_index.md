@@ -63,6 +63,7 @@
 | [إضافة ترقيم بايتس إلى ملفات PDF باستخدام C# – دليل كامل](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | دليل خطوة بخطوة لإضافة ترقيم بايتس إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET. |  
 | [تكرار صفحة PDF باستخدام Aspose.Pdf – دليل كامل](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | دليل خطوة بخطوة لتكرار صفحة في ملف PDF باستخدام Aspose.PDF لـ .NET. |  
 | [إضافة ترقيم بايتس إلى PDF باستخدام Aspose.PDF – دليل كامل](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | دليل خطوة بخطوة لإضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. |  
+| [تغيير شفافية PDF في C# باستخدام Aspose.PDF – دليل خطوة بخطوة](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) دليل خطوة بخطوة لتغيير شفافية ملفات PDF باستخدام Aspose.PDF لـ .NET في C#. |
 | [إضافة ترقيم Bates إلى PDF باستخدام Aspose – دليل خطوة بخطوة](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

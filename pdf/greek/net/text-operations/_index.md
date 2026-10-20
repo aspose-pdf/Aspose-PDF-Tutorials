@@ -167,6 +167,10 @@
 ### [Πώς να επεξεργαστείτε PDF με Redaction χρησιμοποιώντας το Aspose – Οδηγός βήμα‑βήμα](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Μάθετε πώς να αφαιρείτε ευαίσθητες πληροφορίες από PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα‑βήμα.
 ### [Πώς να Αναζητήσετε PDF με το Aspose.Pdf – Πλήρης Οδηγός C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+### [Πώς να συνοψίσετε PDF με το Aspose.Pdf.AI – πλήρης οδηγός](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI συνομιλία PDF: θέστε ερωτήσεις PDF με το Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Μάθετε πώς να χρησιμοποιείτε το Aspose AI Copilot για να κάνετε ερωτήσεις σε αρχεία PDF και να λαμβάνετε απαντήσεις μέσω AI.
 ### [Πώς να συνοψίσετε PDF με το Aspose.Pdf.AI – οδηγός](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 Μάθετε πώς να δημιουργείτε περιλήψεις PDF χρησιμοποιώντας το Aspose.Pdf.AI με αυτόν τον βήμα-βήμα οδηγό.
 

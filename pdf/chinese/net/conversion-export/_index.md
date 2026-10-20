@@ -241,6 +241,9 @@ Aspose-PDF Net 代码教程
 ### [使用 Aspose.PDF for .NET 中的字体处理功能，掌握 PDF 到 HTML 的转换](./optimize-pdf-to-html-font-handling-aspose-net/)
 了解如何使用 Aspose.PDF for .NET 优化 PDF 到 HTML 的转换，重点关注高效的字体资源处理和无缝集成。
 
+### [如何在 PDF 转 HTML 时跳过图像导出 – 完整 C# 指南](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+学习使用 Aspose.PDF for .NET 在将 PDF 转换为 HTML 时跳过图像导出，以提升转换速度并减小文件体积。
+
 ### [使用 Aspose.PDF .NET 将 PDF 转换为 HTML：综合指南](./aspose-pdf-net-pdf-to-html-conversion/)
 使用 Aspose.PDF for .NET 掌握 PDF 到 HTML 的转换。通过可自定义的选项增强文档的可访问性和参与度。
 

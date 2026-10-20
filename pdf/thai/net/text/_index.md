@@ -29,6 +29,8 @@
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="ย่อหน้าหลายคอลัมน์ใน PDF โดยใช้ Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="วิธีใช้ Aspose เพื่อดึงข้อความจาก PDF ที่สแกน – คู่มือทีละขั้นตอน" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

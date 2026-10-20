@@ -76,6 +76,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET zwei PDF-Dokumente vergleichen un
 
 ### [PDF-Dokumente vergleichen mit Aspose.Pdf – Vollständige visuelle Diff-Anleitung](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
 Erfahren Sie, wie Sie PDF-Dokumente visuell vergleichen und Unterschiede programmatisch ermitteln.
+### [Transparenz zu PDF mit Aspose.Pdf hinzufügen – Vollständige .NET-Anleitung](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET Transparenz zu PDF-Dokumenten hinzufügen und komplexe Grafik‑Effekte umsetzen.
 
 ## Weitere Ressourcen
 

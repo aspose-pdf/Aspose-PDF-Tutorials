@@ -29,6 +29,7 @@ Aspose.PDF for .NET의 "이미지 프로그래밍" 튜토리얼은 PDF 문서에
 | [이미지 스트림을 PDF 파일로 변환](./convert-image-stream-to-pdf/) | Aspose.PDF for .NET을 사용하여 이미지 스트림을 PDF로 쉽게 변환하는 자세한 단계별 가이드를 소개합니다. 이미지를 PDF로 손쉽게 변환하는 방법을 알아보세요. |  
 | [페이지 영역을 DOM으로 변환](./convert-page-region-to-dom/) Aspose.PDF for .NET을 사용하여 PDF 문서의 잠재력을 최대한 활용하세요. PDF의 특정 영역을 이미지로 변환하고 워크플로우를 개선하세요. |  
 | [BMP로 변환](./convert-to-bmp/) | Aspose.PDF for .NET을 사용하여 PDF를 BMP 이미지로 쉽게 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. .NET 개발자에게 안성맞춤입니다. |  
+| [PDF 이미지 설명을 위한 AI 코파일럿 만들기 – 단계별 가이드](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Aspose.PDF for .NET과 AI를 활용해 PDF 이미지에 대한 자동 설명을 생성하는 방법을 단계별로 안내합니다. |
 | [PDF 파일에 썸네일 이미지 만들기](./create-thumbnail-images/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 각 페이지에 대한 썸네일 이미지를 손쉽게 생성하세요. 문서 미리보기 경험을 향상시켜 보세요. |  
 | [PDF 파일에서 이미지 삭제](./delete-images/) | Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 삭제하는 간단한 단계별 튜토리얼을 알아보세요. 원치 않는 이미지를 쉽게 제거하여 PDF 파일을 최적화하세요. |  
 | [PDF 파일에서 이미지 추출](./extract-images/) | Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 추출하는 방법을 단계별 가이드를 통해 알아보세요. 따라 하기 쉬운 지침으로 시작해 보세요. |  

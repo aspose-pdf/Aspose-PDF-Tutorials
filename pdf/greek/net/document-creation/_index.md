@@ -18,6 +18,7 @@
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Δημιουργία εγγράφου PDF/X‑3 με τρεις σελίδες χρησιμοποιώντας το Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Πώς να δημιουργήσετε έγγραφο PDF/X‑1 με το Aspose.PDF για .NET" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [Δημιουργία φυλλαδίων PDF χρησιμοποιώντας το Aspose.PDF για .NET: Οδηγός βήμα προς βήμα](./aspose-pdf-net-create-booklets-tutorial/)
 Μάθετε πώς να δημιουργείτε επαγγελματικά φυλλάδια PDF με το Aspose.PDF για .NET. Αυτό το σεμινάριο καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 
@@ -97,8 +98,11 @@
 
 ### [Δημιουργία εγγράφου PDF με Aspose.PDF – Προσθήκη σελίδας, σχήματος & αποθήκευση](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF, να προσθέσετε σελίδα, σχήμα και να το αποθηκεύσετε χρησιμοποιώντας το Aspose.PDF.
+
+
 ### [Δημιουργία εγγράφου PDF με Aspose σε C# – Οδηγός βήμα προς βήμα](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφο PDF σε C# χρησιμοποιώντας το Aspose με αναλυτικές οδηγίες βήμα‑βήμα.
+
 ### [Δημιουργία εγγράφου PDF C# – Προσθήκη κενής σελίδας & Σχεδίαση ορθογωνίου](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Μάθετε πώς να δημιουργήσετε PDF σε C#, προσθέτοντας κενή σελίδα και σχεδιάζοντας ορθογώνιο.
 ### [Δημιουργία εγγράφου PDF σε C# – Προσθήκη κενής σελίδας, ετικετών και Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
@@ -120,6 +124,13 @@
 ### [Δημιουργία εικόνας PDF από HEIC – Πλήρης οδηγός C#](./create-pdf-image-from-heic-complete-c-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία HEIC σε εικόνες PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες C# βήμα‑βήμα.
 
+### [Δημιουργία νέου εγγράφου PDF με αρίθμηση Bates σε C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Μάθετε πώς να δημιουργήσετε ένα νέο έγγραφο PDF με αρίθμηση Bates χρησιμοποιώντας C# και Aspose.PDF.
+
+### [Δημιουργία εγγράφου PDF/X‑4 C# – οδηγός βήμα προς βήμα](./create-pdf-x-4-document-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο PDF/X‑4 με C# και Aspose.PDF ακολουθώντας βήμα‑βήμα οδηγίες.
+### [Δημιουργία εγγράφου PDF με κενή σελίδα και ορθογώνιο](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Μάθετε πώς να δημιουργήσετε έγγραφο PDF με κενή σελίδα και ορθογώνιο.
 ### [Δημιουργία εγγράφου PDF σε C# με το Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF σε C# χρησιμοποιώντας το Aspose.PDF.
 

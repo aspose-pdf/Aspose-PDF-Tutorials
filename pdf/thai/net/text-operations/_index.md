@@ -169,6 +169,11 @@
 
 ### [วิธีลบข้อมูลลับใน PDF ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 เรียนรู้วิธีลบข้อมูลลับจากไฟล์ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET ด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [วิธีสรุป PDF ด้วย Aspose.Pdf.AI – คู่มือฉบับสมบูรณ์](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+เรียนรู้วิธีสรุปเนื้อหา PDF อย่างรวดเร็วด้วย Aspose.Pdf.AI พร้อมขั้นตอนและตัวอย่างโค้ดครบถ้วน
+
+### [AI Chat PDF: ถามคำถาม PDF ด้วย Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+เรียนรู้วิธีใช้ Aspose AI Copilot เพื่อถามและรับคำตอบจากเอกสาร PDF อย่างมีประสิทธิภาพ
 ### [วิธีสรุป PDF ด้วย Aspose.Pdf.AI – คู่มือ](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 เรียนรู้วิธีสรุปเนื้อหา PDF อย่างรวดเร็วด้วย Aspose.Pdf.AI ด้วยคำแนะนำทีละขั้นตอน
 

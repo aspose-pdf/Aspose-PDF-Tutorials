@@ -63,6 +63,7 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Přidat Batesovo číslování do PDF pomocí C# – Kompletní průvodce](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí C# a Aspose.PDF pro .NET. |
 | [Duplikovat stránku PDF pomocí Aspose.Pdf – Kompletní průvodce](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Kompletní návod, jak duplikovat stránku v PDF pomocí Aspose.PDF pro .NET. |
 | [Přidat Batesovo číslování do PDF pomocí Aspose.PDF – Kompletní průvodce](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Naučte se, jak přidat Batesovo číslování do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci. |
+| [Změna průhlednosti PDF v C# – krok‑za‑krokem průvodce](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak změnit průhlednost PDF pomocí Aspose.PDF pro .NET v C# s podrobným krok‑za‑krokem návodem. |
 | [Přidat Batesovo číslování PDF pomocí Aspose – průvodce krok za krokem](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí Aspose.PDF pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

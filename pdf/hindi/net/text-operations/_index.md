@@ -165,6 +165,10 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 Aspose का उपयोग करके PDF दस्तावेज़ों में संवेदनशील जानकारी को हटाने या ब्लैकआउट करने का तरीका जानें।
 ### [Aspose.Pdf के साथ PDF कैसे खोजें – पूर्ण C# गाइड](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
 Aspose.Pdf का उपयोग करके C# में PDF फ़ाइलों में टेक्स्ट खोजने के लिए चरण-दर-चरण मार्गदर्शिका।
+### [Aspose.Pdf.AI के साथ PDF का सारांश कैसे बनाएं – पूर्ण गाइड](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI चैट PDF: Aspose AI कोपायलट के साथ PDF प्रश्न पूछें](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Aspose AI कोपायलट का उपयोग करके PDF से प्रश्न पूछने और उत्तर प्राप्त करने का तरीका जानें।
 ### [Aspose.Pdf.AI के साथ PDF का सारांश कैसे बनाएं – गाइड](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## अतिरिक्त संसाधन

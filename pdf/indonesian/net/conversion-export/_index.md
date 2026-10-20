@@ -54,6 +54,10 @@ Pelajari cara mengonversi halaman PDF menjadi gambar BMP berkualitas tinggi meng
 Pelajari cara mengonversi halaman PDF ke format EMF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, petunjuk langkah demi langkah, dan praktik terbaik.
 ### [Konversi PDF ke EMF dengan Aspose.PDF untuk .NET](./convert-pdf-to-emf-aspose-dotnet/)
 Tutorial kode untuk Aspose.PDF Net
+
+### [Cara Melewatkan Ekspor Gambar dalam PDF ke HTML – Panduan Lengkap C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Pelajari cara mengonversi PDF ke HTML tanpa mengekspor gambar menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
+
 ### [Konversi PDF ke HTML dalam .NET Menggunakan Aspose.PDF Tanpa Menyimpan Gambar](./convert-pdf-html-net-asposepdf-no-images/)
 Pelajari cara mengonversi file PDF ke HTML menggunakan Aspose.PDF untuk .NET tanpa menyimpan gambar secara terpisah. Pertahankan integritas tata letak dengan panduan terperinci kami.
 ### [Konversi PDF ke HTML Menggunakan Aspose.PDF untuk .NET: Panduan Output Aliran](./convert-pdf-html-aspose-dotnet-guide/)

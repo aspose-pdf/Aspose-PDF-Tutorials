@@ -20,33 +20,28 @@ Discover how to enhance PDF documents with visual elements using our comprehensi
 using Aspose.Pdf;
 using Aspose.Pdf.Annotations;
 
-var pdfDocument = new Document("input.pdf");
-var stamp = new ImageStamp("logo.png")
-{
-    Width = 100,
-    Height = 50,
-    HorizontalAlignment = HorizontalAlignment.Center,
-    VerticalAlignment = VerticalAlignment.Bottom,
-    Opacity = 0.5
-};
+### [How to add transparency to PDF using Aspose.PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 
-foreach (var page in pdfDocument.Pages)
-{
-    page.AddStamp(stamp);
-}
 
 pdfDocument.Save("output.pdf");
 ```
 
 ## Available Tutorials
-### [How to add transparency to PDF using Aspose.PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+### [How to set transparency in a PDF with Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 
 
 
 ### [Add image stamps to PDFs using Aspose.PDF for .NET&#58; a step‑Step guide]({{< relref "add-image-stamp-to-pdf-aspose-dotnet" >}})
+### [Add graphics state pdf with Aspose.Pdf – step‑by‑step guide](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+
+### [Add Image Stamps to PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./add-image-stamp-to-pdf-aspose-dotnet/)
 Learn how to seamlessly add image stamps, such as logos, to every page of a PDF using Aspose.PDF for .NET. Enhance your documents with professional branding.
 
 ### [Add images to PDFs using Aspose.PDF for .NET&#58; a step‑Step guide]({{< relref "adding-images-aspose-pdf-net-guide" >}})
+### [Add custom ExtGState PDF with Aspose.PDF – step‑by‑step guide](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Learn how to add custom ExtGState objects to PDFs using Aspose.PDF for .NET, enabling advanced transparency and blending effects.
+
+### [Add Images to PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./adding-images-aspose-pdf-net-guide/)
 Learn how to add images to PDF documents using Aspose.PDF for .NET with this detailed guide. Enhance your reports and brochures by mastering XImage collections and matrix transformations.
 
 ### [Add Text with Gradient Shading in Aspose.PDF for .NET&#58; A Step-by-Step Guide]({{< relref "add-text-gradient-shading-aspose-pdf-net" >}})
@@ -68,9 +63,17 @@ Learn how to draw a rectangle in a PDF using Aspose.PDF for .NET with C#. Follow
 Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with C# in this comprehensive guide.
 
 ### [Add Rectangle to PDF with Aspose.PDF – Complete Programming Guide]({{< relref "add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu" >}})
+### [Add Rectangle to PDF with C# – Full Aspose PDF Guide](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with C# in this comprehensive guide.
+
+### [Add Rectangle to PDF with Aspose.PDF – Complete Programming Guide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with a complete programming guide and practical C# examples.
 
 ### [Create Custom PDF Stamps with Aspose.PDF in .NET]({{< relref "create-custom-pdf-stamps-aspose-pdf-net" >}})
+### [Add rectangle to PDF with C# – step‑by‑step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Learn how to add a rectangle shape to a PDF using Aspose.PDF for .NET with C#.
+
+### [Create Custom PDF Stamps with Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 A code tutorial for Aspose.PDF Net
 
 ### [Create PDFs with border highlights using Aspose.PDF .NET&#58; a comprehensive guide for developers]({{< relref "create-pdf-borders-highlight-aspose-pdf-net" >}})
@@ -80,6 +83,10 @@ Learn how to create visually appealing PDF documents by extracting and highlight
 A code tutorial for Aspose.PDF Net
 
 ### [Efficient PDF Image Identification with Aspose.PDF for .NET]({{< relref "master-image-identification-aspose-pdf-net" >}})
+### [How to add graphics state pdf and control transparency with Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Learn how to use graphics state to control transparency in PDFs with Aspose.PDF for .NET.
+
+### [Efficient PDF Image Identification with Aspose.PDF for .NET](./master-image-identification-aspose-pdf-net/)
 Learn how to identify grayscale and RGB images in PDFs using Aspose.PDF for .NET. This tutorial covers installation, image extraction, and performance tips.
 
 ### [Efficiently Convert Image Streams to PDFs with Aspose.PDF for .NET]({{< relref "convert-image-stream-to-pdf-aspose-dotnet" >}})
@@ -131,6 +138,10 @@ Learn how to add image stamps, such as logos or watermarks, to your PDFs using A
 Learn how to add shapes to PDF documents using Aspose.PDF for .NET with C# in this step-by-step guide.
 
 ### [How to Convert PDF Pages to PNG Images Using Aspose.PDF for .NET]({{< relref "convert-pdf-page-to-png-aspose-dotnet" >}})
+### [How to add transparency to PDF and draw a rectangle on PDF with Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Learn how to add transparency and draw rectangles in PDFs using Aspose.PDF for .NET.
+
+### [How to Convert PDF Pages to PNG Images Using Aspose.PDF for .NET](./convert-pdf-page-to-png-aspose-dotnet/)
 Learn how to convert PDF pages to high-quality PNG images using Aspose.PDF for .NET. Follow this step-by-step guide with code examples and best practices.
 
 ### [How to Create Dashed Lines in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide]({{< relref "create-dashed-lines-aspose-pdf-net" >}})

@@ -169,6 +169,10 @@ Learn how to style text in tagged PDF documents with Aspose.PDF for .NET. This g
 
 ### [How to Redact PDF with Aspose – Step‑by‑Step Guide](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Learn how to redact sensitive information from PDF files using Aspose.PDF for .NET with a step‑by‑step guide and C# code examples.
+### [How to summarize PDF with Aspose.Pdf.AI – complete guide](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Learn how to generate concise summaries of PDF documents using Aspose.Pdf.AI with a step-by-step guide.
+
+### [ai chat pdf: ask PDF questions with Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 ### [How to summarize PDF with Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## Additional Resources
