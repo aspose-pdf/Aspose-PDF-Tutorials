@@ -176,7 +176,7 @@ Tìm hiểu cách chuyển đổi hình ảnh Computer Graphics Metafile (CGM) s
 ### [Cách chuyển đổi EPUB sang PDF bằng Aspose.PDF .NET: Hướng dẫn từng bước](./convert-epub-pdf-aspose-pdf-net-guide/)
 Tìm hiểu cách chuyển đổi tệp EPUB sang PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Hoàn hảo cho các nhà phát triển cần chuyển đổi tài liệu liền mạch.
 
-### [Cách chuyển đổi HTML sang PDF bằng Aspose.PDF .NET: Hướng dẫn đầy đủ](./convert-html-pdf-aspose-pdf-net-guide/)
+### [Cách chuyển đổi HTML sang PDF bằng Aspose.PDF .NET: Hướng dẫn đầy đủ](./convert-html-pdf-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi hiệu quả các tài liệu HTML thành PDF chuyên nghiệp bằng Aspose.PDF .NET. Khám phá các kỹ thuật xử lý tài nguyên bên ngoài và hiển thị nội dung phức tạp.
 
 ### [Cách chuyển đổi hình ảnh CGM lớn sang PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
