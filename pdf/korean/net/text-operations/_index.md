@@ -41,7 +41,7 @@ Aspose.PDF for .NET을 사용하여 PDF 파일의 텍스트를 효율적으로 �
 ### [Aspose.PDF for .NET을 사용하여 PDF에 사용자 정의 글꼴 포함: 전체 가이드](./embed-fonts-aspose-pdf-net-tutorial/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 사용자 지정 글꼴을 매끄럽게 포함하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 따라 플랫폼 전반에서 브랜드 일관성을 유지하세요.
 
-### [.NET용 Aspose.PDF를 사용하여 PDF에 글꼴 포함: 단계별 가이드](./embed-fonts-aspose-pdf-net-guide/)
+### [Aspose.PDF for .NET을 사용하여 PDF에 글꼴 포함: 단계별 가이드](./embed-fonts-aspose-pdf-net-guide/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 글꼴을 포함하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 여러 플랫폼에서 일관된 타이포그래피를 구현해 보세요.
 
 ### [Aspose.PDF .NET을 사용하여 PDF에 Type 1 글꼴 삽입 | 종합 가이드](./embed-type-1-fonts-aspose-pdf-net/)
@@ -95,7 +95,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서 내 특정 영역에서 텍스트
 ### [Aspose.PDF .NET을 사용하여 PDF에서 텍스트를 강조 표시하는 방법: 포괄적인 가이드](./highlight-text-aspose-pdf-net/)
 Aspose.PDF .NET을 사용하여 PDF 문서에서 텍스트를 효율적으로 강조 표시하는 방법을 단계별 지침과 코드 예제와 함께 알아보세요.
 
-### [.NET용 Aspose.PDF에서 문자열 너비를 측정하는 방법: 글꼴 및 TextState 사용 가이드](./measuring-string-width-aspose-pdf-net/)
+### [.NET용 Aspose.PDF를 사용하여 문자열 너비를 측정하는 방법: 글꼴 및 TextState 사용 가이드](./measuring-string-width-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 Font 및 TextState 객체를 사용하여 문자열 너비를 정확하게 측정하는 방법을 알아보세요. 이 가이드에서는 자세한 구현 단계, 실제 적용 사례, 그리고 성능 향상 팁을 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF의 텍스트를 회전하는 방법: 단계별 가이드](./rotate-text-aspose-pdf-net-guide/)
@@ -134,8 +134,11 @@ Aspose.PDF for .NET을 사용하여 PDF에서 텍스트를 효율적으로 추�
 ### [Aspose.PDF for .NET을 활용한 PDF 텍스트 조작 마스터하기: 종합 가이드](./mastering-pdf-text-manipulation-aspose-dotnet/)
 Aspose.PDF for .NET을 사용하여 PDF에 텍스트를 추가하고 스타일을 지정하는 방법을 알아보세요. 이 가이드에서는 설정, 스타일 지정, 하이퍼링크 및 실제 적용 방법을 다룹니다.
 
-### [PDF 텍스트 조작 마스터하기: Aspose.PDF for .NET을 사용하여 PDF의 텍스트 회전 및 사용자 지정](./aspose-pdf-net-create-rotate-text-pdfs/)
+### [PDF 텍스트 회전 및 사용자 지정](./aspose-pdf-net-create-rotate-text-pdfs/)
 Aspose.PDF for .NET을 사용하여 PDF 문서 내에서 텍스트를 효과적으로 회전하고 사용자 지정하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 고급 기능에 대해 설명합니다.
+
+### [Aspose.Pdf.AI를 사용하여 PDF 요약하기 – 완전 가이드](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Aspose.Pdf.AI를 활용해 PDF 내용을 자동으로 요약하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF .NET을 사용하여 정규 표현식을 사용한 PDF 텍스트 검색 마스터하기](./aspose-pdf-net-regex-text-search/)
 Aspose.PDF Net에 대한 코드 튜토리얼
@@ -163,6 +166,14 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 
 ### [Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF의 텍스트 스타일 지정 | 접근성 있고 미적인 PDF 생성 가이드](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF 문서의 텍스트 스타일을 지정하는 방법을 알아보세요. 이 가이드에서는 접근성을 향상시키기 위한 설치, 기술 및 실제 적용 방법을 다룹니다.
+
+### [Aspose를 사용하여 PDF를 마스킹하는 방법 – 단계별 가이드](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET을 사용하여 PDF 문서에서 민감한 정보를 마스킹하고 보호하는 방법을 단계별로 알아보세요.
+### [Aspose.Pdf를 사용하여 PDF 검색하기 – 완전 C# 가이드](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.Pdf for .NET을 사용하여 PDF 문서에서 텍스트 검색을 수행하는 방법을 단계별로 안내합니다.
+### [AI 채팅 PDF: Aspose AI Copilot을 사용하여 PDF 질문하기](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Aspose AI Copilot을 활용해 PDF에 질문하고 답변을 얻는 방법을 단계별로 안내합니다.
+### [Aspose.Pdf.AI를 사용하여 PDF 요약하기 – 가이드](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## 추가 자료
 

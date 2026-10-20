@@ -24,17 +24,11 @@ title: PDF-Dokument in C# erstellen – Seite hinzufügen, Rechteck zeichnen & s
 url: /de/net/document-creation/create-pdf-document-c-add-page-draw-rectangle-save/
 ---
 
-speichern". Keep same style.
 
-Proceed.
 
-I'll translate.
 
-Be careful with bullet points, keep formatting.
 
-Also keep links unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

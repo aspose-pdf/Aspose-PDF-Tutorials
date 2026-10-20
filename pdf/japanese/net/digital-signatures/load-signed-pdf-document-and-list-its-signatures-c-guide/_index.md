@@ -38,8 +38,6 @@ By the end of this guide you’ll be able to:
 
 外部ツールは不要ですし、曖昧な「ドキュメントを見る」的なショートカットもありません—そのまま Visual Studio にコピー＆ペーストできる、完全で実行可能なサンプルです。
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="署名済みPDFドキュメントのロードと署名抽出のフロー図")
-
 ## 前提条件
 
 本題に入る前に、以下がマシンに揃っていることを確認してください：

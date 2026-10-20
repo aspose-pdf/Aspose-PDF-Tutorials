@@ -24,9 +24,7 @@ title: C# में साइन किया गया PDF बनाएं – 
 url: /hi/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
 
-markdown tables.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

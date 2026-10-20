@@ -22,7 +22,7 @@ title: C#でPDFデジタル署名を検証する – 完全ガイド
 url: /ja/net/programming-with-security-and-signatures/verify-pdf-digital-signature-in-c-complete-guide/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

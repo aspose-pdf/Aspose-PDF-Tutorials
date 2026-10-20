@@ -21,27 +21,17 @@ title: 为PDF添加贝茨编号 – 步骤详解 C# 指南
 url: /zh/net/programming-with-forms/add-bates-numbers-to-pdfs-step-by-step-c-guide/
 ---
 
-:** etc.
 
-Make sure to keep markdown formatting.
 
-Let's produce the translated version.
 
-We'll start with the shortcodes unchanged.
 
-Then translate the title: "# Add Bates Numbers to PDFs – Complete C# Guide" => "# 为 PDF 添加 Bates 编号 – 完整 C# 指南"
 
-Proceed.
 
-Translate each paragraph.
 
-Be careful with bullet lists.
 
-Also translate the table.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

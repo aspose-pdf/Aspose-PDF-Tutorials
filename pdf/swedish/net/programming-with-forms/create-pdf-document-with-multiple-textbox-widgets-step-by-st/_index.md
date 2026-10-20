@@ -23,7 +23,6 @@ title: Skapa PDF-dokument med flera TextBox‑widgetar – Steg‑för‑steg‑
 url: /sv/net/programming-with-forms/create-pdf-document-with-multiple-textbox-widgets-step-by-st/
 ---
 
-produce final output with all translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

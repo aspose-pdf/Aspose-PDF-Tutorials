@@ -29,6 +29,8 @@ In deze tutorialserie verkennen we verschillende aspecten van tekstmanipulatie m
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Alinea's met meerdere kolommen in PDF met Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Hoe Aspose te gebruiken om tekst uit een gescande PDF te extraheren – stapsgewijze handleiding" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

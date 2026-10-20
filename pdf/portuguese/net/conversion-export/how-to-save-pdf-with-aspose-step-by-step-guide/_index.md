@@ -22,7 +22,7 @@ title: Como salvar PDF com Aspose – Guia passo a passo
 url: /pt/net/conversion-export/how-to-save-pdf-with-aspose-step-by-step-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

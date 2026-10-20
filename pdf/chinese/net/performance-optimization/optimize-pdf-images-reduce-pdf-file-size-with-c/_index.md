@@ -21,23 +21,14 @@ title: 优化 PDF 图像 – 使用 C# 减小 PDF 文件大小
 url: /zh/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/
 ---
 
-English. So we translate header cells.
 
-Also translate the bullet points.
 
-Also translate the note and pro tip.
 
-Also translate the final conclusion.
 
-Also translate the image alt text: "Screenshot showing before‑and‑after file sizes when optimize pdf images". Should translate alt text.
 
-Now produce final markdown with same shortcodes.
 
-Let's craft translation.
 
-Be careful to preserve spaces and line breaks.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

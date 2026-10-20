@@ -104,6 +104,9 @@ Maîtrisez la rotation de texte dans vos PDF avec Aspose.PDF pour .NET grâce à
 ### [Maîtrisez Aspose.PDF pour .NET : ouvrez et recherchez efficacement des documents PDF](./aspose-pdf-net-open-search-pdfs/)
 Apprenez à utiliser Aspose.PDF pour .NET pour ouvrir et rechercher des documents PDF. Ce guide couvre la configuration, la recherche de texte dans des pages spécifiques et des applications pratiques.
 
+### [Comment rechercher un PDF avec Aspose.Pdf – Guide complet C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Apprenez à effectuer des recherches de texte dans des fichiers PDF à l'aide d'Aspose.Pdf pour .NET avec un guide complet en C#.
+
 ### [Maîtriser les tabulations personnalisées dans les PDF avec Aspose.PDF pour .NET : un guide complet](./master-custom-tab-stops-aspose-pdf-net/)
 Apprenez à maîtriser les tabulations personnalisées dans les documents PDF à l'aide d'Aspose.PDF pour .NET, améliorant ainsi vos compétences en matière de formatage et de présentation de documents.
 
@@ -113,7 +116,7 @@ Apprenez à modifier efficacement du texte PDF avec Aspose.PDF pour .NET. Ce gui
 ### [Maîtriser la substitution de polices dans les PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-font-substitution-aspose-pdf-net/)
 Apprenez à gérer facilement les substitutions de polices dans vos documents PDF avec Aspose.PDF pour .NET. Ce tutoriel vous guide étape par étape pour configurer et mettre en œuvre des solutions efficaces.
 
-### [Maîtrisez les techniques d'extraction PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-dotnet/)
+### [Maîtriser les techniques d'extraction PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-dotnet/)
 Apprenez à extraire efficacement du texte et des images de vos PDF avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour optimiser vos flux de traitement de documents.
 
 ### [Maîtriser la gestion des polices PDF : définir les polices par défaut dans les documents avec Aspose.PDF pour .NET](./master-pdf-font-management-aspose-pdf-net/)
@@ -125,7 +128,7 @@ Apprenez à optimiser l'interligne dans vos PDF grâce aux polices TrueType avec
 ### [Maîtriser l'extraction de texte PDF dans .NET avec Aspose.PDF : un guide complet](./mastering-pdf-text-extraction-dotnet-asposepdf/)
 Apprenez à extraire et rechercher efficacement du texte dans des PDF avec Aspose.PDF pour .NET. Suivez ce guide pour des étapes de mise en œuvre pratiques.
 
-### [Maîtrisez l'extraction de texte PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-pdf-net-guide/)
+### [Maîtriser l'extraction de texte PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-pdf-net-guide/)
 Apprenez à extraire efficacement du texte de PDF avec Aspose.PDF pour .NET, même avec des mises en page complexes. Ce guide couvre le chargement, l'analyse et l'optimisation des processus d'extraction.
 
 ### [Maîtriser l'extraction de texte PDF avec Aspose.PDF pour .NET : Guide du développeur](./aspose-pdf-net-text-extraction-guide/)
@@ -137,7 +140,7 @@ Apprenez à ajouter et à mettre en forme du texte dans vos PDF avec Aspose.PDF 
 ### [Maîtriser la manipulation de texte PDF : faire pivoter et personnaliser le texte dans les PDF avec Aspose.PDF pour .NET](./aspose-pdf-net-create-rotate-text-pdfs/)
 Découvrez comment faire pivoter et personnaliser efficacement le texte de vos documents PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et les fonctionnalités avancées.
 
-### [Maîtrisez la recherche de texte PDF avec Regex avec Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
+### [Maîtriser la recherche de texte PDF avec Regex avec Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
 Un tutoriel de code pour Aspose.PDF Net
 
 ### [Maîtriser la rotation de texte dans les PDF avec Aspose.PDF pour .NET : guide complet](./rotate-text-pdf-aspose-dotnet/)
@@ -162,7 +165,17 @@ Apprenez à optimiser les polices PDF à l'aide d'Aspose.PDF .NET, rationalisez 
 Un tutoriel de code pour Aspose.PDF Net
 
 ### [Styliser le texte dans les PDF balisés avec Aspose.PDF pour .NET | Guide pour la création de PDF accessibles et esthétiques](./style-text-tagged-pdfs-aspose-pdf-net/)
-Apprenez à styliser le texte des documents PDF balisés avec Aspose.PDF pour .NET. Ce guide présente l'installation, les techniques et les applications pratiques pour améliorer l'accessibilité.
+
+### [Comment résumer un PDF avec Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Apprenez à résumer automatiquement le contenu d'un PDF en utilisant Aspose.Pdf.AI avec un guide étape par étape en C#.
+
+### [Comment censurer un PDF avec Aspose – Guide étape par étape](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Apprenez à masquer ou supprimer des informations sensibles d'un PDF en utilisant Aspose.PDF pour .NET, avec un guide complet pas à pas.
+### [Comment résumer un PDF avec Aspose.Pdf.AI – guide complet](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Apprenez à résumer automatiquement le contenu d'un PDF à l'aide d'Aspose.Pdf.AI grâce à ce guide complet.
+
+### [IA Chat PDF : poser des questions sur le PDF avec Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Utilisez le copilote IA d'Aspose pour interroger vos documents PDF et obtenir des réponses précises via une interface de chat.
 
 ## Ressources supplémentaires
 

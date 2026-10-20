@@ -25,13 +25,9 @@ title: Добавление нумерации Бейтса в PDF на C# – 
 url: /ru/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
-text content. So we should translate table headers as well.
 
-Thus table header row: | Question | Answer | => | Вопрос | Ответ |
 
-Also the column separator line remains same.
 
-Now produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

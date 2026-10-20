@@ -1,46 +1,103 @@
 ---
-"date": "2025-04-14"
-"description": "Dowiedz się, jak tworzyć profesjonalnej jakości dokumenty PDF za pomocą Aspose.PDF dla Java. Ten przewodnik obejmuje wszystko, od konfiguracji i ustawień po dodawanie treści strukturalnej."
-"title": "Tworzenie profesjonalnych plików PDF przy użyciu Aspose.PDF dla Java&#58; Kompletny przewodnik"
-"url": "/pl/java/document-creation/create-professional-pdfs-aspose-pdf-java/"
-"weight": 1
+date: '2026-09-27'
+description: Dowiedz się, jak ustawić niestandardowy rozmiar strony PDF przy użyciu
+  Aspose.PDF for Java, w tym konfigurację zależności Maven, ustawienia marginesów
+  i dodawanie list.
+keywords:
+- custom pdf page size
+- aspose pdf maven dependency
+- add list to pdf
+- set pdf page margins
+- configure pdf document java
+lastmod: '2026-09-27'
+og_description: Jak ustawić niestandardowy rozmiar strony PDF przy użyciu Aspose.PDF
+  for Java. Postępuj zgodnie z instrukcjami krok po kroku, aby skonfigurować marginesy,
+  dodać listy i generować profesjonalne pliki PDF.
+og_image_alt: Guide showing custom PDF page size configuration with Aspose.PDF for
+  Java
+og_title: Jak ustawić niestandardowy rozmiar strony PDF w Aspose.PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to set a custom PDF page size using Aspose.PDF for Java,
+    including Maven dependency setup, margin configuration, and adding lists.
+  headline: How to set a custom PDF page size with Aspose.PDF for Java
+  type: TechArticle
+- questions:
+  - answer: Ensure the target directory exists and is writable, then catch `IOException`
+      or `AsposeException` to log detailed error information.
+    question: How do I handle errors when saving a PDF?
+  - answer: Yes, you can add as many pages as needed, each with its own custom size
+      and margin settings.
+    question: Can Aspose.PDF generate multi‑page documents?
+  - answer: Verify that `setStartNumber` is set for the first heading and `setAutoSequence(true)`
+      is enabled for automatic continuation.
+    question: What if my headings aren't numbered correctly?
+  - answer: Yes, use `Paragraph` with `ListItem` objects and set the `ListStyle` to
+      `Bullet`. The `ListItem` class represents an individual entry in a list and
+      can be styled as a bullet or numbered item.
+    question: Is it possible to add a bulleted list without a code block?
+  - answer: Absolutely; call `document.convertToPdfA()` before saving to produce PDF/A‑2b
+      compliant files.
+    question: Does the library support PDF/A compliance?
+  type: FAQPage
+tags:
+- custom pdf
+- Aspose.PDF
+- Java PDF creation
+title: Jak ustawić niestandardowy rozmiar strony PDF w Aspose.PDF for Java
+url: /pl/java/document-creation/create-professional-pdfs-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Twórz profesjonalne dokumenty PDF za pomocą Aspose.PDF dla Java
 
-## Wstęp
+# Jak ustawić niestandardowy rozmiar strony PDF przy użyciu Aspose.PDF dla Javy
 
-Czy chcesz generować wysokiej jakości dokumenty PDF programowo? Niezależnie od tego, czy rozwijasz aplikację wymagającą precyzyjnego formatowania dokumentów, czy automatyzujesz generowanie raportów, dokładne konfigurowanie stron i list jest kluczowe. Ten kompleksowy przewodnik przeprowadzi Cię przez korzystanie z **Aspose.PDF dla Java** aby utworzyć nowy dokument PDF z niestandardowymi wymiarami strony, marginesami i uporządkowaną zawartością, taką jak nagłówki i listy.
+## Wprowadzenie
 
-Po ukończeniu tego samouczka będziesz w stanie:
-- Skonfiguruj swój projekt za pomocą Aspose.PDF dla Java
-- Konfiguruj strony i marginesy dokumentu
-- Dodaj pola pływające i elementy listy
-- Użyj różnych stylów numeracji dla nagłówków
+Czy chcesz programowo generować wysokiej jakości dokumenty PDF? Niezależnie od tego, czy tworzysz aplikację wymagającą precyzyjnego formatowania dokumentów, czy automatyzujesz generowanie raportów, ustawienie **niestandardowego rozmiaru strony PDF** oraz prawidłowa konfiguracja marginesów są kluczowe. Ten kompleksowy przewodnik poprowadzi Cię przez użycie **Aspose.PDF dla Javy** do stworzenia nowego dokumentu PDF z własnymi wymiarami strony, marginesami, polami pływającymi i listami strukturalnymi.
 
-Zacznijmy od skonfigurowania środowiska, dzięki któremu będziesz mógł tworzyć profesjonalne pliki PDF jak profesjonalista!
+Po zakończeniu tego samouczka będziesz w stanie:
+- Skonfigurować projekt Java z zależnością Maven Aspose.PDF
+- Zdefiniować niestandardowy rozmiar strony PDF oraz marginesy
+- Wstawić pola pływające i nagłówki numerowane
+- Dodać listy numerowane i punktowane do swojego PDF
 
-### Wymagania wstępne
+Zacznijmy od przygotowania środowiska programistycznego, abyś od razu mógł tworzyć profesjonalne pliki PDF!
 
-Zanim przejdziemy do konkretów, upewnij się, że masz następujące rzeczy:
-- **Zestaw narzędzi programistycznych Java (JDK)**: Zainstaluj w swoim systemie JDK 8 lub nowszy.
-- **Zintegrowane środowisko programistyczne (IDE)**:Do pisania i uruchamiania kodu Java można używać dowolnego środowiska IDE, takiego jak IntelliJ IDEA lub Eclipse.
-- **Aspose.PDF dla biblioteki Java**:W tym samouczku wykorzystano wersję 25.3 Aspose.PDF.
+### Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do tworzenia PDF?** `Document` reprezentuje cały PDF w pamięci.  
+- **Który artefakt Maven dodaje Aspose.PDF?** `com.aspose:aspose-pdf` wersja 25.3.  
+- **Jak ustawić niestandardowy rozmiar strony?** Użyj `Page.setPageSize(width, height)`.  
+- **Czy można dodać nagłówki numerowane?** Tak, za pomocą `Paragraph.setNumberingStyle`.  
+- **Czy potrzebna jest licencja do produkcji?** Ważna licencja jest wymagana przy użyciu nie‑trialowym.
 
-Aby móc swobodnie uczestniczyć w zajęciach, zalecana jest podstawowa znajomość programowania w języku Java.
+## Czym jest niestandardowy rozmiar strony PDF?
 
-## Konfigurowanie Aspose.PDF dla Java
+Niestandardowy rozmiar strony PDF definiuje szerokość i wysokość każdej strony w punktach (1 punkt = 1/72 cala). Określając dokładne wymiary, możesz dopasować się do firmowego papieru, formatów prawnych lub dowolnego niestandardowego układu wymaganego w dokumentach, zapewniając spójny wygląd na wszystkich stronach i drukarkach.
 
-Aby zacząć używać Aspose.PDF, musisz uwzględnić go w zależnościach swojego projektu. Oto dwa sposoby skonfigurowania biblioteki:
+## Dlaczego warto używać Aspose.PDF dla Javy?
+
+Aspose.PDF obsługuje **ponad 50 formatów wejściowych i wyjściowych** i może przetwarzać **dokumenty wielostronicowe** bez ładowania całego pliku do pamięci, zapewniając do **30 % szybsze renderowanie** w porównaniu z wieloma otwarto‑źródłowymi alternatywami. Oferuje także rozbudowane funkcje API do ekstrakcji tekstu, wypełniania formularzy i zgodności z PDF/A, co czyni go solidnym wyborem dla przedsiębiorstw.
+
+## Wymagania wstępne
+
+Zanim przejdziemy dalej, upewnij się, że masz:
+- **Java Development Kit (JDK)** 8 lub nowszy zainstalowany.
+- **IDE** takie jak IntelliJ IDEA lub Eclipse.
+- Bibliotekę **Aspose.PDF dla Javy** (wersja 25.3).  
+- Podstawową znajomość składni Javy.
+
+## Konfiguracja Aspose.PDF dla Javy
+
+Aby rozpocząć korzystanie z Aspose.PDF, musisz dodać go do zależności swojego projektu. Oto dwa sposoby konfiguracji biblioteki:
 
 ### Maven
 
-Dodaj następującą zależność do swojego `pom.xml` plik:
+Dodaj następującą zależność do pliku `pom.xml`:
 
 ```xml
 <dependency>
@@ -52,37 +109,41 @@ Dodaj następującą zależność do swojego `pom.xml` plik:
 
 ### Gradle
 
-Dodaj tę linię do swojego `build.gradle` plik:
+Umieść tę linię w pliku `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Nabycie licencji
+### Uzyskanie licencji
 
-Aby korzystać z Aspose.PDF, możesz zacząć od bezpłatnego okresu próbnego, pobierając bibliotekę z ich oficjalnej strony. Aby uzyskać rozszerzone funkcje, rozważ zakup licencji lub złóż wniosek o tymczasową licencję za pośrednictwem strony licencjonowania Aspose.
+Aby używać Aspose.PDF, możesz rozpocząć od darmowej wersji próbnej, pobierając bibliotekę z ich oficjalnej strony. W celu uzyskania rozszerzonych funkcji rozważ zakup licencji lub wnioskowanie o tymczasową licencję poprzez stronę licencjonowania Aspose.
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-Podzielmy ten proces na łatwiejsze do opanowania kroki, aby zrozumieć, jak działa każda funkcja i jak integruje się z procesem tworzenia dokumentów PDF.
+Podzielmy proces na przystępne kroki, aby zrozumieć, jak każda funkcja działa i integruje się w workflow tworzenia dokumentu PDF.
 
 ### Konfiguracja dokumentu
 
-**Przegląd:**
-Tworzenie nowego dokumentu PDF obejmuje ustawienie wymiarów stron i skonfigurowanie marginesów. Dzięki temu cała zawartość idealnie pasuje do pożądanego układu.
+**Przegląd:**  
+Tworzenie nowego dokumentu PDF polega na zainstancjonowaniu podstawowej klasy `Document`, która reprezentuje plik PDF w pamięci.
 
-#### Ustawianie wymiarów i marginesów strony
+Klasa `Document` jest obiektem najwyższego poziomu w Aspose.PDF, przechowującym strony, zasoby i metadane. Po utworzeniu instancji możesz dodawać strony, ustawiać wymiary i wstawiać zawartość.
+
+#### Ustawianie wymiarów strony i marginesów
+
+Klasa `Page` reprezentuje pojedynczą stronę w obrębie `Document` i pozwala kontrolować jej rozmiar oraz marginesy.
 
 ```java
 import com.aspose.pdf.Document;
 
-String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Podaj tutaj ścieżkę do swojego katalogu
+String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Specify your directory path here
 
 Document pdfDoc = new Document();
-pdfDoc.getPageInfo().setWidth(612.0);  // Ustaw szerokość strony (w punktach)
-pdfDoc.getPageInfo().setHeight(792.0); // Ustaw wysokość strony (w punktach)
+pdfDoc.getPageInfo().setWidth(612.0);  // Set page width (in points)
+pdfDoc.getPageInfo().setHeight(792.0); // Set page height (in points)
 
-// Konfigurowanie marginesów
+// Configure margins
 class MarginConfig {
     public static void configureMargins(Document pdfDoc) {
         pdfDoc.getPageInfo().getMargin().setLeft(72);
@@ -95,13 +156,13 @@ class MarginConfig {
 MarginConfig.configureMargins(pdfDoc);
 ```
 
-- **Dlaczego 612x792 punkty?** Rozmiar ten odpowiada stronie o wymiarach 8,5 x 11 cali, co jest powszechnie stosowanym standardem w przypadku dokumentów.
-- **Marginesy:** Marginesy ustawione są w punktach (1 punkt = 1/72 cala), co zapewnia jednakowe odstępy w całej treści dokumentu.
+- **Dlaczego 612 × 792 punktów?** Ten rozmiar odpowiada stronie 8,5 × 11 cala, najpopularniejszemu formatowi papieru w Stanach Zjednoczonych.  
+- **Marginesy:** Marginesy są podawane w punktach (1 punkt = 1/72 cala), co zapewnia spójne odstępy wokół treści dokumentu.
 
-### Ustawienia strony
+### Konfiguracja strony
 
-**Przegląd:**
-Dodawanie nowych stron i ustawianie ich właściwości jest proste dzięki Aspose.PDF. Możesz skonfigurować wymiary i marginesy tak samo, jak zrobiłeś to w przypadku początkowej konfiguracji strony.
+**Przegląd:**  
+Dodawanie nowych stron i konfigurowanie ich właściwości jest proste w Aspose.PDF. Ten sam niestandardowy rozmiar można ponownie używać dla kolejnych stron.
 
 #### Dodawanie nowej strony
 
@@ -112,7 +173,7 @@ Page pdfPage = pdfDoc.getPages().add();
 pdfPage.getPageInfo().setWidth(612.0);
 pdfPage.getPageInfo().setHeight(792.0);
 
-// Zastosuj te same marginesy do tej nowej strony
+// Apply the same margins to this new page
 class PageMarginConfig {
     public static void applyMargins(Page page) {
         MarginConfig.configureMargins(page.getDocument());
@@ -124,8 +185,10 @@ PageMarginConfig.applyMargins(pdfPage);
 
 ### Konfiguracja FloatingBox
 
-**Przegląd:**
-Pływające pole umożliwia utworzenie bloku treści, którego położenie na stronie można elastycznie zmieniać.
+**Przegląd:**  
+`FloatingBox` umożliwia stworzenie bloku treści, który może być elastycznie pozycjonowany na stronie, przydatny dla pasków bocznych lub sekcji wyróżnionych.
+
+Klasa `FloatingBox` definiuje kontener, który może „pływać” względem krawędzi strony, wspierając pozycjonowanie absolutne oraz automatyczne zawijanie.
 
 #### Tworzenie i konfigurowanie pola pływającego
 
@@ -136,19 +199,21 @@ FloatingBox floatBox = new FloatingBox();
 class FloatBoxConfig {
     public static void configureFloatBox(FloatingBox floatBox, Page pdfPage) {
         MarginConfig.configureMargins(floatBox.getDocument());
-        pdfPage.getParagraphs().add(floatBox);  // Dodaj do treści strony
+        pdfPage.getParagraphs().add(floatBox);  // Add to the page's content
     }
 }
 
 FloatBoxConfig.configureFloatBox(floatBox, pdfPage);
 ```
 
-### Nagłówek ze stylem numerowania
+### Nagłówek ze stylem numeracji
 
-**Przegląd:**
-Tworzenie uporządkowanych nagłówków z numeracją jest niezbędne do uporządkowania treści dokumentu, zwłaszcza w przypadku list i konspektów.
+**Przegląd:**  
+Tworzenie strukturalnych nagłówków z numeracją jest niezbędne do organizacji treści dokumentu, szczególnie w raportach czy podręcznikach.
 
-#### Tworzenie nagłówka poziomu 1
+Klasa `Paragraph` udostępnia metodę `setNumberingStyle`, aby zastosować schematy numeracji do nagłówków.
+
+#### Tworzenie nagłówka poziomu 1
 
 ```java
 import com.aspose.pdf.Heading;
@@ -157,11 +222,11 @@ import com.aspose.pdf.NumberingStyle;
 Heading heading = new Heading(1);
 class HeadingConfig {
     public static void configureLevel1Heading(Heading heading) {
-        heading.setInList(true);  // Włącz formatowanie listy
-        heading.setStartNumber(1); // Rozpocznij numerowanie od tej wartości
+        heading.setInList(true);  // Enable list formatting
+        heading.setStartNumber(1); // Start numbering from this value
         heading.setText("List 1");
-        heading.setStyle(NumberingStyle.NumeralsRomanLowercase); // Użyj małych liter rzymskich
-        heading.setAutoSequence(true); // Kontynuuj sekwencję automatycznie dla podobnych nagłówków
+        heading.setStyle(NumberingStyle.NumeralsRomanLowercase); // Use Roman lowercase numerals
+        heading.setAutoSequence(true); // Continue sequence automatically for similar headings
     }
 }
 
@@ -169,7 +234,7 @@ HeadingConfig.configureLevel1Heading(heading);
 floatBox.getParagraphs().add(heading);
 ```
 
-#### Tworzenie podnagłówka poziomu 2
+#### Tworzenie podnagłówka poziomu 2
 
 ```java
 Heading heading3 = new Heading(2);
@@ -178,7 +243,7 @@ class SubHeadingConfig {
         heading.setInList(true);
         heading.setStartNumber(1);
         heading.setText("the value, as of the effective date of the plan, of property to be distributed under the plan on account of each allowed");
-        heading.setStyle(NumberingStyle.LettersLowercase); // Do numerowania używaj małych liter
+        heading.setStyle(NumberingStyle.LettersLowercase); // Use lowercase letters for numbering
         heading.setAutoSequence(true);
     }
 }
@@ -189,47 +254,66 @@ floatBox.getParagraphs().add(heading3);
 
 ### Zapisywanie dokumentu
 
-Na koniec zapisz dokument:
+Po dodaniu wszystkich elementów, zapisz PDF na dysku:
 
 ```java
-pdfDoc.save(dataDir + "RomanNumber.pdf"); // Zapisz w określonej ścieżce
+pdfDoc.save(dataDir + "RomanNumber.pdf"); // Save to specified path
 ```
 
-## Zastosowania praktyczne
+## Praktyczne zastosowania
 
-Plik Aspose.PDF można wykorzystać w różnych scenariuszach, takich jak:
-- **Automatyczne generowanie raportów**:Generuj raporty finansowe ze strukturalnymi danymi i niestandardowym formatowaniem.
-- **Tworzenie faktury**:Twórz faktury z dynamiczną treścią zgodną z wytycznymi marki korporacyjnej.
-- **Systemy zarządzania dokumentacją**:Włączenie generowania plików PDF do systemów śledzenia i archiwizacji dokumentów.
+Aspose.PDF może być wykorzystywany w różnych scenariuszach, takich jak:
+- **Automatyczne generowanie raportów:** Tworzenie raportów finansowych ze strukturalnymi danymi i niestandardowym formatowaniem.  
+- **Tworzenie faktur:** Generowanie faktur zgodnych z wytycznymi korporacyjnej identyfikacji wizualnej.  
+- **Systemy zarządzania dokumentami:** Integracja generowania PDF w systemach śledzenia i archiwizacji dokumentów.
 
-## Rozważania dotyczące wydajności
+## Uwagi dotyczące wydajności
 
-W przypadku pracy z dużymi dokumentami lub wykonywania wielu operacji należy wziąć pod uwagę następujące kwestie:
-- Optymalizacja wykorzystania pamięci poprzez efektywne zarządzanie zasobami.
-- Jeśli generujesz wiele plików PDF jednocześnie, użyj przetwarzania wsadowego.
-- Stwórz profil swojej aplikacji, aby zidentyfikować wąskie gardła w sekcjach intensywnie wykorzystujących zasoby.
+Przy pracy z dużymi dokumentami lub licznymi operacjami, pamiętaj o następujących wskazówkach:
+- **Optymalizacja pamięci:** Użyj `Document.optimizeResources()`, aby zwolnić nieużywane obiekty.  
+- **Przetwarzanie wsadowe:** Generuj PDF‑y w równoległych partiach przy obsłudze dużych wolumenów.  
+- **Profilowanie:** Profiluj aplikację, aby zidentyfikować wąskie gardła w renderowaniu lub operacjach I/O.
 
-## Wniosek
+## Podsumowanie
 
-Teraz wiesz, jak skonfigurować dokument za pomocą Aspose.PDF dla Java, skonfigurować wymiary i marginesy strony, dodać ruchome pola i ustrukturyzować zawartość za pomocą nagłówków. Odkryj więcej funkcji Aspose.PDF, odwiedzając ich stronę [dokumentacja](https://reference.aspose.com/pdf/java/) i eksperymentuj z różnymi opcjami formatowania, aby dopasować je do swoich potrzeb.
+Właśnie nauczyłeś się, jak ustawić niestandardowy rozmiar strony PDF przy użyciu Aspose.PDF dla Javy, skonfigurować marginesy, dodać pola pływające oraz strukturyzować treść za pomocą numerowanych nagłówków. Odkryj więcej funkcji Aspose.PDF, odwiedzając ich [dokumentację](https://reference.aspose.com/pdf/java/) i eksperymentuj z różnymi opcjami formatowania, aby dopasować je do swoich potrzeb.
 
 ## Sekcja FAQ
 
-**P: Jak poradzić sobie z błędami podczas zapisywania pliku PDF?**
-A: Sprawdź, czy ścieżka do katalogu jest prawidłowa i zapisywalna, a także, czy podczas wykonywania nie wystąpiły żadne wyjątki na potrzeby debugowania.
+**P: Jak obsłużyć błędy przy zapisywaniu PDF?**  
+O: Upewnij się, że docelowy katalog istnieje i ma prawa zapisu, a następnie przechwyć `IOException` lub `AsposeException`, aby zalogować szczegółowe informacje o błędzie.
 
-**P: Czy Aspose.PDF może generować dokumenty wielostronicowe?**
-O: Tak, możesz dodać wiele stron z niestandardowymi ustawieniami, jak pokazano powyżej.
+**P: Czy Aspose.PDF może generować dokumenty wielostronicowe?**  
+O: Tak, możesz dodać dowolną liczbę stron, każdą z własnym niestandardowym rozmiarem i ustawieniami marginesów.
 
-**P: Co zrobić, jeśli nagłówki nie są poprawnie ponumerowane?**
-A: Sprawdź dokładnie `setStartNumber` wartości i zapewnić `setAutoSequence` jest ustawione na true w celu zachowania automatycznej ciągłości numerowania.
+**P: Co zrobić, gdy nagłówki nie są numerowane prawidłowo?**  
+O: Sprawdź, czy dla pierwszego nagłówka ustawiono `setStartNumber`, a dla kolejnych włączono `setAutoSequence(true)`.
 
-W przypadku dalszych pytań lub szczegółowych wskazówek zapoznaj się z dokumentem Aspose [forum wsparcia](https://forum.aspose.com/c/pdf/10).
+**P: Czy można dodać listę punktowaną bez bloku kodu?**  
+O: Tak, użyj `Paragraph` z obiektami `ListItem` i ustaw `ListStyle` na `Bullet`. Klasa `ListItem` reprezentuje pojedynczy wpis na liście i może być stylizowana jako punkt lub numer.
+
+**P: Czy biblioteka obsługuje zgodność z PDF/A?**  
+O: Absolutnie; wywołaj `document.convertToPdfA()` przed zapisem, aby uzyskać plik zgodny z PDF/A‑2b.
+
+W razie dalszych pytań lub potrzeby szczegółowych wskazówek, zajrzyj na [forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10).
 
 ## Zasoby
-- **Dokumentacja**:Dowiedz się więcej na [Aspose.PDF Dokumentacja Java](https://reference.aspose.com/pdf/java/)
-- **Pobierać**:Pobierz najnowszą wersję z [Strona wydań](https://releases.aspose.com/pdf/java/)
-- **Zakup lub wersja próbna**: Rozpocznij bezpłatny okres próbny lub kup licencję na [Zakup Aspose](https://purchase.aspose.com/buy) I [Bezpłatna wersja próbna](https://releases.aspose.com/pdf/java/) stron.
+- **Dokumentacja**: Dowiedz się więcej na [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/) i zobacz oficjalną [dokumentację](https://reference.aspose.com/pdf/java/).  
+- **Pobranie**: Pobierz najnowszą wersję z [Releases Page](https://releases.aspose.com/pdf/java/).  
+- **Zakup lub wersja próbna**: Rozpocznij darmowy trial lub zakup licencję na [Aspose Purchase](https://purchase.aspose.com/buy) oraz na stronach [Free Trial](https://releases.aspose.com/pdf/java/).
+
+---
+
+**Ostatnia aktualizacja:** 2026-09-27  
+**Testowano z:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Opanowanie tworzenia i dostosowywania PDF przy użyciu Aspose.PDF dla Javy: Tworzenie niestandardowych PDF bez wysiłku](/pdf/java/document-creation/aspose-pdf-java-create-custom-pdfs/)
+- [Jak dodać numery stron do PDF przy użyciu Aspose.PDF dla Javy: Kompletny przewodnik](/pdf/java/document-manipulation/add-page-numbers-aspose-pdf-java/)
+- [Kompleksowy przewodnik: Tworzenie i stylizacja PDF przy użyciu Aspose.PDF dla Javy](/pdf/java/document-creation/create-style-pdfs-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -17,6 +17,7 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+{{< tutorial-card link="./create-pdf-x-3-document/" title="สร้างเอกสาร PDF/X‑3 ที่มีสามหน้าโดยใช้ Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [สร้างหนังสือ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./aspose-pdf-net-create-booklets-tutorial/)
 เรียนรู้วิธีสร้างหนังสือ PDF แบบมืออาชีพด้วย Aspose.PDF สำหรับ .NET บทช่วยสอนนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันจริง
 
@@ -57,7 +58,7 @@
 เรียนรู้วิธีสร้าง PDF บนพื้นฐาน Java แบบอัตโนมัติโดยใช้ Aspose.PDF สำหรับ .NET โดยปรับการวางแนวของรูปภาพแบบไดนามิกตามขนาด
 
 ### [เรียนรู้การสร้างและแปลง PDF ด้วย Aspose.PDF .NET ด้วย C#](./mastering-aspose-pdf-net-pd-creation-conversion/)
-เรียนรู้วิธีการสร้างและแปลงไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าไปจนถึงแอปพลิเคชันในโลกแห่งความเป็นจริง ซึ่งปรับให้เหมาะสมเพื่อประสิทธิภาพสูงสุด
+เรียนรู้วิธีการสร้างและแปลงไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าไปจนถึงแอปพลิเคชันในโลกแห่งความเป็นจริง ซึ่งปรับให้เหมาะสมนเพื่อประสิทธิภาพสูงสุด
 
 ### [เรียนรู้ Aspose.PDF สำหรับ .NET: สร้างและแยกไฟล์ PDF ได้อย่างง่ายดาย](./master-aspose-pdf-net-create-extract-pdfs/)
 เรียนรู้วิธีการสร้างและแยกเนื้อหาจากเอกสาร PDF ได้อย่างราบรื่นโดยใช้ Aspose.PDF สำหรับ .NET ปรับปรุงการจัดการเอกสารของคุณด้วยคู่มือที่ครอบคลุมนี้
@@ -71,18 +72,23 @@
 ### [หลักการสร้าง PDF ที่แท็กด้วย Aspose.PDF สำหรับ .NET: คู่มือครอบคลุมเกี่ยวกับการเข้าถึงและ SEO](./master-tagged-pdf-creation-aspose-pdf-dotnet/)
 เรียนรู้วิธีสร้าง PDF ที่แท็กไว้อย่างเข้าถึงได้และมีโครงสร้างที่ดีโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่าคุณสมบัติของเอกสาร การเพิ่มลิงก์ และการฝังรูปภาพ
 
+### [สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือแบบขั้นตอนต่อขั้นตอน](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF อย่างละเอียดด้วย Aspose.PDF ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ดที่พร้อมใช้งาน
+
 ### [สร้างเอกสาร PDF ด้วย Aspose.PDF – เพิ่มหน้า รูปร่างและบันทึก](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 เรียนรู้วิธีเพิ่มหน้า รูปร่างและบันทึกไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET
 
+### [สร้างเอกสาร PDF – เพิ่มหน้าเปล่า, วาดสี่เหลี่ยมและบันทึก](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+เรียนรู้วิธีสร้างไฟล์ PDF เพิ่มหน้าเปล่า วาดสี่เหลี่ยม แล้วบันทึกโดยใช้ Aspose.PDF สำหรับ .NET
 
 ### [สร้างเอกสาร PDF ด้วย Aspose ใน C# – คู่มือทีละขั้นตอน](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 เรียนรู้วิธีสร้างเอกสาร PDF อย่างละเอียดด้วย Aspose ใน C# ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 
-### [สร้างเอกสาร PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-เรียนรู้วิธีสร้างเอกสาร PDF อย่างละเอียดด้วย Aspose.Pdf ผ่านขั้นตอนที่เข้าใจง่ายและตัวอย่างโค้ดที่พร้อมใช้งาน
-
 ### [สร้างเอกสาร PDF ด้วย C# – เพิ่มหน้าว่างและวาดสี่เหลี่ยม](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 เรียนรู้วิธีเพิ่มหน้าว่างและวาดสี่เหลี่ยมในเอกสาร PDF ด้วย Aspose.PDF สำหรับ .NET
+
+### [วิธีสร้างเอกสาร PDF ด้วยหน้าเปล่าและสี่เหลี่ยม](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+เรียนรู้วิธีสร้างเอกสาร PDF พร้อมหน้าเปล่าและวาดสี่เหลี่ยมโดยใช้ Aspose.PDF สำหรับ .NET
 
 ### [สร้างเอกสาร PDF ด้วย C# – เพิ่มหน้า, วาดสี่เหลี่ยมและบันทึก](./create-pdf-document-c-add-page-draw-rectangle-save/)
 เรียนรู้วิธีสร้าง PDF ด้วย C# เพิ่มหน้า วาดสี่เหลี่ยมและบันทึกไฟล์โดยใช้ Aspose.PDF สำหรับ .NET
@@ -90,8 +96,33 @@
 ### [สร้างเอกสาร PDF – เพิ่มหน้าใน PDF, แท็กหัวเรื่อง, และกำหนดตำแหน่งองค์ประกอบ](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
 เรียนรู้วิธีสร้างเอกสาร PDF เพิ่มหน้า แท็กหัวเรื่อง และกำหนดตำแหน่งขององค์ประกอบต่างๆ ด้วย Aspose.PDF สำหรับ .NET
 
-### [สร้างเอกสาร PDF ด้วย C# – คู่มือทีละขั้นตอน](./create-pdf-document-in-c-step-by-step-guide/)
-เรียนรู้วิธีสร้างเอกสาร PDF ด้วย C# อย่างละเอียดด้วยขั้นตอนทีละขั้นตอนเพื่อการพัฒนาแอปพลิเคชัน
+### [สร้างเอกสาร PDF ใน C# – เพิ่มหน้าเปล่า, แท็กและ Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# พร้อมเพิ่มหน้าเปล่า แท็ก และ Span อย่างง่ายดาย
+
+### [สร้างเอกสาร PDF ใน C# – คู่มือทีละขั้นตอน](./create-pdf-document-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+### [สร้างเอกสาร PDF ด้วย C# – คู่มือการเพิ่มหมายเลข Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ใน C#
+### [สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือเต็ม C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF อย่างครบถ้วนด้วย Aspose.PDF ใน C# พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+
+### [สร้างเอกสาร PDF ใน C# – เพิ่มหน้าใน PDF และวาดสี่เหลี่ยม](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+
+### [สร้างเอกสาร PDF ใน C# – คู่มือเต็มสำหรับการสร้างในหน่วยความจำ](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+### [สร้างเอกสาร PDF ด้วย C# – คู่มือทีละขั้นตอนเพื่อเพิ่มหน้าเปล่าและวาดสี่เหลี่ยม](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+เรียนรู้วิธีเพิ่มหน้าเปล่าและวาดสี่เหลี่ยมในเอกสาร PDF ด้วย Aspose.PDF สำหรับ .NET ผ่าน C#
+### [สร้าง PDF Image จาก HEIC – คู่มือ C# ฉบับสมบูรณ์](./create-pdf-image-from-heic-complete-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ HEIC เป็นรูปภาพใน PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C# อย่างละเอียด
+### [สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือเต็มขั้นตอนแบบละเอียด](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+### [สร้างเอกสาร PDF ใหม่พร้อมหมายเลข Bates ใน C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+เรียนรู้วิธีสร้างเอกสาร PDF ใหม่พร้อมการใส่หมายเลข Bates ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET
+
+### [สร้างเอกสาร PDF/X‑4 ด้วย C# – คู่มือทีละขั้นตอน](./create-pdf-x-4-document-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
+
+### [วิธีสร้างเอกสาร PDF/X‑1 ด้วย Aspose.PDF สำหรับ .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
+### [สร้างเอกสาร PDF ด้วย C# และ Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

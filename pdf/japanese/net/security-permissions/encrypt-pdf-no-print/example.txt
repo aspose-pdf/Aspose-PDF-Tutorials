@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Pdf を使用して既存の PDF を開き、権限を付与せずに AES‑256 暗号化を適用（これにより印刷が無効化されます）し、保護されたファイルを保存し、ビューアパスワードで暗号化を検証する方法を示します。
+//ExStepSummary:0: ソース PDF のパス、出力する保護ファイル名、ビューアパスワードとオーナーパスワードを定義します。
+//ExStepSummary:1: ソースファイルが存在するか確認し、存在しない場合はエラーメッセージを出して中止します。
+//ExStepSummary:2: 元の PDF を開き、権限を設定せず、指定したパスワードで AES‑256 暗号化し、保護されたファイルとして保存します。
+//ExStepSummary:3: 暗号化された PDF をビューアパスワードで再度開き、IsEncrypted フラグをコンソールに出力して保護が確認できることを示します。
+//ExStepSummary:4: 暗号化が完了し、出力ファイル名を示す最終メッセージを表示します。
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

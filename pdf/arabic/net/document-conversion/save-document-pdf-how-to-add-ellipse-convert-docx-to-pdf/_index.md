@@ -22,13 +22,9 @@ title: حفظ مستند PDF – كيفية إضافة إهليلج وتحويل
 url: /ar/net/document-conversion/save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/
 ---
 
-`Document`, `Page`, `Ellipse`, etc.
 
-Also keep *italic*.
 
-Let's translate.
 
-I'll produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

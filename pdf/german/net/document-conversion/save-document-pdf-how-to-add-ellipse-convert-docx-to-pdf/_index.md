@@ -24,7 +24,6 @@ title: PDF-Dokument speichern – Wie man eine Ellipse hinzufügt & DOCX in PDF 
 url: /de/net/document-conversion/save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/
 ---
 
-translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

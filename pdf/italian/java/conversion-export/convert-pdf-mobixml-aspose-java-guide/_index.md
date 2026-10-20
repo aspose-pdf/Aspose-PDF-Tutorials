@@ -11,13 +11,10 @@ url: /it/java/conversion-export/convert-pdf-mobixml-aspose-java-guide/
 weight: 1
 ---
 
- translations.
 
-Make sure to keep code block placeholders unchanged.
 
-Also keep markdown formatting.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

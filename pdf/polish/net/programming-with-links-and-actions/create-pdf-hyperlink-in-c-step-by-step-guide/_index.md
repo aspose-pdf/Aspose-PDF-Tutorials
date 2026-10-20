@@ -23,9 +23,7 @@ title: Tworzenie hiperłącza PDF w C# – Przewodnik krok po kroku
 url: /pl/net/programming-with-links-and-actions/create-pdf-hyperlink-in-c-step-by-step-guide/
 ---
 
-headers and content but keep code terms unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

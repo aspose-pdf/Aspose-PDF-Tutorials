@@ -24,9 +24,8 @@ title: Comment valider les signatures dans un PDF à l'aide d'Aspose – Tutorie
 url: /fr/net/programming-with-security-and-signatures/how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/
 ---
 
-"For French, ensure proper RTL formatting if needed" but French is LTR, ignore.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

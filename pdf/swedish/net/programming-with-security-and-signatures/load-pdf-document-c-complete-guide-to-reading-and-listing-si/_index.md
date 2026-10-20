@@ -24,9 +24,8 @@ title: Ladda PDF-dokument C# – Komplett guide för att läsa och lista signatu
 url: /sv/net/programming-with-security-and-signatures/load-pdf-document-c-complete-guide-to-reading-and-listing-si/
 ---
 
-.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

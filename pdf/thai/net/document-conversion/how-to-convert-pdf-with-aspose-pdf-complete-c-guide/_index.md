@@ -24,15 +24,10 @@ title: วิธีแปลง PDF ด้วย Aspose.Pdf – คู่มื�
 url: /th/net/document-conversion/how-to-convert-pdf-with-aspose-pdf-complete-c-guide/
 ---
 
-but keep URL unchanged. Title attribute also.
 
-We need to translate "Pro tip", "Overview of What We’ll Build", etc.
 
-Let's do it.
 
-Be careful to not translate code block placeholders.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -21,7 +21,6 @@ title: 如何在 Aspose PDF 轉換中設定 ICC – 完整指南
 url: /zh-hant/net/document-conversion/how-to-set-icc-in-aspose-pdf-conversion-complete-guide/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
