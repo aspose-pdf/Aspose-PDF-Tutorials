@@ -1,26 +1,23 @@
 ---
-date: '2026-06-12'
-description: Aprende cómo crear PDF etiquetado en Java usando Aspose.PDF, agregar
-  etiquetas de accesibilidad al PDF, establecer títulos, encabezados y párrafos para
-  documentos compatibles y buscables.
+date: '2026-10-23'
+description: Aprenda a etiquetar PDF en Java usando Aspose.PDF, añada etiquetas de
+  accesibilidad, establezca títulos, encabezados y párrafos para documentos conformes
+  y buscables.
 keywords:
-- create tagged pdf java
+- how to tag pdf
+- pdf accessibility tags
+- pdf accessibility guidelines
 - add accessibility tags pdf
-- Aspose.PDF Java tagging
-- PDF accessibility Java
-- structured PDF Java
-schemas:
+- aspose pdf tagging
 - author: Aspose
-  dateModified: '2026-06-12'
-  description: Learn how to create tagged PDF Java using Aspose.PDF, add accessibility
-    tags PDF, set titles, headers, and paragraphs for compliant, searchable documents.
-  headline: 'How to Create Tagged PDF Java with Aspose.PDF: Enhance Accessibility
-    and Structure'
+  dateModified: '2026-10-23'
+  description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  headline: How to tag PDF in Java with Aspose.PDF for accessibility
   type: TechArticle
-- description: Learn how to create tagged PDF Java using Aspose.PDF, add accessibility
-    tags PDF, set titles, headers, and paragraphs for compliant, searchable documents.
-  name: 'How to Create Tagged PDF Java with Aspose.PDF: Enhance Accessibility and
-    Structure'
+- description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  name: How to tag PDF in Java with Aspose.PDF for accessibility
   steps:
   - name: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
       your organization from legal risk.'
@@ -75,57 +72,131 @@ schemas:
       PDF/A‑1b or PDF/A‑2u files suitable for long‑term archival.
     question: Is there support for creating PDF/A compliant documents?
   type: FAQPage
-title: 'Cómo crear PDF etiquetado en Java con Aspose.PDF: Mejora la accesibilidad
-  y la estructura'
+lastmod: '2026-10-23'
+og_description: Aprenda a etiquetar PDF en Java usando Aspose.PDF, añada etiquetas
+  de accesibilidad, establezca títulos, encabezados y párrafos para crear documentos
+  conformes y buscables que cumplan con los estándares PDF/UA y WCAG.
+og_image_alt: Diagram showing tagged PDF structure created with Aspose.PDF for Java
+og_title: Cómo etiquetar PDF en Java con Aspose.PDF para accesibilidad
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  headline: How to tag PDF in Java with Aspose.PDF for accessibility
+  type: TechArticle
+- description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  name: How to tag PDF in Java with Aspose.PDF for accessibility
+  steps:
+  - name: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
+      your organization from legal risk.'
+    text: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
+      your organization from legal risk.'
+  - name: '**Searchability:** Indexed tags make content searchable both within the
+      PDF and by external search engines, increasing discoverability by up to **30 %**
+      in enterprise repositories (Aspose internal benchmark).'
+    text: '**Searchability:** Indexed tags make content searchable both within the
+      PDF and by external search engines, increasing discoverability by up to **30 %**
+      in enterprise repositories (Aspose internal benchmark).'
+  - name: '**Device flexibility:** Tagged PDFs reflow gracefully on mobile screens,
+      e‑readers, and assistive devices, improving the reading experience for all users.'
+    text: '**Device flexibility:** Tagged PDFs reflow gracefully on mobile screens,
+      e‑readers, and assistive devices, improving the reading experience for all users.'
+  - name: '**Libraries and versions**:'
+    text: '**Libraries and versions**:'
+  - name: '**Environment setup**:'
+    text: '**Environment setup**:'
+  - name: '**Knowledge prerequisites**:'
+    text: '**Knowledge prerequisites**:'
+  - name: '**Accessibility compliance:** Government agencies and educational institutions
+      rely on tagged PDFs to meet legal accessibility mandates.'
+    text: '**Accessibility compliance:** Government agencies and educational institutions
+      rely on tagged PDFs to meet legal accessibility mandates.'
+  - name: '**Document organization:** Large technical manuals, financial reports,
+      and research papers become searchable and navigable, reducing user support tickets
+      by up to **45 %**.'
+    text: '**Document organization:** Large technical manuals, financial reports,
+      and research papers become searchable and navigable, reducing user support tickets
+      by up to **45 %**.'
+  - name: '**E‑learning materials:** Structured eBooks and course packs can be repurposed
+      for screen‑reader‑friendly formats, expanding reach to learners with disabilities.'
+    text: '**E‑learning materials:** Structured eBooks and course packs can be repurposed
+      for screen‑reader‑friendly formats, expanding reach to learners with disabilities.'
+  type: HowTo
+- questions:
+  - answer: Set the appropriate language code using `document.getTaggedContent().setLanguage("fr-FR")`
+      for French, `"es-ES"` for Spanish, etc., before adding tags.
+    question: How do I handle non‑English text with Aspose.PDF?
+  - answer: Yes, you can append tags to each page’s content stream; the API automatically
+      maintains a global logical structure across pages.
+    question: Can I create multi‑page PDFs with structured elements?
+  - answer: After creating a `HeaderTag`, apply styling via the `TextState` object—set
+      font, size, color, and spacing to match your brand guidelines.
+    question: What if my document needs a custom header style?
+  - answer: Verify that the output directory exists and has write permissions, and
+      ensure no other process locks the target file. Use `document.getError()` for
+      detailed diagnostics.
+    question: How do I troubleshoot issues with document saving?
+  - answer: Absolutely. Call `document.convertToPdfA()` after tagging to generate
+      PDF/A‑1b or PDF/A‑2u files suitable for long‑term archival.
+    question: Is there support for creating PDF/A compliant documents?
+  type: FAQPage
+title: Cómo etiquetar PDF en Java con Aspose.PDF para accesibilidad
 url: /es/java/advanced-features/java-pdf-tagging-aspose-pdf-enhancement/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-# Implementando etiquetado de PDF en Java con Aspose.PDF: Mejora la accesibilidad
+
+
+
+
+# Implementando etiquetado de PDF en Java con Aspose.PDF: mejorar la accesibilidad
 
 ## Introducción
 
-Crear un archivo **create tagged pdf java** ya no es una tarea de nicho; es un requisito esencial para aplicaciones modernas e inclusivas. En este tutorial descubrirás cómo usar **Aspose.PDF for Java** para añadir etiquetas de accesibilidad PDF, establecer un título significativo, definir encabezados jerárquicos e insertar contenido de párrafo enriquecido. Al final, tendrás un PDF totalmente etiquetado que los lectores de pantalla pueden navegar sin esfuerzo, cumpliendo con los estándares PDF/UA y Section 508, al mismo tiempo que mejora la capacidad de búsqueda y la reutilización del documento.
+Cómo etiquetar PDF en Java es un paso crítico para cualquier aplicación que deba atender a todos los usuarios, incluidos aquellos que dependen de tecnología de asistencia. En este tutorial aprenderá a usar **Aspose.PDF for Java** para agregar etiquetas de accesibilidad, establecer un título significativo, definir encabezados jerárquicos e insertar contenido de párrafo enriquecido. Al final, tendrá un PDF completamente etiquetado que los lectores de pantalla pueden navegar sin esfuerzo, cumpliendo con los estándares PDF/UA y Section 508, al mismo tiempo que mejora la capacidad de búsqueda y la reutilización del documento.
 
 ### Respuestas rápidas
-- **¿Qué es el etiquetado de PDF?** Añadir metadatos estructurales (títulos, encabezados, párrafos) que describen el flujo lógico del documento.  
+- **¿Qué es el etiquetado de PDF?** Agregar metadatos estructurales (títulos, encabezados, párrafos) que describen el flujo lógico del documento.  
 - **¿Por qué etiquetar PDFs?** Mejora la accesibilidad, permite una mejor navegación y satisface los estándares de cumplimiento.  
 - **¿Qué biblioteca usar?** Aspose.PDF for Java proporciona una API completa para el etiquetado.  
-- **¿Necesito una licencia?** Una prueba funciona para evaluación; una licencia comercial elimina las limitaciones.  
-- **¿Puedo añadir estilos personalizados?** Sí—utiliza las opciones de estilo de Aspose.PDF después de crear las etiquetas.
+- **¿Necesito una licencia?** Una versión de prueba funciona para evaluación; una licencia comercial elimina las limitaciones.  
+- **¿Puedo agregar estilos personalizados?** Sí—utilice las opciones de estilo de Aspose.PDF después de crear las etiquetas.
 
-## Qué es el etiquetado de PDF?
+## ¿Qué es el etiquetado de PDF?
 
-El etiquetado de PDF es el proceso de incrustar una estructura lógica—títulos, encabezados, párrafos, tablas, listas—directamente en un archivo PDF. Las tecnologías de asistencia, como los lectores de pantalla, leen esta estructura oculta para transmitir el flujo jerárquico del documento, permitiendo a los usuarios con discapacidades visuales saltar entre secciones, escuchar pronunciaciones correctas y comprender el contenido sin depender únicamente de pistas visuales.
+El etiquetado de PDF es el proceso de incrustar una estructura lógica—títulos, encabezados, párrafos, tablas, listas—directamente en un archivo PDF. Las tecnologías de asistencia, como los lectores de pantalla, leen esta estructura oculta para transmitir la jerarquía del documento, permitiendo a los usuarios con deficiencias visuales saltar entre secciones, escuchar pronunciaciones correctas y comprender el flujo general sin depender únicamente de indicios visuales.
 
-## ¿Por qué añadir etiquetas de accesibilidad PDF?
+## ¿Por qué agregar etiquetas de accesibilidad a PDF?
 
-Etiquetar un PDF con información de accesibilidad brinda claras ventajas. Garantiza que el documento cumpla con normas legales, facilita que el contenido sea localizado mediante motores de búsqueda y permite que el archivo se adapte sin problemas a diversos dispositivos y tecnologías de asistencia.  
-Añadir etiquetas de accesibilidad PDF ofrece tres beneficios concretos:  
-1. **Compliance:** Cumple con los requisitos PDF/UA, WCAG 2.1 y Section 508, protegiendo a tu organización de riesgos legales.  
-2. **Searchability:** Las etiquetas indexadas hacen que el contenido sea buscable tanto dentro del PDF como por motores de búsqueda externos, aumentando la descubribilidad hasta un **30 %** en repositorios empresariales (benchmark interno de Aspose).  
-3. **Device Flexibility:** Los PDFs etiquetados se adaptan fluidamente a pantallas móviles, e‑readers y dispositivos de asistencia, mejorando la experiencia de lectura para todos los usuarios.
+Etiquetar un PDF con información de accesibilidad brinda claras ventajas. Garantiza que el documento cumpla con los estándares legales, facilita la localización del contenido mediante motores de búsqueda y permite que el archivo se adapte sin problemas a diversos dispositivos y tecnologías de asistencia.  
+Agregar etiquetas de accesibilidad a PDF brinda tres beneficios concretos:  
+1. **Cumplimiento:** Cumple con los requisitos PDF/UA, WCAG 2.1 y Section 508, protegiendo a su organización de riesgos legales.  
+2. **Capacidad de búsqueda:** Las etiquetas indexadas hacen que el contenido sea buscable tanto dentro del PDF como por motores de búsqueda externos, aumentando la descubribilidad hasta en **30 %** en repositorios empresariales (benchmark interno de Aspose).  
+3. **Flexibilidad de dispositivos:** Los PDFs etiquetados se adaptan fluidamente a pantallas móviles, e‑readers y dispositivos de asistencia, mejorando la experiencia de lectura para todos los usuarios.
 
-## Prerrequisitos (H2)
+## Requisitos previos
+
+Antes de comenzar, asegúrese de tener lo siguiente:
 
 1. **Bibliotecas y versiones**:  
-   - Aspose.PDF for Java **25.3** o posterior (la API soporta **50+** formatos de entrada y salida).  
+   - Aspose.PDF for Java **25.3** o posterior (la API soporta **más de 50** formatos de entrada y salida).  
 
 2. **Configuración del entorno**:  
-   - Java Development Kit (JDK) 8 o más reciente instalado.  
+   - Java Development Kit (JDK) 8 o superior instalado.  
    - Un IDE como IntelliJ IDEA, Eclipse o VS Code.  
 
 3. **Conocimientos previos**:  
    - Habilidades básicas de programación en Java.  
    - Familiaridad con Maven o Gradle para la gestión de dependencias.  
 
-## Configuración de Aspose.PDF para Java (H2)
+## Configuración de Aspose.PDF para Java
 
-Para comenzar con Aspose.PDF, deberás añadir la biblioteca a tu proyecto usando Maven o Gradle.
+Para comenzar con Aspose.PDF, agregue la biblioteca a su proyecto usando Maven o Gradle.
 
 **Maven:**  
 ```xml
@@ -141,22 +212,22 @@ Para comenzar con Aspose.PDF, deberás añadir la biblioteca a tu proyecto usand
 implementation 'com.aspose:aspose-pdf:25.3'
 ```  
 
-Después de añadir la dependencia, obtén una licencia para Aspose.PDF:  
+Después de agregar la dependencia, obtenga una licencia para Aspose.PDF:  
 
-- **Free Trial**: Descarga una prueba temporal desde [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
-- **Temporary License**: Adquiérela a través de [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) para eliminar cualquier limitación de evaluación.  
-- **Purchase**: Visita la [Aspose Purchase page](https://purchase.aspose.com/buy) para una licencia completa.
+- **Prueba gratuita**: Descargue una prueba temporal de [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
+- **Licencia temporal**: Obténgala a través de [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) para eliminar cualquier límite de evaluación.  
+- **Compra**: Visite la [Aspose Purchase page](https://purchase.aspose.com/buy) para obtener una licencia completa.
 
-## ¿Cómo crear PDF etiquetado en Java usando Aspose.PDF?  
+## ¿Cómo crear un PDF etiquetado en Java usando Aspose.PDF?
 
-Carga tu documento PDF con `new Document("input.pdf")`, luego usa la API `Tag` para definir un título, idioma, encabezados y párrafos—este flujo único crea un PDF totalmente etiquetado en solo unas pocas llamadas a métodos. **`Tag` API provides methods to create and manage accessibility tags within a PDF document.** El proceso se ejecuta en memoria, por lo que incluso un documento de 300 páginas se procesa sin cargar todo el archivo en RAM, manteniendo el uso de memoria bajo **50 MB** en un servidor típico.
+Cargue su PDF con `new Document("input.pdf")`, luego llame a la API `Tag` para establecer un título, idioma, encabezados y párrafos. Este patrón de dos pasos crea un PDF completamente etiquetado en memoria sin cargar todo el archivo, manteniendo el uso del heap por debajo de **50 MB** incluso para documentos de 300 páginas.
 
-### Configuración del título y el idioma (H2)
+### Estableciendo título e idioma
 
-La clase `Document` es el objeto de nivel superior de Aspose.PDF que representa un único archivo PDF en memoria. Establecer un título claro y un código de idioma a nivel de documento es el primer paso hacia la accesibilidad.
+La clase `Document` es el objeto de nivel superior de Aspose.PDF que representa un único archivo PDF en memoria. Establecer un título claro y el código de idioma a nivel de documento es el primer paso hacia la accesibilidad.
 
-**Overview:**  
-Esta característica te permite etiquetar tu documento con un título significativo y especificar el idioma principal. Los lectores de pantalla usan esta información para anunciar el documento correctamente y aplicar reglas de pronunciación apropiadas.
+**Descripción general:**  
+Esta característica le permite etiquetar su documento con un título significativo y especificar el idioma principal. Los lectores de pantalla usan esta información para anunciar el documento correctamente y aplicar reglas de pronunciación apropiadas.
 
 ```java
 import com.aspose.pdf.Document;
@@ -175,11 +246,11 @@ taggedContent.setLanguage("en-US");
 // setLanguage specifies the primary language (e.g., "en-US") which assists screen readers.
 ```  
 
-### Creación de elementos de encabezado (H2)
+### Creando elementos de encabezado
 
-La clase `HeaderTag` define un encabezado estructural dentro de un PDF etiquetado. Al asignar un nivel (1‑6), creas una jerarquía que refleja el esquema lógico de tu contenido.
+La clase `HeaderTag` define un encabezado estructural dentro de un PDF etiquetado. Al asignar un nivel (1‑6), crea una jerarquía que refleja el esquema lógico de su contenido.
 
-**Overview:**  
+**Descripción general:**  
 Definir encabezados jerárquicos permite una mejor organización y navegación dentro del PDF, permitiendo que las herramientas de asistencia generen automáticamente un esquema navegable.
 
 ```java
@@ -201,12 +272,12 @@ for (int level = 1; level <= 6; level++) {
 }
 ```  
 
-### Añadir un elemento de párrafo (H2)
+### Agregar un elemento de párrafo
 
-La clase `Paragraph` representa un bloque de texto dentro de la estructura lógica del PDF. Las etiquetas de párrafo son los bloques de construcción del contenido principal de tu documento.
+La clase `Paragraph` representa un bloque de texto dentro de la estructura lógica del PDF. Las etiquetas de párrafo son los bloques de construcción del contenido principal de su documento.
 
-**Overview:**  
-Los párrafos contienen tu contenido principal, formateado para legibilidad y etiquetado para accesibilidad, asegurando que los lectores de pantalla los traten como prosa continua en lugar de una serie de palabras no relacionadas.
+**Descripción general:**  
+Los párrafos contienen su contenido principal, formateado para su legibilidad y etiquetado para accesibilidad, asegurando que los lectores de pantalla los traten como prosa continua en lugar de una serie de palabras no relacionadas.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -223,7 +294,7 @@ rootElement.appendChild(p);
 // setText assigns the content of the paragraph, enhancing readability and document flow.
 ```  
 
-### Guardar el documento (H2)
+### Guardando el documento
 
 Guardar el documento escribe tanto el contenido visual como la estructura de etiquetas oculta en disco, produciendo un PDF que cumple con los estándares de accesibilidad.
 
@@ -235,46 +306,46 @@ document.save(outputDir + "/TextBlockStructureElements.pdf");
 // The save method finalizes and writes your changes to a specified directory.
 ```  
 
-## Mejores prácticas para el etiquetado de PDF (H2)
+## Mejores prácticas para el etiquetado de PDF
 
-- **Consistent Hierarchy:** Siempre comienza con un encabezado de nivel‑1 (el título del documento) y anida los encabezados posteriores de forma lógica (p.ej., nivel‑2 para capítulos, nivel‑3 para secciones).  
-- **Language Declaration:** Establece el código de idioma ISO‑639‑1 correcto al principio; influye en la pronunciación del lector de pantalla y la precisión del texto a voz.  
-- **Descriptive Titles:** Mantén los títulos concisos—idealmente **5‑8 palabras**—y reflejando el propósito del documento.  
-- **Avoid Empty Tags:** Cada elemento estructural debe contener contenido visible; las etiquetas vacías pueden causar fallos de validación en los verificadores PDF/UA.  
-- **Validate with Tools:** Usa el “Accessibility Checker” de Adobe Acrobat Pro o el **veraPDF** de código abierto para confirmar el cumplimiento antes de la distribución.
+- **Jerarquía consistente:** Siempre comience con un encabezado de nivel‑1 (el título del documento) y anide los encabezados subsecuentes lógicamente (p. ej., nivel‑2 para capítulos, nivel‑3 para secciones).  
+- **Declaración de idioma:** Establezca el código de idioma ISO‑639‑1 correcto al principio; influye en la pronunciación del lector de pantalla y en la precisión del texto a voz.  
+- **Títulos descriptivos:** Mantenga los títulos concisos—idealmente **5‑8 palabras**—y reflejando el propósito del documento.  
+- **Evite etiquetas vacías:** Cada elemento estructural debe contener contenido visible; las etiquetas vacías pueden causar fallos de validación en los verificadores PDF/UA.  
+- **Validar con herramientas:** Use el “Accessibility Checker” de Adobe Acrobat Pro o el proyecto de código abierto **veraPDF** para confirmar el cumplimiento antes de la distribución.
 
-## Aplicaciones prácticas (H2)
+## Aplicaciones prácticas
 
-Etiquetar PDFs es útil en muchas industrias:
+El etiquetado de PDFs es útil en muchas industrias:
 
-1. **Accessibility Compliance:** Las agencias gubernamentales y las instituciones educativas dependen de los PDFs etiquetados para cumplir con los mandatos legales de accesibilidad.  
-2. **Document Organization:** Los grandes manuales técnicos, informes financieros y artículos de investigación se vuelven buscables y navegables, reduciendo los tickets de soporte de usuarios hasta un **45 %**.  
-3. **E‑Learning Materials:** Los eBooks estructurados y los paquetes de cursos pueden reutilizarse en formatos amigables para lectores de pantalla, ampliando el alcance a estudiantes con discapacidades.  
+1. **Cumplimiento de accesibilidad:** Las agencias gubernamentales y las instituciones educativas dependen de PDFs etiquetados para cumplir con los mandatos legales de accesibilidad.  
+2. **Organización de documentos:** Los grandes manuales técnicos, informes financieros y trabajos de investigación se vuelven buscables y navegables, reduciendo los tickets de soporte al usuario hasta en **45 %**.  
+3. **Materiales de e‑learning:** Los eBooks estructurados y los paquetes de cursos pueden reutilizarse en formatos compatibles con lectores de pantalla, ampliando el alcance a estudiantes con discapacidades.  
 
-## Consideraciones de rendimiento (H2)
+## Consideraciones de rendimiento
 
-Al procesar cargas de trabajo de PDF de alto volumen, ten en cuenta estos consejos:
+Al procesar cargas de trabajo de PDF de alto volumen, tenga en cuenta estos consejos:
 
-- **Efficient Memory Management:** Reutiliza una única instancia de `Document` al procesar múltiples páginas para mantener bajo el uso del heap.  
-- **Batch Processing:** Agrupa los archivos PDF en lotes de 10‑20 antes de invocar la API de etiquetado; esto reduce la sobrecarga de I/O hasta un **30 %**.  
-- **Profiling:** Usa Java Flight Recorder o VisualVM para identificar cuellos de botella—los puntos críticos comunes incluyen llamadas repetidas a `Document.save()` dentro de bucles ajustados.  
+- **Gestión eficiente de memoria:** Reutilice una única instancia de `Document` al procesar múltiples páginas para mantener bajo el uso del heap.  
+- **Procesamiento por lotes:** Agrupe archivos PDF en lotes de 10‑20 antes de invocar la API de etiquetado; esto reduce la sobrecarga de I/O hasta en **30 %**.  
+- **Perfilado:** Use Java Flight Recorder o VisualVM para identificar cuellos de botella—los puntos críticos comunes incluyen llamadas repetidas a `Document.save()` dentro de bucles ajustados.  
 
-## Preguntas frecuentes (H2)
+## Preguntas frecuentes
 
-**Q: ¿Cómo manejo texto no inglés con Aspose.PDF?**  
-A: Establece el código de idioma apropiado usando `document.getTaggedContent().setLanguage("fr-FR")` para francés, `"es-ES"` para español, etc., antes de añadir etiquetas.
+**Q: ¿Cómo manejo texto que no está en inglés con Aspose.PDF?**  
+A: Establezca el código de idioma apropiado usando `document.getTaggedContent().setLanguage("fr-FR")` para francés, `"es-ES"` para español, etc., antes de agregar etiquetas.
 
 **Q: ¿Puedo crear PDFs multipágina con elementos estructurados?**  
-A: Sí, puedes añadir etiquetas al flujo de contenido de cada página; la API mantiene automáticamente una estructura lógica global a través de las páginas.
+A: Sí, puede adjuntar etiquetas al flujo de contenido de cada página; la API mantiene automáticamente una estructura lógica global a través de las páginas.
 
 **Q: ¿Qué pasa si mi documento necesita un estilo de encabezado personalizado?**  
-A: Después de crear un `HeaderTag`, aplica estilo mediante el objeto `TextState`—establece fuente, tamaño, color y espaciado para que coincidan con las directrices de tu marca.
+A: Después de crear un `HeaderTag`, aplique estilos mediante el objeto `TextState`—establezca fuente, tamaño, color y espaciado para que coincidan con las directrices de su marca.
 
 **Q: ¿Cómo soluciono problemas al guardar el documento?**  
-A: Verifica que el directorio de salida exista y tenga permisos de escritura, y asegúrate de que ningún otro proceso bloquee el archivo de destino. Usa `document.getError()` para obtener diagnósticos detallados.
+A: Verifique que el directorio de salida exista y tenga permisos de escritura, y asegúrese de que ningún otro proceso bloquee el archivo de destino. Use `document.getError()` para obtener diagnósticos detallados.
 
 **Q: ¿Existe soporte para crear documentos compatibles con PDF/A?**  
-A: Absolutamente. Llama a `document.convertToPdfA()` después del etiquetado para generar archivos PDF/A‑1b o PDF/A‑2u adecuados para archivado a largo plazo.
+A: Absolutamente. Llame a `document.convertToPdfA()` después del etiquetado para generar archivos PDF/A‑1b o PDF/A‑2u adecuados para archivado a largo plazo.
 
 ## Recursos
 
@@ -282,25 +353,26 @@ A: Absolutamente. Llama a `document.convertToPdfA()` después del etiquetado par
 - [Descargar Aspose.PDF](https://releases.aspose.com/pdf/java/)
 - [Comprar licencia](https://purchase.aspose.com/buy)
 - [Prueba gratuita](https://releases.aspose.com/pdf/java/)
-- [Adquisición de licencia temporal](https://purchase.aspose.com/temporary-license/)
+- [Obtención de licencia temporal](https://purchase.aspose.com/temporary-license/)
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/pdf/10)
 
-Al seguir esta guía, ahora sabes **how to create tagged PDF Java** archivos que son tanto accesibles como bien estructurados. Implementa estas técnicas en tu próximo proyecto para ofrecer documentos inclusivos y buscables que cumplan con los estándares modernos de cumplimiento.
+Siguiendo esta guía, ahora sabe **cómo etiquetar PDF en Java** y puede ofrecer documentos inclusivos y buscables que cumplen con los estándares modernos de cumplimiento.
 
 ---
 
-**Última actualización:** 2026-06-12  
-**Probado con:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose
+**Last Updated:** 2026-10-23  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
 
 ## Tutoriales relacionados
 
-- [Crear y gestionar PDFs etiquetados usando Aspose.PDF para Java: Mejora la accesibilidad en tus documentos](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [Crear y gestionar PDFs etiquetados usando Aspose.PDF para Java: mejorar la accesibilidad en sus documentos](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
 - [Crear PDF accesible con contenido etiquetado en Java usando Aspose.PDF](/pdf/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/)
 - [Cómo comprobar la accesibilidad de PDF con Aspose.PDF Java para cumplimiento PDF/UA-1](/pdf/java/advanced-features/validate-pdf-accessibility-aspose-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
