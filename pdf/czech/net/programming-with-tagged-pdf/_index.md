@@ -55,6 +55,7 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 | [Jak označit PDF pomocí Aspose.Pdf – Kompletní programovací průvodce](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Kompletní průvodce, jak pomocí Aspose.PDF pro .NET označit PDF soubory a zajistit přístupnost. |  
 | [Vytvořit prvek Span v PDF s Aspose – Načíst PDF a označit obsah](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Naučte se vytvořit prvek span v PDF, načíst existující dokument a přidat tagy pomocí Aspose.PDF pro .NET. |  
 | [Vytvořit PDF dokument v C# – Umístit text a přidat strukturální strom](./create-pdf-document-c-position-text-and-add-structural-tree/) | Naučte se vytvořit PDF dokument v C# s umístěním textu a přidáním strukturálního stromu pomocí Aspose.PDF pro .NET. |  
+| [Jak přidat značky přístupnosti do PDF pomocí Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Naučte se, jak pomocí Aspose.PDF přidat do PDF souborů značky přístupnosti pro lepší soulad s PDF/UA. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -66,4 +67,4 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 | [Jak označit PDF pomocí Aspose – Kompletní průvodce tagy přístupnosti PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Kompletní průvodce, jak pomocí Aspose.PDF pro .NET označit PDF soubory tagy pro zajištění přístupnosti. |  
 | [Zpřístupněte PDF pomocí Aspose: Vložení odstavce PDF krok za krokem](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Naučte se, jak pomocí Aspose.PDF pro .NET vložit odstavce do PDF a zlepšit přístupnost dokumentu. |  
 | [Vytvořit tagovaný PDF v C# – Přidat nadpis a přístupný text](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Naučte se vytvořit tagovaný PDF v C# s nadpisem a přístupným textem pomocí Aspose.PDF pro .NET. |  
-| [Vytvořit přístupný PDF s Aspose.Pdf – krok za krokem](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit plně přístupný PDF dokument podle standardů PDF/UA. |  
+| [Vytvořit přístupný PDF s Aspose.Pdf – krok za krokem](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit plně přístupný PDF dokument podle standardů PDF/UA. |

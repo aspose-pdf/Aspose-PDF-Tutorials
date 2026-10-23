@@ -58,6 +58,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Menandai PDF dengan Aspose.Pdf – Panduan Pemrograman Lengkap](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Pelajari cara menandai PDF menggunakan Aspose.Pdf dengan panduan pemrograman lengkap langkah demi langkah. |  
 | [Buat Elemen Span PDF dengan Aspose – Muat PDF dan Tandai Konten](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Pelajari cara membuat elemen span dalam PDF, memuat PDF dengan Aspose, dan menandai kontennya dalam tutorial langkah demi langkah. |  
 | [Buat Dokumen PDF C# – Posisi Teks dan Tambahkan Pohon Struktural](./create-pdf-document-c-position-text-and-add-structural-tree/) | Pelajari cara membuat dokumen PDF dengan C#, menempatkan teks, dan menambahkan pohon struktural menggunakan Aspose.PDF untuk .NET. |  
+| [Cara menambahkan tag aksesibilitas ke PDF menggunakan Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Pelajari cara menambahkan tag aksesibilitas ke PDF dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

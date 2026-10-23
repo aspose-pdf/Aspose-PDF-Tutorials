@@ -55,6 +55,7 @@
 | [كيفية وضع علامة على PDF باستخدام Aspose.Pdf – دليل برمجة كامل](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | تعلم كيفية وضع علامات على ملفات PDF باستخدام Aspose.Pdf من خلال دليل برمجة شامل خطوة بخطوة. |  
 | [إنشاء عنصر Span في PDF باستخدام Aspose – تحميل PDF وتوسيم المحتوى](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | تعلم كيفية إنشاء عنصر Span في مستند PDF وتحميل ملف PDF وتوسيم محتواه باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [إنشاء مستند PDF باستخدام C# – وضع النص وإضافة شجرة بنية](./create-pdf-document-c-position-text-and-add-structural-tree/) | تعلم كيفية إنشاء مستند PDF باستخدام C# وتحديد موضع النص وإضافة شجرة بنية باستخدام Aspose.PDF لـ .NET. |  
+| [كيفية إضافة وسوم إمكانية الوصول إلى PDF باستخدام Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) |تعلم كيفية إضافة وسوم الوصول إلى ملفات PDF باستخدام Aspose.PDF خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
