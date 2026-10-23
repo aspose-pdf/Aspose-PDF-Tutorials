@@ -55,6 +55,7 @@ Samouczki Aspose.PDF for .NET „Programming with Tagged PDFs” przeprowadzą C
 | [Jak oznaczyć PDF przy użyciu Aspose.Pdf – Kompletny przewodnik programistyczny](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Pełny przewodnik krok po kroku, jak oznaczyć plik PDF przy użyciu Aspose.PDF w .NET, zapewniając dostępność i zgodność PDF/UA. |  
 | [Utwórz element Span w PDF za pomocą Aspose – Ładuj PDF i oznacz zawartość](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Dowiedz się, jak utworzyć element span w PDF, załadować dokument i oznaczyć jego zawartość przy użyciu Aspose.PDF dla .NET. |  
 | [Utwórz dokument PDF w C# – pozycjonowanie tekstu i dodanie drzewa strukturalnego](./create-pdf-document-c-position-text-and-add-structural-tree/) | Dowiedz się, jak w C# utworzyć dokument PDF, pozycjonować tekst i dodać drzewo strukturalne przy użyciu Aspose.PDF. |  
+| [Jak dodać tagi dostępności do PDF przy użyciu Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Dowiedz się, jak dodać tagi dostępności do pliku PDF przy użyciu Aspose.PDF, zapewniając zgodność z PDF/UA. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -66,4 +67,4 @@ Samouczki Aspose.PDF for .NET „Programming with Tagged PDFs” przeprowadzą C
 | [Jak tagować PDF za pomocą Aspose – Kompletny przewodnik po tagach dostępności PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Dowiedz się, jak oznaczyć plik PDF przy użyciu Aspose, aby zapewnić pełną dostępność i zgodność ze standardem PDF/UA. |  
 | [Uczyń PDF dostępnym z Aspose: Wstaw akapit PDF krok po kroku](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Dowiedz się, jak wstawić akapit do oznaczonego pliku PDF przy użyciu Aspose.PDF dla .NET, krok po kroku. |  
 | [Utwórz PDF z tagami w C# – Dodaj nagłówek i dostępny tekst](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Dowiedz się, jak w C# utworzyć PDF z tagami, dodać nagłówek oraz tekst dostępny, korzystając z Aspose.PDF dla .NET. |  
-| [Utwórz dostępny PDF z Aspose.Pdf – przewodnik krok po kroku](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Dowiedz się, jak utworzyć dostępny plik PDF przy użyciu Aspose.Pdf, krok po kroku, zapewniając zgodność z PDF/UA. |  
+| [Utwórz dostępny PDF z Aspose.Pdf – przewodnik krok po kroku](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Dowiedz się, jak utworzyć dostępny plik PDF przy użyciu Aspose.Pdf, krok po kroku, zapewniając zgodność z PDF/UA. |

@@ -26,6 +26,7 @@ Výukové programy „Programování s operátory“ v Aspose.PDF pro .NET vás 
 | [Iterace kolekce v C# – Jednoduchý průvodce smyčkou přes položky](./iterate-collection-c-simple-guide-to-loop-over-items/) | Jednoduchý návod, jak v C# iterovat přes položky kolekce pomocí smyček. |  
 | [Vytvoření prázdného PDF slovníku v C# – Kompletní průvodce Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Naučte se, jak vytvořit prázdný PDF slovník v C# pomocí Aspose.Pdf. Kompletní návod krok za krokem. |
 | [Jak změnit průhlednost PDF v C# pomocí Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Naučte se, jak upravit průhlednost objektů v PDF pomocí Aspose.PDF pro .NET v jazyce C#. |  
+| [Jak změnit neprůhlednost PDF v C# pomocí Aspose.Pdf – krok za krokem](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) | Naučte se, jak nastavit neprůhlednost objektů v PDF pomocí Aspose.PDF pro .NET v jazyce C#. |
 | [Vytvoření vlastního grafického stavu v PDF pomocí Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Naučte se, jak vytvořit vlastní grafický stav v PDF pomocí Aspose.PDF pro .NET. |  
 | [Přidání obdélníku do PDF s Aspose.Pdf – Kompletní průvodce C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Naučte se, jak pomocí Aspose.PDF přidat obdélník do PDF souboru v jazyce C#. |  
 | [Úprava slovníku zdrojů PDF pomocí Aspose.PDF – C# průvodce](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Naučte se, jak upravit slovník zdrojů PDF pomocí Aspose.PDF v jazyce C#. |  

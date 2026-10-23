@@ -50,7 +50,7 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [C# ile Etiketli PDF Oluşturma – Aspose PDF Tam Kılavuz](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | C# ve Aspose.PDF ile etiketli PDF oluşturmanın tam rehberini keşfedin. |
 | [Aspose ile PDF Etiketleme – PDF Erişilebilirlik Etiketlerine Tam Kılavuz](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aspose.PDF for .NET kullanarak PDF'lere erişilebilirlik etiketleri eklemeyi adım adım öğrenin. |
 | [Aspose ile PDF'yi Erişilebilir Hale Getirin: Paragraf PDF Ekleme Adım Adım](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aspose.PDF for .NET kullanarak PDF'ye paragraf ekleyerek erişilebilirliği nasıl artıracağınızı adım adım öğrenin. |
-| [C# ile Etiketli PDF Oluştur – Başlık ve Erişilebilir Metin Ekle](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Bu adım adım eğitimde C# kullanarak etiketli PDF'ye başlık ekleyip erişilebilir metin oluşturmayı öğrenin. |  
+| [C# ile Etiketli PDF Oluştur – Başlık ve Erişilebilir Metin Ekle](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Bu adım adım eğitimde C# kullanarak etiketli PDF'ye başlık ekip erişilebilir metin oluşturmayı öğrenin. |  
 | [Aspose.Pdf ile Erişilebilir PDF Oluştur – Adım Adım Kılavuz](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET kullanarak erişilebilir PDF oluşturmayı adım adım öğrenin. |  
 | [C# ile Etiketli PDF Oluştur – Adım Adım Kılavuz](./create-tagged-pdf-in-c-step-by-step-guide/) | Bu adım adım rehberde, C# kullanarak Aspose.PDF for .NET ile etiketli PDF oluşturmayı öğrenin. |
 | [PDF Belgesi Oluştur – Etiketli Metin İçin Mutlak Konum Ayarla](./create-pdf-document-set-absolute-position-for-tagged-text/) | Aspose.PDF for .NET kullanarak etiketli metni mutlak konumda yerleştirerek PDF belgesi oluşturmayı öğrenin. |
@@ -59,6 +59,7 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [C# ile Etiketli PDF Oluşturma – Tam Adım Adım Kılavuz](./create-tagged-pdf-in-c-full-step-by-step-guide/) | C# ile Aspose.PDF for .NET kullanarak tam kapsamlı etiketli PDF oluşturma sürecini adım adım izleyin. |
 | [Aspose.Pdf ile PDF'yi Etiketleme – Tam Programlama Kılavuzu](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Aspose.Pdf for .NET kullanarak PDF'leri etiketlemeyi adım adım öğrenin. |
 | [Aspose ile Span Elemanı PDF Oluştur – PDF'yi Yükle ve İçeriği Etiketle](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Aspose.PDF for .NET kullanarak bir PDF'yi yükleyip span öğesi ekleyerek içeriği etiketlemeyi öğrenin. |
+| [Aspose.PDF kullanarak PDF'ye erişilebilirlik etiketleri ekleme](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | PDF'ye erişilebilirlik etiketleri ekleyerek erişilebilirliği artırın. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

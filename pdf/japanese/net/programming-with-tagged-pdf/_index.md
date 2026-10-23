@@ -55,6 +55,7 @@ Aspose.PDF for .NET の「タグ付き PDF を使ったプログラミング」�
 | [C# でタグ付き PDF を作成する – フルステップバイステップガイド](./create-tagged-pdf-in-c-full-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# でタグ付き PDF をフルステップで作成する方法を解説します。 |  
 | [Aspose.Pdf で PDF にタグ付けする方法 – 完全プログラミングガイド](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) Aspose.PDF for .NET を使用して、PDF にタグを付ける完全なプログラミングガイドをステップバイステップで解説します。 |  
 | [Aspose でスパン要素 PDF を作成 – PDF を読み込みタグ付けする](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して、PDF を読み込み、スパン要素を作成し、コンテンツにタグ付けする方法を学びます。 |  
+| [Aspose.PDF を使用して PDF にアクセシビリティタグを追加する方法](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) Aspose.PDF for .NET を使い、PDF にアクセシビリティタグを付与する手順をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,9 +57,9 @@ Aspose.PDF for .NET의 "태그가 지정된 PDF 프로그래밍" 튜토리얼은
 | [Aspose를 사용하여 PDF에서 접근 가능한 텍스트 스팬 만들기 – 전체 C# 가이드](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 접근 가능한 텍스트 스팬을 PDF에 추가하는 단계별 완전 가이드입니다. |
 | [Aspose.Pdf를 사용하여 태그가 지정된 PDF 편집하기 – 완전 가이드](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Aspose.Pdf를 사용하여 태그가 지정된 PDF를 편집하는 방법을 단계별로 안내합니다. |
 | [C#로 태그가 지정된 PDF 만들기 – 전체 단계별 가이드](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 처음부터 태그가 지정된 PDF를 완전하게 만드는 단계별 가이드입니다. |  
-| [Aspose.Pdf로 PDF에 태그 지정 – 완전 프로그래밍 가이드](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Aspose.PDF를 사용하여 PDF에 태그를 지정하고 접근성을 확보하는 전체 단계별 가이드입니다. |  
+| [Aspose.Pdf로 PDF에 태그 지정 – 완전 프로그래밍 가이드](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Aspose.PDF를 사용하여 PDF에 태그를 지정하고 접근성을 확보하는 전체 단계별 가이드입니다. |
 | [Aspose로 스팬 요소 PDF 만들기 – PDF 로드 및 태그 지정](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Aspose.PDF for .NET을 사용하여 PDF를 로드하고 스팬 요소를 추가하여 콘텐츠에 태그를 지정하는 방법을 단계별로 안내합니다. |
-
+| [Aspose.PDF를 사용하여 PDF에 접근성 태그 추가하기](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Aspose.PDF를 활용해 PDF에 접근성 태그를 추가하는 방법을 단계별로 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
