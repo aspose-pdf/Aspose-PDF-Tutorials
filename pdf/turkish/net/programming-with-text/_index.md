@@ -73,6 +73,7 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [C# ile Word'de Span Elemanı Oluşturma – Tam Kılavuz](./create-span-element-in-word-with-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinde span öğesi eklemeyi öğrenin. |  
 | [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
 | [Aspose.Pdf.AI ve OpenAI ile PDF özeti oluşturma](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aspose.PDF for .NET ve OpenAI kullanarak PDF belgelerinin özetini otomatik olarak oluşturmayı öğrenin. |
+| [C# ile OpenAI istemcisi oluşturma ve PDF özeti oluşturma](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | C# kullanarak OpenAI istemcisi oluşturup PDF özetini nasıl oluşturacağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

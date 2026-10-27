@@ -73,6 +73,7 @@ Aspose.PDF 的 .NET「使用文字程式設計」教學課程提供了處理 PDF
 | [在 PDF 中添加 Bates 編號](./add-bates-numbers-to-pdf-bates-numbering-pdf/) |了解如何使用 Aspose.PDF for .NET 在 PDF 文件中添加 Bates 編號，以便於文件管理與追蹤。 |  
 | [使用 C# 在 Word 中建立 Span 元素 – 完整指南](./create-span-element-in-word-with-c-complete-guide/) |學習如何使用 C# 在 Word 文件中建立 Span 元素的完整步驟與範例。 |  
 | [使用 Aspose.Pdf.AI 與 OpenAI 產生 PDF 摘要](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) |了解如何結合 Aspose.Pdf.AI 與 OpenAI 生成 PDF 文件的摘要，提升文件分析效率。 |  
+| [如何在 C# 中建立 OpenAI 客戶端並產生 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) |了解如何使用 C# 建立 OpenAI 客戶端並生成 PDF 摘要的步驟。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

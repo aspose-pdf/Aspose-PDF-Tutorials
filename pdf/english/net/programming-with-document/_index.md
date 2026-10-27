@@ -30,6 +30,9 @@ pdfDocument.Save("output.pdf");
 ```
 
 ## Tutorials
+### [How to create empty PDF dictionary and edit PDF resources with Aspose.PDF in C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/)
+
+
 | Title | Description |
 | --- | --- | 
 | [Add Java Script To PDF File]({{< relref "addjavascripttopage" >}}) | Learn how to add JavaScript to PDF file using Aspose.PDF for .NET. Step-by-step guide with code tutorials for document and page level scripting. |  

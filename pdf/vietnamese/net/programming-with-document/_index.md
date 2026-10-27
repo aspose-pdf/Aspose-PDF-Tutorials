@@ -54,16 +54,11 @@ Tài nguyên này bao gồm các hướng dẫn về tính năng lập trình v�
 | [Đặt siêu dữ liệu XMP trong tệp PDF](./setxmpmetadata/) | Tìm hiểu cách thiết lập siêu dữ liệu XMP trong tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện toàn bộ quy trình, từ thiết lập đến lưu tài liệu. |  
 | [Thiết lập hệ số thu phóng trong tệp PDF](./setzoomfactor/) | Tìm hiểu cách thiết lập hệ số thu phóng trong tệp PDF bằng Aspose.PDF cho .NET. Nâng cao trải nghiệm người dùng với hướng dẫn từng bước này. |  
 | [Thu nhỏ tài liệu PDF](./shrinkdocuments/) | Tìm hiểu cách thu nhỏ tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Tối ưu hóa tài nguyên PDF và giảm kích thước tệp mà không ảnh hưởng đến chất lượng. |  
-| [Bỏ nhúng phông chữ và tối ưu hóa tệp PDF](./unembedfonts/) | Tìm hiểu cách bỏ nhúng phông chữ và tối ưu hóa tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
-| [Xác thực PDF AB Standard](./validatepdfabstandard/) Tìm hiểu cách xác thực PDF theo chuẩn PDF/A-1b bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Đảm bảo tuân thủ để lưu trữ lâu dài. |  
-| [Xác thực các tập tin PDF Một tiêu chuẩn](./validatepdfastandard/) | Tìm hiểu cách xác thực tệp PDF theo tiêu chuẩn PDF/A-1a bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. |  
-| [Xác thực PDF UA Standard](./validatepdfuastandard/) | Tìm hiểu cách xác thực PDF cho tiêu chuẩn trợ năng PDF/UA bằng Aspose.PDF cho .NET với hướng dẫn từng bước và giải thích chi tiết của chúng tôi. |  
-| [Cách sửa tệp PDF – Hướng dẫn từng bước sử dụng Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Tìm hiểu cách khôi phục và sửa chữa các tệp PDF bị hỏng bằng Aspose.Pdf trong hướng dẫn chi tiết từng bước. |  
-| [Mở tệp PDF C# – Cách sửa tệp PDF bị hỏng trong vài phút](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Tìm hiểu cách mở và sửa chữa tệp PDF bị hỏng bằng Aspose.PDF cho .NET trong vài phút. |  
-| [Cách Đọc Tài Liệu Word và Trích Xuất Trang Cụ Thể từ Word – Hướng Dẫn C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Hướng dẫn cách đọc tệp Word và trích xuất một trang cụ thể bằng C# và Aspose.Words. |  
-| [Thêm số Bates vào Word – Hướng dẫn chi tiết từng bước](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Tìm hiểu cách thêm số Bates vào tài liệu Word bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |  
-| [Thêm trang trống vào tài liệu Word bằng C# – Hướng dẫn chi tiết](./add-blank-page-in-word-document-with-c-complete-guide/) | Hướng dẫn chi tiết cách thêm trang trống vào tài liệu Word bằng C# sử dụng Aspose.Words cho .NET. |  
-
+| [Bỏ nhúng phông chữ và tối ưu hóa tệp PDF](./unembedfonts/) | Tìm hiểu cách bỏ nhúng phông chữ và tối ưu hóa tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |
+| [Tạo từ điển PDF trống và chỉnh sửa tài nguyên PDF bằng Aspose.PDF trong C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Hướng dẫn tạo từ điển PDF trống và chỉnh sửa tài nguyên PDF bằng Aspose.PDF cho .NET trong C#. |
+| [Thêm số Bates vào Word – Hướng dẫn chi tiết từng bước](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Tìm hiểu cách thêm số Bates vào tài liệu Word bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
+| [Thêm trang trống vào tài liệu Word bằng C# – Hướng dẫn chi tiết](./add-blank-page-in-word-document-with-c-complete-guide/) | Hướng dẫn chi tiết cách thêm trang trống vào tài liệu Word bằng C# sử dụng Aspose.Words cho .NET. |
+  
 | [Tạo plugin Aspose tùy chỉnh – Hướng dẫn đầy đủ để tự động xử lý PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Hướng dẫn chi tiết cách tạo plugin Aspose tùy chỉnh để tự động hoá quy trình xử lý PDF bằng .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 

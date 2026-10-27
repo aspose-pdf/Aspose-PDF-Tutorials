@@ -27,6 +27,9 @@ pdf.Save("output.pdf");
 ```
 
 ## Tutorials
+### [How to create OpenAI client and generate a PDF summary in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+
+
 ### [Generate PDF summary with Aspose.Pdf.AI and OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/)
 
 

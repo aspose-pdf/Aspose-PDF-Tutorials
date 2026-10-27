@@ -64,6 +64,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat plugin Aspose khusus – Panduan Lengkap untuk Mengotomatiskan Pemrosesan PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Pelajari cara membuat plugin Aspose khusus untuk mengotomatiskan proses PDF dengan panduan langkah demi langkah. |  
 | [Tambahkan Penomoran Bates di Word – Panduan Lengkap Langkah demi Langkah](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Pelajari cara menambahkan penomoran Bates ke dokumen Word menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah. Bahasa Indonesia:  
 | [Tambahkan Halaman Kosong dalam Dokumen Word dengan C# – Panduan Lengkap](./add-blank-page-in-word-document-with-c-complete-guide/) | Pelajari cara menambahkan halaman kosong ke dokumen Word menggunakan C# dengan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia:  
+| [Cara membuat kamus PDF kosong dan mengedit sumber daya PDF dengan Aspose.PDF di C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Pelajari cara membuat kamus PDF kosong dan mengedit sumber daya PDF menggunakan Aspose.PDF dengan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

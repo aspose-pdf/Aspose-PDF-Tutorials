@@ -72,8 +72,8 @@ Aspose.PDF के "टेक्स्ट के साथ प्रोग्र�
 | [पीडीएफ फाइल में लेटेक्स स्क्रिप्ट का उपयोग करें](./use-latex-script/) | .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में गणितीय अभिव्यक्तियाँ या सूत्र जोड़ने के लिए Latex स्क्रिप्ट का उपयोग करना सीखें। |  
 | [PDF में Bates नंबर जोड़ें – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबर जोड़ना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका। |  
 | [C# के साथ Word में स्पैन एलिमेंट बनाएं – पूर्ण गाइड](./create-span-element-in-word-with-c-complete-guide/) | C# का उपयोग करके Word दस्तावेज़ में स्पैन एलिमेंट जोड़ने और फ़ॉर्मेट करने की पूरी प्रक्रिया सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका। |
-
 | [Aspose.Pdf.AI और OpenAI के साथ PDF सारांश उत्पन्न करें](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aspose.Pdf.AI और OpenAI का उपयोग करके PDF फ़ाइल का सारांश स्वचालित रूप से बनाना सीखें। |
+| [C# में OpenAI क्लाइंट बनाना और PDF सारांश उत्पन्न करना](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Aspose.PDF और OpenAI के साथ C# में क्लाइंट बनाकर PDF सारांश कैसे उत्पन्न करें, सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -64,7 +64,7 @@
 | [カスタム Aspose プラグインの作成 – PDF 処理を自動化する完全ガイド](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) Aspose.PDF for .NET を使用して、PDF 処理を自動化するカスタムプラグインの作成方法を学びます。 |  
 | [Word でベーツ番号付与を追加 – 完全ステップバイステップガイド](./add-bates-numbering-in-word-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、Word 文書にベーツ番号を追加する方法をステップバイステップで解説します。 |  
 | [C# で Word 文書に空白ページを追加する – 完全ガイド](./add-blank-page-in-word-document-with-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で Word 文書に空白ページを追加する方法をステップバイステップで解説します。 |  
-
+| [Aspose.PDF を使用して空の PDF 辞書を作成し、PDF リソースを編集する方法（C#）](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) Aspose.PDF for .NET を使用して空の PDF 辞書を作成し、PDF リソースを編集する手順を学びます。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

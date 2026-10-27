@@ -73,6 +73,7 @@
 | [إضافة أرقام بياتس إلى PDF – ترقيم بياتس PDF](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | تعلم كيفية إضافة أرقام بياتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [إنشاء عنصر Span في Word باستخدام C# – دليل كامل](./create-span-element-in-word-with-c-complete-guide/) | تعلم كيفية إنشاء عنصر Span في مستندات Word باستخدام C# خطوة بخطوة مع أمثلة عملية. |  
 | [إنشاء ملخص PDF باستخدام Aspose.Pdf.AI و OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | تعلم كيفية توليد ملخص لمستند PDF باستخدام Aspose.Pdf.AI وتكامل OpenAI للذكاء الاصطناعي. |
+| [كيفية إنشاء عميل OpenAI وتوليد ملخص PDF باستخدام C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | تعلم كيفية إنشاء عميل OpenAI وتوليد ملخص لمستند PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

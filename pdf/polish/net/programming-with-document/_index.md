@@ -64,6 +64,7 @@ Zasób zawiera samouczki dotyczące programowania funkcji dokumentu w bibliotece
 | [Utwórz własną wtyczkę Aspose – Kompletny przewodnik automatyzacji przetwarzania PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Dowiedz się, jak stworzyć własną wtyczkę Aspose, aby zautomatyzować przetwarzanie plików PDF przy użyciu .NET. |  
 | [Dodaj pustą stronę w dokumencie Word przy użyciu C# – Kompletny przewodnik](./add-blank-page-in-word-document-with-c-complete-guide/) | Dowiedz się, jak dodać pustą stronę do dokumentu Word przy użyciu C# w tym kompletnym przewodniku krok po kroku. |  
 | [Dodaj numerację Bates w Wordzie – Kompletny przewodnik krok po kroku](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Dowiedz się, jak dodać numerację Bates w dokumentach Word przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
+| [Jak utworzyć pusty słownik PDF i edytować zasoby PDF przy użyciu Aspose.PDF w C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Dowiedz się, jak utworzyć pusty słownik PDF oraz modyfikować zasoby dokumentu przy pomocy Aspose.PDF w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,7 @@ Aspose.PDFの.NET向け「テキストプログラミング」チュートリア
 | [PDFにベーツ番号を追加 – ベーツ番号付与](./add-bates-numbers-to-pdf-bates-numbering-pdf/) Aspose.PDF for .NET を使用して、PDF にベーツ番号（ページ番号）を追加する方法を学びます。ステップバイステップのガイドです。 |  
 | [C# で Word の Span 要素を作成する – 完全ガイド](./create-span-element-in-word-with-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で Word 文書に Span 要素を作成し、書式設定や操作方法を学ぶステップバイステップガイドです。 |  
 | [Aspose.Pdf.AI と OpenAI を使用して PDF の要約を生成する](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) Aspose.Pdf.AI と OpenAI を活用し、PDF の内容を自動要約する方法をステップバイステップで解説します。 |  
+| [C# で OpenAI クライアントを作成し、PDF の要約を生成する方法](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) Aspose.PDF for .NET と OpenAI を使用して、C# で PDF の要約を生成する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
