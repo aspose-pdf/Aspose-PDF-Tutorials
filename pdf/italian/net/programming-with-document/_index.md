@@ -64,6 +64,7 @@ La risorsa include tutorial sulla programmazione con funzionalità di gestione d
 | [Come riparare i file PDF – Guida passo‑passo usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Scopri come riparare i file PDF danneggiati con Aspose.Pdf in questa guida passo‑passo. |
 | [Aggiungi numerazione Bates in Word – Guida completa passo‑passo](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Scopri come aggiungere la numerazione Bates ai documenti Word con una guida dettagliata passo‑passo. |
 | [Aggiungi pagina vuota in documento Word con C# – Guida completa](./add-blank-page-in-word-document-with-c-complete-guide/) | Scopri come aggiungere una pagina vuota a un documento Word usando C# con questa guida passo passo. |
+| [Come creare un dizionario PDF vuoto e modificare le risorse PDF con Aspose.PDF in C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Scopri come creare un dizionario PDF vuoto e modificare le risorse di un PDF usando Aspose.PDF per .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

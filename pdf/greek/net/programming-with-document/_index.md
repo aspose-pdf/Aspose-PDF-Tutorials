@@ -62,7 +62,7 @@
 | [Πώς να επισκευάσετε αρχεία PDF – Οδηγός βήμα προς βήμα με χρήση Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Μάθετε πώς να επισκευάσετε κατεστραμμένα αρχεία PDF χρησιμοποιώντας το Aspose.Pdf σε αναλυτικό βήμα‑βήμα οδηγό. |
 | [Άνοιγμα αρχείου PDF C# – Πώς να επισκευάσετε ένα κατεστραμμένο PDF σε λίγα λεπτά](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Μάθετε πώς να ανοίξετε και να επισκευάσετε γρήγορα ένα κατεστραμμένο αρχείο PDF χρησιμοποιώντας Aspose.PDF για .NET σε C#. |  
 | [Πώς να διαβάσετε έγγραφο Word και να εξάγετε συγκεκριμένη σελίδα από το Word – Οδηγός C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Μάθετε πώς να διαβάσετε ένα αρχείο Word και να εξάγετε μια συγκεκριμένη σελίδα χρησιμοποιώντας C# και Aspose.Words. |  
-
+| [Πώς να δημιουργήσετε κενό λεξικό PDF και να επεξεργαστείτε πόρους PDF με το Aspose.PDF σε C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Μάθετε πώς να δημιουργήσετε κενό λεξικό PDF και να επεξεργαστείτε τους πόρους PDF με Aspose.PDF σε C#. |
 | [Δημιουργία προσαρμοσμένου plugin Aspose – Πλήρης οδηγός για αυτοματοποίηση επεξεργασίας PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Μάθετε πώς να δημιουργήσετε ένα προσαρμοσμένο plugin Aspose για την αυτοματοποίηση της επεξεργασίας PDF χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Προσθήκη αριθμητικής Bates σε Word – Πλήρης οδηγός βήμα προς βήμα](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αριθμητική Bates σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET, βήμα προς βήμα. |
 {{< /blocks/products/pf/tutorial-page-section >}}

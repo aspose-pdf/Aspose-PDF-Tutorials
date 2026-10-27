@@ -63,8 +63,8 @@ Die Ressource enthält Tutorials zur Programmierung mit Dokumentfunktion der Asp
 | [Erstellen Sie ein benutzerdefiniertes Aspose-Plugin – Vollständige Anleitung zur Automatisierung der PDF-Verarbeitung](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Erfahren Sie, wie Sie ein benutzerdefiniertes Aspose-Plugin erstellen, um die PDF-Verarbeitung zu automatisieren. |  
 | [Bates-Nummerierung in Word hinzufügen – vollständige Schritt‑für‑Schritt‑Anleitung](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Bates‑Nummerierung in Word‑Dokumenten hinzufügen – komplette Schritt‑für‑Schritt‑Anleitung. |
 | [Leere Seite in Word-Dokument mit C# hinzufügen – Komplettanleitung](./add-blank-page-in-word-document-with-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine leere Seite in ein Word-Dokument einfügen – Schritt‑für‑Schritt‑Anleitung. |
-
 | [PDF-Datei öffnen C# – So reparieren Sie ein beschädigtes PDF in Minuten](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein beschädigtes PDF in wenigen Minuten reparieren. |
+| [Wie man ein leeres PDF‑Wörterbuch erstellt und PDF‑Ressourcen mit Aspose.PDF in C# bearbeitet](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein leeres PDF‑Wörterbuch erstellen und die PDF‑Ressourcen bearbeiten. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

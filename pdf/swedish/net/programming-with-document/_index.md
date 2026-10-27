@@ -64,6 +64,7 @@ Resursen innehåller handledningar om Aspose.PDF för .NET-bibliotekets programm
 | [Skapa anpassat Aspose-plugin – Komplett guide för att automatisera PDF‑bearbetning](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Lär dig hur du bygger ett eget Aspose‑plugin för att automatisera PDF‑processer med steg‑för‑steg‑kodexempel. |  
 | [Lägg till Bates-nummerering i Word – Komplett steg‑för‑steg‑guide](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Lär dig hur du lägger till Bates‑nummerering i Word‑dokument med en komplett steg‑för‑steg‑guide. |  
 | [Lägg till tom sida i Word-dokument med C# – Komplett guide](./add-blank-page-in-word-document-with-c-complete-guide/) | Lär dig hur du lägger till en tom sida i ett Word-dokument med C# i en komplett steg‑för‑steg‑guide. |  
+| [Hur du skapar en tom PDF-dictionary och redigerar PDF-resurser med Aspose.PDF i C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Lär dig hur du skapar en tom PDF-dictionary och redigerar PDF-resurser med Aspose.PDF i C# i en steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

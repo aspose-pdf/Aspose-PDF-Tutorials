@@ -72,6 +72,7 @@
 | [ใช้สคริปต์ Latex ในไฟล์ PDF](./use-latex-script/) | เรียนรู้วิธีใช้สคริปต์ Latex เพื่อเพิ่มนิพจน์ทางคณิตศาสตร์หรือสูตรในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET |  
 | [เพิ่มหมายเลข Bates ลงใน PDF – การกำหนดหมายเลข Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด |  
 - [สร้างสรุป PDF ด้วย Aspose.Pdf.AI และ OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | เรียนรู้วิธีสร้างสรุปของไฟล์ PDF ด้วย Aspose.Pdf.AI ร่วมกับ OpenAI ในบทช่วยสอนขั้นตอนเดียว -  
+- [วิธีสร้างไคลเอนต์ OpenAI และสร้างสรุป PDF ด้วย C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | เรียนรู้วิธีสร้างไคลเอนต์ OpenAI และสรุปไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

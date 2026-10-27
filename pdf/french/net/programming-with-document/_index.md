@@ -62,7 +62,8 @@ Cette ressource comprend des tutoriels sur la fonctionnalité de programmation a
 | [Ouvrir un fichier PDF C# – Comment réparer un PDF corrompu en quelques minutes](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Apprenez à ouvrir et réparer rapidement un PDF corrompu avec Aspose.PDF pour .NET en C#. |
 | [Comment réparer des fichiers PDF – Guide étape par étape avec Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Apprenez à réparer des fichiers PDF corrompus avec Aspose.Pdf grâce à ce guide détaillé étape par étape. |  
 | [Comment lire un document Word et extraire une page spécifique – Guide C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Apprenez à lire un document Word et à extraire une page précise à l'aide d'Aspose.Words pour .NET en C#. |
-| [Créer un plugin Aspose personnalisé – Guide complet pour automatiser le traitement PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Apprenez à développer un plugin Aspose sur mesure pour automatiser le traitement de fichiers PDF avec Aspose.PDF pour .NET. |  
+| [Créer un plugin Aspose personnalisé – Guide complet pour automatiser le traitement PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Apprenez à développer un plugin Aspose sur mesure pour automatiser le traitement de fichiers PDF avec Aspose.PDF pour .NET. |
+| [Comment créer un dictionnaire PDF vide et modifier les ressources PDF avec Aspose.PDF en C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Apprenez à créer un dictionnaire PDF vide et à modifier ses ressources avec Aspose.PDF pour .NET en C#. |
 | [Ajouter une page blanche dans un document Word avec C# – Guide complet](./add-blank-page-in-word-document-with-c-complete-guide/) | Apprenez à ajouter une page blanche à un document Word avec C# grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

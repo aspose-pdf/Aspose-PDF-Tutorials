@@ -54,7 +54,7 @@ Los tutoriales de "Programación con Texto" de Aspose.PDF para .NET ofrecen una 
 | [Reemplazar la primera ocurrencia](./replace-first-occurrence/) Aprenda a reemplazar la primera aparición de texto en PDF usando Aspose.PDF para .NET con nuestra guía paso a paso. Ideal para desarrolladores y gestores de documentos.  
 | [Reemplazar fuentes en un archivo PDF](./replace-fonts/) Reemplace fácilmente las fuentes en archivos PDF con Aspose.PDF para .NET. Guía paso a paso con ejemplos de código para reemplazar fuentes.  
 | [Reemplazar todo el texto en un archivo PDF](./replace-text-all/) Aprenda a reemplazar texto fácilmente en un archivo PDF con Aspose.PDF para .NET. Guía completa con fragmentos de código incluidos.  
-| [Reemplazar texto en una expresión regular en un archivo PDF](./replace-text-on-regular-expression/) Aprenda a reemplazar texto con expresiones regulares en un archivo PDF usando Aspose.PDF para .NET. Siga nuestra guía paso a paso para automatizar los cambios de texto eficientemente.  
+| [Reemplazar texto en una expresión regular en un archivo PDF](./replace-text-on-regular-expression/) Aprenda a reemplazar texto con expresiones regulares en un PDF usando Aspose.PDF para .NET. Siga nuestra guía paso a paso para automatizar los cambios de texto eficientemente.  
 | [Reemplazar página de texto en un archivo PDF](./replace-text-page/) Aprenda a reemplazar texto en un archivo PDF con Aspose.PDF para .NET con esta guía paso a paso. Personalice fuentes, colores y propiedades de texto fácilmente.  
 | [Girar texto usando párrafo en un archivo PDF](./rotate-text-using-paragraph/) Aprenda a rotar texto en PDF con Aspose.PDF para .NET. Siga esta guía paso a paso para crear sus documentos.  
 | [Rotar texto usando fragmentos de texto en archivos PDF](./rotate-text-using-text-fragment/) Aprenda a rotar texto en archivos PDF con Aspose.PDF para .NET con una guía paso a paso. Descubra técnicas de manipulación de texto, desde el posicionamiento hasta la rotación.  
@@ -73,6 +73,7 @@ Los tutoriales de "Programación con Texto" de Aspose.PDF para .NET ofrecen una 
 | [Segmentos de texto en archivos PDF](./text-segments/) | Aprenda a buscar segmentos de texto específicos en un archivo PDF utilizando expresiones regulares en Aspose.PDF para .NET. |  
 | [Usar script de Latex en archivos PDF](./use-latex-script/) | Aprenda a utilizar el script Latex para agregar expresiones matemáticas o fórmulas en archivos PDF usando Aspose.PDF para .NET. |  
 | [Generar resumen PDF con Aspose.Pdf.AI y OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) Aprenda a generar un resumen de PDF utilizando Aspose.Pdf.AI y la API de OpenAI con este tutorial paso a paso.  
+| [Cómo crear cliente OpenAI y generar un resumen PDF en C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Aprenda a crear un cliente OpenAI y generar un resumen de PDF usando Aspose.PDF para .NET y la API de OpenAI en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
