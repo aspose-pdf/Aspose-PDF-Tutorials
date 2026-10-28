@@ -64,6 +64,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [Bates-számozás hozzáadása PDF-ekhez C#‑vel – Teljes útmutató](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Lépésről lépésre útmutató a PDF-ek Bates-számozásának hozzáadásához C#‑ben az Aspose.PDF for .NET használatával. |
 | [PDF oldal duplikálása Aspose.Pdf‑vel – Teljes útmutató](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Lépésről lépésre bemutatja, hogyan másolhat vagy duplikálhat egy oldalt PDF dokumentumban az Aspose.PDF for .NET segítségével. |
 | [Bates-számozás hozzáadása PDF-hez az Aspose.PDF segítségével – Teljes útmutató](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Lépésről lépésre útmutató a Bates-számozás PDF-fájlokhoz való hozzáadásához az Aspose.PDF for .NET használatával. |
+| [Bates számozás hozzáadása PDF-hez Aspose‑val – lépésről‑lépésre útmutató](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá Bates‑számozást PDF dokumentumokhoz az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -119,10 +119,7 @@ pdfDocument.Save("output.pdf");
 | [How to create empty PDF dictionary with Aspose.PDF in C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Learn how to create an empty PDF dictionary using Aspose.PDF for .NET in C#. Step-by-step code guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

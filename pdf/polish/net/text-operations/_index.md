@@ -174,6 +174,10 @@ Dowiedz się, jak podsumować dokumenty PDF przy użyciu Aspose.Pdf.AI, korzysta
 
 ### [AI czat PDF: zadawaj pytania do PDF za pomocą Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Dowiedz się, jak używać Aspose AI Copilot do zadawania pytań i uzyskiwania odpowiedzi z dokumentów PDF.
+### [Jak podsumować PDF za pomocą Aspose.Pdf.AI – przewodnik](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Dowiedz się, jak wykorzystać Aspose.Pdf.AI do automatycznego podsumowywania treści dokumentów PDF w aplikacjach .NET.
+### [Jak przekonwertować PDF na podsumowanie przy użyciu Aspose.Pdf.AI w C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Dowiedz się, jak przy użyciu Aspose.Pdf.AI w C# wygenerować podsumowanie dokumentu PDF w kilku prostych krokach.
 
 ## Dodatkowe zasoby
 

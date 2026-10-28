@@ -38,6 +38,7 @@
 - [วาดสี่เหลี่ยมบน PDF ด้วย C# – คู่มือแบบทีละขั้นตอน](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) เรียนรู้วิธีวาดสี่เหลี่ยมบนไฟล์ PDF ด้วย C# ผ่านขั้นตอนละเอียดใน Aspose.PDF สำหรับ .NET
 | [วิธีใช้ Repair ใน Aspose.PDF – แก้ไขคำอธิบายที่เสียหาย](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) เรียนรู้วิธีใช้ฟีเจอร์ Repair ใน Aspose.PDF เพื่อซ่อมแซมคำอธิบายที่เสียหายในไฟล์ PDF ของคุณ  
 | [เพิ่มคำอธิบาย PDF ด้วย Aspose.PDF - คู่มือฉบับสมบูรณ์](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีเพิ่มคำอธิบาย PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ในคู่มือฉบับเต็มนี้ |
+| [วาดสี่เหลี่ยมบน PDF – คำแนะนำขั้นตอนโดยขั้นตอน C#](./draw-rectangle-on-pdf-step-by-step-c-guide/) | เรียนรู้วิธีวาดสี่เหลี่ยมบนไฟล์ PDF ด้วย C# อย่างละเอียดในขั้นตอนต่อขั้นตอน |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

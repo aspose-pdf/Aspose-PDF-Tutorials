@@ -72,6 +72,7 @@ Aspose.PDF 的“文本编程”.NET 教程提供了全面的 PDF 文档文本�
 | [PDF文件中的文本片段](./text-segments/) 了解如何在 Aspose.PDF for .NET 中使用正则表达式搜索 PDF 文件中的特定文本段。|  
 | [在 PDF 文件中使用 Latex 脚本](./use-latex-script/) 了解如何使用 Latex 脚本通过 Aspose.PDF for .NET 在 PDF 文件中添加数学表达式或公式。|  
 | [使用 C# 在 Word 中创建 Span 元素 – 完整指南](./create-span-element-in-word-with-c-complete-guide/) 通过本分步教程学习如何使用 C# 在 Word 文档中创建 Span 元素，实现高级文本布局。|  
+| [使用 Aspose.Pdf.AI 和 OpenAI 生成 PDF 摘要](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) 学习如何使用 Aspose.Pdf.AI 与 OpenAI 为 PDF 文档生成自动摘要，包含代码示例和步骤指南。|  
 | [如何使用 Aspose.Pdf.AI 在 C# 中创建摘要 PDF](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) 学习在 C# 中使用 Aspose.Pdf.AI 生成 PDF 摘要的步骤和代码示例。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

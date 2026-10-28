@@ -64,6 +64,7 @@
 | [Προσθήκη αριθμού Bates σε PDF με C# – Πλήρης οδηγός](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Μάθετε πώς να προσθέσετε αριθμό Bates σε αρχεία PDF χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα. |
 | [Αντιγραφή σελίδας PDF με Aspose.Pdf – Πλήρης οδηγός](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Μάθετε πώς να αντιγράψετε μια σελίδα PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 | [Προσθήκη αριθμού Bates σε PDF με Aspose.PDF – Πλήρης οδηγός](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Μάθετε πώς να προσθέσετε αριθμούς Bates σε PDF χρησιμοποιώντας το Aspose.PDF με πλήρη βήμα‑βήμα οδηγίες. |
+| [Προσθήκη αρίθμησης Bates σε PDF με Aspose – οδηγός βήμα‑βήμα](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με αναλυτικές οδηγίες βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

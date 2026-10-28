@@ -70,6 +70,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Convert PDF to PDF/X-4 with Aspose.PDF – Complete C# Guide](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | Pelajari cara mengonversi PDF ke PDF/X-4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap dan langkah demi langkah. |
 | [Mengonversi PDF ke PDF/X‑1A dalam C# – Panduan Lengkap Langkah demi Langkah](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Pelajari cara mengonversi PDF ke PDF/X‑1A menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah lengkap dalam C#. |
 | [Konversi PDF ke PDF/X-1a dengan C#](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Pelajari cara mengonversi PDF ke PDF/X-1a menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [Mengonversi PDF ke PDF/X‑1a dalam C# – Panduan Lengkap](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | Pelajari cara mengonversi PDF ke format PDF/X‑1a menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [Mengonversi PDF ke PDF/X-4 dengan C# – Panduan Lengkap Aspose.Pdf](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | Pelajari cara mengonversi PDF ke PDF/X-4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |
+| [Tutorial konversi PDF/X‑4 – Tetapkan standar PDF dan konversi PDF menggunakan Aspose](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Pelajari cara menetapkan standar PDF/X‑4 dan mengonversi PDF menggunakan Aspose.PDF untuk .NET. |
+| [Cara menggunakan Aspose untuk mengonversi PDF ke PDF/X‑1A dengan ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Pelajari cara mengonversi PDF ke PDF/X‑1A dengan profil ICC menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |
 | [Tutorial PDF ke PNG – Mengonversi Halaman PDF ke PNG dalam C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Pelajari cara mengonversi halaman PDF menjadi gambar PNG menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Cara Mengatur Opsi Konversi PDF di C# – Panduan Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Pelajari cara mengatur opsi konversi PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. |
 | [Konversi Aspose PDF di C#: Muat, Konversi ke PDF/X‑4, Simpan](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Pelajari cara memuat file, mengonversinya ke PDF/X‑4, dan menyimpannya menggunakan Aspose.PDF untuk .NET dalam C#. |
@@ -91,40 +95,11 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Mengonversi PDF dengan Aspose – Panduan Lengkap Langkah‑per‑Langkah](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose dengan panduan langkah demi langkah yang lengkap dan mudah diikuti. Bahasa Indonesia:  
 | [Mengonversi PDF ke PDFX dengan Aspose.Pdf – Panduan Lengkap](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Pelajari cara mengonversi file PDF ke PDF/X menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang lengkap. Bahasa Indonesia: |
 | [Cara menyematkan profil ICC dan mengonversi PDF ke PDF/X-1 dengan Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Pelajari cara menyematkan profil ICC ke PDF dan mengonversinya ke PDF/X-1 menggunakan Aspose.Pdf untuk .NET. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose PDF conversion: Konversi PDF ke PDF/X‑4 dengan C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Atur Profil ICC Saat Mengonversi Word ke PDF – Panduan Lengkap C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Pelajari cara mengatur profil ICC saat mengonversi dokumen Word ke PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C# ini. Bahasa Indonesia:  
 | [Tambahkan profil ICC dan konversi PDF ke PDF/X‑4 – Panduan C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Pelajari cara menambahkan profil ICC dan mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan panduan C# langkah demi langkah. |  
 | [Muat Dokumen PDF C# – Mengonversi ke PDF/X-4 Panduan Langkah-demi-Langkah](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Pelajari cara memuat dokumen PDF dan mengonversinya ke PDF/X-4 menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |
 | [Konversi Aspose PDF ke HTML dalam C# – Panduan Lengkap](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah lengkap. |
-
 | [Cara Mengonversi PDF dengan Aspose.Pdf – Panduan Lengkap C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose.Pdf dengan contoh kode C# lengkap dalam panduan langkah demi langkah ini. |  
 | [Tambahkan Penomoran Bates ke DOCX dan Konversi ke PDF – Panduan Lengkap C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Pelajari cara menambahkan penomoran Bates pada file DOCX dan mengonversinya ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |  
 | [Simpan Dokumen PDF – Cara Menambahkan Elips & Mengonversi DOCX ke PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Pelajari cara menyimpan dokumen PDF, menambahkan bentuk elips, dan mengonversi file DOCX ke PDF menggunakan Aspose.PDF untuk .NET. |  

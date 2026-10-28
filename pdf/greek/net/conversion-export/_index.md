@@ -199,6 +199,8 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 Μάθετε πώς να μετατρέπετε γρήγορα αρχεία PDF σε HTML χρησιμοποιώντας C# και Aspose.Pdf με αυτόν τον σύντομο οδηγό.
 ### [Πώς να εξάγετε PDF σε HTML σε C# – Πλήρης Οδηγός Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Μάθετε πώς να εξάγετε PDF σε HTML με το Aspose.PDF σε C#, ακολουθώντας έναν πλήρη βήμα-βήμα οδηγό.
+### [Πώς να παραλείψετε την εξαγωγή εικόνων κατά τη μετατροπή PDF σε HTML – Πλήρης οδηγός C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Μάθετε πώς να εξαιρέσετε τις εικόνες κατά τη μετατροπή PDF σε HTML χρησιμοποιώντας C# και Aspose.PDF.
 
 ### [Μετατροπή PDF σε TIFF σε .NET χρησιμοποιώντας το Aspose.PDF: Οδηγός βήμα προς βήμα](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Μάθετε πώς να μετατρέπετε έγγραφα PDF σε εικόνες TIFF χρησιμοποιώντας το Aspose.PDF για .NET. Κατακτήστε τα προσαρμοσμένα βάθη χρωμάτων και τις προηγμένες τεχνικές επεξεργασίας εικόνας.
@@ -227,6 +229,9 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Aspose PDF σε HTML: Πλήρης Οδηγός για τη Μετατροπή PDF και Αφαίρεση Εικόνων](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Μάθετε πώς να μετατρέψετε PDF σε HTML και να αφαιρέσετε τις εικόνες χρησιμοποιώντας το Aspose.PDF για .NET.
 
+### [Αποθήκευση PDF ως HTML με το Aspose.PDF – οδηγός βήμα προς βήμα](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε αρχεία PDF σε μορφή HTML χρησιμοποιώντας το Aspose.PDF με βήμα‑βήμα οδηγίες.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)
@@ -234,6 +239,8 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 - [Λήψη Aspose.PDF για το Διαδίκτυο](https://releases.aspose.com/pdf/net/)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+### [Αποθήκευση PDF ως HTML και μετατροπή σε PDF/X‑4 με το Aspose.PDF σε C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Μάθετε πώς να αποθηκεύσετε PDF ως HTML και να το μετατρέψετε σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

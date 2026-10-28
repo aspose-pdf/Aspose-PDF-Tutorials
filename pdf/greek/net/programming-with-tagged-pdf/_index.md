@@ -57,6 +57,7 @@
 | [Δημιουργία PDF με ετικέτες σε C# – Πλήρης οδηγός βήμα‑βήμα](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες σε C# χρησιμοποιώντας Aspose.PDF για .NET με λεπτομερή βήμα‑βήμα οδηγία. |
 | [Πώς να ετικετοποιήσετε PDF με Aspose.Pdf – Πλήρης προγραμματιστικός οδηγός](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Μάθετε πώς να ετικετοποιήσετε PDF χρησιμοποιώντας Aspose.Pdf σε έναν πλήρη προγραμματιστικό οδηγό βήμα‑βήμα. |
 | [Δημιουργία στοιχείου Span σε PDF με Aspose – Φόρτωση PDF και Ετικετοποίηση Περιεχομένου](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Μάθετε πώς να δημιουργήσετε στοιχείο Span σε PDF, να φορτώσετε PDF με Aspose και να προσθέσετε ετικέτες περιεχομένου για προσβασιμότητα. |
+| [Δημιουργία εγγράφου PDF C# – Τοποθέτηση κειμένου και προσθήκη δομικού δέντρου](./create-pdf-document-c-position-text-and-add-structural-tree/) | Μάθετε πώς να δημιουργήσετε έγγραφο PDF σε C#, τοποθετώντας κείμενο και προσθέτοντας δομικό δέντρο με το Aspose.PDF. |
 
 | [Δημιουργία εγγράφου PDF C# – Πλήρης οδηγός με ετικετοποιημένο κείμενο και τοποθέτηση](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Μάθετε πώς να δημιουργήσετε PDF με ετικετοποιημένο κείμενο και ακριβή τοποθέτηση στοιχείων χρησιμοποιώντας C# και Aspose.PDF για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

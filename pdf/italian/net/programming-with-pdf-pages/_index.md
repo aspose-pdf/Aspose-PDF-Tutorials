@@ -64,6 +64,7 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 | [Duplica pagina PDF con Aspose.Pdf – Guida completa](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Guida passo passo per duplicare una pagina PDF usando Aspose.PDF per .NET, con esempi di codice chiari e facili da seguire. |
 | [Aggiungi numerazione Bates a PDF con Aspose.PDF – Guida completa](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Guida passo passo per aggiungere la numerazione Bates ai file PDF usando Aspose.PDF per .NET. |
 | [Aggiungi pagina vuota PDF con Aspose.PDF – Guida completa](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Guida passo passo per aggiungere una pagina vuota a un PDF usando Aspose.PDF per .NET, con esempi di codice chiari. |
+| [Aggiungi numerazione Bates al PDF con Aspose – guida passo‑passo](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Guida passo passo per aggiungere la numerazione Bates ai file PDF utilizzando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

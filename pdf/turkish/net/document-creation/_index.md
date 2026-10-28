@@ -18,6 +18,7 @@ Belge oluşturma eğitimlerimiz, .NET'te programatik olarak PDF dosyaları oluş
 ## Mevcut Eğitimler
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET kullanarak Üç Sayfalı PDF/X‑3 Belgesi Oluşturun" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Aspose.PDF for .NET kullanarak PDF/X‑1 Belgesi Oluşturun" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [.NET için Aspose.PDF Kullanarak PDF Kitapçıkları Oluşturma: Adım Adım Kılavuz](./aspose-pdf-net-create-booklets-tutorial/)
 Aspose.PDF for .NET ile profesyonel PDF kitapçıkları oluşturmayı öğrenin. Bu eğitim kurulum, uygulama ve pratik uygulamaları kapsar.
 
@@ -128,6 +129,7 @@ Aspose.PDF for .NET kullanarak C# dilinde Bates numaralandırmasıyla PDF belgel
 PDF/X‑4 standardına uygun PDF belgelerini C# ile oluşturmayı öğrenin.
 ### [Boş Sayfa ve Dikdörtgen ile PDF Belgesi Oluşturma](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 C# ile boş bir sayfa ekleyip dikdörtgen çizen basit bir PDF belgesi oluşturun.
+### [C# ile Aspose.Pdf kullanarak PDF belgesi oluşturma](./create-pdf-document-in-c-with-aspose-pdf/)
 
 ## Ek Kaynaklar
 

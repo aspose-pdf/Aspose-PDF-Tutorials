@@ -64,6 +64,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Menambahkan Penomoran Bates ke PDF dengan C# – Panduan Lengkap](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates ke file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |  
 | [Duplikat Halaman PDF dengan Aspose.Pdf – Panduan Lengkap](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Panduan lengkap untuk menduplikasi halaman PDF menggunakan Aspose.Pdf dalam aplikasi .NET Anda. |  
 | [Menambahkan Penomoran Bates ke PDF dengan Aspose.PDF – Panduan Lengkap](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Panduan langkah demi langkah menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
+| [Menambahkan penomoran Bates pada PDF dengan Aspose – panduan langkah demi langkah](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

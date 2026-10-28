@@ -38,6 +38,7 @@
 | [Ενημέρωση σχολίων PDF ελεύθερου κειμένου](./updatefreetextannotation/) Μάθετε πώς να ενημερώνετε τις σχολιασμοί ελεύθερου κειμένου σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα προς βήμα. |  
 | [Πώς να χρησιμοποιήσετε το Repair στο Aspose.PDF – Διορθώστε σπασμένα σχολιασμούς](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Μάθετε πώς να επαναφέρετε PDF με κατεστραμμένα σχολιασμούς χρησιμοποιώντας τη λειτουργία Repair του Aspose.PDF για .NET. |  
 | [Σχεδίαση ορθογωνίου σε PDF με C# – Οδηγός βήμα προς βήμα](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Μάθετε πώς να σχεδιάζετε ορθογώνιο σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C# σε αυτόν τον οδηγό βήμα‑βήμα. |
+| [Σχεδίαση ορθογωνίου σε PDF – βήμα‑βήμα οδηγός C#](./draw-rectangle-on-pdf-step-by-step-c-guide/) Μάθετε πώς να σχεδιάζετε ορθογώνια σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα‑βήμα. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

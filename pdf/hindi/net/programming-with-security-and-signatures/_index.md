@@ -67,6 +67,12 @@
 | [C# में PDF डिजिटल हस्ताक्षर जाँचें – पूर्ण गाइड](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF डिजिटल हस्ताक्षर कैसे जाँचें, इस पूर्ण गाइड में सीखें। |  
 | [PDF डिजिटल हस्ताक्षर सत्यापित करें C# में – PDF हस्ताक्षर वैधता जांचें](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | C# में PDF डिजिटल हस्ताक्षर को सत्यापित करने और उसकी वैधता जांचने का तरीका सीखें। |  
 | [PDF फ़ाइलों की मरम्मत कैसे करें – Aspose.Pdf के साथ पूर्ण C# गाइड](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aspose.Pdf का उपयोग करके C# में PDF फ़ाइलों को ठीक करने के चरण-दर-चरण मार्गदर्शन। |  
+| [Aspose के साथ PDF को मान्य कैसे करें: डिजिटल हस्ताक्षर सत्यापित करें](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में डिजिटल हस्ताक्षर कैसे सत्यापित करें, सीखें। |  
+| [C# में एम्बेडेड सिग्नेचर PDF प्राप्त करें – पूर्ण गाइड](./get-embedded-signatures-pdf-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में एम्बेडेड सिग्नेचर वाले PDF को प्राप्त करने की पूरी गाइड। |  
+| [C# में Aspose.PDF के साथ PDF डिजिटल हस्ताक्षर को मान्य करें](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Aspose.PDF का उपयोग करके C# में PDF डिजिटल हस्ताक्षर को कैसे सत्यापित करें, सीखें। |  
+| [C# में PDF हस्ताक्षर सत्यापित करें – Aspose.PDF के साथ पूर्ण गाइड](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aspose.PDF का उपयोग करके C# में PDF हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण गाइड में जानें। |  
+| [PDF हस्ताक्षर ट्यूटोरियल: Aspose.PDF के साथ PDF डिजिटल हस्ताक्षर सत्यापित करें](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aspose.PDF का उपयोग करके PDF डिजिटल हस्ताक्षर को कैसे सत्यापित करें, इस चरण-दर-चरण गाइड में जानें। |  
+| [C# में सिग्नेचर विकल्प बनाएं – डिजिटल साइनिंग के लिए पूर्ण गाइड](./create-signature-options-in-c-full-guide-to-digital-signing/) | .NET के लिए Aspose.PDF का उपयोग करके C# में डिजिटल हस्ताक्षर विकल्प बनाने की पूरी गाइड सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

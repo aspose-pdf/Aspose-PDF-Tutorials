@@ -111,7 +111,7 @@ Aprenda a pesquisar texto em PDFs usando Aspose.Pdf com um guia completo em C#.
 Aprenda a dominar paradas de tabulação personalizadas em documentos PDF usando o Aspose.PDF para .NET, aprimorando suas habilidades de formatação e apresentação de documentos.
 
 ### [Domine a edição eficiente de texto em PDF com Aspose.PDF .NET](./aspose-pdf-net-edit-pdfs-efficiency/)
-Aprenda a editar texto em PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda a configuração, pesquisa, modificação e salvamento de PDFs em C#.
+Aprenda a editar texto em PDF com eficiência usando o Aspose.PDF .NET. Este guia aborda a configuração, pesquisa, modificação e salvamento de PDFs em C#.
 
 ### [Substituição de fontes em PDFs usando Aspose.PDF para .NET: um guia completo](./mastering-font-substitution-aspose-pdf-net/)
 Aprenda a lidar perfeitamente com substituições de fontes em documentos PDF com o Aspose.PDF para .NET. Este tutorial fornece orientações passo a passo sobre como configurar e implementar soluções eficazes.
@@ -172,6 +172,13 @@ Aprenda a usar o Aspose AI Copilot para fazer perguntas a PDFs e obter respostas
 
 ### [Como censurar PDF com Aspose – Guia passo a passo](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Aprenda a remover informações confidenciais de PDFs usando Aspose.PDF para .NET com este tutorial detalhado passo a passo.
+### [Como resumir PDF com Aspose.Pdf.AI – guia](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+
+### [Estilizar texto em PDFs marcados usando Aspose.PDF para .NET | Guia para criação de PDFs acessíveis e estéticos](./style-text-tagged-pdfs-aspose-pdf-net/)
+Aprenda a estilizar texto em documentos PDF marcados com o Aspose.PDF para .NET. Este guia aborda instalação, técnicas e aplicações práticas para aprimorar a acessibilidade.
+
+### [Como converter PDF em resumo com Aspose.Pdf.AI em C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Aprenda a gerar resumos de PDFs usando Aspose.Pdf.AI com C#, incluindo configuração e exemplos de código.
 
 ## Recursos adicionais
 

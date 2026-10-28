@@ -20,6 +20,8 @@ Dokumentumkészítési oktatóanyagaink átfogó útmutatást nyújtanak PDF-fá
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3 dokumentum létrehozása három oldallal az Aspose.Pdf for .NET használatával" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="PDF/X‑1 dokumentum létrehozása az Aspose.PDF for .NET használatával" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
+{{< tutorial-card link="./aspose-pdf-net-create-booklets-tutorial/" title="PDF füzetek létrehozása az Aspose.PDF for .NET használatával: lépésről lépésre útmutató" imgSrc="./aspose-pdf-net-create-booklets-tutorial/images/thumb.png" >}}
 ### [PDF füzetek létrehozása az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./aspose-pdf-net-create-booklets-tutorial/)
 Tanuld meg, hogyan készíthetsz professzionális PDF füzeteket az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 ### [PDF fájlok létrehozása XML-ből és XSLT-ből az Aspose.PDF .NET használatával: lépésről lépésre útmutató](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -114,6 +116,8 @@ Tanulja meg, hogyan hozhat létre PDF/X‑4 dokumentumot C#‑ban az Aspose.PDF 
 Tanuld meg, hogyan hozhatsz létre PDF dokumentumot Bates-számozással C#-ban az Aspose.PDF for .NET segítségével.
 ### [PDF dokumentum létrehozása üres oldallal és téglalappal](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, üres oldallal és téglalap rajzolásával az Aspose.PDF for .NET segítségével.
+### [PDF dokumentum létrehozása C#-ban az Aspose.Pdf segítségével](./create-pdf-document-in-c-with-aspose-pdf/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban az Aspose.Pdf használatával.
 
 ## További források
 

@@ -281,7 +281,6 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Create a PDF Portfolio Using Aspose.PDF for .NET&#58; A Comprehensive Guide](/pdf/english/net/pdf-portfolios/create-pdf-portfolio-aspose-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

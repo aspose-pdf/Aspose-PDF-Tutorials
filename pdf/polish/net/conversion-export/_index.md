@@ -74,6 +74,9 @@ Dowiedz się, jak konwertować pliki PDF do HTML za pomocą Aspose.PDF dla .NET,
 ### [Konwertuj PDF do HTML w .NET za pomocą Aspose.PDF bez zapisywania obrazów](./convert-pdf-html-net-asposepdf-no-images/)
 Dowiedz się, jak konwertować pliki PDF do HTML za pomocą Aspose.PDF dla .NET bez zapisywania obrazów osobno. Zachowaj integralność układu dzięki naszemu szczegółowemu przewodnikowi.
 
+### [Jak pominąć eksport obrazów przy konwersji PDF do HTML – Kompletny przewodnik C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Dowiedz się, jak pominąć eksport obrazów przy konwersji PDF do HTML w Aspose.PDF dla .NET przy użyciu C#.
+
 ### [Konwertuj PDF do HTML w .NET ze ścieżkami obrazów niestandardowych za pomocą Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Dowiedz się, jak konwertować pliki PDF do formatu HTML za pomocą Aspose.PDF dla .NET i wydajnie dostosowywać ścieżki obrazów. Idealne do integracji z siecią.
 
@@ -291,6 +294,11 @@ Dowiedz się, jak konwertować pliki PDF do HTML w C# przy użyciu Aspose.PDF, k
 Dowiedz się, jak konwertować pliki PDF do HTML i usuwać obrazy, zachowując formatowanie przy użyciu Aspose.PDF dla .NET.
 ### [Zapisz PDF jako HTML – Utwórz PDF, dodaj kształt prostokąta](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 Dowiedz się, jak zapisać PDF jako HTML, tworząc najpierw plik PDF i dodając kształt prostokąta.
+### [Zapisz PDF jako HTML przy użyciu Aspose.PDF – przewodnik krok po kroku](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak zapisać plik PDF jako HTML przy użyciu Aspose.PDF w .NET.
+
+### [Zapisz PDF jako HTML i konwertuj do PDF/X‑4 za pomocą Aspose.PDF w C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Dowiedz się, jak zapisać plik PDF jako HTML i następnie przekonwertować go do formatu PDF/X‑4 przy użyciu Aspose.PDF w C#.
 
 ## Dodatkowe zasoby
 

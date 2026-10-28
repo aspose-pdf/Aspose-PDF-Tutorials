@@ -27,6 +27,10 @@ Aspose.PDF for .NET के "ऑपरेटर्स के साथ प्र�
 | [C# में खाली PDF डिक्शनरी बनाएं – पूर्ण Aspose.Pdf गाइड](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | C# में Aspose.PDF का उपयोग करके खाली PDF डिक्शनरी बनाने की पूरी गाइड। |
 | [C# में Aspose.Pdf से PDF पारदर्शिता बदलें](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Aspose.PDF for .NET का उपयोग करके C# में PDF दस्तावेज़ की पारदर्शिता सेट करने की चरण-दर-चरण मार्गदर्शिका। |  
 | [Aspose.Pdf का उपयोग करके PDF में कस्टम ग्राफ़िक्स स्टेट बनाएं](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Aspose.PDF के साथ PDF में कस्टम ग्राफ़िक्स स्टेट बनाकर उन्नत ग्राफ़िक नियंत्रण सीखें। |  
+| [Aspose.Pdf के साथ PDF में आयत जोड़ें – पूर्ण C# गाइड](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF का उपयोग करके C# में PDF में आयत कैसे जोड़ें, इस पूर्ण गाइड में सीखें। |  
+| [Aspose.PDF के साथ PDF रिसोर्स डिक्शनरी को संपादित करें – C# गाइड](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Aspose.PDF का उपयोग करके C# में PDF रिसोर्स डिक्शनरी को कैसे संपादित करें, इस चरण-दर-चरण गाइड में सीखें। |  
+| [Aspose.Pdf के साथ C# में खाली PDF डिक्शनरी बनाएं](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Aspose.PDF का उपयोग करके C# में खाली PDF डिक्शनरी बनाने की चरण-दर-चरण मार्गदर्शिका। |
+| [C# के साथ PDF में खाली ग्राफ़िक्स स्टेट बनाना](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | C# का उपयोग करके PDF में खाली ग्राफ़िक्स स्टेट बनाने की चरण-दर-चरण मार्गदर्शिका। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

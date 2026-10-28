@@ -27,6 +27,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Kamus PDF Kosong di C# – Panduan Lengkap Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Panduan lengkap untuk membuat kamus PDF kosong menggunakan Aspose.PDF untuk .NET di C#. |  
 | [Cara mengubah transparansi PDF di C# menggunakan Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Panduan langkah demi langkah untuk mengubah transparansi PDF menggunakan Aspose.Pdf di C#. |  
 | [Buat keadaan grafik khusus dalam PDF menggunakan Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Panduan langkah demi langkah untuk membuat keadaan grafik khusus dalam PDF menggunakan Aspose.Pdf. |  
+| [Menambahkan Persegi Panjang ke PDF dengan Aspose.Pdf – Panduan Lengkap C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Panduan langkah demi langkah menambahkan bentuk persegi panjang ke file PDF menggunakan Aspose.Pdf dengan C#. |  
+| [Edit Kamus Sumber Daya PDF dengan Aspose.PDF – Panduan C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Panduan langkah demi langkah mengedit kamus sumber daya PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
+| [Buat kamus PDF kosong di C# dengan Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Panduan membuat kamus PDF kosong menggunakan Aspose.PDF untuk .NET dalam bahasa C#. |  
+| [Cara membuat keadaan grafik kosong dalam PDF dengan C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Panduan langkah demi langkah untuk membuat state grafik kosong dalam PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

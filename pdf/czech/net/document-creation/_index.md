@@ -20,6 +20,9 @@ Naše tutoriály pro vytváření dokumentů poskytují komplexní návod pro pr
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Vytvořte PDF/X‑3 dokument se třemi stránkami pomocí Aspose.Pdf pro .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+### [Jak vytvořit PDF/X‑1 dokument pomocí Aspose.PDF pro .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
+Naučte se, jak vytvořit PDF/X‑1 dokument pomocí Aspose.PDF pro .NET.
+
 ### [Vytváření brožur ve formátu PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./aspose-pdf-net-create-booklets-tutorial/)
 Naučte se, jak vytvářet profesionální brožury ve formátu PDF pomocí nástroje Aspose.PDF pro .NET. Tento tutoriál se zabývá nastavením, implementací a praktickými aplikacemi.
 ### [Vytváření PDF souborů z XML a XSLT pomocí Aspose.PDF .NET: Podrobný návod](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -114,6 +117,8 @@ Naučte se, jak vytvořit PDF dokument s Batesovým číslováním pomocí Aspos
 Naučte se, jak vytvořit PDF/X‑4 dokument v C# pomocí Aspose.PDF krok za krokem.
 ### [Jak vytvořit PDF dokument s prázdnou stránkou a obdélníkem](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Naučte se vytvořit PDF dokument s prázdnou stránkou a nakresleným obdélníkem pomocí Aspose.PDF pro .NET.
+### [Vytvořte PDF dokument v C# pomocí Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Naučte se, jak pomocí Aspose.PDF v C# vytvořit PDF dokument, přidat stránky, tvary a uložit soubor.
 
 ## Další zdroje
 

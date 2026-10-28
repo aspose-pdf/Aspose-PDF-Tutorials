@@ -20,6 +20,7 @@
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="إنشاء مستند PDF/X‑3 بثلاث صفحات باستخدام Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+### [كيفية إنشاء مستند PDF/X‑1 باستخدام Aspose.PDF لـ .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
 ### [إنشاء كتيبات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./aspose-pdf-net-create-booklets-tutorial/)
 تعلّم كيفية إنشاء كتيبات PDF احترافية باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي الإعداد والتنفيذ والتطبيقات العملية.
 ### [إنشاء ملفات PDF من XML وXSLT باستخدام Aspose.PDF .NET: دليل خطوة بخطوة](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -112,6 +113,8 @@
 ### [إنشاء مستند PDF/X‑4 باستخدام C# – دليل خطوة بخطوة](./create-pdf-x-4-document-c-step-by-step-guide/)
 تعرّف على كيفية إنشاء مستند PDF/X‑4 باستخدام C# و Aspose.PDF خطوة بخطوة.
 ### [كيفية إنشاء مستند PDF مع صفحة فارغة ومستطيل](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+### [إنشاء مستند PDF بلغة C# باستخدام Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
+تعلم كيفية إنشاء مستند PDF باستخدام لغة C# ومكتبة Aspose.Pdf خطوة بخطوة.
 
 ## موارد إضافية
 

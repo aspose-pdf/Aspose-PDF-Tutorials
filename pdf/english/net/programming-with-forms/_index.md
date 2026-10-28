@@ -89,6 +89,7 @@ pdf.Save("SampleForm.pdf");
 | [Arabic Text Filling](./arabic-text-filling/) | Learn how to fill Arabic text in PDF forms using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your PDF manipulation skills. |  
 | [Combo Box](./combo-box/) | Learn how to add a Combo Box to a PDF using Aspose.PDF for .NET. Follow our step-by-step guide to create interactive PDF forms easily. |  
 | [Create Document](./create-doc/) | Learn to create interactive PDF documents with radio buttons using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
+| [Create pdf form field in C# – step‑by‑step guide](./create-pdf-form-field-in-c-step-by-step-guide/) | Learn how to create PDF form fields in C# using Aspose.PDF for .NET with this step-by-step guide. |  
 | [Delete Form Field In PDF Document](./delete-form-field/) | Learn how to delete form fields in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and PDF enthusiasts. |  
 | [Determine Required Field In PDF Form](./determine-required-field/) | Learn how to determine required fields in a PDF form using Aspose.PDF for .NET. Our step-by-step guide simplifies form management and enhances your PDF automation workflow. |  
 | [Dynamic XFA To Acro Form](./dynamic-xfa-to-acro-form/) | Learn how to convert dynamic XFA forms to standard AcroForms using Aspose.PDF for .NET in this step-by-step tutorial. |  
@@ -116,6 +117,7 @@ pdf.Save("SampleForm.pdf");
 | [Set Radio Button Caption](./set-radio-button-caption/) | Learn how to set radio button captions in PDFs using Aspose.PDF for .NET. This step-by-step guide walks you through loading, modifying, and saving your PDF forms. |  
 | [Text Box](./text-box/) | Discover how to effortlessly add text boxes to PDFs using Aspose.PDF for .NET with this step-by-step guide. Enhance user interaction. |
 | [Import FDF into PDF with C# – Complete Step‑by‑Step Guide](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Learn how to import FDF data into PDF files using Aspose.PDF for .NET with C# in this step-by-step guide. |
+| [Save PDF document with Aspose.PDF – complete guide](./save-pdf-document-with-aspose-pdf-complete-guide/) | Learn how to save PDF documents using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

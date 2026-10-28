@@ -79,6 +79,9 @@
 ### [Σύγκριση εγγράφων PDF με το Aspose.Pdf – Πλήρης Οδηγός Οπτικής Διαφοράς](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
 Μάθετε πώς να συγκρίνετε έγγραφα PDF με το Aspose.Pdf, δημιουργώντας οπτικές διαφορές για ακριβή ανάλυση.
 
+### [Προσθήκη διαφάνειας σε PDF με το Aspose.Pdf – Πλήρης οδηγός .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Μάθετε πώς να εφαρμόζετε διαφάνεια σε έγγραφα PDF χρησιμοποιώντας το Aspose.Pdf για .NET, με πλήρη παραδείγματα κώδικα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

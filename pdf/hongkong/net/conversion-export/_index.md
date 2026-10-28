@@ -62,7 +62,7 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 EMF](./convert-pdf-to-emf-aspose-dotnet/)
 Aspose.PDF Net 程式碼教學
 
-### [使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML：流輸出指南](./convert-pdf-html-asposedotnet-guide/)
+### [使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML：流輸出指南](./convert-pdf-html-aspose-dotnet-guide/)
 了解如何使用串流輸出透過 Aspose.PDF for .NET 將 PDF 檔案轉換為 HTML。增強您的網路整合和可存取性。
 
 ### [使用 Aspose.PDF 在 .NET 中將 PDF 轉換為 HTML，無需儲存影像](./convert-pdf-html-net-asposepdf-no-images/)
@@ -259,6 +259,7 @@ Aspose.PDF Net 程式碼教學
 快速學習如何在 C# 中使用 Aspose.PDF 將 PDF 轉換為 HTML，保持高保真度與自訂選項。
 ### [將 PDF 儲存為 HTML – 建立 PDF，新增矩形形狀](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 另存為 HTML，同時在 PDF 中加入矩形形狀。
+### [將 PDF 儲存為 HTML 並使用 Aspose.PDF 轉換為 PDF/X‑4（C#）](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 
 ### [使用 Aspose.PDF 在 .NET 中將 PDF 轉換為 TIFF：逐步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 文件轉換為 TIFF 影像。掌握自訂色彩深度和先進的影像處理技術。
@@ -288,6 +289,10 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML，提供完整步驟與程式碼範例。
 ### [使用 Aspose PDF 轉換為 HTML：完整指南，將 PDF 轉換並移除圖像](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML，並在過程中移除所有圖像，以減少檔案大小。
+### [如何在 PDF 轉 HTML 時跳過圖像匯出 – 完整 C# 指南](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML 時跳過圖像匯出，以提升效能。
+### [使用 Aspose.PDF 將 PDF 儲存為 HTML：逐步指南](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF 將 PDF 檔案保存為 HTML 格式，提供完整步驟與程式碼範例。
 
 ## 其他資源
 

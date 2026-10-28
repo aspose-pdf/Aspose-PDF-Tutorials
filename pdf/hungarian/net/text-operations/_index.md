@@ -170,6 +170,10 @@ Ismerje meg, hogyan használhatja az Aspose.Pdf.AI-t PDF-ek összefoglalására 
 
 ### [AI chat PDF: kérdezzen PDF-ekről az Aspose AI Copilot segítségével](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Fedezze fel, hogyan tehet fel kérdéseket PDF-ekről az Aspose AI Copilot segítségével.
+### [Hogyan összefoglaljunk PDF-et az Aspose.Pdf.AI-val – útmutató](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Ismerje meg, hogyan lehet összefoglalni PDF dokumentumokat az Aspose.Pdf.AI segítségével.
+### [Hogyan konvertáljunk PDF-et összefoglalóvá az Aspose.Pdf.AI segítségével C#-ban](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Ismerje meg, hogyan használhatja az Aspose.Pdf.AI-t PDF-ek összefoglalásához C#-ban.
 
 ## További források
 

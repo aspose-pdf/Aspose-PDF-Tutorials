@@ -50,7 +50,7 @@ Dowiedz się, jak tworzyć dostępne, oznaczone dokumenty PDF przy użyciu Aspos
 ### [Jak tworzyć wielowarstwowe pliki PDF przy użyciu Aspose.PDF dla .NET: kompleksowy przewodnik](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Dowiedz się, jak tworzyć dynamiczne i interaktywne, wielowarstwowe dokumenty PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku.
 
-### [Jak tworzyć oznaczone pliki PDF za pomocą Aspose.PDF dla .NET: przewodnik zaawansowany](./creating-tagged-pdfs-aspose-pdf-dotnet/)
+### [Jak tworzyć oznaczone pliki PDF przy użyciu Aspose.PDF dla .NET: przewodnik zaawansowany](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Dowiedz się, jak tworzyć dostępne, oznaczone dokumenty PDF przy użyciu Aspose.PDF dla platformy .NET. Ulepsz strukturę dokumentu i dostępność dzięki temu kompleksowemu przewodnikowi.
 
 ### [Jak walidować pliki PDF pod kątem standardu PDF/UA przy użyciu Aspose.PDF dla .NET: kompleksowy przewodnik](./validate-pdf-ua-standard-aspose-dotnet/)
@@ -78,6 +78,9 @@ Dowiedz się, jak porównać dwa dokumenty PDF i wygenerować wizualne różnice
 
 ### [Porównaj dwa dokumenty PDF – Kompletny przewodnik C#](./compare-two-pdf-documents-complete-c-guide/)
 Dowiedz się, jak porównać dwa pliki PDF i wygenerować ich różnice przy użyciu Aspose.PDF w C#.
+
+### [Dodaj przezroczystość do PDF przy użyciu Aspose.Pdf – Kompletny przewodnik .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Dowiedz się, jak dodać przezroczystość do dokumentów PDF przy użyciu Aspose.Pdf w .NET, z przykładami kodu C#.
 
 ## Dodatkowe zasoby
 

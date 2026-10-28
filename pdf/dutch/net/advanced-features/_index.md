@@ -79,6 +79,9 @@ Leer hoe u PDF-documenten visueel kunt vergelijken en verschillen (diff) kunt ge
 ### [Twee PDF-documenten vergelijken – Complete C#-gids](./compare-two-pdf-documents-complete-c-guide/)
 Leer hoe u twee PDF-documenten vergelijkt en verschillen genereert met Aspose.PDF voor .NET in C#.
 
+### [Transparantie toevoegen aan PDF met Aspose.Pdf – Complete .NET-gids](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Leer hoe u transparantie toepast op PDF‑elementen met Aspose.PDF voor .NET, inclusief codevoorbeelden en stapsgewijze instructies.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

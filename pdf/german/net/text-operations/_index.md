@@ -173,6 +173,10 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs schwärzen, vertrauliche Inf
 
 ### [KI-Chat-PDF: PDF-Fragen mit Aspose AI Copilot stellen](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Erfahren Sie, wie Sie mit Aspose AI Copilot PDF-Dokumente per Chat befragen und interaktive Antworten erhalten.
+### [Wie man PDFs mit Aspose.Pdf.AI zusammenfasst – Leitfaden](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf.AI PDFs automatisch zusammenfassen und wichtige Inhalte extrahieren.
+### [Wie man PDF mit Aspose.Pdf.AI in C# zu einer Zusammenfassung konvertiert](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Pdf.AI in C# PDFs automatisch in Zusammenfassungen konvertieren.
 
 ## Weitere Ressourcen
 

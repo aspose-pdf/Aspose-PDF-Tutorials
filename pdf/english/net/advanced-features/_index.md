@@ -25,6 +25,8 @@ Learn how to enhance your PDF documents by adding colored line layers using Aspo
 
 ### [Edit PDF Transparency in C# – Step‑by‑Step Guide](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Learn how to edit PDF transparency using Aspose.PDF for .NET with C#, including setting opacity and blending modes.
+### [Add Transparency to PDF with Aspose.Pdf – Complete .NET Guide](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Learn how to apply transparency effects to PDF elements using Aspose.PDF for .NET with step-by-step code examples.
 
 ### [Aspose.PDF .NET&#58; Enhancing PDF Accessibility through Tagging](./aspose-pdf-net-accessible-tagging-guide/)
 Learn how to use Aspose.PDF .NET for accessible tagging in PDFs. Set titles, languages, and logical structures easily.

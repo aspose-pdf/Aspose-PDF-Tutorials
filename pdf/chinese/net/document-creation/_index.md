@@ -20,6 +20,8 @@
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="使用 Aspose.Pdf for .NET 创建带有三页的 PDF/X‑3 文档" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="使用 Aspose.PDF for .NET 创建 PDF/X‑1 文档" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
+
 ### [使用 Aspose.PDF for .NET 创建 PDF 小册子：分步指南](./aspose-pdf-net-create-booklets-tutorial/)
 学习如何使用 Aspose.PDF for .NET 创建专业的 PDF 小册子。本教程涵盖设置、实施和实际应用。
 ### [使用 Aspose.PDF .NET 从 XML 和 XSLT 创建 PDF：分步指南](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -113,6 +115,8 @@ Aspose.PDF Net 代码教程
 学习如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/X‑4 标准的 PDF 文档，涵盖设置、属性配置和保存步骤。
 ### [如何创建带空白页和矩形的 PDF 文档](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 学习在 C# 中使用 Aspose.PDF for .NET 添加空白页并绘制矩形到 PDF 文档。
+### [使用 Aspose.PDF 在 C# 中创建 PDF 文档](./create-pdf-document-in-c-with-aspose-pdf/)
+使用 Aspose.PDF 在 C# 中创建 PDF 文档的完整指南。
 
 ## 其他资源
 

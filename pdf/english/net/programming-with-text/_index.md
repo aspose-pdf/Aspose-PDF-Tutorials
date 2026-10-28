@@ -27,6 +27,7 @@ pdf.Save("output.pdf");
 ```
 
 ## Tutorials
+### [Generate PDF summary with Aspose.Pdf.AI and OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/)
 ### [How to create summary PDF with Aspose.Pdf.AI in C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/)
 
 
@@ -140,8 +141,5 @@ pdf.Save("output.pdf");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

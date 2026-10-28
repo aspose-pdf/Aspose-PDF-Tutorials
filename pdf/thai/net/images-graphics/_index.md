@@ -61,10 +61,16 @@
 
 ### [เพิ่มความโปร่งใสให้กับ PDF ด้วย Aspose PDF ใน C# – คู่มือทีละขั้นตอน](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนใน C#
+
+### [วิธีตั้งค่าความโปร่งใสใน PDF ด้วย Aspose PDF ใน C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+เรียนรู้วิธีกำหนดความโปร่งใสให้กับ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านตัวอย่างโค้ด C# อย่างละเอียด
+
 ### [วิธีเพิ่มรูปทรงลงใน PDF ด้วย Aspose.PDF ใน C# – คู่มือทีละขั้นตอน](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 เรียนรู้วิธีเพิ่มรูปทรงต่าง ๆ ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET พร้อมตัวอย่างโค้ด C# อย่างละเอียด
 ### [วิธีเพิ่มกราฟิกสเตตใน PDF และควบคุมความโปร่งใสด้วย Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 เรียนรู้วิธีใช้กราฟิกสเตตใน PDF และจัดการความโปร่งใสด้วย Aspose.PDF สำหรับ .NET
+### [วิธีเพิ่มความโปร่งใสให้ไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+เรียนรู้วิธีเพิ่มความโปร่งใสให้ไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 
 ### [การระบุรูปภาพ PDF ที่มีประสิทธิภาพด้วย Aspose.PDF สำหรับ .NET](./master-image-identification-aspose-pdf-net/)
 เรียนรู้วิธีระบุภาพโทนสีเทาและ RGB ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET บทช่วยสอนนี้ครอบคลุมถึงการติดตั้ง การแยกภาพ และเคล็ดลับด้านประสิทธิภาพ
@@ -125,6 +131,9 @@
 
 ### [วิธีการสร้างรูปสี่เหลี่ยมผืนผ้าโปร่งใสในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 เรียนรู้วิธีปรับปรุงเอกสาร PDF ของคุณโดยสร้างสี่เหลี่ยมผืนผ้าที่มีความโปร่งใสของอัลฟ่าโดยใช้ Aspose.PDF สำหรับ .NET ทำตามคำแนะนำทีละขั้นตอนนี้
+
+### [วิธีเพิ่มความโปร่งใสให้กับ PDF และวาดสี่เหลี่ยมบน PDF ด้วย Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+เรียนรู้วิธีตั้งค่าความโปร่งใสและวาดสี่เหลี่ยมบนไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 
 ### [วิธีการลบรูปภาพจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET - คู่มือฉบับสมบูรณ์](./delete-images-aspose-pdf-net/)
 เรียนรู้วิธีการลบรูปภาพออกจากไฟล์ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า ตัวอย่างโค้ด และแนวทางปฏิบัติที่ดีที่สุด
@@ -197,6 +206,13 @@
 
 ### [วิธีเพิ่มความโปร่งใสให้กับ PDF ด้วย Aspose.PDF ใน C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
+### [ตั้งค่าความโปร่งใสของ PDF ใน C# ด้วย Aspose.PDF – คู่มือฉบับสมบูรณ์](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+เรียนรู้วิธีตั้งค่าความโปร่งใสของไฟล์ PDF ด้วย Aspose.PDF ใน C# อย่างละเอียด
+
+### [เพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF – คู่มือขั้นตอนโดยละเอียด](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีการเพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF ผ่านคู่มือขั้นตอนโดยละเอียด
+### [วิธีเปลี่ยนความทึบแสงใน PDF ด้วย Aspose.PDF สำหรับ .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+เรียนรู้วิธีปรับความทึบแสงของวัตถุใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

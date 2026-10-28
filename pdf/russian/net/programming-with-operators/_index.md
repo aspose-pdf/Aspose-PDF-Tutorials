@@ -27,6 +27,10 @@
 | [Создать пустой PDF-словарь в C# – Полное руководство Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Узнайте, как создать пустой словарь PDF в C# с помощью Aspose.PDF для .NET в этом полном руководстве. |
 | [Как изменить прозрачность PDF в C# с помощью Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Узнайте, как изменить прозрачность элементов PDF в C# с помощью Aspose.Pdf в этом пошаговом руководстве. |
 | [Создать пользовательское графическое состояние в PDF с помощью Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Узнайте, как создать пользовательское графическое состояние в PDF с помощью Aspose.Pdf для .NET. |  
+| [Добавить прямоугольник в PDF с Aspose.Pdf – Полное руководство C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Подробное руководство по добавлению прямоугольника в PDF с помощью Aspose.PDF для .NET на C#. |
+| [Редактировать словарь ресурсов PDF с Aspose.PDF – Руководство C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Подробное руководство по редактированию словаря ресурсов PDF с помощью Aspose.PDF для .NET на C#. |
+| [Создать пустой PDF-словарь в C# с Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Узнайте, как создать пустой словарь PDF в C# с помощью Aspose.Pdf. |  
+| [Как создать пустое графическое состояние в PDF с помощью C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Узнайте, как создать пустое графическое состояние в PDF с использованием Aspose.PDF для .NET и C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
