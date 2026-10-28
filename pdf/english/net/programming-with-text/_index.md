@@ -1,9 +1,9 @@
 ---
-title: Add, Edit, and Extract Text Using Aspose.PDF for .NET
-linktitle: Add, Edit, and Extract Text Using Aspose.PDF for .NET
+title: Learn to Add, Edit, and Extract PDF Text Using Aspose.PDF for .NET
+linktitle: Learn to Add, Edit, and Extract PDF Text Using Aspose.PDF for .NET
 weight: 25
 url: /net/programming-with-text/
-description: Check out Aspose.PDF for .NET's Programming with Text tutorials, which walk you through adding, editing, and extracting advanced text in your PDF documents.
+description: Discover how to use Aspose.PDF for .NET's Programming with Text tutorials to add, edit, and extract advanced text in your PDF documents.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -28,6 +28,7 @@ pdf.Save("output.pdf");
 
 ## Tutorials
 ### [Generate PDF summary with Aspose.Pdf.AI and OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/)
+### [How to create summary PDF with Aspose.Pdf.AI in C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/)
 
 
 | Title | Description |
@@ -140,7 +141,5 @@ pdf.Save("output.pdf");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

@@ -64,6 +64,7 @@ Este recurso incluye tutoriales sobre la programación con la función de docume
 | [Crear plugin personalizado de Aspose – Guía completa para automatizar el procesamiento de PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) Aprenda a crear un plugin personalizado de Aspose para automatizar tareas de procesamiento de PDF con Aspose.PDF para .NET.  
 | [Agregar numeración Bates en Word – Guía completa paso a paso](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Aprenda a agregar numeración Bates a documentos Word con Aspose.PDF para .NET. Guía paso a paso con ejemplos de código. |
 | [Agregar página en blanco en documento Word con C# – Guía completa](./add-blank-page-in-word-document-with-c-complete-guide/) Aprenda a agregar una página en blanco a un documento Word usando C# y Aspose.PDF para .NET. Guía paso a paso con ejemplos de código.  
+| [Crear diccionario PDF vacío con Aspose.PDF en C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Aprenda a crear un diccionario PDF vacío con Aspose.PDF para .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

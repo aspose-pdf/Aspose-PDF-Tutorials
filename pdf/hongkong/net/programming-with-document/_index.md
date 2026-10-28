@@ -64,6 +64,7 @@
 | [建立自訂 Aspose 外掛程式 – 完整指南自動化 PDF 處理](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) |了解如何使用 Aspose.PDF for .NET 建立自訂外掛程式，以自動化 PDF 處理流程的完整指南。 |  
 | [在 Word 中新增 Bates 編號 – 完整分步指南](./add-bates-numbering-in-word-complete-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 Word 文檔中新增 Bates 編號的完整分步指南。 |  
 | [使用 C# 在 Word 文件中新增空白頁 – 完整指南](./add-blank-page-in-word-document-with-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 及 C# 在 Word 文檔中插入空白頁的完整步驟指南。 |
+| [如何使用 Aspose.PDF 在 C# 中建立空的 PDF 字典](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中建立空的 PDF 字典，以便自訂 PDF 結構。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

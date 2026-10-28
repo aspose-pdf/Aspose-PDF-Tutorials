@@ -78,6 +78,7 @@
 | [保存文档 PDF – 如何添加椭圆并将 DOCX 转换为 PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | 通过本分步指南了解如何在 PDF 中添加椭圆形状并将 DOCX 文档转换为 PDF。|  
 | [在 C# 中将 docx 转换为 pdf – 完整分步指南](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | 通过本完整的分步指南学习如何使用 Aspose.PDF for .NET 将 DOCX 文档转换为 PDF，包括代码示例和常见问题解答，帮助开发者高效实现转换。|  
 | [c# PDF 转换教程 – 将 PDF 转换为 PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X-4 格式。|
+| [如何嵌入 ICC 配置文件并将 PDF 转换为 PDF/X-1（使用 Aspose.Pdf）](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | 通过本分步指南了解如何在 Aspose.PDF for .NET 中嵌入 ICC 配置文件并将 PDF 转换为 PDF/X-1。|  
 | [如何在 Aspose PDF 转换中设置 ICC – 完整指南](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | 通过本完整分步指南了解如何在 Aspose.PDF for .NET 转换过程中设置 ICC 配置，以确保颜色准确性。|
 | [Aspose PDF 转换（C#）——分步指南](./aspose-pdf-conversion-in-c-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中执行 PDF 转换。|  
 | [如何在 C# 中将 PDF 转换为 PDF/X‑4 – 步骤指南](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | 通过本分步教程了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4，包含代码示例和关键设置。|  

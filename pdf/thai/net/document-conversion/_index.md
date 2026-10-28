@@ -98,35 +98,7 @@
 - [สร้าง HTML จาก PDF ด้วย C# – คู่มือขั้นตอนเต็ม](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้าง HTML จากไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
 - [บทช่วยสอนการแปลง PDF ด้วย C# – แปลง PDF เป็น PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนเดียวนี้  
 - [วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose – คู่มือครบถ้วน](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | เรียนรู้วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็ม  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 - [Aspose PDF conversion: แปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ใน C# ด้วยคู่มือทีละขั้นตอนนี้  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 - [บันทึก PDF เป็น HTML – รักษาเวกเตอร์และปิดการแรสเตอร์ไลซ์](./save-pdf-as-html-keep-vectors-disable-rasterization/) | เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML โดยคงเวกเตอร์ไว้และปิดการแรสเตอร์ไลซ์ด้วย Aspose.PDF สำหรับ .NET  
 - [เพิ่มโปรไฟล์ ICC และแปลง PDF เป็น PDF/X‑4 – คำแนะนำ C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | เรียนรู้วิธีเพิ่มโปรไฟล์ ICC และแปลง PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือ C# ทีละขั้นตอน
 - [บันทึกเอกสาร PDF – วิธีเพิ่มรูปวงรีและแปลง DOCX เป็น PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | เรียนรู้วิธีบันทึกเอกสาร PDF, เพิ่มรูปวงรี และแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
@@ -136,6 +108,7 @@
 - [บทช่วยสอนการแปลง PDF ด้วย C# – แปลง PDF เป็น PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนเดียวนี้  
 - [วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose – คู่มือครบถ้วน](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | เรียนรู้วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็ม  
 - [การแปลง PDF ด้วย Aspose ใน C# – คู่มือทีละขั้นตอน](./aspose-pdf-conversion-in-c-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF ด้วย Aspose PDF ใน C# ผ่านขั้นตอนละเอียดและตัวอย่างโค้ด  
+- [วิธีฝังโปรไฟล์ ICC และแปลง PDF เป็น PDF/X-1 ด้วย Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | เรียนรู้วิธีฝังโปรไฟล์ ICC และแปลง PDF เป็น PDF/X-1 ด้วย Aspose.Pdf สำหรับ .NET อย่างละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -144,4 +117,5 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
 

@@ -64,6 +64,7 @@
 | [맞춤 Aspose 플러그인 만들기 – PDF 처리 자동화를 위한 완전 가이드](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Aspose.PDF for .NET을 사용해 맞춤 플러그인을 개발하고 PDF 처리 작업을 자동화하는 방법을 단계별로 안내합니다. |
 | [Word에 베이츠 번호 매기기 추가 – 완전 단계별 가이드](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 Word 문서에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |
 | [C#로 Word 문서에 빈 페이지 추가 – 완전 가이드](./add-blank-page-in-word-document-with-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#로 Word 문서에 빈 페이지를 추가하는 방법을 단계별로 안내합니다. |
+| [Aspose.PDF를 사용하여 C#에서 빈 PDF 사전 만들기](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Aspose.PDF for .NET을 사용해 C#에서 빈 PDF 사전을 생성하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

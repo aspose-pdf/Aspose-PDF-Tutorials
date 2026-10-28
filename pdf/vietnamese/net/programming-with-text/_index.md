@@ -73,6 +73,7 @@ Các hướng dẫn "Lập trình với Văn bản" của Aspose.PDF dành cho .
 | [Các đoạn văn bản trong tệp PDF](./text-segments/) | Tìm hiểu cách tìm kiếm các đoạn văn bản cụ thể trong tệp PDF bằng cách sử dụng biểu thức chính quy trong Aspose.PDF cho .NET. |  
 | [Sử dụng Latex Script trong tệp PDF](./use-latex-script/) | Tìm hiểu cách sử dụng tập lệnh Latex để thêm biểu thức toán học hoặc công thức vào tệp PDF bằng Aspose.PDF cho .NET. |  
 | [Tạo phần tử Span trong Word bằng C# – Hướng dẫn đầy đủ](./create-span-element-in-word-with-c-complete-guide/) | Học cách tạo phần tử Span trong tài liệu Word bằng C# với hướng dẫn chi tiết và ví dụ mã. |  
+| [Cách tạo PDF tóm tắt với Aspose.Pdf.AI trong C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Học cách tạo PDF tóm tắt bằng Aspose.Pdf.AI trong C# với hướng dẫn chi tiết. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -94,40 +94,12 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Gambar PDF dengan Aspose.Pdf – Panduan Langkah‑per‑Langkah](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Pelajari cara membuat gambar PDF menggunakan Aspose.Pdf dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Cara Mengonversi PDF dengan Aspose – Panduan Lengkap Langkah‑per‑Langkah](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose dengan panduan langkah demi langkah yang lengkap dan mudah diikuti. Bahasa Indonesia:  
 | [Mengonversi PDF ke PDFX dengan Aspose.Pdf – Panduan Lengkap](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Pelajari cara mengonversi file PDF ke PDF/X menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang lengkap. Bahasa Indonesia: |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
+| [Cara menyematkan profil ICC dan mengonversi PDF ke PDF/X-1 dengan Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Pelajari cara menyematkan profil ICC ke PDF dan mengonversinya ke PDF/X-1 menggunakan Aspose.Pdf untuk .NET. |
 | [Aspose PDF conversion: Konversi PDF ke PDF/X‑4 dengan C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Atur Profil ICC Saat Mengonversi Word ke PDF – Panduan Lengkap C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Pelajari cara mengatur profil ICC saat mengonversi dokumen Word ke PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C# ini. Bahasa Indonesia:  
 | [Tambahkan profil ICC dan konversi PDF ke PDF/X‑4 – Panduan C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Pelajari cara menambahkan profil ICC dan mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan panduan C# langkah demi langkah. |  
 | [Muat Dokumen PDF C# – Mengonversi ke PDF/X-4 Panduan Langkah-demi-Langkah](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Pelajari cara memuat dokumen PDF dan mengonversinya ke PDF/X-4 menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |
 | [Konversi Aspose PDF ke HTML dalam C# – Panduan Lengkap](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah lengkap. |
-
 | [Cara Mengonversi PDF dengan Aspose.Pdf – Panduan Lengkap C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose.Pdf dengan contoh kode C# lengkap dalam panduan langkah demi langkah ini. |  
 | [Tambahkan Penomoran Bates ke DOCX dan Konversi ke PDF – Panduan Lengkap C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Pelajari cara menambahkan penomoran Bates pada file DOCX dan mengonversinya ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |  
 | [Simpan Dokumen PDF – Cara Menambahkan Elips & Mengonversi DOCX ke PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Pelajari cara menyimpan dokumen PDF, menambahkan bentuk elips, dan mengonversi file DOCX ke PDF menggunakan Aspose.PDF untuk .NET. |  
@@ -146,4 +118,3 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

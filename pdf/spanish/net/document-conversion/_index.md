@@ -94,20 +94,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Cómo convertir PDF con Aspose – Guía completa paso a paso](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Aprenda a convertir PDF con Aspose.PDF para .NET mediante esta guía completa paso a paso. |
 | [Convertir PDF a PDF/X-4 con C# – Guía completa de Aspose.PDF](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | Aprenda a convertir PDF a PDF/X‑4 usando Aspose.PDF para .NET con esta guía completa paso a paso. |
 | [Cómo usar Aspose para convertir PDF a PDF/X‑1A con ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Aprenda a convertir PDF a PDF/X‑1A con perfil ICC usando Aspose.PDF para .NET en esta guía paso a paso. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
+| [Cómo incrustar perfil ICC y convertir PDF a PDF/X‑1 con Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Aprenda a incrustar un perfil ICC y convertir PDFs a PDF/X‑1 usando Aspose.PDF para .NET paso a paso. |
 | [Conversión de Aspose PDF: Convertir PDF a PDF/X‑4 en C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Aprenda a convertir archivos PDF a PDF/X‑4 usando Aspose.PDF para .NET en C# con esta guía paso a paso. |
 | [Guardar PDF como HTML – Mantener Vectores y Desactivar la Rasterización](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Aprenda a guardar PDF como HTML conservando los vectores y evitando la rasterización con Aspose.PDF para .NET. |
 | [Crear HTML a partir de PDF en C# – Guía completa paso a paso](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Aprenda a crear HTML desde un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
@@ -133,4 +120,3 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

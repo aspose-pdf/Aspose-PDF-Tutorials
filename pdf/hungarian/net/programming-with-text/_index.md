@@ -73,6 +73,7 @@ Az Aspose.PDF „Szöveggel programozás” című .NET-es oktatóanyagai átfog
 | [Bates-számok hozzáadása PDF-hez](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF-dokumentumokhoz az Aspose.PDF for .NET használatával, lépésről lépésre útmutatóval. |  
 | [Span elem létrehozása Word-ben C#-al – Teljes útmutató](./create-span-element-in-word-with-c-complete-guide/) | Tanulja meg, hogyan hozhat létre span elemeket Word dokumentumokban C# használatával részletes, lépésről-lépésre útmutatóval. |  
 | [PDF összegzés generálása Aspose.Pdf.AI és OpenAI segítségével](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Tanulja meg, hogyan generálhat PDF összegzést az Aspose.Pdf.AI és az OpenAI használatával az Aspose.PDF for .NET segítségével. |  
+| [Összefoglaló PDF létrehozása Aspose.Pdf.AI-val C#-ban](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Tanulja meg, hogyan hozhat létre összefoglaló PDF-et az Aspose.Pdf.AI segítségével C# nyelven. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
