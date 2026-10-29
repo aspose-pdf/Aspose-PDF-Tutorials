@@ -234,8 +234,8 @@ Feel free to experiment with the sample, adapt it to your own workflow, and shar
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "pdf/english/net/programming-with-security-and-signatures/open-signed-pdf-how-to-read-its-digital-signatures.md" >}}Open Signed PDF – How to Read Its Digital Signatures{{< /relref >}}
-- {{< relref "pdf/english/net/digital-signatures/how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide.md" >}}How to Extract Signatures from a PDF in C# – Step‑by‑Step Guide{{< /relref >}}
+- [Open Signed PDF – How to Read Its Digital Signatures]({{< relref "pdf/english/net/programming-with-security-and-signatures/open-signed-pdf-how-to-read-its-digital-signatures.md" >}})
+- [How to Extract Signatures from a PDF in C# – Step‑by‑Step Guide]({{< relref "pdf/english/net/digital-signatures/how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

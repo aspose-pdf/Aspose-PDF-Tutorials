@@ -211,9 +211,9 @@ Ready to automate your legal document workflow? Add the code to your build pipel
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-{{< relref "/pdf/english/net/programming-with-pdf-pages/create-pdf-document-c-add-bates-numbering/" >}}Create PDF Document C# – Add Bates Numbering{{< /relref >}}
-{{< relref "/pdf/english/net/programming-with-pdf-pages/add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/" >}}Add Bates Numbering PDF – Step‑by‑Step Guide to Number PDF Pages{{< /relref >}}
-{{< relref "/pdf/english/net/programming-with-pdf-pages/aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/" >}}Aspose PDF Tutorial – Insert a Blank Page and Update Bates Numbering{{< /relref >}}
+- [Create PDF Document C# – Add Bates Numbering]({{< relref "/pdf/english/net/programming-with-pdf-pages/create-pdf-document-c-add-bates-numbering/" >}})
+- [Add Bates Numbering PDF – Step‑by‑Step Guide to Number PDF Pages]({{< relref "/pdf/english/net/programming-with-pdf-pages/add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/" >}})
+- [Aspose PDF Tutorial – Insert a Blank Page and Update Bates Numbering]({{< relref "/pdf/english/net/programming-with-pdf-pages/aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
