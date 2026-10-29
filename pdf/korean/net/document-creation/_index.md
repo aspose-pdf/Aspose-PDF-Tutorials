@@ -111,6 +111,8 @@ C#와 Aspose.PDF for .NET을 사용하여 PDF/X‑4 표준을 충족하는 PDF �
 Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 그려 PDF 문서를 만드는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose.Pdf를 사용하여 PDF 문서 만들기](./create-pdf-document-in-c-with-aspose-pdf/)
 Aspose.Pdf를 사용하여 C#에서 PDF 문서를 만드는 방법을 단계별로 안내합니다.
+### [Aspose를 사용하여 단락 PDF 만들기: 그래픽 추가 및 페이지 삽입](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Aspose.PDF를 활용해 단락 PDF에 그래픽을 추가하고 새 페이지를 삽입하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

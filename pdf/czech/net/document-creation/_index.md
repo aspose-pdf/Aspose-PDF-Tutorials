@@ -119,6 +119,8 @@ Naučte se, jak vytvořit PDF/X‑4 dokument v C# pomocí Aspose.PDF krok za kro
 Naučte se vytvořit PDF dokument s prázdnou stránkou a nakresleným obdélníkem pomocí Aspose.PDF pro .NET.
 ### [Vytvořte PDF dokument v C# pomocí Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Naučte se, jak pomocí Aspose.PDF v C# vytvořit PDF dokument, přidat stránky, tvary a uložit soubor.
+### [Vytvoření odstavce PDF pomocí Aspose: přidání grafiky a vložení stránky](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Naučte se, jak vytvořit PDF s odstavcem, přidat grafiku a vložit novou stránku pomocí Aspose.PDF pro .NET.
 
 ## Další zdroje
 

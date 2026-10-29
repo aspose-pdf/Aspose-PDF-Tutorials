@@ -31,6 +31,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med operatorer" guidar dig g
 | [Redigera PDF-resursordbok med Aspose.PDF – C#-guide](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Lär dig hur du redigerar PDF:s resursordbok med Aspose.PDF i C# i denna steg-för-steg-guide. |
 | [Skapa tom PDF-dictionary i C# med Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Lär dig hur du skapar en tom PDF-dictionary i C# med Aspose.PDF. |  
 | [Hur man skapar ett tomt grafikläge i en PDF med C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Lär dig hur du skapar ett tomt grafikläge i en PDF med C# i Aspose.PDF för .NET. |
+| [Hur man ändrar PDF-transparens med Aspose.Pdf i C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Lär dig hur du ändrar transparens i PDF-dokument med Aspose.Pdf i C# i denna steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

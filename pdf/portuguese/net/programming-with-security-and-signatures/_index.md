@@ -75,6 +75,7 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Verificar assinatura PDF em C# – guia completo](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aprenda a validar assinaturas PDF em C# usando Aspose.PDF, passo a passo, cobrindo verificação, extração e análise de certificados. |
 | [Tutorial de assinatura PDF: validar uma assinatura digital PDF com Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aprenda a validar assinaturas digitais em PDFs usando Aspose.PDF para .NET, passo a passo. |
 | [Criar opções de assinatura em C# – guia completo de assinatura digital](./create-signature-options-in-c-full-guide-to-digital-signing/) | Aprenda a criar opções avançadas de assinatura digital em C# usando Aspose.PDF, passo a passo. |
+| [Como validar assinaturas PDF com Aspose.PDF em C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Aprenda a validar assinaturas PDF usando Aspose.PDF em C# com um guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -82,7 +83,6 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -98,7 +98,6 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -125,6 +124,4 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

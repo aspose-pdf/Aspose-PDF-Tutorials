@@ -27,9 +27,6 @@ pdf.Save("output.pdf");
 
 ## Available Tutorials
 
-{{< tutorial-card link="./create-pdf-x-3-document/" title="Create PDF/X‑3 Document with Three Pages Using Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
-{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="How to create PDF/X‑1 document with Aspose.PDF for .NET" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
-
 ### [Create PDF Booklets Using Aspose.PDF for .NET&#58; A Step‑By‑Step Guide](./aspose-pdf-net-create-booklets-tutorial/)
 Learn how to create professional PDF booklets with Aspose.PDF for .NET. This tutorial covers setup, implementation, and practical applications.
 ### [Create PDFs from XML and XSLT Using Aspose.PDF .NET&#58; A Step‑By‑Step Guide](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -122,6 +119,8 @@ Learn how to add Bates numbering to a new PDF document using Aspose.PDF for .NET
 Learn how to generate PDF/X‑4 documents using Aspose.PDF for .NET in C# with a step‑by‑step guide.
 ### [How to create PDF document with a blank page and rectangle](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 ### [Create pdf document in C# with Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
+### [Create paragraph PDF aspose&#58; add graphics and insert page](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Learn how to add graphics and insert pages while creating paragraph PDFs using Aspose.PDF for .NET.
 
 ## Additional Resources
 

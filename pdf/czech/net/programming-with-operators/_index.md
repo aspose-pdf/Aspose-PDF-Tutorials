@@ -31,6 +31,7 @@ Výukové programy „Programování s operátory“ v Aspose.PDF pro .NET vás 
 | [Úprava slovníku zdrojů PDF pomocí Aspose.PDF – C# průvodce](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Naučte se, jak upravit slovník zdrojů PDF pomocí Aspose.PDF v jazyce C#. |  
 | [Vytvořit prázdný PDF slovník v C# pomocí Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Naučte se, jak vytvořit prázdný PDF slovník v C# pomocí Aspose.Pdf. |  
 | [Jak vytvořit prázdný grafický stav v PDF pomocí C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit prázdný grafický stav v PDF pomocí C#. |  
+| [Jak změnit průhlednost PDF pomocí Aspose.Pdf v C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Naučte se, jak upravit průhlednost objektů v PDF pomocí Aspose.PDF pro .NET v jazyce C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

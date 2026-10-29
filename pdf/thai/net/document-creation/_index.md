@@ -124,6 +124,9 @@
 ### [สร้างเอกสาร PDF ด้วย C# และ Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF อย่างละเอียด
 
+### [สร้างย่อหน้ PDF ด้วย Aspose: เพิ่มกราฟิกและแทรกหน้า](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+เรียนรู้วิธีสร้างย่อหน้าที่มีกราฟิกและแทรกหน้าใน PDF ด้วย Aspose
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

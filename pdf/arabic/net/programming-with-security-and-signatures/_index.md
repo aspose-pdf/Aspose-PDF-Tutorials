@@ -70,6 +70,7 @@
 | [التحقق من توقيع PDF في C# باستخدام Aspose.PDF – دليل كامل](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | دليل شامل للتحقق من توقيعات PDF باستخدام C# و Aspose.PDF. |
 | [دليل توقيع PDF: التحقق من توقيع PDF الرقمي باستخدام Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | تعلم كيفية التحقق من صحة التوقيع الرقمي لملف PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة لتأكيد صحة التوقيع. |  
 | [إنشاء خيارات التوقيع في C# – دليل كامل للتوقيع الرقمي](./create-signature-options-in-c-full-guide-to-digital-signing/) | تعلم كيفية إنشاء خيارات توقيع متقدمة في C# باستخدام Aspose.PDF لتوقيع رقمي موثوق. |
+| [كيفية التحقق من صحة توقيعات PDF باستخدام Aspose.PDF في C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | تعرّف على كيفية التحقق من صحة توقيعات PDF باستخدام Aspose.PDF في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -77,7 +78,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -93,7 +93,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -125,6 +124,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

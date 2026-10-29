@@ -70,6 +70,7 @@ Este tutorial le ofrece una descripción detallada de los métodos y técnicas p
 | [Verificar firma PDF en C# con Aspose.PDF – guía completa](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) Aprenda a verificar firmas PDF en C# usando Aspose.PDF, con ejemplos y pasos detallados.  
 | [Tutorial de firma PDF: validar una firma digital PDF con Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) Aprenda a validar firmas digitales en archivos PDF usando Aspose.PDF para .NET. Guía paso a paso.  
 | [Crear opciones de firma en C# – guía completa de firma digital](./create-signature-options-in-c-full-guide-to-digital-signing/) Aprenda a crear y configurar opciones de firma digital en C# con Aspose.PDF para .NET. Guía paso a paso completa.  
+| [Cómo validar firmas PDF con Aspose.PDF en C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) Aprenda a validar firmas PDF usando Aspose.PDF en C# con esta guía paso a paso.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -77,7 +78,6 @@ Este tutorial le ofrece una descripción detallada de los métodos y técnicas p
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -93,7 +93,6 @@ Este tutorial le ofrece una descripción detallada de los métodos y técnicas p
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -118,6 +117,4 @@ Este tutorial le ofrece una descripción detallada de los métodos y técnicas p
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

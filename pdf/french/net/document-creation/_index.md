@@ -94,7 +94,6 @@ Apprenez à créer un document PDF complet en C# avec Aspose.PDF, incluant l'ajo
 ### [Créer un document PDF en C# – Ajouter une page au PDF et dessiner un rectangle](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
 Apprenez à ajouter une page à un PDF et à dessiner un rectangle en C# avec Aspose.PDF pour .NET.
 
-
 ### [Créer un document PDF en C# – Guide complet de génération en mémoire](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Apprenez à générer des PDF entièrement en mémoire avec C#, sans écrire de fichiers temporaires, grâce à Aspose.PDF.
 
@@ -118,6 +117,8 @@ Apprenez à créer un PDF avec une page blanche et à dessiner un rectangle à l
 Apprenez à générer un document PDF/X‑1 conforme aux normes PDF/X‑1 en utilisant Aspose.PDF pour .NET.
 ### [Créer un document PDF en C# avec Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Apprenez à générer un document PDF en C# en utilisant Aspose.PDF, avec ajout de pages, formes et enregistrement.
+### [Créer un paragraphe PDF avec Aspose : ajouter des graphiques et insérer une page](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Apprenez à créer un paragraphe PDF, ajouter des graphiques et insérer une page avec Aspose.PDF pour .NET.
 
 ## Ressources supplémentaires
 

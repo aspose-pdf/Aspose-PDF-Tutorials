@@ -69,6 +69,9 @@ Aspose.PDF for .NET を使用して、C# で PDF/X‑4 形式の PDF ドキュ�
 ### [Aspose.Pdf を使用して C# で PDF ドキュメントを作成する](./create-pdf-document-in-c-with-aspose-pdf/)
 Aspose.Pdf を使用して C# で PDF ドキュメントを作成する方法を解説します。
 
+### [Asposeで段落 PDF を作成: グラフィックの追加とページの挿入](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Aspose.PDF for .NET を使用して、段落を含む PDF にグラフィックを追加し、ページを挿入する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

@@ -31,6 +31,7 @@ Hướng dẫn "Lập trình với Toán tử" của Aspose.PDF cho .NET hướn
 | [Chỉnh sửa Từ điển tài nguyên PDF với Aspose.PDF – Hướng dẫn C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Hướng dẫn chi tiết cách chỉnh sửa từ điển tài nguyên trong tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |
 | [Tạo từ điển PDF trống trong C# với Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Hướng dẫn tạo một từ điển PDF rỗng trong C# bằng Aspose.Pdf cho .NET. |  
 | [Cách tạo trạng thái đồ họa trống trong PDF bằng C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Hướng dẫn tạo một trạng thái đồ họa trống trong PDF bằng C# sử dụng Aspose.PDF cho .NET. |
+| [Cách thay đổi độ trong suốt PDF bằng Aspose.Pdf trong C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Hướng dẫn chi tiết cách điều chỉnh độ trong suốt của tài liệu PDF bằng Aspose.Pdf trong C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

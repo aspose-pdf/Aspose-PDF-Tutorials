@@ -115,6 +115,8 @@ Lär dig hur du skapar ett PDF-dokument med Bates-nummerering i C# med Aspose.PD
 Lär dig hur du skapar ett PDF/X‑4-dokument i C# med Aspose.PDF för .NET.
 ### [Skapa PDF-dokument i C# med Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Lär dig hur du skapar PDF-dokument i C# med Aspose.PDF för .NET.
+### [Skapa paragraf-PDF med Aspose: lägg till grafik och infoga sida](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Lär dig hur du skapar ett PDF-dokument med stycken, lägger till grafik och infogar en ny sida med Aspose.PDF för .NET.
 
 ## Ytterligare resurser
 

@@ -117,6 +117,8 @@ Dowiedz się, jak w C# dodać pustą stronę i narysować prostokąt w dokumenci
 
 ### [Utwórz dokument PDF w C# przy użyciu Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
 Dowiedz się, jak w C# stworzyć dokument PDF przy użyciu biblioteki Aspose.Pdf, dodając strony, kształty i zapisując plik.
+### [Tworzenie akapitu PDF w Aspose: dodawanie grafiki i wstawianie strony](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Samouczek pokazujący, jak dodać grafikę i wstawić stronę do akapitu PDF przy użyciu Aspose.
 
 ## Dodatkowe zasoby
 

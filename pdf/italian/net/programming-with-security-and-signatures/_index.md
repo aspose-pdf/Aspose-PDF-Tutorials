@@ -74,13 +74,13 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Tutorial firma PDF: convalidare una firma digitale PDF con Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Scopri come convalidare una firma digitale PDF usando Aspose.PDF per .NET. |
 | [Crea opzioni di firma in C# – guida completa alla firma digitale](./create-signature-options-in-c-full-guide-to-digital-signing/) | Scopri come creare opzioni di firma personalizzate in C# con Aspose.PDF per .NET, guida passo passo completa. |
 
+| [Come convalidare le firme PDF con Aspose.PDF in C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Scopri come convalidare le firme PDF usando Aspose.PDF per .NET in C#. Guida passo passo. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -96,7 +96,6 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -125,6 +124,4 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

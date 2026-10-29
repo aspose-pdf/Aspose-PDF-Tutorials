@@ -32,6 +32,7 @@ Aspose.PDF for .NET's "Programming with Operators" tutorials guide you through t
 | [How to change PDF transparency in C# using Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Step-by-step guide to changing PDF transparency using Aspose.PDF for .NET in C#. |  
 | [Add rectangle PDF with Aspose.Pdf – Complete C# Guide](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Step-by-step guide to adding a rectangle to a PDF using Aspose.PDF for .NET in C#. |  
 | [Edit PDF Resource Dictionary with Aspose.PDF – C# Guide](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Step-by-step guide to editing the PDF resource dictionary using Aspose.PDF for .NET in C#. |  
+| [How to change PDF transparency using Aspose.Pdf in C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Step-by-step guide to changing PDF transparency using Aspose.PDF for .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

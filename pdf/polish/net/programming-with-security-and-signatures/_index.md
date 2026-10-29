@@ -73,6 +73,7 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Weryfikacja cyfrowego podpisu PDF w C# przy użyciu Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Dowiedz się, jak weryfikować cyfrowe podpisy PDF w C# przy użyciu Aspose.PDF – krok po kroku. |  
 | [Weryfikacja podpisu PDF w C# z Aspose.PDF – kompletny przewodnik](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Dowiedz się, jak weryfikować podpisy PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku. |  
 | [Utwórz opcje podpisu w C# – pełny przewodnik po cyfrowym podpisywaniu](./create-signature-options-in-c-full-guide-to-digital-signing/) | Kompletny przewodnik tworzenia opcji podpisu cyfrowego w C# przy użyciu Aspose.PDF. |  
+| [Jak zweryfikować podpisy PDF przy użyciu Aspose.PDF w C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Dowiedz się, jak w C# zweryfikować podpisy PDF przy użyciu Aspose.PDF, krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -80,7 +81,6 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -96,7 +96,6 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -125,6 +124,4 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

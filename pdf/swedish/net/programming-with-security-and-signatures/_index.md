@@ -74,13 +74,13 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [PDF-signaturhandledning: validera en digital PDF-signatur med Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Lär dig hur du validerar en digital PDF-signatur med Aspose.PDF i C# – steg-för-steg-guide. |
 | [Skapa signaturalternativ i C# – komplett guide till digital signering](./create-signature-options-in-c-full-guide-to-digital-signing/) | Lär dig hur du skapar signaturalternativ och signerar PDF-dokument digitalt med Aspose.PDF för .NET. |
 
+| [Hur man validerar PDF-signaturer med Aspose.PDF i C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Lär dig hur du validerar PDF‑signaturer med Aspose.PDF i C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -96,7 +96,6 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -125,6 +124,4 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

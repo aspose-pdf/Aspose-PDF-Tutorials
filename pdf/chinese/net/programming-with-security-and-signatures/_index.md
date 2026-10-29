@@ -73,6 +73,7 @@
 | [使用 Aspose.PDF 在 C# 中验证 PDF 签名 – 完整指南](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性。分步指南帮助您确保文档安全。|  
 | [PDF 签名教程：使用 Aspose.PDF 验证 PDF 数字签名](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 文档的数字签名，确保其完整性和真实性。|  
 | [在 C# 中创建签名选项 – 完整数字签名指南](./create-signature-options-in-c-full-guide-to-digital-signing/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建签名选项并完成数字签名的完整指南。|  
+| [如何使用 Aspose 验证 PDF 中的签名 – 完整分步指南](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，确保文档完整性和真实性。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -80,7 +81,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -96,7 +96,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -123,6 +122,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

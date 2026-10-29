@@ -115,6 +115,8 @@ Leer hoe u een nieuw PDF-document maakt en automatisch Bates-nummering toevoegt 
 ### [PDF-document maken met een lege pagina en rechthoek](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt met een lege pagina en een rechthoek.
 ### [Hoe een PDF/X‑1-document maken met Aspose.PDF voor .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
+### [Paragraaf PDF maken met Aspose: grafieken toevoegen en pagina invoegen](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Leer hoe u een PDF-paragraaf maakt, grafische elementen toevoegt en een pagina invoegt met Aspose.PDF voor .NET.
 
 ## Aanvullende bronnen
 

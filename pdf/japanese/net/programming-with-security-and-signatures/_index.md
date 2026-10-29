@@ -81,7 +81,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -97,7 +96,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -107,7 +105,7 @@
 | [Aspose を使用した PDF の署名を検証する方法 – C# チュートリアル](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) Aspose.PDF for .NET を使用して PDF のデジタル署名を検証する手順をステップバイステップで学びます。 |  
 | [PDF ファイルの修復方法 – Aspose.Pdf を使用した完全な C# ガイド](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) Aspose.PDF for .NET を使用して PDF ファイルを修復する方法を学びましょう。ステップバイステップのガイドで、破損した文書を復元できます。 |  
 | [C# で PDF 署名を検証する – 完全プログラミングガイド](./verify-pdf-signature-in-c-complete-programming-guide/) Aspose.PDF for .NET を使用して、C# で PDF 署名を検証し、署名情報を取得する方法を学びます。 |  
-
+| [C# で Aspose.PDF を使用して PDF 署名を検証する方法](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) |  
 | [C# で PDF 署名を検証する方法 – 完全ステップバイステップガイド](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) Aspose.PDF for .NET を使用して、C# で PDF 署名を検証する方法を学びましょう。ステップバイステップのガイドです。 |  
 | [Aspose を使用した PDF の署名検証方法 – ガイド](./how-to-verify-signature-in-pdf-using-aspose-guide/) Aspose.PDF for .NET を使用して、PDF のデジタル署名を検証する方法をステップバイステップで学びましょう。 |  
 | [Aspose.PDF を使用した PDF 署名の検証方法 – 完全ガイド](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して、PDF 署名を完全に検証するステップバイステップガイドです。 |  
@@ -123,6 +121,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-
