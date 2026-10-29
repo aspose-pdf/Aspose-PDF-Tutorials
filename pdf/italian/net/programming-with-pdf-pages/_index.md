@@ -65,6 +65,7 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 | [Aggiungi numerazione Bates a PDF con Aspose.PDF – Guida completa](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Guida passo passo per aggiungere la numerazione Bates ai file PDF usando Aspose.PDF per .NET. |
 | [Aggiungi pagina vuota PDF con Aspose.PDF – Guida completa](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Guida passo passo per aggiungere una pagina vuota a un PDF usando Aspose.PDF per .NET, con esempi di codice chiari. |
 | [Aggiungi numerazione Bates al PDF con Aspose – guida passo‑passo](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Guida passo passo per aggiungere la numerazione Bates ai file PDF utilizzando Aspose.PDF per .NET. |
+| [Come aggiungere la numerazione Bates a un PDF con Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Guida passo passo per aggiungere la numerazione Bates a un PDF utilizzando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,7 +73,6 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -89,6 +89,4 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

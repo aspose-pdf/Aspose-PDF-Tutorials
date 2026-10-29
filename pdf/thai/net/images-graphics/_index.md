@@ -214,6 +214,9 @@
 ### [วิธีเปลี่ยนความทึบแสงใน PDF ด้วย Aspose.PDF สำหรับ .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 เรียนรู้วิธีปรับความทึบแสงของวัตถุใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 
+### [เพิ่มกราฟิกสเตตใน PDF ด้วย Aspose.Pdf ใน C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+เรียนรู้วิธีจัดการสถานะกราฟิกใน PDF ด้วย Aspose.Pdf สำหรับ .NET ผ่านตัวอย่างโค้ด C#
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

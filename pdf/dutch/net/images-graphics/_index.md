@@ -207,6 +207,8 @@ Leer hoe u ExtGState-objecten kunt toepassen om transparantie, mengmodi en ander
 ### [Grafische status toevoegen aan PDF met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 ### [Aangepaste ExtGState PDF toevoegen met Aspose.PDF: een stapsgewijze handleiding](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Leer hoe u met Aspose.PDF aangepaste ExtGState-instellingen toevoegt aan PDF's voor geavanceerde transparantie‑ en weergave‑effecten.
+### [Grafische status toevoegen aan PDF met Aspose.PDF in C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Leer hoe u de graphics state van een PDF kunt beheren met Aspose.PDF in C#.
 
 ## Aanvullende bronnen
 

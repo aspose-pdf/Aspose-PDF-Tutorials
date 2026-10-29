@@ -65,6 +65,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Duplikat Halaman PDF dengan Aspose.Pdf – Panduan Lengkap](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Panduan lengkap untuk menduplikasi halaman PDF menggunakan Aspose.Pdf dalam aplikasi .NET Anda. |  
 | [Menambahkan Penomoran Bates ke PDF dengan Aspose.PDF – Panduan Lengkap](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Panduan langkah demi langkah menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
 | [Menambahkan penomoran Bates pada PDF dengan Aspose – panduan langkah demi langkah](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
+| [Cara menambahkan penomoran Bates ke PDF dengan Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Panduan langkah demi langkah menambahkan penomoran Bates ke file PDF menggunakan Aspose.PDF untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,7 +73,6 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -87,7 +87,6 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -103,6 +102,4 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

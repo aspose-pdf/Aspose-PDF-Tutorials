@@ -88,6 +88,9 @@
 ### [Как пропустить экспорт изображений при преобразовании PDF в HTML – Полное руководство на C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
 Узнайте, как отключить экспорт изображений при конвертации PDF в HTML с помощью Aspose.PDF для .NET на C#.
 
+### [Конвертировать PDF в HTML на C# – полное руководство по программированию](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Подробное руководство по конвертации PDF в HTML на C# с использованием Aspose.PDF.
+
 ### [Конвертируйте PDF в PNG с помощью Aspose.PDF .NET: улучшенная подсказка шрифтов для четкой визуализации текста](./convert-pdf-png-aspose-net-font-hinting/)
 Узнайте, как преобразовывать PDF-документы в высококачественные изображения PNG с помощью Aspose.PDF .NET, обеспечивая четкую визуализацию текста с помощью подсказок шрифтов.
 
@@ -299,15 +302,15 @@
 ### [Как отобразить PDF в PNG с помощью Aspose – Полное руководство](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 Узнайте, как преобразовать PDF в изображения PNG с помощью Aspose, следуя пошаговому полному руководству.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}### [Как отобразить страницы PDF в виде PNG‑изображений – полное руководство Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+### [Как отобразить страницы PDF в виде PNG‑изображений – полное руководство Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
 Подробное руководство по конвертации страниц PDF в PNG‑изображения с использованием Aspose.PDF для .NET.
 
 ### [Aspose PDF в HTML: Полное руководство по конвертации PDF и удалению изображений](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Подробное руководство по преобразованию PDF в HTML с удалением изображений с помощью Aspose.PDF для .NET.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -181,6 +181,8 @@ Aspose.Pdf를 활용해 PDF에 그래픽 상태를 적용하고 관리하는 방
 ### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 개발자 가이드](./replace-images-pdf-aspose-net-guide/)
 
 ### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 완전한 가이드](./replace-images-aspose-pdf-net-tutorial/)
+### [C#에서 Aspose.Pdf를 사용하여 그래픽 상태 PDF 추가](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+
 
 ### [Aspose.PDF for .NET을 사용하여 PDF의 이미지 크기를 설정하는 방법](./set-image-size-pdf-aspose-dotnet/)
 

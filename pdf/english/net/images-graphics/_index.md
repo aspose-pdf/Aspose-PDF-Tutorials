@@ -162,6 +162,8 @@ Learn how to apply transparency effects to PDF elements using Aspose.PDF for .NE
 ### [How to Delete Images from PDF Files Using Aspose.PDF for .NET - Complete Guide]({{< relref "delete-images-aspose-pdf-net" >}})
 ### [Add ExtGState to PDF with Aspose.Pdf – Complete Guide](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Learn how to add ExtGState objects to PDFs using Aspose.PDF for .NET to control transparency, blending, and other graphics state parameters.
+### [Add graphics state pdf with Aspose.Pdf in C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Learn how to manipulate the graphics state of PDF documents using Aspose.PDF for .NET in C#.
 
 ### [How to Delete Images from PDF Files Using Aspose.PDF for .NET - Complete Guide](./delete-images-aspose-pdf-net/)
 Learn how to efficiently delete images from PDF files using Aspose.PDF for .NET. This guide covers setup, code examples, and best practices.
@@ -332,12 +334,10 @@ Learn how to convert SVG files into high-quality PDFs seamlessly using Aspose.PD
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

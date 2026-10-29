@@ -212,6 +212,8 @@ Naučte se, jak pomocí Aspose.PDF spravovat grafický stav PDF, včetně nastav
 ### [Jak přidat grafický stav PDF a řídit průhlednost pomocí Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 Naučte se, jak nastavit stav grafiky a ovládat průhlednost v PDF pomocí Aspose.PDF.
 
+### [Přidání grafického stavu PDF pomocí Aspose.Pdf v C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

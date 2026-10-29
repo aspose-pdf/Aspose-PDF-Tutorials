@@ -60,7 +60,7 @@ Aprenda a renderizar páginas PDF como imagens PNG de alta qualidade usando Aspo
 Aprenda como converter páginas PDF em imagens BMP de alta qualidade usando o Aspose.PDF para .NET com este guia abrangente.
 
 ### [Converter PDF para EMF usando Aspose.PDF para .NET: um guia completo](./convert-pdf-emf-aspose-net-guide/)
-Aprenda a converter páginas PDF para o formato EMF usando o Aspose.PDF para .NET. Este guia aborda a configuração, instruções passo a passo e práticas recomendadas.
+Aprenda a converter páginas PDF para o formato EMF usando o Aspose.PDF para .NET. Este guia aborda a configuração, instruções passo a passo e prácticas recomendadas.
 
 ### [Converter PDF para EMF com Aspose.PDF para .NET](./convert-pdf-to-emf-aspose-dotnet/)
 Um tutorial de código para Aspose.PDF Net
@@ -257,6 +257,9 @@ Aprenda a salvar PDFs como arquivos HTML de forma rápida usando Aspose.PDF em C
 ### [Converter PDF para HTML em C# – Guia rápido com Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Aprenda a converter PDFs em HTML rapidamente usando C# e Aspose.Pdf com este guia passo a passo.
 
+### [Converter PDF para HTML em C# – Guia completo de programação](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Aprenda passo a passo como converter PDFs em HTML usando C# e Aspose.PDF, cobrindo todas as opções de configuração e melhores práticas.
+
 ### [Conversão de PDF para HTML com Aspose.PDF .NET: um tutorial de código](./pdf-to-html-conversion-aspose-dot-net/)
 ### [Salvar PDF como HTML – Criar PDF e adicionar forma retangular](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 Aprenda a salvar um PDF como HTML, criar um PDF e inserir uma forma retangular usando Aspose.PDF para .NET.
@@ -268,8 +271,6 @@ Aprenda a salvar PDFs como HTML usando Aspose.PDF em C#, com exemplos passo a pa
 
 ### [Salvar PDF como HTML com C# – Guia Completo Passo a Passo](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Aprenda a converter PDFs em HTML usando C# com Aspose.PDF, seguindo um guia detalhado passo a passo.
-### [Converter PDF para HTML e Verificar Assinatura de PDF – Guia Completo Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
-Aprenda a converter PDFs para HTML e validar assinaturas digitais usando Aspose.PDF para .NET em um guia completo.
 ### [Como salvar HTML de PDF – Guia passo a passo](./how-to-save-html-from-pdf-step-by-step-guide/)
 Aprenda a extrair e salvar o conteúdo HTML de um PDF usando Aspose.PDF para .NET passo a passo.
 ### [Salvar PDF como HTML com Aspose.Pdf – Guia Completo em C#](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
@@ -304,6 +305,8 @@ Aprenda a salvar PDFs como HTML e convertê-los para PDF/X‑4 usando Aspose.PDF
 - [Baixe Aspose.PDF para a rede](https://releases.aspose.com/pdf/net/)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+### [Converter PDF para HTML e Verificar Assinatura de PDF – Guia Completo Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Aprenda a converter PDFs para HTML e validar assinaturas digitais usando Aspose.PDF para .NET em um guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,8 @@ Aspose.PDF Net 代码教程
 了解如何在 PDF 中设置整体或特定对象的不透明度，以实现视觉效果。
 ### [使用 Aspose.PDF for .NET 为 PDF 添加透明度：分步指南](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 文档中设置透明效果，提升视觉表现。
+### [使用 Aspose.PDF for .NET 添加图形状态 PDF](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中添加图形状态到 PDF。
 
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。
@@ -154,7 +156,7 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 高效地从 PDF 文件中删除图像。本指南涵盖设置、代码示例和最佳实践。
 
 ### [如何使用 Aspose.PDF .NET 从 PDF 中删除图像：分步指南](./delete-images-aspose-pdf-net-guide/)
-学习如何使用 Aspose.PDF for .NET 从 PDF 文件中删除图像。本指南内容全面，涵盖设置、实施和实际应用。
+学习如何使用 Aspose.PDF for .NET 从 PDF 中删除图像。本指南内容全面，涵盖设置、实施和实际应用。
 
 ### [如何使用 Aspose.PDF for .NET 从 PDF 中删除图像：综合指南](./delete-images-from-pdf-aspose-dotnet/)
 了解如何使用 Aspose.PDF for .NET 高效地从 PDF 中删除所有图像，增强文件隐私并减小文件大小。请遵循本分步指南。

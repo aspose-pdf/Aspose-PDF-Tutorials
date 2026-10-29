@@ -206,6 +206,9 @@
 ### [Ορισμός διαφάνειας PDF σε C# με το Aspose.PDF – πλήρης οδηγός](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Μάθετε πώς να ορίζετε τη διαφάνεια των PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C# με αυτόν τον πλήρη οδηγό.
 
+### [Προσθήκη κατάστασης γραφικών σε PDF με Aspose.Pdf σε C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Μάθετε πώς να διαχειρίζεστε την κατάσταση γραφικών σε PDF χρησιμοποιώντας το Aspose.Pdf με C#.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

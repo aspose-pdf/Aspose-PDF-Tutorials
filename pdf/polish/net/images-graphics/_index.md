@@ -213,6 +213,8 @@ Dowiedz się, jak dodać ExtGState do plików PDF przy użyciu Aspose.PDF dla .N
 ### [Dodaj niestandardowy ExtGState do PDF przy użyciu Aspose.PDF – przewodnik krok po kroku](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Dowiedz się, jak dodać niestandardowy ExtGState do plików PDF przy użyciu Aspose.PDF, krok po kroku.
 ### [Jak zmienić przezroczystość w pliku PDF za pomocą Aspose.PDF dla .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+### [Dodaj stan graficzny PDF przy użyciu Aspose.Pdf w C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Dowiedz się, jak dodać stan graficzny do pliku PDF przy użyciu Aspose.PDF w C#.
 
 ## Dodatkowe zasoby
 

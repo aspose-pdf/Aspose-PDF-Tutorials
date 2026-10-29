@@ -212,6 +212,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF 為 PDF 添加 ExtGState – 完整指南](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 了解如何使用 Aspose.PDF 在 PDF 中設定 ExtGState 以控制透明度和混合模式的完整步驟指南。
 
+### [使用 Aspose.PDF 在 C# 中新增圖形狀態 PDF：逐步指南](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+了解如何在 C# 中使用 Aspose.PDF 設定圖形狀態，以控制 PDF 的渲染效果。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

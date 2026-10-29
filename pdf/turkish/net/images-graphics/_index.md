@@ -206,6 +206,9 @@ Aspose.PDF Net için bir kod öğreticisi
 ### [Aspose.PDF for .NET ile Verimli PDF Görüntü Tanımlama](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF'lerdeki gri tonlamalı ve RGB görüntüleri nasıl tanımlayacağınızı öğrenin. Bu eğitim, kurulum, görüntü çıkarma ve performans ipuçlarını kapsar.
 
+### [Aspose.PDF ile C#'ta Grafik Durumu PDF Ekleme: Adım Adım Kılavuz](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Aspose.PDF for .NET kullanarak PDF belgelerine grafik durumu eklemeyi öğrenin. C# kod örnekleriyle adım adım kılavuz.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

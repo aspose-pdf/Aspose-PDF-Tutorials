@@ -57,6 +57,8 @@ Apprenez à appliquer la transparence aux éléments PDF en C# avec Aspose PDF g
 Apprenez à appliquer la transparence aux éléments PDF en C# avec Aspose.PDF grâce à ce guide détaillé.
 ### [Comment définir la transparence dans un PDF avec Aspose PDF en C# : guide étape par étape](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Apprenez à appliquer la transparence aux éléments d'un PDF en C# avec Aspose.PDF grâce à ce guide complet.
+### [Ajouter l'état graphique PDF avec Aspose.PDF en C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Apprenez à manipuler l'état graphique d'un PDF en C# avec Aspose.PDF grâce à ce guide détaillé.
 
 ### [Comment dessiner un rectangle dans un PDF avec C# – Guide étape par étape](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Apprenez à dessiner un rectangle dans un PDF en C# avec Aspose.PDF .NET grâce à ce guide détaillé étape par étape.

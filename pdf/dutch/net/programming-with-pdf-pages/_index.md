@@ -65,6 +65,7 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [Lege pagina toevoegen aan PDF met Aspose.PDF – Volledige gids](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u een lege pagina aan een PDF toevoegt met Aspose.PDF in deze volledige stap‑voor‑stap handleiding. |
 | [PDF-opaciteit wijzigen in C# met Aspose.Pdf – stapsgewijze handleiding](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Leer hoe u de doorzichtigheid van PDF-elementen aanpast met Aspose.Pdf in C# via een stapsgewijze handleiding. |
 | [Bates-nummers toevoegen aan PDF met Aspose – stapsgewijze handleiding](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Leer hoe u Bates‑nummering aan PDF‑bestanden toevoegt met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
+| [Hoe Bates-nummering aan een PDF toevoegen met Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Leer hoe u Bates-nummering aan een PDF kunt toevoegen met Aspose.Pdf voor .NET in een stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,7 +73,6 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -87,7 +87,6 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -103,6 +102,4 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

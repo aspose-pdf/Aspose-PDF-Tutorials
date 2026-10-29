@@ -214,6 +214,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Masken überlagern und die automa
 ### [ExtGState zu PDF mit Aspose.PDF hinzufügen – Vollständige Anleitung](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ExtGState-Objekte zu PDFs hinzufügen, um Transparenz, Blendmodi und weitere Grafik‑Effekte zu steuern.
 ### [Wie Sie den Grafikstatus zu PDFs hinzufügen und Transparenz mit Aspose.PDF steuern: Eine Schritt-für-Schritt-Anleitung](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+### [Grafikzustand zu PDF mit Aspose.Pdf in C# hinzufügen](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET den Grafikzustand in PDFs steuern.
 
 ## Weitere Ressourcen
 
