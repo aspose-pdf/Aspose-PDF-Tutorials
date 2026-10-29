@@ -17,6 +17,8 @@ Scopri come creare documenti PDF ben strutturati con i nostri tutorial Aspose.PD
 
 ## Tutorial disponibili
 
+
+{{< tutorial-card link="./style-table-cells/" title="Personalizza lo sfondo, i bordi e il padding delle celle della tabella nei PDF con Aspose.Pdf per .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Aggiungi un elenco ordinato HTML al PDF con Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Un tutorial sul codice per Aspose.PDF Net
 

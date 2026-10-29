@@ -56,10 +56,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # มุมมองหน้าเดียวของ PDF ใน Java – เปลี่ยนเค้าโครงและแก้ไขบุ๊กมาร์ก
 
 ## บทนำ
@@ -252,6 +252,8 @@ A: Re‑calculate destinations using the current page indices after any structur
 - [บทแนะนำเกี่ยวกับบุ๊กมาร์ก PDF และการนำทางสำหรับ Aspose.PDF Java](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

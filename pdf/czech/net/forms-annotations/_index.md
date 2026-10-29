@@ -17,6 +17,8 @@ Zvládněte interaktivní funkce PDF s našimi komplexními tutoriály o formul�
 
 ## Dostupné tutoriály
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Porovnání PDF vedle sebe s vyloučením anotací pomocí Aspose.Pdf pro .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Přidání polí formuláře do PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Naučte se, jak do PDF souborů přidat text, zaškrtávací políčka, pole se seznamem, pole se seznamem a víceřádková pole pomocí Aspose.PDF pro .NET. Tato příručka zahrnuje nastavení, příklady kódu a tipy pro integraci.
 

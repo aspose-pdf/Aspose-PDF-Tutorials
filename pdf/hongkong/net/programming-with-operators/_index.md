@@ -24,6 +24,14 @@ Aspose.PDF for .NET 的「使用運算子進行程式設計」教學課程將引
 | [PDF 運算符](./pdf-operators/) |使用 Aspose.PDF for .NET 的 PDF 運算子的逐步指南。將圖像新增至 PDF 頁面並指定其位置。 |  
 | [刪除 PDF 檔案中的圖形對象](./remove-graphics-objects/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 從 PDF 檔案中刪除圖形物件。簡化您的 PDF 操作任務。 |  
 | [遍歷集合 C# – 簡易指南：循環遍歷項目](./iterate-collection-c-simple-guide-to-loop-over-items/) |本指南說明如何使用 Aspose.PDF for .NET 在 C# 中遍歷集合，輕鬆迭代 PDF 項目。 |  
+| [在 C# 中建立空 PDF 字典 – 完整 Aspose.Pdf 指南](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) |本完整指南說明如何在 C# 使用 Aspose.PDF 建立空的 PDF 字典，並設定其屬性。 |  
+| [如何在 C# 中使用 Aspose.Pdf 更改 PDF 透明度](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) |本指南說明如何使用 Aspose.Pdf 在 C# 中調整 PDF 的透明度屬性。 |  
+| [使用 Aspose.Pdf 在 PDF 中建立自訂圖形狀態](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) |說明如何使用 Aspose.Pdf 在 PDF 中建立自訂圖形狀態，以控制繪圖屬性。 |  
+| [使用 Aspose.Pdf 新增矩形 PDF – 完整 C# 指南](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) |本完整 C# 教學說明如何使用 Aspose.Pdf 在 PDF 中繪製矩形並設定其屬性。 |  
+| [使用 Aspose.PDF 編輯 PDF 資源字典 – C# 指南](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) |本指南說明如何使用 Aspose.PDF 編輯 PDF 資源字典，新增、修改或刪除資源。 |  
+| [使用 Aspose.Pdf 在 C# 中建立空的 PDF 字典](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) |使用 Aspose.PDF 在 C# 中建立空的 PDF 字典。 |  
+| [如何使用 C# 在 PDF 中建立空的圖形狀態](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) |本指南說明如何使用 Aspose.PDF for .NET 及 C# 在 PDF 中建立空的圖形狀態，以便進一步自訂繪圖操作。 |  
+| [如何在 C# 中使用 Aspose.Pdf 更改 PDF 透明度](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) |本指南說明如何使用 Aspose.Pdf 在 C# 中調整 PDF 的透明度屬性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

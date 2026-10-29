@@ -19,6 +19,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 ## Návody
 | Název | Popis |
 | --- | --- | 
+| [Jak vytvořit souhrnný PDF pomocí Aspose.Pdf.AI v C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Naučte se vytvořit souhrnný PDF dokument pomocí Aspose.Pdf.AI v C# s podrobným návodem a ukázkami kódu. |
 | [Přidat a vyhledat skrytý text v souboru PDF](./add-and-search-hidden-text/) | Naučte se přidávat a vyhledávat skrytý text v PDF dokumentech pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu. |  
 | [Přidání seřazeného seznamu HTML do dokumentů](./add-html-ordered-list-into-documents/) | Naučte se přidávat seřazené seznamy HTML do PDF dokumentů pomocí Aspose.PDF pro .NET. Objevte podrobné pokyny v tomto podrobném tutoriálu. |  
 | [Přidání HTML pomocí DOMu](./add-html-using-dom/) V tomto podrobném návodu se naučte, jak přidat HTML obsah do PDF dokumentů pomocí Aspose.PDF pro .NET. Snadno vylepšete své PDF soubory pomocí dynamického formátování HTML. |
@@ -39,6 +40,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | [Extrahovat textovou stránku v souboru PDF](./extract-text-page/) | Naučte se, jak extrahovat text z konkrétní stránky v PDF souboru pomocí Aspose.PDF pro .NET. |  
 | [Extrakce textu pomocí textového zařízení](./extract-text-using-text-device/) | Naučte se, jak extrahovat text z PDF dokumentu pomocí textového zařízení v Aspose.PDF pro .NET. |  
 | [Dynamické získání šířky textu](./get-width-of-text-dynamically/) | Naučte se dynamicky měřit šířku textu pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem určeném pro vývojáře. |  
+| [Generovat souhrn PDF pomocí Aspose.Pdf.AI a OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Naučte se automaticky vytvářet souhrny PDF pomocí Aspose.Pdf.AI a OpenAI s podrobným návodem a ukázkami kódu. |  
 | [Skrytý textový blok v souboru PDF](./hidden-text-block/) | Vytvářejte interaktivní PDF soubory se skrytými textovými bloky pomocí Aspose.PDF pro .NET. Tento tutoriál poskytuje podrobný návod, jak vylepšit vaše dokumenty. |  
 | [Zvýraznit znak v souboru PDF](./highlight-character-in-pdf/) | Naučte se v tomto komplexním průvodci krok za krokem zvýrazňovat znaky v PDF pomocí Aspose.PDF pro .NET. |  
 | [Vícesloupcové odstavce v souboru PDF](./multicolumn-paragraphs/) | Naučte se, jak vytvářet a spravovat vícesloupcové odstavce v souborech PDF pomocí Aspose.PDF pro .NET s naším podrobným návodem. |  

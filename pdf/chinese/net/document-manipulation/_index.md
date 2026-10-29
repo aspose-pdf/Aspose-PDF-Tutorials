@@ -16,6 +16,13 @@
 使用我们详细的 Aspose.PDF .NET 教程掌握 PDF 文档操作。这些分步指南演示了如何操作文档结构、修改现有 PDF、拆分和合并文档、添加和删除页面以及以编程方式组织 PDF 内容。每个教程都包含 C# 代码示例、实现说明和最佳实践，帮助您构建使用简洁易维护代码高效操作 PDF 文档的应用程序。
 
 ## 可用教程
+
+{{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比较 PDF 并生成带高亮的 Diff 文档" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="使用 Aspose.Pdf for .NET 比较 PDF 表单并生成 JSON 与可视化差异。" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="使用 Aspose.Pdf for .NET 在忽略特定区域的情况下比较 PDF" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [使用 Aspose.PDF for .NET 为 PDF 添加日期和时间戳](./aspose-pdf-net-date-time-stamps-annotations/)
 了解如何使用 Aspose.PDF for .NET 高效地将日期、时间戳或注释添加到 PDF 文档中。通过这些简单易懂的步骤，增强文档管理。
 
@@ -340,6 +347,17 @@ Aspose.PDF Net 代码教程
 ### [C# 中的可视化 PDF 差异比较 – 比较两个 PDF 的完整指南](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中实现可视化 PDF 差异比较，轻松对比两个 PDF 文档的内容差异。
 
+### [在 C# 中合并 PDF 图层 – 如何合并 PDF 图层](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中合并 PDF 图层，实现图层的组合。
+### [使用 Aspose.PDF 修复 PDF 文件 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 修复损坏的 PDF 文件，包括检测错误、修复结构并保存有效文档的完整步骤。
+### [保存已更新的 PDF – 使用 Aspose.Pdf 编辑 PDF 资源](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+了解如何使用 Aspose.Pdf 在 .NET 中保存已编辑的 PDF 并管理相关资源。
+### [使用 Aspose.PDF 保存已修改的 PDF – 完整 C# 指南](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中保存已修改的 PDF 文档的完整步骤。
+
+### [使用 Aspose.PDF 保存已修改的 PDF 并添加透明度](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+了解如何使用 Aspose.PDF 保存已修改的 PDF 文档并为内容添加透明效果，实现更灵活的文档呈现。
 
 ## 其他资源
 

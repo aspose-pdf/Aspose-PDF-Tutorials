@@ -31,6 +31,9 @@
 ### [วิธีแปลงไฟล์ PDF เป็น PDF/X-4 โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 เรียนรู้วิธีแปลงเอกสาร PDF มาตรฐานเป็นรูปแบบ PDF/X-4 ที่มีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และการแก้ไขปัญหา
 
+### [แปลง PDF เป็น PDF/X-1A – วิธีสร้างเอกสาร PDF/X-1A](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปแบบ PDF/X-1A ที่สอดคล้องตามมาตรฐานการพิมพ์ด้วย Aspose.PDF .NET
+
 ### [วิธีการตรวจสอบ PDF/A-1a ด้วย Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 เรียนรู้วิธีการตรวจสอบการปฏิบัติตามมาตรฐาน PDF/A-1a โดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้มีคำแนะนำทีละขั้นตอน ตัวอย่างโค้ด และเคล็ดลับการผสานรวม
 
@@ -48,6 +51,8 @@
 เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/A อย่างละเอียดด้วย C# และ Aspose.PDF .NET ในขั้นตอนที่ครบถ้วน
 ### [วิธีสร้าง PDF/A ด้วย C# – แปลง PDF เป็น PDF/A อย่างง่าย](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/A อย่างรวดเร็วด้วย C# และ Aspose.PDF .NET
+### [วิธีตั้งค่า ICC ใน Aspose PDF – คู่มือ C# ฉบับสมบูรณ์](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+คู่มือขั้นตอนเต็มสำหรับการตั้งค่า ICC ใน Aspose.PDF ด้วย C#
 
 ## แหล่งข้อมูลเพิ่มเติม
 

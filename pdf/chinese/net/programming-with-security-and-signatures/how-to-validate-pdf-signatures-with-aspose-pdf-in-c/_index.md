@@ -1,35 +1,46 @@
 ---
 category: general
-date: 2026-10-07
-description: 如何使用 Aspose.Pdf 验证 PDF 签名。学习在几分钟内验证 PDF 签名、读取数字签名字段、检测篡改并检查签名完整性。
+date: 2026-10-04
+description: 使用 Aspose.PDF 在 C# 中验证 PDF 签名。本指南展示如何验证 PDF 数字签名并高效加载已签名的 PDF 文件。
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- how to validate pdf
-- verify pdf signature
-- digital signature field
-- how to detect tampering
-- check signature integrity
+- validate PDF signatures
+- verify PDF digital signatures
+- load signed PDF
 language: zh
-lastmod: 2026-10-07
-og_description: 如何在 C# 中验证 PDF 签名。本指南展示如何验证 PDF 签名、读取数字签名字段、检测篡改并检查签名完整性。
-og_image_alt: Screenshot of C# code checking a PDF digital signature with Aspose.Pdf
-og_title: 使用 Aspose.Pdf 验证 PDF 签名 – 快速 C# 指南
+lastmod: 2026-10-04
+og_description: 使用 Aspose.PDF 在 C# 中验证 PDF 签名。学习如何验证 PDF 数字签名并在几行代码中加载已签名的 PDF 文档。
+og_image_alt: Screenshot of C# console output showing validation results for PDF signatures
+og_title: 在 C# 中验证 PDF 签名 – 使用 Aspose.PDF 的逐步指南
 schemas:
 - author: Aspose
-  dateModified: '2026-10-07'
-  description: How to validate PDF signatures using Aspose.Pdf. Learn to verify PDF
-    signature, read the digital signature field, detect tampering and check signature
-    integrity in minutes.
-  headline: How to validate PDF signatures with Aspose.Pdf in C#
+  dateModified: '2026-10-04'
+  description: Validate PDF signatures with Aspose.PDF in C#. This guide shows how
+    to verify PDF digital signatures and load signed PDF files efficiently.
+  headline: How to validate PDF signatures with Aspose.PDF in C#
   type: TechArticle
+- description: Validate PDF signatures with Aspose.PDF in C#. This guide shows how
+    to verify PDF digital signatures and load signed PDF files efficiently.
+  name: How to validate PDF signatures with Aspose.PDF in C#
+  steps:
+  - name: 1. Password‑protected PDFs
+    text: 'If the signed PDF is encrypted, you must provide the password before loading:'
+  - name: 2. Missing certificates
+    text: When a signature’s signing certificate isn’t available in the local trust
+      store, `IsCompromised` will be `True`. To avoid false negatives, you can supply
+      a custom `CertificateValidator` that points to a trusted root store.
+  - name: 3. Multiple signatures on the same page
+    text: The loop already processes each field independently, so no extra code is
+      required. Just be aware that the order of validation may affect performance
+      if many signatures exist.
+  type: HowTo
 tags:
-- Aspose.Pdf
-- C#
-- PDF security
-- Digital signatures
-title: 如何使用 Aspose.Pdf 在 C# 中验证 PDF 签名
+- PDF
+- Aspose.PDF
+- Digital Signature
+title: 如何使用 Aspose.PDF 在 C# 中验证 PDF 签名
 url: /zh/net/programming-with-security-and-signatures/how-to-validate-pdf-signatures-with-aspose-pdf-in-c/
 ---
 
@@ -37,265 +48,272 @@ url: /zh/net/programming-with-security-and-signatures/how-to-validate-pdf-signat
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 C# 中使用 Aspose.Pdf 验证 PDF 签名
+# 如何在 C# 中使用 Aspose.PDF 验证 PDF 签名
 
-如果您需要 **验证 PDF** 文件中包含的数字签名，本指南提供了完整、可直接运行的解决方案。您将学习如何 **验证 PDF 签名**、读取 **数字签名字段**，以及 **检测篡改**，从而在接受文档之前 **检查签名完整性**。
+如果您需要在 .NET 应用程序中**验证 PDF 签名**，本教程提供了一个完整、可直接运行的解决方案。您将看到如何**加载已签名的 PDF**文件、遍历每个签名字段，以及以编程方式**验证 PDF 数字签名**。
 
-验证 PDF 不仅仅是打开文件；您必须确保加密封印仍然可信。下面的代码演示了使用 Aspose.Pdf 库进行 .NET 开发时所需的全部步骤。
+通过本指南，您将能够：
+
+* 使用 Aspose.PDF 打开任意已签名的 PDF 文档。
+* 从表单中检索每个签名字段。
+* 调用内置的验证 API 来判断签名是否被破坏。
+* 输出清晰的结果，以便记录或在 UI 中显示。
+
+唯一的前提是拥有可用的 .NET 开发环境（Visual Studio 2022 或更高版本）以及 Aspose.PDF for .NET 的许可证或评估包。
+
+---
 
 ## 前置条件
 
-在开始之前，请确保您具备：
+| 要求 | 为什么重要 |
+|-------------|----------------|
+| .NET 6.0 SDK 或更高版本 | Aspose.PDF 目标为 .NET Standard 2.0+，因此 .NET 6 提供最新的运行时改进。 |
+| Aspose.PDF for .NET (NuGet `Aspose.PDF`) | 提供代码中使用的 `Document`、`SignatureField` 和验证 API。 |
+| 已包含一个或多个数字签名的 PDF | 本教程验证已有的签名；不创建签名。 |
+| 基础 C# 知识 | 代码使用标准 C# 构造（foreach、字符串插值）。 |
 
-* .NET 6.0 或更高版本（代码同样适用于 .NET Framework 4.7+）
-* Aspose.Pdf for .NET 许可证或临时评估密钥
-* 一个名为 `signed.pdf` 的已签名 PDF 文件，放置在已知目录下
-* 对 C# 控制台应用程序的基本了解
+使用以下命令安装 NuGet 包：
 
-> **专业提示：** 如果您使用的是评估许可证，请在 `Main` 方法开头添加 `License.SetLicense("Aspose.Total.NET.lic");` 以避免出现水印。
+```bash
+dotnet add package Aspose.PDF
+```
 
-## 第一步：加载 PDF 文档
+---
 
-首先需要将目标 PDF 加载到 `Aspose.Pdf.Document` 实例中。该对象让您能够访问文件内部的每一页、注释和签名。
+## 使用 Aspose.PDF 加载已签名的 PDF
+
+第一步是从磁盘**加载已签名的 PDF**。Aspose.PDF 会读取整个文档，包括所有嵌入的签名字段。
+
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Signatures;
+
+// Replace with the actual path to your signed PDF file
+string pdfPath = @"C:\Docs\signed_document.pdf";
+
+// Load the PDF document
+Document pdfDocument = new Document(pdfPath);
+```
+
+*为什么这很重要*：加载文件会创建一个 `Document` 对象，您可以通过它访问表单、页面以及关键的 `SignatureFields` 集合。
+
+---
+
+## 如何遍历签名字段
+
+文档加载后，您可以枚举每个签名字段。即使 PDF 包含多个签名（例如每页一个），此方法也能工作。
+
+```csharp
+// Ensure the document actually has a form with signature fields
+if (pdfDocument.Form?.SignatureFields?.Count > 0)
+{
+    foreach (SignatureField signature in pdfDocument.Form.SignatureFields)
+    {
+        // Validation will happen inside the loop (see next section)
+        Console.WriteLine($"Found signature field: {signature.Name}");
+    }
+}
+else
+{
+    Console.WriteLine("No signature fields were found in the PDF.");
+}
+```
+
+*为什么这很重要*：`SignatureFields` 集合抽象了底层 PDF 结构，让您专注于业务逻辑，而无需处理 PDF 内部细节。
+
+---
+
+## 如何验证 PDF 签名
+
+现在您已经拥有每个 `SignatureField`，调用 `ValidateSignature()` 来**验证 PDF 签名**。该方法返回一个 `SignatureVerificationResult`，指示签名是否被破坏。
+
+```csharp
+foreach (SignatureField signature in pdfDocument.Form.SignatureFields)
+{
+    // Validate the current signature
+    var validationResult = signature.ValidateSignature();
+
+    // The IsCompromised flag tells you if the signature is still trustworthy
+    bool compromised = validationResult.IsCompromised;
+
+    // Output a friendly message
+    Console.WriteLine(
+        $"Signature \"{signature.Name}\" compromised: {compromised}");
+}
+```
+
+**预期的控制台输出**
+
+```
+Signature "EmployeeApproval" compromised: False
+Signature "ManagerApproval" compromised: False
+```
+
+如果签名在签署后被篡改，`IsCompromised` 将为 `True`，您可以据此采取相应措施（例如拒绝文档）。
+
+*为什么这很重要*：`ValidateSignature` API 在一次调用中完成加密检查、证书链验证和吊销状态验证——这是**验证 PDF 数字签名**的核心。
+
+---
+
+## 处理常见的边缘情况
+
+### 1. 受密码保护的 PDF
+如果已签名的 PDF 被加密，必须在加载前提供密码：
+
+```csharp
+var loadOptions = new LoadOptions { Password = "yourPassword" };
+Document protectedPdf = new Document(pdfPath, loadOptions);
+```
+
+### 2. 缺失证书
+当签名的签发证书在本地受信任存储中不可用时，`IsCompromised` 将为 `True`。为避免误报，您可以提供自定义的 `CertificateValidator`，指向受信任的根证书库。
+
+```csharp
+var validator = new Aspose.Pdf.Signatures.Certificates.CertificateValidator();
+validator.AddTrustedRootCertificate(File.ReadAllBytes("MyRootCA.cer"));
+signature.ValidateSignature(validator);
+```
+
+### 3. 同一页面上的多个签名
+循环已经独立处理每个字段，无需额外代码。只需注意，如果签名数量很多，验证顺序可能会影响性能。
+
+---
+
+## 专业提示：记录验证结果
+
+在生产系统中，您可能需要持久化验证结果。下面是使用 `System.Text.Json` 将结果写入文件的快速示例：
+
+```csharp
+var results = new List<object>();
+
+foreach (SignatureField signature in pdfDocument.Form.SignatureFields)
+{
+    var result = signature.ValidateSignature();
+    results.Add(new
+    {
+        Name = signature.Name,
+        IsCompromised = result.IsCompromised,
+        ValidationTime = DateTime.UtcNow
+    });
+}
+
+// Serialize to JSON
+string json = System.Text.Json.JsonSerializer.Serialize(results, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+File.WriteAllText("validation_report.json", json);
+Console.WriteLine("Validation report saved to validation_report.json");
+```
+
+此操作会生成 `validation_report.json`，可供监控工具或审计流水线使用。
+
+---
+
+## 完整、可运行的示例
+
+将所有内容组合在一起，下面的程序演示了完整的工作流——从**加载已签名的 PDF**到**验证 PDF 数字签名**并记录结果。
 
 ```csharp
 using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.Signature;
+using Aspose.Pdf.Signatures;
+using System.Text.Json;
 
-class PdfSignatureValidator
+namespace PdfSignatureValidator
 {
-    static void Main()
+    class Program
     {
-        // Path to the signed PDF – adjust as needed
-        string pdfPath = @"C:\PdfSamples\signed.pdf";
-
-        // Load the PDF document
-        Document pdfDocument = new Document(pdfPath);
-
-        // Continue with validation...
-        ValidateSignature(pdfDocument);
-    }
-
-    // Validation logic is extracted into a separate method for clarity
-    static void ValidateSignature(Document pdfDocument)
-    {
-        // ...
-    }
-}
-```
-
-*为什么重要：* 加载文档会在内存中创建一个表示，这使您能够在不自行解析原始 PDF 字节的情况下查询 **数字签名字段**。
-
-## 第二步：访问数字签名字段
-
-一个 PDF 可以包含多个签名字段，但大多数简单工作流只使用单个字段。Aspose.Pdf 通过 `DigitalSignatureField` 属性公开第一个（或唯一的）签名。
-
-```csharp
-static void ValidateSignature(Document pdfDocument)
-{
-    // Ensure the document actually contains a digital signature
-    if (pdfDocument.DigitalSignatureField == null ||
-        pdfDocument.DigitalSignatureField.SignatureInfo == null)
-    {
-        Console.WriteLine("No digital signature field found in the PDF.");
-        return;
-    }
-
-    // Retrieve information about the signature
-    SignatureFieldSignatureInfo signatureInfo = pdfDocument.DigitalSignatureField.SignatureInfo;
-    
-    // Proceed to verification...
-    VerifySignatureIntegrity(signatureInfo);
-}
-```
-
-*为什么重要：* 检查 **数字签名字段** 可以防止空引用错误，并在 PDF 未签名时提供明确的提示信息。
-
-## 第三步：验证 PDF 签名完整性
-
-Aspose.Pdf 提供 `IsCompromised` 标志，用于指示自签名以来签名内容是否被更改。这是 **检测篡改** 的核心。
-
-```csharp
-static void VerifySignatureIntegrity(SignatureFieldSignatureInfo signatureInfo)
-{
-    // The IsCompromised property returns true if any part of the signed
-    // document was changed after the signature was created.
-    bool isCompromised = signatureInfo.IsCompromised;
-
-    // Also retrieve the raw verification status for completeness
-    bool isSignatureValid = signatureInfo.VerifySignature();
-
-    // Output results – this is the primary place where we **check signature integrity**
-    Console.WriteLine($"Signature compromised: {isCompromised}");
-    Console.WriteLine($"Signature cryptographically valid: {isSignatureValid}");
-
-    // React based on the outcome
-    if (isCompromised || !isSignatureValid)
-    {
-        Console.WriteLine("The PDF signature cannot be trusted – possible tampering detected.");
-        // Here you could raise an exception, log an audit entry, or notify a user interface.
-    }
-    else
-    {
-        Console.WriteLine("Signature is intact and cryptographically valid.");
-    }
-}
-```
-
-*为什么重要：* `IsCompromised` 回答了 **如何检测篡改** 的问题，而 `VerifySignature()` 通过对嵌入证书进行加密校验来实现 **验证 PDF 签名**。
-
-### 属性含义
-
-| 属性 | 含义 |
-|----------|---------|
-| `IsCompromised` | 若任何已签名字节被更改则为 `true`；否则为 `false`。 |
-| `VerifySignature()` | 执行完整的 PKI 验证（证书链、吊销、时间戳）。仅当签名在密码学上可靠时返回 `true`。 |
-
-## 第四步：可选 – 验证签名证书链
-
-在许多合规场景下，您还必须确保签名者的证书受信任。Aspose.Pdf 允许您访问 `Certificate` 对象，并在需要自定义信任存储时手动执行链验证。
-
-```csharp
-static void ValidateCertificateChain(SignatureFieldSignatureInfo signatureInfo)
-{
-    // Get the X509Certificate2 instance used for signing
-    var signingCert = signatureInfo.Certificate;
-
-    // Example: check that the certificate is not expired
-    if (DateTime.UtcNow < signingCert.NotBefore || DateTime.UtcNow > signingCert.NotAfter)
-    {
-        Console.WriteLine("Signing certificate is expired or not yet valid.");
-        return;
-    }
-
-    // Example: check revocation status (requires network access to OCSP/CRL)
-    // Aspose.Pdf does not perform revocation checks automatically, so you may need
-    // a third‑party library such as BouncyCastle for a full revocation validation.
-    Console.WriteLine("Certificate is within its validity period.");
-}
-```
-
-*为什么重要：* 即使签名 **未被篡改**，如果证书已过期或被吊销，文档仍然不可信。添加此步骤可强化您的 **检查签名完整性** 工作流。
-
-## 第五步：完整示例
-
-将上述所有内容组合在一起，以下是一个自包含的控制台应用程序示例，能够 **验证 PDF** 文件、**验证 PDF 签名**、读取 **数字签名字段**，并 **检测篡改**。
-
-```csharp
-using System;
-using Aspose.Pdf;
-using Aspose.Pdf.Signature;
-
-class PdfSignatureValidator
-{
-    static void Main()
-    {
-        // Adjust the path to your signed PDF
-        string pdfPath = @"C:\PdfSamples\signed.pdf";
-
-        // Load the PDF
-        Document pdfDocument = new Document(pdfPath);
-
-        // Validate the signature
-        ValidateSignature(pdfDocument);
-    }
-
-    static void ValidateSignature(Document pdfDocument)
-    {
-        // 1️⃣ Ensure a digital signature field exists
-        if (pdfDocument.DigitalSignatureField == null ||
-            pdfDocument.DigitalSignatureField.SignatureInfo == null)
+        static void Main(string[] args)
         {
-            Console.WriteLine("No digital signature field found in the PDF.");
-            return;
+            // -----------------------------------------------------------------
+            // 1. Load the signed PDF document
+            // -----------------------------------------------------------------
+            string pdfPath = @"C:\Docs\signed_document.pdf";
+
+            // If the PDF is encrypted, uncomment the following lines:
+            // var loadOptions = new LoadOptions { Password = "yourPassword" };
+            // Document pdfDocument = new Document(pdfPath, loadOptions);
+
+            Document pdfDocument = new Document(pdfPath);
+
+            // -----------------------------------------------------------------
+            // 2. Ensure there are signature fields to validate
+            // -----------------------------------------------------------------
+            if (pdfDocument.Form?.SignatureFields?.Count == 0)
+            {
+                Console.WriteLine("No signature fields were found in the PDF.");
+                return;
+            }
+
+            // -----------------------------------------------------------------
+            // 3. Validate each signature and collect results
+            // -----------------------------------------------------------------
+            var validationResults = new List<object>();
+
+            foreach (SignatureField signature in pdfDocument.Form.SignatureFields)
+            {
+                var result = signature.ValidateSignature();
+
+                Console.WriteLine(
+                    $"Signature \"{signature.Name}\" compromised: {result.IsCompromised}");
+
+                validationResults.Add(new
+                {
+                    Name = signature.Name,
+                    IsCompromised = result.IsCompromised,
+                    ValidationTime = DateTime.UtcNow
+                });
+            }
+
+            // -----------------------------------------------------------------
+            // 4. Write a JSON report (optional but useful for audits)
+            // -----------------------------------------------------------------
+            string jsonReport = JsonSerializer.Serialize(
+                validationResults, new JsonSerializerOptions { WriteIndented = true });
+
+            string reportPath = Path.Combine(
+                Path.GetDirectoryName(pdfPath) ?? ".", "validation_report.json");
+
+            File.WriteAllText(reportPath, jsonReport);
+            Console.WriteLine($"Validation report saved to {reportPath}");
         }
-
-        // 2️⃣ Retrieve signature information
-        SignatureFieldSignatureInfo signatureInfo = pdfDocument.DigitalSignatureField.SignatureInfo;
-
-        // 3️⃣ Check for tampering (IsCompromised) and cryptographic validity
-        bool isCompromised = signatureInfo.IsCompromised;
-        bool isSignatureValid = signatureInfo.VerifySignature();
-
-        Console.WriteLine($"Signature compromised: {isCompromised}");
-        Console.WriteLine($"Signature cryptographically valid: {isSignatureValid}");
-
-        // 4️⃣ React to the result
-        if (isCompromised || !isSignatureValid)
-        {
-            Console.WriteLine("⚠️ The PDF signature cannot be trusted – possible tampering detected.");
-        }
-        else
-        {
-            Console.WriteLine("✅ Signature is intact and cryptographically valid.");
-        }
-
-        // 5️⃣ (Optional) Validate the signing certificate's time validity
-        ValidateCertificateChain(signatureInfo);
-    }
-
-    static void ValidateCertificateChain(SignatureFieldSignatureInfo signatureInfo)
-    {
-        var cert = signatureInfo.Certificate;
-
-        if (DateTime.UtcNow < cert.NotBefore || DateTime.UtcNow > cert.NotAfter)
-        {
-            Console.WriteLine("Signing certificate is expired or not yet valid.");
-            return;
-        }
-
-        Console.WriteLine("Signing certificate is within its validity period.");
-        // Additional revocation checks can be added here if required.
     }
 }
 ```
 
-### 预期的控制台输出
+**代码做了什么**
 
-当 PDF **未被篡改** 且证书仍然有效时：
+1. **加载** 已签名的 PDF（`load signed PDF`）。
+2. **检查** 是否至少存在一个签名字段。
+3. **验证** 每个签名（`validate PDF signatures` / `verify PDF digital signatures`）。
+4. **输出** 控制台行以提供即时反馈。
+5. **写入** 一个 JSON 文件，以便用于合规存档。
 
-```
-Signature compromised: False
-Signature cryptographically valid: True
-✅ Signature is intact and cryptographically valid.
-Signing certificate is within its validity period.
-```
+在命令行或 Visual Studio 中运行程序。如果一切配置正确，您将看到签名列表，且在签名完整时 `compromised` 的值为 `False`。
 
-如果 PDF 在签名后被修改：
+---
 
-```
-Signature compromised: True
-Signature cryptographically valid: False
-⚠️ The PDF signature cannot be trusted – possible tampering detected.
-Signing certificate is within its validity period.
-```
+## 结论
 
-## 常见陷阱及规避方法
+您现在已经掌握了使用 Aspose.PDF for .NET **验证 PDF 签名** 的方法。教程涵盖了：
 
-| 陷阱 | 产生原因 | 解决方案 |
-|---------|----------------|-----|
-| **缺少签名字段** | 某些 PDF 未签名或在处理过程中被移除签名字段。 | 在访问 `SignatureInfo` 前始终检查 `pdfDocument.DigitalSignatureField` 是否为 `null`。 |
-| **使用了过时的 Aspose.Pdf 版本** | 老版本可能不提供 `IsCompromised`。 | 升级到最新的 Aspose.Pdf for .NET（≥ 23.9），以获取完整的签名 API。 |
-| **未检查证书吊销** | `VerifySignature()` 只验证加密哈希，不检查吊销状态。 | 如合规要求，使用 BouncyCastle 或受信任的 PKI 服务集成 CRL/OCSP 检查。 |
-| **硬编码文件路径** | 使示例缺乏可移植性。 | 将 PDF 路径作为命令行参数或配置项传入。 |
+* **加载已签名的 PDF**（`load signed PDF`）。
+* 访问 **signature fields** 集合。
+* **验证每个签名**（`verify PDF digital signatures`）。
+* 处理诸如密码保护和证书缺失等边缘情况。
+* 为审计轨迹记录结果。
 
-## 后续步骤
+有了这套基础，您可以将签名验证集成到文档处理流水线、电子签名平台或任何合规驱动的应用中。接下来，您可以进一步探索 **创建数字签名**、**添加时间戳机构** 或 **批量处理大型 PDF 档案** 等相关主题。
 
-了解了 **如何验证 PDF** 签名后，您可以进一步扩展该方案：
-
-* **批量验证** – 遍历文件夹中的 PDF 并将结果记录到 CSV 文件。
-* **UI 集成** – 在 WPF 或 ASP.NET Core 前端中调用验证逻辑。
-* **时间戳**
-
+祝编码愉快，保持您的 PDF 可信！
 
 ## 接下来您应该学习什么？
 
-以下教程涵盖了与本指南技术密切相关的主题，帮助您进一步掌握 API 功能并在项目中探索替代实现方式。每篇资源均提供完整的可运行代码示例和逐步说明。
+以下教程涵盖了与本指南技术紧密相关的主题，帮助您进一步掌握 API 功能并在项目中探索替代实现方式，每篇均提供完整可运行的代码示例和逐步说明。
 
-- [How to Validate PDF Signature and Add Bates Numbering to PDF](/pdf/english/net/digital-signatures/how-to-validate-pdf-signature-and-add-bates-numbering-to-pdf/)
-- [How to Use OCSP to Validate PDF Digital Signature in C#](/pdf/english/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/)
-- [How to Extract PDF Signature Information Using Aspose.PDF .NET&#58; A Step-by-Step Guide](/pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/)
+- [加载已签名的 PDF 文档并列出其签名 – Aspose.Pdf for .NET C# 教程](/pdf/english/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures-c-guide/)
+- [精通 Aspose.PDF .NET：如何验证 PDF 文件中的数字签名](/pdf/english/net/digital-signatures/aspose-pdf-net-verify-digital-signature/)
+- [打开已签名的 PDF – 如何读取其数字签名](/pdf/english/net/programming-with-security-and-signatures/open-signed-pdf-how-to-read-its-digital-signatures/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

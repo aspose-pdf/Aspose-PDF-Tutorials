@@ -1,39 +1,50 @@
 ---
 category: general
-date: 2026-10-07
-description: Hoe PDF-handtekeningen te valideren met Aspose.Pdf. Leer hoe u PDF-handtekeningen
-  kunt verifiëren, het digitale handtekeningveld kunt lezen, manipulatie kunt detecteren
-  en de integriteit van de handtekening in enkele minuten kunt controleren.
+date: 2026-10-04
+description: Valideer PDF-handtekeningen met Aspose.PDF in C#. Deze gids laat zien
+  hoe u PDF-digitale handtekeningen kunt verifiëren en ondertekende PDF‑bestanden
+  efficiënt kunt laden.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- how to validate pdf
-- verify pdf signature
-- digital signature field
-- how to detect tampering
-- check signature integrity
+- validate PDF signatures
+- verify PDF digital signatures
+- load signed PDF
 language: nl
-lastmod: 2026-10-07
-og_description: Hoe PDF-handtekeningen te valideren in C#. Deze gids laat zien hoe
-  je een PDF-handtekening kunt verifiëren, het digitale handtekeningveld kunt lezen,
-  manipulatie kunt detecteren en de integriteit van de handtekening kunt controleren.
-og_image_alt: Screenshot of C# code checking a PDF digital signature with Aspose.Pdf
-og_title: Hoe PDF-handtekeningen te valideren met Aspose.Pdf – snelle C#-gids
+lastmod: 2026-10-04
+og_description: Valideer PDF-handtekeningen in C# met Aspose.PDF. Leer PDF-digitale
+  handtekeningen te verifiëren en ondertekende PDF-documenten te laden in een paar
+  regels code.
+og_image_alt: Screenshot of C# console output showing validation results for PDF signatures
+og_title: PDF-handtekeningen valideren in C# – stap voor stap met Aspose.PDF
 schemas:
 - author: Aspose
-  dateModified: '2026-10-07'
-  description: How to validate PDF signatures using Aspose.Pdf. Learn to verify PDF
-    signature, read the digital signature field, detect tampering and check signature
-    integrity in minutes.
-  headline: How to validate PDF signatures with Aspose.Pdf in C#
+  dateModified: '2026-10-04'
+  description: Validate PDF signatures with Aspose.PDF in C#. This guide shows how
+    to verify PDF digital signatures and load signed PDF files efficiently.
+  headline: How to validate PDF signatures with Aspose.PDF in C#
   type: TechArticle
+- description: Validate PDF signatures with Aspose.PDF in C#. This guide shows how
+    to verify PDF digital signatures and load signed PDF files efficiently.
+  name: How to validate PDF signatures with Aspose.PDF in C#
+  steps:
+  - name: 1. Password‑protected PDFs
+    text: 'If the signed PDF is encrypted, you must provide the password before loading:'
+  - name: 2. Missing certificates
+    text: When a signature’s signing certificate isn’t available in the local trust
+      store, `IsCompromised` will be `True`. To avoid false negatives, you can supply
+      a custom `CertificateValidator` that points to a trusted root store.
+  - name: 3. Multiple signatures on the same page
+    text: The loop already processes each field independently, so no extra code is
+      required. Just be aware that the order of validation may affect performance
+      if many signatures exist.
+  type: HowTo
 tags:
-- Aspose.Pdf
-- C#
-- PDF security
-- Digital signatures
-title: Hoe PDF-handtekeningen te valideren met Aspose.Pdf in C#
+- PDF
+- Aspose.PDF
+- Digital Signature
+title: Hoe PDF-handtekeningen te valideren met Aspose.PDF in C#
 url: /nl/net/programming-with-security-and-signatures/how-to-validate-pdf-signatures-with-aspose-pdf-in-c/
 ---
 
@@ -41,262 +52,272 @@ url: /nl/net/programming-with-security-and-signatures/how-to-validate-pdf-signat
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe PDF-handtekeningen te valideren met Aspose.Pdf in C#
+# Hoe PDF-handtekeningen te valideren met Aspose.PDF in C#
 
-Als je **hoe PDF's te valideren** die een digitale handtekening bevatten, dan biedt deze gids een complete, kant‑klaar oplossing. Je leert hoe je **PDF-handtekening kunt verifiëren**, het **digitale handtekeningveld** kunt lezen, en **manipulatie kunt detecteren** zodat je **handtekeningintegriteit kunt controleren** voordat je een document accepteert.
+Als je **PDF-handtekeningen wilt valideren** in een .NET‑applicatie, biedt deze tutorial een complete, kant‑klaar oplossing. Je ziet hoe je **ondertekende PDF**‑bestanden **laadt**, over elk handtekeningveld itereren, en **PDF‑digitale handtekeningen** programmatically verifieert.
 
-Een PDF valideren gaat niet alleen over het openen van het bestand; je moet ervoor zorgen dat de cryptografische zegel nog steeds betrouwbaar is. De onderstaande code toont de exacte stappen die nodig zijn bij het gebruik van de Aspose.Pdf bibliotheek voor .NET.
+Aan het einde van deze gids kun je:
 
-## Vereisten
+* Elk ondertekend PDF‑document openen met Aspose.PDF.
+* Elk handtekeningveld uit het formulier ophalen.
+* De ingebouwde validatie‑API aanroepen om te bepalen of een handtekening gecompromitteerd is.
+* Duidelijke resultaten weergeven die je kunt loggen of in een UI kunt tonen.
 
-* .NET 6.0 of later (de code werkt ook met .NET Framework 4.7+)
-* Een Aspose.Pdf voor .NET licentie of een tijdelijke evaluatiesleutel
-* Een ondertekend PDF‑bestand genaamd `signed.pdf` geplaatst in een bekende map
-* Basiskennis van C# console‑applicaties
+De enige voorwaarde is een werkende .NET‑ontwikkelomgeving (Visual Studio 2022 of later) en een Aspose.PDF for .NET‑licentie of evaluatiepakket.
 
-> **Pro tip:** Als je een evaluatielicentie gebruikt, voeg `License.SetLicense("Aspose.Total.NET.lic");` toe aan het begin van `Main` om watermerken te vermijden.
+---
 
-## Stap 1: Laad het PDF‑document
+## Prerequisites
 
-De eerste handeling is het laden van de doel‑PDF in een `Aspose.Pdf.Document`‑instantie. Dit object geeft je toegang tot elke pagina, annotatie en handtekening die in het bestand zijn opgeslagen.
+| Vereiste | Waarom het belangrijk is |
+|----------|--------------------------|
+| .NET 6.0 SDK or later | Aspose.PDF richt zich op .NET Standard 2.0+, dus .NET 6 geeft je de nieuwste runtime‑verbeteringen. |
+| Aspose.PDF for .NET (NuGet `Aspose.PDF`) | Biedt de `Document`, `SignatureField` en validatie‑API's die in de code worden gebruikt. |
+| A PDF that already contains one or more digital signatures | De tutorial valideert bestaande handtekeningen; hij maakt ze niet aan. |
+| Basic C# knowledge | De code gebruikt standaard C#‑constructies (foreach, stringinterpolatie). |
+
+Installeer het NuGet‑pakket met:
+
+```bash
+dotnet add package Aspose.PDF
+```
+
+---
+
+## Hoe ondertekende PDF te laden met Aspose.PDF
+
+De eerste stap is om **ondertekende PDF** van schijf te **laden**. Aspose.PDF leest het volledige document, inclusief eventuele ingesloten handtekeningvelden.
+
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Signatures;
+
+// Replace with the actual path to your signed PDF file
+string pdfPath = @"C:\Docs\signed_document.pdf";
+
+// Load the PDF document
+Document pdfDocument = new Document(pdfPath);
+```
+
+*Waarom dit belangrijk is*: Het laden van het bestand maakt een `Document`‑object aan dat je toegang geeft tot het formulier, de pagina's en, cruciaal, de `SignatureFields`‑collectie.
+
+---
+
+## Hoe over handtekeningvelden te itereren
+
+Zodra het document is geladen, kun je elk handtekeningveld enumereren. Dit werkt zelfs als de PDF meerdere handtekeningen bevat (bijv. één per pagina).
+
+```csharp
+// Ensure the document actually has a form with signature fields
+if (pdfDocument.Form?.SignatureFields?.Count > 0)
+{
+    foreach (SignatureField signature in pdfDocument.Form.SignatureFields)
+    {
+        // Validation will happen inside the loop (see next section)
+        Console.WriteLine($"Found signature field: {signature.Name}");
+    }
+}
+else
+{
+    Console.WriteLine("No signature fields were found in the PDF.");
+}
+```
+
+*Waarom dit belangrijk is*: De `SignatureFields`‑collectie abstraheert de low‑level PDF‑structuur, zodat je je kunt concentreren op de bedrijfslogica in plaats van op PDF‑interne details.
+
+---
+
+## Hoe PDF-handtekeningen te valideren
+
+Nu je elk `SignatureField` hebt, roep je `ValidateSignature()` aan om **PDF-handtekeningen te valideren**. De methode retourneert een `SignatureVerificationResult` die aangeeft of de handtekening gecompromitteerd is.
+
+```csharp
+foreach (SignatureField signature in pdfDocument.Form.SignatureFields)
+{
+    // Validate the current signature
+    var validationResult = signature.ValidateSignature();
+
+    // The IsCompromised flag tells you if the signature is still trustworthy
+    bool compromised = validationResult.IsCompromised;
+
+    // Output a friendly message
+    Console.WriteLine(
+        $"Signature \"{signature.Name}\" compromised: {compromised}");
+}
+```
+
+**Verwachte console‑output**
+
+```
+Signature "EmployeeApproval" compromised: False
+Signature "ManagerApproval" compromised: False
+```
+
+Als een handtekening na ondertekening is gewijzigd, zal `IsCompromised` `True` zijn, zodat je passende actie kunt ondernemen (bijv. het document afwijzen).
+
+*Waarom dit belangrijk is*: De `ValidateSignature`‑API voert cryptografische controles, certificaatketenvalidatie en controle van de intrekkingsstatus uit — alles in één aanroep. Dit is de kern van **PDF‑digitale handtekeningen verifiëren**.
+
+---
+
+## Veelvoorkomende randgevallen afhandelen
+
+### 1. Met wachtwoord beveiligde PDF's
+Als de ondertekende PDF versleuteld is, moet je vóór het laden het wachtwoord opgeven:
+
+```csharp
+var loadOptions = new LoadOptions { Password = "yourPassword" };
+Document protectedPdf = new Document(pdfPath, loadOptions);
+```
+
+### 2. Ontbrekende certificaten
+Wanneer het ondertekeningscertificaat van een handtekening niet beschikbaar is in de lokale trust‑store, zal `IsCompromised` `True` zijn. Om valse negatieven te vermijden, kun je een aangepaste `CertificateValidator` leveren die naar een vertrouwde root‑store wijst.
+
+```csharp
+var validator = new Aspose.Pdf.Signatures.Certificates.CertificateValidator();
+validator.AddTrustedRootCertificate(File.ReadAllBytes("MyRootCA.cer"));
+signature.ValidateSignature(validator);
+```
+
+### 3. Meerdere handtekeningen op dezelfde pagina
+De lus verwerkt elk veld al onafhankelijk, dus extra code is niet nodig. Houd er alleen rekening mee dat de volgorde van validatie de prestaties kan beïnvloeden als er veel handtekeningen aanwezig zijn.
+
+---
+
+## Pro tip: validatieresultaten loggen
+
+Voor productiesystemen wil je waarschijnlijk validatieresultaten behouden. Hier is een kort voorbeeld met `System.Text.Json` om resultaten naar een bestand te schrijven:
+
+```csharp
+var results = new List<object>();
+
+foreach (SignatureField signature in pdfDocument.Form.SignatureFields)
+{
+    var result = signature.ValidateSignature();
+    results.Add(new
+    {
+        Name = signature.Name,
+        IsCompromised = result.IsCompromised,
+        ValidationTime = DateTime.UtcNow
+    });
+}
+
+// Serialize to JSON
+string json = System.Text.Json.JsonSerializer.Serialize(results, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+File.WriteAllText("validation_report.json", json);
+Console.WriteLine("Validation report saved to validation_report.json");
+```
+
+Dit maakt een `validation_report.json` aan die kan worden gebruikt door monitoring‑tools of audit‑pijplijnen.
+
+---
+
+## Volledig, uitvoerbaar voorbeeld
+
+Door alles samen te voegen, laat het volgende programma de volledige workflow zien — van **ondertekende PDF laden** tot **PDF‑digitale handtekeningen verifiëren** en het loggen van het resultaat.
 
 ```csharp
 using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.Signature;
+using Aspose.Pdf.Signatures;
+using System.Text.Json;
 
-class PdfSignatureValidator
+namespace PdfSignatureValidator
 {
-    static void Main()
+    class Program
     {
-        // Path to the signed PDF – adjust as needed
-        string pdfPath = @"C:\PdfSamples\signed.pdf";
-
-        // Load the PDF document
-        Document pdfDocument = new Document(pdfPath);
-
-        // Continue with validation...
-        ValidateSignature(pdfDocument);
-    }
-
-    // Validation logic is extracted into a separate method for clarity
-    static void ValidateSignature(Document pdfDocument)
-    {
-        // ...
-    }
-}
-```
-
-*Waarom dit belangrijk is:* Het laden van het document creëert een in‑memory representatie die je in staat stelt het **digitale handtekeningveld** te raadplegen zonder zelf de ruwe PDF‑bytes te parseren.
-
-## Stap 2: Toegang tot het digitale handtekeningveld
-
-Een PDF kan meerdere handtekeningvelden bevatten, maar de meeste eenvoudige workflows gebruiken één veld. Aspose.Pdf maakt de eerste (of enige) handtekening beschikbaar via de `DigitalSignatureField`‑eigenschap.
-
-```csharp
-static void ValidateSignature(Document pdfDocument)
-{
-    // Ensure the document actually contains a digital signature
-    if (pdfDocument.DigitalSignatureField == null ||
-        pdfDocument.DigitalSignatureField.SignatureInfo == null)
-    {
-        Console.WriteLine("No digital signature field found in the PDF.");
-        return;
-    }
-
-    // Retrieve information about the signature
-    SignatureFieldSignatureInfo signatureInfo = pdfDocument.DigitalSignatureField.SignatureInfo;
-    
-    // Proceed to verification...
-    VerifySignatureIntegrity(signatureInfo);
-}
-```
-
-*Waarom dit belangrijk is:* Controleren op een **digitaal handtekeningveld** voorkomt null‑reference‑fouten en stelt je in staat een duidelijke boodschap te geven wanneer een PDF niet ondertekend is.
-
-## Stap 3: Verifieer de PDF‑handtekeningintegriteit
-
-Aspose.Pdf levert de `IsCompromised`‑vlag die aangeeft of de ondertekende inhoud is gewijzigd sinds de handtekening is aangebracht. Dit is de kern van **hoe manipulatie te detecteren**.
-
-```csharp
-static void VerifySignatureIntegrity(SignatureFieldSignatureInfo signatureInfo)
-{
-    // The IsCompromised property returns true if any part of the signed
-    // document was changed after the signature was created.
-    bool isCompromised = signatureInfo.IsCompromised;
-
-    // Also retrieve the raw verification status for completeness
-    bool isSignatureValid = signatureInfo.VerifySignature();
-
-    // Output results – this is the primary place where we **check signature integrity**
-    Console.WriteLine($"Signature compromised: {isCompromised}");
-    Console.WriteLine($"Signature cryptographically valid: {isSignatureValid}");
-
-    // React based on the outcome
-    if (isCompromised || !isSignatureValid)
-    {
-        Console.WriteLine("The PDF signature cannot be trusted – possible tampering detected.");
-        // Here you could raise an exception, log an audit entry, or notify a user interface.
-    }
-    else
-    {
-        Console.WriteLine("Signature is intact and cryptographically valid.");
-    }
-}
-```
-
-*Waarom dit belangrijk is:* `IsCompromised` beantwoordt de vraag **hoe manipulatie te detecteren**, terwijl `VerifySignature()` **PDF-handtekening verifiëren** beantwoordt door een cryptografische controle uit te voeren tegen het ingebedde certificaat.
-
-### Wat de eigenschappen betekenen
-
-| Eigenschap | Betekenis |
-|------------|----------|
-| `IsCompromised` | `true` als een ondertekende byte is gewijzigd; `false` anders. |
-| `VerifySignature()` | Voert een volledige PKI‑validatie uit (certificaatketen, intrekking, tijdstempels). Retourneert `true` alleen wanneer de handtekening cryptografisch correct is. |
-
-## Stap 4: Optioneel – valideer de ondertekeningscertificaatketen
-
-In veel compliance‑scenario's moet je ook zorgen dat het certificaat van de ondertekenaar vertrouwd wordt. Aspose.Pdf laat je het `Certificate`‑object benaderen en een handmatige ketenvalidatie uitvoeren als je aangepaste trust‑stores nodig hebt.
-
-```csharp
-static void ValidateCertificateChain(SignatureFieldSignatureInfo signatureInfo)
-{
-    // Get the X509Certificate2 instance used for signing
-    var signingCert = signatureInfo.Certificate;
-
-    // Example: check that the certificate is not expired
-    if (DateTime.UtcNow < signingCert.NotBefore || DateTime.UtcNow > signingCert.NotAfter)
-    {
-        Console.WriteLine("Signing certificate is expired or not yet valid.");
-        return;
-    }
-
-    // Example: check revocation status (requires network access to OCSP/CRL)
-    // Aspose.Pdf does not perform revocation checks automatically, so you may need
-    // a third‑party library such as BouncyCastle for a full revocation validation.
-    Console.WriteLine("Certificate is within its validity period.");
-}
-```
-
-*Waarom dit belangrijk is:* Zelfs als een handtekening **niet gecompromitteerd** is, maakt een verlopen of ingetrokken certificaat het document nog steeds onbetrouwbaar. Het toevoegen van deze stap versterkt je **handtekeningintegriteit controleren** workflow.
-
-## Stap 5: Volledig werkend voorbeeld
-
-Door alles samen te voegen, hier is een zelfstandige console‑applicatie die **hoe PDF's te valideren** bestanden, **PDF-handtekening verifiëren**, het **digitale handtekeningveld** lezen, en **manipulatie detecteren**.
-
-```csharp
-using System;
-using Aspose.Pdf;
-using Aspose.Pdf.Signature;
-
-class PdfSignatureValidator
-{
-    static void Main()
-    {
-        // Adjust the path to your signed PDF
-        string pdfPath = @"C:\PdfSamples\signed.pdf";
-
-        // Load the PDF
-        Document pdfDocument = new Document(pdfPath);
-
-        // Validate the signature
-        ValidateSignature(pdfDocument);
-    }
-
-    static void ValidateSignature(Document pdfDocument)
-    {
-        // 1️⃣ Ensure a digital signature field exists
-        if (pdfDocument.DigitalSignatureField == null ||
-            pdfDocument.DigitalSignatureField.SignatureInfo == null)
+        static void Main(string[] args)
         {
-            Console.WriteLine("No digital signature field found in the PDF.");
-            return;
+            // -----------------------------------------------------------------
+            // 1. Load the signed PDF document
+            // -----------------------------------------------------------------
+            string pdfPath = @"C:\Docs\signed_document.pdf";
+
+            // If the PDF is encrypted, uncomment the following lines:
+            // var loadOptions = new LoadOptions { Password = "yourPassword" };
+            // Document pdfDocument = new Document(pdfPath, loadOptions);
+
+            Document pdfDocument = new Document(pdfPath);
+
+            // -----------------------------------------------------------------
+            // 2. Ensure there are signature fields to validate
+            // -----------------------------------------------------------------
+            if (pdfDocument.Form?.SignatureFields?.Count == 0)
+            {
+                Console.WriteLine("No signature fields were found in the PDF.");
+                return;
+            }
+
+            // -----------------------------------------------------------------
+            // 3. Validate each signature and collect results
+            // -----------------------------------------------------------------
+            var validationResults = new List<object>();
+
+            foreach (SignatureField signature in pdfDocument.Form.SignatureFields)
+            {
+                var result = signature.ValidateSignature();
+
+                Console.WriteLine(
+                    $"Signature \"{signature.Name}\" compromised: {result.IsCompromised}");
+
+                validationResults.Add(new
+                {
+                    Name = signature.Name,
+                    IsCompromised = result.IsCompromised,
+                    ValidationTime = DateTime.UtcNow
+                });
+            }
+
+            // -----------------------------------------------------------------
+            // 4. Write a JSON report (optional but useful for audits)
+            // -----------------------------------------------------------------
+            string jsonReport = JsonSerializer.Serialize(
+                validationResults, new JsonSerializerOptions { WriteIndented = true });
+
+            string reportPath = Path.Combine(
+                Path.GetDirectoryName(pdfPath) ?? ".", "validation_report.json");
+
+            File.WriteAllText(reportPath, jsonReport);
+            Console.WriteLine($"Validation report saved to {reportPath}");
         }
-
-        // 2️⃣ Retrieve signature information
-        SignatureFieldSignatureInfo signatureInfo = pdfDocument.DigitalSignatureField.SignatureInfo;
-
-        // 3️⃣ Check for tampering (IsCompromised) and cryptographic validity
-        bool isCompromised = signatureInfo.IsCompromised;
-        bool isSignatureValid = signatureInfo.VerifySignature();
-
-        Console.WriteLine($"Signature compromised: {isCompromised}");
-        Console.WriteLine($"Signature cryptographically valid: {isSignatureValid}");
-
-        // 4️⃣ React to the result
-        if (isCompromised || !isSignatureValid)
-        {
-            Console.WriteLine("⚠️ The PDF signature cannot be trusted – possible tampering detected.");
-        }
-        else
-        {
-            Console.WriteLine("✅ Signature is intact and cryptographically valid.");
-        }
-
-        // 5️⃣ (Optional) Validate the signing certificate's time validity
-        ValidateCertificateChain(signatureInfo);
-    }
-
-    static void ValidateCertificateChain(SignatureFieldSignatureInfo signatureInfo)
-    {
-        var cert = signatureInfo.Certificate;
-
-        if (DateTime.UtcNow < cert.NotBefore || DateTime.UtcNow > cert.NotAfter)
-        {
-            Console.WriteLine("Signing certificate is expired or not yet valid.");
-            return;
-        }
-
-        Console.WriteLine("Signing certificate is within its validity period.");
-        // Additional revocation checks can be added here if required.
     }
 }
 ```
 
-### Verwachte console‑output
+**Wat de code doet**
 
-Wanneer de PDF **ongewijzigd** is en het certificaat nog geldig is:
+1. **Laadt** een ondertekende PDF (`load signed PDF`).
+2. **Controleert** of er ten minste één handtekeningveld bestaat.
+3. **Valideert** elke handtekening (`validate PDF signatures` / `verify PDF digital signatures`).
+4. **Geeft** een console‑regel weer voor directe feedback.
+5. **Schrijft** een JSON‑bestand dat kan worden opgeslagen voor compliance‑doeleinden.
 
-```
-Signature compromised: False
-Signature cryptographically valid: True
-✅ Signature is intact and cryptographically valid.
-Signing certificate is within its validity period.
-```
+Voer het programma uit vanaf de opdrachtregel of vanuit Visual Studio. Als alles correct is ingesteld, zie je een lijst van handtekeningen met een `False`‑waarde voor `compromised` wanneer de handtekeningen intact zijn.
 
-Als de PDF na ondertekening is gewijzigd:
+---
 
-```
-Signature compromised: True
-Signature cryptographically valid: False
-⚠️ The PDF signature cannot be trusted – possible tampering detected.
-Signing certificate is within its validity period.
-```
+## Conclusie
 
-## Veelvoorkomende valkuilen en hoe ze te vermijden
+Je weet nu hoe je **PDF-handtekeningen kunt valideren** met Aspose.PDF for .NET. De tutorial behandelde:
 
-| Valkuil | Waarom het gebeurt | Oplossing |
-|---------|--------------------|-----------|
-| **Ontbrekend handtekeningveld** | Sommige PDF's zijn niet ondertekend of hebben het veld tijdens verwerking verwijderd. | Controleer altijd `pdfDocument.DigitalSignatureField` op `null` voordat je `SignatureInfo` benadert. |
-| **Gebruik van een verouderde Aspose.Pdf‑versie** | Oudere builds bieden mogelijk geen `IsCompromised`. | Upgrade naar de nieuwste Aspose.Pdf voor .NET (≥ 23.9) om volledige handtekening‑API's te krijgen. |
-| **Certificaatintrekking niet gecontroleerd** | `VerifySignature()` valideert de cryptografische hash maar niet de intrekkingsstatus. | Integreer een CRL/OCSP‑controle via BouncyCastle of een vertrouwde PKI‑service als compliance dit vereist. |
-| **Hard‑gecodeerde bestandspaden** | Maakt het voorbeeld niet draagbaar. | Accepteer het PDF‑pad als een command‑line‑argument of een configuratie‑instelling. |
+* **Het laden van een ondertekende PDF** (`load signed PDF`).
+* Toegang tot de **handtekeningvelden**‑collectie.
+* **Het valideren van elke handtekening** (`verify PDF digital signatures`).
+* Het afhandelen van randgevallen zoals wachtwoordbeveiliging en ontbrekende certificaten.
+* Het loggen van resultaten voor audit‑trails.
 
-## Volgende stappen
+Met deze basis kun je handtekeningvalidatie integreren in document‑verwerkingspijplijnen, e‑handtekeningsplatformen of elke compliance‑gerichte applicatie. Verken vervolgens gerelateerde onderwerpen zoals **digitale handtekeningen maken**, **tijdstempel‑autoriteiten toevoegen**, of **batch‑verwerking van grote PDF‑archieven**.
 
-Nu je weet **hoe PDF‑handtekeningen te valideren**, kun je de oplossing uitbreiden:
-
-* **Batch‑validatie** – doorloop een map met PDF's en log de resultaten naar een CSV‑bestand.
-* **UI‑integratie** – maak de validatielogica beschikbaar in een WPF‑ of ASP.NET Core‑frontend.
-* **Tijdstempel**
+Happy coding, and keep your PDFs trustworthy!
 
 ## Wat moet je hierna leren?
 
-De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
+De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
 
-- [Hoe PDF-handtekening te valideren en Bates‑nummering toe te voegen aan PDF](/pdf/english/net/digital-signatures/how-to-validate-pdf-signature-and-add-bates-numbering-to-pdf/)
-- [Hoe OCSP te gebruiken om PDF‑digitale handtekening te valideren in C#](/pdf/english/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/)
-- [Hoe PDF‑handtekeninginformatie te extraheren met Aspose.PDF .NET&#58; Een stap‑voor‑stap gids](/pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/)
+- [Laad ondertekend PDF‑document en lijst de handtekeningen met Aspose.Pdf voor .NET – C#‑tutorial](/pdf/english/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures-c-guide/)
+- [Beheersen van Aspose.PDF .NET&#58; Hoe digitale handtekeningen in PDF‑bestanden te verifiëren](/pdf/english/net/digital-signatures/aspose-pdf-net-verify-digital-signature/)
+- [Open ondertekende PDF – Hoe de digitale handtekeningen te lezen](/pdf/english/net/programming-with-security-and-signatures/open-signed-pdf-how-to-read-its-digital-signatures/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

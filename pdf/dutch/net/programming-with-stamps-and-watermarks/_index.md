@@ -57,6 +57,15 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Bates-nummering toevoegen aan PDF's met Aspose – Complete gids](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Leer hoe u Bates-nummering aan PDF-bestanden toevoegt met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap gids. |  
 | [Hoe Bates-nummering toe te voegen aan PDF met C# – Complete gids](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Leer hoe u Bates-nummering aan PDF-documenten toevoegt met C# en Aspose.PDF voor .NET in deze stapsgewijze handleiding. |  
 | [Bates-nummering toevoegen aan PDF – Complete gids met Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Leer hoe u Bates-nummering toevoegt aan PDF-documenten met Aspose.PDF voor .NET in een stapsgewijze complete gids. |  
+| [Bates-nummering toevoegen aan PDF in C# – Complete stapsgewijze handleiding](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u Bates-nummering toevoegt aan PDF-bestanden met Aspose.PDF voor .NET via een gedetailleerde stapsgewijze handleiding. |  
+| [Tekstwatermerk maken in Word met Aspose.Words – Complete gids](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Leer hoe u een tekstwatermerk toevoegt aan een Word-document met Aspose.Words voor .NET in deze volledige stap‑voor‑stap gids. |  
+| [Hoe een stempel-pdf toevoegen – Complete gids met automatisch passend tekst](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Leer hoe u een stempel-pdf maakt met automatisch passend tekst met Aspose.PDF voor .NET in een stapsgewijze handleiding. |  
+| [Bates-nummeringstutorial: Nummers toevoegen aan PDF met Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) |  
+| [Hoe watermerk aan PDF toevoegen – Tekstoverlay PDF met Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Leer hoe u een tekstwatermerk aan een PDF toevoegt met Aspose.PDF voor .NET. |  
+| [Transparantie toevoegen aan PDF met Aspose.PDF – Complete C#-gids](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Leer hoe u transparantie toepast op PDF's met Aspose.PDF in C# met deze stapsgewijze handleiding. |  
+| [Hoe de doorzichtigheid in PDF te wijzigen met Aspose.PDF – Complete gids](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u de doorzichtigheid van elementen in een PDF kunt aanpassen met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
+| [Batesnummering toevoegen aan PDF met Aspose – Stapsgewijze handleiding](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Leer hoe u Bates-nummering toevoegt aan PDF's met Aspose.PDF voor .NET via een duidelijke stap‑voor‑stap gids. |
+| [Hoe batesnummering opties instellen in C# – volledige gids](./how-to-set-bates-numbering-options-in-c-complete-guide/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

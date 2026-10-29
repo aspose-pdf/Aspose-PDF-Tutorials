@@ -45,11 +45,16 @@ Aspose.PDF for .NET के "टैग किए गए PDF के साथ प�
 | [टेक्स्ट ब्लॉक संरचना तत्व](./text-block-structure-elements/) | किसी मौजूदा PDF दस्तावेज़ में शीर्षक और टैग किए गए पैराग्राफ जैसे टेक्स्ट ब्लॉक संरचना तत्वों को जोड़ने के लिए .NET के लिए Aspose.PDF का उपयोग करना सीखें। |  
 | [पीडीएफ फाइल में पाठ संरचना तत्व](./text-structure-elements/) .NET के लिए Aspose.PDF के साथ PDF में टेक्स्ट संरचना तत्वों में हेरफेर करना सीखें। यह चरण-दर-चरण मार्गदर्शिका संरचित PDF बनाने के लिए आवश्यक सभी चीज़ों को कवर करती है। |  
 | [पीडीएफ फाइल को मान्य करें](./validate-pdf/) | .NET के लिए Aspose.PDF के साथ PDF फ़ाइल को सत्यापित करना सीखें। मानकों के साथ इसके अनुपालन की जाँच करें और एक सत्यापन रिपोर्ट तैयार करें। |  
+| [PDF दस्तावेज़ बनाएं C# – टेक्स्ट की स्थिति निर्धारित करें और संरचनात्मक ट्री जोड़ें](./create-pdf-document-c-position-text-and-add-structural-tree/) | .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ बनाएं, टेक्स्ट को स्थित करें और संरचनात्मक ट्री जोड़ें। |  
 | [C# में टैग्ड PDF बनाएं – पूर्ण चरण-दर-चरण गाइड](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | C# के लिए Aspose.PDF का उपयोग करके टैग्ड PDF बनाने की पूरी चरण-दर-चरण मार्गदर्शिका। |
 | [C# में PDF दस्तावेज़ बनाएं – टैग्ड टेक्स्ट और पोजिशनिंग के साथ पूर्ण गाइड](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | C# के लिए Aspose.PDF का उपयोग करके टैग्ड टेक्स्ट और पोजिशनिंग के साथ PDF दस्तावेज़ बनाने की पूरी चरण-दर-चरण मार्गदर्शिका। |
 | [C# में टैग्ड PDF बनाएं – Aspose PDF पूर्ण गाइड](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Aspose.PDF for .NET का उपयोग करके C# में टैग्ड PDF बनाने की पूरी मार्गदर्शिका। |
 | [C# में टैग्ड PDF बनाएं – चरण‑दर‑चरण गाइड](./create-tagged-pdf-in-c-step-by-step-guide/) | C# के लिए Aspose.PDF का उपयोग करके टैग्ड PDF बनाने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका। |  
 | [Aspose के साथ PDF में एक्सेसिबल टेक्स्ट स्पैन बनाएं – पूर्ण C# गाइड](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | C# में Aspose का उपयोग करके PDF में एक्सेसिबल टेक्स्ट स्पैन बनाने की पूरी चरण-दर-चरण गाइड। |
+| [Aspose.Pdf के साथ टैग्ड PDF को संपादित करने की पूरी गाइड](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Aspose.Pdf का उपयोग करके टैग्ड PDF को संपादित करने के सभी चरणों को सीखें, जिसमें टेक्स्ट, छवियों और संरचना तत्वों का प्रबंधन शामिल है। |
+| [C# में टैग्ड PDF बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-tagged-pdf-in-c-full-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में पूर्ण चरण‑दर‑चरण मार्गदर्शिका के साथ टैग्ड PDF बनाना सीखें। |
+| [Aspose.Pdf के साथ PDF को टैग करने का तरीका – पूर्ण प्रोग्रामिंग गाइड](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Aspose.PDF का उपयोग करके PDF को टैग करने के लिए विस्तृत चरण-दर-चरण मार्गदर्शिका। |
+| [Aspose के साथ स्पैन एलिमेंट PDF बनाएं – PDF लोड करें और टैग सामग्री](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Aspose.PDF के साथ PDF में स्पैन एलिमेंट बनाना, PDF लोड करना और सामग्री को टैग करने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

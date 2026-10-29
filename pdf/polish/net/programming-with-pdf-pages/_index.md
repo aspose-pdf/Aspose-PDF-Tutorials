@@ -19,6 +19,19 @@ Dokumentacja „Programming with PDF Pages” dla Aspose.PDF dla .NET zawiera sa
 Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i jasne wyjaśnienia ułatwiające zrozumienie. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programistą, te zasoby pomogą Ci opanować funkcje manipulacji stronami PDF oferowane przez Aspose.PDF dla .NET, otwierając nowe możliwości dla Twoich projektów rozwoju aplikacji.
 
 ## Samouczki
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Obróć pojedynczą stronę PDF o 180 stopni przy użyciu Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Podziel PDF po dziesiątej stronie przy użyciu Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Obróć każdą stronę PDF o 180° przy użyciu Aspose.Pdf dla .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Porównuj strony PDF stronę po stronie przy użyciu Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Porównaj pliki PDF o różnych rozmiarach stron przy użyciu Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Zmiana orientacji](./change-orientation/) | Przewodnik krok po kroku, jak zmienić orientację strony pliku PDF za pomocą Aspose.PDF dla .NET. Łatwy do naśladowania i wdrożenia w Twoich projektach. |  
@@ -46,6 +59,12 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Dodaj numerację Bates do PDF za pomocą Aspose – Kompletny przewodnik](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Krok po kroku pokażemy, jak dodać numerację Bates do pliku PDF przy użyciu Aspose.PDF dla .NET. |
 | [Dodaj numerację Bates w C# – Przewodnik krok po kroku](./add-bates-numbering-in-c-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numerację Bates do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |
 | [Dodaj strony do PDF – Przewodnik krok po kroku dla programistów C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Krok po kroku pokażemy, jak dodać nowe strony do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |
+| [Dodaj numerację Bates do plików PDF w C# – Pełny przewodnik](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Kompletny przewodnik krok po kroku, jak dodać numerację Bates do plików PDF przy użyciu C# i Aspose.PDF dla .NET. |
+| [Duplikowanie strony PDF przy użyciu Aspose.Pdf – Kompletny przewodnik](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Krok po kroku pokażemy, jak zduplikować stronę w pliku PDF przy użyciu Aspose.PDF dla .NET. |  
+| [Dodaj numerację Bates do PDF przy użyciu Aspose.PDF – Kompletny przewodnik](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Krok po kroku pokażemy, jak dodać numerację Bates do pliku PDF przy użyciu Aspose.PDF w .NET. |
+| [Dodaj pustą stronę PDF przy użyciu Aspose.PDF – Kompletny przewodnik](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Krok po kroku pokażemy, jak dodać pustą stronę do pliku PDF przy użyciu Aspose.PDF dla .NET. |
+| [Zmień krycie PDF w C# – przewodnik krok po kroku](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Krok po kroku pokażemy, jak zmienić krycie (przezroczystość) w pliku PDF przy użyciu Aspose.PDF w C#. |
+| [Dodaj numerację Bates w pliku PDF przy użyciu Aspose – przewodnik krok po kroku](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numerację Bates do pliku PDF przy użyciu Aspose.PDF dla .NET. |
 | [Jak dodać numerację Batesa do pliku PDF przy użyciu Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Krok po kroku pokażemy, jak dodać numerację Batesa do pliku PDF przy użyciu Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -54,7 +73,6 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -69,7 +87,6 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -85,5 +102,4 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

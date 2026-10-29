@@ -19,11 +19,24 @@ La documentación "Programación con páginas PDF" de Aspose.PDF para .NET ofrec
 Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallados y explicaciones claras para facilitar su comprensión. Tanto si eres principiante como desarrollador experimentado, estos recursos te ayudarán a dominar las funciones de manipulación de páginas PDF que ofrece Aspose.PDF para .NET, abriendo nuevas posibilidades para tus proyectos de desarrollo de aplicaciones.
 
 ## Tutoriales
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Rotar una sola página PDF 180 grados con Aspose.PDF para .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Dividir PDF después de la página diez usando Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Rotar cada página de PDF 180° usando Aspose.Pdf para .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Compare páginas PDF página por página con Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs con diferentes tamaños de página usando Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Título | Descripción |
 | --- | --- | 
 | [Cambiar la orientación](./change-orientation/) Guía paso a paso para cambiar la orientación de un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos.  
 | [Concatenar archivos PDF](./concatenate-pdf-files/) | Concatene archivos PDF sin esfuerzo utilizando Aspose.PDF para .NET con esta completa guía paso a paso. |  
-| [Eliminar una página específica en un archivo PDF](./delete-particular-page/) | Aprenda a eliminar una página específica de un archivo PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Eliminar una página específica en un archivo PDF](./delete-particular-page/) | Aprenda a eliminar una página específica de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Determinar el color de la página](./determine-page-color/) Aprenda a determinar el color de página de archivos PDF usando Aspose.PDF para .NET con nuestra guía paso a paso. Fácil implementación para todos los niveles.  
 | [Ajustar el contenido de la página en un archivo PDF](./fit-page-contents/) | Adapte fácilmente el contenido de sus PDF con Aspose.PDF para .NET. Esta guía ofrece un enfoque detallado, paso a paso, para lograr un diseño de página óptimo. |  
 | [Obtener dimensiones de página PDF](./get-dimensions/) En este tutorial, explicamos cómo obtener las dimensiones de página de un PDF y realizar manipulaciones con Aspose.PDF para .NET. Se proporcionan pasos detallados para guiarle en el proceso.  
@@ -46,6 +59,12 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Agregar numeración Bates a PDF – Guía paso a paso para numerar páginas de PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aprenda a agregar numeración Bates a sus documentos PDF con Aspose.PDF para .NET mediante esta guía paso a paso. |
 | [Agregar numeración Bates a PDF con Aspose – Guía completa](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Reordenar páginas PDF con Aspose.Pdf – Guía completa en C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Aprenda a reordenar páginas de un PDF con Aspose.PDF para .NET en C# mediante esta guía paso a paso. |
+| [Agregar numeración Bates a PDFs con C# – Guía completa](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando C# y Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Duplicar página PDF con Aspose.Pdf – Guía completa](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aprenda a duplicar páginas en un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Agregar numeración Bates a PDF con Aspose.PDF – Guía completa](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Guía paso a paso para agregar numeración Bates a un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos. |  
+| [Agregar página en blanco a PDF con Aspose.PDF – Guía completa](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Guía paso a paso para agregar una página en blanco a un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar. |  
+| [Cambiar la opacidad de PDF en C# con Aspose.Pdf – guía paso a paso](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Guía paso a paso para cambiar la opacidad de un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos. |
+| [Agregar numeración Bates a PDF con Aspose – guía paso a paso](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Cómo agregar numeración Bates a un PDF con Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Aprenda a añadir numeración Bates a un PDF usando Aspose.Pdf paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -54,7 +73,6 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -69,7 +87,6 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -85,5 +102,4 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

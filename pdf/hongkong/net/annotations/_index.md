@@ -24,6 +24,7 @@
 | [新增 Swf 檔案作為 PDF 註釋](./addswffileasannotation/) 了解如何使用 Aspose.PDF for .NET 將 SWF 檔案新增為 PDF 註解。透過這個詳細的教程，使用互動式多媒體內容增強您的 PDF。 |  
 | [刪除頁面所有註釋](./deleteallannotationsfrompage/) 了解如何使用 Aspose.PDF for .NET 從 PDF 頁面刪除所有註解。按照我們的逐步指南有效地清理您的 PDF。 |  
 | [刪除 PDF 檔案中的特定註釋](./deleteparticularannotation/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 刪除 PDF 檔案中的特定註解。 |  
+| [在 PDF 上繪製矩形 – 步驟說明 C# 教學](./draw-rectangle-on-pdf-step-by-step-c-guide/) |透過本逐步指南學習如何使用 Aspose.PDF for .NET 在 PDF 中繪製矩形。 |
 | [提取 PDF 文件中突出顯示的文本](./extracthighlightedtext/) |透過本教學學習如何使用 Aspose.PDF for .NET 從 PDF 文件有效地提取突出顯示的文字。非常適合數據分析和內容審查。 |  
 | [取得頁面所有註釋](./getallannotationsfrompage/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 從 PDF 文件中提取註解。適合各個層級的開發人員。 |  
 | [取得 PDF 檔案中的特定註釋](./getparticularannotation/) |透過這個詳細的 2000 字教程，了解如何使用 Aspose.PDF for .NET 從 PDF 文件中提取特定註釋。非常適合開發人員。 |  
@@ -37,6 +38,7 @@
 | [更新自由文本 PDF 註釋](./updatefreetextannotation/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 更新 PDF 文件中的自由文字註解。 |  
 | [如何在 Aspose.PDF 中使用 Repair 修復損壞的註釋](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) |本教學說明如何使用 Aspose.PDF 的 Repair 功能修復 PDF 中損壞的註釋，確保文件完整性。 |  
 | [使用 Aspose.PDF 添加 PDF 註釋 - 完整指南](./add-annotation-pdf-with-aspose-pdf-complete-guide/) |本完整指南展示如何使用 Aspose.PDF for .NET 在 PDF 中新增各種註釋，涵蓋步驟說明與完整程式碼示例。 |  
+| [使用 C# 在 PDF 上繪製矩形 – 步驟指南](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) |本教學示範如何使用 Aspose.PDF for .NET 及 C# 在 PDF 文件中繪製矩形，提供完整程式碼範例與步驟說明。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

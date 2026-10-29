@@ -55,10 +55,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # 單頁檢視 PDF（Java） – 變更版面與編輯書籤
 
 ## 介紹
@@ -250,8 +250,9 @@ A: 在任何結構變更後，使用目前的頁面索引重新計算目的地�
 - [如何使用 Aspose.PDF for Java 建立 PDF 書籤與管理導覽](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
 - [Aspose.PDF Java 的 PDF 書籤與導覽教學](/pdf/java/bookmarks-navigation/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

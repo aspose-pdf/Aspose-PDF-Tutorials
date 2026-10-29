@@ -24,6 +24,14 @@ Samouczki „Programowanie z operatorami” Aspose.PDF for .NET przeprowadzą Ci
 | [Operatorzy PDF](./pdf-operators/) | Przewodnik krok po kroku dotyczący korzystania z operatorów PDF w Aspose.PDF dla platformy .NET. Dodaj obraz do strony PDF i określ jego pozycję. |  
 | [Usuń obiekty graficzne w pliku PDF](./remove-graphics-objects/) Dowiedz się, jak usuwać obiekty graficzne z pliku PDF za pomocą Aspose.PDF dla .NET w tym przewodniku krok po kroku. Uprość swoje zadania związane z manipulacją PDF. |  
 | [Iterowanie kolekcji C# – prosty przewodnik po pętli](./iterate-collection-c-simple-guide-to-loop-over-items/) | Prosty przewodnik krok po kroku, jak iterować elementy kolekcji w C# przy użyciu Aspose.PDF dla .NET. |  
+| [Utwórz pusty słownik PDF w C# – Kompletny przewodnik Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Kompletny przewodnik, jak w C# utworzyć pusty słownik PDF przy użyciu Aspose.PDF dla .NET. |
+| [Jak zmienić przezroczystość PDF w C# przy użyciu Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Dowiedz się, jak ustawić przezroczystość elementów w pliku PDF przy użyciu Aspose.Pdf w C#. |
+| [Utwórz niestandardowy stan graficzny w PDF przy użyciu Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Dowiedz się, jak tworzyć własny stan graficzny w pliku PDF przy użyciu Aspose.Pdf dla .NET. |  
+| [Dodaj prostokąt PDF przy użyciu Aspose.Pdf – Kompletny przewodnik C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Kompletny przewodnik krok po kroku, jak dodać prostokąt do dokumentu PDF przy użyciu Aspose.PDF w C#. |  
+| [Edytuj słownik zasobów PDF przy użyciu Aspose.PDF – przewodnik C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Krok po kroku pokażemy, jak edytować słownik zasobów PDF przy użyciu Aspose.PDF w C#. |  
+| [Utwórz pusty słownik PDF w C# przy użyciu Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Dowiedz się, jak utworzyć pusty słownik PDF w C# przy użyciu Aspose.Pdf w kilku prostych krokach. |
+| [Jak utworzyć pusty stan graficzny w PDF przy użyciu C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Krok po kroku pokażemy, jak stworzyć pusty stan graficzny w pliku PDF przy użyciu Aspose.PDF dla .NET i języka C#. |  
+| [Jak zmienić przezroczystość PDF przy użyciu Aspose.Pdf w C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Dowiedz się, jak zmienić przezroczystość pliku PDF przy użyciu Aspose.PDF dla .NET w C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

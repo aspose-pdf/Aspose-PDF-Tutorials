@@ -25,6 +25,7 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 | [Relleno de texto en árabe](./arabic-text-filling/) Aprenda a rellenar texto en árabe en formularios PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus habilidades de manipulación de PDF.  
 | [Cuadro combinado](./combo-box/) Aprenda a agregar un cuadro combinado a un PDF con Aspose.PDF para .NET. Siga nuestra guía paso a paso para crear formularios PDF interactivos fácilmente.  
 | [Crear documento](./create-doc/) | Aprenda a crear documentos PDF interactivos con botones de opción usando Aspose.PDF para .NET en esta completa guía paso a paso. |  
+| [Crear campo de formulario PDF en C# – guía paso a paso](./create-pdf-form-field-in-c-step-by-step-guide/) Aprenda a crear campos de formulario PDF en C# con Aspose.PDF paso a paso.  
 | [Eliminar campo de formulario en un documento PDF](./delete-form-field/) Aprenda a eliminar campos de formulario en documentos PDF con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y entusiastas del PDF.  
 | [Determinar el campo obligatorio en el formulario PDF](./determine-required-field/) Aprenda a determinar los campos obligatorios en un formulario PDF con Aspose.PDF para .NET. Nuestra guía paso a paso simplifica la gestión de formularios y mejora su flujo de trabajo de automatización de PDF.  
 | [XFA dinámico a formato Acro](./dynamic-xfa-to-acro-form/) | Aprenda a convertir formularios XFA dinámicos a AcroForms estándar usando Aspose.PDF para .NET en este tutorial paso a paso. |  
@@ -34,16 +35,16 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 | [Fuente del campo de formulario 14](./form-field-font-14/) Aprenda a cambiar la fuente de los campos de formulario en un documento PDF con Aspose.PDF para .NET. Guía paso a paso con ejemplos de código y consejos para optimizar los formularios PDF.  
 | [Obtener las coordenadas del campo del formulario PDF](./get-coordinates/) ¡Desbloquea la manipulación de PDF con Aspose.PDF para .NET! Aprende a recuperar las coordenadas de los campos de formulario en tan solo unos sencillos pasos.  
 | [Obtener campos de la región en un archivo PDF](./get-fields-from-region/) Aprenda a extraer campos de una región específica en archivos PDF sin esfuerzo usando Aspose.PDF para .NET en esta guía completa. |  
-| [Obtener valor de un campo en un documento PDF](./get-value-from-field/) | Aprenda a extraer fácilmente valores de los campos de formulario en un documento PDF usando Aspose.PDF para .NET con este tutorial paso a paso.  
-| [Obtener valores de todos los campos en un documento PDF](./get-values-from-all-fields/) | Aprenda a extraer valores de todos los campos de un documento PDF usando Aspose.PDF para .NET con una guía paso a paso. |  
+| [Obtener valor de un campo en un documento PDF](./get-value-from-field/) | Aprenda a extraer fácilmente valores de los campos de formulario en un documento PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |
+| [Obtener valores de todos los campos en un documento PDF](./get-values-from-all-fields/) | Aprenda a extraer valores de todos los campos de un documento PDF usando Aspose.PDF para .NET con una guía paso a paso. |
 | [Obtener XFAProperties](./get-xfaproperties/) Aprenda a recuperar propiedades XFA con Aspose.PDF para .NET en este completo tutorial. Incluye una guía paso a paso.  
-| [Casillas de verificación agrupadas en un documento PDF](./grouped-check-boxes/) | Aprenda a crear casillas de verificación agrupadas (botones de opción) en un documento PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |  
-| [Cómo crear PDF con Aspose – Añadir campo de formulario y páginas](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aprenda a crear PDFs, añadir campos de formulario y gestionar páginas con Aspose.PDF para .NET en esta guía paso a paso. |  
-| [Botones de opción horizontales y verticales](./horizontally-and-vertically-radio-buttons/) Aprenda a crear botones de opción alineados horizontal y verticalmente en PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |  
+| [Casillas de verificación agrupadas en un documento PDF](./grouped-check-boxes/) | Aprenda a crear casillas de verificación agrupadas (botones de opción) en un documento PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |
+| [Cómo crear PDF con Aspose – Añadir campo de formulario y páginas](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aprenda a crear PDFs, añadir campos de formulario y gestionar páginas con Aspose.PDF para .NET en esta guía paso a paso. |
+| [Botones de opción horizontales y verticales](./horizontally-and-vertically-radio-buttons/) Aprenda a crear botones de opción alineados horizontal y verticalmente en PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |
 | [Modificar un campo de formulario en un documento PDF](./modify-form-field/) Aprenda a modificar campos de formulario en documentos PDF con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores que buscan optimizar la funcionalidad de PDF.  
 | [Mover campo de formulario](./move-form-field/) Aprenda a mover campos de formulario en documentos PDF con Aspose.PDF para .NET con esta guía. Siga este tutorial detallado para modificar fácilmente la ubicación de los cuadros de texto.  
-| [Preservar los derechos](./preserve-rights/) | Conserve los derechos de formulario en sus documentos PDF con Aspose.PDF para .NET. |  
-| [Botón de radio](./radio-button/) | Aprenda a crear botones de opción interactivos en documentos PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |  
+| [Preservar los derechos](./preserve-rights/) | Conserve los derechos de formulario en sus documentos PDF con Aspose.PDF para .NET. |
+| [Botón de radio](./radio-button/) | Aprenda a crear botones de opción interactivos en documentos PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |
 | [Botón de radio con opciones](./radio-button-with-options/) Desbloquee el potencial de los PDF interactivos añadiendo botones de opción con Aspose.PDF para .NET. Cree formularios atractivos fácilmente y mejore la experiencia del usuario.  
 | [Recuperar campo de formulario en orden de tabulación](./retrieve-form-field-in-tab-order/) Aprenda a recuperar y modificar campos de formulario en orden de tabulación con Aspose.PDF para .NET. Guía paso a paso con ejemplos de código para optimizar la navegación en formularios PDF.  
 | [Seleccionar botón de opción en documento PDF](./select-radio-button/) Aprenda a seleccionar botones de opción en documentos PDF con Aspose.PDF para .NET con esta guía paso a paso. Automatice fácilmente las interacciones de formularios.  
@@ -56,6 +57,10 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 | [Crear PDF con Aspose – Añadir campo de cuadro de texto](./create-pdf-document-with-aspose-add-text-box-field/) Aprenda a crear un documento PDF y añadir un campo de cuadro de texto usando Aspose.PDF para .NET en esta guía paso a paso.  
 | [Crear documento PDF C# – Guía paso a paso para formularios multipágina](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) Aprenda a crear documentos PDF multipágina con formularios usando Aspose.PDF para .NET en C#. Guía paso a paso.  
 | [Crear formulario multipágina en C# con Aspose.Pdf – Guía paso a paso](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) Aprenda a crear un formulario PDF de varias páginas en C# usando Aspose.Pdf con esta guía paso a paso.  
+| [Agregar cuadro de texto a formulario PDF – Guía completa en C#](./add-text-box-to-pdf-form-complete-c-guide/) Aprenda a añadir y configurar cuadros de texto en formularios PDF usando Aspose.PDF para .NET con C#.  
+| [Crear campo de texto PDF – Guía paso a paso](./create-pdf-textbox-field-step-by-step-guide/) Aprenda a crear un campo de texto en un PDF con Aspose.PDF para .NET siguiendo esta guía paso a paso.  
+| [Importar FDF a PDF con C# – Guía completa paso a paso](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) Aprenda a importar archivos FDF a documentos PDF usando Aspose.PDF para .NET con C# en esta guía paso a paso.  
+| [Guardar documento PDF con Aspose.PDF – guía completa](./save-pdf-document-with-aspose-pdf-complete-guide/) | Aprenda a guardar documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

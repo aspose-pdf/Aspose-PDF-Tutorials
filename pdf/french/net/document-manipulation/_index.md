@@ -16,6 +16,13 @@
 Maîtrisez la manipulation de documents PDF grâce à nos tutoriels détaillés Aspose.PDF .NET. Ces guides pas à pas expliquent comment gérer la structure des documents, modifier des PDF existants, fractionner et fusionner des documents, ajouter et supprimer des pages, et organiser votre contenu PDF par programmation. Chaque tutoriel comprend des exemples de code C# fonctionnels, des notes d'implémentation et des bonnes pratiques pour vous aider à créer des applications manipulant efficacement des documents PDF avec un code propre et maintenable.
 
 ## Tutoriels disponibles
+
+{{< tutorial-card link="./compare-pdfs/" title="Comparer des PDF et générer un document de différence mis en évidence à l'aide d'Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Comparer les formulaires PDF et générer un diff JSON et visuel avec Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Comparer des PDF tout en ignorant des zones spécifiques avec Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Ajouter des horodatages aux fichiers PDF à l'aide d'Aspose.PDF pour .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Découvrez comment ajouter efficacement des horodatages et des annotations à vos documents PDF avec Aspose.PDF pour .NET. Améliorez la gestion de vos documents grâce à ces étapes faciles à suivre.
 
@@ -55,6 +62,9 @@ Apprenez à modifier l'orientation des pages PDF avec Aspose.PDF pour .NET. Ce g
 ### [Combiner des pages PDF dans .NET avec Aspose.PDF : Guide complet des mises en page MakeNUp](./combine-pdf-pages-aspose-net-make-nup/)
 Apprenez à réorganiser des pages PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, le codage et les applications pratiques de la fonctionnalité MakeNUp.
 
+### [Fusionner les calques PDF en C# – Comment combiner les calques PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Découvrez comment fusionner les calques d'un PDF en C# avec Aspose.PDF pour .NET.
+
 ### [Guide complet sur le fractionnement de PDF dans .NET avec Aspose.PDF](./pdf-splitting-net-aspose-pdf-guide/)
 Apprenez à fractionner des fichiers PDF dans .NET avec Aspose.PDF. Ce guide couvre la gestion des flux de fichiers, les techniques de fractionnement de pages et l'optimisation des performances pour une gestion efficace des documents.
 
@@ -93,6 +103,9 @@ Découvrez comment extraire efficacement des pages spécifiques de PDF dans vos 
 
 ### [Extraire des pages spécifiques d'un PDF avec Aspose.PDF pour .NET](./extract-pdf-pages-aspose-dotnet/)
 Un tutoriel de code pour Aspose.PDF Net
+
+### [Enregistrer un PDF modifié avec Aspose.PDF – Guide complet C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Apprenez à enregistrer un PDF modifié en utilisant Aspose.PDF pour .NET avec un guide complet en C#.
 
 ### [Masquer les numéros de page de la table des matières dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET : guide étape par étape](./hide-toc-page-numbers-aspose-pdf-dotnet/)
 Découvrez comment supprimer les numéros de page d'une table des matières dans vos fichiers PDF avec Aspose.PDF pour .NET. Ce guide propose des instructions étape par étape et des options de configuration clés.
@@ -210,6 +223,10 @@ Apprenez à mettre à jour les liens dans les fichiers PDF par programmation ave
 
 ### [Comment mettre à jour la couleur du texte des liens PDF avec Aspose.PDF .NET : guide complet](./update-pdf-link-text-color-aspose-net/)
 Apprenez à modifier facilement la couleur du texte des liens dans les PDF avec Aspose.PDF pour .NET. Ce guide complet couvre l'installation, la mise en œuvre et l'optimisation.
+
+### [Comment réparer les fichiers PDF avec Aspose.Pdf – Guide complet](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Apprenez à réparer les fichiers PDF corrompus ou endommagés en utilisant Aspose.Pdf avec ce guide complet étape par étape.
+### [Comment enregistrer un PDF modifié avec Aspose.Pdf et ajouter de la transparence](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 
 ### [Insérer des pages dans un PDF avec Aspose.PDF pour .NET : Guide complet de manipulation de documents](./insert-pages-pdf-aspose-dotnet-guide/)
 Apprenez à insérer des pages dans un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre tout, de la configuration à la mise en œuvre, idéal pour les développeurs C#.
@@ -333,6 +350,9 @@ Apprenez à aplatir les couches d'un PDF, puis à l'exporter et extraire son con
 Apprenez à aplatir les couches d'un PDF pour simplifier le fichier et améliorer la compatibilité, grâce à Aspose.PDF, avec un guide complet pas à pas.
 
 ### [Différence visuelle de PDF en C# – Guide complet pour comparer deux PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+
+### [Enregistrer le PDF mis à jour – Modifier les ressources PDF avec Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Apprenez à enregistrer un PDF modifié après avoir édité ses ressources avec Aspose.PDF pour .NET.
 
 ## Ressources supplémentaires
 

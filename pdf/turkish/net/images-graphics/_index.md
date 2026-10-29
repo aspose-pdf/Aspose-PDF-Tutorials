@@ -17,6 +17,9 @@ Kapsamlı Aspose.PDF .NET eğitimlerimizi kullanarak PDF belgelerini görsel ö�
 
 ## Mevcut Eğitimler
 
+### [How to add transparency to PDF using Aspose.PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+
+
 ### [.NET için Aspose.PDF'yi Kullanarak PDF'lere Resim Damgaları Ekleme: Adım Adım Kılavuz](./add-image-stamp-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak logolar gibi resim damgalarını bir PDF'in her sayfasına sorunsuz bir şekilde nasıl ekleyeceğinizi öğrenin. Belgelerinizi profesyonel markalama ile geliştirin.
 
@@ -39,6 +42,8 @@ Aspose.PDF for .NET kullanarak PDF belgelerinde dikdörtgenler oluşturmayı ve 
 Aspose.PDF for .NET ile C# kullanarak PDF belgelerine dikdörtgen çizerek görsel öğeler eklemeyi öğrenin.
 ### [Aspose.PDF ile PDF'ye Dikdörtgen Ekleme – Tam Programlama Kılavuzu](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri eklemeyi ve özelleştirmeyi adım adım öğrenin.
+### [C# ile PDF'ye Dikdörtgen Ekleme: Adım Adım Kılavuz](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+C# ile Aspose.PDF for .NET kullanarak PDF belgesine dikdörtgen eklemeyi adım adım öğrenin.
 
 ### [.NET'te Aspose.PDF ile Özel PDF Damgaları Oluşturun](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi
@@ -46,20 +51,21 @@ Aspose.PDF Net için bir kod öğreticisi
 ### [Aspose.PDF .NET Kullanarak Kenar Vurgulu PDF'ler Oluşturun: Geliştiriciler İçin Kapsamlı Bir Kılavuz](./create-pdf-borders-highlight-aspose-pdf-net/)
 Aspose.PDF .NET kullanarak paragrafları çıkarıp vurgulayarak görsel olarak çekici PDF belgeleri oluşturmayı öğrenin. Özel kenarlıklarla belgenizin okunabilirliğini artırın.
 
-### [Aspose.PDF .NET ile PDF'lere Şeffaf Şekiller Çizin](./draw-transparent-shapes-aspose-pdf-net/)
-Aspose.PDF Net için bir kod öğreticisi
+### [Aspose.PDF .NET ile PDF'ye Şeffaflık Ekleme ve Dikdörtgen Çizme: Adım Adım Kılavuz](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 
 ### [C# ile Aspose PDF Kullanarak PDF'ye Şeffaflık Ekleme – Adım Adım Kılavuz](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aspose PDF for .NET ile PDF belgelerine şeffaflık eklemeyi, C# kod örnekleriyle adım adım öğrenin.
+### [C# ile PDF Opaklığını Ayarlama: Aspose.PDF Tam Kılavuz](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET kullanarak C# ile PDF belgelerinin opaklığını nasıl ayarlayacağınızı adım adım öğrenin.
 
-### [Aspose.PDF for .NET ile Verimli PDF Görüntü Tanımlama](./master-image-identification-aspose-pdf-net/)
-Aspose.PDF for .NET kullanarak PDF'lerdeki gri tonlamalı ve RGB görüntüleri nasıl tanımlayacağınızı öğrenin. Bu eğitim, kurulum, görüntü çıkarma ve performans ipuçlarını kapsar.
-
-### [Aspose.PDF for .NET ile Görüntü Akışlarını PDF'lere Verimli Şekilde Dönüştürün](./convert-image-stream-to-pdf-aspose-dotnet/)
-Aspose.PDF for .NET kullanarak görüntü akışlarını profesyonel kalitede PDF belgelerine nasıl dönüştüreceğinizi öğrenin. Belge iş akışlarınızı geliştirmek için bu adım adım kılavuzu izleyin.
-
-### [Aspose.PDF ile PDF Bölgelerini Görüntülere Çıkarın ve Dönüştürün](./extract-convert-pdf-regions-aspose-net/)
+### [Aspose.PDF .NET Kullanarak PDF'ye Şeffaf Şekiller Çizin](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi
+
+### [Aspose.PDF for .NET ile PDF'de Şeffaflık Ayarlama: Adım Adım Kılavuz](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Aspose.PDF for .NET kullanarak PDF belgelerinde şeffaflık efektlerini nasıl ekleyeceğinizi ve ayarlayacağınızı öğrenin.
+### [Aspose.PDF for .NET kullanarak PDF dosyalarına şeffaflık ekleme](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Aspose.PDF for .NET ile PDF dosyalarına şeffaf öğeler ekleyerek belge görünümünü geliştirin.
+
 
 ### [Aspose.PDF .NET Kullanarak PDF'lerden Görüntü Damgalarını Çıkarın](./extract-image-stamps-pdfs-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi
@@ -176,6 +182,29 @@ Aspose.PDF for .NET kullanarak görüntü arka planları ayarlayarak PDF belgele
 C# ve Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri eklemeyi adım adım öğrenin.
 ### [PDF'yi Doğrulama ve Dikdörtgen Ekleme – Tam Kılavuz](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Aspose.PDF for .NET kullanarak PDF dosyalarını doğrulama ve üzerine dikdörtgen şekli ekleme adımlarını öğrenin.
+### [.NET için Aspose.PDF ile PDF'e Şekil Ekleme: Adım Adım Kılavuz](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+C# ve Aspose.PDF kullanarak PDF belgelerine şekil eklemeyi, konumlandırmayı ve özelleştirmeyi öğrenin.
+### [Word Belgelerinde Kayıpsız Görüntü Sıkıştırma – Tam Kılavuz](./lossless-image-compression-in-word-docs-complete-guide/)
+Word belgelerindeki görüntüleri kalite kaybı olmadan sıkıştırmayı ve dosya boyutunu azaltmayı öğrenin.
+### [PDF Üzerine Görüntü Yerleştirme Öğreticisi – Maske Ekleme ve Otomatik Tepsi Seçimini Etkinleştirme](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Aspose.PDF for .NET kullanarak PDF'lere görüntü bindirme, maske ekleme ve otomatik tepsi seçimini nasıl etkinleştireceğinizi öğrenin.
+### [Aspose.Pdf ile PDF'ye ExtGState Ekleme – Tam Kılavuz](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aspose.Pdf kullanarak PDF belgelerine ExtGState ekleyerek şeffaflık ve render ayarlarını nasıl kontrol edeceğinizi öğrenin.
+### [Aspose.Pdf ile Grafik Durumu PDF Ekleme: Adım Adım Kılavuz](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.Pdf kullanarak PDF belgelerine grafik durumu eklemeyi ve görüntüleme ayarlarını yönetmeyi öğrenin.
+### [.NET için Aspose.PDF ile Grafik Durumunu PDF'ye Ekleyin ve Şeffaflığı Kontrol Edin](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aspose.PDF ile grafik durumunu ekleyerek PDF'de şeffaflık kontrolünü nasıl sağlayacağınızı öğrenin.
+### [Aspose.PDF .NET ile PDF'de Opaklığı Değiştirme: Adım Adım Kılavuz](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+
+### [Aspose.PDF ile Özel ExtGState PDF Ekleme: Adım Adım Kılavuz](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF for .NET kullanarak PDF'lerde özel ExtGState nesneleri ekleyerek şeffaflık ve karışım modlarını kontrol etmeyi öğrenin.
+
+### [.NET için Aspose.PDF Kullanarak PDF'lerde Görüntü Akışlarını Verimli Şekilde Dönüştürün](./convert-image-stream-to-pdf-aspose-dotnet/)
+Aspose.PDF for .NET kullanarak görüntü akışlarını profesyonel kalitede PDF belgelerine nasıl dönüştüreceğinizi öğrenin. Belge iş akışlarınızı geliştirmek için bu adım adım kılavuzu izleyin.
+### [Aspose.PDF ile PDF Bölgelerini Görüntülere Çıkarın ve Dönüştürün](./extract-convert-pdf-regions-aspose-net/)
+Aspose.PDF Net için bir kod öğreticisi
+### [Aspose.PDF for .NET ile Verimli PDF Görüntü Tanımlama](./master-image-identification-aspose-pdf-net/)
+Aspose.PDF for .NET kullanarak PDF'lerdeki gri tonlamalı ve RGB görüntüleri nasıl tanımlayacağınızı öğrenin. Bu eğitim, kurulum, görüntü çıkarma ve performans ipuçlarını kapsar.
 
 ### [Aspose.PDF ile C#'ta Grafik Durumu PDF Ekleme: Adım Adım Kılavuz](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 Aspose.PDF for .NET kullanarak PDF belgelerine grafik durumu eklemeyi öğrenin. C# kod örnekleriyle adım adım kılavuz.

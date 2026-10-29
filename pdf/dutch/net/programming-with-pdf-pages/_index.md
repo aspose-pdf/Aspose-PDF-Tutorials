@@ -19,6 +19,19 @@ De documentatie "Programmeren met PDF-pagina's" voor Aspose.PDF voor .NET biedt 
 Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en duidelijke uitleg, zodat het gemakkelijk te begrijpen is. Of u nu een beginner of een ervaren ontwikkelaar bent, deze bronnen helpen u de PDF-paginabewerkingsfuncties van Aspose.PDF voor .NET onder de knie te krijgen, wat nieuwe mogelijkheden biedt voor uw applicatieontwikkelingsprojecten.
 
 ## Zelfstudies
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Roteer een enkele PDF‑pagina 180 graden met Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="PDF splitsen na pagina tien met Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Draai elke PDF-pagina 180° met Aspose.Pdf voor .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Vergelijk PDF‑pagina's pagina‑voor‑pagina met Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="PDF's vergelijken met verschillende paginagroottes met Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Titel | Beschrijving |
 | --- | --- | 
 | [Verander oriëntatie](./change-orientation/) | Stapsgewijze handleiding voor het wijzigen van de pagina-oriëntatie van een PDF met Aspose.PDF voor .NET. Eenvoudig te volgen en te implementeren in uw projecten. |  
@@ -46,6 +59,12 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [Bates-nummers toevoegen in C# – Stapsgewijze handleiding](./add-bates-numbering-in-c-step-by-step-guide/) | Leer hoe u Bates‑nummers toevoegt aan een PDF met C# en Aspose.PDF voor .NET in deze stap‑voor‑stap handleiding. |
 | [PDF-pagina's herschikken in C# – Complete stap‑voor‑stap handleiding](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Leer hoe u PDF-pagina's in de gewenste volgorde kunt plaatsen met Aspose.PDF voor .NET in C# via een gedetailleerde stap‑voor‑stap handleiding. |
 | [PDF-pagina's herschikken met Aspose.Pdf – Complete C#‑handleiding](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Leer hoe u PDF-pagina's kunt herschikken met Aspose.Pdf in C# met deze volledige stap‑voor‑stap handleiding. |
+| [Bates-nummering toevoegen aan PDF's met C# – Volledige gids](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Leer hoe u Bates-nummers aan PDF-documenten toevoegt met C# en Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
+| [PDF-pagina dupliceren met Aspose.PDF – Complete gids](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Leer hoe u een PDF-pagina dupliceert met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
+| [Bates-nummers toevoegen aan PDF met Aspose.PDF – Volledige gids](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u Bates-nummers aan een PDF toevoegt met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
+| [Lege pagina toevoegen aan PDF met Aspose.PDF – Volledige gids](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u een lege pagina aan een PDF toevoegt met Aspose.PDF in deze volledige stap‑voor‑stap handleiding. |
+| [PDF-opaciteit wijzigen in C# met Aspose.Pdf – stapsgewijze handleiding](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Leer hoe u de doorzichtigheid van PDF-elementen aanpast met Aspose.Pdf in C# via een stapsgewijze handleiding. |
+| [Bates-nummers toevoegen aan PDF met Aspose – stapsgewijze handleiding](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Leer hoe u Bates‑nummering aan PDF‑bestanden toevoegt met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
 | [Hoe Bates-nummering aan een PDF toevoegen met Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Leer hoe u Bates-nummering aan een PDF kunt toevoegen met Aspose.Pdf voor .NET in een stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -54,7 +73,6 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -69,7 +87,6 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -85,5 +102,4 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

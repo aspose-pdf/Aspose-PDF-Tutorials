@@ -1,207 +1,303 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 建立和自訂 PDF 文件。本指南涵蓋設定項目、新增頁面和形狀以及優化效能。"
-"title": "使用 Aspose.PDF for Java 掌握 PDF 建立和自訂&#58;輕鬆建立自訂 PDF"
-"url": "/zh-hant/java/document-creation/aspose-pdf-java-create-custom-pdfs/"
-"weight": 1
+date: '2026-08-21'
+description: 了解如何使用 Aspose.PDF for Java 建立 PDF 文件。本指南說明專案設定、頁面尺寸、形狀加入以及效能優化技巧。
+keywords:
+- create pdf java
+- customize pdf pages
+- add shapes pdf
+lastmod: '2026-08-21'
+og_description: 快速使用 Aspose.PDF for Java 建立 PDF 文件。於本逐步指南中學習頁面尺寸設定、矩形加入與效能優化。
+og_image_alt: Guide showing how to create and customize PDF files using Aspose.PDF
+  for Java
+og_title: 如何在 Java 中使用 Aspose.PDF 建立 PDF 並自訂
+schemas:
+- author: Aspose
+  dateModified: '2026-08-21'
+  description: Learn how to create PDF java documents using Aspose.PDF for Java. This
+    guide shows project setup, page sizing, shape addition, and performance tips.
+  headline: How to create PDF in Java with Aspose.PDF and customize it
+  type: TechArticle
+- description: Learn how to create PDF java documents using Aspose.PDF for Java. This
+    guide shows project setup, page sizing, shape addition, and performance tips.
+  name: How to create PDF in Java with Aspose.PDF and customize it
+  steps:
+  - name: '**Free trial** – download the JAR and start experimenting ([Free Trial
+      Download](https://releases.aspose.com/pdf/java/)).'
+    text: '**Free trial** – download the JAR and start experimenting ([Free Trial
+      Download](https://releases.aspose.com/pdf/java/)).'
+  - name: '**Temporary license** – request one from the Aspose website for short‑term
+      testing ([Temporary License](https://purchase.aspose.com/temporary-license/)).'
+    text: '**Temporary license** – request one from the Aspose website for short‑term
+      testing ([Temporary License](https://purchase.aspose.com/temporary-license/)).'
+  - name: '**Purchase** – obtain a permanent license at [Purchase License](https://purchase.aspose.com/buy).'
+    text: '**Purchase** – obtain a permanent license at [Purchase License](https://purchase.aspose.com/buy).'
+  - name: '**Dynamic report generation** – automatically produce monthly performance
+      PDFs with custom charts and tables.'
+    text: '**Dynamic report generation** – automatically produce monthly performance
+      PDFs with custom charts and tables.'
+  - name: '**Form creation** – build fillable PDF forms that include pre‑populated
+      fields and graphics.'
+    text: '**Form creation** – build fillable PDF forms that include pre‑populated
+      fields and graphics.'
+  - name: '**Invoice management** – generate invoices that embed logos, QR codes,
+      and line‑item tables on the fly.'
+    text: '**Invoice management** – generate invoices that embed logos, QR codes,
+      and line‑item tables on the fly.'
+  type: HowTo
+- questions:
+  - answer: Yes—once you purchase a license, you can deploy the library in any commercial
+      application without restrictions.
+    question: Can I use Aspose.PDF for commercial projects?
+  - answer: Use the `Document.optimizeResources()` method and process pages in a streaming
+      fashion to keep memory usage low.
+    question: How do I handle PDFs larger than 500 MB?
+  - answer: Absolutely; the library is compatible with Java 8 through Java 21, including
+      LTS releases like Java 17.
+    question: Does Aspose.PDF support Java 17?
+  - answer: Update your Maven/Gradle dependency to the newest version listed on the
+      Aspose repository, or download it from the [Download Library](https://releases.aspose.com/pdf/java/)
+      page.
+    question: Where can I find the latest version?
+  - answer: Yes—post questions at the [Support Forum](https://forum.aspose.com/c/pdf/10)
+      where Aspose engineers and community members respond.
+    question: Is there a community forum for troubleshooting?
+  type: FAQPage
+tags:
+- create pdf
+- Aspose.PDF
+- Java PDF generation
+title: 如何在 Java 中使用 Aspose.PDF 建立 PDF 並自訂
+url: /zh-hant/java/document-creation/aspose-pdf-java-create-custom-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.PDF for Java 掌握 PDF 創建和自訂
 
-## 介紹
-從頭開始建立專業級 PDF 文件可能是一項艱鉅的任務，尤其是當您需要自訂頁面並以程式設計方式添加各種元素（如形狀）時。隨著 **Java 版 Aspose.PDF** 庫，您可以輕鬆建立和配置 PDF 文檔，添加從自訂頁面大小到彩色矩形的所有內容。
+# 精通使用 Aspose.PDF for Java 創建與自訂 PDF
 
-在本綜合指南中，我們將介紹如何使用 Aspose.PDF for Java 產生新的 PDF 文件、自訂其頁面以及新增具有特定屬性的矩形等形狀。無論您是建立動態報告還是設計互動式表單，本教學都將為您提供利用 Aspose.PDF 強大功能所需的技能。
+## 簡介
+在本指南中，您將使用 Aspose.PDF for Java 從頭開始 **create PDF java** 文件，然後自訂頁面尺寸、邊距和圖形形狀。無論是建立動態報告、互動表單或自動化發票，程式化控制每個 PDF 元素的能力都能節省時間並確保跨平台的一致性。
 
-**您將學到什麼：**
-- 如何在您的專案中設定 Aspose.PDF for Java。
-- 建立新的 PDF 文件並自訂其頁面。
-- 在 PDF 頁面中新增具有特定屬性的矩形。
-- 關鍵配置選項和最佳實務。
-在開始編碼之前，讓我們深入了解先決條件！
+**您將學習**
+- 如何在 Maven 或 Gradle 專案中設定 Aspose.PDF for Java。  
+- 如何建立新 PDF 文件並配置其頁面。  
+- 如何加入矩形（或任何形狀），並設定精確的尺寸、顏色與 Z‑order。  
+- 大規模 PDF 產生的效能友好做法。
 
-## 先決條件
-在開始之前，您需要確保已準備好必要的程式庫和設定：
+## 快速解答
+- **哪個函式庫可在 Java 中建立 PDF？** Aspose.PDF for Java.  
+- **我可以設定自訂頁面尺寸嗎？** 可以 — 使用 `PageInfo` 物件以點 (points) 定義寬度與高度。  
+- **如何加入矩形？** 建立 `Graph` 物件，並將 `Rectangle` 形狀加入頁面的 `Paragraphs`。  
+- **生產環境是否需要授權？** 需要，購買授權可移除評估限制。  
+- **此功能能在 Java 11+ 上運作嗎？** 當然；Aspose.PDF 支援 Java 8 至 Java 21。
 
-### 所需的庫和依賴項
-- **Java 版 Aspose.PDF**：這是您將要使用的核心庫。
-- **Maven 或 Gradle**：用於依賴管理。
+## 什麼是 create pdf java？
+**Create PDF java** 指的是使用 Java 程式碼以程式化方式產生 PDF 檔案，通常透過像 Aspose.PDF 這類第三方函式庫。此方式省去手動設計步驟，並支援自動化文件流程，讓開發者能在大規模下產出一致且高品質的 PDF，同時能無縫整合至現有的 Java 應用程式與建置流程。
 
-### 環境設定要求
-確保您的開發環境支援 Java 並且安裝了 Maven 或 Gradle 來管理專案依賴項。
+## 為何使用 Aspose.PDF for Java？
+Aspose.PDF 支援 **50 多種輸入與輸出格式**——包括 DOCX、XLSX、PPTX、HTML 以及各類影像格式，且能在不將整個檔案載入記憶體的情況下處理數百頁的 PDF，為企業工作負載提供高吞吐量的產生效能。欲取得詳細 API 參考，請參閱 [Aspose.PDF 文件](https://reference.aspose.com/pdf/java/)。
 
-### 知識前提
-對 Java 程式設計有基本的了解是有益的，尤其是熟悉物件導向原理和檔案 I/O 操作。
+## 前置條件
+- **Java Development Kit (JDK) 8+** 已安裝於您的工作站。  
+- **Maven 或 Gradle** 用於相依性管理。  
+- **有效的 Aspose.PDF for Java 授權**（提供試用版）。
 
-## 為 Java 設定 Aspose.PDF
-要開始在專案中使用 Aspose.PDF for Java，您需要新增該程式庫作為依賴項。方法如下：
+### 必要的函式庫與相依性
+- **Aspose.PDF for Java** – 處理 PDF 建立、操作與渲染的核心 API。
 
-**Maven**
+### 環境設定需求
+您的 IDE（IntelliJ IDEA、Eclipse 或 VS Code）必須設定為能辨識 Maven/Gradle 專案，並編譯相容 Java 11 的程式碼。
+
+### 知識前置條件
+熟悉 Java OOP 概念、基本檔案 I/O 以及 Maven/Gradle 建置生命週期，將使步驟更順暢。
+
+## 設定 Aspose.PDF for Java
+將函式庫加入您的建置檔案，使編譯器能找到 API 類別。
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+您也可以直接從 [下載函式庫](https://releases.aspose.com/pdf/java/) 頁面下載此函式庫。
+
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### 許可證取得步驟
-Aspose.PDF for Java 提供免費試用，非常適合測試其功能。您可以購買許可證或取得臨時許可證以不受限制地探索全部功能。
+您也可以直接從 [下載函式庫](https://releases.aspose.com/pdf/java/) 頁面下載此函式庫。
 
-1. **免費試用**：下載庫並開始試驗。
-2. **臨時執照**：如果您需要測試不受評估限制的進階功能，請在 Aspose 的網站上申請。
-3. **購買**：從購買長期使用許可證 [Aspose 購買](https://purchase。aspose.com/buy).
+### 取得授權步驟
+Aspose.PDF for Java 提供免費試用、供評估使用的臨時授權，以及完整的商業授權。
 
-設定完成後，使用以下基本設定初始化您的專案：
+1. **免費試用** – 下載 JAR 並開始試用（[免費試用下載](https://releases.aspose.com/pdf/java/)）。  
+2. **臨時授權** – 從 Aspose 網站申請短期測試用授權（[臨時授權](https://purchase.aspose.com/temporary-license/)）。  
+3. **購買** – 在 [購買授權](https://purchase.aspose.com/buy) 取得永久授權。  
+
+取得授權後，將 `Aspose.Pdf.lic` 檔案放置於專案的 resources 資料夾，並於執行時載入：
+
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // 初始化 Aspose.PDF 文件實例
+        // Initialize Aspose.PDF Document instance
         Document document = new Document();
         System.out.println("Aspose.PDF initialized and ready to use!");
     }
 }
-```
+```  
 
-## 實施指南
+## 實作指南
 
-### 功能 1：建立和設定 PDF 文檔
+### 功能 1：create PDF java 與配置其頁面
 
-#### 概述
-建立新的 PDF 文件涉及初始化 `Document` 類，新增頁面，並設定大小和邊距等屬性。
+#### 如何建立 PDF 文件？
+實例化 `Document` 類別，新增頁面，然後在儲存前配置尺寸與邊距。此流程會產生一個空白 PDF，供後續加入內容。
 
-#### 逐步實施
-**初始化並設定文檔**
-首先建立一個新的 PDF 文件：
+#### 初始化與設定文件
+`Document` 類別是代表記憶體中單一 PDF 檔案的最高層物件。
+
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Page;
 
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-// 建立 Document 類別的新實例
+// Create a new instance of the Document class
 Document doc = new Document();
-```
+```  
 
-**新增頁面**
-您可以使用 `getPages().add()` 方法：
-```java
-Page page = doc.getPages().add(); // 新增頁面
-```
+#### 向文件新增頁面
+使用 `document.getPages().add()` 於 PDF 追加新頁面。
 
-**設定頁面大小和邊距**
-根據需要自訂頁面大小和邊距：
 ```java
-// 設定頁面大小
+Page page = doc.getPages().add(); // Adds a new page to the document
+```  
+
+#### 配置頁面尺寸與邊距
+`PageInfo` 允許您定義自訂尺寸（例如 A5、Letter），並以點 (points) 設定左/右/上/下邊距。
+
+```java
+// Set the size of the page
 page.setPageSize(375, 300);
 
-// 設定頁邊距
+// Set the margins for the page
 page.getPageInfo().getMargin().setLeft(0);
 page.getPageInfo().getMargin().setTop(0);
-```
+```  
 
-**儲存文件**
-最後，將文檔儲存到指定目錄：
+#### 儲存文件
+呼叫 `document.save("output.pdf")` 將檔案寫入磁碟。
+
 ```java
 doc.save(outputDir + "/Created_PDF.pdf");
-```
+```  
 
-### 功能 2：為 PDF 頁面新增矩形
+### 功能 2：add shapes pdf – 插入矩形
 
-#### 概述
-添加矩形等圖形元素需要使用 `Graph` 和 `Rectangle` 來自 Aspose.PDF 的類別。
+#### 如何在 PDF 頁面加入矩形？
+建立 `Graph` 物件，定義具有位置、尺寸與顏色的 `Rectangle` 形狀，然後將該圖形加入頁面的段落集合中。
 
-#### 逐步實施
-**初始化圖表並設定位置**
-為矩形建立一個圖形物件：
+#### 初始化 Graph 並設定位置
+`Graph` 是頁面上向量圖形的容器，定義繪圖畫布。
+
 ```java
 import com.aspose.pdf.drawing.Graph;
 import com.aspose.pdf.drawing.Rectangle;
 
-Page page = new Page(); // 假設頁面是文件的一部分
-Graph graph = new Graph(60, 40); // 建立具有指定維度的圖形
+Page page = new Page(); // Assume page is part of the document
+Graph graph = new Graph(60, 40); // Create a graph with specified dimensions
 
-// 固定相對於頁面的位置
+// Fix the position relative to the page
 graph.setChangePosition(false);
-```
+```  
 
-**設定位置和尺寸**
-將矩形放置在 PDF 頁面上：
+#### 設定位置與尺寸
+指定矩形的 X/Y 座標以及以點 (points) 為單位的寬度/高度。`Rectangle` 類別代表可在頁面上繪製的矩形形狀。
+
 ```java
-graph.setLeft(50); // 設定左側位置
-graph.setTop(40);  // 設定頂部位置
+graph.setLeft(50); // Set left position
+graph.setTop(40);  // Set top position
 
-Rectangle rect = new Rectangle(0, 0, 60, 40); // 定義維度
-rect.getGraphInfo().setFillColor(Color.getRed()); // 填充顏色
-rect.getGraphInfo().setColor(Color.getRed()); // 邊框顏色
+Rectangle rect = new Rectangle(0, 0, 60, 40); // Define dimensions
+rect.getGraphInfo().setFillColor(Color.getRed()); // Fill color
+rect.getGraphInfo().setColor(Color.getRed()); // Border color
 
-graph.getShapes().add(rect); // 將矩形加入圖形的形狀集合中
-```
+graph.getShapes().add(rect); // Add rectangle to graph's shapes collection
+```  
 
-**控制 Z 順序並新增至頁面**
-透過設定 Z-Index 確保正確的渲染順序，然後將圖形新增至頁面：
+#### 控制 Z‑order 並加入頁面
+Z‑index 決定渲染順序；較高的值會將形狀置於現有內容之上。
+
 ```java
-graph.setZIndex(2); // 設定繪製順序
+graph.setZIndex(2); // Set drawing order
 
 page.getParagraphs().add(graph);
-```
+```  
 
-## 實際應用
-Aspose.PDF for Java 具有令人難以置信的多功能性。以下是一些實際用例：
-1. **動態報告生成**：使用自訂頁面佈局和嵌入圖形自動建立詳細報告。
-2. **表單建立**：使用預填資料建立互動式表單，非常適合調查或問卷等應用程式。
-3. **發票管理系統**：產生包含公司徽標和動態更新的資料欄位的發票。
+## 實務應用
+Aspose.PDF for Java 在多個產業中皆具多樣化的應用：
 
-## 性能考慮
-使用 Aspose.PDF 在 Java 中處理 PDF 時：
-- **記憶體管理**： 使用 `dispose()` 處理大型文件後釋放資源的方法。
-- **優化技巧**：當效能至關重要時，盡量減少新增到頁面的形狀數量。
+1. **動態報告產生** – 自動產生包含自訂圖表與表格的每月績效 PDF。  
+2. **表單建立** – 建立可填寫的 PDF 表單，內含預填欄位與圖形。  
+3. **發票管理** – 即時產生嵌入商標、QR Code 與明細表格的發票。
+
+## 效能考量
+產生大型 PDF（數百頁或數千個形狀）時，請遵循以下最佳實踐：
+
+- **記憶體管理** – 儲存後呼叫 `document.dispose()` 釋放原生資源。  
+- **形狀最小化** – 限制每頁的向量物件數量；盡可能將相似形狀合併至單一 `Graph`。  
+- **串流儲存** – 使用 `document.save(OutputStream)` 以避免在磁碟上產生大型中間檔案。
 
 ## 結論
-透過掌握這些技術，您就解鎖了使用 Aspose.PDF for Java 建立和自訂 PDF 的強大功能。繼續探索其他功能，例如添加文字、圖像和更複雜的圖形，以進一步豐富您的文件。 
+您現在已具備堅實的基礎，可使用 Aspose.PDF for Java **create PDF java** 檔案、客製化頁面版面，並嵌入矩形或其他形狀。可嘗試其他圖形（橢圓、多邊形），並探索完整 API 以加入文字、影像與註解。
 
-**後續步驟：**
-- 嘗試其他形狀。
-- 探索完整的 API 文件以了解進階功能。
+**下一步**
+- 嘗試使用 `TextFragment` 加入文字區塊。  
+- 探索 PDF/A 相容性選項，以符合檔案保存等級的文件。  
+- 檢視官方 API 參考文件，了解如數位簽章等進階功能。
 
-## 常見問題部分
-1. **我可以將 Aspose.PDF 用於商業項目嗎？**
-   - 是的，購買許可證後。
-2. **如何有效率地處理大型 PDF 檔案？**
-   - 利用記憶體管理技術並優化形狀使用。
-3. **是否支援其他程式語言？**
-   - Aspose.PDF 可用於 C#、.NET、Java 等語言。
-4. **系統需求是什麼？**
-   - 安裝了 Maven 或 Gradle 的兼容 Java 開發環境。
-5. **如何更新到 Aspose.PDF 的最新版本？**
-   - 透過依賴管理器的儲存庫檢查更新。
+## 常見問題
 
-## 資源
-- [Aspose.PDF文檔](https://reference.aspose.com/pdf/java/)
-- [下載庫](https://releases.aspose.com/pdf/java/)
-- [購買許可證](https://purchase.aspose.com/buy)
-- [免費試用版下載](https://releases.aspose.com/pdf/java/)
-- [臨時執照](https://purchase.aspose.com/temporary-license/)
-- [支援論壇](https://forum.aspose.com/c/pdf/10)
+**Q: 我可以在商業專案中使用 Aspose.PDF 嗎？**  
+A: 可以 — 一旦購買授權，即可在任何商業應用程式中部署此函式庫，且無限制。
 
-本指南為您提供了使用 Aspose.PDF for Java 建立和自訂 PDF 文件的堅實基礎。編碼愉快！
+**Q: 如何處理大於 500 MB 的 PDF？**  
+A: 使用 `Document.optimizeResources()` 方法，並以串流方式處理頁面，以降低記憶體使用量。
+
+**Q: Aspose.PDF 支援 Java 17 嗎？**  
+A: 當然；此函式庫相容 Java 8 至 Java 21，包括 Java 17 等 LTS 版本。
+
+**Q: 我可以在哪裡取得最新版本？**  
+A: 將 Maven/Gradle 相依性更新至 Aspose 儲存庫中列出的最新版本，或從 [下載函式庫](https://releases.aspose.com/pdf/java/) 頁面下載。
+
+**Q: 有社群論壇可供疑難排解嗎？**  
+A: 有 — 可在 [支援論壇](https://forum.aspose.com/c/pdf/10) 發問，Aspose 工程師與社群成員會回應。
+
+---
+
+**最後更新：** 2026-08-21  
+**測試環境：** Aspose.PDF 24.11 for Java  
+**作者：** Aspose
+
+## 相關教學
+
+- [使用 Aspose.PDF for Java 建立專業 PDF：完整指南](/pdf/java/document-creation/create-professional-pdfs-aspose-pdf-java/)
+- [完整指南：使用 Aspose.PDF for Java 建立與樣式化 PDF](/pdf/java/document-creation/create-style-pdfs-aspose-pdf-java/)
+- [如何使用 Aspose.PDF for Java 為 PDF 添加頁碼：完整指南](/pdf/java/document-manipulation/add-page-numbers-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

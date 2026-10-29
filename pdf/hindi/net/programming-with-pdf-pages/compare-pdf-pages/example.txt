@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Aspose.Pdf के TextPdfComparer का उपयोग करके दो PDF दस्तावेज़ों की पृष्ठ‑दर‑पृष्ठ तुलना कैसे की जाए और एक डिफ़ रिपोर्ट PDF उत्पन्न किया जाए।
+//ExStepSummary:0: मूल PDF, संशोधित PDF, और आउटपुट डिफ़ रिपोर्ट के फ़ाइल पथ घोषित करें।
+//ExStepSummary:1: सुनिश्चित करें कि दोनों स्रोत PDFs मौजूद हैं और यदि कोई भी गायब हो तो त्रुटि संदेश के साथ प्रक्रिया रोक दें।
+//ExStepSummary:2: दोनों PDFs खोलें, डिफ़ॉल्ट comparison options बनाएं, `TextPdfComparer.CompareDocumentsPageByPage` के साथ पृष्ठ‑दर‑पृष्ठ डिफ़ चलाएँ, और सफलता संदेश आउटपुट करें।
+//ExStepSummary:3: तुलना के दौरान उत्पन्न किसी भी अपवाद को पकड़ें और कंसोल में त्रुटि संदेश लिखें।
+//ExStep:0-
+const string sourcePath1 = "original.pdf";
+const string sourcePath2 = "revised.pdf";
+const string resultPath = "changes_report.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath1) || !File.Exists(sourcePath2))
+{
+    Console.Error.WriteLine("Either of the input PDFs could not be located.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfA = new Document(sourcePath1))
+    using (Document pdfB = new Document(sourcePath2))
+    {
+        ComparisonOptions compareOpts = new ComparisonOptions();
+        TextPdfComparer.CompareDocumentsPageByPage(pdfA, pdfB, compareOpts, resultPath);
+    }
+
+    Console.WriteLine($"Page‑by‑page diff PDF written to '{resultPath}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Comparison failed: {ex.Message}");
+}
+//ExEnd
