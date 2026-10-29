@@ -56,10 +56,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Enkele Pagina Weergave PDF in Java – Layout Wijzigen & Bladwijzers Bewerken
 
 ## Introductie
@@ -252,6 +252,8 @@ A: Re‑calculate destinations using the current page indices after any structur
 - [PDF‑bladwijzers en navigatietutorials voor Aspose.PDF Java](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

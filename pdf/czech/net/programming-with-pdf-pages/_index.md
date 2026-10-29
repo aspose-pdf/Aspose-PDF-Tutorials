@@ -19,6 +19,19 @@ Dokumentace „Programování s PDF stránkami“ pro Aspose.PDF pro .NET poskyt
 Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětlení pro snadné pochopení. Ať už jste začátečník nebo zkušený vývojář, tyto zdroje vám pomohou zvládnout funkce manipulace se stránkami PDF, které nabízí Aspose.PDF pro .NET, a otevřou vám tak nové možnosti pro vaše projekty vývoje aplikací.
 
 ## Návody
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Otočte jednu stránku PDF o 180 stupňů pomocí Aspose.PDF pro .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Rozdělení PDF po desáté stránce pomocí Aspose.Pdf pro .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Otočte každou stránku PDF o 180° pomocí Aspose.Pdf pro .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Porovnávejte stránky PDF stránka po stránce pomocí Aspose.Pdf pro .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Porovnejte PDF soubory s různými velikostmi stránek pomocí Aspose.PDF pro .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Název | Popis |
 | --- | --- | 
 | [Změna orientace](./change-orientation/) | Podrobný návod pro změnu orientace stránky PDF pomocí Aspose.PDF pro .NET. Snadno sledovatelný a implementovatelný ve vašich projektech. |  
@@ -34,7 +47,9 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Nastavit obrázek jako pozadí stránky v souboru PDF](./image-as-background/) | Naučte se, jak nastavit obrázek jako pozadí stránky v PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vytvořte profesionální a vizuálně přitažlivé dokumenty. |  
 | [Vložit prázdnou stránku do PDF souboru](./insert-empty-page/) | Naučte se, jak vložit prázdnou stránku do PDF dokumentu pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu pro bezproblémovou manipulaci s PDF. |  
 | [Vložit prázdnou stránku na konec](./insert-empty-page-at-end/) | Naučte se v tomto průvodci pro začátečníky bez námahy vkládat prázdnou stránku do dokumentu PDF s Aspose.PDF pro .NET. Ideální pro rychlé úpravy. |  
+| [Přidat prázdnou stránku PDF pomocí Aspose.PDF – Kompletní průvodce](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Kompletní průvodce přidáním prázdné stránky do PDF pomocí Aspose.PDF pro .NET. |  
 | [Rozdělit na stránky](./split-to-pages/) Snadno rozdělte PDF soubory na jednotlivé stránky pomocí Aspose.PDF pro .NET s tímto komplexním tutoriálem. Součástí je podrobný návod. |  
+| [Přeskupení stránek PDF pomocí Aspose.Pdf – Kompletní průvodce C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Kompletní průvodce, jak přeskupit stránky PDF pomocí Aspose.Pdf v C#. |
 | [Aktualizovat rozměry stránky PDF](./update-dimensions/) | Zjistěte, jak snadno aktualizovat rozměry stránek PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem. |  
 | [Přiblížit na obsah stránky v souboru PDF](./zoom-to-page-contents/) | V tomto komplexním průvodci se naučte, jak přiblížit obsah stránky v souborech PDF pomocí Aspose.PDF pro .NET. Vylepšete své dokumenty PDF podle svých specifických potřeb. |  
 | [Přidat čísla stránek do PDF pomocí C# – Kompletní krok‑za‑krokem průvodce](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přidáním čísel stránek do PDF pomocí C# a Aspose.PDF pro .NET. |
@@ -45,6 +60,11 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Přidat Batesovo číslování v C# – krok za krokem průvodce](./add-bates-numbering-in-c-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přidáním Batesova číslování do PDF pomocí C# a Aspose.PDF pro .NET. |
 | [Přidat stránky do PDF – krok‑za‑krokem průvodce pro vývojáře C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Kompletní krok‑za‑krokem průvodce přidáním stránek do PDF pomocí C# a Aspose.PDF pro .NET. |
 | [Přeskupit stránky PDF v C# – Kompletní krok‑za‑krokem průvodce](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přeskupením stránek PDF pomocí C# a Aspose.PDF pro .NET. |
+| [Přidat Batesovo číslování do PDF pomocí C# – Kompletní průvodce](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí C# a Aspose.PDF pro .NET. |
+| [Duplikovat stránku PDF pomocí Aspose.Pdf – Kompletní průvodce](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Kompletní návod, jak duplikovat stránku v PDF pomocí Aspose.PDF pro .NET. |
+| [Přidat Batesovo číslování do PDF pomocí Aspose.PDF – Kompletní průvodce](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Naučte se, jak přidat Batesovo číslování do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci. |
+| [Změna průhlednosti PDF v C# – krok‑za‑krokem průvodce](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak změnit průhlednost PDF pomocí Aspose.PDF pro .NET v C# s podrobným krok‑za‑krokem návodem. |
+| [Přidat Batesovo číslování PDF pomocí Aspose – průvodce krok za krokem](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí Aspose.PDF pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

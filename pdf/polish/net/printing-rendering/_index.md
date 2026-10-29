@@ -54,6 +54,8 @@ Dowiedz się, jak ustawić niestandardowy współczynnik powiększenia w dokumen
 Dowiedz się, jak renderować pliki PDF w C# do formatu PNG, HTML oraz jak dodawać znaki wodne, korzystając z Aspose.PDF.
 ### [Jak renderować PDF jako PNG w C# – przewodnik krok po kroku](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.PDF .NET konwertować pliki PDF na obrazy PNG w języku C# krok po kroku.
+### [Konwertuj PDF do drukowania przy użyciu Aspose.PDF – przewodnik krok po kroku](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki PDF do formatu gotowego do drukowania przy użyciu Aspose.PDF.
 
 ## Dodatkowe zasoby
 

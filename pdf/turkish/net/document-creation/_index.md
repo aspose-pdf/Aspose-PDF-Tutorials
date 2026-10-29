@@ -16,6 +16,9 @@
 Belge oluşturma eğitimlerimiz, .NET'te programatik olarak PDF dosyaları oluşturmak için kapsamlı rehberlik sağlar. Sıfırdan PDF belgeleri oluşturmayı, şablonları kullanmayı, diğer biçimlerden dönüştürmeyi ve belge düzeyinde özellikleri uygulamayı öğrenmek için bu adım adım kılavuzları izleyin. Bu pratik eğitimler, çeşitli belge oluşturma senaryoları için eksiksiz kod örnekleri içerir ve .NET uygulamalarınızda sağlam PDF oluşturma yetenekleri oluşturmanıza yardımcı olur.
 
 ## Mevcut Eğitimler
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET kullanarak Üç Sayfalı PDF/X‑3 Belgesi Oluşturun" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Aspose.PDF for .NET kullanarak PDF/X‑1 Belgesi Oluşturun" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [.NET için Aspose.PDF Kullanarak PDF Kitapçıkları Oluşturma: Adım Adım Kılavuz](./aspose-pdf-net-create-booklets-tutorial/)
 Aspose.PDF for .NET ile profesyonel PDF kitapçıkları oluşturmayı öğrenin. Bu eğitim kurulum, uygulama ve pratik uygulamaları kapsar.
 
@@ -51,7 +54,6 @@ Aspose.PDF for .NET kullanarak PDF'leri profesyonel kitapçıklara nasıl dönü
 
 ### [Aspose.PDF for .NET ile PDF'ler Nasıl Oluşturulur ve İşlenir: Kapsamlı Bir Kılavuz](./create-manipulate-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak PDF belgelerini nasıl oluşturacağınızı, düzenleyeceğinizi ve geliştireceğinizi öğrenin. PDF'lerinize grafik ve şeffaf metin ekleme konusunda ustalaşın.
-
 ### [Aspose ile Java PDF Oluşturma: .NET Geliştiricileri için Dinamik Görüntü Yönlendirme Kılavuzu](./java-pdf-creation-aspose-dynamic-image-orientation-guide/)
 Aspose.PDF for .NET kullanarak Java tabanlı PDF oluşturmayı otomatikleştirmeyi öğrenin ve boyutlara göre görüntü yönünü dinamik olarak ayarlayın.
 
@@ -114,6 +116,20 @@ C# ve Aspose.PDF ile bellek içinde PDF belgeleri oluşturmayı adım adım öğ
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Tam C# Kılavuzu](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Aspose.PDF for .NET kullanarak C# ile tam kapsamlı PDF belgesi oluşturma adımlarını öğrenin.
 
+### [HEIC'ten PDF Görüntüsü Oluşturma – Tam C# Kılavuzu](./create-pdf-image-from-heic-complete-c-guide/)
+HEIC dosyalarından PDF görüntüsü oluşturmayı adım adım öğrenin, C# kod örnekleriyle uygulayın.
+
+### [Aspose.PDF ile PDF Belgesi Oluşturma – Tam Adım Adım Kılavuz](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aspose.PDF for .NET ile PDF belgesi oluşturmayı baştan sona, ayrıntılı örnek kodlarla adım adım öğrenin.
+
+### [C# ile Bates Numaralandırmalı Yeni PDF Belgesi Oluşturma](./create-new-pdf-document-with-bates-numbering-in-c/)
+Aspose.PDF for .NET kullanarak C# dilinde Bates numaralandırmasıyla PDF belgeleri oluşturmayı öğrenin.
+
+### [PDF/X‑4 Belgesi Oluşturma C# – Adım Adım Kılavuz](./create-pdf-x-4-document-c-step-by-step-guide/)
+PDF/X‑4 standardına uygun PDF belgelerini C# ile oluşturmayı öğrenin.
+### [Boş Sayfa ve Dikdörtgen ile PDF Belgesi Oluşturma](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+C# ile boş bir sayfa ekleyip dikdörtgen çizen basit bir PDF belgesi oluşturun.
+### [C# ile Aspose.Pdf kullanarak PDF belgesi oluşturma](./create-pdf-document-in-c-with-aspose-pdf/)
 ### [Paragraf PDF'si Oluşturma Aspose: Grafik Ekleme ve Sayfa Ekleme](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Aspose.PDF kullanarak paragraf PDF'si oluşturma, grafik ekleme ve sayfa ekleme adımlarını öğrenin.
 

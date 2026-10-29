@@ -16,6 +16,13 @@
 Zvládněte manipulaci s PDF dokumenty s našimi podrobnými tutoriály Aspose.PDF .NET. Tyto podrobné návody ukazují, jak pracovat se strukturou dokumentů, upravovat existující PDF soubory, rozdělovat a slučovat dokumenty, přidávat a odebírat stránky a programově organizovat obsah PDF. Každý tutoriál obsahuje funkční příklady kódu C#, poznámky k implementaci a osvědčené postupy, které vám pomohou vytvářet aplikace, které efektivně manipulují s PDF dokumenty pomocí čistého a snadno udržovatelného kódu.
 
 ## Dostupné tutoriály
+
+{{< tutorial-card link="./compare-pdfs/" title="Porovnejte PDF soubory a vytvořte zvýrazněný diff dokument pomocí Aspose.PDF pro .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Porovnejte PDF formuláře a vygenerujte JSON a vizuální diff pomocí Aspose.Pdf pro .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Porovnejte PDF soubory při ignorování konkrétních oblastí pomocí Aspose.Pdf pro .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Přidání datových a časových razítek do PDF pomocí Aspose.PDF pro .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Naučte se, jak efektivně přidávat datumová a časová razítka nebo anotace do dokumentů PDF pomocí Aspose.PDF pro .NET. Vylepšete správu dokumentů pomocí těchto snadno sledovatelných kroků.
 
@@ -36,6 +43,9 @@ Naučte se, jak přidat zalomení stránek do PDF dokumentů pomocí Aspose.PDF 
 
 ### [Přidání obdélníků a konfigurace stránek PDF pomocí Aspose.PDF .NET: Komplexní průvodce](./aspose-pdf-net-add-rectangles-configure-pages/)
 Zvládněte přidávání obdélníků a konfiguraci stránek v PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto průvodce a naučte se efektivně techniky manipulace s dokumenty.
+
+### [Přidání obdélníku do PDF pomocí C# – Kompletní programovací průvodce](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Naučte se, jak pomocí C# přidat obdélník do PDF dokumentu v tomto kompletním programovacím průvodci.
 
 ### [Aspose.PDF .NET: Nastavení okrajů PDF a úprava záhlaví/zápatí](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Zvládněte umění nastavování okrajů stránek a úpravy záhlaví/zápatí ve vašich PDF souborech s Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete konzistenci rozvržení dokumentu.
@@ -172,7 +182,7 @@ Naučte se, jak rozdělit stránky PDF pomocí Aspose.PDF pro .NET s tímto komp
 ### [Jak oříznout bílé místo z PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./trim-white-space-aspose-pdf-net/)
 Naučte se, jak efektivně ořezávat bílé prostory z PDF dokumentů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, technikami a tipy pro optimalizaci.
 
-### [Jak aktualizovat odkazy v PDF souborech pomocí Aspose.PDF pro .NET: Komplexní průvodce](./update-links-pdfs-aspose-pdf-dotnet/)
+### [Jak aktualizovat odkazy v PDF souborech pomocí Aspose.PDF pro .NET: Kompletní průvodce](./update-links-pdfs-aspose-pdf-dotnet/)
 Naučte se, jak programově aktualizovat odkazy v souborech PDF pomocí Aspose.PDF pro .NET. Automatizujte aktualizace odkazů efektivně s tímto podrobným návodem.
 
 ### [Jak aktualizovat barvu textu odkazu PDF pomocí Aspose.PDF .NET: Kompletní průvodce](./update-pdf-link-text-color-aspose-net/)
@@ -271,7 +281,7 @@ Naučte se, jak efektivně rozdělit PDF soubory z konkrétní stránky pomocí 
 ### [Rozdělení stránek PDF na jednotlivé soubory pomocí Aspose.PDF .NET (tutoriál C#)](./split-pdf-pages-aspose-net-csharp/)
 Naučte se, jak rozdělit soubor PDF na jednotlivé stránky pomocí nástroje Aspose.PDF pro .NET a C#. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
-### [Rozdělení stránek PDF do samostatných souborů pomocí Aspose.PDF pro .NET: Komplexní průvodce](./aspose-pdf-split-pdf-pages-net/)
+### [Rozdělení stránek PDF do samostatných souborů pomocí Aspose.PDF .NET: Komplexní průvodce](./aspose-pdf-split-pdf-pages-net/)
 Naučte se, jak rozdělit stránky PDF do samostatných souborů pomocí Aspose.PDF pro .NET. Tato komplexní příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
 
 ### [Rozdělení a vytváření PDF souborů pomocí Aspose.PDF .NET | Průvodce manipulací s dokumenty](./split-create-pdf-aspose-pdf-net/)
@@ -279,6 +289,12 @@ Naučte se, jak rozdělovat vícestránkové PDF soubory a vytvářet nové PDF 
 
 ### [Jak redigovat PDF v C# – Skrytí textu PDF a odstranění obsahu PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Naučte se, jak v C# pomocí Aspose.PDF skrýt citlivý text a odstranit obsah z PDF dokumentů.
+### [Zploštění vrstev PDF v C# – Průvodce exportem a extrakcí](./flatten-pdf-layers-in-c-export-extract-guide/)
+Naučte se, jak zploštit vrstvy PDF a exportovat nebo extrahovat jejich obsah pomocí Aspose.PDF pro .NET v C#.
+
+Naučte se, jak zploštit PDF soubory pomocí Aspose.PDF v tomto kompletním průvodci.
+### [Uložení upraveného PDF pomocí Aspose.PDF – Kompletní průvodce C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET uložit změněný PDF soubor v C# s podrobnými ukázkami kódu a tipy pro efektivní práci.
 
 ### [Ultimátní průvodce manipulací s PDF pomocí Aspose.PDF .NET: Efektivní načítání, ukládání a nahrazování textu](./master-pdf-manipulation-aspose-pdf-net/)
 Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá načítáním, ukládáním a nahrazováním textu v PDF souborech, což je ideální pro vývojáře, kteří hledají efektivitu.
@@ -286,6 +302,12 @@ Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato p�
 ### [Jak zploštit PDF pomocí Aspose.PDF – Kompletní průvodce](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 ### [Jak odstranit vložená písma v PDF – krok‑po‑kroku průvodce C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Naučte se, jak pomocí Aspose.PDF pro .NET v C# odstranit vložená písma z PDF souborů.
+### [Sloučení vrstev PDF v C# – Jak kombinovat vrstvy PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Naučte se, jak sloučit vrstvy PDF souborů pomocí Aspose.PDF pro .NET v jazyce C#.
+### [Jak opravit PDF soubory pomocí Aspose.PDF – Kompletní průvodce](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Naučte se, jak opravit poškozené PDF soubory pomocí Aspose.PDF v tomto podrobném průvodci.
+### [Uložení aktualizovaného PDF – úprava PDF zdrojů pomocí Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Naučte se, jak uložit změny v PDF a upravit jeho zdroje pomocí Aspose.PDF.
 
 ## Další zdroje
 
@@ -294,6 +316,9 @@ Naučte se, jak porovnat PDF dokumenty pomocí Aspose v podrobném krok za kroke
 
 ### [Jak opravit PDF v C# – rychle opravit poškozené PDF soubory](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Naučte se, jak rychle opravit poškozené PDF soubory v C# pomocí Aspose.PDF .NET.
+
+### [Jak uložit upravený PDF pomocí Aspose.Pdf a přidat průhlednost](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Naučte se, jak uložit upravený PDF soubor a aplikovat průhlednost pomocí Aspose.PDF pro .NET.
 
 ## Další zdroje
 ### [Jak odstranit stránky z PDF pomocí Aspose.PDF .NET: Komplexní průvodce](./delete-pdf-pages-aspose-net/)

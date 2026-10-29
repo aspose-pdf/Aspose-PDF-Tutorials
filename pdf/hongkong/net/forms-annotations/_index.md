@@ -17,6 +17,8 @@
 
 ## 可用教程
 
+
+{{< tutorial-card link="./exclude-annotations/" title="使用 Aspose.Pdf for .NET 進行排除註解的並排 PDF 比較" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [使用 Aspose.Pdf for .NET 向 PDF 新增表單欄位：綜合指南](./add-pdf-form-fields-aspose-pdf-dotnet/)
 了解如何使用 Aspose.PDF for .NET 為 PDF 新增文字、核取方塊、組合方塊、列錶框和多行欄位。本指南涵蓋設定、程式碼範例和整合技巧。
 

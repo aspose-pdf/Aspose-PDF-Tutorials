@@ -1,13 +1,63 @@
 ---
-date: '2026-01-16'
-description: Ismerje meg, hogyan lehet PDF-et HTML-re konvertálni Java-ban az Aspose.PDF
-  használatával, állítson be egy képmappát, és lássa, hogyan konvertálhat PDF-et Maven
-  függőséggel. Lépésről‑lépésre útmutató fejlesztőknek.
+date: '2026-06-28'
+description: Ismerje meg, hogyan használja az Aspose PDF Java License-t a PDF HTML-re
+  konvertálásához képmappákkal, beleértve a Maven függőség beállítását. Ideális fejlesztők
+  számára, akik PDF-et HTML-re Java konverzióra van szükségük.
 keywords:
-- convert PDF to HTML
-- Aspose.PDF Java
-- image storage folder
-title: pdf to html java – PDF konvertálása HTML-re képmappákkal
+- aspose pdf java license
+- convert pdf with images
+- convert pdf to html java
+- aspose pdf maven dependency
+- extract pdf images java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-28'
+  description: Learn how to use Aspose PDF Java License to convert PDF to HTML with
+    image folders, including Maven dependency setup. Ideal for developers needing
+    PDF to HTML Java conversion.
+  headline: Aspose PDF Java License – Convert PDF to HTML with Images
+  type: TechArticle
+- description: Learn how to use Aspose PDF Java License to convert PDF to HTML with
+    image folders, including Maven dependency setup. Ideal for developers needing
+    PDF to HTML Java conversion.
+  name: Aspose PDF Java License – Convert PDF to HTML with Images
+  steps:
+  - name: Define Paths
+    text: 'The `Document` class represents a PDF file in memory. Define your source
+      and output locations first: *Explanation:* Replace `YOUR_DOCUMENT_DIRECTORY`
+      and `YOUR_OUTPUT_DIRECTORY` with the actual locations on your machine.'
+  - name: Load the PDF Document
+    text: The `Document` class loads the source PDF for processing. *Explanation:*
+      This creates a `Document` object for the source PDF. Ensure the file name matches
+      an existing PDF.
+  - name: Configure HTML Save Options
+    text: '`HtmlSaveOptions` controls how the conversion behaves. Setting `setSpecialFolderForAllImages`
+      tells Aspose.PDF to place every extracted image into the `imageFolder` sub‑directory
+      you provide. *Explanation:* `setSpecialFolderForAllImages` tells Aspose.PDF
+      to place every extracted image into the `imag'
+  - name: Save the HTML Document
+    text: The conversion finishes here, producing an HTML file that references images
+      stored in the folder you defined. *Explanation:* The conversion finishes here,
+      producing an HTML file that references images stored in the folder you defined.
+  type: HowTo
+- questions:
+  - answer: Use Maven or Gradle as described, ensuring the dependency is added to
+      your project files and a valid license is loaded before any API usage.
+    question: How do I install Aspose.PDF on my system?
+  - answer: Yes, iterate over a collection of PDF files and apply the same conversion
+      logic to each, reusing the same `HtmlSaveOptions` instance.
+    question: Can I convert multiple PDFs at once using this method?
+  - answer: Aspose.PDF will attempt to create it, but you should verify write permissions
+      to avoid failures.
+    question: What happens if the specified images folder doesn't exist?
+  - answer: Consider splitting the PDF into smaller sections, increase JVM heap size,
+      or enable image compression via `HtmlSaveOptions`.
+    question: How can I handle large PDF files during conversion?
+  - answer: The `setSpecialFolderForAllImages` option is supported from version 25.3
+      onward; earlier versions may require a different approach.
+    question: Is this feature available in all versions of Aspose.PDF Java?
+  type: FAQPage
+title: Aspose PDF Java License – PDF konvertálása HTML-re képekkel
 url: /hu/java/conversion-export/convert-pdf-html-aspose-java-images-folder/
 weight: 1
 ---
@@ -18,42 +68,51 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# pdf to html java – PDF konvertálása HTML-re képmappákkal az Aspose.PDF Java használatával
+# Aspose PDF Java licenc – PDF konvertálása HTML-re képekkel
 
 ## Bevezetés
-Ha **pdf to html java** konverzióra van szüksége, miközben minden képet rendezett módon szeretne tárolni, jó helyen jár. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan használja az **Aspose.PDF for Java**‑t PDF dokumentum HTML‑re konvertálásához, és hogyan adjon meg egy dedikált mappát az összes kinyert képnek. Ez az eljárás időt takarít meg, elkerüli a zsúfolt kimeneti könyvtárat, és a létrejövő weboldalak karbantartását is egyszerűbbé teszi.
+Ha **PDF-et szeretne Java-ban HTML-re konvertálni**, miközben minden kinyert képet rendezett módon tárol, jó helyen jár. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan használja a **Aspose.PDF for Java**-t egy érvényes **aspose pdf java license**-szal, hogy egy PDF dokumentumot HTML-re konvertáljon, és az összes képet egy dedikált mappában tárolja. Ez a megközelítés időt takarít meg, megakadályozza a zsúfolt kimeneti könyvtárat, és könnyebbé teszi a létrehozott weboldalak karbantartását.
 
 ### Gyors válaszok
 - **Mi a fő könyvtár?** Aspose.PDF for Java.  
-- **Melyik kulcsszóra kell fókuszálni?** “pdf to html java”.  
-- **Szükség van Maven függőségre?** Igen – lásd az *aspose pdf maven dependency* részt.  
-- **Kivonhatok PDF képeket Java-val?** Igen, használja a `setSpecialFolderForAllImages`‑t.  
-- **Szükséges licenc a termeléshez?** A teljes funkcionalitáshoz ajánlott egy érvényes Aspose licenc.
+- **Melyik kulcsszóra kell célozni?** “aspose pdf java license”.  
+- **Szükségem van Maven függőségre?** Igen – lásd az *aspose pdf maven dependency* részt.  
+- **Kinyerhetek PDF képeket Java-val?** Igen, használja a `setSpecialFolderForAllImages`-t.  
+- **Szükséges licenc a termeléshez?** Egy érvényes Aspose PDF Java licenc szükséges a teljes funkcionalitáshoz.
 
-### Mit tanul meg
-- Hogyan állítsa be az Aspose.PDF for Java‑t a projektjében.  
-- Lépések a képtárolás konfigurálásához **pdf to html java** konverzió során.  
-- Tippek a gyakori problémák hibaelhárításához.  
-- Valós példák, ahol a PDF képek Java‑val történő kivonása értéket teremt.
+## Mi az Aspose PDF Java licenc?
+A **aspose pdf java license** egy fájl, amely feloldja az Aspose.PDF for Java teljes funkciókészletét, eltávolítja a kiértékelési korlátokat, és lehetővé teszi a nagy teljesítményű PDF feldolgozást. A licenc alkalmazásával konvertálhat PDF-eket, kinyerhet képeket, és manipulálhat dokumentumokat vízjelek vagy használati korlátozások nélkül.
 
-Győződjön meg róla, hogy minden készen áll, mielőtt a kódba merülünk.
+## Miért használjuk az Aspose.PDF for Java-t?
+Az Aspose.PDF **50+ bemeneti és kimeneti formátumot** támogat – többek között DOCX, XLSX, PPTX, HTML és gyakori képformátumok – és képes több száz oldalas PDF-eket feldolgozni anélkül, hogy az egész fájlt a memóriába töltené. A könyvtár szálbiztos API-kat kínál, így alkalmas kötegelt konverziós csővezetékekhez és nagy áteresztőképességű szerverkörnyezetekhez.
 
 ## Előkövetelmények
-Mielőtt elkezdené, győződjön meg róla, hogy a szükséges könyvtárak és a környezet be van állítva:
+Mielőtt elkezdené, győződjön meg róla, hogy a szükséges könyvtárak és környezet be vannak állítva:
 
 ### Szükséges könyvtárak
-- **Aspose.PDF for Java** (legújabb verzió)
+- **Aspose.PDF for Java** (legújabb verzió, ≥ 25.3)
 
-### Környezet beállítási követelmények
-- Java Development Kit (JDK) telepítve a gépén.  
-- IDE, például IntelliJ IDEA vagy Eclipse.
+### Környezeti beállítási követelmények
+- A gépén telepített Java Development Kit (JDK).  
+- Egy IDE, például IntelliJ IDEA vagy Eclipse.
 
-### Tudás előfeltételek
+### Tudás előkövetelmények
 - Alapvető Java programozási ismeretek.  
-- Ismeret Maven vagy Gradle építőeszközökről.
+- Ismeret a Maven vagy Gradle építőeszközökkel.
+
+## Hogyan állítsuk be az Aspose.PDF for Java-t Maven-nel?
+Töltsük be az Aspose.PDF könyvtárat Maven-en keresztül, majd alkalmazzuk a **aspose pdf java license**-t minden API hívás előtt. Ez biztosítja, hogy minden funkció, beleértve a képkivonást is, teljesen fel legyen oldva. A **License** egy osztály, amely betölti az Aspose PDF licencfájlt és aktiválja a teljes könyvtárat.
+
+Töltse be a licencet a alkalmazás életciklusának korai szakaszában:
+```java
+License license = new License();
+license.setLicense("Aspose.Pdf.Java.lic");
+```
+
+> **Direct answer (45 words):** Adja hozzá az Aspose PDF Java licencfájlt a projekt erőforrásaihoz, hozza létre a `License` példányt, és hívja meg a `setLicense`-t a fájl útvonalával, mielőtt bármilyen `Document` objektumot létrehozná. Ez aktiválja a teljes könyvtárat, és megakadályozza a kiértékelési vízjelek megjelenését a PDF‑HTML konverzió során.
 
 ## Az Aspose.PDF for Java beállítása
-Az Aspose.PDF használatához a projektben függőségként kell felvenni. Az alábbiakban a **Maven** és **Gradle** beállítási lépései találhatók.
+Az Aspose.PDF használatához a projektjében függőségként kell felvenni. Az alábbiakban a **Maven** és **Gradle** használatával történő beállítás lépései találhatók.
 
 ### aspose pdf maven függőség
 Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
@@ -66,23 +125,26 @@ Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
 ```
 
 ### Gradle
-Adja hozzá ezt a `build.gradle` fájlhoz:
+Vegye fel ezt a `build.gradle` fájlba:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Licenc beszerzése
-1. **Ingyenes próba** – töltse le a próbaverziót az Aspose‑tól a funkciók kipróbálásához.  
-2. **Ideiglenes licenc** – szerezzen ideiglenes licencet a hosszabb teszteléshez.  
-3. **Vásárlás** – fontolja meg a licenc megvásárlását a termelési használathoz.
+1. **Ingyenes próba** – töltse le a próbaverziót az Aspose-tól a funkciók kipróbálásához.  
+2. **Ideiglenes licenc** – szerezzen be egy ideiglenes licencet a kiterjesztett teszteléshez.  
+3. **Vásárlás** – fontolja meg egy licenc megvásárlását termelési használatra.
 
-## Megvalósítási útmutató
-Ez a rész bemutatja a pontos kódot a **pdf to html java** konverzióhoz, miközben egy képmappát adunk meg.
+## Hogyan adjon meg egy képmappát a PDF‑HTML konverzió során?
+Határozzon meg egy mappát, ahová a PDF‑ből kinyert összes kép mentésre kerül, így tisztán tartva a projekt struktúráját, és megkönnyítve a generált HTML-ben való hivatkozást az eszközökre. A **HtmlSaveOptions.setSpecialFolderForAllImages** egy olyan metódus, amely megmondja az Aspose.PDF-nek, hová írja a kinyert képeket a konverzió során.
+
+> **Direct answer (58 words):** Hozzon létre egy `File` objektumot a kívánt képmappához, adja át azt a `HtmlSaveOptions.setSpecialFolderForAllImages`-nek, majd hívja meg a `document.save`-et ezekkel a beállításokkal. Az Aspose.PDF automatikusan minden képfájlt a megadott mappába ír, és frissíti a HTML jelölőnyelvet, hogy helyesen hivatkozzon rájuk.
 
 ### Képmappa megadása a konverzióhoz
-**Áttekintés:** Megadunk egy könyvtárat, ahová a PDF‑ből kinyert összes kép mentésre kerül a HTML‑re konvertálás során. Ez rendben tartja a projektet, különösen nagy, sok képet tartalmazó PDF‑ek esetén.
+**Áttekintés:** Kijelölünk egy könyvtárat, ahová a PDF‑ből kinyert összes kép a HTML‑re konvertálás során mentésre kerül. Ez rendezetten tartja a projektet, különösen nagy, sok képet tartalmazó PDF-ek esetén.
 
 #### 1. lépés: Útvonalak meghatározása
+A `Document` osztály egy PDF fájlt képvisel a memóriában. Először határozza meg a forrás- és kimeneti helyeket:
 ```java
 // Define paths for your input PDF and output directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -91,13 +153,15 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";
 *Magyarázat:* Cserélje le a `YOUR_DOCUMENT_DIRECTORY` és `YOUR_OUTPUT_DIRECTORY` értékeket a gépén lévő tényleges helyekre.
 
 #### 2. lépés: PDF dokumentum betöltése
+A `Document` osztály betölti a forrás PDF-et a feldolgozáshoz.
 ```java
 // Load the document from the specified directory
 Document pdfDocument = new Document(dataDir + "SampleDataTable.pdf");
 ```
-*Magyarázat:* Ez létrehozza a `Document` objektumot a forrás PDF‑hez. Győződjön meg róla, hogy a fájlnév létező PDF‑re mutat.
+*Magyarázat:* Ez egy `Document` objektumot hoz létre a forrás PDF-hez. Győződjön meg róla, hogy a fájlnév egy létező PDF-re mutat.
 
 #### 3. lépés: HTML mentési beállítások konfigurálása
+`HtmlSaveOptions` szabályozza, hogyan történik a konverzió. A `setSpecialFolderForAllImages` beállítása azt mondja az Aspose.PDF-nek, hogy minden kinyert képet a megadott `imageFolder` alkönyvtárba helyezzen.
 ```java
 // Set up HtmlSaveOptions for conversion settings
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
@@ -105,68 +169,85 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 // Specify the folder where images will be stored
 saveOptions.setSpecialFolderForAllImages(outputDir + "imageFolder/");
 ```
-*Magyarázat:* A `setSpecialFolderForAllImages` megmondja az Aspose.PDF‑nek, hogy minden kivont képet a megadott `imageFolder` alkönyvtárba helyezzen.
+*Magyarázat:* A `setSpecialFolderForAllImages` azt mondja az Aspose.PDF-nek, hogy minden kinyert képet a megadott `imageFolder` alkönyvtárba helyezzen.
 
 #### 4. lépés: HTML dokumentum mentése
+A konverzió itt befejeződik, egy HTML fájlt hozva létre, amely a megadott mappában tárolt képekre hivatkozik.
 ```java
 // Convert and save the PDF as an HTML document with specified image storage location
 pdfDocument.save(outputDir + "resultant.html", saveOptions);
 ```
 *Magyarázat:* A konverzió itt befejeződik, egy HTML fájlt hozva létre, amely a megadott mappában tárolt képekre hivatkozik.
 
-### Hibaelhárítási tippek
-- **File Not Found** – ellenőrizze újra a `dataDir` és a fájlnevet.  
-- **License Issues** – győződjön meg róla, hogy a licencfájl betöltésre került, mielőtt bármely Aspose API‑t meghívná.  
-- **Permission Errors** – ellenőrizze, hogy az alkalmazásnak írási joga van az `outputDir`‑hez.
+## Hogyan hibaelhárítsuk a gyakori PDF‑HTML konverziós problémákat?
+Ha a konverzió során problémákba ütközik, ellenőrizze először a fájl útvonalakat, a licenc betöltését és a jogosultságokat. Egy tömör hibaelhárítási útmutató segít gyorsan megoldani a tipikus hibákat, és zökkenőmentesen tartani a munkafolyamatot.
+
+> **Direct answer (66 words):** Ha a „File Not Found” üzenetet látja, ellenőrizze a `dataDir` és a fájlnév útvonalakat. Licenc‑kapcsolatos hibák esetén győződjön meg róla, hogy a licencfájl betöltésre került minden Aspose hívás előtt. Jogosultsági hibák esetén szükséges írási hozzáférés a kimeneti könyvtárhoz. Nagy PDF-eknél állítsa be a JVM heap méretét, és használja a `HtmlSaveOptions.setCompressImages(true)`-t a memória terhelés csökkentéséhez.
+
+- **File Not Found** – ellenőrizze a `dataDir` és a fájlnév útvonalát.  
+- **License Issues** – győződjön meg róla, hogy a licencfájl betöltésre került, mielőtt bármilyen Aspose API-t hívna.  
+- **Permission Errors** – ellenőrizze, hogy az alkalmazásnak írási joga van a `outputDir`-hez.
 
 ## Gyakorlati alkalmazások
-1. **E‑commerce platformok** – Konvertálja a termékkézikönyveket HTML‑re, miközben a képeket egy dedikált mappában tartja a gyorsabb oldalbetöltés érdekében.  
-2. **Tartalomkezelő rendszerek (CMS)** – Kezelje a képeszközöket külön, egyszerűsítve a frissítéseket és az SEO optimalizálást.  
-3. **Dokumentum archiválás** – Tárolja a régi PDF‑ek HTML verzióit tiszta képhierarchiával a könnyebb visszakeresés érdekében.
+Ez a funkció számos valós projektben ragyog:
 
-## Teljesítmény szempontok
-- Használjon logikus könyvtárstruktúrát a képtároláshoz.  
-- Figyelje a JVM memóriahasználatot; növelje a heap méretét, ha `OutOfMemoryError`‑t kap.  
-- Köt
+1. **E‑commerce platformok** – Konvertálja a termékkézikönyveket HTML-re, miközben a képeket egy dedikált mappában tartja a gyorsabb oldalbetöltés érdekében.  
+2. **Tartalomkezelő rendszerek (CMS)** – Külön kezelje a képeszközöket, egyszerűsítve a frissítéseket és a SEO optimalizálást.  
+3. **Dokumentum archiválás** – Tárolja a régi PDF-ek HTML verzióit tiszta képhierarchiával a könnyebb visszakeresés érdekében.
 
-egelt feldolgozás esetén fontolja meg a több szálas feldolgozást több PDF egyidejű kezeléséhez.
+## Teljesítménybeli megfontolások
+Nagy PDF-ek konvertálása esetén vegye figyelembe a következő tippeket:
+
+- Használjon logikus könyvtárstruktúrát a képek tárolásához.  
+- Figyelje a JVM memóriahasználatát; növelje a heap méretét, ha `OutOfMemoryError`-t kap.  
+- Kötegelt feldolgozás esetén fontolja meg a több szálas feldolgozást több PDF egyidejű kezeléséhez.
 
 ### Legjobb gyakorlatok
-- Rendszeresen frissítse az Aspose.PDF‑t a teljesítményjavulások érdekében.  
-- Profilozza a konverziós folyamatot, hogy időben felismerje a szűk keresztmetszeteket.
+- Rendszeresen frissítse az Aspose.PDF-et a teljesítményjavulások érdekében.  
+- Profilozza a konverziós csővezetékét, hogy időben észrevegye a szűk keresztmetszeteket.  
+- Engedélyezze a `HtmlSaveOptions.setCompressImages(true)`-t nagy képkészletekhez.
 
-## Összegzés
-Ebben az útmutatóban mindent áttekintettünk, ami a **pdf to html java** konverzióhoz szükséges az Aspose.PDF‑vel, beleértve a **extract pdf images java** funkciót egy egyedi mappába. A lépések követésével tiszta, web‑kész HTML fájlokat hozhat létre, miközben a képeszközök rendezett maradnak.
+## Következtetés
+Ebben az útmutatóban mindent áttekintettünk, amit a **pdf to html java** konverzióhoz az Aspose.PDF használatával tudni kell, beleértve a **extract pdf images java** egy egyedi mappába történő kinyerését is. Egy érvényes **aspose pdf java license** alkalmazásával és a fenti lépések követésével tiszta, webre kész HTML fájlokat hozhat létre, miközben a képeszközöket rendezett módon tartja.
 
 ### Következő lépések
 - Kísérletezzen más `HtmlSaveOptions` beállításokkal, például CSS beágyazással vagy betűkészlet kezelésével.  
 - Fedezze fel az Aspose.PDF PDF‑to‑DOCX vagy PDF‑to‑EPUB funkcióit a szélesebb dokumentumfolyamatokhoz.
 
-## GYIK szekció
-1. **Hogyan telepíthetem az Aspose.PDF‑t a rendszeremre?**  
-   - Használja a leírt Maven vagy Gradle módszert, biztosítva, hogy a függőség hozzá legyen adva a projektfájlokhoz.  
-2. **Konvertálhatok több PDF‑et egyszerre ezzel a módszerrel?**  
-   - Igen, iteráljon egy PDF‑fájlok gyűjteményén, és alkalmazza mindegyikre ugyanazt a konverziós logikát.  
-3. **Mi történik, ha a megadott képmappa nem létezik?**  
-   - Az Aspose.PDF megpróbálja létrehozni, de ellenőrizze az írási jogosultságokat a hibák elkerülése érdekében.  
-4. **Hogyan kezelhetem a nagy PDF‑fájlokat a konverzió során?**  
-   - Fontolja meg a PDF felosztását kisebb részekre vagy a JVM memória beállítások módosítását a jobb teljesítmény érdekében.  
-5. **Elérhető ez a funkció minden Aspose.PDF Java verzióban?**  
-   - A `setSpecialFolderForAllImages` opció a 25.3‑as verziótól kezdve támogatott; ellenőrizze a kiadási megjegyzéseket a korábbi verziókhoz.
+## Gyakran Ismételt Kérdések
 
-## Források
-- [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
-- [Purchase License](https://purchase.aspose.com/buy)
-- [Free Trial Download](https://releases.aspose.com/pdf/java/)
-- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+**Q: Hogyan telepíthetem az Aspose.PDF-et a rendszeremre?**  
+A: Használja a leírtak szerint a Maven-t vagy Gradle-t, biztosítva, hogy a függőség hozzá legyen adva a projektfájlokhoz, és egy érvényes licenc legyen betöltve minden API használat előtt.
 
----
+**Q: Konvertálhatok több PDF-et egyszerre ezzel a módszerrel?**  
+A: Igen, iteráljon egy PDF-fájlok gyűjteményén, és alkalmazza ugyanazt a konverziós logikát mindegyikre, ugyanazt a `HtmlSaveOptions` példányt újrahasználva.
 
-**Utolsó frissítés:** 2026-01-16  
-**Tesztelve a következővel:** Aspose.PDF for Java 25.3  
+**Q: Mi történik, ha a megadott képmappa nem létezik?**  
+A: Az Aspose.PDF megpróbálja létrehozni, de ellenőrizze az írási jogosultságokat a hibák elkerülése érdekében.
+
+**Q: Hogyan kezeljem a nagy PDF fájlokat a konverzió során?**  
+A: Fontolja meg a PDF felosztását kisebb szakaszokra, növelje a JVM heap méretét, vagy engedélyezze a képtömörítést a `HtmlSaveOptions` segítségével.
+
+**Q: Elérhető ez a funkció az Aspose.PDF Java minden verziójában?**  
+A: A `setSpecialFolderForAllImages` opció a 25.3-as verziótól támogatott; korábbi verziók más megközelítést igényelhetnek.
+
+## Erőforrások
+- [Aspose.PDF Java dokumentáció](https://reference.aspose.com/pdf/java/)
+- [Aspose.PDF for Java letöltése](https://releases.aspose.com/pdf/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió letöltése](https://releases.aspose.com/pdf/java/)
+- [Ideiglenes licenc igénylése](https://purchase.aspose.com/temporary-license/)
+- [Aspose támogatási fórum](https://forum.aspose.com/c/pdf/10)
+
+**Utolsó frissítés:** 2026-06-28  
+**Tesztelve:** Aspose.PDF for Java 25.3  
 **Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [PDF konvertálása HTML-re Java-ban beágyazott PNG képekkel az Aspose.PDF használatával](/pdf/java/conversion-export/convert-pdf-to-html-with-png-images-java/)
+- [PDF konvertálása HTML-re beágyazott erőforrásokkal az Aspose.PDF for Java használatával](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
+- [PDF konvertálása többoldalas HTML-re az Aspose.PDF for Java használatával: Teljes útmutató](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

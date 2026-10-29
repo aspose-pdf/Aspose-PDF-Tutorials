@@ -25,6 +25,8 @@ Learn how to enhance your PDF documents by adding colored line layers using Aspo
 
 ### [Edit PDF Transparency in C# – Step‑by‑Step Guide](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Learn how to edit PDF transparency using Aspose.PDF for .NET with C#, including setting opacity and blending modes.
+### [Add Transparency to PDF with Aspose.Pdf – Complete .NET Guide](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Learn how to apply transparency effects to PDF elements using Aspose.PDF for .NET with step-by-step code examples.
 
 ### [Aspose.PDF .NET&#58; Enhancing PDF Accessibility through Tagging](./aspose-pdf-net-accessible-tagging-guide/)
 Learn how to use Aspose.PDF .NET for accessible tagging in PDFs. Set titles, languages, and logical structures easily.
@@ -72,6 +74,11 @@ Learn how to compare two PDFs in C# using Aspose.PDF for .NET and generate a vis
 Learn how to perform OCR on PDF files using Aspose.PDF for .NET with a complete C# implementation guide.
 ### [Save Each PDF Layer with Aspose.Pdf – Step‑by‑Step Guide](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
 Learn how to extract and save individual PDF layers using Aspose.PDF for .NET with this detailed step‑by‑step guide.
+### [Compare PDF Documents with Aspose.Pdf – Complete Visual Diff Guide](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Learn how to compare PDF documents and generate a visual diff using Aspose.PDF for .NET with step-by-step C# examples.
+
+### [Compare Two PDF Documents – Complete C# Guide](./compare-two-pdf-documents-complete-c-guide/)
+Learn how to compare two PDF files using Aspose.PDF for .NET with a complete C# guide, covering code examples and visual diff generation.
 
 ## Additional Resources
 

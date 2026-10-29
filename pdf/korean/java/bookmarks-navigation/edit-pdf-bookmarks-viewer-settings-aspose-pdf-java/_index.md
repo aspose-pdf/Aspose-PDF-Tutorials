@@ -56,10 +56,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Java에서 단일 페이지 보기 PDF – 레이아웃 변경 및 북마크 편집
 
 ## 소개
@@ -252,6 +252,8 @@ A: Re‑calculate destinations using the current page indices after any structur
 - [PDF Bookmarks and Navigation Tutorials for Aspose.PDF Java](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

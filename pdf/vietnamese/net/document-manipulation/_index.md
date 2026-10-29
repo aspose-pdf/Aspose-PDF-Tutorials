@@ -17,6 +17,13 @@ Làm chủ thao tác tài liệu PDF với hướng dẫn chi tiết về Aspose
 
 ## Hướng dẫn có sẵn
 
+
+{{< tutorial-card link="./compare-pdfs/" title="So sánh PDF và Tạo Tài liệu Diff Nổi Bật Sử dụng Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="So sánh các biểu mẫu PDF và tạo JSON & Diff trực quan bằng Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="So sánh PDF trong khi bỏ qua các khu vực cụ thể bằng Aspose.Pdf cho .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Thêm Dấu Ngày & Giờ vào PDF Sử dụng Aspose.PDF cho .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Tìm hiểu cách thêm ngày tháng và thời gian hoặc chú thích hiệu quả vào tài liệu PDF của bạn bằng Aspose.PDF cho .NET. Nâng cao khả năng quản lý tài liệu bằng các bước dễ thực hiện sau.
 
@@ -37,6 +44,9 @@ Tìm hiểu cách thêm ngắt trang trong tài liệu PDF bằng Aspose.PDF cho
 
 ### [Thêm hình chữ nhật và định cấu hình trang PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./aspose-pdf-net-add-rectangles-configure-pages/)
 Làm chủ việc thêm hình chữ nhật và cấu hình các trang trong PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn này để tìm hiểu các kỹ thuật thao tác tài liệu hiệu quả.
+
+### [Thêm Hình Chữ Nhật vào PDF bằng C# – Hướng Dẫn Lập Trình Toàn Diện](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Tìm hiểu cách thêm hình chữ nhật vào tài liệu PDF bằng C# với Aspose.PDF .NET trong hướng dẫn lập trình toàn diện này.
 
 ### [Aspose.PDF .NET: Thiết lập lề PDF & Tùy chỉnh tiêu đề/chân trang](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Làm chủ nghệ thuật thiết lập lề trang và tùy chỉnh tiêu đề/chân trang trong tệp PDF của bạn với Aspose.PDF cho .NET. Thực hiện theo hướng dẫn chi tiết này để tăng cường tính nhất quán của bố cục tài liệu.
@@ -80,7 +90,7 @@ Tìm hiểu cách tối ưu hóa tệp PDF bằng cách loại bỏ các đối 
 ### [Xử lý trang PDF hiệu quả với Aspose.PDF cho .NET: Hướng dẫn dành cho nhà phát triển](./manipulate-pdf-pages-aspose-dot-net/)
 Học cách thao tác hiệu quả các trang PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm xoay, thu phóng và thiết lập gốc mà không cần Adobe Acrobat.
 
-### [Kết hợp hiệu quả các trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn phương pháp N-Up](./combine-pdf-pages-aspose-net-nup-method/)
+### [Kết hợp hiệu quả các trang PDF bằng Aspose.PDF cho .NET: Hướng pháp N-Up](./combine-pdf-pages-aspose-net-nup-method/)
 Tìm hiểu cách kết hợp các trang PDF hiệu quả bằng phương pháp N-Up với Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
 ### [Xóa trang khỏi PDF hiệu quả bằng Aspose.PDF cho .NET](./delete-pages-pdf-aspose-dotnet/)
@@ -149,9 +159,6 @@ Tìm hiểu cách nối các tài liệu PDF và chèn các trang trống bằng
 ### [Cách chuyển đổi kích thước trang PDF sang A4 bằng Aspose.PDF .NET | Hướng dẫn thao tác tài liệu](./update-pdf-page-dimensions-aspose-net/)
 Tìm hiểu cách cập nhật kích thước trang PDF thành A4 bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để chuẩn hóa tài liệu của bạn một cách hiệu quả.
 
-### [Cách đếm số trang trong PDF bằng Aspose.PDF cho .NET (Hướng dẫn C#)](./mastering-aspose-pdf-net-get-page-count/)
-Tìm hiểu cách đếm số trang trong PDF bằng Aspose.PDF cho .NET với hướng dẫn C# từng bước này. Làm chủ thao tác tài liệu dễ dàng.
-
 ### [Cách tùy chỉnh PDF bằng Aspose.PDF cho .NET: Thiết lập lề trang và vẽ đường](./customize-pdfs-aspose-pdf-set-margins-draw-lines/)
 Tìm hiểu cách tùy chỉnh PDF bằng Aspose.PDF cho .NET bằng cách thiết lập lề trang và vẽ đường. Hoàn hảo cho các nhà phát triển muốn cải thiện định dạng tài liệu.
 
@@ -198,7 +205,7 @@ Tìm hiểu cách loại bỏ các hành động mở không mong muốn khỏi 
 Tìm hiểu cách chia các trang PDF thành từng tệp riêng lẻ một cách hiệu quả bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Nâng cao kỹ năng thao tác tài liệu của bạn ngay hôm nay.
 
 ### [Cách chia trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./split-pdf-pages-aspose-pdf-net/)
-Tìm hiểu cách tách các trang cụ thể từ PDF thành các tệp riêng biệt bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cách xử lý và thiết lập luồng.
+Tìm hiểu cách tách các trang PDF thành các tệp riêng biệt bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cách xử lý và thiết lập luồng.
 
 ### [Cách chia trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./split-pdf-pages-aspose-pdf-net-guide/)
 Tìm hiểu cách chia trang PDF bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Làm chủ thao tác tài liệu trong C# và tối ưu hóa quy trình làm việc của bạn.
@@ -245,7 +252,7 @@ Tìm hiểu cách tự động hóa các tác vụ PDF bằng Aspose.PDF cho .NE
 ### [Làm chủ thao tác PDF với Aspose.PDF .NET: Tải và chỉnh sửa tài liệu dễ dàng](./mastering-pdf-manipulation-aspose-dotnet/)
 Tìm hiểu cách làm chủ việc tải, điều hướng và sửa đổi tài liệu PDF bằng thư viện Aspose.PDF .NET mạnh mẽ. Nâng cao ứng dụng của bạn ngay hôm nay!
 
-### [Làm chủ thao tác PDF với Aspose.PDF .NET: Hướng dẫn tải, tìm kiếm, chú thích](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
+### [Làm chủ thao tác PDF với Aspose.PDF .NET: Tải, tìm kiếm, chú thích](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Học cách thành thạo thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm tải tài liệu, tìm kiếm văn bản và áp dụng chú thích như gạch bỏ.
 
 ### [Cách làm phẳng PDF với Aspose.PDF – Hướng dẫn đầy đủ](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
@@ -255,9 +262,10 @@ Tìm hiểu cách làm phẳng tài liệu PDF, loại bỏ các lớp tương t
 Tìm hiểu cách so sánh các tệp PDF bằng Aspose trong .NET qua các bước chi tiết.
 
 ### [Làm chủ thao tác PDF với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
+### [Làm chủ thao tác PDF với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./mastering-pdf-manipulation-aspose-pdf-net/)
 Tìm hiểu cách tạo, sửa đổi, hợp nhất và trích xuất dữ liệu hiệu quả từ PDF bằng Aspose.PDF cho .NET. Cải thiện quy trình làm việc tài liệu của bạn và nâng cao năng suất.
 
-### [Làm chủ việc đếm số trang PDF với Aspose.PDF cho .NET: Hướng dẫn đầy đủ](./mastering-pdf-manipulation-aspose-pdf-net/)
+### [Làm chủ việc đếm số trang PDF với Aspose.PDF cho .NET: Hướng dẫn đầy đủ](./mastering-aspose-pdf-net-get-page-count/)
 Tìm hiểu cách truy xuất và sửa đổi số lượng trang PDF hiệu quả bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
 ### [Làm chủ Aspose.PDF .NET: Tích hợp LaTeX liền mạch vào các bảng và ô PDF](./integrate-latex-aspose-pdf-dotnet/)
@@ -329,6 +337,18 @@ Tìm hiểu cách sửa các tệp PDF bị hỏng nhanh chóng bằng C# và As
 Tìm hiểu cách xóa thông tin nhạy cảm khỏi tài liệu PDF bằng Aspose PDF cho .NET trong C# qua hướng dẫn chi tiết từng bước.
 ### [Cách Xóa Phông chữ Nhúng trong PDF – Hướng dẫn từng bước C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Tìm hiểu cách xóa phông chữ nhúng khỏi PDF bằng Aspose.PDF cho .NET qua hướng dẫn C# chi tiết từng bước.
+### [Làm phẳng các lớp PDF trong C# – Hướng dẫn xuất & trích xuất](./flatten-pdf-layers-in-c-export-extract-guide/)
+
+### [So sánh PDF trực quan trong C# – Hướng dẫn đầy đủ để so sánh hai PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+### [Cách Sửa Các Tệp PDF Với Aspose.Pdf – Hướng Dẫn Toàn Diện](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Tìm hiểu cách khắc phục lỗi và sửa chữa tệp PDF bị hỏng bằng Aspose.Pdf trong .NET với hướng dẫn chi tiết.
+### [Lưu PDF Đã Cập Nhật – Chỉnh sửa Tài Nguyên PDF với Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Hướng dẫn cách lưu tài liệu PDF đã chỉnh sửa và cập nhật tài nguyên PDF bằng Aspose.Pdf trong .NET.
+### [Lưu PDF đã chỉnh sửa bằng Aspose.PDF – Hướng dẫn C# đầy đủ](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Tìm hiểu cách lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF trong C# với hướng dẫn chi tiết và ví dụ thực tế.
+
+### [Cách lưu PDF đã chỉnh sửa với Aspose.PDF và thêm độ trong suốt](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Tìm hiểu cách lưu PDF đã chỉnh sửa và áp dụng hiệu ứng trong suốt bằng Aspose.PDF cho .NET.
 
 ## Tài nguyên bổ sung
 
@@ -337,6 +357,8 @@ Tìm hiểu cách xóa phông chữ nhúng khỏi PDF bằng Aspose.PDF cho .NET
 - [Tải xuống Aspose.PDF cho Net](https://releases.aspose.com/pdf/net/)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+### [Kết hợp các lớp PDF trong C# – Cách ghép các lớp PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Tìm hiểu cách hợp nhất các lớp PDF thành một tệp duy nhất bằng Aspose.PDF cho .NET trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

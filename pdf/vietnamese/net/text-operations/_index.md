@@ -38,7 +38,7 @@ Tìm hiểu cách tạo và tùy chỉnh tài liệu PDF có đường viền v�
 ### [Thay thế văn bản PDF hiệu quả trong .NET bằng Aspose.PDF: Hướng dẫn từng bước](./net-pdf-text-replacement-aspose-pdf-guide/)
 Tìm hiểu cách thay thế văn bản hiệu quả trong các tệp PDF bằng Aspose.PDF cho .NET. Hợp lý hóa quy trình làm việc tài liệu của bạn với hướng dẫn toàn diện này.
 
-### [Nhúng Phông chữ Tùy chỉnh vào PDF Sử dụng Aspose.PDF cho .NET: Hướng dẫn Đầy đủ](./embed-fonts-aspose-pdf-net-tutorial/)
+### [Nhúng Phông chữ Tùy chỉnh vào PDF Sử dụng Aspose.PDF cho .NET: Hướng Dẫn Đầy đủ](./embed-fonts-aspose-pdf-net-tutorial/)
 Tìm hiểu cách nhúng phông chữ tùy chỉnh vào tài liệu PDF của bạn một cách liền mạch bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn toàn diện này để đảm bảo tính nhất quán của thương hiệu trên các nền tảng.
 
 ### [Nhúng Phông chữ vào PDF Sử dụng Aspose.PDF cho .NET: Hướng dẫn từng bước](./embed-fonts-aspose-pdf-net-guide/)
@@ -71,7 +71,7 @@ Tìm hiểu cách trích xuất văn bản từ PDF bằng Aspose.PDF cho .NET v
 ### [Trích xuất văn bản từ các trang cụ thể trong PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./extract-text-aspose-pdf-net-specific-pages/)
 Tìm hiểu cách trích xuất văn bản hiệu quả từ các trang cụ thể của PDF bằng Aspose.PDF .NET. Làm theo hướng dẫn chi tiết này để biết mẹo thiết lập, triển khai và tối ưu hóa.
 
-### [Trích xuất văn bản từ chú thích tem bằng Aspose.PDF .NET: Hướng dẫn toàn diện cho nhà phát triển C#](./extract-text-aspose-pdf-net-stamp-annotations/)
+### [Trích xuất văn bản từ PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện cho nhà phát triển C#](./extract-text-aspose-pdf-net-stamp-annotations/)
 Tìm hiểu cách trích xuất văn bản hiệu quả từ chú thích tem trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
 ### [Trích xuất văn bản từ các cột PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./pdf-column-text-extraction-aspose-dotnet/)
@@ -140,6 +140,9 @@ Tìm hiểu cách xoay và tùy chỉnh văn bản hiệu quả trong tài liệ
 ### [Làm chủ tìm kiếm văn bản PDF với Regex bằng Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
 Hướng dẫn mã cho Aspose.PDF Net
 
+### [Cách tìm kiếm PDF bằng Aspose.Pdf – Hướng Dẫn Toàn Diện C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Tìm hiểu cách tìm kiếm nội dung trong PDF bằng Aspose.Pdf cho .NET với hướng dẫn chi tiết bằng C#.
+
 ### [Làm chủ việc xoay văn bản trong PDF bằng Aspose.PDF cho .NET: Hướng dẫn đầy đủ](./rotate-text-pdf-aspose-dotnet/)
 Tìm hiểu cách xoay văn bản trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn toàn diện này bao gồm thiết lập, ví dụ mã và ứng dụng thực tế.
 
@@ -161,11 +164,22 @@ Tìm hiểu cách tối ưu hóa phông chữ PDF bằng Aspose.PDF .NET, sắp 
 ### [Thay thế phông chữ trong PDF bằng Aspose.PDF cho .NET](./replace-fonts-pdf-aspose-dotnet-guide/)
 Hướng dẫn mã cho Aspose.PDF Net
 
-### [Định dạng văn bản trong tệp PDF được gắn thẻ bằng Aspose.PDF cho .NET | Hướng dẫn tạo PDF dễ tiếp cận và thẩm mỹ](./style-text-tagged-pdfs-aspose-pdf-net/)
-Tìm hiểu cách định dạng văn bản trong các tài liệu PDF được gắn thẻ với Aspose.PDF cho .NET. Hướng dẫn này bao gồm cài đặt, kỹ thuật và ứng dụng thực tế để tăng cường khả năng truy cập.
+### [Cách tóm tắt PDF với Aspose.Pdf.AI – hướng dẫn đầy đủ](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Tìm hiểu cách tóm tắt nội dung PDF một cách tự động bằng Aspose.Pdf.AI trong .NET.
+
+### [AI chat PDF: Đặt câu hỏi về PDF với Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Khám phá cách hỏi đáp nội dung PDF bằng Aspose AI Copilot trong .NET.
 
 ### [Cách xóa nhạy cảm PDF với Aspose – Hướng dẫn từng bước](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Tìm hiểu cách xóa thông tin nhạy cảm khỏi tài liệu PDF một cách an toàn bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
+### [Cách tóm tắt PDF với Aspose.Pdf.AI – hướng dẫn](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Pdf.AI để tóm tắt nội dung PDF một cách nhanh chóng và hiệu quả.
+
+### [Định dạng văn bản trong tệp PDF được gắn thẻ bằng Aspose.PDF cho .NET | Hướng dẫn tạo PDF dễ tiếp cận và thẩm mỹ](./style-text-tagged-pdfs-aspose-pdf-net/)
+Tìm hiểu cách định dạng văn bản trong các tài liệu PDF được gắn thẻ với Aspose.PDF cho .NET. Hướng dẫn này bao gồm cài đặt, kỹ thuật và ứng dụng thực tế để tăng cường khả năng truy cập.
+
+### [Cách chuyển PDF thành tóm tắt với Aspose.Pdf.AI trong C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Hướng dẫn từng bước để sử dụng Aspose.Pdf.AI chuyển đổi tài liệu PDF thành bản tóm tắt trong C#.
 
 ## Tài nguyên bổ sung
 

@@ -19,6 +19,9 @@ O tutorial Programação com Segurança e Assinaturas apresenta os recursos de s
 Este tutorial oferece uma visão geral detalhada de métodos e técnicas para garantir a confidencialidade e a autenticidade dos seus arquivos PDF. Você aprenderá a gerenciar certificados digitais, adicionar permissões de segurança, aplicar políticas de segurança e muito mais. Com estes tutoriais, você poderá proteger seus documentos PDF de forma confiável e profissional.
 
 ## Tutoriais
+
+{{< tutorial-card link="./encrypt-pdf/" title="Criptografar PDF com Senhas de Usuário e Proprietário Usando Aspose.PDF para .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Título | Descrição |
 | --- | --- | 
 | [Alterar senha em arquivo PDF](./change-password/) | Aprenda a alterar senhas de PDF facilmente usando o Aspose.PDF para .NET. Nosso guia passo a passo orienta você durante o processo com segurança. |  
@@ -44,6 +47,8 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Como Ler Assinaturas em um PDF – Guia Completo em C#](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Aprenda a ler assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
 | [Como Verificar Assinaturas PDF em C# – Guia Completo](./how-to-verify-pdf-signatures-in-c-full-guide/) | Aprenda a verificar assinaturas PDF em C# usando Aspose.PDF para .NET. Guia passo a passo completo. |
 | [Tutorial de assinatura PDF – Verificar e validar assinaturas PDF em C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Aprenda a verificar e validar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Como Verificar Assinatura Digital de PDF em C# – Guia Completo](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Aprenda a verificar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Verificar assinatura digital PDF em C# – validar assinatura PDF](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. |
 | [Como reparar arquivos PDF – Guia completo em C# com Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.PDF para .NET em C#, passo a passo. |  
 | [Extrair assinaturas PDF – Como listar assinaturas PDF em C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Aprenda a listar assinaturas em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo para extrair informações de assinatura. |
 | [Validar assinatura digital PDF em C# – Guia completo Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF, com um guia passo a passo completo. |  
@@ -55,6 +60,21 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Criar Assinador PKCS7 Destacado em C# – Guia Completo](./create-pkcs7-detached-signer-in-c-complete-guide/) | Aprenda a criar assinaturas PKCS7 destacadas em C# usando Aspose.PDF, passo a passo, para garantir integridade e autenticidade dos PDFs. |
 | [Recuperar Nomes de Assinaturas PDF com Aspose.PDF em C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Aprenda a obter os nomes das assinaturas em PDFs usando Aspose.PDF para .NET em C#. |
 | [Validar assinatura PDF em C# – Guia completo passo a passo](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Aprenda a validar assinaturas PDF usando C# e Aspose.PDF para .NET com este guia passo a passo completo. |
+| [Como ler assinaturas de um PDF em C# – Guia completo](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Aprenda a ler assinaturas de PDF em C# usando Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Verificar validade da assinatura PDF com Aspose.PDF – Guia completo em C#](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Aprenda a validar assinaturas PDF usando Aspose.PDF para .NET em C#, passo a passo. |  
+| [Verificar assinatura digital PDF com Aspose.PDF – Guia completo em C#](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF, passo a passo. |  
+| [Verificar assinatura PDF com Aspose.PDF – Guia completo em C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Aprenda a verificar assinaturas de PDFs com Aspose.PDF em C#, passo a passo, garantindo autenticidade e integridade. |  
+| [Como usar o Validador em C# – Guia completo para verificar a validade da assinatura](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Aprenda a usar o Validador em C# para validar assinaturas digitais em PDFs com Aspose.PDF para .NET. Guia passo a passo. |
+| [Adicionar Numeração Bates ao PDF – Guia Completo em C# com Assinatura e Conversão](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Aprenda a adicionar numeração Bates a PDFs, assinar e converter documentos usando Aspose.PDF para .NET em C#. Guia passo a passo. |
+| [Verificar assinatura PDF em C# – Guia completo Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Aprenda a verificar assinaturas PDF em C# usando Aspose.PDF, passo a passo, para garantir a integridade e autenticidade dos documentos. |
+| [Recuperar assinaturas PDF em C# – Guia completo de programação](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Aprenda a recuperar assinaturas de PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Como extrair assinaturas de um PDF em C# – guia passo a passo](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) | Aprenda a extrair assinaturas digitais de PDFs usando C# e Aspose.PDF, com instruções passo a passo. |
+| [Como validar PDF com Aspose: Verificar assinaturas digitais](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Aprenda a validar assinaturas digitais em PDFs usando Aspose.PDF para .NET. Guia passo a passo para garantir a autenticidade dos documentos. |
+| [Obter assinaturas incorporadas em PDF em C# – Guia completo](./get-embedded-signatures-pdf-in-c-complete-guide/) | Aprenda a extrair assinaturas incorporadas de PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Validar assinatura digital de PDF em C# com Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Aprenda a validar assinaturas digitais de PDFs usando C# e Aspose.PDF. Guia passo a passo. |
+| [Verificar assinatura PDF em C# – guia completo](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Aprenda a validar assinaturas PDF em C# usando Aspose.PDF, passo a passo, cobrindo verificação, extração e análise de certificados. |
+| [Tutorial de assinatura PDF: validar uma assinatura digital PDF com Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Aprenda a validar assinaturas digitais em PDFs usando Aspose.PDF para .NET, passo a passo. |
+| [Criar opções de assinatura em C# – guia completo de assinatura digital](./create-signature-options-in-c-full-guide-to-digital-signing/) | Aprenda a criar opções avançadas de assinatura digital em C# usando Aspose.PDF, passo a passo. |
 | [Como validar assinaturas PDF com Aspose.PDF em C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Aprenda a validar assinaturas PDF usando Aspose.PDF em C# com um guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -63,7 +83,6 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -79,7 +98,6 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -106,5 +124,4 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

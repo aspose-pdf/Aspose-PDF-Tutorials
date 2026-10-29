@@ -56,10 +56,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Visualização de Página Única PDF em Java – Alterar Layout e Editar Marcadores
 
 ## Introdução
@@ -251,8 +251,9 @@ A: Re‑calculate destinations using the current page indices after any structur
 - [Como Criar Marcadores PDF e Gerenciar Navegação Usando Aspose.PDF para Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
 - [Tutoriais de Marcadores PDF e Navegação para Aspose.PDF Java](/pdf/java/bookmarks-navigation/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -55,6 +55,12 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [Sayfalar ve Metin Kutusu Alanlarıyla PDF Oluşturma – Tam C# Kılavuzu](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak sayfalar ve metin kutusu alanları içeren PDF oluşturmayı öğrenin. |
 | [Aspose ile PDF Belgesi Oluştur – Metin Kutusu Alanı Ekle](./create-pdf-document-with-aspose-add-text-box-field/) | Aspose.PDF for .NET kullanarak PDF belgesine metin kutusu alanı eklemeyi adım adım öğrenin. |
 | [PDF Belgesi Oluşturma C# – Çok Sayfalı Formlar İçin Adım Adım Kılavuz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Aspose.PDF for .NET kullanarak C# ile çok sayfalı PDF formları oluşturmayı adım adım öğrenin. |  
+| [C# ile Aspose.Pdf Kullanarak Çok Sayfalı Form Oluşturma – Adım Adım Kılavuz](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Aspose.PDF for .NET kullanarak C# dilinde çok sayfalı PDF formları oluşturmayı adım adım öğrenin. |
+| [PDF Formuna Metin Kutusu Ekle – Tam C# Rehberi](./add-text-box-to-pdf-form-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF formlarına metin kutusu eklemeyi adım adım öğrenin. |
+| [PDF Metin Kutusu Alanı Oluştur – Adım Adım Kılavuz](./create-pdf-textbox-field-step-by-step-guide/) | Bu adım adım rehberde Aspose.PDF for .NET kullanarak PDF belgesine metin kutusu alanı eklemeyi öğrenin. |
+| [C# ile PDF'ye FDF İçe Aktarma – Tam Adım Adım Kılavuz](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile FDF dosyasını PDF'ye nasıl aktaracağınızı adım adım öğrenin. |  
+| [Aspose.PDF ile PDF Belgesini Kaydet – tam rehber](./save-pdf-document-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF belgelerini kaydetmenin tüm adımlarını öğrenin. |  
+| [C#'ta PDF form alanı oluşturma – adım adım rehber](./create-pdf-form-field-in-c-step-by-step-guide/) | C# kullanarak PDF form alanı oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

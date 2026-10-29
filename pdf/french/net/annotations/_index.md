@@ -20,6 +20,7 @@ Une collection complète de tutoriels expliquant comment utiliser les annotation
 | Titre | Description |
 | --- | --- | 
 | [Ajouter une annotation PDF](./addannotation/) Ajoutez facilement des annotations personnalisées à vos PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Personnalisez vos annotations avec des détails et des icônes spécifiques.  
+| [Ajouter une annotation PDF avec Aspose.PDF - Guide complet](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Découvrez comment ajouter des annotations PDF avec Aspose.PDF en suivant ce guide complet étape par étape. |
 | [Ajouter une annotation de lien](./addlnkannotation/) | Apprenez à ajouter des annotations manuscrites aux fichiers PDF avec Aspose.PDF pour .NET dans ce guide engageant, étape par étape. |  
 | [Ajouter un fichier SWF comme annotation PDF](./addswffileasannotation/) | Apprenez à ajouter des fichiers SWF comme annotations PDF avec Aspose.PDF pour .NET. Enrichissez vos PDF de contenu multimédia interactif grâce à ce tutoriel détaillé. |  
 | [Supprimer toutes les annotations de la page](./deleteallannotationsfrompage/) | Apprenez à supprimer toutes les annotations d'une page PDF avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour nettoyer efficacement vos PDF. |  
@@ -36,6 +37,8 @@ Une collection complète de tutoriels expliquant comment utiliser les annotation
 | [Barrer les mots](./strikeoutwords/) | Apprenez à barrer des mots dans un PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. Améliorez vos compétences en édition de documents. |  
 | [Mettre à jour l'annotation PDF en texte libre](./updatefreetextannotation/) Apprenez à mettre à jour les annotations de texte libre dans les documents PDF à l'aide d'Aspose.PDF pour .NET avec ce guide étape par étape. |  
 | [Comment utiliser la fonction Repair d'Aspose.PDF – Réparer les annotations endommagées](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Apprenez à réparer les PDF corrompus et à corriger les annotations défectueuses avec la fonction Repair d'Aspose.PDF pour .NET. |
+| [Dessiner un rectangle sur PDF avec C# – Guide étape par étape](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Apprenez à dessiner un rectangle dans un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide détaillé pas à pas. |  
+| [Dessiner un rectangle sur PDF – guide étape par étape C#](./draw-rectangle-on-pdf-step-by-step-c-guide/) | Apprenez à dessiner des rectangles dans un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

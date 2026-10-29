@@ -37,6 +37,9 @@ Leer hoe u toegankelijke, getagde PDF-documenten maakt en de naleving ervan vali
 ### [PDF's converteren naar PDF/X-4 met Aspose.PDF voor .NET: stapsgewijze handleiding](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Leer hoe u standaard PDF-documenten kunt converteren naar het robuuste PDF/X-4-formaat met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, implementatie en probleemoplossing.
 
+### [PDF naar PDF/X-1A converteren met Aspose.PDF voor .NET: stapsgewijze handleiding](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Leer hoe u een PDF-bestand kunt omzetten naar het archiefformaat PDF/X-1A met Aspose.PDF voor .NET. Volg de stapsgewijze instructies voor correcte creatie.
+
 ### [PDF/A-1a valideren met Aspose.PDF voor .NET: een uitgebreide handleiding](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Leer hoe u PDF/A-1a-compliance kunt valideren met Aspose.PDF voor .NET. Deze handleiding biedt stapsgewijze instructies, codevoorbeelden en integratietips.
 
@@ -49,6 +52,8 @@ Leer stap voor stap hoe u met Aspose.PDF voor .NET een PDF/A-bestand maakt en vo
 Leer hoe u met Aspose.PDF in C# PDF/A‑documenten maakt, stap voor stap, met voorbeeldcode en nalevingsrichtlijnen.
 ### [Hoe PDF/A maken in C# – PDF eenvoudig converteren naar PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 Leer stap voor stap hoe u met Aspose.PDF in C# een PDF naar PDF/A converteert, zodat u snel archiefklare documenten maakt.
+### [Hoe ICC in Aspose PDF instellen – Complete C#‑gids](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Leer hoe u ICC‑kleurenprofielen instelt in Aspose PDF met een volledige C#‑handleiding voor nauwkeurige kleurweergave.
 
 ## Aanvullende bronnen
 

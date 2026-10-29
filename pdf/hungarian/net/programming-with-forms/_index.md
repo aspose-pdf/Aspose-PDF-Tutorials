@@ -55,6 +55,12 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [PDF létrehozása oldalakkal és szövegdoboz mezőkkel – Teljes C# útmutató](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF-et több oldallal és szövegdoboz mezőkkel C#-ban az Aspose.PDF for .NET segítségével. |
 | [PDF dokumentum létrehozása Aspose-szal – Szövegdoboz mező hozzáadása](./create-pdf-document-with-aspose-add-text-box-field/) | Ismerje meg, hogyan adhat hozzá szövegdoboz mezőt PDF dokumentumhoz az Aspose.PDF for .NET használatával lépésről lépésre. |
 | [PDF dokumentum létrehozása C# – Lépésről lépésre útmutató többoldalas űrlapokhoz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Tanulja meg, hogyan hozhat létre többoldalas űrlapokat tartalmazó PDF dokumentumot C#-ban az Aspose.PDF for .NET segítségével. |
+| [Többoldalas űrlap létrehozása C#-ban az Aspose.Pdf‑vel – Lépésről‑lépésre útmutató](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Ismerje meg, hogyan hozhat létre többoldalas PDF űrlapot C#-ban az Aspose.Pdf segítségével lépésről‑lépésre. |
+| [Szövegdoboz hozzáadása PDF űrlaphoz – Teljes C# útmutató](./add-text-box-to-pdf-form-complete-c-guide/) | Lépésről lépésre bemutatjuk, hogyan adhat szövegdobozt PDF űrlaphoz C#-ban az Aspose.PDF for .NET használatával. |
+| [PDF szövegdoboz mező létrehozása – Lépés‑ről‑lépésre útmutató](./create-pdf-textbox-field-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre szövegdoboz mezőt PDF-ben az Aspose.PDF for .NET segítségével ebben a lépésről‑lépésre útmutatóban. |
+| [FDF importálása PDF-be C#‑val – Teljes lépésről‑lépésre útmutató](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Tanulja meg, hogyan importálhat FDF fájlokat PDF dokumentumokba C#‑ban az Aspose.PDF for .NET segítségével, lépésről‑lépésre. |
+| [PDF dokumentum mentése az Aspose.PDF segítségével – teljes útmutató](./save-pdf-document-with-aspose-pdf-complete-guide/) | Ismerje meg, hogyan menthet PDF dokumentumot az Aspose.PDF használatával ebben a teljes útmutatóban. |
+| [PDF űrlapmező létrehozása C#‑ban – lépésről lépésre útmutató](./create-pdf-form-field-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre PDF űrlapmezőket C#‑ban az Aspose.PDF for .NET segítségével lépésről lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

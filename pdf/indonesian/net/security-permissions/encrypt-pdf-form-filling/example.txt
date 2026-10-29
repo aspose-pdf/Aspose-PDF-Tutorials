@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuka PDF yang sudah ada dengan Aspose.Pdf, membatasi izin sehingga hanya mengisi formulir yang diizinkan, mengenkripsinya dengan kata sandi viewer dan owner menggunakan AES‑256, dan menyimpan file yang dilindungi.
+//ExStepSummary:0: Definisikan jalur file sumber dan tujuan serta kata sandi viewer dan owner.
+//ExStepSummary:1: Periksa apakah PDF sumber ada dan batalkan dengan pesan error jika tidak.
+//ExStepSummary:2: Mulai blok try untuk menangani setiap error yang mungkin terjadi selama pemrosesan.
+//ExStepSummary:3: Buka file PDF yang ada dengan membuat objek Document bernama pdfDoc.
+//ExStepSummary:4: Atur izin untuk hanya mengizinkan pengisian formulir, enkripsi dokumen dengan kata sandi viewer dan owner menggunakan AES‑256, dan simpan PDF yang dilindungi.
+//ExStepSummary:5: Tuliskan pesan konfirmasi ke konsol dan tutup blok try.
+//ExStepSummary:6: Tangkap semua exception dan tampilkan pesan error ke konsol.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

@@ -45,11 +45,13 @@ url: /cs/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 # Jak rozšířit záložky v PDF pomocí Aspose.PDF pro Java
 
 Pokud jste někdy otevřeli obrovské PDF a museli ručně procházet podokno osnovy, víte, jak frustrující to může být. V tomto **Aspose PDF Java tutoriálu** vám ukážeme, **jak automaticky rozšířit záložky**, aby čtenáři viděli kompletní obsah hned po otevření souboru. Naučíte se načíst PDF, nastavit režim stránky prohlížeče, rozšířit každou položku osnovy a uložit výsledek — vše jen několika řádky Java kódu.
@@ -202,11 +204,9 @@ A5: Rozhodně. Získejte licenci na [Aspose Purchase page](https://purchase.aspo
 - [How to Update PDF Bookmarks Using Aspose.PDF for Java: A Step-by-Step Guide](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
 - [Retrieve PDF Bookmarks Java with Aspose.PDF – Full Guide](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

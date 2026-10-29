@@ -77,6 +77,9 @@ Learn how to efficiently extract text from stamp annotations in PDF documents us
 ### [Extracting Text from PDF Columns using Aspose.PDF for .NET&#58; A Comprehensive Guide](./pdf-column-text-extraction-aspose-dotnet/)
 Learn how to efficiently extract text from multi-column PDFs in your .NET applications with Aspose.PDF. Follow this comprehensive guide to set up, implement, and optimize column text extraction.
 
+### [How to convert PDF to summary with Aspose.Pdf.AI in C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Learn how to use Aspose.Pdf.AI to generate a concise summary of a PDF document in C# with step-by-step code examples.
+
 ### [How to Detect Text and Images in PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./detect-text-images-pdf-aspose-pdf-net/)
 Learn how to efficiently detect text and images in PDF files using Aspose.PDF for .NET. This guide covers setup, extraction techniques, and practical applications.
 
@@ -103,6 +106,9 @@ Master text rotation in PDFs with Aspose.PDF for .NET using this comprehensive g
 
 ### [Master Aspose.PDF for .NET&#58; Open and Search PDF Documents Efficiently](./aspose-pdf-net-open-search-pdfs/)
 Learn how to use Aspose.PDF for .NET to open and search PDF documents. This guide covers setup, searching text in specific pages, and practical applications.
+
+### [How to Search PDF with Aspose.Pdf – Complete C# Guide](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Learn how to search PDF content using Aspose.PDF for .NET with a complete C# guide covering simple and advanced search techniques.
 
 ### [Master Custom Tab Stops in PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./master-custom-tab-stops-aspose-pdf-net/)
 Learn how to master custom tab stops in PDF documents using Aspose.PDF for .NET, enhancing your document formatting and presentation skills.
@@ -166,6 +172,11 @@ Learn how to style text in tagged PDF documents with Aspose.PDF for .NET. This g
 
 ### [How to Redact PDF with Aspose – Step‑by‑Step Guide](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Learn how to redact sensitive information from PDF files using Aspose.PDF for .NET with a step‑by‑step guide and C# code examples.
+### [How to summarize PDF with Aspose.Pdf.AI – complete guide](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Learn how to generate concise summaries of PDF documents using Aspose.Pdf.AI with a step-by-step guide.
+
+### [ai chat pdf: ask PDF questions with Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+### [How to summarize PDF with Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## Additional Resources
 
