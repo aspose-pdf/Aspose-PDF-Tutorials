@@ -42,7 +42,7 @@ Leer hoe u uw PDF-documenten kunt verbeteren door interactief JavaScript toe te 
 Leer hoe u pagina-einden toevoegt aan PDF-documenten met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor installatie, configuratie en implementatie.
 
 ### [Rechthoeken toevoegen en PDF-pagina's configureren met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-add-rectangles-configure-pages/)
-Leer rechthoeken toevoegen en pagina's configureren in PDF's met Aspose.PDF voor .NET. Volg deze handleiding om effectief technieken voor documentmanipulatie te leren.
+Leer rechthoeken toevoegen en pagina's configureren in PDF's met Aspose.PDF .NET. Volg deze handleiding om effectief technieken voor documentmanipulatie te leren.
 
 ### [Rechthoek toevoegen aan PDF met C# – Complete programmeergids](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
 Leer hoe u een rechthoek toevoegt aan een PDF-document met C# en Aspose.PDF .NET in deze volledige programmeergids.
@@ -353,6 +353,9 @@ Leer hoe u beschadigde PDF-bestanden kunt herstellen met Aspose.PDF in .NET via 
 Leer hoe u een bewerkte PDF opslaat en PDF-bronnen bijwerkt met Aspose.Pdf in .NET.
 ### [Gewijzigde PDF opslaan met Aspose.PDF – Complete C#-gids](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Leer hoe u een bewerkte PDF opslaat met Aspose.PDF in C#, stap voor stap met voorbeeldcode.
+
+### [Hoe een gewijzigde PDF opslaan met Aspose.Pdf en transparantie toevoegen](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Leer hoe u een gewijzigde PDF opslaat en transparantie toevoegt met Aspose.PDF voor .NET.
 
 ## Aanvullende bronnen
 

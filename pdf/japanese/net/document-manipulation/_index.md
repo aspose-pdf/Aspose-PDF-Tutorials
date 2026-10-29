@@ -358,6 +358,8 @@ Aspose.PDF を使用して、編集した PDF リソースを保存し、最新�
 
 ### [Aspose.PDF を使用して変更された PDF を保存する – 完全 C# ガイド](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Aspose.PDF for .NET を使用して、変更した PDF を保存する方法をステップバイステップで解説します。
+### [Aspose.PDF を使用して変更した PDF を保存し、透明度を追加する方法](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Aspose.PDF for .NET を使用して、変更した PDF を保存し、透明度を設定する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

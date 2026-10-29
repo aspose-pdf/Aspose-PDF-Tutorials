@@ -356,6 +356,9 @@ Aspose.Pdf kullanarak PDF kaynaklarını düzenledikten sonra güncellenmiş PDF
 ### [Aspose.PDF ile Değiştirilmiş PDF'yi Kaydet – Tam C# Kılavuzu](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Aspose.PDF for .NET kullanarak değiştirilmiş PDF dosyalarını kaydetmeyi adım adım öğrenin ve C# kod örnekleriyle uygulayın.
 
+### [Aspose.PDF ile Değiştirilen PDF'yi Kaydetme ve Şeffaflık Ekleme](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Aspose.PDF for .NET kullanarak PDF'yi değiştirdikten sonra kaydetmeyi ve şeffaflık eklemeyi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

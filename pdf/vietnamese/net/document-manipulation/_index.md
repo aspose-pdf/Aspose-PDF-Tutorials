@@ -347,6 +347,9 @@ Hướng dẫn cách lưu tài liệu PDF đã chỉnh sửa và cập nhật t�
 ### [Lưu PDF đã chỉnh sửa bằng Aspose.PDF – Hướng dẫn C# đầy đủ](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Tìm hiểu cách lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF trong C# với hướng dẫn chi tiết và ví dụ thực tế.
 
+### [Cách lưu PDF đã chỉnh sửa với Aspose.PDF và thêm độ trong suốt](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Tìm hiểu cách lưu PDF đã chỉnh sửa và áp dụng hiệu ứng trong suốt bằng Aspose.PDF cho .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

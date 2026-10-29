@@ -354,6 +354,8 @@ Lär dig hur du sparar ändrade PDF-filer efter redigering av resurser med Aspos
 ### [Spara modifierad PDF med Aspose.PDF – Komplett C#-guide](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Lär dig hur du sparar ändrade PDF-filer med Aspose.PDF i C# med en komplett steg-för-steg-guide.
 
+### [Hur man sparar modifierad PDF med Aspose.Pdf och lägger till transparens](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)
