@@ -70,7 +70,9 @@
 | [ข้อความและรูปภาพเป็นย่อหน้าในไฟล์ PDF](./text-and-image-as-paragraph/) | สร้าง PDF ที่มีข้อความและรูปภาพโดยใช้ Aspose.PDF สำหรับ .NET เรียนรู้วิธีการเพิ่มข้อความและรูปภาพแบบอินไลน์ทีละขั้นตอน -  
 | [การแบ่งส่วนข้อความในไฟล์ PDF](./text-segments/) | เรียนรู้วิธีค้นหากลุ่มข้อความเฉพาะในไฟล์ PDF โดยใช้นิพจน์ทั่วไปใน Aspose.PDF สำหรับ .NET -  
 | [ใช้สคริปต์ Latex ในไฟล์ PDF](./use-latex-script/) | เรียนรู้วิธีใช้สคริปต์ Latex เพื่อเพิ่มนิพจน์ทางคณิตศาสตร์หรือสูตรในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET |  
-| [เพิ่มหมายเลข Bates ลงใน PDF – การกำหนดหมายเลข Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด |
+| [เพิ่มหมายเลข Bates ลงใน PDF – การกำหนดหมายเลข Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด |  
+- [สร้างสรุป PDF ด้วย Aspose.Pdf.AI และ OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | เรียนรู้วิธีสร้างสรุปของไฟล์ PDF ด้วย Aspose.Pdf.AI ร่วมกับ OpenAI ในบทช่วยสอนขั้นตอนเดียว -  
+| [วิธีสร้างสรุป PDF ด้วย Aspose.Pdf.AI ใน C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | เรียนรู้วิธีใช้ Aspose.Pdf.AI เพื่อสร้างไฟล์สรุป PDF จากเอกสารหลายไฟล์ด้วย C# อย่างง่ายดาย -
 | [เพิ่มหมายเลข Bates ลงใน PDF โดยใช้ Aspose.PDF ใน C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET |
 | [วิธีเพิ่มข้อความใน PDF ด้วย Aspose.PDF ใน C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | เรียนรู้วิธีเพิ่มข้อความลงในไฟล์ PDF ด้วย Aspose.PDF ใน C# |
 

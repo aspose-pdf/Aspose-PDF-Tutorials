@@ -25,17 +25,11 @@ title: Hogyan telepítsük az Aspose-t – PowerShell útmutató konkrét verzi�
 url: /hu/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-to translate "Pro tip:", "Edge case:", etc.
 
-Also "## Prerequisites" etc.
 
-Let's start.
 
-We'll output the entire content with translation.
 
-We must keep the shortcodes at top and bottom.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

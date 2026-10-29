@@ -55,6 +55,12 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 | [Come creare PDF con Aspose – Aggiungi campo a una raccolta](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Scopri come aggiungere un campo a una raccolta in un PDF usando Aspose.PDF per .NET in questa guida passo passo. |
 | [Crea documento PDF con Aspose – Aggiungi campo casella di testo](./create-pdf-document-with-aspose-add-text-box-field/) | Scopri come aggiungere un campo casella di testo a un documento PDF usando Aspose.PDF per .NET. |
 | [Creare documento PDF C# – Guida passo‑a‑passo per moduli multi‑pagina](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Scopri come creare PDF multi‑pagina con moduli interattivi usando Aspose.PDF per .NET in C#. |
+| [Crea modulo multipagina in C# con Aspose.Pdf – Guida passo‑passo](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Scopri come creare un modulo PDF multipagina in C# usando Aspose.Pdf con questa guida dettagliata passo passo. |
+| [Aggiungi casella di testo al modulo PDF – Guida completa C#](./add-text-box-to-pdf-form-complete-c-guide/) | Scopri come aggiungere una casella di testo a un modulo PDF con Aspose.PDF per .NET in questa guida completa passo passo. |
+| [Crea campo di testo PDF – Guida passo‑passo](./create-pdf-textbox-field-step-by-step-guide/) | Scopri come creare un campo di testo in un PDF con Aspose.PDF per .NET in questa guida passo passo. |
+| [Importa FDF in PDF con C# – Guida completa passo‑passo](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Scopri come importare file FDF in un PDF usando C# con Aspose.PDF per .NET in questa guida dettagliata passo passo. |
+| [Salva documento PDF con Aspose.PDF – guida completa](./save-pdf-document-with-aspose-pdf-complete-guide/) | Scopri come salvare un documento PDF usando Aspose.PDF con questa guida passo passo completa. |
+| [Creare campo modulo PDF in C# – guida passo‑passo](./create-pdf-form-field-in-c-step-by-step-guide/) | Scopri come creare un campo modulo PDF in C# con Aspose.PDF per .NET, passo dopo passo, con esempi di codice. |  
 | [Come creare un documento PDF con campi modulo interattivi in C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Scopri come creare un documento PDF con campi modulo interattivi usando Aspose.PDF per .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -63,10 +69,15 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Come creare PDF con Aspose – Aggiungere campo modulo e pagine](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Scopri come creare un PDF, aggiungere campi modulo e gestire le pagine usando Aspose.PDF per .NET. |
 | [Aggiungi numeri Bates ai PDF – Guida passo‑passo C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Scopri come aggiungere numeri Bates ai PDF con Aspose.PDF per .NET in C#, passo dopo passo. |
-| [Crea documento PDF con più widget di casella di testo – Guida passo‑passo](./create-pdf-document-with-multiple-textbox-widgets-step-st/) | Scopri come creare un documento PDF con più widget di casella di testo usando Aspose.PDF per .NET in questa guida passo‑passo. |
+| [Crea documento PDF con più widget di casella di testo – Guida passo‑passo](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Scopri come creare un documento PDF con più widget di casella di testo usando Aspose.PDF per .NET in questa guida passo‑passo. |
 | [Come aggiungere una casella di testo PDF – Creare campo modulo PDF e salvare il documento PDF modificato](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Scopri come aggiungere una casella di testo a un PDF, creare il campo modulo e salvare il documento PDF modificato con Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -74,5 +85,4 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

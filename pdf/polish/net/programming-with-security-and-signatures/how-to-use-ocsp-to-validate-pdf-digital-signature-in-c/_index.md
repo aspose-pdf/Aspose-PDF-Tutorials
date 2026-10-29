@@ -22,7 +22,6 @@ title: Jak używać OCSP do weryfikacji cyfrowego podpisu PDF w C#
 url: /pl/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

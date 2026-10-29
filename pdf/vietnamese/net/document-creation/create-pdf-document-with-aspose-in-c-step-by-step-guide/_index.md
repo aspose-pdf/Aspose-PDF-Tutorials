@@ -20,9 +20,8 @@ title: Tạo tài liệu PDF với Aspose trong C# – Hướng dẫn từng bư
 url: /vi/net/document-creation/create-pdf-document-with-aspose-in-c-step-by-step-guide/
 ---
 
-headings, paragraphs, list items, table cells, etc.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

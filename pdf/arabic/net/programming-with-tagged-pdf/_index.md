@@ -48,6 +48,13 @@
 | [إنشاء ملف PDF مُعلَّم في C# – دليل Aspose PDF الكامل](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF مع دليل شامل خطوة بخطوة. |
 | [إنشاء ملف PDF مُعلَّم في C# – دليل خطوة بخطوة](./create-tagged-pdf-in-c-step-by-step-guide/) |تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF باتباع خطوات مفصلة.|  
 | [إنشاء مستند PDF – تعيين موضع مطلق للنص المُعلَّم](./create-pdf-document-set-absolute-position-for-tagged-text/) |تعلم كيفية إنشاء مستند PDF وتعيين موضع مطلق للنص المُعلَّم باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |  
+| [إنشاء مستند PDF C# – دليل كامل مع نص مُعلَّم وتحديد المواقع](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) |تعلم كيفية إنشاء مستند PDF مُعلَّم بالنص وتحديد المواقع باستخدام C# و Aspose.PDF خطوة بخطوة. |  
+| [إنشاء مقطع نصي قابل للوصول في PDF باستخدام Aspose: دليل كامل C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) |تعلم كيفية إنشاء مقطع نصي قابل للوصول في ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل C# خطوة بخطوة.|  
+| [كيفية تعديل PDF مُعلَّم باستخدام Aspose.Pdf – دليل شامل](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) |تعلم كيفية تعديل ملفات PDF المُعلَّمة باستخدام Aspose.Pdf خطوة بخطوة في هذا الدليل الشامل.|  
+| [إنشاء ملف PDF مُعلَّم في C# – دليل خطوة بخطوة كامل](./create-tagged-pdf-in-c-full-step-by-step-guide/) |تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF خطوة بخطوة. |  
+| [كيفية وضع علامة على PDF باستخدام Aspose.Pdf – دليل برمجة كامل](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | تعلم كيفية وضع علامات على ملفات PDF باستخدام Aspose.Pdf من خلال دليل برمجة شامل خطوة بخطوة. |  
+| [إنشاء عنصر Span في PDF باستخدام Aspose – تحميل PDF وتوسيم المحتوى](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | تعلم كيفية إنشاء عنصر Span في مستند PDF وتحميل ملف PDF وتوسيم محتواه باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [إنشاء مستند PDF باستخدام C# – وضع النص وإضافة شجرة بنية](./create-pdf-document-c-position-text-and-add-structural-tree/) | تعلم كيفية إنشاء مستند PDF باستخدام C# وتحديد موضع النص وإضافة شجرة بنية باستخدام Aspose.PDF لـ .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

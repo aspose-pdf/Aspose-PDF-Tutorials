@@ -22,7 +22,6 @@ title: PDF‑Signatur‑Handler erstellen – Signaturen in C# auflisten
 url: /de/net/programming-with-security-and-signatures/create-pdf-signature-handler-list-signatures-in-c/
 ---
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

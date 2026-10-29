@@ -53,6 +53,9 @@
 ### [Конвертируйте PDF-страницы в PNG с помощью Aspose.PDF .NET: подробное руководство](./convert-pdf-pages-to-png-aspose-net/)
 Узнайте, как преобразовать страницы PDF в высококачественные изображения PNG с помощью Aspose.PDF для .NET. Следуйте этому подробному руководству, чтобы эффективно автоматизировать процесс преобразования.
 
+### [Конвертировать страницу PDF в PNG – полное руководство Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Узнайте, как преобразовать отдельную страницу PDF в PNG с помощью Aspose.PDF для .NET, следуя полному пошаговому руководству.
+
 ### [Конвертируйте PDF в BMP с помощью Aspose.PDF для .NET: пошаговое руководство](./convert-pdf-to-bmp-aspose-pdf-net/)
 Узнайте, как преобразовать страницы PDF в высококачественные изображения BMP с помощью Aspose.PDF для .NET с помощью этого подробного руководства.
 
@@ -77,11 +80,13 @@
 ### [Конвертируйте PDF в HTML с пользовательскими размерами с помощью Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Учебник по коду для Aspose.PDF Net
 
-### [Конвертируйте PDF в HTML с помощью пользовательских URL-адресов изображений с помощью Aspose.PDF .NET: подробное руководство](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
+### [Конвертируйте PDF в HTML с пользовательскими URL-адресами изображений с помощью Aspose.PDF .NET: подробное руководство](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Узнайте, как преобразовывать PDF-документы в формат HTML с помощью Aspose.PDF для .NET, включая настройку URL-адресов изображений и реализацию индивидуальной стратегии экономии ресурсов.
 
 ### [Преобразование PDF в HTML и проверка подписи PDF – Полное руководство Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Узнайте, как конвертировать PDF в HTML и проверять цифровую подпись PDF с помощью Aspose.PDF для .NET, используя пошаговые примеры кода.
+### [Как пропустить экспорт изображений при преобразовании PDF в HTML – Полное руководство на C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Узнайте, как отключить экспорт изображений при конвертации PDF в HTML с помощью Aspose.PDF для .NET на C#.
 
 ### [Конвертируйте PDF в PNG с помощью Aspose.PDF .NET: улучшенная подсказка шрифтов для четкой визуализации текста](./convert-pdf-png-aspose-net-font-hinting/)
 Узнайте, как преобразовывать PDF-документы в высококачественные изображения PNG с помощью Aspose.PDF .NET, обеспечивая четкую визуализацию текста с помощью подсказок шрифтов.
@@ -123,7 +128,7 @@
 ### [Конвертация PS в PDF на C# с помощью Aspose.PDF .NET: пошаговое руководство](./convert-ps-to-pdf-aspose-dotnet-csharp/)
 Узнайте, как эффективно преобразовывать файлы PostScript в PDF в ваших приложениях .NET с помощью Aspose.PDF. Следуйте этому всеобъемлющему руководству с примерами кода.
 
-### [Конвертируйте RGB PDF-файлы в оттенки серого с помощью Aspose.PDF для .NET | Подробное руководство](./convert-rgb-pdfs-to-grayscale-aspose-pdf-net/)
+### [Конвертируйте PDF в RGB в оттенки серого с помощью Aspose.PDF для .NET | Подробное руководство](./convert-rgb-pdfs-to-grayscale-aspose-pdf-net/)
 Узнайте, как эффективно преобразовать RGB PDF в оттенки серого с помощью Aspose.PDF для .NET. Это пошаговое руководство обеспечивает согласованность дизайна и уменьшение размера файла.
 
 ### [Конвертируйте TeX в PDF с помощью Aspose.PDF для .NET: пошаговое руководство](./convert-tex-to-pdf-aspose-dotnet-guide/)
@@ -223,7 +228,7 @@
 Узнайте, как применять лицензию Aspose.PDF и конвертировать PDF-файлы в HTML с помощью пользовательского CSS с использованием C#. Откройте для себя все возможности обработки документов сегодня.
 
 ### [Мастер замены шрифтов и преобразования PDF с помощью Aspose.PDF .NET для соответствия требованиям и единообразия бренда](./mastering-font-substitution-pdf-conversion-asposepdf-net/)
-Узнайте, как управлять отсутствующими шрифтами, заменяя их, и конвертировать PDF-файлы в стандартизированные форматы с помощью Aspose.PDF .NET. Обеспечьте соответствие и единообразие бренда на всех платформах.
+Узнайте, как управлять отсутствующими шрифтовыми, заменяя их, и конвертировать PDF-файлы в стандартизированные форматы с помощью Aspose.PDF .NET. Обеспечьте соответствие и единообразие бренда на всех платформах.
 
 ### [Мастер-преобразование PDF в HTML с обработкой шрифтов в Aspose.PDF для .NET](./optimize-pdf-to-html-font-handling-aspose-net/)
 Узнайте, как оптимизировать преобразование PDF в HTML с помощью Aspose.PDF для .NET, уделяя особое внимание эффективной обработке ресурсов шрифтов и бесшовной интеграции.
@@ -250,6 +255,15 @@
 
 ### [Сохранить PDF как HTML с C# – Полное пошаговое руководство](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Подробное руководство по сохранению PDF в HTML с помощью C#, охватывающее настройки, параметры и примеры кода.
+### [Сохранить PDF как HTML с помощью Aspose.Pdf – Полное руководство на C#](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Узнайте, как сохранить PDF в HTML с помощью Aspose.Pdf, используя C#. Подробный пошаговый пример.
+
+### [Как экспортировать PDF в HTML на C# – Полное руководство Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Узнайте, как экспортировать PDF в HTML с помощью Aspose.PDF для .NET на C#, следуя полному пошаговому руководству.
+### [Преобразование PDF в HTML на C# – Полное пошаговое руководство](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Узнайте, как преобразовать PDF в HTML на C# с помощью Aspose.PDF, следуя подробному пошаговому руководству и примерам кода.
+### [Сохранить PDF без изображений – преобразовать PDF в HTML с помощью Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Узнайте, как сохранять PDF без включения изображений, преобразуя его в HTML с помощью Aspose.PDF для .NET.
 
 ### [Преобразование PDF в TIFF в .NET с использованием Aspose.PDF: пошаговое руководство](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Узнайте, как преобразовывать документы PDF в изображения TIFF с помощью Aspose.PDF для .NET. Освойте пользовательские глубины цвета и передовые методы обработки изображений.
@@ -263,8 +277,17 @@
 ### [Преобразование PDF в HTML на C# – Быстрое руководство с Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Краткое руководство по конвертации PDF в HTML с помощью Aspose.Pdf на C#, включая примеры кода и настройку параметров.
 
+### [Сохраните PDF как HTML и конвертируйте в PDF/X‑4 с помощью Aspose.PDF на C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+  
 ### [Как сохранить PDF с помощью Aspose – пошаговое руководство](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Подробное руководство по сохранению PDF-файлов с использованием Aspose.PDF в .NET.
+### [Конвертировать DOCX в HTML на C# – Полное руководство по программированию](./convert-docx-to-html-in-c-complete-programming-guide/)
+### [Преобразование docx в png на C# – Полное руководство](./convert-docx-to-png-in-c-complete-guide/)
+Узнайте, как преобразовать файлы DOCX в изображения PNG с помощью C# и Aspose.PDF, следуя пошаговым инструкциям и примерам кода.
+### [Сохранить PDF как HTML – создать PDF, добавить прямоугольную форму](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Создайте PDF, добавьте прямоугольник и сохраните как HTML с помощью Aspose.PDF для .NET.
+### [Сохраните PDF как HTML с помощью Aspose.PDF – пошаговое руководство](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Узнайте, как сохранить PDF в формате HTML с помощью Aspose.PDF для .NET, используя пошаговые примеры кода.
 
 ## Дополнительные ресурсы
 
@@ -273,6 +296,8 @@
 - [Загрузить Aspose.PDF для Net](https://releases.aspose.com/pdf/net/)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
+### [Как отобразить PDF в PNG с помощью Aspose – Полное руководство](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Узнайте, как преобразовать PDF в изображения PNG с помощью Aspose, следуя пошаговому полному руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -280,4 +305,9 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/products-backtop-button >}}### [Как отобразить страницы PDF в виде PNG‑изображений – полное руководство Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Подробное руководство по конвертации страниц PDF в PNG‑изображения с использованием Aspose.PDF для .NET.
+
+### [Aspose PDF в HTML: Полное руководство по конвертации PDF и удалению изображений](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Подробное руководство по преобразованию PDF в HTML с удалением изображений с помощью Aspose.PDF для .NET.
+

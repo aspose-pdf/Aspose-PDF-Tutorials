@@ -40,8 +40,6 @@ url: /hi/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures
 
 कोई बाहरी टूल नहीं, कोई अस्पष्ट “डॉक्यूमेंट देखें” शॉर्टकट नहीं—बस एक पूर्ण, चलाने योग्य उदाहरण जो आप आज ही Visual Studio में कॉपी‑पेस्ट कर सकते हैं।
 
-![लोड किए गए साइन किए गए PDF दस्तावेज़ और उसकी हस्ताक्षरों को निकालने की प्रक्रिया का चित्र](alt="load signed pdf document flow diagram")
-
 ## आवश्यकताएँ
 
 Before we dive in, make sure you have the following on your machine:

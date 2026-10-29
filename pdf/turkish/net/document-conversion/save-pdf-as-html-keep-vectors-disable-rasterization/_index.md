@@ -25,9 +25,8 @@ title: PDF'yi HTML olarak kaydet – Vektörleri koru ve rasterleştirmeyi devre
 url: /tr/net/document-conversion/save-pdf-as-html-keep-vectors-disable-rasterization/
 ---
 
-to keep all markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

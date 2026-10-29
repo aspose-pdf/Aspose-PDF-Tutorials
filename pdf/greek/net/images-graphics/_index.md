@@ -37,6 +37,11 @@
 
 ### [Πώς να σχεδιάσετε ορθογώνιο σε PDF με C# – Οδηγός βήμα προς βήμα](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 ### [Προσθήκη ορθογωνίου σε PDF με C# – Πλήρης οδηγός Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+### [Πώς να Επικυρώσετε PDF και να Προσθέσετε Ορθογώνιο – Οδηγός βήμα προς βήμα](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Μάθετε πώς να ελέγχετε την εγκυρότητα ενός PDF και να προσθέτετε ορθογώνια σχήματα με το Aspose.PDF για .NET, βήμα προς βήμα.
+### [Προσθήκη ορθογωνίου σε PDF με το Aspose.PDF – Πλήρης Οδηγός Προγραμματισμού](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+### [Προσθήκη ορθογωνίου σε PDF με C# – οδηγός βήμα προς βήμα](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Μάθετε πώς να προσθέτετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας C# και Aspose.PDF για .NET με αυτόν τον οδηγό βήμα‑βήμα.
 
 ### [Πώς να προσθέσετε ορθογώνιο σε PDF με C# – Οδηγός Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 Μάθετε πώς να σχεδιάσετε και να προσθέσετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας το Aspose.Pdf με C#.
@@ -50,7 +55,21 @@
 ### [Σχεδιάστε διαφανή σχήματα σε PDF με το Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
-### [Προσθήκη διαφάνειας σε PDF με το Aspose PDF σε C# – Οδηγός βήμα προς βήμα](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+### [Προσθήκη διαφάνειας σε PDF με Aspose PDF σε C# – Οδηγός βήμα προς βήμα](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+### [Πώς να προσθέσετε διαφάνεια σε PDF χρησιμοποιώντας το Aspose.PDF σε C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+
+### [Πώς να προσθέσετε σχήμα σε PDF με το Aspose.PDF σε C# – Οδηγός βήμα προς βήμα](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Μάθετε πώς να προσθέσετε σχήματα σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με παραδείγματα C#.
+### [Πώς να προσθέσετε κατάσταση γραφικών και να ελέγξετε τη διαφάνεια σε PDF χρησιμοποιώντας το Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Μάθετε πώς να διαχειριστείτε την κατάσταση γραφικών και τη διαφάνεια σε PDF με το Aspose.PDF για .NET.
+### [Πώς να προσθέσετε διαφάνεια σε PDF και να σχεδιάσετε ορθογώνιο σε PDF με το Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Μάθετε πώς να εφαρμόσετε διαφάνεια και να σχεδιάσετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET.
+
+### [Πώς να ορίσετε διαφάνεια σε PDF με το Aspose PDF σε C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+
+Μάθετε πώς να εφαρμόζετε διαφάνεια σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#.
+### [Πώς να προσθέσετε διαφάνεια σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Μάθετε πώς να εφαρμόζετε διαφάνεια σε PDF χρησιμοποιώντας το Aspose.PDF για .NET.
 
 ### [Αποτελεσματική αναγνώριση εικόνας PDF με το Aspose.PDF για .NET](./master-image-identification-aspose-pdf-net/)
 Μάθετε πώς να αναγνωρίζετε εικόνες σε κλίμακα του γκρι και RGB σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτό το σεμινάριο καλύπτει την εγκατάσταση, την εξαγωγή εικόνων και συμβουλές απόδοσης.
@@ -79,7 +98,7 @@
 ### [Πώς να προσθέσετε εικόνες και κείμενο σε PDF με το Aspose.PDF για .NET: Οδηγός βήμα προς βήμα](./adding-images-text-pdfs-aspose-pdf-dotnet/)
 Μάθετε πώς να προσθέτετε εικόνες και κείμενο σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο ολοκληρωμένος οδηγός καλύπτει τα πάντα, από την εγκατάσταση έως την υλοποίηση, ιδανικός για τη βελτίωση των δεξιοτήτων επεξεργασίας εγγράφων σας.
 
-### [Πώς να προσθέσετε εικόνες σε PDF χρησιμοποιώντας το Aspose.PDF .NET: Ένας πλήρης οδηγός](./aspose-pdf-net-add-images-pdfs/)
+### [Πώς να προσθέσετε εικόνες σε PDF χρησιμοποιώντας το Aspose.PDF για .NET: Ένας πλήρης οδηγός](./aspose-pdf-net-add-images-pdfs/)
 Μάθετε πώς να προσθέτετε απρόσκοπτα εικόνες στα έγγραφά σας PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο οδηγός βήμα προς βήμα καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 
 ### [Πώς να προσθέσετε εικόνες σε PDF χρησιμοποιώντας το Aspose.PDF για .NET: Ένας πλήρης οδηγός](./add-images-to-pdfs-using-aspose-pdf-net/)
@@ -170,7 +189,25 @@
 Μάθετε πώς να αποδίδετε σύνθετα σενάρια LaTeX σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET, συμπεριλαμβανομένων συμβουλών εγκατάστασης, υλοποίησης και βελτιστοποίησης.
 
 ### [Ορισμός φόντου εικόνας σε PDF χρησιμοποιώντας το Aspose.PDF για .NET: Ένας πλήρης οδηγός](./aspose-pdf-net-set-image-backgrounds/)
-Μάθετε πώς να βελτιώσετε τα έγγραφα PDF σας ορίζοντας φόντο εικόνας χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο οδηγός καλύπτει συμβουλές εγκατάστασης, υλοποίησης και βελτιστοποίησης.
+
+### [Πώς να αλλάξετε τη διαφάνεια σε PDF με το Aspose.PDF για .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+
+### [Συμπίεση εικόνων χωρίς απώλεια σε έγγραφα Word – Πλήρης οδηγός](./lossless-image-compression-in-word-docs-complete-guide/)
+Μάθετε πώς να συμπιέζετε εικόνες σε έγγραφα Word χωρίς απώλεια ποιότητας, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Σεμινάριο επικάλυψης εικόνας σε PDF – προσθήκη μάσκας & ενεργοποίηση αυτόματης επιλογής δίσκου](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Μάθετε πώς να επικάλυπτε εικόνες σε PDF, να προσθέτετε μάσκα και να ενεργοποιείτε την αυτόματη επιλογή δίσκου με το Aspose.PDF για .NET.
+
+### [Πώς να χρησιμοποιήσετε το GraphicsAbsorber – Εξαγωγή διανυσματικών γραφικών από PDF με το Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Μάθετε πώς να εξάγετε διανυσματικά γραφικά από PDF χρησιμοποιώντας το GraphicsAbsorber του Aspose.Pdf.
+
+### [Προσθήκη ExtGState σε PDF με το Aspose.Pdf – Πλήρης Οδηγός](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Μάθετε πώς να προσθέτετε ExtGState σε PDF χρησιμοποιώντας το Aspose.Pdf για .NET, βελτιώνοντας τη διαφάνεια και τα εφέ.
+### [Προσθήκη κατάστασης γραφικών σε PDF με το Aspose.Pdf – οδηγός βήμα προς βήμα](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να διαχειρίζεστε την κατάσταση γραφικών σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα‑βήμα.
+### [Προσθήκη προσαρμοσμένου ExtGState σε PDF με το Aspose.PDF – Οδηγός βήμα προς βήμα](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε και να εφαρμόσετε προσαρμοσμένες καταστάσεις ExtGState σε PDF χρησιμοποιώντας το Aspose.PDF για .NET.
+### [Ορισμός διαφάνειας PDF σε C# με το Aspose.PDF – πλήρης οδηγός](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Μάθετε πώς να ορίζετε τη διαφάνεια των PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C# με αυτόν τον πλήρη οδηγό.
 
 ## Πρόσθετοι Πόροι
 

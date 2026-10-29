@@ -22,15 +22,11 @@ title: Jak vytvořit PDF v C# – přidat stránku, nakreslit obdélník a ulož
 url: /cs/net/document-creation/how-to-create-pdf-in-c-add-page-draw-rectangle-save/
 ---
 
-< blocks/products/products-backtop-button >}} keep.
 
-Now produce final content with all translations and unchanged placeholders.
 
-Check for any missed text: At top there were three opening shortcodes, then content, then closing three, then backtop button.
 
-Make sure to keep them exactly.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

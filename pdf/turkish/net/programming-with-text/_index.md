@@ -70,7 +70,10 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Metin Ve Resim Paragraf Olarak](./text-and-image-as-paragraph/) | Aspose.PDF for .NET kullanarak metin ve resimlerle PDF'ler oluşturun. Adım adım metin ve satır içi resimlerin nasıl ekleneceğini öğrenin. |  
 | [PDF Dosyasındaki Metin Bölümleri](./text-segments/) | Aspose.PDF for .NET'te düzenli ifadeler kullanarak PDF dosyasındaki belirli metin parçalarını nasıl arayacağınızı öğrenin. |  
 | [PDF Dosyasında Latex Komut Dosyasını Kullan](./use-latex-script/) | Aspose.PDF for .NET kullanarak PDF dosyasına matematiksel ifadeler veya formüller eklemek için Latex betiğinin nasıl kullanılacağını öğrenin. |  
+| [C# ile Word'de Span Elemanı Oluşturma – Tam Kılavuz](./create-span-element-in-word-with-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinde span öğesi eklemeyi öğrenin. |  
 | [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
+| [Aspose.Pdf.AI ve OpenAI ile PDF özeti oluşturma](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aspose.PDF for .NET ve OpenAI kullanarak PDF belgelerinin özetini otomatik olarak oluşturmayı öğrenin. |
+| [C#'ta Aspose.Pdf.AI ile Özet PDF Oluşturma](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Aspose.Pdf.AI kullanarak C# ile PDF özetleri oluşturmayı adım adım öğrenin. |  
 | [C# ile Aspose.PDF kullanarak PDF'ye Bates numaraları ekleme](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Aspose.PDF for .NET ile C# kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
 | [C# ile Aspose.PDF kullanarak PDF'ye Metin Ekleme](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına metin eklemeyi adım adım öğrenin. |  
 

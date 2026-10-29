@@ -21,9 +21,7 @@ title: 在 C# 中将 PDF 转换为 HTML – 完整的逐步指南
 url: /zh/net/document-conversion/create-html-from-pdf-in-c-complete-step-by-step-guide/
 ---
 
-Proceed.
 
-We'll produce the content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

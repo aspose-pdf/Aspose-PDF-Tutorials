@@ -48,6 +48,12 @@
 - [สร้าง PDF ที่มีแท็กใน C# – คู่มือขั้นตอนเต็ม](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและครบถ้วน  
 - [สร้าง PDF ที่มีแท็กใน C# – คู่มือฉบับสมบูรณ์ Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและครบถ้วน  
 - [สร้าง PDF ที่มีแท็กใน C# – คู่มือขั้นตอนทีละขั้นตอน](./create-tagged-pdf-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและครบถ้วน  
+- [สร้างเอกสาร PDF C# – คู่มือเต็มกับข้อความที่มีแท็กและการจัดตำแหน่ง](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | เรียนรู้วิธีสร้าง PDF ด้วย C# พร้อมข้อความที่มีแท็กและการจัดตำแหน่งโดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด  
+- [สร้าง Text Span ที่เข้าถึงได้ใน PDF ด้วย Aspose: คู่มือ C# ฉบับเต็ม](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | เรียนรู้วิธีสร้าง Text Span ที่เข้าถึงได้ใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือ C# ฉบับเต็มขั้นตอนโดยละเอียด  
+- [วิธีแก้ไข PDF ที่มีแท็กด้วย Aspose.Pdf – คู่มือเต็ม](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีแก้ไข PDF ที่มีแท็กด้วย Aspose.Pdf สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและครบถ้วน  
+- [สร้าง PDF ที่มีแท็กใน C# – คู่มือเต็มขั้นตอนต่อขั้นตอน](./create-tagged-pdf-in-c-full-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กใน C# ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดตามขั้นตอนครบถ้วน  
+- [วิธีทำแท็ก PDF ด้วย Aspose.Pdf – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | เรียนรู้วิธีทำแท็ก PDF อย่างละเอียดด้วย Aspose.Pdf สำหรับ .NET ผ่านคู่มือการเขียนโปรแกรมเต็มรูปแบบ  
+- [สร้างเอกสาร PDF ด้วย C# – กำหนดตำแหน่งข้อความและเพิ่มโครงสร้างต้นไม้](./create-pdf-document-c-position-text-and-add-structural-tree/) | เรียนรู้วิธีกำหนดตำแหน่งข้อความและเพิ่มโครงสร้างต้นไม้ใน PDF ด้วย C# และ Aspose.PDF สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -56,6 +62,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 - [วิธีการแท็ก PDF ด้วย Aspose – คู่มือฉบับสมบูรณ์สำหรับแท็กการเข้าถึง PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | เรียนรู้ขั้นตอนการแท็ก PDF เพื่อเพิ่มการเข้าถึงด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
 - [ทำให้ PDF เข้าถึงได้ด้วย Aspose: แทรกย่อหน้าลงใน PDF ทีละขั้นตอน](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | เรียนรู้วิธีแทรกย่อหน้าใน PDF ที่เข้าถึงได้โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนทีละขั้นตอน  
 

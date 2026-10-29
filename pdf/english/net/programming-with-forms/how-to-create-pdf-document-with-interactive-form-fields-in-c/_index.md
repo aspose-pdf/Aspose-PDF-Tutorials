@@ -224,7 +224,6 @@ The following tutorials cover closely related topics that build on the technique
 - [Create PDF Document with Aspose – Add Page, Text Box, and Form]({{< relref "/pdf/english/net/forms-annotations/create-pdf-document-with-aspose-add-page-text-box-and-form/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

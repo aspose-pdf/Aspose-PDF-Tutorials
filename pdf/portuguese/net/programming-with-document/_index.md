@@ -23,11 +23,12 @@ recurso inclui tutoriais sobre o recurso de programação com documento da bibli
 | [Adicionar camadas ao arquivo PDF](./addlayers/) Descubra como adicionar camadas a PDFs usando o Aspose.PDF para .NET. Este guia passo a passo aprimorará suas habilidades de manipulação de PDF. |  
 | [Adicionar e remover Javascript em documento PDF](./addremovejavascripttodoc/) | Aprenda a adicionar e remover JavaScript de um documento PDF usando o Aspose.PDF para .NET. Guia passo a passo com tutoriais de código para scripts em nível de documento. |  
 | [Adicionar TOC ao arquivo PDF](./addtoc/) | Aprenda a adicionar um Sumário a um PDF usando o Aspose.PDF para .NET. Este guia passo a passo simplifica o processo e garante uma navegação fácil nos seus documentos. |  
+| [Adicionar numeração Bates no Word – Guia completo passo a passo](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Aprenda a inserir numeração Bates em documentos Word usando Aspose.Words para .NET com este guia passo a passo. |  
 | [Permitir reutilização do conteúdo da página](./allowresusepagecontent/) | Aprenda a otimizar PDFs habilitando o recurso "Permitir Reutilizar Conteúdo da Página" usando o Aspose.PDF para .NET. Reduza o tamanho do arquivo e melhore o desempenho. |  
 | [Converter de RGB para escala de cinza](./convertfromrgbtograyscale/) | Aprenda a converter um PDF de RGB para tons de cinza usando o Aspose.PDF para .NET. Um guia passo a passo para simplificar a conversão de cores em PDF e economizar espaço no arquivo. |  
 | [Crie um arquivo PDF multicamadas - Primeira abordagem](./createmultilayerpdffirstapproach/) | Aprenda a criar um arquivo PDF multicamadas usando a Primeira Abordagem com Aspose.PDF para .NET. Adicione texto, imagens e muito mais para aprimorar seus PDFs. |  
 | [Criar PDF Multicamadas Segunda Abordagem](./createmultilayerpdfsecondapproach/) | Aprenda a criar um PDF multicamadas usando o Aspose.PDF para .NET. Siga nosso guia passo a passo para adicionar texto, imagens e camadas ao seu arquivo PDF sem esforço. |  
-| [Crie PDF A1 com Aspose PDF](./createpdfa1withasposepdf/) | Aprenda a criar arquivos PDF/A-1 com o Aspose.PDF para .NET neste tutorial detalhado. Guia passo a passo com exemplos de código e explicações. |  
+| [Crie PDF A1 com Aspose PDF](./createpdfa1withasposepdf/) | Aprenda a criar arquivos PDF/A-1a com o Aspose.PDF para .NET neste tutorial detalhado. Guia passo a passo com exemplos de código e explicações. |  
 | [Personalize os números das páginas ao adicionar o TOC](./customizepagenumbeswhileaddingtoc/) | Aprenda a personalizar números de página ao adicionar um Índice aos seus documentos PDF usando o Aspose.PDF para .NET neste tutorial abrangente. |  
 | [Determinar o progresso para o arquivo PDF](./determineprogress/) | Aprenda como determinar o progresso das conversões de PDF usando o Aspose.PDF para .NET neste guia abrangente. |  
 | [Incorporar fonte em arquivo PDF](./embedfont/) Aprenda a incorporar fontes em um arquivo PDF usando o Aspose.PDF para .NET com este guia passo a passo. Garanta que seus documentos sejam exibidos corretamente em qualquer dispositivo. |  
@@ -61,6 +62,9 @@ recurso inclui tutoriais sobre o recurso de programação com documento da bibli
 | [Abrir arquivo PDF C# – Como reparar um PDF corrompido em minutos](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Aprenda a abrir e reparar PDFs corrompidos usando Aspose.PDF para .NET em poucos minutos. |
 | [Como reparar arquivos PDF – Guia passo a passo usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.Pdf com este guia passo a passo. |  
 | [Como Ler Documento Word e Extrair Página Específica do Word – Guia C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Aprenda a ler um documento Word e extrair uma página específica usando Aspose.Words para .NET em C#. |  
+| [Criar plugin personalizado Aspose – Guia completo para automatizar o processamento de PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Aprenda a criar um plugin Aspose personalizado para automatizar o processamento de PDFs com este guia passo a passo. |
+| [Adicionar página em branco em documento Word com C# – Guia completo](./add-blank-page-in-word-document-with-c-complete-guide/) | Aprenda a inserir uma página em branco em um documento Word usando C# com o Aspose.Words para .NET neste guia completo. |
+| [Como criar dicionário PDF vazio com Aspose.PDF em C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Aprenda a criar um dicionário PDF vazio usando Aspose.PDF para .NET em C#. Guia passo a passo com exemplos de código. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

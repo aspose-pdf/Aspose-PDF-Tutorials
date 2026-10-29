@@ -210,7 +210,7 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Extract PDF Signature Information Using Aspose.PDF .NET: A Step‑By‑Step Guide]({{< relref "pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net.md" >}})
 - [Validate Digital Signature PDF in C# – Complete Aspose‑Pdf Guide]({{< relref "pdf/english/net/programming-with-security-and-signatures/validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid.md" >}})
 
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

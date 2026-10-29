@@ -22,9 +22,8 @@ title: สร้าง PDF ที่เข้าถึงได้ด้วย A
 url: /th/net/programming-with-tagged-pdf/create-accessible-pdf-with-aspose-pdf-step-by-step-guide/
 ---
 
-and code formatting.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

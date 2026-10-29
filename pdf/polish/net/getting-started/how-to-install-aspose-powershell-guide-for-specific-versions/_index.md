@@ -25,9 +25,8 @@ title: Jak zainstalować Aspose – przewodnik PowerShell dla konkretnych wersji
 url: /pl/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-. Good.
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

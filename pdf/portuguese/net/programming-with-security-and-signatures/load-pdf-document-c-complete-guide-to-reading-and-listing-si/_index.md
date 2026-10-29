@@ -24,19 +24,12 @@ title: Carregar Documento PDF C# – Guia Completo para Ler e Listar Assinaturas
 url: /pt/net/programming-with-security-and-signatures/load-pdf-document-c-complete-guide-to-reading-and-listing-si/
 ---
 
-# – How to Read and List All Digital Signatures" translate to Portuguese: "# Carregar Documento PDF C# – Como Ler e Listar Todas as Assinaturas Digitais". Keep same heading level.
 
-Then paragraph: "Ever needed to **load PDF document C#** just to see who signed it? ..." Translate.
 
-Let's translate all.
 
-Will produce final markdown.
 
-Be careful to preserve markdown formatting like **bold**.
 
-Also keep code placeholders.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

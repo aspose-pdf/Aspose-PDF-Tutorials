@@ -31,6 +31,9 @@ Tìm hiểu cách sắp xếp hợp lý các tệp PDF của bạn và giảm k�
 ### [Cách giảm kích thước PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./shrink-pdf-size-aspose-pdf-net/)
 Tìm hiểu cách giảm kích thước tệp PDF hiệu quả bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Tối ưu hóa tài liệu của bạn một cách dễ dàng và nâng cao hiệu quả lưu trữ.
 
+### [Cách tối ưu hóa PDF trong .NET – nén PDF trong .NET từng bước](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+Hướng dẫn chi tiết cách nén PDF trong .NET bằng Aspose.PDF, giảm kích thước và cải thiện hiệu suất từng bước.
+
 ### [Tối ưu hóa PDF hiệu quả: Liên kết các luồng trùng lặp bằng Aspose.PDF cho .NET](./optimize-pdfs-aspose-pdf-link-duplicate-streams/)
 Tìm hiểu cách giảm kích thước tệp PDF và tăng hiệu suất bằng cách liên kết các luồng trùng lặp với Aspose.PDF cho .NET. Làm theo hướng dẫn dễ dàng của chúng tôi để tối ưu hóa tài liệu của bạn.
 
@@ -65,6 +68,12 @@ Hướng dẫn nhanh cách nén tệp PDF bằng Aspose.PDF trong C#, giảm kí
 Hướng dẫn nhanh cách nén tệp PDF bằng Aspose.PDF cho .NET, giảm kích thước mà vẫn giữ chất lượng.
 ### [Cách tối ưu hóa PDF trong C# – Giảm kích thước tệp nhanh chóng](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Hướng dẫn nhanh cách giảm kích thước tệp PDF trong C# bằng Aspose.PDF, nâng cao hiệu suất và tiết kiệm không gian lưu trữ.
+### [Cách nén PDF bằng Aspose.Pdf trong C# – Hướng dẫn chi tiết từng bước](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+
+### [Nén hình ảnh PDF bằng Aspose PDF trong C# – Giảm nhanh kích thước PDF](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Tìm hiểu cách nén hình ảnh trong PDF bằng Aspose.PDF cho C#, giảm kích thước tệp nhanh chóng và cải thiện hiệu suất tải.
+### [Cách tối ưu hóa PDF – Hướng dẫn toàn diện với Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Khám phá hướng dẫn chi tiết để tối ưu hóa PDF bằng Aspose.Pdf, bao gồm các kỹ thuật giảm kích thước và cải thiện hiệu suất.
 
 ### [Cách tối ưu hóa PDF bằng Aspose.Pdf trong C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
 Hướng dẫn từng bước tối ưu hóa PDF bằng Aspose.PDF trong C#, giảm kích thước và cải thiện hiệu suất.

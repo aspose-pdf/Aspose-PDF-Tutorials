@@ -66,6 +66,15 @@
 了解如何使用 Aspose.Pdf 快速壓縮 PDF 文件，提高儲存效率並減少檔案大小。
 ### [如何在 C# 中最佳化 PDF – 快速縮小檔案大小](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 本指南說明如何使用 Aspose.PDF for .NET 在 C# 中快速縮減 PDF 檔案大小，提升效能與儲存效率。
+### [如何在 C# 中使用 Aspose.Pdf 壓縮 PDF – 完整步驟指南](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+本完整指南說明如何在 C# 中使用 Aspose.Pdf 壓縮 PDF，涵蓋設定、壓縮選項與最佳化技巧，助您減少檔案大小並提升效能。
+
+### [Aspose PDF 圖像壓縮（C#）– 快速減少 PDF 大小](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+了解如何使用 Aspose.PDF 在 C# 中壓縮圖像，以快速減少 PDF 檔案大小並提升效能。
+### [如何最佳化 PDF – 使用 Aspose.Pdf 的完整指南](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+了解如何使用 Aspose.Pdf 完整最佳化 PDF，涵蓋關鍵技術與實作步驟，提升效能與檔案大小。
+### [如何在 .NET 中最佳化 PDF – 逐步壓縮 PDF](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+了解如何在 .NET 中逐步壓縮 PDF，以提升效能並減少檔案大小。
 
 ### [如何在 C# 中使用 Aspose.PDF 優化 PDF](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
 了解如何在 C# 中使用 Aspose.PDF 進行 PDF 優化，提高效能與減少檔案大小。

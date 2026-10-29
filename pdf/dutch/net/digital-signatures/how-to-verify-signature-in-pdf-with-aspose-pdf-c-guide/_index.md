@@ -25,17 +25,11 @@ title: Hoe een handtekening in PDF te verifiëren met Aspose.Pdf – C#‑gids
 url: /nl/net/digital-signatures/how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/
 ---
 
-PDFs stay tamper‑free!"
 
-Translate: "Voel je vrij om te experimenteren, de fragmenten aan te passen en je bevindingen te delen. Veel plezier met coderen, en moge je PDF's tamper‑free blijven!"
 
-Now ensure we keep all shortcodes at start and end.
 
-Also we have a note: "For Dutch, ensure proper RTL formatting if needed" but Dutch is LTR, ignore.
 
-Now produce final content with same markdown.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

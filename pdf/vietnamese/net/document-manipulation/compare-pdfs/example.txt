@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách sử dụng Aspose.Pdf.Comparison để so sánh hai tệp PDF và tạo một tệp PDF diff nổi bật các khác biệt giữa tài liệu gốc và tài liệu đã chỉnh sửa.
+//ExStepSummary:0: Khai báo các đường dẫn tệp cho PDF gốc, PDF đã chỉnh sửa và PDF diff đầu ra.
+//ExStepSummary:1: Kiểm tra xem cả hai PDF đầu vào có tồn tại hay không và hủy bỏ với thông báo lỗi nếu bất kỳ tệp nào bị thiếu.
+//ExStepSummary:2: Tải các PDF gốc và đã chỉnh sửa vào các đối tượng `Document` trong một khối `using`.
+//ExStepSummary:3: Tạo một thể hiện `ComparisonOptions` với các cài đặt mặc định cho việc so sánh.
+//ExStepSummary:4: Thực hiện so sánh, tạo một tệp PDF diff tại `outputPath` để làm nổi bật các khác biệt giữa hai tài liệu.
+//ExStepSummary:5: In ra thông báo xác nhận cho biết tệp PDF diff đã được tạo.
+//ExStepSummary:6: Đóng khối `using`, giải phóng các đối tượng `Document` nguồn và đích.
+//ExStep:0-
+const string sourcePath = "originalDocument.pdf";
+const string targetPath = "modifiedDocument.pdf";
+const string outputPath = "diffOutput.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath) || !File.Exists(targetPath))
+{
+    Console.Error.WriteLine("Unable to locate one or both PDF inputs.");
+    return;
+}
+
+//ExStep:2-
+using (Document sourceDoc = new Document(sourcePath))
+using (Document targetDoc = new Document(targetPath))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+TextPdfComparer.CompareFlatDocuments(sourceDoc, targetDoc, compareOpts, outputPath);
+
+//ExStep:5-
+Console.WriteLine($"Comparison finished. Output written to \"{outputPath}\".");
+
+//ExStep:6-
+}
+//ExEnd

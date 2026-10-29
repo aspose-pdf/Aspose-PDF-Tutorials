@@ -26,21 +26,14 @@ title: 'Konfidentiellt vattenstämpel PDF med Aspose: Lägg till en textstämpel
 url: /sv/net/programming-with-stamps-and-watermarks/confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/
 ---
 
-translated.
 
-Check for bullet lists: we translated.
 
-Check for "## Edge Cases & Common Questions" we changed to Swedish but kept ampersand. Might be okay.
 
-Check for "## Expected Result" we translated.
 
-Check for "## Full Working Example" we translated.
 
-Check for "## Conclusion" we translated.
 
-Make sure we didn't translate URLs, file paths, variable names, function names. Good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

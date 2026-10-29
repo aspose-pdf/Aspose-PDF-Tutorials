@@ -52,6 +52,10 @@
 
 ### [วิธีเรนเดอร์ PDF ด้วย C# – คู่มือครบถ้วนสำหรับ PNG, HTML และการประทับลายน้ำ](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 เรียนรู้วิธีแปลง PDF เป็น PNG หรือ HTML และเพิ่มสแตมป์ใน C# ด้วย Aspose.PDF อย่างละเอียด
+### [วิธีแปลง PDF เป็น PNG ด้วย C# – คู่มือทีละขั้นตอน](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปภาพ PNG ด้วย C# โดยใช้ Aspose.PDF พร้อมตัวอย่างโค้ดและขั้นตอนละเอียด
+### [แปลง PDF เพื่อการพิมพ์ด้วย Aspose.PDF – คู่มือทีละขั้นตอน](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ PDF ให้เหมาะสมกับการพิมพ์โดยใช้ Aspose.PDF ด้วยขั้นตอนละเอียดและตัวอย่างโค้ดใน C#
 
 ## แหล่งข้อมูลเพิ่มเติม
 

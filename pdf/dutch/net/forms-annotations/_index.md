@@ -17,6 +17,8 @@ Leer de interactieve functies van PDF's kennen met onze uitgebreide tutorials ov
 
 ## Beschikbare tutorials
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Side‑by‑Side PDF‑vergelijking met uitsluiting van annotaties met Aspose.Pdf for .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Formuliervelden toevoegen aan PDF's met Aspose.PDF voor .NET: een uitgebreide handleiding](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Leer hoe u tekst, selectievakjes, keuzelijsten met invoervakjes, keuzelijsten en velden met meerdere regels aan PDF's toevoegt met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, codevoorbeelden en integratietips.
 

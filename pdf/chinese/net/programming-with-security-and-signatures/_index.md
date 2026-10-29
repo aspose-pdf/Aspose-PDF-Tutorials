@@ -20,6 +20,9 @@
 
 ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./encrypt-pdf/" title="使用 Aspose.PDF for .NET 通过用户和所有者密码加密 PDF" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | --- | --- | 
 | [更改 PDF 文件中的密码](./change-password/) 学习如何使用 Aspose.PDF for .NET 轻松更改 PDF 密码。我们的分步指南将引导您安全地完成整个过程。|  
 | [解密PDF文件](./decrypt/) 了解如何使用 Aspose.PDF for .NET 安全解密 PDF 文件。获取分步指导，提升您的文档管理技能。|  
@@ -48,6 +51,28 @@
 | [在 C# 中验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signatures-in-c-full-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性，确保文档安全可靠。|  
 | [PDF 签名教程 – 在 C# 中验证和确认 PDF 签名](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性，确保文档安全可靠。|  
 | [在 C# 中验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signature-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查签名完整性。分步指南帮助您确保文档安全。|  
+| [在 C# 中验证 PDF 签名 – 完整指南](./validate-pdf-signature-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名的完整指南。|  
+| [使用 Aspose.Pdf 检查 PDF 签名 – 完整指南](./check-pdf-signatures-with-aspose-pdf-complete-guide/) 了解如何使用 Aspose.PDF for .NET 完整检查 PDF 签名并验证其完整性。|  
+| [在 C# 中创建 PKCS7 分离签名者 – 完整指南](./create-pkcs7-detached-signer-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建 PKCS7 分离签名并完成完整指南。|  
+| [使用 Aspose.PDF 在 C# 中检索 PDF 签名名称](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中获取 PDF 文档的签名名称，分步指南帮助您轻松提取签名信息。|  
+| [在 C# 中验证 PDF 签名 – 完整分步指南](./validate-pdf-signature-in-c-complete-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性。完整分步指南。|  
+| [在 C# 中读取 PDF 签名 – 完整指南](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中读取 PDF 文件的数字签名并验证签名信息的完整指南。|  
+| [检查 PDF 签名有效性 – 使用 Aspose.PDF 完整 C# 指南](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) 了解如何使用 Aspose.PDF for .NET 在 C# 中检查 PDF 签名的有效性，分步指南确保文档安全。|  
+| [使用 Aspose.PDF 验证 PDF 数字签名 – 完整 C# 指南](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名。分步指南，确保文档完整性。|  
+| [使用 Aspose.PDF 验证 PDF 签名 – 完整 C# 指南](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，分步指南确保文档完整性。|  
+| [如何在 C# 中使用 Validator – 检查签名有效性的完整指南](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) 了解如何使用 Aspose.PDF for .NET 在 C# 中调用 Validator 检查 PDF 签名的有效性，确保文档安全可靠。|  
+| [添加 Bates 编号到 PDF – 完整的 C# 指南（含签名与转换）](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) 了解如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 添加 Bates 编号，并实现签名和格式转换的完整步骤。|  
+| [在 C# 中验证 PDF 签名 – 完整 Aspose.PDF 指南](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性。分步指南帮助您确保文档安全。|  
+| [在 C# 中检索 PDF 签名 – 完整编程指南](./retrieve-pdf-signatures-in-c-complete-programming-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中检索 PDF 文档的数字签名信息。分步指南帮助您提取签名详情。|  
+| [如何在 C# 中检查 PDF 数字签名 – 完整指南](./how-to-check-pdf-digital-signature-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中检查 PDF 的数字签名并验证其完整性，分步指南帮助您轻松上手。|  
+| [在 C# 中验证 PDF 数字签名 – 验证 PDF 签名](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 数字签名并检查其有效性。|  
+| [如何在 C# 中从 PDF 提取签名 – 步骤指南](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中提取 PDF 的数字签名，分步指南帮助您轻松获取签名信息。|  
+| [使用 Aspose 验证 PDF 数字签名](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 文件的数字签名，确保文档完整性和真实性。|  
+| [在 C# 中获取嵌入式签名 PDF – 完整指南](./get-embedded-signatures-pdf-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中提取 PDF 中的嵌入式签名，完整分步指南。|  
+| [在 C# 中使用 Aspose.PDF 验证 PDF 数字签名](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名，确保文档完整性。|  
+| [使用 Aspose.PDF 在 C# 中验证 PDF 签名 – 完整指南](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性。分步指南帮助您确保文档安全。|  
+| [PDF 签名教程：使用 Aspose.PDF 验证 PDF 数字签名](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 文档的数字签名，确保其完整性和真实性。|  
+| [在 C# 中创建签名选项 – 完整数字签名指南](./create-signature-options-in-c-full-guide-to-digital-signing/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建签名选项并完成数字签名的完整指南。|  
 | [在 C# 中验证 PDF 签名并检测篡改](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检测文档是否被篡改。|  
 | [在 C# 中使用自定义数字签名保存已签名的 PDF](./save-signed-pdf-with-a-custom-digital-signature-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建自定义数字签名并保存已签名的 PDF 文档。|  
 | [如何在 C# 中使用证书颁发机构验证 PDF 签名](./how-to-validate-pdf-signatures-with-a-certificate-authority/) 了解如何使用 Aspose.PDF for .NET 在 C# 中通过证书颁发机构验证 PDF 签名，确保签名真实性。|  
@@ -59,7 +84,12 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [在 C# 中验证 PDF 签名 – 完整分步指南](./verify-pdf-signature-in-c-complete-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，分步指导确保文档完整性和真实性。|  
 | [打开已签名的 PDF – 如何读取其数字签名](./open-signed-pdf-how-to-read-its-digital-signatures/) 了解如何使用 Aspose.PDF for .NET 打开已签名的 PDF 并读取其数字签名。分步指南帮助您检查签名信息。|  
 
@@ -69,7 +99,12 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [如何使用 Aspose 验证 PDF 中的签名 – C# 教程](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 文档的数字签名，确保签名完整性和真实性。|  
 | [如何修复 PDF 文件 – 使用 Aspose.Pdf 的完整 C# 指南](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) 了解如何使用 Aspose.Pdf for .NET 在 C# 中修复受损的 PDF 文件，分步指南帮助您恢复文档完整性。|  
 | [PDF 签名提取教程 – 如何在 C# 中列出 PDF 签名](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) 了解如何使用 Aspose.PDF for .NET 在 C# 中提取并列出 PDF 文档的数字签名，分步指南帮助您快速实现。|  
@@ -90,5 +125,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

@@ -34,11 +34,17 @@ Learn how to reduce PDF file sizes with Aspose.PDF .NET. Discover techniques for
 ### [Efficient PDF Management in .NET using Aspose.PDF&#58; Insert and Stream Pages](./aspose-pdf-net-optimized-pdfs-insert-stream-pages/)
 Learn how to optimize PDF management in .NET with Aspose.PDF. This guide covers inserting pages, stream handling, and performance optimization techniques for seamless document manipulation.
 
+### [How to optimize PDF in .NET – compress PDF in .NET step by step](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+Step-by-step guide to compress PDFs in .NET using Aspose.PDF, improving file size and performance.
+
 ### [How to Optimize PDFs by Removing Unused Streams using Aspose.PDF for .NET](./optimize-pdfs-remove-unused-streams-aspose-pdf-net/)
 Learn how to streamline your PDF files and reduce their size with Aspose.PDF for .NET. This guide covers removing unused streams, improving performance, and optimizing document management.
 
 ### [How to Reduce PDF Size Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./shrink-pdf-size-aspose-pdf-net/)
 Learn how to effectively reduce PDF file sizes using Aspose.PDF for .NET with this comprehensive guide. Optimize your documents effortlessly and enhance storage efficiency.
+
+### [How to Optimize PDF – Complete Guide with Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Learn comprehensive steps to optimize PDF files using Aspose.PDF, covering size reduction, performance improvements, and best practices.
 
 ### [Optimize PDFs Efficiently&#58; Link Duplicate Streams Using Aspose.PDF for .NET](./optimize-pdfs-aspose-pdf-link-duplicate-streams/)
 Learn how to reduce PDF file size and enhance performance by linking duplicate streams with Aspose.PDF for .NET. Follow our easy guide to optimize your documents.
@@ -75,6 +81,11 @@ Learn how to save optimized PDFs in C#, reducing file size and removing unnecess
 Learn a fast method to compress PDF files using Aspose.PDF for .NET, reducing size while preserving quality in just a few steps.
 ### [How to Optimize PDF in C# – Reduce File Size Quickly](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Learn quick techniques to reduce PDF file size in C# using Aspose.PDF, covering compression, image downsampling, and removing unused objects.
+### [how to compress pdf with Aspose.Pdf in C# – Complete Step‑by‑Step Guide](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+Learn how to compress PDFs using Aspose.PDF in C# with a detailed step‑by‑step guide covering settings, options, and best practices.
+
+### [Aspose PDF Image Compression in C# – Reduce PDF Size Quickly](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Learn how to compress images in PDFs using Aspose.PDF for .NET, reducing file size quickly with simple C# code examples.
 
 ### [How to optimize PDF using Aspose.Pdf in C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
 Learn how to optimize PDF files using Aspose.PDF in C# with step-by-step guidance.
@@ -91,7 +102,6 @@ Learn how to optimize PDF files using Aspose.PDF in C# with step-by-step guidanc
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

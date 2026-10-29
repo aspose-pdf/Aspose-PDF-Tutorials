@@ -41,6 +41,7 @@ Aspose.PDFs handledningar "Programmering med text" för .NET erbjuder ett omfatt
 | [Extrahera textsida i PDF-fil](./extract-text-page/) | Lär dig hur du extraherar text från en specifik sida i en PDF-fil med Aspose.PDF för .NET. |
 | [Extrahera text med hjälp av textenhet](./extract-text-using-text-device/) | Lär dig hur du extraherar text från ett PDF-dokument med hjälp av textenheten i Aspose.PDF för .NET. |
 | [Hämta textbredd dynamiskt](./get-width-of-text-dynamically/) | Lär dig att dynamiskt mäta textbredder med Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen som är skräddarsydd för utvecklare. |
+| [Generera PDF‑sammanfattning med Aspose.Pdf.AI och OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Lär dig skapa en PDF‑sammanfattning med Aspose.Pdf.AI och OpenAI i .NET. |
 | [Dolt textblock i PDF-fil](./hidden-text-block/) | Skapa interaktiva PDF-filer med dolda textblock med Aspose.PDF för .NET. Den här handledningen ger en steg-för-steg-guide för att förbättra dina dokument. |
 | [Markera tecken i PDF-fil](./highlight-character-in-pdf/) | Lär dig att markera tecken i en PDF med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |
 | [Flerkolumnsstycken i PDF-fil](./multicolumn-paragraphs/) | Lär dig hur du skapar och hanterar flerkolumnsstycken i PDF-filer med Aspose.PDF för .NET med vår steg-för-steg-guide. |
@@ -72,6 +73,8 @@ Aspose.PDFs handledningar "Programmering med text" för .NET erbjuder ett omfatt
 | [Text och bild som stycke i PDF-fil](./text-and-image-as-paragraph/) | Skapa PDF-filer med text och bilder med Aspose.PDF för .NET. Lär dig hur du lägger till text och infogade bilder steg för steg. |
 | [Textsegment i PDF-fil](./text-segments/) | Lär dig hur du söker efter specifika textsegment i PDF-filer med hjälp av reguljära uttryck i Aspose.PDF för .NET. |
 | [Använd Latex-skript i PDF-fil](./use-latex-script/) | Lär dig hur du använder Latex-skript för att lägga till matematiska uttryck eller formler i PDF-filer med Aspose.PDF för .NET. |
+| [Skapa Span-element i Word med C# – Komplett guide](./create-span-element-in-word-with-c-complete-guide/) | Lär dig hur du skapar ett Span-element i ett Word-dokument med C# i en komplett steg-för-steg-guide. |
+| [Skapa sammanfattnings-PDF med Aspose.Pdf.AI i C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Lär dig skapa en sammanfattnings-PDF med Aspose.Pdf.AI i C# med steg-för-steg-instruktioner. |
 | [Hur man lägger till text i PDF med Aspose.PDF i C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Lär dig hur du lägger till text i en PDF med Aspose.PDF i C# med steg-för-steg‑exempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

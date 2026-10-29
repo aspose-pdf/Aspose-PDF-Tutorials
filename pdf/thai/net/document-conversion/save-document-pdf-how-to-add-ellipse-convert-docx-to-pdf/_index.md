@@ -22,21 +22,14 @@ title: บันทึกเอกสาร PDF – วิธีเพิ่ม�
 url: /th/net/document-conversion/save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/
 ---
 
-}}
 
-All preserved.
 
-Now ensure we didn't translate any code block placeholders. Also ensure we kept markdown formatting.
 
-Check for any URLs: none.
 
-Check for any markdown links: none.
 
-Check for images: we translated alt text.
 
-Check for headings: all preserved.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

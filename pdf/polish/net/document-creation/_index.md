@@ -18,6 +18,9 @@ Nasze samouczki tworzenia dokumentów zapewniają kompleksowe wskazówki dotycz�
 ## Dostępne samouczki
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Utwórz dokument PDF/X‑3 z trzema stronami przy użyciu Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Jak utworzyć dokument PDF/X‑1 przy użyciu Aspose.PDF dla .NET" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [Tworzenie broszur PDF przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./aspose-pdf-net-create-booklets-tutorial/)
 Dowiedz się, jak tworzyć profesjonalne broszury PDF za pomocą Aspose.PDF dla .NET. Ten samouczek obejmuje konfigurację, implementację i praktyczne zastosowania.
 ### [Tworzenie plików PDF z XML i XSLT przy użyciu Aspose.PDF .NET: przewodnik krok po kroku](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -98,6 +101,22 @@ Dowiedz się, jak w Aspose.PDF dla .NET wygenerować dokument PDF w pamięci prz
 ### [Utwórz dokument PDF w C# – przewodnik krok po kroku, jak dodać pustą stronę i narysować prostokąt](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Krok po kroku pokażemy, jak dodać pustą stronę i narysować prostokąt w dokumencie PDF przy użyciu Aspose.PDF w C#.
 
+### [Utwórz obraz PDF z HEIC – Kompletny przewodnik C#](./create-pdf-image-from-heic-complete-c-guide/)
+Dowiedz się, jak konwertować obrazy HEIC na pliki PDF w C# przy użyciu Aspose.PDF, krok po kroku.
+
+### [Utwórz dokument PDF przy użyciu Aspose.PDF – pełny przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Dowiedz się, jak kompleksowo tworzyć dokument PDF przy użyciu Aspose.PDF w .NET, od konfiguracji po zapis.
+### [Utwórz nowy dokument PDF z numeracją Bates w C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Dowiedz się, jak dodać numerację Bates do nowo tworzonego dokumentu PDF w C# przy użyciu Aspose.PDF.
+
+
+### [Tworzenie dokumentu PDF/X‑4 w C# – przewodnik krok po kroku](./create-pdf-x-4-document-c-step-by-step-guide/)
+Dowiedz się, jak stworzyć dokument PDF/X‑4 w C# przy użyciu Aspose.PDF, krok po kroku.
+### [Jak utworzyć dokument PDF z pustą stroną i prostokątem](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Dowiedz się, jak w C# dodać pustą stronę i narysować prostokąt w dokumencie PDF przy użyciu Aspose.PDF.
+
+### [Utwórz dokument PDF w C# przy użyciu Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
+Dowiedz się, jak w C# stworzyć dokument PDF przy użyciu biblioteki Aspose.Pdf, dodając strony, kształty i zapisując plik.
 ### [Jak zainicjować klienta OpenAI i podsumować PDF za pomocą AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Dowiedz się, jak zainicjować klienta OpenAI i podsumować plik PDF przy użyciu sztucznej inteligencji.
 

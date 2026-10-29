@@ -72,6 +72,9 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | [Tekstsegmenten in PDF-bestand](./text-segments/) | Leer hoe u met behulp van reguliere expressies in Aspose.PDF voor .NET naar specifieke tekstsegmenten in een PDF-bestand kunt zoeken. |  
 | [Latex-script gebruiken in PDF-bestand](./use-latex-script/) | Leer hoe u Latex-script kunt gebruiken om wiskundige uitdrukkingen of formules toe te voegen aan een PDF-bestand met behulp van Aspose.PDF voor .NET. |  
 | [Bates-nummers toevoegen aan PDF – Bates-nummering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Leer hoe u Bates-nummers aan PDF-documenten kunt toevoegen met Aspose.PDF voor .NET. |  
+| [Span-element maken in Word met C# – Complete gids](./create-span-element-in-word-with-c-complete-guide/) | Leer hoe u met C# een span-element in een Word-document maakt, inclusief volledige codevoorbeelden en stapsgewijze uitleg. |  
+| [PDF-samenvatting genereren met Aspose.Pdf.AI en OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Leer hoe u met Aspose.Pdf.AI en OpenAI een samenvatting van een PDF genereert. |  
+| [Hoe maak je een samenvattende PDF met Aspose.Pdf.AI in C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Leer hoe u met Aspose.Pdf.AI een samenvattende PDF maakt in C#. |  
 | [Bates-nummers toevoegen aan PDF met Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Leer hoe u Bates-nummers aan PDF-documenten kunt toevoegen met Aspose.PDF voor .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

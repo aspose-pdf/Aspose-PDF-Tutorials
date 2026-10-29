@@ -17,6 +17,9 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET का उपयोग करके तीन पृष्ठों वाला PDF/X‑3 दस्तावेज़ बनाएं" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Aspose.PDF for .NET के साथ PDF/X‑1 दस्तावेज़ कैसे बनाएं" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF पुस्तिकाएँ बनाएँ: एक चरण-दर-स्तर मार्गदर्शिका](./aspose-pdf-net-create-booklets-tutorial/)
 .NET के लिए Aspose.PDF के साथ पेशेवर PDF पुस्तिकाएँ बनाना सीखें। यह ट्यूटोरियल सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करता है।
 ### [Aspose.PDF .NET का उपयोग करके XML और XSLT से PDF बनाएं: एक चरण-दर-चरण मार्गदर्शिका](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -63,6 +66,10 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [C# में PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आयत बनाएं और सहेजें](./create-pdf-document-c-add-page-draw-rectangle-save/)
 C# कोड का उपयोग करके PDF बनाएं, नया पृष्ठ जोड़ें, आयत आकृति बनाएं और फ़ाइल सहेजें।
 
+
+### [खाली पृष्ठ और आयत के साथ PDF दस्तावेज़ कैसे बनाएं](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+खाली पृष्ठ और आयत के साथ PDF दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
 ### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आकार बनाएं और सहेजें](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF का उपयोग करके पृष्ठ, आकार जोड़कर PDF बनाना और सहेजना सीखें।
 ### [Aspose के साथ C# में PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
@@ -95,6 +102,17 @@ C# में मेमोरी में PDF बनाना, कोड उद�
 ### [C# में PDF दस्तावेज़ बनाना – खाली पृष्ठ जोड़ें और आयत बनाते हुए चरण‑दर‑स्टेप मार्गदर्शिका](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 C# कोड के साथ एक खाली पृष्ठ जोड़ें और आयत बनाकर PDF दस्तावेज़ बनाने की प्रक्रिया सीखें।
 
+### [HEIC से PDF इमेज बनाएं – पूर्ण C# गाइड](./create-pdf-image-from-heic-complete-c-guide/)
+Aspose.PDF का उपयोग करके HEIC फ़ॉर्मेट की छवियों को PDF में परिवर्तित करने के चरण‑दर‑चरण कोड उदाहरण।
+
+### [Aspose.Pdf के साथ PDF दस्तावेज़ बनाएं – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने की पूरी प्रक्रिया, सेटअप से कोड उदाहरण तक, सीखें।
+
+### [C# में बेत्स नंबरिंग के साथ नया PDF दस्तावेज़ बनाएं](./create-new-pdf-document-with-bates-numbering-in-c/)
+
+### [C# में PDF/X‑4 दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-x-4-document-c-step-by-step-guide/)
+### [C# के साथ Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाएं](./create-pdf-document-in-c-with-aspose-pdf/)
+C# में Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने का चरण‑दर‑चरण मार्गदर्शन।
 ### [OpenAI क्लाइंट को इनिशियलाइज़ करें और AI के साथ PDF का सारांश बनाएं](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## अतिरिक्त संसाधन

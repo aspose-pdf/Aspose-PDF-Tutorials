@@ -70,6 +70,16 @@
 ### [วิธีเพิ่มประสิทธิภาพ PDF ใน C# – ลดขนาดไฟล์อย่างรวดเร็ว](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 เรียนรู้วิธีลดขนาดไฟล์ PDF อย่างรวดเร็วด้วย C# และ Aspose.PDF ด้วยขั้นตอนง่ายๆ และเทคนิคการบีบอัดที่มีประสิทธิภาพ
 
+### [วิธีบีบอัด PDF ด้วย Aspose.Pdf ใน C# – คู่มือขั้นตอนเต็ม](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+
+### [การบีบอัดภาพใน Aspose PDF ด้วย C# – ลดขนาด PDF อย่างรวดเร็ว](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+เรียนรู้วิธีบีบอัดภาพใน PDF ด้วย Aspose.PDF ใน C# เพื่อให้ไฟล์ขนาดเล็กลงอย่างรวดเร็วและประหยัดพื้นที่
+
+### [วิธีเพิ่มประสิทธิภาพ PDF – คู่มือฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+เรียนรู้ขั้นตอนการเพิ่มประสิทธิภาพไฟล์ PDF อย่างเต็มรูปแบบด้วย Aspose.PDF พร้อมเคล็ดลับและตัวอย่างโค้ดที่ใช้งานได้จริง
+
+### [วิธีเพิ่มประสิทธิภาพ PDF ใน .NET – บีบอัด PDF ใน .NET ทีละขั้นตอน](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+เรียนรู้วิธีบีบอัดไฟล์ PDF ใน .NET อย่างเป็นขั้นตอนเพื่อเพิ่มประสิทธิภาพและลดขนาดไฟล์
 ### [วิธีเพิ่มประสิทธิภาพ PDF ด้วย Aspose.Pdf ใน C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
 เรียนรู้วิธีเพิ่มประสิทธิภาพไฟล์ PDF ด้วย Aspose.Pdf ใน C# อย่างรวดเร็วและมีประสิทธิภาพ
 

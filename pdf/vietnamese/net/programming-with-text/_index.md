@@ -32,6 +32,7 @@ Các hướng dẫn "Lập trình với Văn bản" của Aspose.PDF dành cho .
 | [Thêm số Bates vào PDF – đánh số Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Học cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
 | [Thêm đánh số Bates vào PDF bằng Aspose.PDF trong C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Học cách thêm số Bates vào PDF bằng Aspose.PDF cho .NET trong C# qua hướng dẫn chi tiết. |
 | [Tạo PDF Nhiều Cột](./create-multi-column-pdf/) | Tìm hiểu cách tạo PDF nhiều cột bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã và giải thích chi tiết. Hoàn hảo cho các chuyên gia. |  
+| [Tạo tóm tắt PDF bằng Aspose.Pdf.AI và OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Học cách tạo tóm tắt nội dung PDF bằng Aspose.Pdf.AI kết hợp OpenAI trong .NET. |
 | [Tùy chỉnh Tab dừng trong tệp PDF](./custom-tab-stops/) | Tìm hiểu cách thiết lập các điểm dừng tab tùy chỉnh trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các hướng dẫn từng bước để căn chỉnh văn bản một cách chuyên nghiệp. |  
 | [Xác định ngắt dòng trong tệp PDF](./determine-line-break/) | Tìm hiểu cách xác định ngắt dòng trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước dành cho nhà phát triển. |  
 | [Nhúng Phông chữ Chuẩn Type 1 vào Tệp PDF](./embed-standard-type-1fonts/) | Tìm hiểu cách nhúng phông chữ Standard Type 1 vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này để tăng cường khả năng truy cập cho tài liệu của bạn. |  
@@ -58,7 +59,7 @@ Các hướng dẫn "Lập trình với Văn bản" của Aspose.PDF dành cho .
 | [Thay thế văn bản trên biểu thức chính quy trong tệp PDF](./replace-text-on-regular-expression/) Tìm hiểu cách thay thế văn bản dựa trên biểu thức chính quy trong tệp PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tự động thay đổi văn bản một cách hiệu quả. |  
 | [Thay thế trang văn bản trong tệp PDF](./replace-text-page/) | Tìm hiểu cách thay thế văn bản trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tùy chỉnh phông chữ, màu sắc và thuộc tính văn bản một cách dễ dàng. |  
 | [Xoay văn bản bằng cách sử dụng đoạn văn trong tệp PDF](./rotate-text-using-paragraph/) | Tìm hiểu cách xoay văn bản trong PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để tạo tài liệu của bạn. |  
-| [Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF](./rotate-text-using-text-fragment/) | Tìm hiểu cách xoay văn bản trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước. Khám phá các kỹ thuật thao tác văn bản, từ định vị đến xoay. |  
+| [Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF](./rotate-text-using-text-fragment/) | Tìm hiểu cách xoay văn bản trong PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước. Khám phá các kỹ thuật thao tác văn bản, từ định vị đến xoay. |  
 | [Xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn](./rotate-text-using-text-fragment-and-paragraph/) | Tìm hiểu cách xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn trong tài liệu PDF bằng Aspose.PDF cho .NET. |  
 | [Xoay văn bản bằng cách sử dụng đoạn văn bản và trình tạo trong tệp PDF](./rotate-text-using-text-paragraph-and-builder/) | Tìm hiểu cách xoay văn bản bằng đoạn văn bản và trình tạo trong tệp PDF bằng Aspose.PDF cho .NET. |  
 | [Tìm kiếm và lấy tất cả văn bản](./search-and-get-text-all/) | Tìm hiểu cách tìm kiếm và lấy văn bản từ tất cả các trang của tài liệu PDF bằng Aspose.PDF cho .NET. |  
@@ -73,6 +74,8 @@ Các hướng dẫn "Lập trình với Văn bản" của Aspose.PDF dành cho .
 | [Văn bản và hình ảnh như đoạn văn trong tệp PDF](./text-and-image-as-paragraph/) | Tạo PDF có văn bản và hình ảnh bằng Aspose.PDF cho .NET. Tìm hiểu cách thêm văn bản và hình ảnh nội tuyến từng bước. |  
 | [Các đoạn văn bản trong tệp PDF](./text-segments/) | Tìm hiểu cách tìm kiếm các đoạn văn bản cụ thể trong tệp PDF bằng cách sử dụng biểu thức chính quy trong Aspose.PDF cho .NET. |  
 | [Sử dụng Latex Script trong tệp PDF](./use-latex-script/) | Tìm hiểu cách sử dụng tập lệnh Latex để thêm biểu thức toán học hoặc công thức vào tệp PDF bằng Aspose.PDF cho .NET. |  
+| [Tạo phần tử Span trong Word bằng C# – Hướng dẫn đầy đủ](./create-span-element-in-word-with-c-complete-guide/) | Học cách tạo phần tử Span trong tài liệu Word bằng C# với hướng dẫn chi tiết và ví dụ mã. |  
+| [Cách tạo PDF tóm tắt với Aspose.Pdf.AI trong C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Học cách tạo PDF tóm tắt bằng Aspose.Pdf.AI trong C# với hướng dẫn chi tiết. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

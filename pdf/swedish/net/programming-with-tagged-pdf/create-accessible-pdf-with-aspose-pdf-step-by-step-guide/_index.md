@@ -24,15 +24,11 @@ title: Skapa tillgänglig PDF med Aspose.Pdf – Steg‑för‑steg guide
 url: /sv/net/programming-with-tagged-pdf/create-accessible-pdf-with-aspose-pdf-step-by-step-guide/
 ---
 
-file paths, variable names. We kept code placeholders unchanged. No URLs present.
 
-Check for any markdown links: none.
 
-Check for images: none.
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

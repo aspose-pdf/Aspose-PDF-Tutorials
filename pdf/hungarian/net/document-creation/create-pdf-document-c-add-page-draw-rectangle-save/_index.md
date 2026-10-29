@@ -25,27 +25,16 @@ title: PDF dokumentum létrehozása C#‑ban – Oldal hozzáadása, téglalap r
 url: /hu/net/document-creation/create-pdf-document-c-add-page-draw-rectangle-save/
 ---
 
-, téglalap rajzolása és mentés". Keep same heading level.
 
-Paragraph: "Ever needed to **create PDF document C#** from scratch and wondered where to start? ..." translate.
 
-We need to translate all sentences, keep bold etc.
 
-Also keep code block placeholders unchanged.
 
-Also list items.
 
-Also note image alt text and title.
 
-Also "Alt text:" line.
 
-Also "Bottom line:" etc.
 
-Let's produce final content.
 
-Be careful to keep markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

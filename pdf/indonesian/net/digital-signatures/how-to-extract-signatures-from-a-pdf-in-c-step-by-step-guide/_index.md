@@ -25,9 +25,7 @@ title: Cara Mengekstrak Tanda Tangan dari PDF di C# – Panduan Langkah demi Lan
 url: /id/net/digital-signatures/how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/
 ---
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

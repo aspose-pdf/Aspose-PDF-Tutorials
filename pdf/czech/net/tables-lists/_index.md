@@ -17,6 +17,8 @@ Naučte se, jak vytvářet dobře strukturované PDF dokumenty s našimi tutori�
 
 ## Dostupné tutoriály
 
+
+{{< tutorial-card link="./style-table-cells/" title="Přizpůsobte pozadí, okraje a odsazení buněk tabulky v PDF pomocí Aspose.Pdf pro .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Přidání seřazeného seznamu HTML do PDF pomocí Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Výukový program pro kódování Aspose.PDF Net
 

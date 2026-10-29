@@ -25,6 +25,7 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Remplissage de texte arabe](./arabic-text-filling/) | Apprenez à saisir du texte arabe dans des formulaires PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Améliorez vos compétences en manipulation de PDF. |  
 | [Zone de liste déroulante](./combo-box/) Apprenez à ajouter une zone de liste déroulante à un PDF avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour créer facilement des formulaires PDF interactifs. |
 | [Créer un document](./create-doc/) | Apprenez à créer des documents PDF interactifs avec des boutons radio à l'aide d'Aspose.PDF pour .NET dans ce guide complet étape par étape. |
+| [Créer un champ de formulaire PDF en C# – guide étape par étape](./create-pdf-form-field-in-c-step-by-step-guide/) | Apprenez à créer un champ de formulaire PDF en C# avec Aspose.PDF pour .NET, guide complet étape par étape. |
 | [Supprimer un champ de formulaire dans un document PDF](./delete-form-field/) | Découvrez comment supprimer des champs de formulaire dans des documents PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs et les passionnés de PDF. |
 | [Déterminer le champ obligatoire dans le formulaire PDF](./determine-required-field/) | Apprenez à déterminer les champs obligatoires d'un formulaire PDF avec Aspose.PDF pour .NET. Notre guide étape par étape simplifie la gestion des formulaires et optimise votre flux de travail d'automatisation PDF. |
 | [Conversion dynamique de XFA en Acro](./dynamic-xfa-to-acro-form/) | Apprenez à convertir des formulaires XFA dynamiques en AcroForms standard à l'aide d'Aspose.PDF pour .NET dans ce didacticiel étape par étape. |
@@ -55,6 +56,11 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Créer un PDF avec des pages et des champs de zone de texte – Guide complet C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Apprenez à créer un PDF contenant plusieurs pages et des champs de zone de texte avec Aspose.PDF pour .NET dans ce guide complet C#. |
 | [Créer un document PDF avec Aspose – Ajouter un champ de zone de texte](./create-pdf-document-with-aspose-add-text-box-field/) | Apprenez à ajouter un champ de zone de texte à un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 | [Créer un document PDF C# – Guide étape par étape pour les formulaires multi‑pages](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Apprenez à créer un document PDF multi‑pages avec des formulaires en C# grâce à ce guide détaillé étape par étape. |
+| [Créer un formulaire multi‑pages en C# avec Aspose.Pdf – Guide étape par étape](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Apprenez à créer un formulaire PDF multi‑pages en C# avec Aspose.Pdf grâce à ce guide complet étape par étape. |
+| [Ajouter une zone de texte à un formulaire PDF – Guide complet C#](./add-text-box-to-pdf-form-complete-c-guide/) | Apprenez à ajouter une zone de texte à un formulaire PDF avec Aspose.PDF pour .NET en suivant ce guide complet C# étape par étape. |
+| [Créer un champ de zone de texte PDF – Guide étape par étape](./create-pdf-textbox-field-step-by-step-guide/) | Apprenez à créer un champ de zone de texte dans un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
+| [Importer un FDF dans un PDF avec C# – Guide complet étape par étape](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Apprenez à importer un fichier FDF dans un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Enregistrer un document PDF avec Aspose.PDF – guide complet](./save-pdf-document-with-aspose-pdf-complete-guide/) | Apprenez à enregistrer un document PDF avec Aspose.PDF grâce à ce guide complet étape par étape. |
 | [Comment créer un PDF avec des champs de formulaire interactifs en C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Apprenez à créer un document PDF contenant des champs de formulaire interactifs en C# avec Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -63,7 +69,12 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Comment créer un PDF avec Aspose – Ajouter un champ à la collection](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Apprenez à créer un PDF et à ajouter un champ à une collection avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -72,7 +83,12 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Créer un document PDF avec plusieurs widgets de zone de texte – Guide étape par étape](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Créez un PDF contenant plusieurs zones de texte avec Aspose.PDF pour .NET. Guide complet étape par étape. |
 | [Ajouter des numéros Bates aux PDF – Guide étape par étape C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Apprenez à ajouter des numéros Bates à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Comment ajouter une zone de texte PDF – Créer un champ de formulaire PDF et enregistrer le document PDF modifié](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Apprenez à ajouter une zone de texte à un PDF, créer un champ de formulaire et enregistrer le document modifié avec Aspose.PDF pour .NET. |
@@ -82,5 +98,4 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

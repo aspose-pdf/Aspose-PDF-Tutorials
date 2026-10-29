@@ -24,11 +24,9 @@ title: Estrai le firme da PDF con Aspose.Pdf – Guida completa
 url: /it/net/digital-signatures/extract-signatures-from-pdf-with-aspose-pdf-complete-guide/
 ---
 
--button >}}
 
-Now ensure no extra spaces.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,9 +23,8 @@ title: Bates Numarası Nasıl Eklenir – PDF'ler İçin Adım Adım Rehber
 url: /tr/net/programming-with-stamps-and-watermarks/how-to-add-bates-step-by-step-guide-for-pdfs/
 ---
 
-to preserve bold formatting (**). Keep them as is.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
