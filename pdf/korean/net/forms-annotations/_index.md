@@ -17,6 +17,8 @@
 
 ## 사용 가능한 튜토리얼
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Aspose.Pdf for .NET을 사용한 주석 제외 사이드‑바이‑사이드 PDF 비교" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [.NET용 Aspose.PDF를 사용하여 PDF에 양식 필드 추가: 포괄적인 가이드](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Aspose.PDF for .NET을 사용하여 PDF에 텍스트, 체크박스, 콤보 상자, 목록 상자 및 여러 줄 필드를 추가하는 방법을 알아보세요. 이 가이드에서는 설정, 코드 예제 및 통합 팁을 다룹니다.
 

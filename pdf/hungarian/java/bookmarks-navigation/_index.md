@@ -1,9 +1,54 @@
 ---
-date: 2026-02-27
-description: Tanulja meg, hogyan hozhat létre PDF tartalomjegyzéket Java-ban az Aspose.PDF
-  for Java segítségével, szerkessze a PDF megjelenítő beállításait, és nyissa meg,
-  mentse a PDF könyvjelzőket hatékonyan. Lépésről‑lépésre útmutatók a navigációhoz.
-title: PDF tartalomjegyzék létrehozása Java-ban – Aspose.PDF könyvjelzők és navigáció
+date: 2026-08-06
+description: Tanulja meg, hogyan adjon hozzá PDF könyvjelzőket Java-ban az Aspose.PDF
+  használatával. Ez a lépésről‑lépésre útmutató bemutatja a TOC létrehozását, a könyvjelzők
+  kezelését, valamint a megjelenítő beállításainak konfigurálását a zökkenőmentes
+  navigáció érdekében.
+keywords:
+- how to add pdf bookmarks
+- pdf navigation java
+- aspose pdf bookmarks
+- pdf toc java
+- java pdf viewer settings
+lastmod: 2026-08-06
+og_description: Tanulja meg, hogyan adjon hozzá PDF könyvjelzőket Java-ban az Aspose.PDF
+  használatával. Ez a lépésről‑lépésre útmutató bemutatja a TOC létrehozását, a könyvjelzők
+  kezelését, valamint a megjelenítő beállításainak konfigurálását a zökkenőmentes
+  navigáció érdekében.
+og_image_alt: Guide to adding PDF bookmarks and navigation using Aspose.PDF for Java
+og_title: Hogyan adjon hozzá PDF könyvjelzőket Java-ban az Aspose.PDF segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to add PDF bookmarks in Java using Aspose.PDF. This step‑by‑step
+    guide covers creating a TOC, managing bookmarks, and configuring viewer settings
+    for seamless navigation.
+  headline: How to add PDF bookmarks in Java with Aspose.PDF
+  type: TechArticle
+- questions:
+  - answer: Yes. Open the encrypted document by providing the password, then generate
+      the TOC as usual.
+    question: Can I create a TOC for encrypted PDFs?
+  - answer: Most modern readers respect the PDF OpenAction and ViewerPreferences entries,
+      though a few lightweight viewers may ignore them.
+    question: Does “edit PDF viewer settings” affect all PDF readers?
+  - answer: The library can handle PDFs up to **5 GB**; for very large files, call
+      `document.optimizeResources()` to keep memory consumption low.
+    question: How large a PDF can I process with Aspose.PDF?
+  - answer: Absolutely. Load each document, extract its bookmark tree, and combine
+      them into a single hierarchical structure before saving.
+    question: Is it possible to merge multiple TOCs from different PDFs?
+  - answer: A single license covers all applications on the same machine, but review
+      the licensing terms for deployment scenarios.
+    question: Do I need a separate license for each Java application?
+  type: FAQPage
+tags:
+- pdf bookmarks
+- aspose.pdf
+- java pdf processing
+- pdf navigation
+- table of contents
+title: Hogyan adjon hozzá PDF könyvjelzőket Java-ban az Aspose.PDF segítségével
 url: /hu/java/bookmarks-navigation/
 weight: 14
 ---
@@ -13,93 +58,106 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# PDF Könyvjelzők és Navigációs Oktatóanyagok az Aspose.PDF Java-hoz
+# Hogyan adjon hozzá PDF könyvjelzőket Java-ban az Aspose.PDF segítségével
 
-A PDF-fájlok használhatóságának javítása elengedhetetlen a zökkenőmentes olvasási élmény biztosításához. Ebben a gyűjteményben **create PDF TOC Java**‑stílusú tartalomjegyzékeket hozhatsz létre, kezelheted a könyvjelzőket, és navigációs hivatkozásokat adhatod hozzá az Aspose.PDF for Java használatával. Akár jelentést, e‑könyvet vagy technikai kézikönyvet készítesz, ezek a lépésről‑lépésre útmutatók megmutatják, hogyan teheted a PDF-eket intuitívvá és könnyen felfedezhetővé.
+A PDF könyvjelzők programozott hozzáadása lehetővé teszi, hogy egy statikus dokumentumot interaktív, könnyen navigálható erőforrássá alakítson. Ebben az útmutatóban megtanulja, hogyan **adhat hozzá PDF könyvjelzőket** az Aspose.PDF for Java használatával, hogyan hozhat létre Tartalomjegyzéket (TOC), szerkesztheti a megjelenítő beállításait, és mentheti a frissített fájlt – mindezt manuális szerkesztés vagy harmadik fél eszközei nélkül.
 
-## Gyors Válaszok
+## Gyors válaszok
 - **Mi jelent a “create PDF TOC Java”?**  
-  Ez azt jelenti, hogy programozottan generálunk egy Tartalomjegyzéket egy PDF-ben Java és az Aspose.PDF könyvtár használatával.  
-- **Miért használjuk az Aspose.PDF-et a navigációhoz?**  
-  Gazdag API-t biztosít a könyvjelzőkhöz, hiperhivatkozásokhoz és a megjelenítő beállításokhoz, anélkül, hogy az Adobe Acrobatra lenne szükség.  
+  Ez azt jelenti, hogy egy hierarchikus Tartalomjegyzéket generál egy PDF-ben Java és az Aspose.PDF használatával, így az olvasók közvetlenül a fejezetekre ugorhatnak.  
+- **Miért használja az Aspose.PDF-t a navigációhoz?**  
+  Az API teljes programozott vezérlést biztosít a könyvjelzők, hiperhivatkozások és megjelenítő beállítások felett, kiküszöbölve az Adobe Acrobat szükségességét.  
 - **Szükségem van licencre?**  
-  Egy ideiglenes licenc teszteléshez megfelelő; a teljes licenc szükséges a termelési környezethez.  
+  Egy ideiglenes licenc teszteléshez működik; a teljes licenc a termelési környezethez szükséges.  
 - **Mely Java verziók támogatottak?**  
   A Java 8 és újabb verziók teljesen kompatibilisek a legújabb Aspose.PDF for Java kiadásokkal.  
 - **Kombinálhatom a könyvjelzőket a megjelenítő beállításokkal?**  
-  Igen – ugyanazzal az API-val szerkesztheted a PDF megjelenítő beállításait, miközben létrehozod vagy frissíted a könyvjelzőket.
+  Igen – ugyanazzal az API-val szerkesztheti a PDF megjelenítő beállításait a könyvjelzők létrehozása vagy frissítése közben.
 
 ## Mi az a “create PDF TOC Java”?
-A PDF TOC (Tartalomjegyzék) Java-ban történő létrehozása azt jelenti, hogy egy hierarchikus bejegyzéslistát építünk, amely a dokumentum szakaszaira mutató hivatkozásokat tartalmaz. A TOC javítja a navigációt, különösen hosszú PDF-ek esetén, mivel lehetővé teszi az olvasók számára, hogy egyetlen kattintással közvetlenül a fejezetekre, szakaszokra vagy alfejezetekre ugorjanak.
 
-## Miért használjuk az Aspose.PDF for Java navigációs funkcióit?
-- **Teljes kontroll** – Programozottan hozzáadhatsz, szerkeszthetsz vagy törölhetsz könyvjelzőket és hiperhivatkozásokat.  
-- **Megjelenítő testreszabása** – Állítsd be, hogyan nyílik meg a PDF (pl. könyvjelzősáv megjelenítése, nagyítási szint beállítása).  
-- **Nincs külső függőség** – Adobe Acrobat vagy más harmadik féltől származó eszközök nélkül működik.  
-- **Keresztplatformos** – Ugyanazt az eredményt állítja elő Windows, Linux vagy macOS rendszereken.
+A Tartalomjegyzék (TOC) egy hierarchikus lista a bejegyzésekről, amelyek a PDF belső szakaszaira mutatnak hivatkozásként.  
+PDF TOC-t Java-ban úgy hoz létre, hogy programozottan felépíti ezt a listát, és könyvjelzők halmazaként illeszti be. Az Aspose.PDF lehetővé teszi, hogy meghatározza minden bejegyzés címét, céloldalát és beágyazási szintjét, majd néhány API hívással beírja a szerkezetet a dokumentumba.
 
-## Előkövetelmények
+## Miért használja az Aspose.PDF-t a navigációhoz?
+
+Az Aspose.PDF for Java egy teljesen kezelt könyvtár, amely lehetővé teszi könyvjelzők és hiperhivatkozások hozzáadását, szerkesztését vagy törlését külső függőségek nélkül.  
+Támogat **50+ bemeneti és kimeneti formátumot**, és akár **5 GB** méretű PDF-eket is feldolgozhat anélkül, hogy a teljes fájlt a memóriába töltené, így nagy teljesítményű navigációs vezérlést biztosít Windows, Linux vagy macOS rendszereken.
+
+## Előfeltételek
 - Java Development Kit (JDK) 8 vagy újabb.  
-- Aspose.PDF for Java könyvtár (letölthető a hivatalos weboldalról).  
+- Aspose.PDF for Java könyvtár (letölthető a hivatalos oldalról).  
 - Ideiglenes vagy teljes licencfájl a kiértékelési korlátozások elkerüléséhez.
 
-## Elérhető Oktatóanyagok
+## Elérhető oktatóanyagok
 
-### [JavaScript Hivatkozások hozzáadása PDF-ekhez az Aspose.PDF for Java&#58; Interaktivitás növelése a dokumentumokban](./aspose-pdf-java-javascript-links-pdfs/)
+### [JavaScript hivatkozások hozzáadása PDF-ekhez az Aspose.PDF for Java&#58; Interaktivitás növelése a dokumentumokban](./aspose-pdf-java-javascript-links-pdfs/)
 ### [Tartalomjegyzék (TOC) létrehozása PDF-ekben az Aspose.PDF for Java&#58; Fejlesztői útmutató](./aspose-pdf-java-create-toc-in-pdfs/)
-### [PDF Könyvjelzők hatékony kezelése az Aspose.PDF Java használatával](./manage-pdf-bookmarks-aspose-pdf-java/)
-### [PDF Könyvjelzők kiterjesztése az Aspose.PDF Java&#58; Teljes útmutató](./expand-pdf-bookmarks-aspose-java/)
-### [PDF Könyvjelzők létrehozása és kezelése az Aspose.PDF for Java&#58; Átfogó útmutató](./create-manage-pdf-bookmarks-aspose-java/)
+### [PDF könyvjelzők hatékony kezelése az Aspose.PDF Java használatával](./manage-pdf-bookmarks-aspose-pdf-java/)
+### [PDF könyvjelzők kibontása az Aspose.PDF Java&#58; Teljes útmutató](./expand-pdf-bookmarks-aspose-java/)
+### [PDF könyvjelzők létrehozása és kezelése az Aspose.PDF for Java&#58; Átfogó útmutató](./create-manage-pdf-bookmarks-aspose-java/)
 ### [Hiperhivatkozások kinyerése PDF-ből az Aspose.PDF for Java használatával](./extract-hyperlinks-pdf-aspose-java/)
-### [PDF Könyvjelzők lekérése és megjelenítése az Aspose.PDF for Java használatával](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
-### [PDF Könyvjelzők frissítése az Aspose.PDF for Java&#58; Lépésről‑lépésre útmutató](./update-pdf-bookmarks-aspose-java-tutorial/)
+### [PDF könyvjelzők lekérése és megjelenítése az Aspose.PDF for Java használatával](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+### [PDF könyvjelzők frissítése az Aspose.PDF for Java&#58; Lépésről‑lépésre útmutató](./update-pdf-bookmarks-aspose-java-tutorial/)
 ### [XML könyvjelzők importálása PDF-ekbe az Aspose.PDF Java&#58; Átfogó útmutató](./import-xml-bookmarks-aspose-pdf-java/)
 ### [PDF-ek összekapcsolása az Aspose.PDF for Java&#58; Hiperhivatkozások létrehozása dokumentumok között egyszerűen](./link-pdfs-aspose-pdf-java/)
-### [Az Aspose.PDF Java elsajátítása&#58; PDF könyvjelzők szerkesztése és a megjelenítő beállítások konfigurálása](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
+### [Az Aspose.PDF Java mestersége&#58; PDF könyvjelzők szerkesztése és megjelenítő beállítások konfigurálása](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
 ### [PDF könyvjelzőkezelés mestersége az Aspose.PDF for Java&#58; Könyvjelzők hatékony törlése és kezelése](./aspose-pdf-java-bookmark-management/)
-### [Az Aspose.PDF for Java mesterfogásai&#58; PDF-ek megnyitása, mentése és könyvjelzők hozzáadása](./master-aspose-pdf-java-open-save-bookmarks/)
+### [Az Aspose.PDF for Java elsajátítása&#58; PDF-ek megnyitása, mentése és könyvjelzők hozzáadása](./master-aspose-pdf-java-open-save-bookmarks/)
 
-## PDF Megjelenítő Beállítások Szerkesztése a Jobb Navigációért
-Az megjelenítő beállítások módosítása meghatározza, hogyan nyílik meg egy PDF a felhasználó olvasójában. Az Aspose.PDF segítségével beállíthatod a kezdeti nézetet, hogy a könyvjelzősáv jelenjen meg, meghatározhatod az alapértelmezett nagyítást, és kiválaszthatod az oldalelrendezést. Ezek a finomhangolások a nagy dokumentumokat könnyebben kezelhetővé teszik, és csökkentik a felhasználók által a tartalom keresésére fordított időt.
+## PDF megjelenítő beállítások szerkesztése a jobb navigáció érdekében
+A `ViewerPreferences` objektum határozza meg, hogyan nyílik meg egy PDF az olvasóban.  
+Alapértelmezés szerint láthatóvá teheti a könyvjelzők panelt, megadhatja a kezdeti nagyítást, és választhat oldalelrendezést, például egyoldalas vagy folyamatos nézetet. Ezek a beállítások csökkentik a felhasználók által a tartalom keresésére fordított időt, különösen a több száz oldalas jelentések esetén.
 
-## PDF Könyvjelzők Programozott Megnyitása és Mentése
-Egy PDF megnyitása, a könyvjelzőfája módosítása, majd vissza mentése egyszerű az Aspose.PDF API-val. Ez a munkafolyamat lehetővé teszi dinamikus Tartalomjegyzék beillesztését, a szakaszok átrendezését vagy a régi bejegyzések eltávolítását – mindezt manuális szerkesztés nélkül.
+## PDF könyvjelzők programozott megnyitása és mentése
+A `Document` osztály egy PDF fájlt reprezentál a memóriában.  
+PDF-et nyit meg a `new Document("input.pdf")` paranccsal, módosítja a könyvjelzőfát a `document.getBookmarks()` segítségével, majd a `document.save("output.pdf")` hívással menti. Ez a munkafolyamat lehetővé teszi dinamikus TOC beillesztését, szakaszok átszervezését vagy elavult bejegyzések eltávolítását manuális szerkesztés nélkül.
 
-## Gyakori Problémák és Megoldások
-- **A könyvjelzők nem jelennek meg mentés után** – Győződj meg róla, hogy a `document.save()` hívást végzed a könyvjelzőgyűjtemény módosítása után.  
-- **A hiperhivatkozások a rossz oldalakra mutatnak** – Ellenőrizd, hogy a céloldalszámok nullával kezdődnek-e a `LinkAction` használatakor.  
-- **A megjelenítő beállítások figyelmen kívül maradnak** – Néhány PDF-olvasó felülírja a beágyazott beállításokat; teszteld Adobe Acrobat Readerrel a megerősítéshez.
+## Gyakori problémák és megoldások
+A `LinkAction` egy hiperhivatkozás műveletet határoz meg, amely a PDF egy oldalára navigál.  
+Az `optimizeResources()` a PDF erőforrások optimalizálásával csökkenti a memóriahasználatot.
 
-## Gyakran Ismételt Kérdések
+- **A könyvjelzők nem jelennek meg mentés után** – Győződjön meg róla, hogy a könyvjelzőgyűjtemény módosítása után meghívja a `document.save()`-et.  
+- **A hiperhivatkozások rossz oldalra mutatnak** – Ellenőrizze, hogy a céloldalak száma nulla‑alapú-e a `LinkAction` használatakor.  
+- **A megjelenítő beállítások figyelmen kívül maradnak** – Egyes PDF-olvasók felülírhatják a beágyazott beállításokat; tesztelje az Adobe Acrobat Readerrel a megerősítéshez.  
+- **Nagy PDF feldolgozása sikertelen** – Használja a `document.optimizeResources()`-t a memóriahasználat csökkentéséhez 2 GB-nál nagyobb fájlok esetén.  
 
-**K: Létrehozhatok TOC-t titkosított PDF-ekhez?**  
-V: Igen. Nyisd meg a titkosított dokumentumot a jelszó megadásával, majd a szokásos módon generáld a TOC-t.
+## Gyakran ismételt kérdések
 
-**K: Befolyásolja a “PDF megjelenítő beállítások szerkesztése” minden PDF-olvasót?**  
-V: A legtöbb modern olvasó tiszteletben tartja a PDF OpenAction és ViewerPreferences bejegyzéseket, bár néhány könnyűsúlyú olvasó figyelmen kívül hagyhatja őket.
+**Q: Létrehozhatok TOC-t titkosított PDF-ekhez?**  
+A: Igen. Nyissa meg a titkosított dokumentumot a jelszó megadásával, majd generálja a TOC-t a szokásos módon.
 
-**K: Mekkora PDF-et tudok feldolgozni az Aspose.PDF segítségével?**  
-V: A könyvtár több gigabájtnyi méretű fájlokat is kezel, de érdemes a `Document.optimizeResources()` használata a memóriafogyasztás csökkentésére.
+**Q: A “PDF megjelenítő beállítások szerkesztése” hatással van minden PDF-olvasóra?**  
+A: A legtöbb modern olvasó tiszteletben tartja a PDF OpenAction és ViewerPreferences bejegyzéseket, bár néhány könnyűsúlyú olvasó figyelmen kívül hagyhatja őket.
 
-**K: Lehetséges több PDF-ből származó TOC-kat egyesíteni?**  
-V: Természetesen. Tölts be minden dokumentumot, extraháld a könyvjelzőfáját, és a mentés előtt egyetlen hierarchikus struktúrába egyesítsd őket.
+**Q: Milyen nagy méretű PDF-et tudok feldolgozni az Aspose.PDF-vel?**  
+A: A könyvtár akár **5 GB** méretű PDF-eket is kezel; nagyon nagy fájlok esetén hívja meg a `document.optimizeResources()`-t a memóriafogyasztás alacsonyan tartásához.
 
-**K: Szükségem van külön licencre minden Java alkalmazáshoz?**  
-V: Egy licenc lefedi az ugyanazon a gépen futó összes alkalmazást, de ellenőrizd a licencfeltételeket a telepítési forgatókönyvekhez.
+**Q: Lehet több PDF-ből származó TOC-t egyesíteni?**  
+A: Természetesen. Töltse be minden dokumentumot, vonja ki a könyvjelzőfát, és egyetlen hierarchikus struktúrába kombinálja őket mentés előtt.
 
-## További Források
+**Q: Külön licencre van szükség minden Java alkalmazáshoz?**  
+A: Egyetlen licenc lefedi az összes alkalmazást ugyanazon a gépen, de ellenőrizze a licencfeltételeket a telepítési forgatókönyvekhez.
 
-- [Aspose.PDF for Java Dokumentáció](https://docs.aspose.com/pdf/java/)
-- [Aspose.PDF for Java API Referencia](https://reference.aspose.com/pdf/java/)
+## További források
+
+- [Aspose.PDF for Java dokumentáció](https://docs.aspose.com/pdf/java/)
+- [Aspose.PDF for Java API referencia](https://reference.aspose.com/pdf/java/)
 - [Aspose.PDF for Java letöltése](https://releases.aspose.com/pdf/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**Legutóbb frissítve:** 2026-02-27  
-**Tesztelve a következővel:** Aspose.PDF for Java 24.12  
-**Szerző:** Aspose  
+**Last Updated:** 2026-08-06  
+**Tested With:** Aspose.PDF for Java 24.12  
+**Author:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [PDF könyvjelzők frissítése az Aspose.PDF for Java API használatával: Lépésről‑lépésre útmutató](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+- [Tartalomjegyzék (TOC) létrehozása PDF-ekben az Aspose.PDF for Java: Fejlesztői útmutató](/pdf/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/)
+- [PDF könyvjelzők lekérése Java-val az Aspose.PDF – Teljes útmutató](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,9 +44,17 @@ De tutorials "Programmeren met getagde PDF's" van Aspose.PDF voor .NET begeleide
 | [Tekstblokstructuurelementen](./text-block-structure-elements/) | Leer hoe u Aspose.PDF voor .NET gebruikt om tekstblokstructuurelementen, zoals koppen en gemarkeerde alinea's, toe te voegen aan een bestaand PDF-document. |  
 | [Tekststructuurelementen in PDF-bestand](./text-structure-elements/) Leer hoe u tekststructuurelementen in PDF's kunt bewerken met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt alles wat u nodig hebt om gestructureerde PDF's te maken. |  
 | [PDF-bestand valideren](./validate-pdf/) | Leer hoe u een PDF-bestand valideert met Aspose.PDF voor .NET. Controleer de naleving van de standaarden en genereer een validatierapport. |  
+| [PDF-document maken – Absolute positie voor getagde tekst instellen](./create-pdf-document-set-absolute-position-for-tagged-text/) | Leer hoe u een PDF-document maakt en getagde tekst op een absolute positie plaatst met Aspose.PDF voor .NET. |  
+| [Span-element PDF maken met Aspose – PDF laden en inhoud taggen](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Leer hoe u een PDF laadt, een span-element toevoegt en de inhoud tagt met Aspose.PDF voor .NET. |
 | [Maak getagde PDF in C# – Complete stapsgewijze handleiding](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, stap voor stap met volledige voorbeelden. |
 | [Maak getagde PDF in C# – Aspose PDF Complete gids](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt met een volledige, stapsgewijze handleiding. |
 | [Maak getagde PDF in C# – Stapsgewijze handleiding](./create-tagged-pdf-in-c-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, stap voor stap met voorbeeldcode. |
+| [PDF-document maken C# – Volledige gids met getagde tekst en positionering](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document in C# maakt, met getagde tekst en precieze positionering. |
+| [Toegankelijke tekstspan maken in PDF met Aspose: volledige C#-gids](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Leer hoe u een toegankelijke tekstspan toevoegt aan een PDF met Aspose.PDF voor .NET in een volledige C#-handleiding. |
+| [Hoe een getagde PDF bewerken met Aspose.Pdf – Complete gids](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u een getagde PDF kunt bewerken met Aspose.Pdf voor .NET in deze volledige handleiding. |
+| [Maak getagde PDF in C# – Volledige stapsgewijze handleiding](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, volledig stap‑voor‑stap uitgelegd. |  
+| [Hoe PDF taggen met Aspose.Pdf – Complete programmeergids](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Leer stap voor stap hoe u PDF's tagt met Aspose.Pdf in C#, inclusief volledige codevoorbeelden en best practices. |
+| [PDF-document maken in C# – Tekst positioneren en structurele boom toevoegen](./create-pdf-document-c-position-text-and-add-structural-tree/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt, tekst positioneert en een structurele boom toevoegt in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

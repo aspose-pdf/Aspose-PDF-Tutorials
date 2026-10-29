@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 서로 다른 페이지 크기를 가진 두 PDF 파일을 첫 페이지 크기를 동기화하고, GraphicalPdfComparer를 구성한 뒤, 차이점을 강조 표시하는 PDF를 생성하여 비교하는 방법을 보여줍니다.
+//ExStepSummary:0: 두 소스 PDF와 결과 PDF의 파일 경로를 정의합니다.
+//ExStepSummary:1: 두 소스 PDF 파일이 모두 존재하는지 확인하고, 하나라도 없으면 작업을 중단합니다.
+//ExStepSummary:2: 처리 중 오류를 잡기 위해 try 블록을 시작합니다.
+//ExStepSummary:3: `using` 문 안에서 두 PDF를 Document 객체 `docA`와 `docB`에 로드합니다.
+//ExStepSummary:4: 진행하기 전에 각 PDF에 최소 한 페이지가 포함되어 있는지 확인합니다.
+//ExStepSummary:5: 비교를 위해 각 문서의 첫 페이지를 가져옵니다.
+//ExStepSummary:6: `firstPage`의 MediaBox 정보를 `secondPage`에 복사하여 두 페이지가 동일한 크기를 갖도록 합니다.
+//ExStepSummary:7: 빨간색 하이라이트, 높은 해상도, 1 % 차이 임계값을 갖도록 `GraphicalPdfComparer`를 생성하고 구성합니다.
+//ExStepSummary:8: 비교를 실행하고, `outputPdfPath`에 차이점 PDF를 생성한 뒤 완료 메시지를 출력하고, using 및 try 범위를 닫습니다.
+//ExStepSummary:9: 페이지 크기 정렬이 여전히 충분하지 않을 경우 발생할 수 있는 ArgumentException을 처리합니다.
+//ExStepSummary:10: 그 외의 예상치 못한 예외를 잡아 보고합니다.
+//ExStep:0-
+const string firstPdfPath = "sampleA.pdf";
+const string secondPdfPath = "sampleB.pdf";
+const string outputPdfPath = "diffResult.pdf";
+
+//ExStep:1-
+if (!File.Exists(firstPdfPath) || !File.Exists(secondPdfPath))
+{
+    Console.Error.WriteLine("Missing one or both source PDF files.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+
+//ExStep:3-
+using (Document docA = new Document(firstPdfPath))
+using (Document docB = new Document(secondPdfPath))
+{
+
+//ExStep:4-
+if (docA.Pages.Count == 0 || docB.Pages.Count == 0)
+{
+    Console.Error.WriteLine("At least one document does not contain any pages.");
+    return;
+}
+
+//ExStep:5-
+Page firstPage = docA.Pages[1];
+Page secondPage = docB.Pages[1];
+
+//ExStep:6-
+secondPage.PageInfo = firstPage.PageInfo;
+
+//ExStep:7-
+GraphicalPdfComparer comparer = new GraphicalPdfComparer
+{
+    Color = Aspose.Pdf.Color.Red,
+    Resolution = new Resolution(200),
+    Threshold = 1
+};
+
+//ExStep:8-
+comparer.ComparePagesToPdf(firstPage, secondPage, outputPdfPath);
+Console.WriteLine($"Comparison finished. Output saved as '{outputPdfPath}'.");
+}
+}
+
+//ExStep:9-
+catch (ArgumentException ex)
+{
+    Console.Error.WriteLine($"Argument error during comparison: {ex.Message}");
+}
+
+//ExStep:10-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Unexpected error: {ex.Message}");
+}
+//ExEnd

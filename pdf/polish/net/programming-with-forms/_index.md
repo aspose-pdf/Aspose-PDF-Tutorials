@@ -60,8 +60,16 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-| [Jak utworzyć PDF przy użyciu Aspose – Dodaj pole do kolekcji](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Dowiedz się, jak dodać pole do kolekcji w dokumencie PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |  
+{{< blocks/products/pf/main-wrap-class >}}
 
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [Jak utworzyć PDF przy użyciu Aspose – Dodaj pole do kolekcji](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Dowiedz się, jak dodać pole do kolekcji w dokumencie PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |  
+| [Utwórz dokument PDF z Aspose – Dodaj pole tekstowe](./create-pdf-document-with-aspose-add-text-box-field/) | Dowiedz się, jak dodać pole tekstowe do dokumentu PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
+
+| [Utwórz dokument PDF C# – Przewodnik krok po kroku po formularzach wielostronicowych](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Dowiedz się, jak w C# tworzyć dokumenty PDF z wieloma stronami i formularzami przy użyciu Aspose.PDF dla .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -69,9 +77,21 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Utwórz dokument PDF z wieloma widżetami pola tekstowego – przewodnik krok po kroku](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Dowiedz się, jak w C# przy użyciu Aspose.PDF dla .NET tworzyć dokument PDF zawierający wiele pól tekstowych, krok po kroku. |
 | [Dodaj numery Bates do plików PDF – przewodnik krok po kroku w C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Dowiedz się, jak dodać numery Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET w języku C# – kompletny przewodnik krok po kroku. |
 | [Jak dodać pole tekstowe PDF – Utwórz pole formularza PDF i zapisz edytowany dokument PDF](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Dowiedz się, jak dodać pole tekstowe do formularza PDF i zapisać zmodyfikowany dokument przy użyciu Aspose.PDF dla .NET. |
+| [Utwórz wielostronicowy formularz w C# z Aspose.Pdf – przewodnik krok po kroku](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Dowiedz się, jak w C# stworzyć wielostronicowy formularz PDF przy użyciu Aspose.Pdf, krok po kroku. |
+| [Dodaj pole tekstowe do formularza PDF – Kompletny przewodnik C#](./add-text-box-to-pdf-form-complete-c-guide/) | Dowiedz się, jak dodać pole tekstowe do formularza PDF przy użyciu Aspose.PDF dla .NET w tym kompletnym przewodniku C#. |
+| [Utwórz pole tekstowe PDF – przewodnik krok po kroku](./create-pdf-textbox-field-step-by-step-guide/) | Dowiedz się, jak dodać pole tekstowe do dokumentu PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |
+| [Importowanie FDF do PDF w C# – Kompletny przewodnik krok po kroku](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Dowiedz się, jak importować pliki FDF do dokumentów PDF przy użyciu Aspose.PDF dla .NET i języka C# w tym szczegółowym samouczku. |
+| [Zapisz dokument PDF przy użyciu Aspose.PDF – kompletny przewodnik](./save-pdf-document-with-aspose-pdf-complete-guide/) | Dowiedz się, jak zapisać dokument PDF przy użyciu Aspose.PDF w pełnym przewodniku krok po kroku. |
+| [Utwórz pole formularza PDF w C# – przewodnik krok po kroku](./create-pdf-form-field-in-c-step-by-step-guide/) | Dowiedz się, jak w C# tworzyć pola formularzy PDF przy użyciu Aspose.PDF w tym szczegółowym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

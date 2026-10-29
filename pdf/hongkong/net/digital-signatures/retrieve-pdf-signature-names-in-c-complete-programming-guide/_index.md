@@ -21,11 +21,9 @@ title: 在 C# 中取得 PDF 簽署名稱 – 完整程式設計指南
 url: /zh-hant/net/digital-signatures/retrieve-pdf-signature-names-in-c-complete-programming-guide/
 ---
 
-.
 
-Make sure to keep markdown formatting exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

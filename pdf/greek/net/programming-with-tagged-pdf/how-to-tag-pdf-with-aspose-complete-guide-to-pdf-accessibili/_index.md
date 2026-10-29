@@ -26,11 +26,8 @@ title: Πώς να προσθέσετε ετικέτες σε PDF με το Aspo
 url: /el/net/programming-with-tagged-pdf/how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/
 ---
 
--tag-pdf.png "Screenshot showing a tagged PDF outline – how to tag pdf")` keep.
 
-Then closing shortcodes.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

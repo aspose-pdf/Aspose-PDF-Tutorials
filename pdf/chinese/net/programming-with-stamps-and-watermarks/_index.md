@@ -48,6 +48,22 @@ Aspose.PDF 的“使用图章和水印进行编程”.NET 教程将指导您逐�
 | [创建 PDF 水印 – 添加印章并将 DOCX 转换为 PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) 学习如何使用 Aspose.PDF for .NET 为 PDF 添加水印和印章，并将 DOCX 转换为 PDF。|  
 | [使用 C# 创建带 Bates 编号的 PDF 文档（完整指南）](./create-pdf-document-with-bates-numbering-in-c-full-guide/) 通过本完整指南学习如何在 C# 中使用 Aspose.PDF 为 PDF 添加 Bates 编号，实现文档追踪和管理。|  
 | [在 PDF 中添加印章 – 将水印应用于首页](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) 学习如何使用 Aspose.PDF for .NET 在 PDF 首页添加印章并应用水印，实现文档的安全与个性化。|  
+| [如何使用 Aspose.Pdf 向 PDF 添加印章 – 步骤指南](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) 学习如何使用 Aspose.PDF for .NET 向 PDF 添加印章，提供分步指导和示例代码。|  
+| [创建 PDF 全页通知 – 快速 C# 指南](./create-pdf-full-page-notice-quick-c-guide/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中创建全页通知，提供快速的 C# 示例代码。|  
+| [在 C# 中添加水印 PDF – 完整指南](./add-watermark-pdf-in-c-complete-guide-with-aspose/) 学习如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 添加水印的完整指南。|  
+| [使用 C# 为 PDF 添加贝茨编号 – 完整指南](./add-bates-numbering-to-pdfs-with-c-complete-guide/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中通过 C# 添加贝茨编号，实现文档自动化标记。|  
+| [使用 Aspose 为 PDF 添加 Bates 编号 – 完整指南](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) 学习如何使用 Aspose.PDF for .NET 为 PDF 文档添加 Bates 编号，实现文档追踪和管理的完整指南。|  
+| [在 PDF 中使用 C# 添加 Bates 编号（完整指南）](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中添加 Bates 编号，实现完整的文档标记。|  
+| [使用 Aspose 完整指南为 PDF 添加贝茨编号](./add-bates-numbering-pdf-complete-guide-with-aspose/) 学习如何使用 Aspose.PDF for .NET 为 PDF 文档添加贝茨编号，提供详细的分步指南和示例代码。|  
+| [在 C# 中为 PDF 添加 Bates 编号 – 完整分步指南](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) 学习如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 文档添加 Bates 编号，提供详细的分步说明和示例代码。|  
+| [使用 Aspose.Words 在 Word 中创建文本水印 – 完整指南](./create-text-watermark-in-word-with-aspose-words-complete-gui/) 学习如何使用 Aspose.Words 为 Word 文档添加文本水印，提供完整的步骤和示例代码。|  
+| [如何在 PDF 中添加图章 – 自动适配文本的完整指南](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中添加图章，并实现文本自动适配，提供完整步骤和示例代码。|  
+| [Bates 编号教程：使用 Aspose 为 PDF 添加编号](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) 学习如何使用 Aspose.PDF for .NET 为 PDF 文档添加 Bates 编号，以实现文档追踪和管理。|  
+| [如何使用 Aspose 为 PDF 添加水印 – 添加文本覆盖](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) 学习使用 Aspose.PDF for .NET 在 PDF 中添加文本水印的步骤和示例代码。|  
+| [使用 Aspose.PDF 为 PDF 添加透明度 – 完整 C# 指南](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中设置透明度，提供完整的 C# 示例代码和分步说明。|  
+| [使用 Aspose.PDF 更改 PDF 不透明度的完整指南](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) 通过本指南学习如何在 PDF 中使用 Aspose.PDF 调整不透明度，实现更灵活的视觉效果。|  
+| [如何使用 Aspose 在 PDF 中添加贝茨编号 – 步骤指南](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中添加贝茨编号，实现文档的唯一标识和追踪。|  
+| [在 C# 中设置 Bates 编号选项 – 完整指南](./how-to-set-bates-numbering-options-in-c-complete-guide/) 学习如何使用 Aspose.PDF for .NET 在 C# 中设置 Bates 编号选项的完整步骤指南。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,6 @@ title: สร้างเอกสาร PDF ด้วย C# – คู่มื
 url: /th/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-final answer.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

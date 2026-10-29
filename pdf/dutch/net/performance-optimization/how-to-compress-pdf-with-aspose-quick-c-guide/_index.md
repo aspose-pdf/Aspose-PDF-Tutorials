@@ -25,7 +25,7 @@ title: Hoe PDF te comprimeren met Aspose – Snelle C#-gids
 url: /nl/net/performance-optimization/how-to-compress-pdf-with-aspose-quick-c-guide/
 ---
 
-with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

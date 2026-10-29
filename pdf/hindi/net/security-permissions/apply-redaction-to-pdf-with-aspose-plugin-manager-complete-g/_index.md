@@ -24,17 +24,12 @@ title: Aspose प्लगइन मैनेजर के साथ PDF पर 
 url: /hi/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-a description. So translate that too.
 
-All other text translate to Hindi, keep code blocks placeholders unchanged.
 
-We must not translate shortcodes, they are already there.
 
-Proceed to translate.
 
-Be careful with bullet points, headings.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

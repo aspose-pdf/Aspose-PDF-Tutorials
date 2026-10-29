@@ -23,7 +23,7 @@ title: Hoe OCSP te gebruiken om een PDF-digitale handtekening te valideren in C#
 url: /nl/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/
 ---
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

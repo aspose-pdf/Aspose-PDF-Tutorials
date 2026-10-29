@@ -24,6 +24,7 @@ Komplexní kolekce tutoriálů ukazujících, jak pracovat s anotacemi v PDF dok
 | [Přidat soubor SWF jako anotaci PDF](./addswffileasannotation/) | Naučte se, jak přidávat soubory SWF jako anotace PDF pomocí Aspose.PDF pro .NET. Vylepšete své PDF soubory interaktivním multimediálním obsahem v tomto podrobném tutoriálu. |  
 | [Smazat všechny anotace ze stránky](./deleteallannotationsfrompage/) | Naučte se, jak odstranit všechny anotace ze stránky PDF pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu a efektivně vyčistěte své PDF soubory. |  
 | [Smazat konkrétní anotaci v souboru PDF](./deleteparticularannotation/) | Naučte se, jak odstranit konkrétní anotaci v souboru PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
+| [Nakreslete obdélník v PDF – krok za krokem C# průvodce](./draw-rectangle-on-pdf-step-by-step-c-guide/) | Naučte se pomocí Aspose.PDF pro .NET kreslit obdélníky v PDF dokumentech pomocí C# v podrobném krok‑za‑krokem návodu. |  
 | [Extrahovat zvýrazněný text v souboru PDF](./extracthighlightedtext/) Naučte se v tomto tutoriálu, jak efektivně extrahovat zvýrazněný text ze souboru PDF pomocí Aspose.PDF pro .NET. Ideální pro analýzu dat a kontrolu obsahu. |  
 | [Získat všechny anotace ze stránky](./getallannotationsfrompage/) | Naučte se v tomto podrobném návodu, jak extrahovat anotace z PDF souborů pomocí Aspose.PDF pro .NET. Ideální pro vývojáře všech úrovní. |  
 | [Získejte konkrétní anotaci v souboru PDF](./getparticularannotation/) | V tomto podrobném tutoriálu o 2000 slovech se naučte, jak extrahovat konkrétní anotaci ze souboru PDF pomocí Aspose.PDF pro .NET. Ideální pro vývojáře. |  
@@ -35,6 +36,9 @@ Komplexní kolekce tutoriálů ukazujících, jak pracovat s anotacemi v PDF dok
 | [Nastavení formátování volného textu anotací](./setfreetextannotationformatting/) | Naučte se, jak nastavit formátování volných textových anotací v dokumentech PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
 | [Přeškrtnutá slova](./strikeoutwords/) | Naučte se, jak pomocí Aspose.PDF pro .NET přeškrtávat slova v PDF s tímto komplexním podrobným návodem. Zlepšete si své dovednosti v úpravě dokumentů. |  
 | [Aktualizace anotace PDF s volným textem](./updatefreetextannotation/) Naučte se, jak aktualizovat anotace s volným textem v dokumentech PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
+| [Jak použít opravu v Aspose.PDF – Opravit poškozené anotace](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Naučte se, jak pomocí funkce Repair v Aspose.PDF opravit poškozené anotace v PDF dokumentech. |  
+| [Přidat anotaci PDF pomocí Aspose.PDF - Kompletní průvodce](./add-annotation-pdf-with-aspose-pdf-complete-guide/) Kompletní průvodce, jak přidat anotaci do PDF souboru pomocí Aspose.PDF pro .NET, včetně ukázek kódu a podrobných kroků. |  
+| [Kreslit obdélník v PDF pomocí C# – krok za krokem](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET nakreslit obdélník do PDF souboru pomocí C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

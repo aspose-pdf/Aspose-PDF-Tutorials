@@ -17,6 +17,12 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Aspose.Pdf for .NET का उपयोग करके PDF को केवल फ़ॉर्म भरने की अनुमति देने के लिए एन्क्रिप्ट करें।" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Aspose.Pdf for .NET का उपयोग करके AES‑256 के साथ केवल फ़ॉर्म‑फ़िलिंग के लिए PDF एन्क्रिप्ट करें" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Aspose.PDF for .NET का उपयोग करके No‑Print अनुमति के साथ PDF एन्क्रिप्ट करें" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [.NET के लिए Aspose.PDF के साथ PDF पासवर्ड बदलें](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
@@ -48,7 +54,7 @@ Aspose.PDF का उपयोग करके अपने .NET अनुप्
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF से उपयोग अधिकारों को कुशलतापूर्वक कैसे हटाया जाए। यह मार्गदर्शिका दस्तावेज़ अनुमतियों के प्रबंधन के लिए चरण-दर-चरण निर्देश और सर्वोत्तम अभ्यास प्रदान करती है।
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF अनुमतियाँ कैसे सेट करें: एक व्यापक गाइड](./set-pdf-privileges-aspose-pdf-dotnet/)
-Aspose.PDF for .NET के साथ PDF अनुमतियाँ सेट और प्रबंधित करना सीखें, जिससे सुरक्षित दस्तावेज़ साझाकरण सुनिश्चित हो। कुशल कार्यान्वयन के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
+Aspose.PDF for .NET के साथ PDF अनुमतियाँ सेट और प्रबंधित करना सीखें, जिससे सुरक्षित दस्तावेज़ साझाकरण सुनिश्चित हो। कुशल कार्यान्वयन के लिए हमारे चरण-दर-स्टेप मार्गदर्शिका का पालन करें।
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF पर समाप्ति तिथि कैसे सेट करें (C# ट्यूटोरियल)](./set-pdf-expiry-date-aspose-dotnet/)
 C# में .NET के लिए Aspose.PDF का उपयोग करके PDF पर समाप्ति तिथि सेट करना सीखें। यह ट्यूटोरियल विस्तृत कोड उदाहरणों के साथ इंस्टॉलेशन, कॉन्फ़िगरेशन और कार्यान्वयन को कवर करता है।
@@ -64,11 +70,15 @@ Aspose.PDF के साथ .NET में PDF के लिए सुरक्�
 
 ### [Aspose प्लगइन मैनेजर के साथ PDF पर रिडैक्शन लागू करें – पूर्ण गाइड](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Aspose प्लगइन मैनेजर का उपयोग करके PDF में संवेदनशील जानकारी को सुरक्षित रूप से हटाने और रिडैक्शन लागू करने की पूरी प्रक्रिया सीखें।
+### [C# में PDF को रिडैक्ट और संवेदनशील डेटा हटाना](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+C# में Aspose.PDF का उपयोग करके PDF से संवेदनशील जानकारी को रिडैक्ट और हटाने का चरण-दर-चरण मार्गदर्शक।
+### [Aspose.Pdf के साथ PDF को रिडक्ट कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Aspose.Pdf का उपयोग करके PDF में संवेदनशील जानकारी को सुरक्षित रूप से हटाने के लिए चरण‑दर‑चरण निर्देश।
 
 ### [.NET के लिए Aspose.PDF के साथ PDF फ़ाइलें अनलॉक और डिक्रिप्ट करें: एक संपूर्ण गाइड](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 C# में .NET के लिए Aspose.PDF का उपयोग करके सुरक्षित PDF फ़ाइलों को अनलॉक और डिक्रिप्ट करना सीखें। यह गाइड सेटअप, डिक्रिप्शन चरणों और सर्वोत्तम प्रथाओं को कवर करती है।
 
-### [Aspose.PDF .NET के साथ PDF पासवर्ड सत्यापित करें: सुरक्षा और अनुमतियों के लिए चरण-दर-चरण मार्गदर्शिका](./verify-pdf-passwords-aspose-dot-net-guide/)
+### [Aspose.PDF .NET के साथ PDF पासवर्ड सत्यापित करें: सुरक्षा और अनुमतियों के लिए चरण-दर-स्टेप मार्गदर्शिका](./verify-pdf-passwords-aspose-dot-net-guide/)
 C# में .NET के लिए Aspose.PDF का उपयोग करके PDF पासवर्ड सत्यापित करना सीखें। यह व्यापक गाइड दस्तावेज़ सुरक्षा और पहुँच नियंत्रण को सरल बनाती है।
 
 ## अतिरिक्त संसाधन

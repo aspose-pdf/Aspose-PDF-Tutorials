@@ -23,6 +23,7 @@ tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno n
 | [Accedi agli elementi figlio](./access-children-elements/) | Scopri come accedere e modificare gli elementi figlio nei PDF taggati con Aspose.PDF per .NET in questo tutorial passo passo.  
 | [Aggiungi elemento struttura all'elemento](./add-structure-element-into-element/) | Scopri come aggiungere elementi di struttura di accessibilità nei PDF utilizzando Aspose.PDF per .NET in questo tutorial completo passo dopo passo.  
 | [Crea elemento struttura nota](./create-note-structure-element/) Impara a creare elementi di struttura delle note nei PDF con Aspose.PDF per .NET attraverso questo tutorial dettagliato e passo dopo passo.  
+| [Crea documento PDF – Imposta posizione assoluta per testo taggato](./create-pdf-document-set-absolute-position-for-tagged-text/) | Impara a creare un documento PDF e posizionare testo taggato in modo assoluto usando Aspose.PDF per .NET. |
 | [Crea PDF con immagine taggata](./create-pdf-with-tagged-image/) | Impara a creare un PDF con tag e immagini utilizzando Aspose.PDF per .NET. Segui la nostra guida passo passo per creare documenti accessibili e professionali. |  
 | [Crea PDF con testo taggato](./create-pdf-with-tagged-text/) | Scopri come creare PDF taggati con contenuti accessibili utilizzando Aspose.PDF per .NET in questo tutorial completo passo dopo passo.  
 | [Crea elementi di struttura](./create-structure-elements/) | Scopri come creare elementi strutturali in PDF con Aspose.PDF per .NET. Una guida passo passo per migliorare l'accessibilità e l'organizzazione dei PDF. |  
@@ -47,6 +48,13 @@ tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno n
 | [Crea PDF con tag in C# – Guida completa passo passo](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Impara a creare PDF con tag in C# usando Aspose.PDF per .NET, con istruzioni dettagliate passo passo per garantire l'accessibilità. |
 | [Crea PDF con tag in C# – Guida completa Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Impara a creare PDF con tag in C# usando Aspose.PDF, con istruzioni dettagliate per garantire l'accessibilità e la conformità PDF/UA. |
 | [Crea PDF con tag in C# – Guida passo passo](./create-tagged-pdf-in-c-step-by-step-guide/) | Impara a creare PDF con tag in C# usando Aspose.PDF per .NET con una guida passo passo per garantire l'accessibilità. |
+| [Crea documento PDF C# – Guida completa con testo taggato e posizionamento](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Impara a creare un documento PDF in C# con testo taggato e posizionamento preciso usando Aspose.PDF per .NET. |
+| [Crea intervallo di testo accessibile in PDF con Aspose: Guida completa C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Impara a creare un intervallo di testo accessibile in PDF usando Aspose.PDF per .NET con una guida passo passo in C#. |  
+| [Come modificare PDF con tag usando Aspose.Pdf – Guida completa](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Scopri come modificare PDF taggati con Aspose.Pdf per .NET, passo passo, per migliorare l'accessibilità e la struttura dei documenti. |  
+| [Crea PDF con tag in C# – Guida completa passo passo](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Impara a creare PDF con tag in C# usando Aspose.PDF per .NET, con istruzioni dettagliate passo passo per garantire l'accessibilità. |
+| [Come taggare PDF con Aspose.Pdf – Guida completa di programmazione](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Impara a taggare PDF con Aspose.Pdf grazie a questa guida completa di programmazione passo passo. |  
+| [Crea elemento Span PDF con Aspose – Carica PDF e tagga il contenuto](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Impara a creare un elemento Span in un PDF, caricare un PDF esistente con Aspose e aggiungere tag al contenuto per migliorare l'accessibilità. |
+| [Crea documento PDF C# – Posiziona testo e aggiungi albero strutturale](./create-pdf-document-c-position-text-and-add-structural-tree/) | Scopri come posizionare testo e aggiungere un albero strutturale a un documento PDF usando Aspose.PDF per .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

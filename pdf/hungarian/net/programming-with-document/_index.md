@@ -59,6 +59,12 @@ Az anyag oktatóanyagokat tartalmaz az Aspose.PDF for .NET könyvtár dokumentum
 | [PDF fájlok validálása szabványként](./validatepdfastandard/) | Ebben az átfogó, lépésről lépésre bemutató útmutatóban megtudhatja, hogyan validálhatja a PDF-fájlokat a PDF/A-1a szabvány alapján az Aspose.PDF for .NET használatával. |  
 | [PDF UA szabvány validálása](./validatepdfuastandard/) | Tanulja meg, hogyan validálhatja a PDF-fájlokat a PDF/UA akadálymentesítési szabványnak megfelelően az Aspose.PDF for .NET használatával lépésről lépésre bemutatott útmutatónkkal és részletes magyarázatainkkal. |  
 | [PDF fájlok javítása – lépésről‑lépésre útmutató az Aspose.Pdf használatával](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Ismerje meg, hogyan javíthatja meg a hibás PDF fájlokat az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |
+| [PDF fájl megnyitása C# – Hogyan javítsunk meg egy sérült PDF-et percek alatt](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Ismerje meg, hogyan javíthatja meg a sérült PDF fájlokat C#-ban az Aspose.PDF for .NET segítségével percek alatt. |
+| [Hogyan olvassunk Word dokumentumot és nyerjünk ki egy adott oldalt Word-ből – C# útmutató](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Ismerje meg, hogyan olvashat Word dokumentumot és nyerhet ki belőle egy adott oldalt C#-ban az Aspose.Words for .NET használatával. |  
+| [Egyedi Aspose plugin létrehozása – Teljes útmutató a PDF feldolgozás automatizálásához](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Ismerje meg, hogyan hozhat létre egyedi Aspose plugint a PDF-feldolgozás automatizálásához lépésről lépésre útmutatóval. |  
+| [Bates-számozás hozzáadása Word-hez – Teljes lépésről‑lépésre útmutató](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá Bates-számozást Word dokumentumokhoz az Aspose.Words for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |
+| [Üres oldal hozzáadása Word dokumentumhoz C#-ban – Teljes útmutató](./add-blank-page-in-word-document-with-c-complete-guide/) | Ismerje meg, hogyan adhat hozzá üres oldalt egy Word dokumentumhoz C#-ban az Aspose.Words for .NET használatával. Lépésről lépésre útmutató. |
+| [Üres PDF szótár létrehozása Aspose.PDF segítségével C#-ban](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Ismerje meg, hogyan hozhat létre üres PDF szótárat az Aspose.PDF for .NET C#-os példájával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,9 +21,7 @@ title: tutorial de conversión de PDF en C# – convertir PDF a PDF/X-4
 url: /es/net/document-conversion/c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/
 ---
 
-to keep markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

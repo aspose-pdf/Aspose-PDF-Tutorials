@@ -20,19 +20,12 @@ title: 使用 Aspose.Pdf 创建可访问 PDF – 步骤指南
 url: /zh/net/programming-with-tagged-pdf/create-accessible-pdf-with-aspose-pdf-step-by-step-guide/
 ---
 
--class >}} etc. Keep them unchanged.
 
-Also there are markdown links? I see none except maybe "View → Show/Hide → Navigation Panes → Tags". That's not a link. So fine.
 
-We must translate step-by-step.
 
-Let's produce final content.
 
-Be careful with punctuation and Chinese characters.
 
-Also note "RTL formatting if needed" - not needed.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

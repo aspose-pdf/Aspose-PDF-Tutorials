@@ -25,11 +25,9 @@ title: PDF opslaan als HTML met Aspose.PDF – Snelle C#‑gids
 url: /nl/net/conversion-export/save-pdf-as-html-with-aspose-pdf-quick-c-guide/
 ---
 
-.
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

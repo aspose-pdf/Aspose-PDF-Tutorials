@@ -17,6 +17,8 @@ Sajátítsa el a PDF interaktív funkcióit átfogó Aspose.PDF űrlap- és megj
 
 ## Elérhető oktatóanyagok
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Side‑by‑Side PDF összehasonlítás annotációk kizárásával az Aspose.Pdf for .NET segítségével" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Űrlapmezők hozzáadása PDF-ekhez az Aspose.PDF for .NET használatával: Átfogó útmutató](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Ismerje meg, hogyan adhat hozzá szöveget, jelölőnégyzetet, kombinált listát, listát és többsoros mezőket PDF-ekhez az Aspose.PDF for .NET használatával. Ez az útmutató a beállítást, a kódpéldákat és az integrációs tippeket ismerteti.
 

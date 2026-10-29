@@ -39,8 +39,6 @@ Dengan menyelesaikan panduan ini Anda akan dapat:
 
 Tanpa alat eksternal, tanpa jalan pintas “lihat dokumentasi” yang samar—hanya contoh lengkap yang dapat dijalankan yang dapat Anda salin‑tempel ke Visual Studio hari ini.
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="load signed pdf document flow diagram")
-
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut di mesin Anda:

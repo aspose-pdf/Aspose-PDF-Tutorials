@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan nyithat meg egy meglévő PDF-et az Aspose.Pdf segítségével, alkalmazhat AES‑256 titkosítást engedélyek megadása nélkül (ami letiltja a nyomtatást), mentheti a védett fájlt, és ellenőrizheti a titkosítást a megjelenítő jelszóval.
+//ExStepSummary:0: Adja meg a forrás PDF útvonalát, a kimeneti védett fájl nevét, valamint a megjelenítő és a tulajdonos jelszavakat.
+//ExStepSummary:1: Ellenőrizze, hogy a forrásfájl létezik-e, és ha hiányzik, hibajelzéssel szakítsa meg a folyamatot.
+//ExStepSummary:2: Nyissa meg az eredeti PDF-et, állítson be semmilyen engedélyt, titkosítsa AES‑256‑al a megadott jelszavak használatával, és mentse a védett fájlt.
+//ExStepSummary:3: Nyissa újra a titkosított PDF-et a megjelenítő jelszóval, és írja ki a konzolra az IsEncrypted jelző értékét a védelem megerősítéséhez.
+//ExStepSummary:4: Írjon ki egy végső üzenetet, amely jelzi, hogy a titkosítás befejeződött, és megjeleníti a kimeneti fájl nevét.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

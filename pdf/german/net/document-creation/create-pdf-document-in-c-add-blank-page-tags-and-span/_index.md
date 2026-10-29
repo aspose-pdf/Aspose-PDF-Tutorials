@@ -24,11 +24,9 @@ title: PDF-Dokument in C# erstellen – Leere Seite, Tags und Span hinzufügen
 url: /de/net/document-creation/create-pdf-document-in-c-add-blank-page-tags-and-span/
 ---
 
-In answer they used **how to create span** block. Keep same.
 
-Make sure we didn't translate any code placeholders.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

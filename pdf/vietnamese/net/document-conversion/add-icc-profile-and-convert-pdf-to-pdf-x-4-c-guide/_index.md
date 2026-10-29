@@ -21,15 +21,10 @@ title: Thêm hồ sơ ICC và chuyển PDF sang PDF/X‑4 – Hướng dẫn C#
 url: /vi/net/document-conversion/add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/
 ---
 
-We'll translate.
 
-Then paragraph.
 
-Proceed.
 
-Make sure to keep markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दर्शाता है कि Aspose.Pdf के साथ मौजूदा PDF को कैसे खोलें, कोई भी अनुमति नहीं देते हुए (जिससे प्रिंटिंग निष्क्रिय हो जाती है) AES‑256 एन्क्रिप्शन लागू करें, संरक्षित फ़ाइल को सहेजें, और व्यूअर पासवर्ड का उपयोग करके एन्क्रिप्शन की पुष्टि करें।
+//ExStepSummary:0: स्रोत PDF पथ, आउटपुट संरक्षित फ़ाइल का नाम, तथा व्यूअर और ओनर पासवर्ड निर्धारित करें।
+//ExStepSummary:1: जाँचें कि स्रोत फ़ाइल मौजूद है और यदि वह अनुपलब्ध है तो त्रुटि संदेश के साथ प्रक्रिया रोक दें।
+//ExStepSummary:2: मूल PDF खोलें, कोई अनुमति न सेट करें, निर्दिष्ट पासवर्ड का उपयोग करके AES‑256 से एन्क्रिप्ट करें, और संरक्षित फ़ाइल को सहेजें।
+//ExStepSummary:3: व्यूअर पासवर्ड के साथ एन्क्रिप्टेड PDF को पुनः खोलें और उसकी IsEncrypted फ़्लैग को कंसोल में लिखें ताकि सुरक्षा की पुष्टि हो सके।
+//ExStepSummary:4: एक अंतिम संदेश प्रदर्शित करें जो बताता है कि एन्क्रिप्शन पूरा हो गया है और आउटपुट फ़ाइल का नाम क्या है।
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

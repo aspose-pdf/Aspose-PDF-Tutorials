@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan lehet meglévő PDF‑et megnyitni az Aspose.Pdf segítségével, a jogosultságait kizárólag űrlapkitöltésre korlátozni, AES‑256‑os titkosítással, nézői és tulajdonosi jelszóval, majd a védett dokumentumot elmenteni.
+//ExStepSummary:0: Deklarálja a forrás PDF útvonalát, a kimeneti útvonalat, valamint a nézői és tulajdonosi jelszavakat.
+//ExStepSummary:1: Ellenőrizze, hogy a forrásfájl létezik‑e; ha nem, írjon ki egy hibaüzenetet, és lépjen ki.
+//ExStepSummary:2: Lépjen be egy try blokkba, és nyissa meg a PDF dokumentumot egy `using` utasítással, létrehozva a `pdfDoc` változót.
+//ExStepSummary:3: Hozzon létre egy `Permissions` objektumot, amely csak az űrlapkitöltést engedélyezi.
+//ExStepSummary:4: Titkosítsa a `pdfDoc`-ot a nézői és mesterjelszóval, alkalmazva a jogosultságkészletet és AES‑256‑ot használva.
+//ExStepSummary:5: Mentse a titkosított PDF‑et a megadott kimeneti fájlba, és zárja le a `using` blokkot.
+//ExStepSummary:6: Írjon egy megerősítő üzenetet a konzolra, és zárja le a try blokkot.
+//ExStepSummary:7: Fogjon el bármilyen kivételt, írja ki az üzenetét a hibakimenetre, és zárja le a catch blokkot.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd

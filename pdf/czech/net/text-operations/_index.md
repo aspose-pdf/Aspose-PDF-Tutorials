@@ -140,7 +140,10 @@ Naučte se, jak efektivně otáčet a upravovat text v PDF dokumentech pomocí A
 ### [Zvládněte vyhledávání textu v PDF pomocí regulárních výrazů pomocí Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
 Výukový program pro kódování Aspose.PDF Net
 
-### [Zvládněte rotaci textu v PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./rotate-text-pdf-aspose-dotnet/)
+### [Jak vyhledávat PDF pomocí Aspose.Pdf – Kompletní průvodce C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Naučte se, jak vyhledávat text v PDF dokumentech pomocí Aspose.Pdf v C# s podrobným návodem a příklady kódu.
+
+### [Zvládnutí rotaci textu v PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./rotate-text-pdf-aspose-dotnet/)
 Naučte se, jak otáčet text v PDF dokumentech pomocí Aspose.PDF pro .NET. Tato komplexní příručka zahrnuje nastavení, příklady kódu a praktické aplikace.
 
 ### [Zarovnání textu v plovoucích rámečcích PDF pomocí Aspose.PDF pro .NET](./align-text-pdf-floating-boxes-aspose-pdf-net/)
@@ -166,6 +169,13 @@ Naučte se, jak upravovat styl textu v tagovaných PDF dokumentech pomocí Aspos
 
 ### [Jak redigovat PDF pomocí Aspose – krok za krokem průvodce](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Naučte se, jak efektivně redigovat PDF dokumenty pomocí Aspose.PDF pro .NET s podrobným návodem a ukázkami kódu.
+### [Jak shrnout PDF pomocí Aspose.Pdf.AI – kompletní průvodce](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI chat PDF: kladení otázek k PDF pomocí Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+### [Jak shrnout PDF pomocí Aspose.Pdf.AI – průvodce](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Naučte se, jak pomocí Aspose.Pdf.AI automaticky vytvořit souhrn obsahu PDF dokumentu v .NET.
+### [Jak převést PDF na souhrn pomocí Aspose.Pdf.AI v C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Naučte se, jak pomocí Aspose.Pdf.AI v C# převést PDF dokument na stručný souhrn s ukázkovým kódem.
 
 ## Další zdroje
 

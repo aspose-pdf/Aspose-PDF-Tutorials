@@ -23,7 +23,6 @@ title: 'Důvěrná vodoznak PDF s Aspose: Přidat textové razítko na první st
 url: /cs/net/programming-with-stamps-and-watermarks/confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/
 ---
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,11 +24,8 @@ title: Salvar PDF como HTML com Aspose.PDF – Guia Rápido em C#
 url: /pt/net/conversion-export/save-pdf-as-html-with-aspose-pdf-quick-c-guide/
 ---
 
-sure to keep **bold** formatting.
 
-Proceed step by step.
 
-Will produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
