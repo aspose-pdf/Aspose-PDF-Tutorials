@@ -51,6 +51,8 @@
 
 ### [التحقق من توقيع PDF في C# – دليل شامل](./validate-pdf-signature-in-c-complete-guide/)
 دليل شامل يشرح كيفية التحقق من صحة توقيع PDF باستخدام C# وتقنيات Aspose.PDF.
+### [التحقق من توقيع PDF في C# – دليل خطوة بخطوة كامل](./verify-pdf-signature-in-c-complete-step-by-step-guide/)
+تعرّف على كيفية التحقق من توقيع PDF في C# خطوة بخطوة باستخدام Aspose.PDF لضمان صحة التوقيع الرقمي.
 ### [تحميل مستند PDF باستخدام C# – التحويل إلى PDF/X‑4 وعرض التوقيعات](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 تعلم كيفية تحميل مستند PDF في C#، تحويله إلى صيغة PDF/X‑4 واستخراج قائمة التوقيعات المضمنة.
 ### [التحقق من توقيع PDF باستخدام Aspose – تحويل PDF إلى HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
@@ -88,6 +90,20 @@
 ### [كيفية توقيع ملف PDF باستخدام شهادة – دليل كامل بلغة C#](./how-to-sign-pdf-using-certificate-complete-c-guide/)
 دليل شامل يوضح كيفية توقيع ملفات PDF باستخدام شهادة رقمية في C# مع أمثلة عملية.
 ### [كيفية توقيع PDF في C# – دليل شامل مع Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
+
+### [كيفية التحقق من التوقيع في ملف PDF باستخدام Aspose.PDF – دليل شامل](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+تعرف على خطوات التحقق من صحة التوقيع الرقمي في ملفات PDF باستخدام Aspose.PDF في دليل شامل ومفصل.
+
+### [التحقق من توقيع PDF وإدراج قائمة توقيعات PDF باستخدام Aspose.PDF – دليل شامل](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+دليل كامل يوضح كيفية التحقق من توقيع PDF واستخراج جميع التوقيعات المضمنة باستخدام Aspose.PDF في .NET.
+
+### [كيفية الحصول على التوقيعات من ملف PDF باستخدام C# – دليل خطوة بخطوة](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+تعلم كيفية استخراج جميع التوقيعات من ملفات PDF باستخدام C# خطوة بخطوة.
+
+### [كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+دليل شامل للتحقق من صحة توقيعات PDF باستخدام Aspose.PDF.
+### [كيفية التحقق من صحة ملف PDF باستخدام Aspose.PDF – فحص صلاحية توقيع PDF في C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+دليل شامل للتحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF.
 
 ## موارد إضافية
 

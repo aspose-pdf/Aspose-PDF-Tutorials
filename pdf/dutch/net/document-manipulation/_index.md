@@ -16,6 +16,13 @@
 Leer PDF-documentmanipulatie onder de knie te krijgen met onze gedetailleerde Aspose.PDF .NET-tutorials. Deze stapsgewijze handleidingen laten zien hoe u met documentstructuren kunt werken, bestaande PDF's kunt wijzigen, documenten kunt splitsen en samenvoegen, pagina's kunt toevoegen en verwijderen en uw PDF-inhoud programmatisch kunt ordenen. Elke tutorial bevat werkende C#-codevoorbeelden, implementatienotities en best practices om u te helpen applicaties te bouwen die PDF-documenten efficiënt bewerken met overzichtelijke, onderhoudbare code.
 
 ## Beschikbare tutorials
+
+{{< tutorial-card link="./compare-pdfs/" title="PDF's vergelijken en een gemarkeerd diff‑document genereren met Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="PDF‑formulieren vergelijken en JSON‑ & visuele diff genereren met Aspose.Pdf voor .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="PDF's vergelijken terwijl specifieke gebieden worden genegeerd met Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Datum- en tijdstempels toevoegen aan PDF's met Aspose.PDF voor .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Leer hoe u efficiënt datum- en tijdstempels of annotaties aan uw PDF-documenten toevoegt met Aspose.PDF voor .NET. Verbeter uw documentbeheer met deze eenvoudig te volgen stappen.
 
@@ -35,7 +42,7 @@ Leer hoe u uw PDF-documenten kunt verbeteren door interactief JavaScript toe te 
 Leer hoe u pagina-einden toevoegt aan PDF-documenten met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor installatie, configuratie en implementatie.
 
 ### [Rechthoeken toevoegen en PDF-pagina's configureren met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-add-rectangles-configure-pages/)
-Leer rechthoeken toevoegen en pagina's configureren in PDF's met Aspose.PDF voor .NET. Volg deze handleiding om effectief technieken voor documentmanipulatie te leren.
+Leer rechthoeken toevoegen en pagina's configureren in PDF's met Aspose.PDF .NET. Volg deze handleiding om effectief technieken voor documentmanipulatie te leren.
 
 ### [Rechthoek toevoegen aan PDF met C# – Complete programmeergids](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
 Leer hoe u een rechthoek toevoegt aan een PDF-document met C# en Aspose.PDF .NET in deze volledige programmeergids.
@@ -227,7 +234,7 @@ Leer hoe je pagina's in een PDF invoegt met Aspose.PDF voor .NET. Deze stapsgewi
 Leer hoe u pagina's in een PDF kunt invoegen met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Stroomlijn uw documentworkflow efficiënt.
 
 ### [Een lege pagina invoegen in een PDF met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-insert-empty-page/)
-Leer hoe u eenvoudig lege pagina's in PDF-documenten kunt invoegen met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding om uw vaardigheden in documentverwerking te verbeteren.
+Leer hoe u eenvoudig lege pagina's in PDF-documenten kunt invoegen met Aspose.PDF .NET. Volg deze stapsgewijze handleiding om uw vaardigheden in documentverwerking te verbeteren.
 
 ### [Beheers de MakeNUp-methode van Aspose.PDF .NET voor efficiënte PDF-layouts](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Leer hoe u meerdere PDF-pagina's efficiënt kunt herschikken naar nieuwe lay-outs met behulp van de MakeNUp-methode van Aspose.PDF .NET. Ideaal voor nieuwsbrieven, brochures en rapporten.
@@ -319,6 +326,9 @@ Leer hoe u PDF-pagina's kunt splitsen in afzonderlijke bestanden met Aspose.PDF 
 ### [PDF-bestanden splitsen en maken met Aspose.PDF .NET | Handleiding voor documentmanipulatie](./split-create-pdf-aspose-pdf-net/)
 Leer hoe u PDF's met meerdere pagina's kunt splitsen en nieuwe PDF-bestanden kunt maken met Aspose.PDF voor .NET. Volg deze uitgebreide handleiding met codevoorbeelden.
 
+### [PDF-lagen samenvoegen in C# – Hoe PDF-lagen combineren](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Leer hoe u met Aspose.PDF voor .NET PDF-lagen kunt combineren in C# voor geavanceerde documentstructuren.
+
 ### [Ultieme gids voor PDF-manipulatie met Aspose.PDF .NET: tekst efficiënt laden, opslaan en vervangen](./master-pdf-manipulation-aspose-pdf-net/)
 Leer hoe je PDF-bewerking onder de knie krijgt met Aspose.PDF voor .NET. Deze handleiding behandelt het laden, opslaan en vervangen van tekst in PDF's, ideaal voor ontwikkelaars die op zoek zijn naar efficiëntie.
 
@@ -337,6 +347,15 @@ Leer hoe u PDF-lagen kunt flatten, exporteren en extraheren met Aspose.PDF voor 
 
 ### [Visuele PDF-verschil in C# – Complete gids om twee PDF's te vergelijken](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Leer hoe u met Aspose.PDF voor .NET twee PDF-bestanden visueel kunt vergelijken en verschillen kunt identificeren.
+### [Hoe PDF-bestanden te repareren met Aspose.PDF – Complete gids](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Leer hoe u beschadigde PDF-bestanden kunt herstellen met Aspose.PDF in .NET via stapsgewijze codevoorbeelden en best practices.
+### [Bijgewerkte PDF opslaan – PDF-bronnen bewerken met Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Leer hoe u een bewerkte PDF opslaat en PDF-bronnen bijwerkt met Aspose.Pdf in .NET.
+### [Gewijzigde PDF opslaan met Aspose.PDF – Complete C#-gids](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Leer hoe u een bewerkte PDF opslaat met Aspose.PDF in C#, stap voor stap met voorbeeldcode.
+
+### [Hoe een gewijzigde PDF opslaan met Aspose.Pdf en transparantie toevoegen](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Leer hoe u een gewijzigde PDF opslaat en transparantie toevoegt met Aspose.PDF voor .NET.
 
 ## Aanvullende bronnen
 

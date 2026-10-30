@@ -17,6 +17,8 @@ Aprenda a crear documentos PDF bien estructurados con nuestros tutoriales de Asp
 
 ## Tutoriales disponibles
 
+
+{{< tutorial-card link="./style-table-cells/" title="Personalizar el fondo, bordes y relleno de celdas de tabla en PDFs con Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Agregar una lista ordenada HTML a un PDF con Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Un tutorial de código para Aspose.PDF Net
 

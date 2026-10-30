@@ -53,6 +53,7 @@
 | [Δημιουργία κενής σελίδας PDF – Πλήρης οδηγός προσθήκης, περικοπής & αλλαγής μεγέθους εικόνων](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Μάθετε πώς να δημιουργήσετε κενή σελίδα PDF και να προσθέσετε, περικόψετε και αλλάξετε το μέγεθος εικόνων με το Aspose.PDF για .NET. |
 | [Προσθήκη Σχήματος σε Word – Πλήρης Οδηγός Προγραμματισμού C#](./add-figure-to-word-complete-c-programming-guide/) | Μάθετε πώς να προσθέτετε σχήματα σε έγγραφα Word χρησιμοποιώντας C# και το Aspose.Words για .NET σε αυτόν τον πλήρη οδηγό. |
 | [Συμπίεση εικόνων σε DOCX – Μείωση μεγέθους αρχείου](./compress-images-in-docx-reduce-file-size/) | Μάθετε πώς να συμπιέζετε εικόνες σε αρχεία DOCX για να μειώσετε το μέγεθος του αρχείου χρησιμοποιώντας το Aspose.PDF για .NET. |  
+| [Δημιουργία AI Copilot για περιγραφή εικόνας PDF – βήμα‑βήμα οδηγός](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Μάθετε πώς να δημιουργήσετε AI Copilot που περιγράφει εικόνες PDF, βήμα‑βήμα, χρησιμοποιώντας Aspose.PDF για .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

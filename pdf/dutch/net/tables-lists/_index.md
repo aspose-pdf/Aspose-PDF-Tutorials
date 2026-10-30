@@ -17,6 +17,8 @@ Leer hoe u goed gestructureerde PDF-documenten maakt met onze Aspose.PDF .NET-tu
 
 ## Beschikbare tutorials
 
+
+{{< tutorial-card link="./style-table-cells/" title="Aangepaste achtergrond, randen en opvulling van tabelcellen in PDF's met Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Voeg een geordende HTML-lijst toe aan een PDF met Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Een codetutorial voor Aspose.PDF Net
 

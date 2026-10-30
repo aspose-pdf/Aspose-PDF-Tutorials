@@ -73,6 +73,15 @@ Pelajari cara menggunakan Aspose.Pdf untuk melakukan OCR pada file PDF dengan co
 ### [Simpan Setiap Lapisan PDF dengan Aspose.Pdf – Panduan Langkah demi Langkah](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
 Pelajari cara menyimpan setiap lapisan PDF secara terpisah menggunakan Aspose.Pdf dalam panduan langkah demi langkah.
 
+### [Bandingkan Dokumen PDF dengan Aspose.Pdf – Panduan Visual Diff Lengkap](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Pelajari cara membandingkan dokumen PDF secara visual menggunakan Aspose.Pdf dengan panduan lengkap ini.
+
+### [Bandingkan Dua Dokumen PDF – Panduan Lengkap C#](./compare-two-pdf-documents-complete-c-guide/)
+Pelajari cara membandingkan dua dokumen PDF menggunakan C# dengan Aspose.PDF secara lengkap.
+
+### [Menambahkan Transparansi ke PDF dengan Aspose.Pdf – Panduan Lengkap .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Pelajari cara menambahkan efek transparansi pada PDF menggunakan Aspose.Pdf untuk .NET dengan contoh kode lengkap.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

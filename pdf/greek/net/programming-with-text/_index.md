@@ -71,6 +71,8 @@
 | [Τμήματα κειμένου σε αρχείο PDF](./text-segments/) | Μάθετε πώς να αναζητάτε συγκεκριμένα τμήματα κειμένου σε αρχείο PDF χρησιμοποιώντας κανονικές εκφράσεις στο Aspose.PDF για .NET. |  
 | [Χρήση Latex Script σε αρχείο PDF](./use-latex-script/) | Μάθετε πώς να χρησιμοποιείτε το σενάριο Latex για να προσθέσετε μαθηματικές εκφράσεις ή τύπους σε αρχείο PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Προσθήκη Bates Numbers σε PDF – αριθμοδότηση Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Μάθετε πώς να προσθέτετε Bates Numbers σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
+| [Δημιουργία περίληψης PDF με Aspose.Pdf.AI και OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Μάθετε πώς να δημιουργείτε περίληψη PDF χρησιμοποιώντας το Aspose.Pdf.AI σε συνδυασμό με το OpenAI. |  
+| [Πώς να δημιουργήσετε PDF περίληψης με Aspose.Pdf.AI σε C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Μάθετε πώς να δημιουργήσετε PDF περίληψης χρησιμοποιώντας το Aspose.Pdf.AI σε C# με βήμα-βήμα οδηγίες. |  
 
 | [Δημιουργία στοιχείου Span σε Word με C# – Πλήρης οδηγός](./create-span-element-in-word-with-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε στοιχείο Span σε έγγραφα Word χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό βήμα προς βήμα. |
 {{< /blocks/products/pf/tutorial-page-section >}}

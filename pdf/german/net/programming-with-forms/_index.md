@@ -57,6 +57,10 @@ Diese Tutorials bieten detaillierte Codebeispiele, klare Erklärungen und Illust
 | [PDF-Dokument mit Aspose erstellen – Textfeld hinzufügen](./create-pdf-document-with-aspose-add-text-box-field/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein Textfeld zu einem PDF‑Dokument hinzufügen. |
 | [PDF-Dokument erstellen C# – Schritt‑für‑Schritt‑Anleitung zu mehrseitigen Formularen](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein mehrseitiges PDF‑Formular in C# erstellen und konfigurieren. |
 | [Mehrseitiges Formular in C# mit Aspose.Pdf erstellen – Schritt‑für‑Schritt‑Anleitung](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein mehrseitiges PDF-Formular in C# Schritt für Schritt erstellen. |
+| [PDF-Textbox-Feld erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-textbox-field-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF‑Textbox‑Feld hinzufügen und konfigurieren. |
+| [FDF in PDF mit C# importieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET FDF-Dateien in PDF-Dokumente importieren – eine vollständige Schritt‑für‑Schritt‑Anleitung. |
+| [PDF-Dokument mit Aspose.PDF speichern – vollständige Anleitung](./save-pdf-document-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie ein PDF-Dokument mit Aspose.PDF vollständig speichern. |
+| [PDF-Formularfeld in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-form-field-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Formularfeld in C# Schritt für Schritt erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

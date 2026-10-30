@@ -1,0 +1,88 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen PDF, membuat tabel dua kolom, dan menata warna latar belakang, border, serta padding setiap sel menggunakan kelas Aspose.Pdf Document dan Table.
+//ExStepSummary:0: Buat dokumen PDF kosong baru di dalam blok using.
+//ExStepSummary:1: Tambahkan halaman kosong ke dokumen PDF.
+//ExStepSummary:2: Buat objek Table dengan dua kolom masing‑masing 200 poin, border luar tipis berwarna hitam, dan padding sel default sebesar 5 poin.
+//ExStepSummary:3: Tambahkan baris pertama ke tabel.
+//ExStepSummary:4: Buat sel pertama, sisipkan teks "First cell", atur latar belakang kuning muda, border merah 2 poin, dan margin 4 poin.
+//ExStepSummary:5: Buat sel kedua, tambahkan teks "Second cell", beri latar belakang hijau muda, border biru 2 poin, dan margin 4 poin.
+//ExStepSummary:6: Tambahkan baris kedua ke tabel.
+//ExStepSummary:7: Buat sel ketiga, sisipkan "Third cell", atur latar belakang sian muda, border abu‑gelap 2 poin, dan margin 4 poin.
+//ExStepSummary:8: Buat sel keempat, tambahkan "Fourth cell", beri latar belakang merah muda muda, border ungu 2 poin, dan margin 4 poin.
+//ExStepSummary:9: Tambahkan tabel yang sudah ditata sepenuhnya ke halaman agar terlihat dalam PDF.
+//ExStepSummary:10: Simpan dokumen PDF ke file dan tutup blok using.
+//ExStepSummary:11: Cetak pesan konfirmasi ke konsol.
+//ExStepImage:1:images/1.png
+//ExStepImage:9:images/2.png
+//ExStep:0-
+// Initialize a fresh PDF document
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:1-
+// Insert a new page
+Page pdfPage = pdfDoc.Pages.Add();
+
+//ExStep:2-
+// Build a table with two equally sized columns
+Table dataTable = new Table
+{
+    ColumnWidths = "200 200",
+    // Optional: draw a border around the entire table
+    Border = new BorderInfo(BorderSide.All, 1, Aspose.Pdf.Color.Black),
+    // Define a default padding for cells (can be overridden later)
+    DefaultCellPadding = new MarginInfo(5, 5, 5, 5)
+};
+
+//ExStep:3-
+// ----- First line -----
+Row firstRow = dataTable.Rows.Add();
+
+//ExStep:4-
+// First column of the first line
+Cell cellA1 = firstRow.Cells.Add();
+cellA1.Paragraphs.Add(new TextFragment("First cell"));
+cellA1.BackgroundColor = Aspose.Pdf.Color.LightYellow;
+cellA1.Border = new BorderInfo(BorderSide.All, 2, Aspose.Pdf.Color.Red);
+cellA1.Margin = new MarginInfo(4, 4, 4, 4);
+
+//ExStep:5-
+// Second column of the first line
+Cell cellA2 = firstRow.Cells.Add();
+cellA2.Paragraphs.Add(new TextFragment("Second cell"));
+cellA2.BackgroundColor = Aspose.Pdf.Color.LightGreen;
+cellA2.Border = new BorderInfo(BorderSide.All, 2, Aspose.Pdf.Color.Blue);
+cellA2.Margin = new MarginInfo(4, 4, 4, 4);
+
+//ExStep:6-
+// ----- Second line -----
+Row secondRow = dataTable.Rows.Add();
+
+//ExStep:7-
+// First column of the second line
+Cell cellB1 = secondRow.Cells.Add();
+cellB1.Paragraphs.Add(new TextFragment("Third cell"));
+cellB1.BackgroundColor = Aspose.Pdf.Color.LightCyan;
+cellB1.Border = new BorderInfo(BorderSide.All, 2, Aspose.Pdf.Color.DarkGray);
+cellB1.Margin = new MarginInfo(4, 4, 4, 4);
+
+//ExStep:8-
+// Second column of the second line
+Cell cellB2 = secondRow.Cells.Add();
+cellB2.Paragraphs.Add(new TextFragment("Fourth cell"));
+cellB2.BackgroundColor = Aspose.Pdf.Color.LightPink;
+cellB2.Border = new BorderInfo(BorderSide.All, 2, Aspose.Pdf.Color.Purple);
+cellB2.Margin = new MarginInfo(4, 4, 4, 4);
+
+//ExStep:9-
+// Place the table onto the page
+pdfPage.Paragraphs.Add(dataTable);
+
+//ExStep:10-
+// Write the PDF to disk
+pdfDoc.Save("customized_table.pdf");
+}
+
+//ExStep:11-
+Console.WriteLine("PDF with styled table cells saved as 'customized_table.pdf'.");
+//ExEnd

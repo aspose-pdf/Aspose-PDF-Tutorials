@@ -53,6 +53,7 @@ Aspose.PDF for .NET 的「使用影像編程」教學課程將引導您完成操
 | [在 Word 中新增圖形 – 完整 C# 程式設計指南](./add-figure-to-word-complete-c-programming-guide/) |了解如何使用 Aspose.Words for .NET 以 C# 程式設計方式將圖形新增至 Word 文件，包含步驟說明與範例程式碼。 |  
 | [壓縮 DOCX 中的圖像 – 減少檔案大小](./compress-images-in-docx-reduce-file-size/) |了解如何使用 Aspose.Words for .NET 壓縮 DOCX 文件中的圖像，以減少檔案大小並保持品質。 |  
 | [在 PDF 中裁剪圖像 – Aspose.PDF 完整指南](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 PDF 文件中裁剪圖像，提供完整步驟與範例程式碼，助您精確控制圖像顯示。 |  
+| [建立 PDF 影像說明的 AI 副駕駛 - 步驟指南](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) |了解如何使用 Aspose.PDF for .NET 結合 AI，為 PDF 中的影像生成說明文字，提升文件可讀性與自動化。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

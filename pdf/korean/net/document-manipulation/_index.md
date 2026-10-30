@@ -16,6 +16,13 @@
 자세한 Aspose.PDF .NET 튜토리얼을 통해 PDF 문서 조작을 마스터하세요. 이 단계별 가이드는 문서 구조 작업, 기존 PDF 수정, 문서 분할 및 병합, 페이지 추가 및 제거, PDF 콘텐츠 프로그래밍 방식 구성 방법을 보여줍니다. 각 튜토리얼에는 C# 코드 예제, 구현 노트, 그리고 모범 사례가 포함되어 있어 깔끔하고 유지 관리가 용이한 코드로 PDF 문서를 효율적으로 조작하는 애플리케이션을 구축하는 데 도움이 됩니다.
 
 ## 사용 가능한 튜토리얼
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET을 사용하여 PDF를 비교하고 강조된 Diff 문서를 생성합니다." imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Aspose.Pdf for .NET을 사용하여 PDF 양식을 비교하고 JSON 및 시각적 차이를 생성합니다." imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Aspose.Pdf for .NET을 사용하여 특정 영역을 무시하면서 PDF 비교하기" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Aspose.PDF for .NET을 사용하여 PDF에 날짜 및 시간 스탬프 추가](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 날짜 및 시간 스탬프나 주석을 효율적으로 추가하는 방법을 알아보세요. 따라 하기 쉬운 단계들을 통해 문서 관리를 더욱 효율적으로 개선해 보세요.
 
@@ -334,8 +341,21 @@ Aspose.PDF for .NET을 사용하여 C#에서 PDF의 민감한 텍스트를 숨�
 
 ### [C#에서 PDF 복구 방법 – 손상된 PDF 파일을 빠르게 수정](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 C#과 Aspose.PDF를 사용하여 손상된 PDF 파일을 빠르게 복구하는 방법을 단계별로 안내합니다.
+
 ### [C#와 Aspose PDF를 사용하여 PDF를 레드랙트하는 방법 – 완전 가이드](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Aspose PDF for .NET을 활용해 C#에서 PDF 문서의 민감한 정보를 레드랙트(가리기)하는 방법을 단계별로 안내합니다.
+
+### [C#에서 PDF 레이어 병합 – PDF 레이어 결합 방법](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aspose.PDF for .NET을 사용하여 PDF 레이어를 병합하고 결합하는 방법을 단계별로 알아보세요.
+### [Aspose.Pdf로 PDF 파일 복구하는 방법 – 완전 가이드](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Aspose.Pdf를 사용하여 손상된 PDF 파일을 복구하고 오류를 해결하는 단계별 완전 가이드.
+
+### [업데이트된 PDF 저장 – Aspose.Pdf로 PDF 리소스 편집](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Aspose.PDF를 사용해 수정된 PDF를 저장하고 PDF 리소스를 편집하는 방법을 단계별로 안내합니다.
+
+### [Aspose.PDF를 사용하여 수정된 PDF 저장 – 완전 C# 가이드](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+### [Aspose.Pdf를 사용하여 수정된 PDF를 저장하고 투명도 추가하는 방법](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Aspose.PDF를 이용해 수정된 PDF를 저장하고 투명도 효과를 적용하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

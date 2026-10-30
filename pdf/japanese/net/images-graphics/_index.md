@@ -23,6 +23,9 @@ Aspose.PDF for .NET を使用して、ロゴなどの画像スタンプを PDF �
 ### [Aspose.PDF for .NET を使用して PDF に画像を追加する: ステップバイステップガイド](./adding-images-aspose-pdf-net-guide/)
 この詳細なガイドでは、Aspose.PDF for .NET を使用してPDFドキュメントに画像を追加する方法を学びます。XImageコレクションと行列変換をマスターすることで、レポートやパンフレットのクオリティを高めましょう。
 
+### [Aspose.PDF を使用してグラフィックスステートを PDF に追加する: ステップバイステップ ガイド](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF for .NET を使って PDF にグラフィックスステートを追加し、描画設定を制御する方法を学びます。
+
 ### [Aspose.PDF for .NET でグラデーション シェーディング付きのテキストを追加する: ステップバイステップ ガイド](./add-text-gradient-shading-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF にグラデーション付きのテキストを追加する方法を学びましょう。このガイドに従って、ドキュメントの美しさと読みやすさを向上させましょう。
 
@@ -49,6 +52,7 @@ C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方�
 
 ### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
+### [C# で PDF に四角形を追加する: ステップバイステップ ガイド](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 
 ### [.NET で Aspose.PDF を使用してカスタム PDF スタンプを作成する](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
@@ -61,6 +65,13 @@ Aspose.PDF Net のコードチュートリアル
 
 ### [C# で Aspose.PDF .NET を使用して PDF に透明度を追加する: ステップバイステップ ガイド](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aspose.PDF .NET を使い、C# で PDF の要素に透明効果を適用する方法を段階的に解説します。
+
+### [C# で Aspose.PDF を使用して PDF に透明度を追加する方法](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Aspose.PDF を使い、C# で PDF に透明効果を追加する手順を解説します。
+### [Aspose.PDF with C# を使用して PDF に透明度を設定する: ステップバイステップ ガイド](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Aspose.PDF C# を使って PDF の要素に透明効果を設定する手順を段階的に解説します。
+### [Aspose.PDF for .NET を使用して PDF ファイルに透明度を追加する方法](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Aspose.PDF for .NET を利用し、PDF ドキュメントに透明な要素や画像を追加して、デザインの柔軟性を高める手順を解説します。
 
 ### [Aspose.PDF for .NET による効率的な PDF 画像識別](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF 内のグレースケール画像と RGB 画像を識別する方法を学びます。このチュートリアルでは、インストール、画像の抽出、パフォーマンスに関するヒントを紹介します。
@@ -92,28 +103,28 @@ Aspose.PDF for .NET を使用してPDFに画像やテキストを追加する方
 ### [Aspose.PDF .NET を使用して PDF に画像を追加する方法: 包括的なガイド](./aspose-pdf-net-add-images-pdfs/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントにシームレスに画像を追加する方法を学びましょう。このステップバイステップガイドでは、セットアップ、実装、そして実践的な応用方法を解説します。
 
-### [Aspose.PDF for .NET を使用して PDF に画像を追加する方法: 完全ガイド](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [Aspose.PDF .NET を使用して PDF に画像を追加する方法: 完全ガイド](./add-images-to-pdfs-using-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントにシームレスに画像を追加する方法を学びましょう。このステップバイステップガイドでは、セットアップ、実装、そして実践的な応用方法を解説します。
 
-### [Aspose.PDF for .NET を使用して PDF に画像を追加する方法: ステップバイステップガイド](./add-images-to-pdfs-aspose-pdf-net/)
+### [Aspose.PDF .NET を使用して PDF に画像を追加する方法: ステップバイステップガイド](./add-images-to-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF にシームレスに画像を追加する方法を学びましょう。このガイドでは、既存の PDF に画像を追加する方法と、DICOM ファイルから新しい PDF を作成する方法について説明します。
 
-### [Aspose.PDF for .NET を使用して PDF に画像ヘッダーを追加する方法: ステップバイステップガイド](./add-image-header-pdf-aspose-dotnet/)
+### [Aspose.PDF .NET を使用して PDF に画像ヘッダーを追加する方法: ステップバイステップガイド](./add-image-header-pdf-aspose-dotnet/)
 この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ドキュメントに画像ヘッダーを追加する方法を学習します。
 
-### [Aspose.PDF for .NET を使用して PDF ヘッダーに画像スタンプを追加する方法](./add-image-stamp-pdf-header-aspose-pdf/)
+### [Aspose.PDF .NET を使用して PDF ヘッダーに画像スタンプを追加する方法](./add-image-stamp-pdf-header-aspose-pdf/)
 Aspose.PDF for .NET を使用して PDF ヘッダーに画像スタンプを追加し、ブランディングとプロフェッショナリズムを強化する方法を学習します。
 
-### [Aspose.PDF for .NET を使用して PDF ページに画像スタンプを追加する方法](./add-image-stamp-pdf-pages-aspose-dotnet/)
+### [Aspose.PDF .NET を使用して PDF ページに画像スタンプを追加する方法](./add-image-stamp-pdf-pages-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、PDF の特定のページに画像スタンプを追加する方法を学びます。ブランディング、透かし、ドキュメントのパーソナライズを効率的に強化できます。
 
-### [Aspose.PDF for .NET を使用して PDF に画像スタンプを追加する方法: 包括的なガイド](./add-image-stamp-pdf-aspose-dotnet/)
+### [Aspose.PDF .NET を使用して PDF に画像スタンプを追加する方法: 包括的なガイド](./add-image-stamp-pdf-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、ロゴや透かしなどの画像スタンプを PDF に追加する方法を学習します。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
-### [Aspose.PDF for .NET を使用して PDF ページを PNG 画像に変換する方法](./convert-pdf-page-to-png-aspose-dotnet/)
+### [Aspose.PDF .NET を使用して PDF ページを PNG 画像に変換する方法](./convert-pdf-page-to-png-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、PDF ページを高品質の PNG 画像に変換する方法を学びましょう。コード例とベストプラクティスを交えたステップバイステップのガイドをご覧ください。
 
-### [Aspose.PDF for .NET を使用して PDF に破線を作成する方法: ステップバイステップガイド](./create-dashed-lines-aspose-pdf-net/)
+### [Aspose.PDF .NET を使用して PDF に破線を作成する方法: ステップバイステップガイド](./create-dashed-lines-aspose-pdf-net/)
 Aspose.PDF for .NET を使って破線を追加し、PDF ドキュメントの魅力を高める方法を学びましょう。このステップバイステップのガイドに従って、洗練されたプロフェッショナルな外観を実現しましょう。
 
 ### [Aspose.PDF を使用して .NET で画像付きのタグ付き PDF を作成する方法](./create-tagged-pdf-image-dotnet/)
@@ -124,6 +135,10 @@ Aspose.PDF for .NET を使って、アルファ透過の四角形を作成し、
 
 ### [Aspose.PDF を使用して C# で PDF に図形を追加する方法 – ステップバイステップ ガイド](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aspose.PDF for .NET を使い、C# で PDF に矩形や円、ポリラインなどの図形を追加する手順をステップバイステップで解説します。
+### [Aspose.PDF を使用してグラフィックスステートを追加し、透明度を制御する方法](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aspose.PDF for .NET でグラフィックスステートを設定し、透明度やブレンドモードを制御する手順を学びます。
+### [Aspose.PDF for .NET を使用して PDF に透明度を追加し、矩形を描く方法](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Aspose.PDF for .NET を使用して、PDF に透明度を設定し矩形を描画する手順を解説します。
 
 ### [Aspose.PDF for .NET を使用して PDF ファイルから画像を削除する方法 - 完全ガイド](./delete-images-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ファイルから画像を効率的に削除する方法を学びましょう。このガイドでは、セットアップ、コード例、ベストプラクティスについて説明します。
@@ -184,6 +199,24 @@ Aspose.PDF for .NET を使用してPDFドキュメント内の画像を圧縮・
 
 ### [Aspose.PDF for .NET を使用して PDF に画像の背景を設定する: 包括的なガイド](./aspose-pdf-net-set-image-backgrounds/)
 Aspose.PDF for .NET を使用して画像背景を設定し、PDFドキュメントの魅力を高める方法を学びましょう。このガイドでは、セットアップ、実装、最適化のヒントを解説します。
+
+### [Word 文書でのロスレス画像圧縮 – 完全ガイド](./lossless-image-compression-in-word-docs-complete-guide/)
+Aspose.Words for .NET を使用して、Word 文書内の画像を品質を損なわずに圧縮する方法をステップバイステップで解説します。
+### [画像オーバーレイ PDF チュートリアル – マスクを追加し自動トレイ選択を有効にする](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+画像オーバーレイにマスクを適用し、自動トレイ選択機能を実装する方法を学びます。
+
+### [GraphicsAbsorber の使用方法 – Aspose.Pdf で PDF からベクター グラフィックを抽出する](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aspose.Pdf の GraphicsAbsorber を使用して、PDF からベクター グラフィックを抽出する手順を学びます。
+### [Aspose.Pdf を使用して PDF に ExtGState を追加する: 完全ガイド](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aspose.Pdf の ExtGState 機能を活用し、PDF の透明度やブレンドモードなど高度な描画設定を追加する方法をステップバイステップで解説します。
+### [Aspose.PDF を使用してカスタム ExtGState PDF を追加する: ステップバイステップ ガイド](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF を使用して、PDF にカスタム ExtGState を追加し、透明度やブレンドモードを制御する方法をステップバイステップで学びます。
+### [Aspose.PDF for .NET を使用して C# で PDF の不透明度を設定する：完全ガイド](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET を使い、C# で PDF の不透明度を設定する方法をステップバイステップで解説します。
+### [Aspose.PDF for .NET を使用して PDF の不透明度を変更する: ステップバイステップ ガイド](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Aspose.PDF for .NET を利用して、PDF 内の要素の不透明度を調整する方法を学びます。コード例とベストプラクティスを紹介。
+### [C# で Aspose.Pdf を使用してグラフィックスステート PDF を追加する](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Aspose.PDF for .NET を利用し、C# でグラフィックスステートを操作して PDF に適用する方法を学びます。
 
 ## 追加リソース
 

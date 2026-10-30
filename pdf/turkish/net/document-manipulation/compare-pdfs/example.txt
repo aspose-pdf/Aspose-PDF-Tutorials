@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Pdf.Comparison kullanarak iki PDF dosyasını nasıl karşılaştıracağınızı ve orijinal ile değiştirilmiş belgeler arasındaki farkları vurgulayan bir diff PDF oluşturacağınızı gösterir.
+//ExStepSummary:0: Orijinal, değiştirilmiş ve diff çıktı PDF'leri için dosya yollarını tanımlayın.
+//ExStepSummary:1: Her iki giriş PDF'inin de mevcut olduğunu doğrulayın ve biri eksikse hata mesajı vererek işlemi durdurun.
+//ExStepSummary:2: `using` bloğu içinde orijinal ve değiştirilmiş PDF'leri `Document` nesnelerine yükleyin.
+//ExStepSummary:3: Karşılaştırma için varsayılan ayarlarla bir `ComparisonOptions` örneği oluşturun.
+//ExStepSummary:4: Karşılaştırmayı yürütün, iki belge arasındaki farkları vurgulayan diff PDF'yi `outputPath` konumunda oluşturun.
+//ExStepSummary:5: Diff PDF'nin oluşturulduğunu belirten bir onay mesajı yazdırın.
+//ExStepSummary:6: `using` bloğunu kapatın, kaynak ve hedef `Document` nesnelerini serbest bırakın.
+//ExStep:0-
+const string sourcePath = "originalDocument.pdf";
+const string targetPath = "modifiedDocument.pdf";
+const string outputPath = "diffOutput.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath) || !File.Exists(targetPath))
+{
+    Console.Error.WriteLine("Unable to locate one or both PDF inputs.");
+    return;
+}
+
+//ExStep:2-
+using (Document sourceDoc = new Document(sourcePath))
+using (Document targetDoc = new Document(targetPath))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+TextPdfComparer.CompareFlatDocuments(sourceDoc, targetDoc, compareOpts, outputPath);
+
+//ExStep:5-
+Console.WriteLine($"Comparison finished. Output written to \"{outputPath}\".");
+
+//ExStep:6-
+}
+//ExEnd

@@ -19,6 +19,19 @@ Aspose.PDF for .NET için "PDF Sayfalarıyla Programlama" belgeleri, bir PDF dos
 Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmasını kolaylaştırmak için net açıklamalar içerir. İster yeni başlayan ister deneyimli bir geliştirici olun, bu kaynaklar Aspose.PDF for .NET tarafından sunulan PDF sayfa düzenleme özelliklerinde ustalaşmanıza yardımcı olacak ve uygulama geliştirme projeleriniz için yeni olasılıklar açacaktır.
 
 ## Eğitimler
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Aspose.PDF for .NET ile Tek Bir PDF Sayfasını 180 Derece Döndürün" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET Kullanarak PDF'i Onuncu Sayfadan Sonra Böl" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Aspose.Pdf for .NET ile Her PDF Sayfasını 180° Döndürün" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Aspose.Pdf for .NET ile PDF Sayfalarını Sayfa Sayfa Karşılaştırın" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET kullanarak farklı sayfa boyutlarına sahip PDF'leri karşılaştırın" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Başlık | Açıklama |
 | --- | --- | 
 | [Yönelimi Değiştir](./change-orientation/) | Aspose.PDF for .NET ile PDF'in sayfa yönünü değiştirmek için adım adım kılavuz. Projelerinizde takip etmesi ve uygulaması kolaydır. |  
@@ -31,10 +44,12 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [PDF Dosyasında Sayfa Sayısını Al](./get-page-count/) | .NET için Aspose.PDF kullanarak bir PDF dosyasındaki sayfa sayısını nasıl alacağınızı öğrenin. Basit ve etkili bir çözüm için adım adım kılavuzumuzu izleyin. |
 | [Belirli Sayfayı Al](./get-particular-page/) Bu adım adım kılavuzda, Aspose.PDF for .NET'i kullanarak PDF'den belirli bir sayfayı nasıl çıkaracağınızı ve yeni bir belge olarak nasıl kaydedeceğinizi öğrenin. |
 | [PDF Özelliklerini Alın](./get-properties/) | Aspose.PDF for .NET kullanarak PDF özelliklerinin nasıl verimli bir şekilde çıkarılacağını öğrenin. Kod örnekleri ve en iyi uygulamalarla adım adım kılavuz. |
-| [PDF Dosyasında Resmi Sayfa Arka Planı Olarak Ayarla](./image-as-background/) | Bu adım adım kılavuzla .NET için Aspose.PDF'yi kullanarak bir PDF'de sayfa arka planı olarak bir resmin nasıl ayarlanacağını öğrenin. Profesyonel, görsel olarak çekici belgeler oluşturun. |
+| [PDF Dosasında Resmi Sayfa Arka Planı Olarak Ayarla](./image-as-background/) | Bu adım adım kılavuzla .NET için Aspose.PDF'yi kullanarak bir PDF'de sayfa arka planı olarak bir resmin nasıl ayarlanacağını öğrenin. Profesyonel, görsel olarak çekici belgeler oluşturun. |
 | [PDF Dosyasına Boş Sayfa Ekle](./insert-empty-page/) | Aspose.PDF for .NET kullanarak bir PDF belgesine boş bir sayfanın nasıl ekleneceğini öğrenin. Sorunsuz PDF düzenleme için kod örnekleri içeren adım adım eğitim. |
 | [PDF'e Sayfa Ekle – C# Geliştiricileri için Adım‑Adım Kılavuz](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına sayfa eklemeyi adım adım öğrenin. |
 | [Sonuna Boş Sayfa Ekle](./insert-empty-page-at-end/) | Bu başlangıç seviyesindeki kullanıcı dostu kılavuzda Aspose.PDF for .NET ile PDF belgesine zahmetsizce boş bir sayfa eklemeyi öğrenin. Hızlı düzenlemeler için mükemmel. |
+| [Aspose.PDF ile Boş Sayfa PDF Ekle – Tam Kılavuz](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF kullanarak bir PDF dosyasına boş sayfa eklemenin adım adım tam rehberi. |
+| [Aspose.Pdf ile PDF'e Bates Numaralandırması Ekleme](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak bir PDF dosyasına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [Sayfalara Böl](./split-to-pages/) Bu kapsamlı eğitimle Aspose.PDF for .NET'i kullanarak PDF'leri kolayca tek tek sayfalara bölün. Adım adım kılavuz dahildir. |
 | [PDF Sayfa Boyutlarını Güncelle](./update-dimensions/) | Bu kapsamlı, adım adım kılavuzda, Aspose.PDF for .NET ile PDF sayfa boyutlarını zahmetsizce nasıl güncelleyeceğinizi keşfedin. |
 | [Aspose.Pdf ile PDF Sayfalarını Yeniden Sıralama – Tam C# Kılavuzu](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF sayfalarını istediğiniz sıraya göre yeniden düzenlemeyi adım adım öğrenin. |
@@ -46,6 +61,11 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [Aspose ile Bates Numaralandırması PDF'ye Ekle – Tam Kılavuz](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [C# ile Bates Numaralandırması Ekle – Tam Adım‑Adım Kılavuz](./add-bates-numbering-in-c-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [C# ile PDF Sayfalarını Yeniden Sırala – Tam Adım‑Adım Kılavuz](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF sayfalarını yeniden sıralamayı adım adım öğrenin. |
+| [C# ile PDF'lere Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
+| [Aspose.Pdf ile PDF Sayfasını Kopyala – Tam Kılavuz](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak bir PDF sayfasını nasıl kopyalayacağınızı adım adım öğrenin. |
+| [Aspose.PDF ile PDF'e Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF belgelerine Bates numaralandırması eklemeyi adım adım öğrenin. |
+| [C# ile Aspose.Pdf kullanarak PDF Opaklığını Değiştir – adım adım kılavuz](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET ile C# kullanarak PDF dosyalarının opaklığını nasıl değiştireceğinizi adım adım gösteren kılavuz. |
+| [Aspose ile Bates Numaralandırması PDF Ekle – Tam Adım‑Adım Kılavuz](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -53,7 +73,6 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -70,6 +89,4 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

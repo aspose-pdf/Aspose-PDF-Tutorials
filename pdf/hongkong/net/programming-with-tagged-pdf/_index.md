@@ -46,11 +46,15 @@ Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將�
 | [PDF檔案中的文字結構元素](./text-structure-elements/) |學習使用 Aspose.PDF for .NET 操作 PDF 中的文字結構元素。本逐步指南涵蓋了創建結構化 PDF 所需的所有內容。 |  
 | [使用 Aspose 在 PDF 中建立可存取文字跨度 – 完整 C# 指南](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) |透過本完整 C# 教學，學習如何在 PDF 中建立可存取的文字跨度，提高文件的可讀性與合規性。 |  
 | [驗證 PDF 文件](./validate-pdf/) |了解如何使用 Aspose.PDF for .NET 驗證 PDF 檔案。檢查其是否符合標準並產生驗證報告。 |  
+| [在 C# 中建立 PDF 文件 – 文字定位與新增結構樹](./create-pdf-document-c-position-text-and-add-structural-tree/) |本教學說明如何在 C# 使用 Aspose.PDF 建立 PDF、設定文字位置並加入結構樹，以提升文件的可存取性。 |  
 | [在 C# 中建立標記 PDF – 完整步驟指南](./create-tagged-pdf-in-c-complete-step-by-step-guide/) |透過完整步驟指南，使用 C# 建立標記 PDF，提升文件可存取性與結構。 |  
 | [在 C# 中建立標記 PDF – Aspose PDF 完整指南](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) |透過完整步驟指南，使用 C# 建立符合 PDF/UA 標準的標記 PDF，提升文件可存取性。 |  
 | [在 C# 中建立標記 PDF – 步驟指南](./create-tagged-pdf-in-c-step-by-step-guide/) |透過步驟指南，使用 C# 建立標記 PDF，提升文件可存取性與結構。 |  
 | [在 C# 中建立 PDF 文件 – 完整指南，含標記文字與定位](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) |透過本完整步驟指南，使用 C# 建立帶有標記文字與精確定位的 PDF 文件，提升可存取性與排版控制。 |  
 | [使用 Aspose.Pdf 編輯標記 PDF – 完整指南](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) |本完整指南說明如何使用 Aspose.PDF 編輯已標記的 PDF，包括修改結構、文字與圖像，以提升文件可存取性。 |  
+| [在 C# 中建立標記 PDF – 完整步驟指南](./create-tagged-pdf-in-c-full-step-by-step-guide/) |透過完整步驟指南，使用 C# 建立符合 PDF/UA 標準的標記 PDF，提升文件可存取性與結構。 |  
+| [使用 Aspose.Pdf 標記 PDF – 完整程式設計指南](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) |透過本完整指南，學習如何使用 Aspose.Pdf 為 PDF 加上標記，提升可存取性與結構化。 |  
+| [使用 Aspose 建立 Span 元素 PDF – 載入 PDF 並標記內容](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) |在本教學中了解如何使用 Aspose.PDF for .NET 載入 PDF 並建立 Span 元素以標記內容。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

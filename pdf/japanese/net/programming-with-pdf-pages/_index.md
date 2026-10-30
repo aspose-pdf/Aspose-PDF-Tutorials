@@ -20,6 +20,19 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 
 ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Aspose.PDF for .NET を使用して単一の PDF ページを180度回転させる" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET を使用した 10 ページ目以降の PDF 分割" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Aspose.Pdf for .NET を使用してすべての PDF ページを 180° 回転させる" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Aspose.Pdf for .NET を使用して PDF ページをページ単位で比較する" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET を使用して、ページサイズが異なるPDFを比較する" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | --- | --- | 
 | [方向転換](./change-orientation/) Aspose.PDF for .NET を使って PDF のページの向きを変更する手順をステップバイステップで説明します。簡単に理解でき、プロジェクトに実装できます。 |  
 | [PDFファイルを連結する](./concatenate-pdf-files/) この包括的なステップバイステップ ガイドに従って、Aspose.PDF for .NET を使用して PDF ファイルを簡単に連結します。 |  
@@ -34,8 +47,10 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [PDFファイルのページ背景に画像を設定する](./image-as-background/) Aspose.PDF for .NET を使用してPDFのページの背景に画像を設定する方法をステップバイステップで解説します。プロフェッショナルで視覚的に魅力的なドキュメントを作成できます。 |  
 | [PDFファイルに空白ページを挿入する](./insert-empty-page/) Aspose.PDF for .NET を使用して、PDF ドキュメントに空白ページを挿入する方法を学びましょう。シームレスな PDF 操作のためのコード例を交えたステップバイステップのチュートリアルです。 |  
 | [最後に空白ページを挿入](./insert-empty-page-at-end/) この初心者向けガイドでは、Aspose.PDF for .NET を使って PDF ドキュメントに空白ページを簡単に挿入する方法を学習できます。簡単な編集に最適です。 |  
+| [Aspose.PDF を使用した空白ページ PDF の追加 – 完全ガイド](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して、PDF に空白ページを追加する完全な手順をステップバイステップで解説します。 |  
 | [ページに分割](./split-to-pages/) この包括的なチュートリアルでは、Aspose.PDF for .NET を使用して PDF を簡単に個別のページに分割できます。ステップバイステップのガイドも含まれています。 |  
 | [PDFページサイズの更新](./update-dimensions/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ページのサイズを簡単に更新する方法を説明します。 |  
+| [Aspose.Pdf で PDF ページを複製する – 完全ガイド](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して PDF ページを複製する手順をステップバイステップで解説します。簡単に実装できます。 |  
 | [PDFファイルのページコンテンツにズーム](./zoom-to-page-contents/) この包括的なガイドでは、Aspose.PDF for .NET を使用して PDF ファイルのページコンテンツを拡大する方法を学習します。特定のニーズに合わせて PDF ドキュメントを強化しましょう。 |  
 | [PDF にページを追加 – C# 開発者向けステップバイステップガイド](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) Aspose.PDF for .NET を使用して、C# で PDF にページを追加する方法をステップバイステップで解説します。 |  
 | [C# で PDF にページ番号を追加 – 完全ステップバイステップガイド](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にページ番号を追加する手順をステップバイステップで解説します。 |
@@ -44,8 +59,13 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [C# で PDF ドキュメントを作成 – シェイプと空白ページの追加ガイド](./create-pdf-document-c-add-shapes-blank-pages-guide/) Aspose.PDF for .NET を使用して、C# で PDF にシェイプや空白ページを追加する方法をステップバイステップで解説します。 |  
 | [Aspose を使用したベーツ番号付け PDF の追加 – 完全ガイド](./add-bates-numbering-pdf-with-aspose-complete-guide/) Aspose.PDF for .NET を使用して、PDF にベーツ番号を付与する方法をステップバイステップで解説します。 |
 | [C# でベーツ番号を追加 – 完全ステップバイステップガイド](./add-bates-numbering-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF 文書にベーツ番号を付与する手順をステップバイステップで解説します。 |
-| [C# で PDF ページを並べ替える – 完全ステップバイステップガイド](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のページ順序を変更する手順をステップバイステップで解説します。簡単に実装可能です。 |  
+| [C# で PDF ページを並べ替える – 完全ステップバイステップガイド](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のページ順序を変更する手順をステップバイステップで解説します。簡単に実装可能です。 |
 | [Aspose.Pdf で PDF ページを並べ替える – 完全 C# ガイド](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して、C# で PDF ページの順序を変更する手順をステップバイステップで解説します。 |
+| [C# で PDF にベーツ番号を追加 – 完全ガイド](./add-bates-numbering-to-pdfs-with-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF にベーツ番号を追加する手順をステップバイステップで解説します。 |
+| [Aspose.PDF を使用した PDF へのベーツ番号付与 – 完全ガイド](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して PDF にベーツ番号を付与する手順をステップバイステップで解説します。 |
+| [C# で PDF の不透明度を変更 – Aspose.Pdf ステップバイステップガイド](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF の不透明度を変更する方法をステップバイステップで解説します。 |
+| [Aspose を使ったベーツ番号付け PDF の追加 – 完全ステップバイステップガイド](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF にベーツ番号を追加する方法をステップバイステップで解説します。 |
+| [Aspose.Pdf で PDF にベーツ番号を追加する方法](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) Aspose.PDF for .NET を使用して、PDF にベーツ番号を追加し、ページ番号付与を行う手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -53,7 +73,6 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -68,21 +87,18 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-| [空白 PDF ページの作成 – 完全 PDF 描画チュートリアル](./create-blank-pdf-page-full-pdf-drawing-tutorial/) Aspose.PDF for .NET を使用して、空白の PDF ページを作成し、フル描画機能を活用する手順をステップバイステップで解説します。 |  
-| [Aspose を使用して PDF にページを追加 – 完全な C# ガイド](./add-pages-to-pdf-with-aspose-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF に新しいページを追加する手順をステップバイステップで解説します。 |  
+| [空白 PDF ページの作成 – 完全 PDF 描画チュートリアル](./create-blank-pdf-page-full-pdf-drawing-tutorial/) Aspose.PDF for .NET を使用して、空白の PDF ページを作成し、フル描画機能を活用する手順をステップバイステップで解説します。 |
+| [Aspose を使用して PDF にページを追加 – 完全な C# ガイド](./add-pages-to-pdf-with-aspose-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF に新しいページを追加する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

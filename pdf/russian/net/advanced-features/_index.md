@@ -73,6 +73,15 @@
 ### [Как выполнить OCR в PDF с помощью Aspose.Pdf – Полное руководство на C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Узнайте, как выполнять OCR в PDF‑файлах с помощью Aspose.Pdf в C#, включая настройку, извлечение текста и обработку изображений.
 
+### [Сравнение двух PDF-документов — Полное руководство на C#](./compare-two-pdf-documents-complete-c-guide/)
+Узнайте, как сравнивать два PDF-файла и получать подробный отчет о различиях с помощью Aspose.PDF в C#.
+
+### [Сравнение PDF-документов с Aspose.Pdf – Полное руководство по визуальному сравнению](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Узнайте, как сравнивать PDF-документы и визуально отображать различия с помощью Aspose.Pdf.
+
+### [Добавление прозрачности в PDF с Aspose.Pdf – Полное руководство для .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Узнайте, как добавить прозрачность в PDF-документы с помощью Aspose.Pdf для .NET, используя полное руководство с примерами кода.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

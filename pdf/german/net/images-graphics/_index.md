@@ -17,6 +17,9 @@ Entdecken Sie, wie Sie PDF-Dokumente mit visuellen Elementen aufwerten – mit u
 
 ## Verfügbare Tutorials
 
+### [Benutzerdefinierten ExtGState-PDF mit Aspose.PDF hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET benutzerdefinierte ExtGState-Objekte zu PDFs hinzufügen.
+
 ### [Bildstempel zu PDFs hinzufügen mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./add-image-stamp-to-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bildstempel, z. B. Logos, zu jeder Seite einer PDF-Datei hinzufügen. Werten Sie Ihre Dokumente mit professionellem Branding auf.
 
@@ -43,6 +46,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF-Dokument 
 
 ### [Wie man PDF validiert und ein Rechteck hinzufügt – Vollständiger Leitfaden](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs validieren und Rechtecke hinzufügen, um Dokumente zu prüfen und zu markieren.
+### [Rechteck zu PDF hinzufügen mit C#: Schritt‑für‑Schritt‑Anleitung](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF hinzufügen und anpassen.
 
 ### [Erstellen Sie benutzerdefinierte PDF-Stempel mit Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
@@ -58,9 +63,28 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hin
 
 ### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
+### [Wie man Transparenz in einem PDF mit Aspose.Pdf C# festlegt](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Erfahren Sie, wie Sie mit Aspose.Pdf C# Transparenz in PDFs hinzufügen und anpassen.
+
+### [Transparenz zu PDF mit Aspose.PDF in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen.
+
+### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
+### [Wie man Transparenz zu PDF hinzufügt und ein Rechteck in PDF zeichnet mit Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Ein Code-Tutorial für Aspose.PDF Net
+### [PDF-Deckkraft in C# mit Aspose.PDF festlegen – vollständige Anleitung](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Deckkraft von PDF-Elementen in C# einstellen.
+### [Transparenz zu PDF-Dateien mit Aspose.PDF für .NET hinzufügen](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz zu PDF-Dokumenten hinzufügen und visuelle Effekte erzeugen.
 
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.
+
+### [So verwenden Sie GraphicsAbsorber – Vektorgrafiken aus PDF mit Aspose.Pdf extrahieren](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Erfahren Sie, wie Sie mit Aspose.Pdf den GraphicsAbsorber einsetzen, um Vektorgrafiken aus PDF-Dateien zu extrahieren.
+### [Grafikstatus zu PDF hinzufügen mit Aspose.PDF – Schritt‑für‑Schritt‑Anleitung](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET den Grafikstatus von PDFs verwalten und anpassen, um komplexe Zeichenoperationen zu steuern.
 
 ### [Konvertieren Sie Bildströme effizient in PDFs mit Aspose.PDF für .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstreams in professionelle PDF-Dokumente konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Dokumenten-Workflows zu verbessern.
@@ -74,7 +98,7 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Extrahieren Sie Bilder aus PDF-Signaturen mit Aspose.PDF .NET: Ein umfassender Leitfaden](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in PDF-Signaturen eingebettete Bilder extrahieren. Diese Anleitung bietet Schritt-für-Schritt-Anleitungen und praktische Anwendungen.
 
-### [Extrahieren Sie Bilder aus PDF mit Aspose.PDF für .NET](./extract-images-pdfs-aspose-pdf-net/)
+### [Extrahieren Sie Bilder aus PDF mit Aspose.PDF .NET](./extract-images-pdfs-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Schnelle Bildverkleinerung in PDFs mit Aspose.PDF .NET: Bilder effizient optimieren und komprimieren](./optimize-pdf-images-aspose-net-fast-compression/)
@@ -86,22 +110,25 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF f�
 ### [So fügen Sie mit Aspose.PDF für .NET Bilder und Text zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./adding-images-text-pdfs-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bilder und Text zu PDFs hinzufügen. Diese umfassende Anleitung deckt alles von der Einrichtung bis zur Implementierung ab und verbessert Ihre Fähigkeiten zur Dokumentbearbeitung.
 
-### [So fügen Sie mit Aspose.PDF .NET Bilder zu PDFs hinzu: Eine umfassende Anleitung](./aspose-pdf-net-add-images-pdfs/)
+### [So fügen Sie mit Aspose.PDF .NET Bilder zu PDFs hinzufügen: Eine umfassende Anleitung](./aspose-pdf-net-add-images-pdfs/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
+
+### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzufügen: Eine vollständige Anleitung](./add-images-to-pdfs-using-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
 ### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDFs hinzufügen. Diese Anleitung beschreibt das Hinzufügen von Bildern zu vorhandenen PDFs und das Erstellen neuer Bilder aus DICOM-Dateien.
 
-### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)
+### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Bildkopfzeilen zu Ihren PDF-Dokumenten hinzufügen.
 
-### [So fügen Sie mit Aspose.PDF für .NET einen Bildstempel zu PDF-Kopfzeilen hinzu](./add-image-stamp-pdf-header-aspose-pdf/)
+### [So fügen Sie mit Aspose.PDF für .NET einen Bildstempel zu PDF-Kopfzeilen hinzufügen](./add-image-stamp-pdf-header-aspose-pdf/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstempel zu Ihren PDF-Kopfzeilen hinzufügen und so Ihr Branding und Ihre Professionalität verbessern.
 
 ### [So fügen Sie PDF-Seiten mit Aspose.PDF für .NET einen Bildstempel hinzu](./add-image-stamp-pdf-pages-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstempel zu bestimmten Seiten Ihrer PDF-Dateien hinzufügen. Verbessern Sie Ihr Branding, fügen Sie Wasserzeichen hinzu oder personalisieren Sie Dokumente effizient.
 
-### [So fügen Sie mit Aspose.PDF für .NET einem PDF einen Bildstempel hinzu: Eine umfassende Anleitung](./add-image-stamp-pdf-aspose-dotnet/)
+### [So fügen Sie mit Aspose.PDF für .NET einem PDF einen Bildstempel hinzufügen: Eine umfassende Anleitung](./add-image-stamp-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstempel wie Logos oder Wasserzeichen zu Ihren PDFs hinzufügen. Diese Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
 ### [So konvertieren Sie PDF-Seiten mit Aspose.PDF für .NET in PNG-Bilder](./convert-pdf-page-to-png-aspose-dotnet/)
@@ -118,6 +145,8 @@ Erfahren Sie, wie Sie Ihre PDF-Dokumente verbessern, indem Sie mit Aspose.PDF f�
 
 ### [Rechteck zu PDF mit C# hinzufügen – Vollständiger Aspose PDF Leitfaden](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF hinzufügen und anpassen.
+### [Wie Sie die Deckkraft in einem PDF mit Aspose.Pdf für .NET ändern](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Deckkraft von Elementen in PDFs anpassen.
 
 ### [So fügen Sie mit Aspose.PDF für .NET ein Rechteck zu PDF hinzu](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 
@@ -180,6 +209,16 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET komplexe LaTeX-Skripte in PDF-Dok
 
 ### [Bildhintergründe in PDFs mit Aspose.PDF für .NET festlegen: Eine umfassende Anleitung](./aspose-pdf-net-set-image-backgrounds/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Aspose.PDF für .NET durch die Einrichtung von Bildhintergründen optimieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Optimierung.
+
+### [Verlustfreie Bildkompression in Word-Dokumenten – Komplettanleitung](./lossless-image-compression-in-word-docs-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET verlustfreie Bildkompression in Word-Dokumenten durchführen.
+### [Bildüberlagerungs-PDF-Tutorial – Maske hinzufügen und automatische Tablettauswahl aktivieren](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Masken überlagern und die automatische Tablettauswahl in PDFs aktivieren.
+### [ExtGState zu PDF mit Aspose.PDF hinzufügen – Vollständige Anleitung](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ExtGState-Objekte zu PDFs hinzufügen, um Transparenz, Blendmodi und weitere Grafik‑Effekte zu steuern.
+### [Wie Sie den Grafikstatus zu PDFs hinzufügen und Transparenz mit Aspose.PDF steuern: Eine Schritt-für-Schritt-Anleitung](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+### [Grafikzustand zu PDF mit Aspose.Pdf in C# hinzufügen](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET den Grafikzustand in PDFs steuern.
 
 ## Weitere Ressourcen
 

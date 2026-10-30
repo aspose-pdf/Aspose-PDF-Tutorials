@@ -29,6 +29,8 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 
 ### [Αποθήκευση PDF ως HTML με το Aspose.Pdf – Πλήρης οδηγός C#](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
 Μάθετε πώς να αποθηκεύετε αρχεία PDF ως HTML χρησιμοποιώντας το Aspose.Pdf σε C#, βήμα-βήμα οδηγίες.
+### [Αποθήκευση PDF ως HTML – Δημιουργία PDF, προσθήκη σχήματος ορθογωνίου](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Μάθετε πώς να αποθηκεύσετε ένα PDF ως HTML, δημιουργώντας PDF και προσθέτοντας σχήμα ορθογωνίου με το Aspose.PDF για .NET.
 
 ### [Πλήρης οδηγός: Μετατροπή PDF σε TIFF χρησιμοποιώντας το Aspose.PDF .NET για απρόσκοπτη μετατροπή εγγράφων](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Μάθετε πώς να μετατρέπετε αποτελεσματικά αρχεία PDF σε εικόνες TIFF υψηλής ποιότητας χρησιμοποιώντας το Aspose.PDF για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να βελτιώσετε τη ροή εργασίας επεξεργασίας εγγράφων.
@@ -74,7 +76,7 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Aspose PDF σε PNG – Εξαγωγή πρώτης σελίδας στα 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Μάθετε πώς να εξάγετε την πρώτη σελίδα ενός PDF σε εικόνα PNG με ανάλυση 300 DPI χρησιμοποιώντας το Aspose.PDF για .NET.
 ### [Πώς να αποδώσετε PDF σε PNG με το Aspose – Πλήρης Οδηγός](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
-Μάθετε πώς να αποδίδετε αρχεία PDF σε εικόνες PNG υψηλής ποιότητας χρησιμοποιώντας το Aspose, με βήμα-βήμα οδηγίες.
+Μάθετε πώς να αποδίδετε αρχεία PDF σε εικόνες PNG υψηλής ποιότητας χρησιμοποιώντας το Aspose, με βήμα‑βήμα οδηγίες.
 
 ### [Μετατροπή PDF σε PPTX με το Aspose.PDF για .NET: Οδηγός βήμα προς βήμα](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Μάθετε πώς να μετατρέπετε αποτελεσματικά έγγραφα PDF σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τη βασική μετατροπή, προηγμένες λειτουργίες όπως διαφάνειες εικόνων και την παρακολούθηση προόδου.
@@ -108,7 +110,7 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 Μάθετε πώς να μετατρέπετε απρόσκοπτα αρχεία TeX σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον λεπτομερής οδηγό. Ανακαλύψτε συμβουλές και βέλτιστες πρακτικές για αποτελεσματική μετατροπή.
 ### [Μετατροπή αρχείων κειμένου σε PDF χρησιμοποιώντας το Aspose.PDF για .NET: Οδηγός βήμα προς βήμα](./convert-text-files-to-pdf-aspose-dotnet/)
 Μάθετε πώς να μετατρέπετε απρόσκοπτα αρχεία κειμένου σε επαγγελματικά έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET. Ακολουθήστε αυτόν τον αναλυτικό οδηγό με παραδείγματα κώδικα και συμβουλές βελτιστοποίησης.
-### [Μετατροπή XML σε PDF σε C# χρησιμοποιώντας το Aspose.PDF: Ένας πλήρης οδηγός για προγραμματιστές .NET](./convert-xml-to-pdf-csharp-aspose-pdf-guide/)
+### [Μετατροπή XML σε PDF σε C# – Ένας πλήρης οδηγός για προγραμματιστές .NET](./convert-xml-to-pdf-csharp-aspose-pdf-guide/)
 Μάθετε πώς να μετατρέπετε αποτελεσματικά αρχεία XML σε επαγγελματικά PDF χρησιμοποιώντας το Aspose.PDF και το C#. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα, ειδικά σχεδιασμένο για προγραμματιστές .NET.
 ### [Μετατροπή XML σε PDF με το Aspose.PDF για .NET: Οδηγός βήμα προς βήμα](./convert-xml-pdf-aspose-dotnet/)
 Μάθετε πώς να μετατρέψετε τα δεδομένα XML σας σε PDF με στυλ χρησιμοποιώντας Aspose.PDF και XSLT σε .NET. Αυτός ο οδηγός καλύπτει την εγκατάσταση, τα βήματα μετατροπής και τις εφαρμογές του πραγματικού κόσμου.
@@ -199,20 +201,35 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 
 ### [Convert PDF to HTML in C# – Quick Guide with Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Μάθετε πώς να μετατρέπετε γρήγορα αρχεία PDF σε HTML χρησιμοποιώντας C# και Aspose.Pdf με αυτόν τον σύντομο οδηγό.
-### [Πώς να εξάγετε PDF σε HTML σε C# – Πλήρης Οδηγός Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
-Μάθετε πώς να εξάγετε PDF σε HTML με το Aspose.PDF σε C#, ακολουθώντας έναν πλήρη βήμα-βήμα οδηγό.
+### [Πώς να παραλείψετε την εξαγωγή εικόνων κατά τη μετατροπή PDF σε HTML – Πλήρης οδηγός C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Μάθετε πώς να εξαιρέσετε τις εικόνες κατά τη μετατροπή PDF σε HTML χρησιμοποιώντας C# και Aspose.PDF.
 
-### [Μετατροπή PDF σε TIFF σε .NET χρησιμοποιώντας το Aspose.PDF: Οδηγός βήμα προς βήμα](./pdf-to-tiff-conversion-aspose-pdf-net/)
-Μάθετε πώς να μετατρέπετε έγγραφα PDF σε εικόνες TIFF χρησιμοποιώντας το Aspose.PDF για .NET. Κατακτήστε τα προσαρμοσμένα βάθη χρωμάτων και τις προηγμένες τεχνικές επεξεργασίας εικόνας.
-### [Πώς να αποθηκεύσετε PDF με το Aspose – Οδηγός βήμα προς βήμα](./how-to-save-pdf-with-aspose-step-by-step-guide/)
-Μάθετε πώς να αποθηκεύετε αρχεία PDF χρησιμοποιώντας το Aspose με αναλυτικές οδηγίες βήμα‑βήμα.
-### [Αποθήκευση PDF ως PNG και μετατροπή σε PDF/X‑1a με το Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
-Μάθετε πώς να αποθηκεύσετε ένα PDF ως PNG και στη συνέχεια να το μετατρέψετε σε συμβατό PDF/X‑1a χρησιμοποιώντας το Aspose PDF.
-### [πώς να αποθηκεύσετε HTML από PDF – Οδηγός βήμα προς βήμα](./how-to-save-html-from-pdf-step-by-step-guide/)
-Μάθετε πώς να εξάγετε HTML από αρχεία PDF με αναλυτικές οδηγίες βήμα προς βήμα.
+### [Μετατροπή PDF σε HTML σε C# – πλήρης προγραμματιστικός οδηγός](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε HTML με πλήρη προγραμματιστική καθοδήγηση σε C# χρησιμοποιώντας Aspose.PDF.
+
+### [Πώς να εξάγετε PDF σε HTML σε C# – Πλήρης Οδηγός Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Μάθετε πώς να εξάγετε PDF σε HTML με το Aspose.PDF σε C#, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 
 ### [Μετατροπή docx σε html σε C# – Πλήρης Προγραμματιστικός Οδηγός](./convert-docx-to-html-in-c-complete-programming-guide/)
 Μάθετε πώς να μετατρέπετε αρχεία docx σε HTML χρησιμοποιώντας C# και Aspose.PDF με πλήρη παραδείγματα κώδικα.
+
+### [Μετατροπή docx σε png σε C# – Πλήρης οδηγός](./convert-docx-to-png-in-c-complete-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε εικόνες PNG με C# και Aspose.PDF, ακολουθώντας έναν πλήρη βήμα-βήμα οδηγό.
+
+### [Αποθήκευση PDF χωρίς εικόνες – Μετατροπή PDF σε HTML με το Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Μάθετε πώς να αποθηκεύετε PDF χωρίς εικόνες και να το μετατρέπετε σε HTML χρησιμοποιώντας το Aspose.PDF για .NET.
+
+### [Μετατροπή σελίδας PDF σε PNG – Πλήρης οδηγός Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Μάθετε πώς να μετατρέψετε μια σελίδα PDF σε PNG χρησιμοποιώντας το Aspose.PDF για .NET με βήμα‑βήμα παραδείγματα κώδικα.
+
+### [Πώς να αποδώσετε σελίδες PDF ως PNG εικόνες – πλήρης οδηγός Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Μάθετε πώς να μετατρέπετε σελίδες PDF σε εικόνες PNG υψηλής ποιότητας χρησιμοποιώντας το Aspose.PDF .NET.
+
+### [Aspose PDF σε HTML: Πλήρης Οδηγός για τη Μετατροπή PDF και Αφαίρεση Εικόνων](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Μάθετε πώς να μετατρέψετε PDF σε HTML και να αφαιρέσετε τις εικόνες χρησιμοποιώντας το Aspose.PDF για .NET.
+
+### [Αποθήκευση PDF ως HTML με το Aspose.PDF – οδηγός βήμα προς βήμα](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε αρχεία PDF σε μορφή HTML χρησιμοποιώντας το Aspose.PDF με βήμα‑βήμα οδηγίες.
 
 ## Πρόσθετοι Πόροι
 
@@ -221,6 +238,16 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 - [Λήψη Aspose.PDF για το Διαδίκτυο](https://releases.aspose.com/pdf/net/)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+### [Αποθήκευση PDF ως HTML και μετατροπή σε PDF/X‑4 με το Aspose.PDF σε C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Μάθετε πώς να αποθηκεύσετε PDF ως HTML και να το μετατρέψετε σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF σε C#.
+### [πώς να αποθηκεύσετε HTML από PDF – Οδηγός βήμα προς βήμα](./how-to-save-html-from-pdf-step-by-step-guide/)
+Μάθετε πώς να εξάγετε HTML από αρχεία PDF με αναλυτικές οδηγίες βήμα προς βήμα.
+### [Πώς να αποθηκεύσετε PDF με το Aspose – Οδηγός βήμα προς βήμα](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε αρχεία PDF χρησιμοποιώντας το Aspose με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Μετατροπή PDF σε TIFF σε .NET χρησιμοποιώντας το Aspose.PDF: Οδηγός βήμα προς βήμα](./pdf-to-tiff-conversion-aspose-pdf-net/)
+Μάθετε πώς να μετατρέπετε έγγραφα PDF σε εικόνες TIFF χρησιμοποιώντας το Aspose.PDF για .NET. Κατακτήστε τα προσαρμοσμένα βάθη χρωμάτων και τις προηγμένες τεχνικές επεξεργασίας εικόνας.
+### [Αποθήκευση PDF ως PNG και μετατροπή σε PDF/X‑1a με το Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+Μάθετε πώς να αποθηκεύσετε ένα PDF ως PNG και στη συνέχεια να το μετατρέψετε σε συμβατό PDF/X‑1a χρησιμοποιώντας το Aspose PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

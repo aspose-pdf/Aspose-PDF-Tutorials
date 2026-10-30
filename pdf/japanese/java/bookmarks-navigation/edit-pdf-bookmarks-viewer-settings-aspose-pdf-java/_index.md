@@ -56,10 +56,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Java のシングルページビュー PDF – レイアウト変更とブックマーク編集
 
 ## はじめに
@@ -252,6 +252,8 @@ A: 構造変更後に現在のページインデックスを使用して宛先�
 - [Aspose.PDF Java 用 PDF ブックマークとナビゲーションのチュートリアル](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

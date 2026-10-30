@@ -24,7 +24,8 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 | [在欄位中新增工具提示](./add-tooltip-to-field/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 在 PDF 文件中的表單欄位中新增工具提示。提高可用性和使用者體驗。 |  
 | [阿拉伯文本填充](./arabic-text-filling/) |透過本逐步教學學習如何使用 Aspose.PDF for .NET 在 PDF 表單中填入阿拉伯文。增強您的 PDF 操作技能。 |  
 | [組合框](./combo-box/) |了解如何使用 Aspose.PDF for .NET 在 PDF 中新增組合框。按照我們的逐步指南輕鬆建立互動式 PDF 表單。 |  
-| [建立文檔](./create-doc/) |透過本全面的逐步指南，學習如何使用 Aspose.PDF for .NET 建立具有單選按鈕的互動式 PDF 文件。 |  
+| [建立文檔](./create-doc/) |透過本全面的逐步指南，學習使用 Aspose.PDF for .NET 建立具有單選按鈕的互動式 PDF 文件。 |  
+| [在 C# 中建立 PDF 表單欄位](./create-pdf-form-field-in-c-step-by-step-guide/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 C# 中建立 PDF 表單欄位。 |  
 | [刪除 PDF 文件中的表單字段](./delete-form-field/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 刪除 PDF 文件中的表單欄位。非常適合開發人員和 PDF 愛好者。 |  
 | [確定 PDF 表單中的必填字段](./determine-required-field/) |了解如何使用 Aspose.PDF for .NET 來確定 PDF 表單中的必填欄位。我們的逐步指南簡化了表單管理並增強了您的 PDF 自動化工作流程。 |  
 | [動態 XFA 到 Acro 表單](./dynamic-xfa-to-acro-form/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 將動態 XFA 表單轉換為標準 AcroForms。 |  
@@ -51,12 +52,15 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 | [設定單選按鈕標題](./set-radio-button-caption/) |了解如何使用 Aspose.PDF for .NET 在 PDF 中設定單選按鈕標題。本逐步指南將引導您載入、修改和儲存 PDF 表單。 |  
 | [文字方塊](./text-box/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 輕鬆地將文字方塊新增至 PDF。增強用戶互動。 |  
 | [在 PDF 表單中新增文字方塊 – 完整 C# 指南](./add-text-box-to-pdf-form-complete-c-guide/) |透過本完整 C# 教學，學習如何在 PDF 表單中新增文字方塊，提升表單互動性。 |  
+| [建立 PDF 文字方塊欄位 – 逐步指南](./create-pdf-textbox-field-step-by-step-guide/) |本逐步教學說明如何使用 Aspose.PDF for .NET 在 PDF 中建立文字方塊欄位，提升表單互動性。 |  
 | [如何使用 Aspose 建立 PDF – 新增表單欄位與頁面](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 建立 PDF，並新增表單欄位與頁面。 |  
 | [建立具有多個小部件的 PDF 文件 – 步驟說明指南](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) |本逐步指南說明如何使用 Aspose.PDF for .NET 在 PDF 中建立包含多個小部件的文件。 |  
 | [使用 C# 完整指南建立包含頁面與文字方塊欄位的 PDF](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) |本逐步教學說明如何使用 Aspose.PDF for .NET 以 C# 建立 PDF，並新增頁面與文字方塊欄位。 |  
 | [使用 Aspose 建立 PDF 文件 – 新增文字方塊欄位](./create-pdf-document-with-aspose-add-text-box-field/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中新增文字方塊欄位，提升表單互動性。 |  
 | [建立 PDF 文件（C#）– 多頁表單逐步指南](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) |本逐步指南說明如何使用 Aspose.PDF for .NET 以 C# 建立包含多頁表單的 PDF 文件。 |  
 | [使用 Aspose.Pdf 在 C# 中建立多頁表單 – 步驟指南](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 在 C# 中建立多頁 PDF 表單，提升表單功能與使用者體驗。 |
+| [使用 C# 將 FDF 匯入 PDF – 完整步驟指南](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) |本教學示範如何使用 Aspose.PDF for .NET 透過 C# 將 FDF 檔案匯入 PDF，完整步驟說明。 |  
+| [使用 Aspose.PDF 保存 PDF 文件 – 完整指南](./save-pdf-document-with-aspose-pdf-complete-guide/) |本完整指南說明如何使用 Aspose.PDF for .NET 將 PDF 文件儲存至檔案或串流。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -17,12 +17,15 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET का उपयोग करके तीन पृष्ठों वाला PDF/X‑3 दस्तावेज़ बनाएं" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Aspose.PDF for .NET के साथ PDF/X‑1 दस्तावेज़ कैसे बनाएं" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF पुस्तिकाएँ बनाएँ: एक चरण-दर-स्तर मार्गदर्शिका](./aspose-pdf-net-create-booklets-tutorial/)
 .NET के लिए Aspose.PDF के साथ पेशेवर PDF पुस्तिकाएँ बनाना सीखें। यह ट्यूटोरियल सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करता है।
 ### [Aspose.PDF .NET का उपयोग करके XML और XSLT से PDF बनाएं: एक चरण-दर-चरण मार्गदर्शिका](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके XSLT रूपांतरणों के साथ XML डेटा को PDF प्रारूप में कैसे परिवर्तित किया जाए। यह मार्गदर्शिका सेटअप, बाइंडिंग और अनुकूलन को कवर करती है।
 ### [Aspose.PDF का उपयोग करके .NET में व्यावसायिक PDF पुस्तिकाएँ बनाएँ: एक व्यापक मार्गदर्शिका](./create-professional-pdf-booklets-net-aspose-pdf/)
-हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके पेशेवर पीडीएफ पुस्तिकाओं के निर्माण को स्वचालित करने का तरीका जानें।
+हमारे चरण-दर-स्टेप मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके पेशेवर पीडीएफ पुस्तिकाओं के निर्माण को स्वचालित करने का तरीका जानें।
 ### [.NET के लिए Aspose.PDF का उपयोग करके व्यावसायिक PDF बनाएं: एक व्यापक मार्गदर्शिका](./create-professional-pdf-aspose-dotnet/)
 .NET के लिए Aspose.PDF का उपयोग करके सटीक लेआउट के साथ पेशेवर PDF दस्तावेज़ बनाना सीखें। पेज सेटअप, फ़्लोटिंग बॉक्स और क्रमांकित शीर्षकों के बारे में जानें।
 ### [.NET के लिए Aspose.PDF का उपयोग करके टेक्स्ट और छवियों के साथ व्यावसायिक PDF बनाएं](./create-pdfs-text-images-aspose-pdf-net/)
@@ -38,7 +41,7 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [Aspose.PDF .NET का उपयोग करके LaTeX के साथ PDF कैसे बनाएं: एक चरण-दर-चरण मार्गदर्शिका](./create-pdf-latex-aspose-dotnet-guide/)
 .NET के लिए Aspose.PDF का उपयोग करके LaTeX के साथ पेशेवर PDF दस्तावेज़ बनाने का तरीका जानें। यह मार्गदर्शिका सेटअप, कोड उदाहरण और व्यावहारिक अनुप्रयोगों को कवर करती है।
 ### [.NET के लिए Aspose.PDF का उपयोग करके व्यावसायिक पुस्तिकाएँ कैसे बनाएँ: एक चरण-दर-चरण मार्गदर्शिका](./creating-booklets-aspose-pdf-net-tutorial/)
-जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF को पेशेवर पुस्तिकाओं में कैसे परिवर्तित किया जाए। अपने .NET अनुप्रयोगों में दस्तावेज़ निर्माण को सरल बनाने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
+जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF को पेशेवर पुस्तिकाओं में कैसे परिवर्तित किया जाए। अपने .NET अनुप्रयोगों में दस्तावेज़ निर्माण को सरल बनाने के लिए इस चरण-दर-स्टेप मार्गदर्शिका का पालन करें।
 ### [C# में PDF बनाना – पृष्ठ जोड़ें, आयत बनाएं और सहेजें](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 C# कोड से नया PDF पृष्ठ जोड़ें, आयत बनाएं और फ़ाइल को सहेजें।
 
@@ -47,7 +50,7 @@ C# कोड से नया PDF पृष्ठ जोड़ें, आयत 
 ### [Aspose के साथ Java PDF निर्माण: .NET डेवलपर्स के लिए डायनामिक इमेज ओरिएंटेशन गाइड](./java-pdf-creation-aspose-dynamic-image-orientation-guide/)
 .NET के लिए Aspose.PDF का उपयोग करके जावा-आधारित पीडीएफ निर्माण को स्वचालित करने का तरीका जानें, आयामों के आधार पर छवि अभिविन्यास को गतिशील रूप से समायोजित करना।
 ### [पीडीएफ निर्माण और C# में रूपांतरण के लिए मास्टर Aspose.PDF .NET](./mastering-aspose-pdf-net-pd-creation-conversion/)
-जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF कैसे बनाएं और कन्वर्ट करें। यह गाइड सेटअप से लेकर वास्तविक दुनिया के अनुप्रयोगों तक सब कुछ कवर करता है, जो प्रदर्शन के लिए अनुकूलित है।
+जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF कैसे बनाएं और कनवर्ट करें। यह गाइड सेटअप से लेकर वास्तविक दुनिया के अनुप्रयोगों तक सब कुछ कवर करता है, जो प्रदर्शन के लिए अनुकूलित है।
 ### [.NET के लिए मास्टर Aspose.PDF: आसानी से PDF बनाएं और निकालें](./master-aspose-pdf-net-create-extract-pdfs/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों से सामग्री को सहजता से बनाने और निकालने का तरीका जानें। इस व्यापक गाइड के साथ अपने दस्तावेज़ प्रबंधन को बेहतर बनाएँ।
 ### [.NET के लिए Aspose.PDF के साथ PDF निर्माण और अनुकूलन में महारत हासिल करें | दस्तावेज़ स्वचालन गाइड](./create-customize-pdf-aspose-dotnet/)
@@ -62,6 +65,10 @@ PDF दस्तावेज़ बनाना, पृष्ठ जोड़न
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 ### [C# में PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आयत बनाएं और सहेजें](./create-pdf-document-c-add-page-draw-rectangle-save/)
 C# कोड का उपयोग करके PDF बनाएं, नया पृष्ठ जोड़ें, आयत आकृति बनाएं और फ़ाइल सहेजें।
+
+
+### [खाली पृष्ठ और आयत के साथ PDF दस्तावेज़ कैसे बनाएं](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+खाली पृष्ठ और आयत के साथ PDF दस्तावेज़ बनाने की प्रक्रिया सीखें।
 
 ### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आकार बनाएं और सहेजें](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF का उपयोग करके पृष्ठ, आकार जोड़कर PDF बनाना और सहेजना सीखें।
@@ -89,7 +96,6 @@ Aspose.PDF के साथ C# में PDF दस्तावेज़ बन�
 ### [C# में PDF दस्तावेज़ बनाएं – PDF में पृष्ठ जोड़ें और आयत बनाएं](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
 C# और Aspose.PDF का उपयोग करके PDF में नया पृष्ठ जोड़ना और आयत आकृति बनाना सीखें।
 
-
 ### [C# में PDF दस्तावेज़ बनाएं – इन‑मेरी जनरेशन के लिए पूर्ण गाइड](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 C# में मेमोरी में PDF बनाना, कोड उदाहरण और चरण‑दर‑स्टेप निर्देश।
 
@@ -101,6 +107,17 @@ Aspose.PDF का उपयोग करके HEIC फ़ॉर्मेट क
 
 ### [C# में OpenAI क्लाइंट बनाना और PDF सारांश उत्पन्न करना](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 C# में OpenAI क्लाइंट सेटअप करके PDF सारांश कैसे बनाएं, इस चरण‑दर‑स्टेप मार्गदर्शिका में सीखें।
+
+### [Aspose.Pdf के साथ PDF दस्तावेज़ बनाएं – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने की पूरी प्रक्रिया, सेटअप से कोड उदाहरण तक, सीखें।
+
+### [C# में बेत्स नंबरिंग के साथ नया PDF दस्तावेज़ बनाएं](./create-new-pdf-document-with-bates-numbering-in-c/)
+
+### [C# में PDF/X‑4 दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-x-4-document-c-step-by-step-guide/)
+### [C# के साथ Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाएं](./create-pdf-document-in-c-with-aspose-pdf/)
+C# में Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने का चरण‑दर‑चरण मार्गदर्शन।
+### [पैराग्राफ PDF बनाएं Aspose: ग्राफ़िक्स जोड़ें और पृष्ठ सम्मिलित करें](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Aspose के साथ पैराग्राफ PDF बनाएं, ग्राफ़िक्स जोड़ें और नया पृष्ठ सम्मिलित करें।
 
 ## अतिरिक्त संसाधन
 

@@ -73,6 +73,15 @@ Leer hoe u met Aspose.Pdf OCR op PDF-bestanden uitvoert in C#, inclusief voorbee
 ### [Elke PDF-laag opslaan met Aspose.Pdf – Stapsgewijze handleiding](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
 Leer hoe u elke laag van een PDF afzonderlijk opslaat met Aspose.Pdf in een stapsgewijze .NET‑handleiding.
 
+### [PDF-documenten vergelijken met Aspose.Pdf – Complete visuele diff-gids](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Leer hoe u PDF-documenten visueel kunt vergelijken en verschillen (diff) kunt genereren met Aspose.Pdf.
+
+### [Twee PDF-documenten vergelijken – Complete C#-gids](./compare-two-pdf-documents-complete-c-guide/)
+Leer hoe u twee PDF-documenten vergelijkt en verschillen genereert met Aspose.PDF voor .NET in C#.
+
+### [Transparantie toevoegen aan PDF met Aspose.Pdf – Complete .NET-gids](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Leer hoe u transparantie toepast op PDF‑elementen met Aspose.PDF voor .NET, inclusief codevoorbeelden en stapsgewijze instructies.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

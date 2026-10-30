@@ -18,6 +18,9 @@
 ## البرامج التعليمية المتاحة
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="إنشاء مستند PDF/X‑3 بثلاث صفحات باستخدام Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+### [كيفية إنشاء مستند PDF/X‑1 باستخدام Aspose.PDF لـ .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
 ### [إنشاء كتيبات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./aspose-pdf-net-create-booklets-tutorial/)
 تعلّم كيفية إنشاء كتيبات PDF احترافية باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي الإعداد والتنفيذ والتطبيقات العملية.
 ### [إنشاء ملفات PDF من XML وXSLT باستخدام Aspose.PDF .NET: دليل خطوة بخطوة](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -67,8 +70,10 @@
 
 ### [إنشاء مستند PDF باستخدام Aspose.PDF – إضافة صفحة وشكل وحفظ](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 تعلم كيفية إنشاء مستند PDF وإضافة صفحات وأشكال وحفظه باستخدام Aspose.PDF في .NET.
+
 ### [إنشاء مستند PDF باستخدام Aspose في C# – دليل خطوة بخطوة](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 تعلّم كيفية إنشاء مستند PDF باستخدام Aspose في لغة C# خطوة بخطوة.
+
 ### [إنشاء مستند PDF بلغة C# – إضافة صفحة فارغة ورسم مستطيل](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 تعلم كيفية إضافة صفحة فارغة إلى مستند PDF ورسم مستطيل باستخدام Aspose.PDF لـ .NET.
 ### [إنشاء مستند PDF في C# – إضافة صفحة فارغة، وسوم، و Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
@@ -99,6 +104,18 @@
 ### [إنشاء صورة PDF من HEIC – دليل كامل بلغة C#](./create-pdf-image-from-heic-complete-c-guide/)
 تعلم كيفية تحويل ملفات HEIC إلى صور PDF باستخدام Aspose.PDF في C# خطوة بخطوة.
 
+### [إنشاء مستند PDF باستخدام Aspose.Pdf – دليل كامل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+دليل شامل يوضح كيفية إنشاء مستند PDF كامل خطوة بخطوة باستخدام Aspose.PDF في .NET.
+
+### [إنشاء مستند PDF جديد مع ترقيم Bates في C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+تعلم كيفية إنشاء مستند PDF جديد مع ترقيم Bates باستخدام C# و Aspose.PDF.
+
+### [إنشاء مستند PDF/X‑4 باستخدام C# – دليل خطوة بخطوة](./create-pdf-x-4-document-c-step-by-step-guide/)
+تعرّف على كيفية إنشاء مستند PDF/X‑4 باستخدام C# و Aspose.PDF خطوة بخطوة.
+### [كيفية إنشاء مستند PDF مع صفحة فارغة ومستطيل](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+### [إنشاء مستند PDF بلغة C# باستخدام Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
+تعلم كيفية إنشاء مستند PDF باستخدام لغة C# ومكتبة Aspose.Pdf خطوة بخطوة.
+### [إنشاء فقرة PDF باستخدام Aspose: إضافة رسومات وإدراج صفحة](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 ### [كيفية إنشاء عميل OpenAI وتوليد ملخص PDF باستخدام C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 تعلم كيفية إنشاء عميل OpenAI في C# وتوليد ملخص PDF تلقائيًا باستخدام Aspose.PDF.
 

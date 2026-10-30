@@ -19,6 +19,19 @@
 تتضمن الدروس التعليمية تعليمات خطوة بخطوة، وأمثلة برمجية مفصلة، وشروحات واضحة لتسهيل الفهم. سواءً كنت مبتدئًا أو مطورًا خبيرًا، ستساعدك هذه الموارد على إتقان ميزات معالجة صفحات PDF التي يوفرها Aspose.PDF لـ .NET، مما يفتح آفاقًا جديدة لمشاريع تطوير تطبيقاتك.
 
 ## دروس تعليمية
+
+{{< tutorial-card link="./rotate-pdf-page/" title="تدوير صفحة PDF واحدة بزاوية 180 درجة باستخدام Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="تقسيم PDF بعد الصفحة العاشرة باستخدام Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="تدوير كل صفحة PDF بمقدار 180° باستخدام Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="قارن صفحات PDF صفحة بصفحة باستخدام Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="قارن ملفات PDF ذات أحجام صفحات مختلفة باستخدام Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | العنوان | الوصف |
 | --- | --- | 
 | [تغيير التوجه](./change-orientation/) دليل خطوة بخطوة لتغيير اتجاه صفحات ملف PDF باستخدام Aspose.PDF لـ .NET. سهل المتابعة والتنفيذ في مشاريعك.  
@@ -28,24 +41,31 @@
 | [ملائمة محتويات الصفحة في ملف PDF](./fit-page-contents/) رتّب محتويات ملفات PDF الخاصة بك بسهولة باستخدام Aspose.PDF لـ .NET. يقدم هذا الدليل نهجًا مفصلاً خطوة بخطوة لتحقيق تخطيط مثالي للصفحات.  
 | [احصل على أبعاد صفحة PDF](./get-dimensions/) في هذا البرنامج التعليمي، نشرح كيفية الحصول على أبعاد صفحات PDF وإجراء التعديلات عليها باستخدام Aspose.PDF لـ .NET. تتوفر خطوات مفصلة لإرشادك خلال العملية.  
 | [احصل على عدد الصفحات في ملف PDF](./get-number-of-pages/) دليل خطوة بخطوة لمعرفة عدد صفحات ملف PDF باستخدام Aspose.PDF لـ .NET. سهل الاستخدام، مثالي لمشاريعك.  
-| [الحصول على عدد الصفحات في ملف PDF](./get-page-count/) | تعرّف على كيفية الحصول على عدد صفحات ملف PDF باستخدام Aspose.PDF لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على حل بسيط وفعال. |  
-| [الحصول على صفحة معينة](./get-particular-page/) |تعرف على كيفية استخراج صفحة معينة من ملف PDF وحفظها كمستند جديد باستخدام Aspose.PDF لـ .NET في هذا الدليل خطوة بخطوة. |  
-| [الحصول على خصائص PDF](./get-properties/) | تعلّم كيفية استخراج خصائص PDF بكفاءة باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية وأفضل الممارسات. |  
+| [الحصول على عدد الصفحات في ملف PDF](./get-page-count/) | تعرّف على كيفية الحصول على عدد صفحات ملف PDF باستخدام Aspose.PDF لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على حل بسيط وفعال. |
+| [الحصول على صفحة معينة](./get-particular-page/) |تعرف على كيفية استخراج صفحة معينة من ملف PDF وحفظها كمستند جديد باستخدام Aspose.PDF لـ .NET في هذا الدليل خطوة بخطوة. |
+| [الحصول على خصائص PDF](./get-properties/) | تعلّم كيفية استخراج خصائص PDF بكفاءة باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية وأفضل الممارسات. |
 | [تعيين الصورة كخلفية للصفحة في ملف PDF](./image-as-background/) تعلّم كيفية تعيين صورة كخلفية لصفحة في ملف PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. أنشئ مستندات احترافية وجذابة بصريًا.  
-| [إدراج صفحة فارغة في ملف PDF](./insert-empty-page/) | تعلّم كيفية إدراج صفحة فارغة في مستند PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية للتعامل بسلاسة مع ملفات PDF. |  
+| [إدراج صفحة فارغة في ملف PDF](./insert-empty-page/) | تعلّم كيفية إدراج صفحة فارغة في مستند PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية للتعامل بسلاسة مع ملفات PDF. |
 | [إدراج صفحة فارغة في النهاية](./insert-empty-page-at-end/) تعلم كيفية إدراج صفحة فارغة في مستند PDF بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل المبسط للمبتدئين. مثالي للتحرير السريع.  
+| [إضافة صفحة فارغة إلى PDF باستخدام Aspose.PDF – دليل كامل](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) دليل شامل يوضح كيفية إضافة صفحة فارغة إلى مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
 | [تقسيم إلى صفحات](./split-to-pages/) قسّم ملفات PDF بسهولة إلى صفحات منفصلة باستخدام Aspose.PDF لـ .NET مع هذا البرنامج التعليمي الشامل. يتضمن دليلًا خطوة بخطوة.  
-| [تحديث أبعاد صفحة PDF](./update-dimensions/) |اكتشف كيفية تحديث أبعاد صفحات PDF بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل خطوة بخطوة. |  
+| [تحديث أبعاد صفحة PDF](./update-dimensions/) |اكتشف كيفية تحديث أبعاد صفحات PDF بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل خطوة بخطوة. |
 | [تكبير محتويات الصفحة في ملف PDF](./zoom-to-page-contents/) تعرّف على كيفية تكبير محتوى صفحات ملفات PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل. حسّن مستندات PDF الخاصة بك وفقًا لاحتياجاتك الخاصة.  
 | [إضافة أرقام الصفحات إلى PDF باستخدام C# – دليل كامل خطوة بخطوة](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | دليل خطوة بخطوة لإضافة أرقام الصفحات إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET. |  
 | [إنشاء مستند PDF C# – إضافة ترقيم Bates](./create-pdf-document-c-add-bates-numbering/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى مستند PDF باستخدام Aspose.PDF لـ .NET و C#. |
 | [إضافة ترقيم Bates إلى PDF – دليل خطوة بخطوة لترقيم صفحات PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | دليل شامل يوضح كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [إنشاء مستند PDF C# – دليل إضافة الأشكال والصفحات الفارغة](./create-pdf-document-c-add-shapes-blank-pages-guide/) |دليل خطوة بخطوة لإنشاء مستند PDF وإضافة أشكال وصفحات فارغة باستخدام Aspose.PDF لـ .NET. |
 | [إضافة ترقيم Bates إلى PDF باستخدام Aspose – دليل كامل](./add-bates-numbering-pdf-with-aspose-complete-guide/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. |
-| [إضافة ترقيم Bates في C# – دليل خطوة بخطوة](./add-bates-numbering-in-c-step-by-step-guide/) دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET.  
+| [إضافة ترقيم Bates في C# – دليل خطوة بخطوة](./add-bates-numbering-in-c-step-by-step-guide/) دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET. |
+| [كيفية إضافة ترقيم Bates إلى ملف PDF باستخدام Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملف PDF باستخدام Aspose.PDF لـ .NET. |
 | [إضافة صفحات إلى PDF – دليل خطوة بخطوة لمطوري C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | دليل خطوة بخطوة لإضافة صفحات إلى ملفات PDF باستخدام Aspose.PDF لـ .NET ومطوري C#. |
 | [إعادة ترتيب صفحات PDF في C# – دليل شامل خطوة بخطوة](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | دليل خطوة بخطوة لإعادة ترتيب صفحات PDF باستخدام C# و Aspose.PDF لـ .NET. |
 | [إعادة ترتيب صفحات PDF باستخدام Aspose.Pdf – دليل كامل C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | دليل خطوة بخطوة لإعادة ترتيب صفحات PDF باستخدام Aspose.PDF لـ .NET مع أمثلة C# واضحة. |  
+| [إضافة ترقيم بايتس إلى ملفات PDF باستخدام C# – دليل كامل](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | دليل خطوة بخطوة لإضافة ترقيم بايتس إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET. |  
+| [تكرار صفحة PDF باستخدام Aspose.Pdf – دليل كامل](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | دليل خطوة بخطوة لتكرار صفحة في ملف PDF باستخدام Aspose.PDF لـ .NET. |  
+| [إضافة ترقيم بايتس إلى PDF باستخدام Aspose.PDF – دليل كامل](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | دليل خطوة بخطوة لإضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. |  
+| [تغيير شفافية PDF في C# باستخدام Aspose.PDF – دليل خطوة بخطوة](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) دليل خطوة بخطوة لتغيير شفافية ملفات PDF باستخدام Aspose.PDF لـ .NET في C#. |
+| [إضافة ترقيم Bates إلى PDF باستخدام Aspose – دليل خطوة بخطوة](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -53,7 +73,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -68,7 +87,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -84,6 +102,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

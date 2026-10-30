@@ -18,6 +18,10 @@
 ## 可用教程
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="使用 Aspose.Pdf for .NET 创建带有三页的 PDF/X‑3 文档" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="使用 Aspose.PDF for .NET 创建 PDF/X‑1 文档" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
+
 ### [使用 Aspose.PDF for .NET 创建 PDF 小册子：分步指南](./aspose-pdf-net-create-booklets-tutorial/)
 学习如何使用 Aspose.PDF for .NET 创建专业的 PDF 小册子。本教程涵盖设置、实施和实际应用。
 ### [使用 Aspose.PDF .NET 从 XML 和 XSLT 创建 PDF：分步指南](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -102,6 +106,18 @@ Aspose.PDF Net 代码教程
 ### [从 HEIC 创建 PDF 图像 – 完整 C# 指南](./create-pdf-image-from-heic-complete-c-guide/)
 学习如何使用 Aspose.PDF for .NET 将 HEIC 图像转换为 PDF，并在 C# 中实现完整的创建流程。
 
+### [使用 Aspose.Pdf 创建 PDF 文档 – 完整分步指南](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+学习如何使用 Aspose.Pdf 在 .NET 中完整创建 PDF 文档，涵盖从初始化到保存的每一步。
+
+### [使用 C# 创建带 Bates 编号的 PDF 文档](./create-new-pdf-document-with-bates-numbering-in-c/)
+
+### [使用 Aspose.PDF for .NET 在 C# 中创建 PDF/X‑4 文档：分步指南](./create-pdf-x-4-document-c-step-by-step-guide/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/X‑4 标准的 PDF 文档，涵盖设置、属性配置和保存步骤。
+### [如何创建带空白页和矩形的 PDF 文档](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+学习在 C# 中使用 Aspose.PDF for .NET 添加空白页并绘制矩形到 PDF 文档。
+### [使用 Aspose.PDF 在 C# 中创建 PDF 文档](./create-pdf-document-in-c-with-aspose-pdf/)
+使用 Aspose.PDF 在 C# 中创建 PDF 文档的完整指南。
+### [创建段落 PDF（Aspose）：添加图形并插入页面](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 ### [如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 学习如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要。
 
