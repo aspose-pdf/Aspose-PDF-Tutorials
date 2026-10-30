@@ -30,7 +30,7 @@ tags:
 - C#
 - PDF manipulation
 - Graphics state
-title: How to edit PDF page resources using Aspose.PDF in C#
+title: Edit PDF page resources with Aspose.PDF for .NET in C#
 url: /net/programming-with-pdf-pages/how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/
 ---
 
@@ -257,15 +257,14 @@ Run the program:
 
 ```bash
 
-
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Edit PDF Resource Dictionary with Aspose.PDF – C# Guide](/pdf/english/net/programming-with-operators/edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/)
-- [Add graphics state pdf with Aspose.Pdf – step‑by‑step guide](/pdf/english/net/images-graphics/add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
-- [Save Updated PDF – Edit PDF Resources with Aspose.Pdf](/pdf/english/net/document-manipulation/save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+- [Edit PDF Resource Dictionary with Aspose.PDF – C# Guide]({{< relref "../programming-with-operators/edit-pdf-resource-dictionary-with-aspose-pdf-c-guide.md" >}})
+- [Add graphics state pdf with Aspose.Pdf – step‑by‑step guide]({{< relref "../images-graphics/add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide.md" >}})
+- [Save Updated PDF – Edit PDF Resources with Aspose.Pdf]({{< relref "../document-manipulation/save-updated-pdf-edit-pdf-resources-with-aspose-pdf.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
