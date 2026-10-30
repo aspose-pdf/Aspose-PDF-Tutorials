@@ -52,11 +52,11 @@ Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Cod
 | [Auf Seiteninhalte in PDF-Dateien zoomen](./zoom-to-page-contents/) | Erfahren Sie in dieser umfassenden Anleitung, wie Sie mit Aspose.PDF für .NET Seiteninhalte in PDF-Dateien vergrößern. Optimieren Sie Ihre PDF-Dokumente nach Ihren individuellen Anforderungen. |
 | [Seiten zu PDF hinzufügen – Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seiten zu einer PDF-Datei hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler. |
 | [Seitenzahlen zu PDF hinzufügen mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seitenzahlen zu PDFs hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
-| [PDF-Seiten neu anordnen in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Seiten in C# neu anordnen – vollständige Schritt‑für‑Schritt‑Anleitung. |
+| [PDF-Seiten neu anordnen in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Seiten in C# neu anordnen – vollständige Schritt‑für‑Schritt‑Anleitung. |
 | [Bates-Nummerierung in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-bates-numbering-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Bates‑Nummerierung in PDFs in C# hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [PDF-Dokument erstellen C# – Bates-Nummerierung hinzufügen](./create-pdf-document-c-add-bates-numbering/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# eine Bates‑Nummerierung zu einem PDF‑Dokument hinzufügen. |
 | [Bates-Nummerierung zu PDF hinzufügen – Schritt‑für‑Schritt‑Anleitung zum Nummerieren von PDF‑Seiten](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates‑Nummerierung zu PDF‑Dokumenten hinzufügen – komplette Schritt‑für‑Schritt‑Anleitung. |
-| [PDF-Dokument erstellen C# – Anleitung zum Hinzufügen von Formen und leeren Seiten](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen und Formen sowie leere Seiten hinzufügen. |
+| [PDF-Dokument erstellen C# – Anleitung zum Hinzufügen von Formen und leeren Seiten](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF‑Dokument in C# erstellen und Formen sowie leere Seiten hinzufügen. |
 | [Bates‑Nummerierung zu PDF hinzufügen mit Aspose – Vollständige Anleitung](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates‑Nummerierung zu PDFs hinzufügen – Schritt‑für‑Schritt‑Anleitung. |
 | [PDF-Seiten neu anordnen mit Aspose.Pdf – Vollständige C#‑Anleitung](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Seiten neu anordnen – vollständige Schritt‑für‑Schritt‑Anleitung in C#. |
 | [Bates-Nummerierung zu PDFs mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDFs hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
@@ -65,6 +65,7 @@ Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Cod
 | [Leere Seite zu PDF hinzufügen – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere Seite zu einer PDF-Datei hinzufügen – vollständige Schritt‑für‑Schritt‑Anleitung. |
 | [PDF-Opazität in C# mit Aspose.Pdf ändern – Schritt‑für‑Schritt‑Anleitung](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Transparenz von PDF‑Inhalten in C# anpassen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [Bates‑Nummerierung zu PDF hinzufügen mit Aspose – Schritt‑für‑Schritt‑Anleitung](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates‑Nummerierung zu PDFs hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [Bates‑Nummerierung zu PDF hinzufügen mit Aspose.Pdf – Schritt‑für‑Schritt‑Anleitung](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Bates‑Nummerierung zu einem PDF hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,7 +73,6 @@ Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Cod
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -87,7 +87,6 @@ Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Cod
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -95,14 +94,12 @@ Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Cod
 {{< blocks/products/pf/tutorial-page-section >}}
 
 | [Seiten zu PDF hinzufügen mit Aspose – Vollständiger C#‑Leitfaden](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Schritt‑für‑Schritt‑Anleitung zum Hinzufügen von Seiten zu einer PDF‑Datei mit Aspose.PDF für .NET in C#. |  
-| [Leere PDF-Seite erstellen – Vollständiges PDF-Zeichnungstutorial](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere PDF-Seite erstellen und vollständig zeichnen können – Schritt-für-Schritt-Anleitung. |  
-| [PDF-Dokument in C# erstellen – Seite zu PDF hinzufügen & Rechteck](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen, eine Seite hinzufügen und ein Rechteck zeichnen. |
+| [Leere PDF-Seite erstellen – Vollständiges PDF-Zeichnungstutorial](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere PDF-Seite erstellen und vollständig zeichnen können – Schritt‑für‑Schritt‑Anleitung. |  
+| [PDF-Dokument in C# erstellen – Seite zu PDF hinzufügen & Rechteck](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF‑Dokument in C# erstellen, eine Seite hinzufügen und ein Rechteck zeichnen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

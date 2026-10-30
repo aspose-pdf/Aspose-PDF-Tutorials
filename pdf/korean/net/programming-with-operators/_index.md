@@ -31,6 +31,8 @@ Aspose.PDF for .NET의 "연산자를 사용한 프로그래밍" 튜토리얼은 
 | [Aspose.PDF를 사용하여 PDF 리소스 사전 편집 – C# 가이드](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Aspose.PDF for .NET을 이용해 PDF 리소스 사전을 편집하고 맞춤형 PDF를 만드는 방법을 단계별로 안내합니다. |  
 | [Aspose.Pdf를 사용하여 C#에서 빈 PDF 사전 만들기](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Aspose.PDF for .NET을 이용해 C#에서 빈 PDF 사전을 생성하는 방법을 단계별로 안내합니다. |  
 | [C#로 PDF에서 빈 그래픽 상태 만들기](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Aspose.PDF for .NET을 사용하여 C#에서 빈 그래픽 상태를 생성하는 방법을 단계별로 안내합니다. |  
+| [C#에서 Aspose.Pdf를 사용하여 PDF 투명도 변경하기](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Aspose.PDF for .NET을 이용해 PDF의 투명도를 조정하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose.PDF로 PDF 투명도 변경하기](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 객체의 투명도를 조정하는 단계별 가이드입니다. |
 | [C#에서 Aspose.PDF를 사용하여 그래픽 상태 PDF 추가하기](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Aspose.PDF for .NET을 사용하여 C#에서 그래픽 상태를 PDF에 추가하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

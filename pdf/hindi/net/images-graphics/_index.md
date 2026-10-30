@@ -52,6 +52,8 @@ C# का उपयोग करके Aspose.PDF के साथ PDF में
 ### [.NET के लिए Aspose.PDF का उपयोग करके C# के साथ PDF में आयत जोड़ें: एक चरण-दर-स्टेप मार्गदर्शिका](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 C# कोड का उपयोग करके PDF दस्तावेज़ में आयत बनाना और भरना सीखें। यह गाइड चरण‑बद्ध निर्देश प्रदान करता है।
 
+### [C# में Aspose.PDF के साथ PDF में आयत कैसे जोड़ें](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+
 ### [.NET में Aspose.PDF के साथ कस्टम पीडीएफ स्टैम्प बनाएं](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
@@ -204,6 +206,8 @@ Aspose.PDF का उपयोग करके PDF में कस्टम Ext
 ### [.NET के लिए Aspose.PDF के साथ PDF अपारदर्शिता सेट करें – संपूर्ण गाइड](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 ### [C# के साथ Aspose.PDF का उपयोग करके PDF में आयत कैसे जोड़ें](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 C# में Aspose.PDF का उपयोग करके PDF दस्तावेज़ में आयत जोड़ने की चरण‑दर‑स्टेप गाइड।
+
+### [.NET के लिए Aspose.PDF का उपयोग करके ग्राफ़िक्स स्टेट PDF जोड़ें: एक चरण-दर-स्टेप मार्गदर्शिका](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 
 ## अतिरिक्त संसाधन
 

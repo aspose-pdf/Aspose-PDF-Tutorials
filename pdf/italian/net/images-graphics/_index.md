@@ -46,6 +46,8 @@ Scopri come inserire rettangoli nei PDF, impostare dimensioni, colore e posizion
 ### [Aggiungere un rettangolo a PDF con C# – guida passo passo](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Scopri come aggiungere un rettangolo a un documento PDF utilizzando C# e Aspose.PDF per .NET con questa guida dettagliata.
 
+### [Come aggiungere un rettangolo a PDF con Aspose.PDF in C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Scopri come inserire rettangoli nei PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo.
 ### [Come aggiungere un rettangolo a PDF in C# con Aspose.PDF](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 Scopri come inserire un rettangolo in un PDF usando C# e Aspose.PDF con esempi di codice passo passo.
 
@@ -213,6 +215,8 @@ Scopri come utilizzare ExtGState per gestire trasparenza ed effetti grafici nei 
 Scopri come creare e applicare uno stato grafico ExtGState personalizzato nei PDF usando Aspose.PDF per .NET.
 ### [Impostare l'opacità PDF in C# con Aspose.PDF – guida completa](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Scopri come impostare l'opacità dei PDF usando Aspose.PDF per .NET in C#, con esempi pratici e consigli di ottimizzazione.
+### [Aggiungere lo stato grafico PDF con Aspose.PDF in C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Scopri come gestire lo stato grafico nei PDF usando Aspose.PDF per .NET con C#.
 
 ## Risorse aggiuntive
 

@@ -78,6 +78,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [PDF-signaturhandledning: validera en digital PDF-signatur med Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Lär dig hur du validerar en digital PDF-signatur med Aspose.PDF i C# – steg-för-steg-guide. |
 | [Skapa signaturalternativ i C# – komplett guide till digital signering](./create-signature-options-in-c-full-guide-to-digital-signing/) | Lär dig hur du skapar signaturalternativ och signerar PDF-dokument digitalt med Aspose.PDF för .NET. |
 
+| [Hur man validerar PDF-signaturer med Aspose.PDF i C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Lär dig hur du validerar PDF‑signaturer med Aspose.PDF i C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -105,7 +106,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-| [Verifiera PDF digital signatur i C# – Komplett guide](./verify-pdf-digital-signature-in-c-complete-guide/) | Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. En steg-för-steg-guide. |  
+| [Verifiera PDF digital signatur i C# – Komplett guide](./verify-pdf-digital-signature-in-c-complete-guide/) | Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. En steg‑för‑steg‑guide. |  
 | [Validera signaturer i PDF med Aspose – C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Lär dig hur du validerar digitala signaturer i PDF-dokument med Aspose.PDF för .NET i C#. |  
 | [Verifiera PDF-signatur i C# – Komplett programmeringsguide](./verify-pdf-signature-in-c-complete-programming-guide/) | Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide. |
 | [Hur man reparerar PDF-filer – Komplett C#-guide med Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Lär dig steg för steg hur du reparerar skadade PDF-filer med Aspose.PDF i C#. |

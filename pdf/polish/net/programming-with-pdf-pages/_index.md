@@ -65,6 +65,7 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Dodaj pustą stronę PDF przy użyciu Aspose.PDF – Kompletny przewodnik](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Krok po kroku pokażemy, jak dodać pustą stronę do pliku PDF przy użyciu Aspose.PDF dla .NET. |
 | [Zmień krycie PDF w C# – przewodnik krok po kroku](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Krok po kroku pokażemy, jak zmienić krycie (przezroczystość) w pliku PDF przy użyciu Aspose.PDF w C#. |
 | [Dodaj numerację Bates w pliku PDF przy użyciu Aspose – przewodnik krok po kroku](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numerację Bates do pliku PDF przy użyciu Aspose.PDF dla .NET. |
+| [Jak dodać numerację Batesa do pliku PDF przy użyciu Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Krok po kroku pokażemy, jak dodać numerację Batesa do pliku PDF przy użyciu Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,7 +73,6 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -87,7 +87,6 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -103,6 +102,4 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

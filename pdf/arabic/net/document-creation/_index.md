@@ -115,6 +115,9 @@
 ### [كيفية إنشاء مستند PDF مع صفحة فارغة ومستطيل](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 ### [إنشاء مستند PDF بلغة C# باستخدام Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
 تعلم كيفية إنشاء مستند PDF باستخدام لغة C# ومكتبة Aspose.Pdf خطوة بخطوة.
+### [إنشاء فقرة PDF باستخدام Aspose: إضافة رسومات وإدراج صفحة](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+### [كيفية إنشاء عميل OpenAI وتوليد ملخص PDF باستخدام C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+تعلم كيفية إنشاء عميل OpenAI في C# وتوليد ملخص PDF تلقائيًا باستخدام Aspose.PDF.
 ### [كيفية تهيئة عميل OpenAI وتلخيص PDF باستخدام الذكاء الاصطناعي](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## موارد إضافية

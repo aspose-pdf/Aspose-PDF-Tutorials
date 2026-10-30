@@ -26,6 +26,8 @@ Tìm hiểu cách thêm hình ảnh vào tài liệu PDF bằng Aspose.PDF cho .
 ### [Thêm văn bản với Gradient Shading trong Aspose.PDF cho .NET: Hướng dẫn từng bước](./add-text-gradient-shading-aspose-pdf-net/)
 Tìm hiểu cách thêm văn bản đổ bóng gradient vào PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn này để tăng tính thẩm mỹ và khả năng đọc của tài liệu.
 
+### [Thêm trạng thái đồ họa vào PDF với Aspose.PDF trong C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+
 ### [Chuyển đổi hình ảnh sang PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./convert-images-pdf-aspose-net-guide/)
 Tìm hiểu cách chuyển đổi hình ảnh thành một tệp PDF duy nhất bằng Aspose.PDF cho .NET trong C#. Hướng dẫn này cung cấp hướng dẫn từng bước, mẹo và các biện pháp thực hành tốt nhất.
 
@@ -131,6 +133,8 @@ Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách tạo h
 ### [Cách Vẽ Hình Chữ Nhật trong PDF bằng C# – Hướng Dẫn Từng Bước](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Tìm hiểu cách vẽ hình chữ nhật trong tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
 
+### [Cách thêm hình chữ nhật vào PDF bằng Aspose.PDF trong C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Hướng dẫn chi tiết cách vẽ và chèn hình chữ nhật vào tài liệu PDF bằng Aspose.PDF trong C#.
 ### [Cách thêm hình chữ nhật vào PDF bằng C# và Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 Hướng dẫn chi tiết cách chèn hình chữ nhật vào tệp PDF bằng C# và Aspose.Pdf.
 

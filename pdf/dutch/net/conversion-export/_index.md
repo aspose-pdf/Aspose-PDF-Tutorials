@@ -105,8 +105,10 @@ Leer hoe u PDF-documenten kunt converteren naar PNG-afbeeldingen van hoge kwalit
 
 ### [PDF opslaan als PNG en converteren naar PDF/X‑1a met Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Leer hoe u een PDF opslaat als PNG en vervolgens converteert naar PDF/X‑1a met Aspose.PDF in .NET.
+
 ### [Hoe PDF naar PNG te renderen in C# – Complete gids](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Leer stap voor stap hoe u PDF-bestanden rendert naar PNG-afbeeldingen met C# en Aspose.PDF.
+
 ### [Hoe PDF naar PNG renderen met Aspose – Complete gids](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 Leer hoe u PDF-bestanden naar PNG-afbeeldingen rendert met Aspose, inclusief codevoorbeelden en optimalisatietips.
 
@@ -261,11 +263,12 @@ Leer hoe u PDF's opslaat als HTML met Aspose in C#, inclusief stap‑voor‑stap
 Leer hoe u PDF's opslaat als HTML met C# en Aspose.PDF, inclusief stap‑voor‑stap codevoorbeelden.
 
 ### [PDF naar HTML converteren in C# – Snelle gids met Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
-Leer hoe u PDF's snel naar HTML converteert in C# met Aspose.Pdf, inclusief voorbeeldcode en stapsgewijze instructies.
 ### [Aspose PDF naar HTML: Complete gids voor het converteren van PDF's en verwijderen van afbeeldingen](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Leer hoe u PDF's converteert naar HTML en daarbij alle afbeeldingen uit het resultaat verwijdert met Aspose.PDF voor .NET.
 ### [Hoe u afbeeldingsexport in PDF naar HTML overslaat – Complete C#‑gids](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
 Leer hoe u met Aspose.PDF voor .NET de export van afbeeldingen uitschakelt bij conversie van PDF naar HTML in C#.
+### [PDF naar HTML converteren in C# – volledige programmeergids](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Leer stap voor stap hoe u PDF-bestanden naar HTML converteert met C# en Aspose.PDF, inclusief volledige codevoorbeelden.
 
 ### [PDF naar HTML converteren en PDF-handtekening verifiëren – volledige Aspose .NET-gids](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Leer hoe u PDF's naar HTML converteert en de digitale handtekening controleert met Aspose.PDF voor .NET.
@@ -277,6 +280,9 @@ Leer hoe u PDF-documenten naar TIFF-afbeeldingen converteert met Aspose.PDF voor
 
 ### [PDF converteren naar PDF/X-1a, pagina exporteren als PNG en tekststempel toevoegen](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Leer hoe u een PDF naar PDF/X-1a converteert, een pagina exporteert als PNG en een tekststempel toevoegt met Aspose.PDF voor .NET.
+
+### [Hoe PDF naar PDFX converteren in C# – stapsgewijze gids](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+Leer hoe u PDF-bestanden converteert naar PDF/X-1a-formaat met Aspose.PDF voor .NET in C#, stap voor stap met voorbeeldcode.
 
 ### [Hoe PDF opslaan met Aspose – Stapsgewijze handleiding](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Leer hoe u PDF-bestanden opslaat met Aspose in .NET met een duidelijke stap‑voor‑stap uitleg en voorbeeldcode.

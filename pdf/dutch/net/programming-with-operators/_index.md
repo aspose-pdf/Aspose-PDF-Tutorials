@@ -31,6 +31,8 @@ De tutorials "Programmeren met operatoren" van Aspose.PDF voor .NET begeleiden u
 | [PDF Resource Dictionary bewerken met Aspose.PDF – C#-gids](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Leer hoe u de resource dictionary van een PDF bewerkt met Aspose.PDF in C#. |  
 | [Lege PDF-dictionary maken in C# met Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Leer hoe u een lege PDF-dictionary maakt met Aspose.Pdf in C#. |  
 | [Lege grafische status maken in een PDF met C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Leer hoe u een lege grafische status maakt in een PDF met C#. |  
+| [Hoe PDF-transparantie te wijzigen met Aspose.Pdf in C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Leer hoe u de transparantie van PDF‑objecten aanpast met Aspose.PDF voor .NET in C#. |
+| [Hoe PDF-transparantie te wijzigen in C# met Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Leer hoe u de transparantie van PDF‑objecten kunt aanpassen in C# met Aspose.PDF. |
 | [Hoe graphics state PDF toe te voegen met Aspose.PDF in C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Leer hoe u een graphics state PDF toevoegt met Aspose.PDF in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

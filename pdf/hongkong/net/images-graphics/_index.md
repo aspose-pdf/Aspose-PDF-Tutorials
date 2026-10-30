@@ -146,6 +146,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何在 PDF 中添加透明度並繪製矩形（使用 Aspose.PDF）](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 了解如何使用 Aspose.PDF 為 PDF 添加透明度並繪製矩形，以提升文件的視覺效果。
 
+### [如何使用 Aspose.PDF 在 C# 中為 PDF 新增矩形](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加矩形，涵蓋設定、屬性與完整範例程式碼。
+
 ### [如何使用 Aspose.PDF for .NET 從 PDF 檔案中刪除影像 - 完整指南](./delete-images-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 有效地從 PDF 檔案中刪除影像。本指南涵蓋設定、程式碼範例和最佳實踐。
 
@@ -214,6 +217,9 @@ Aspose.PDF Net 程式碼教學
 了解如何利用 Aspose.PDF 的 GraphicsAbsorber 從 PDF 文件中擷取向量圖形，並將其保存或進一步處理。
 ### [使用 Aspose.PDF 為 PDF 添加 ExtGState – 完整指南](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 了解如何使用 Aspose.PDF 在 PDF 中設定 ExtGState 以控制透明度和混合模式的完整步驟指南。
+
+### [使用 Aspose.PDF 在 C# 中新增圖形狀態 PDF：逐步指南](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+了解如何在 C# 中使用 Aspose.PDF 設定圖形狀態，以控制 PDF 的渲染效果。
 
 ## 其他資源
 

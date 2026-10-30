@@ -136,7 +136,7 @@ Tanulja meg, hogyan állíthatja be a PDF átlátszóságát C#-ban az Aspose.PD
 Ismerje meg, hogyan törölhet hatékonyan képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az útmutató bemutatja a beállítást, a kódpéldákat és a bevált gyakorlatokat.
 
 ### [Képek törlése PDF-ből az Aspose.PDF .NET használatával: Lépésről lépésre útmutató](./delete-images-aspose-pdf-net-guide/)
-Tanulja meg, hogyan törölhet képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
+Tanulja meg, hogyan törölhet képeket PDF-ből az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Képek törlése PDF-ből az Aspose.PDF for .NET használatával: Átfogó útmutató](./delete-images-from-pdf-aspose-dotnet/)
 Ismerje meg, hogyan törölheti hatékonyan az összes képet egy PDF fájlból az Aspose.PDF for .NET segítségével, hogyan növelheti a fájlok adatvédelmét és csökkentheti a méretét. Kövesse ezt a lépésről lépésre szóló útmutatót.
@@ -198,9 +198,12 @@ Ismerje meg, hogyan renderelhet összetett LaTeX szkripteket PDF dokumentumokká
 ### [Átlátszóság hozzáadása PDF-hez Aspose.PDF használatával C#-ban](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 ### [Átlátszóság beállítása PDF-ben az Aspose.Pdf C#-val](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Tanuld meg, hogyan állíthat be átlátszóságot PDF-dokumentumokban az Aspose.Pdf C# használatával.
+### [Grafikai állapot hozzáadása PDF-hez Aspose.Pdf C#-ban](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Tanuld meg, hogyan állíthatsz be grafikai állapotot PDF-dokumentumokban az Aspose.PDF for .NET segítségével C#-ban.
 
 ### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
-Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
+
+### [Hogyan adjunk hozzá téglalapot PDF-hez az Aspose.PDF használatával C#-ban](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 
 ### [Veszteségmentes képtömörítés Word dokumentumokban – Teljes útmutató](./lossless-image-compression-in-word-docs-complete-guide/)
 Ismerje meg, hogyan tömörítheti veszteségmentesen a képeket Word dokumentumokban az Aspose.Words for .NET segítségével.

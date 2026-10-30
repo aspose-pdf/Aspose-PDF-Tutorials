@@ -125,6 +125,11 @@
 เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF อย่างละเอียด
 ### [วิธีเริ่มต้นคลไอเอนต์ OpenAI และสรุป PDF ด้วย AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
+### [สร้างย่อหน้ PDF ด้วย Aspose: เพิ่มกราฟิกและแทรกหน้า](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+เรียนรู้วิธีสร้างย่อหน้าที่มีกราฟิกและแทรกหน้าใน PDF ด้วย Aspose
+
+### [วิธีสร้างไคลเอนต์ OpenAI และสร้างสรุป PDF ด้วย C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

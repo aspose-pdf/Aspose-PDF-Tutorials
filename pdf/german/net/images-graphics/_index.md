@@ -60,6 +60,7 @@ Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Transparenz zu PDF mit Aspose PDF in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen – eine praktische Schritt‑für‑Schritt‑Anleitung.
+
 ### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
 ### [Wie man Transparenz in einem PDF mit Aspose.Pdf C# festlegt](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
@@ -147,6 +148,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF h
 ### [Wie Sie die Deckkraft in einem PDF mit Aspose.Pdf für .NET ändern](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Deckkraft von Elementen in PDFs anpassen.
 
+### [So fügen Sie mit Aspose.PDF für .NET ein Rechteck zu PDF hinzu](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 ### [So fügen Sie mit Aspose.PDF für .NET ein Rechteck zu PDF in C# hinzu](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF hinzufügen.
 
@@ -217,6 +219,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Masken überlagern und die automa
 ### [ExtGState zu PDF mit Aspose.PDF hinzufügen – Vollständige Anleitung](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ExtGState-Objekte zu PDFs hinzufügen, um Transparenz, Blendmodi und weitere Grafik‑Effekte zu steuern.
 ### [Wie Sie den Grafikstatus zu PDFs hinzufügen und Transparenz mit Aspose.PDF steuern: Eine Schritt-für-Schritt-Anleitung](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+### [Grafikzustand zu PDF mit Aspose.Pdf in C# hinzufügen](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET den Grafikzustand in PDFs steuern.
 
 ## Weitere Ressourcen
 

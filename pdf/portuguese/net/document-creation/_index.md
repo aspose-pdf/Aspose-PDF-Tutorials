@@ -117,6 +117,10 @@ Aprenda a criar um documento PDF, inserir uma página em branco e desenhar um re
 ### [Como criar documento PDF/X‑1 com Aspose.PDF para .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
 ### [Criar documento PDF em C# com Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Aprenda a criar um documento PDF em C# usando Aspose.PDF passo a passo.
+### [Criar parágrafo PDF com Aspose: adicionar gráficos e inserir página](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Aprenda a criar parágrafos em PDFs, adicionar gráficos e inserir páginas usando Aspose.PDF para .NET.
+### [Como criar cliente OpenAI e gerar um resumo em PDF em C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Aprenda a integrar o cliente OpenAI e gerar um resumo em PDF usando Aspose.PDF para .NET em C#.
 
 ## Recursos adicionais
 

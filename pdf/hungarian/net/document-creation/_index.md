@@ -77,7 +77,7 @@ Tanuld meg, hogyan hozhatsz létre PDF dokumentumot C#‑ban az Aspose segítsé
 
 ### [PDF dokumentum létrehozása C# – Üres oldal hozzáadása és téglalap rajzolása](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Tanulja meg, hogyan adhat hozzá üres oldalt és rajzolhat téglalapot egy PDF dokumentumhoz C#-ban az Aspose.PDF for .NET segítségével.
-### [PDF dokumentum létrehozása C#-ban – Üres oldal, címkék és span hozzáadása](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+### [PDF dokumentum létrehozása C#‑ban – Üres oldal, címkék és span hozzáadása](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, üres oldalt, címkéket és span elemeket adva hozzá.
 
 ### [PDF létrehozása C#-ban – Oldal hozzáadása, téglalap rajzolása és mentés](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
@@ -117,6 +117,10 @@ Tanuld meg, hogyan hozhatsz létre PDF dokumentumot Bates-számozással C#-ban a
 Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, üres oldallal és téglalap rajzolásával az Aspose.PDF for .NET segítségével.
 ### [PDF dokumentum létrehozása C#-ban az Aspose.Pdf segítségével](./create-pdf-document-in-c-with-aspose-pdf/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban az Aspose.Pdf használatával.
+### [Paragrafus PDF létrehozása Aspose: grafika hozzáadása és oldal beszúrása](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Tanulja meg, hogyan hozhat létre bekezdés PDF-et, grafikai elemeket adhat hozzá, és oldalt szúrhat be az Aspose.PDF for .NET használatával.
+### [OpenAI kliens létrehozása és PDF összefoglaló generálása C#-ban](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Tanulja meg, hogyan hozhat létre OpenAI klienst és generálhat PDF összefoglalót C#-ban az Aspose.PDF segítségével.
 ### [Hogyan inicializáljuk az OpenAI klienst és összefoglaljuk a PDF-et AI segítségével](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## További források

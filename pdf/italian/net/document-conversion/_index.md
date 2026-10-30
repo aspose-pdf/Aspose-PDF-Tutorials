@@ -50,7 +50,7 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Converti PDF in HTML in C# – Guida semplice passo‑passo](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Scopri come convertire PDF in HTML utilizzando Aspose.PDF per .NET con questa guida passo passo in C#. |
 | [Conversione PDF Aspose in C# – Converti PDF in PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Scopri come convertire PDF in PDF/X‑4 usando Aspose.PDF per .NET con un esempio passo passo in C#. |
 | [Tutorial di conversione del formato PDF – Converti PDF in PDF/X‑4 con Aspose in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Scopri come convertire PDF in PDF/X‑4 utilizzando Aspose.PDF per .NET con questo tutorial passo passo in C#. |
-| [Tutorial di conversione del formato PDF – Converti PDF in PDF/X-4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire PDF in PDF/X‑4 con Aspose.PDF per .NET in C# passo dopo passo. |
+| [Tutorial di conversione del formato PDF – Converti PDF in PDF/X‑4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire PDF in PDF/X‑4 con Aspose.PDF per .NET in C# passo dopo passo. |
 | [Carica e Converti PDF in PDF/X‑4 in C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Scopri come caricare PDF e convertirli in PDF/X‑4 usando Aspose.PDF per .NET in C# con questo tutorial passo passo. |
 | [Converti PDF in PDF/X‑1a – Guida completa passo‑passo](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Scopri come convertire PDF in PDF/X‑1a utilizzando Aspose.PDF per .NET con questa guida dettagliata passo passo. |
 | [Tutorial di conversione Aspose PDF – Converti PDF in PDF/X‑4 passo‑passo](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Scopri come convertire PDF in PDF/X‑4 utilizzando Aspose.PDF per .NET con questa guida dettagliata passo‑passo. |
@@ -96,6 +96,20 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Converti DOCX in HTML in C# – Guida completa](./convert-docx-to-html-in-c-complete-guide/) | Scopri come convertire file DOCX in HTML usando Aspose.PDF per .NET con C# in questa guida completa passo passo. |
 | [Crea immagine PDF con Aspose.Pdf – Guida passo‑passo](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Scopri come creare un'immagine PDF con Aspose.Pdf seguendo questa guida dettagliata passo passo. |
 | [Come convertire PDF con Aspose – Guida completa passo‑passo](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Scopri come convertire PDF utilizzando Aspose con questa guida dettagliata passo‑passo. |
+| [Come salvare PDF come HTML senza immagini usando Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | Scopri come convertire un PDF in HTML mantenendo il testo ma escludendo le immagini con Aspose.PDF per .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Conversione Aspose PDF: Converti PDF in PDF/X‑4 in C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire un file PDF in PDF/X‑4 utilizzando Aspose.PDF per .NET con C# in questa guida passo passo. |
 | [Salva documento come HTML – Guida completa C# per esportare Word in HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Scopri come salvare un documento Word come HTML usando Aspose.PDF per .NET con una guida passo passo in C#. |
 | [PDF in PDF/X‑4](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Scopri come convertire PDF in PDF/X‑4 usando Aspose.PDF per .NET con questa guida passo passo in C#. |
@@ -119,5 +133,4 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

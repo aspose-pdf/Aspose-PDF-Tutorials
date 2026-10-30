@@ -35,6 +35,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [PDF a EPUB](./pdf-to-epub/) Aprenda a convertir PDF a EPUB con Aspose.PDF para .NET en este tutorial paso a paso. Ideal para desarrolladores y creadores de contenido.  
 | [PDF a HTML](./pdf-to-html/) Aprenda a convertir PDF a HTML con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y creadores de contenido.  
 | [Guardar PDF como HTML con Aspose.PDF – Guía paso a paso en C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) Aprenda a guardar archivos PDF como HTML usando Aspose.PDF para .NET con esta guía paso a paso en C#.  
+| [Guardar PDF como HTML sin imágenes usando Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) Aprenda a guardar un PDF como HTML sin incluir imágenes usando Aspose.PDF para .NET.  
 | [Crear HTML a partir de PDF con Aspose.PDF – Guía paso a paso](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a crear HTML a partir de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
 | [Convertir PDF a HTML en C# – Guía completa con Aspose](./convert-pdf-to-html-in-c-complete-guide-with-aspose/) | Aprenda a convertir PDF a HTML en C# usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [PDF a PDFA](./pdf-to-pdfa/) Aprenda a convertir archivos PDF al formato PDF/A usando Aspose.PDF para .NET con este tutorial paso a paso. |  

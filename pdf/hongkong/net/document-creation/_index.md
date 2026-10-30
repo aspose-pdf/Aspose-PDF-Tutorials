@@ -115,6 +115,11 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF for .NET 在 C# 中建立 PDF 文件](./create-pdf-document-in-c-with-aspose-pdf/)
 了解如何使用 Aspose.PDF for .NET 在 C# 程式中建立 PDF 文件的步驟與範例。
 
+### [使用 Aspose 建立段落 PDF：新增圖形與插入頁面](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+了解如何使用 Aspose.PDF 在 .NET 中建立段落 PDF，並加入圖形與插入新頁面。
+
+### [如何在 C# 中建立 OpenAI 客戶端並產生 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+了解如何在 C# 中使用 OpenAI API 建立客戶端並生成 PDF 摘要。
 ### [如何初始化 OpenAI 客戶端並使用 AI 摘要 PDF](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## 其他資源

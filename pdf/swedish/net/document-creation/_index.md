@@ -115,6 +115,11 @@ Lär dig hur du skapar ett PDF-dokument med Bates-nummerering i C# med Aspose.PD
 Lär dig hur du skapar ett PDF/X‑4-dokument i C# med Aspose.PDF för .NET.
 ### [Skapa PDF-dokument i C# med Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Lär dig hur du skapar PDF-dokument i C# med Aspose.PDF för .NET.
+### [Skapa paragraf-PDF med Aspose: lägg till grafik och infoga sida](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Lär dig hur du skapar ett PDF-dokument med stycken, lägger till grafik och infogar en ny sida med Aspose.PDF för .NET.
+
+### [Hur man skapar OpenAI‑klient och genererar en PDF‑sammanfattning i C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Lär dig hur du integrerar OpenAI i C# och skapar en PDF‑sammanfattning med Aspose.PDF.
 ### [Hur man initierar OpenAI-klient och sammanfattar PDF med AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Lär dig hur du initierar en OpenAI-klient och använder AI för att sammanfatta PDF-dokument med Aspose.PDF.
 

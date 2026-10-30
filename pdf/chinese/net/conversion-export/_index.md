@@ -124,6 +124,9 @@ Aspose-PDF Net 代码教程
 ### [将 PDF 转换为 PDF/X-1a，导出页面 PNG 并添加文字水印](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 学习使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X-1a 标准，导出页面为 PNG 并添加文本水印的完整步骤。
 
+### [如何在 C# 中将 PDF 转换为 PDFX – 完整指南](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为符合 PDF/X 标准的 PDFX 文件的完整步骤和代码示例。
+
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 XML：分步指南](./convert-pdf-to-xml-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将 PDF 文件转换为 XML 格式。增强数据集成和处理能力。
 
@@ -250,14 +253,14 @@ Aspose-PDF Net 代码教程
 ### [使用 C# 将 PDF 转换为 HTML – Aspose.Pdf 快速指南](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 学习如何使用 Aspose.Pdf 在 C# 中快速将 PDF 转换为 HTML，涵盖关键代码示例和最佳实践。
 
-### [使用 Aspose.PDF for .NET 将 PDF 转换为 HTML](./pdf-to-html-conversion-aspose-dot-net/)
-Aspose-PDF Net 代码教程
+### [使用 C# 将 PDF 转换为 HTML – 完整 Aspose .NET 指南](./convert-pdf-to-html-in-c-complete-aspose-net-guide/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 HTML，提供完整的代码示例和详细步骤。
 
-### [将 PDF 转换为 HTML 并验证 PDF 签名 – 完整 Aspose .NET 指南](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
-学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML 并验证其数字签名，提供完整的代码示例和步骤指南。
+### [在 C# 中将 PDF 转换为 HTML – 完整编程指南](./convert-pdf-to-html-in-c-complete-programming-guide/)
+全面指南，演示如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 完整转换为 HTML，包含代码示例和最佳实践。
 
 ### [使用 Aspose.PDF .NET 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
-学习如何使用 Aspose.Pdf 将 PDF 保存为 HTML，提供完整的 C# 示例代码和详细步骤指南。
+学习如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供完整的 C# 示例代码和详细步骤指南。
 
 ### [如何在 C# 中将 PDF 导出为 HTML – 完整 Aspose 指南](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 导出为 HTML 的完整步骤和代码示例。
@@ -275,6 +278,7 @@ Aspose-PDF Net 代码教程
 本指南详细演示如何使用 Aspose 在 .NET 中保存 PDF 文件的完整步骤。
 ### [使用 Aspose.PDF 将 PDF 保存为 HTML – 快速 C# 指南](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 学习使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供快速的 C# 示例代码，帮助您高效完成转换。
+
 ### [使用 Aspose.PDF .NET 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-with-aspose-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 保存为 HTML，保持布局和样式的完整性。
 
@@ -306,6 +310,10 @@ Aspose-PDF Net 代码教程
 - [下载 Aspose.PDF for Net](https://releases.aspose.com/pdf/net/)
 - [免费支持](https://forum.aspose.com/)
 - [临时执照](https://purchase.aspose.com/temporary-license/)
+### [将 PDF 转换为 HTML 并验证 PDF 签名 – 完整 Aspose .NET 指南](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML 并验证其数字签名，提供完整的代码示例和步骤指南。
+### [使用 Aspose.PDF for .NET 将 PDF 转换为 HTML](./pdf-to-html-conversion-aspose-dot-net/)
+Aspose-PDF Net 代码教程
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

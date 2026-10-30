@@ -65,6 +65,7 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 | [Ajouter une page vierge PDF avec Aspose.PDF – Guide complet](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Apprenez à ajouter une page vierge à un PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Modifier l'opacité d'un PDF en C# avec Aspose.Pdf – guide étape par étape](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Apprenez à ajuster l'opacité des éléments d'un PDF en C# avec Aspose.PDF grâce à ce guide détaillé étape par étape. |
 | [Ajouter une numérotation Bates PDF avec Aspose – guide étape par étape](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Comment ajouter une numérotation Bates à un PDF avec Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Guide étape par étape pour ajouter une numérotation Bates à un PDF avec Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,7 +73,6 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -89,6 +89,4 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

@@ -116,6 +116,9 @@ Pelajari cara membuat dokumen PDF secara lengkap dengan Aspose.PDF melalui pandu
 Pelajari cara membuat dokumen PDF dengan menambahkan halaman kosong dan menggambar persegi panjang menggunakan Aspose.PDF untuk .NET.
 ### [Buat Dokumen PDF di C# dengan Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
 Pelajari cara membuat dokumen PDF menggunakan Aspose.Pdf di C# dengan contoh kode lengkap.
+### [Buat Paragraf PDF dengan Aspose: Tambahkan Grafik dan Sisipkan Halaman](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Pelajari cara membuat paragraf PDF, menambahkan grafik, dan menyisipkan halaman menggunakan Aspose.PDF untuk .NET.
+### [Cara Membuat Klien OpenAI dan Menghasilkan Ringkasan PDF dalam C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 ### [Cara menginisialisasi klien OpenAI dan meringkas PDF dengan AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Pelajari cara mengatur klien OpenAI dan menghasilkan ringkasan PDF secara otomatis menggunakan AI.
 

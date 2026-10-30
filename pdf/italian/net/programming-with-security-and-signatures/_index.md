@@ -75,6 +75,10 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Crea opzioni di firma in C# – guida completa alla firma digitale](./create-signature-options-in-c-full-guide-to-digital-signing/) | Scopri come creare opzioni di firma personalizzate in C# con Aspose.PDF per .NET, guida passo passo completa. |
 | [Come convalidare le firme PDF usando Aspose.PDF in C#](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Scopri come convalidare le firme PDF con Aspose.PDF in C#, passo passo con esempi pratici. |
 
+| [Come convalidare le firme PDF con Aspose.PDF in C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Scopri come convalidare le firme PDF usando Aspose.PDF per .NET in C#. Guida passo passo. |
+
+
+
 
 
 

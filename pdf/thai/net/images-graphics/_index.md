@@ -51,6 +51,8 @@
 ### [เพิ่มสถานะกราฟิกใน PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 เรียนรู้วิธีจัดการสถานะกราฟิกใน PDF ด้วย Aspose.Pdf ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด C#
 
+### [วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF ใน C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+เรียนรู้วิธีการเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C#
 ### [วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย C# และ Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 เรียนรู้วิธีการเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย C# และ Aspose.Pdf อย่างละเอียด
 
@@ -217,6 +219,9 @@
 เรียนรู้วิธีการเพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF ผ่านคู่มือขั้นตอนโดยละเอียด
 ### [วิธีเปลี่ยนความทึบแสงใน PDF ด้วย Aspose.PDF สำหรับ .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 เรียนรู้วิธีปรับความทึบแสงของวัตถุใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
+
+### [เพิ่มกราฟิกสเตตใน PDF ด้วย Aspose.Pdf ใน C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+เรียนรู้วิธีจัดการสถานะกราฟิกใน PDF ด้วย Aspose.Pdf สำหรับ .NET ผ่านตัวอย่างโค้ด C#
 
 ## แหล่งข้อมูลเพิ่มเติม
 

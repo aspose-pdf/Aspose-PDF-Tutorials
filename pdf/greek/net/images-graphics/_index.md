@@ -42,6 +42,7 @@
 ### [Προσθήκη ορθογωνίου σε PDF με το Aspose.PDF – Πλήρης Οδηγός Προγραμματισμού](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 ### [Προσθήκη ορθογωνίου σε PDF με C# – οδηγός βήμα προς βήμα](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Μάθετε πώς να προσθέτετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας C# και Aspose.PDF για .NET με αυτόν τον οδηγό βήμα‑βήμα.
+### [Προσθήκη ορθογωνίου σε PDF με Aspose.PDF σε C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 
 ### [Πώς να προσθέσετε ορθογώνιο σε PDF με C# – Οδηγός Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 Μάθετε πώς να σχεδιάσετε και να προσθέσετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας το Aspose.Pdf με C#.
@@ -208,6 +209,9 @@
 Μάθετε πώς να δημιουργήσετε και να εφαρμόσετε προσαρμοσμένες καταστάσεις ExtGState σε PDF χρησιμοποιώντας το Aspose.PDF για .NET.
 ### [Ορισμός διαφάνειας PDF σε C# με το Aspose.PDF – πλήρης οδηγός](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Μάθετε πώς να ορίζετε τη διαφάνεια των PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C# με αυτόν τον πλήρη οδηγό.
+
+### [Προσθήκη κατάστασης γραφικών σε PDF με Aspose.Pdf σε C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Μάθετε πώς να διαχειρίζεστε την κατάσταση γραφικών σε PDF χρησιμοποιώντας το Aspose.Pdf με C#.
 
 ## Πρόσθετοι Πόροι
 

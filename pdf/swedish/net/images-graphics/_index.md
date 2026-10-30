@@ -48,6 +48,9 @@ Lär dig hur du lägger till en rektangel i en PDF med C# i en steg‑för‑ste
 ### [Hur man lägger till en rektangel i PDF med C# – En steg‑för‑steg‑guide](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 Lär dig hur du lägger till en rektangel i PDF-dokument med C# och Aspose.Pdf i denna detaljerade guide.
 
+### [Hur du lägger till en rektangel i PDF med Aspose.PDF i C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Lär dig steg för steg hur du lägger till en rektangel i PDF-dokument med Aspose.PDF för .NET och C#.
+
 ### [Skapa anpassade PDF-stämplar med Aspose.PDF i .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
 
@@ -223,7 +226,7 @@ Lär dig hur du extraherar bilder inbäddade i PDF-signaturer med Aspose.PDF fö
 En kodhandledning för Aspose.PDF Net
 
 ### [Snabb bildförminskning i PDF-filer med Aspose.PDF .NET: Optimera och komprimera bilder effektivt](./optimize-pdf-images-aspose-net-fast-compression/)
-Lär dig hur du krymper bilder i PDF-filer med Aspose.PDF för .NET, vilket minskar filstorleken samtidigt som kvaliteten bibehålls. Perfekt för snabbare inläsning och effektiv lagring.
+Lär dig hur du krymper bilder i PDF-filer med Aspose.PDF för .NET, vilket minskar filstorleken samtidigt med kvaliteten bibehålls. Perfekt för snabbare inläsning och effektiv lagring.
 
 ### [Hur man lägger till bildfot till PDF-filer med Aspose.PDF .NET i C#](./aspose-pdf-net-add-image-footers-pdfs/)
 Lär dig hur du lägger till bildfötter i dina PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för varumärkesbyggande och anpassning.
@@ -273,6 +276,8 @@ Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET
 Lär dig hur du använder anpassade ExtGState‑inställningar för att kontrollera grafik‑ och transparenseffekter i PDF‑dokument med Aspose.PDF för .NET.
 ### [Hur du ställer in transparens i en PDF med Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Lär dig hur du ställer in genomskinlighet för element i en PDF med Aspose.Pdf för .NET i C#.
+### [Lägg till grafikstatus i PDF med Aspose.PDF i C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+En guide för att hantera grafikstatus i PDF med Aspose.PDF i C#.
 
 ### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
 Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.
