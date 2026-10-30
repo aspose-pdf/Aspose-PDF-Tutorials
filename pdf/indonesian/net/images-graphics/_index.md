@@ -41,6 +41,9 @@ Pelajari cara menambahkan persegi panjang ke dokumen PDF menggunakan Aspose.PDF 
 ### [Menambahkan Persegi Panjang ke PDF dengan C# – Panduan Lengkap Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan lengkap ini.
 
+### [Cara Menambahkan Persegi Panjang ke PDF dengan Aspose.PDF di C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Pelajari cara menambahkan persegi panjang ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan langkah demi langkah.
+
 ### [Buat Stempel PDF Kustom dengan Aspose.PDF di .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Tutorial kode untuk Aspose.PDF Net
 ### [Cara Memvalidasi PDF dan Menambahkan Persegi Panjang – Panduan Lengkap](./how-to-validate-pdf-and-add-rectangle-complete-guide/)

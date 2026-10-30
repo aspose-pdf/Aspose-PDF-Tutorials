@@ -32,6 +32,7 @@
 - [สร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | สร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF
 - [วิธีสร้างสถานะกราฟิกว่างใน PDF ด้วย C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | เรียนรู้วิธีสร้างสถานะกราฟิกเปล่าใน PDF ด้วย C#
 - [วิธีเปลี่ยนความโปร่งใสของ PDF ด้วย Aspose.Pdf ใน C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | เรียนรู้วิธีปรับความโปร่งใสของวัตถุในไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET ในภาษา C#
+- [วิธีเปลี่ยนความโปร่งใสของ PDF ใน C# ด้วย Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | เรียนรู้วิธีปรับความโปร่งใสของวัตถุในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

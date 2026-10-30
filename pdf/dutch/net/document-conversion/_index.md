@@ -70,14 +70,14 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [PDF naar XPS](./pdf-to-xps/) | Leer hoe u PDF naar XPS converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars en liefhebbers van documentverwerking. |  
 | [Naschrift naar PDF](./postscript-to-pdf/) | Leer in deze stapsgewijze tutorial hoe u Postscript-bestanden naar PDF converteert met Aspose.PDF voor .NET. Perfect voor ontwikkelaars van alle niveaus. |  
 | [Geef referenties op tijdens HTML naar PDF](./provide-credentials-during-html-to-pdf/) | Leer hoe u HTML naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die het genereren van documenten willen stroomlijnen. |  
-| [Hyperlinks verwijderen na conversie van HTML](./remove-hyperlinks-after-converting-from-html/) Leer hoe u hyperlinks uit HTML-documenten verwijdert na conversie naar PDF met Aspose.PDF voor .NET in deze stapsgewijze handleiding.  
+| [Hyperlinks verwijderen na conversie van HTML](./remove-hyperlinks-after-converting-from-html/) Leer hoe u hyperlinks uit HTML-documenten verwijdert na conversie naar PDF met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
 | [Vervang ontbrekende lettertypen](./replace-missing-fonts/) | Leer hoe u ontbrekende lettertypen in PDF-documenten kunt vervangen met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
 | [Standaardlettertypenaam instellen](./set-default-font-name/) | Leer hoe u een standaardlettertype instelt bij het renderen van PDF's naar afbeeldingen met Aspose.PDF voor .NET. Deze handleiding behandelt de vereisten, stapsgewijze instructies en veelgestelde vragen. |  
 | [SVG naar PDF](./svg-to-pdf/) | Leer hoe je SVG naar PDF converteert met Aspose.PDF voor .NET in deze stapsgewijze tutorial. Perfect voor ontwikkelaars en ontwerpers. |  
 | [TeX naar PDF](./tex-to-pdf/) | Leer hoe u TeX naar PDF converteert met Aspose.PDF voor .NET in een gedetailleerde, stapsgewijze handleiding. Perfect voor ontwikkelaars en documentprofessionals. |  
 | [Tekst naar PDF](./text-to-pdf/) Leer hoe u tekstbestanden naar PDF converteert met Aspose.PDF voor .NET in deze stapsgewijze handleiding. Perfect voor ontwikkelaars die hun applicaties willen verbeteren. |  
 | [Prestatieverbetering van TIFF naar PDF](./tiff-to-pdf-performance-improvement/) | Converteer TIFF-afbeeldingen efficiënt naar PDF met Aspose.PDF voor .NET. Leer stapsgewijs met tips voor prestatieoptimalisatie hoe u grote afbeeldingsbestanden soepel kunt verwerken. |  
-| [Webpagina naar PDF](./web-page-to-pdf/) | Leer hoe u webpagina's naar PDF kunt converteren met Aspose.PDF voor .NET in deze gedetailleerde, stapsgewijze tutorial. |  
+| [Webpagina naar PDF](./web-page-to-pdf/) | Leer hoe u webpagina's naar PDF kunt converteren met Aspose.PDF voor .NET in deze gedetailleerde stapsgewijze tutorial. |  
 | [XML naar PDF](./xml-to-pdf/) | Leer hoe u XML naar PDF converteert met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze tutorial, compleet met codevoorbeelden en gedetailleerde uitleg. |  
 | [XML naar PDFSet-afbeeldingspad](./xml-to-pdfset-image-path/) | Leer hoe u moeiteloos XML naar PDF converteert met Aspose.PDF voor .NET. Deze gedetailleerde handleiding leidt u stap voor stap door het proces, van installatie tot voltooiing. |  
 | [XPS naar PDF](./xps-to-pdf/) Leer hoe u XPS-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Perfect voor ontwikkelaars en documentliefhebbers. |  
@@ -85,7 +85,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [pdf naar png-tutorial – PDF-pagina's converteren naar PNG in C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Leer hoe u PDF-pagina's naar PNG converteert met Aspose.PDF voor .NET in C#. |
 | [Opties instellen voor PDF-conversie in C# – Aspose-gids](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Leer hoe u conversie‑opties instelt bij PDF-conversie met Aspose.PDF voor .NET in C#. |
 | [Span-element maken en toevoegen aan pagina – DOCX naar PDF converteren](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Leer hoe u een span-element maakt en toevoegt aan een pagina terwijl u een DOCX-bestand naar PDF converteert met Aspose.PDF voor .NET. |
-| [PDF opslaan als HTML met Aspose.PDF – Stapsgewijze C#-handleiding](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Leer hoe u PDF opslaat als HTML met Aspose.PDF voor .NET in deze stapsgewijze C#-handleiding. |
+| [PDF opslaan als HTML met Aspose.PDF – Stapsgewijze C#-handleiding](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Leer hoe u PDF opslaat als HTML met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
 | [PDF maken van JPG in C# – Volledige gids met bijsnijden en nieuwe pagina's](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Leer hoe u JPG-afbeeldingen naar PDF converteert, bijsnijdt en op nieuwe pagina's plaatst met Aspose.PDF voor .NET in C#. |
 | [HTML maken vanuit PDF met Aspose.PDF – Stapsgewijze handleiding](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Leer hoe u HTML genereert uit een PDF-bestand met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
 | [PDF-formaatconversietutorial – Converteer PDF naar PDF/X-4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Leer hoe u PDF-bestanden naar PDF/X-4 converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze tutorial. |
@@ -95,6 +95,19 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [PDF-afbeelding maken met Aspose.Pdf – Stapsgewijze handleiding](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Leer hoe u met Aspose.PDF een afbeelding van een PDF maakt in een stapsgewijze tutorial. |
 | [Hoe PDF te converteren met Aspose – Complete stapsgewijze handleiding](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Leer hoe u PDF-bestanden converteert met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
 | [PDF converteren naar PDF/X-1a met C# – Stapsgewijze handleiding](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Leer hoe u PDF-bestanden naar PDF/X‑1a converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
+| [PDF opslaan als HTML zonder afbeeldingen met Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | Leer hoe u een PDF opslaat als HTML zonder afbeeldingen met Aspose.PDF voor .NET. |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF-conversie: PDF naar PDF/X‑4 converteren in C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Leer hoe u een PDF-bestand naar PDF/X‑4 converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
 | [HTML maken vanuit PDF in C# – Complete stapsgewijze handleiding](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET HTML genereert uit PDF-bestanden met een volledige stap‑voor‑stap handleiding in C#. |  
 | [Docx naar PDF converteren in C# – Complete stapsgewijze gids](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u docx-bestanden naar PDF converteert in C# met Aspose.PDF voor .NET via een volledige stap‑voor‑stap handleiding. |  
@@ -118,5 +131,4 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

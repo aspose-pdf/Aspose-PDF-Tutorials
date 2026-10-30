@@ -32,6 +32,7 @@ Aspose.PDF for .NET の「演算子を使ったプログラミング」チュー
 | [Aspose.Pdf を使用した C# で空の PDF 辞書を作成する](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) Aspose.PDF for .NET を使い、C# で空の PDF 辞書オブジェクトを作成する手順を解説します。 |  
 | [C# で PDF に空のグラフィックスステートを作成する方法](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) Aspose.PDF for .NET を使用して、C# で PDF の空のグラフィックスステートを作成する手順を解説します。 |  
 | [C# で Aspose.Pdf を使用して PDF の透明度を変更する方法](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) Aspose.PDF for .NET を使って PDF のオブジェクトの透明度を設定・変更する手順を解説します。 |  
+| [C# で PDF の透明度を変更する方法（Aspose.PDF 使用）](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) Aspose.PDF for .NET を使用して、C# で PDF の透明度を設定する手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

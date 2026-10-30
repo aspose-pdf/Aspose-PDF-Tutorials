@@ -119,6 +119,8 @@ Apprenez à générer un document PDF/X‑1 conforme aux normes PDF/X‑1 en uti
 Apprenez à générer un document PDF en C# en utilisant Aspose.PDF, avec ajout de pages, formes et enregistrement.
 ### [Créer un paragraphe PDF avec Aspose : ajouter des graphiques et insérer une page](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Apprenez à créer un paragraphe PDF, ajouter des graphiques et insérer une page avec Aspose.PDF pour .NET.
+### [Comment créer un client OpenAI et générer un résumé PDF en C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Apprenez à configurer le client OpenAI en C# et à générer automatiquement un résumé PDF avec Aspose.PDF.
 
 ## Ressources supplémentaires
 

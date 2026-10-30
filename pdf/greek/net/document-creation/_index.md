@@ -116,6 +116,7 @@
 
 ### [Δημιουργία εγγράφου PDF με Aspose.PDF – Πλήρης οδηγός C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Μάθετε πώς να δημιουργήσετε πλήρες έγγραφο PDF σε C# χρησιμοποιώντας το Aspose.PDF, με βήμα‑βήμα παραδείγματα κώδικα.
+
 ### [Δημιουργία εγγράφου PDF με το Aspose.PDF – Οδηγός βήμα προς βήμα](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF από το μηδέν χρησιμοποιώντας το Aspose.PDF με αναλυτικές οδηγίες βήμα‑βήμα.
 ### [Δημιουργία εγγράφου PDF με Aspose.Pdf – Πλήρης οδηγός βήμα‑βήμα](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
@@ -136,6 +137,7 @@
 
 ### [Δημιουργία παραγράφου PDF με Aspose: προσθήκη γραφικών και εισαγωγή σελίδας](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Μάθετε πώς να δημιουργήσετε παράγραφο PDF, να προσθέσετε γραφικά και να εισάγετε σελίδες με Aspose.PDF για .NET.
+### [Πώς να δημιουργήσετε πελάτη OpenAI και να δημιουργήσετε σύνοψη PDF σε C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 
 ## Πρόσθετοι Πόροι
 

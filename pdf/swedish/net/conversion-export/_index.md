@@ -262,8 +262,8 @@ Lär dig hur du konverterar PDF till HTML och tar bort bilder med Aspose.PDF i .
 ### [Spara PDF som HTML och konvertera till PDF/X‑4 med Aspose.PDF i C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 En kodhandledning för Aspose.PDF Net
 
-### [Spara PDF som HTML med Aspose – Komplett C#-guide](./save-pdf-as-html-with-aspose-c-guide/)
-Lär dig hur du sparar PDF som HTML med Aspose i en komplett C#-guide.
+### [Spara PDF som HTML med Aspose – Komplett C#‑guide](./save-pdf-as-html-with-aspose-c-guide/)
+Lär dig hur du sparar PDF som HTML med Aspose i en komplett C#‑guide.
 
 ### [Spara PDF som HTML med C# – Komplett steg‑för‑steg‑guide](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Lär dig hur du sparar PDF som HTML med C# i en komplett steg‑för‑steg‑guide.
@@ -279,7 +279,10 @@ Lär dig hur du konverterar PDF till HTML i C# med en komplett programmeringsgui
 Lär dig hur du konverterar PDF‑dokument till TIFF‑bilder med Aspose.PDF för .NET. Bemästra anpassade färgdjup och avancerade bildbehandlingstekniker.
 
 ### [Konvertera PDF till PDF/X-1a, exportera sida som PNG och lägg till textstämpel](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
-Lär dig hur du konverterar PDF till PDF/X-1a, exporterar en sida som PNG och lägger till en textstämpel med Aspose.PDF för .NET.
+Lär dig hur du konverterar PDF till PDF/X‑1a, exporterar en sida som PNG och lägger till en textstämpel med Aspose.PDF för .NET.
+
+### [Hur du konverterar PDF till PDFX i C# – steg‑för‑steg‑guide](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+Lär dig hur du konverterar PDF till PDFX i C# med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide.
 
 ### [Hur man sparar PDF med Aspose – Steg‑för‑steg‑guide](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Lär dig hur du sparar PDF‑filer med Aspose i .NET med tydliga steg‑för‑steg‑instruktioner och kodexempel.

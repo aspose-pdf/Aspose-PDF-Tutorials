@@ -60,6 +60,9 @@ Naučte se, jak převést stránky PDF do vysoce kvalitních obrázků PNG pomoc
 ### [Převod PDF na PDF/X-1a, export stránky PNG a přidání textové razítka](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Naučte se převést PDF do formátu PDF/X-1a, exportovat stránky jako PNG a přidat textové razítko pomocí Aspose.PDF pro .NET.
 
+### [Jak převést PDF do PDF/X v C# – krok‑za‑krokem průvodce](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+Naučte se převést PDF do PDF/X pomocí C# krok za krokem.
+
 ### [Převod PDF do BMP pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-pdf-to-bmp-aspose-pdf-net/)
 Naučte se, jak převést stránky PDF do vysoce kvalitních obrázků BMP pomocí Aspose.PDF pro .NET s tímto komplexním průvodcem.
 ### [Převod PDF do EMF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./convert-pdf-emf-aspose-net-guide/)

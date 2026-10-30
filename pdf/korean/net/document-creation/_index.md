@@ -97,7 +97,8 @@ Aspose.PDF와 C#을 사용해 처음부터 PDF 문서를 생성하는 전체 단
 Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 그리는 방법을 단계별로 안내합니다.
 
 ### [HEIC 이미지에서 PDF 만들기 – 완전한 C# 가이드](./create-pdf-image-from-heic-complete-c-guide/)
-HEIC 이미지를 PDF로 변환하는 방법을 C#으로 단계별로 안내합니다.
+
+### [C#에서 OpenAI 클라이언트를 생성하고 PDF 요약을 만드는 방법](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 
 ### [Aspose.Pdf로 PDF 문서 만들기 – 전체 단계별 가이드](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Aspose.Pdf를 사용하여 PDF 문서를 처음부터 완전하게 생성하고 저장하는 과정을 상세히 안내합니다.

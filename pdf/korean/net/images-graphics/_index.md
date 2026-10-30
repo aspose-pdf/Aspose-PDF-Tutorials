@@ -42,6 +42,8 @@ C#와 Aspose.PDF for .NET을 이용해 PDF에 사각형을 삽입하고 스타�
 Aspose.PDF for .NET을 사용하여 PDF 파일을 검증하고 사각형을 그리는 전체 단계별 가이드를 제공합니다.
 ### [C#를 사용하여 PDF에 사각형 추가: 단계별 가이드](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 C#와 Aspose.PDF for .NET을 활용해 PDF에 사각형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose.PDF를 사용하여 PDF에 사각형 추가하는 방법](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Aspose.PDF for .NET을 사용하여 C#에서 PDF에 사각형을 추가하는 방법을 단계별로 안내합니다.
 
 ### [.NET에서 Aspose.PDF를 사용하여 사용자 정의 PDF 스탬프 만들기](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼

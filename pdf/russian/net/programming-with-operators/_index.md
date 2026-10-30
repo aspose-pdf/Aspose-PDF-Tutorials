@@ -32,6 +32,7 @@
 | [Создать пустой PDF-словарь в C# с Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Узнайте, как создать пустой словарь PDF в C# с помощью Aspose.Pdf. |  
 | [Как создать пустое графическое состояние в PDF с помощью C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Узнайте, как создать пустое графическое состояние в PDF с использованием Aspose.PDF для .NET и C#. |
 | [Как изменить прозрачность PDF с помощью Aspose.Pdf в C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Узнайте, как изменить прозрачность элементов PDF с помощью Aspose.Pdf для .NET в C#. |  
+| [Как изменить прозрачность PDF в C# с Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Узнайте, как изменить прозрачность элементов PDF в C# с помощью Aspose.PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

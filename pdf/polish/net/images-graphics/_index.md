@@ -128,6 +128,9 @@ Dowiedz się, jak zastosować przezroczystość i narysować prostokąt w pliku 
 ### [Jak dodać przezroczystość do plików PDF za pomocą Aspose.PDF dla .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 Dowiedz się, jak zastosować przezroczystość elementów w dokumentach PDF przy użyciu Aspose.PDF dla .NET.
 
+### [Jak dodać prostokąt do PDF za pomocą Aspose.PDF w C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu Aspose.PDF w C#.
+
 ### [Jak usunąć obrazy z plików PDF za pomocą Aspose.PDF dla .NET - kompletny przewodnik](./delete-images-aspose-pdf-net/)
 Dowiedz się, jak skutecznie usuwać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.
 

@@ -121,6 +121,7 @@ Learn how to generate PDF/X‑4 documents using Aspose.PDF for .NET in C# with a
 ### [Create pdf document in C# with Aspose.Pdf](./create-pdf-document-in-c-with-aspose-pdf/)
 ### [Create paragraph PDF aspose&#58; add graphics and insert page](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Learn how to add graphics and insert pages while creating paragraph PDFs using Aspose.PDF for .NET.
+### [How to create OpenAI client and generate a PDF summary in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 
 ## Additional Resources
 

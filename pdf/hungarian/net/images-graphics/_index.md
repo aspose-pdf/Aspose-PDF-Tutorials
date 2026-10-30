@@ -198,7 +198,8 @@ Tanuld meg, hogyan állíthat be átlátszóságot PDF-dokumentumokban az Aspose
 Tanuld meg, hogyan állíthatsz be grafikai állapotot PDF-dokumentumokban az Aspose.PDF for .NET segítségével C#-ban.
 
 ### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
-Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
+
+### [Hogyan adjunk hozzá téglalapot PDF-hez az Aspose.PDF használatával C#-ban](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 
 ### [Veszteségmentes képtömörítés Word dokumentumokban – Teljes útmutató](./lossless-image-compression-in-word-docs-complete-guide/)
 Ismerje meg, hogyan tömörítheti veszteségmentesen a képeket Word dokumentumokban az Aspose.Words for .NET segítségével.

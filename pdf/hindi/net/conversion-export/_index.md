@@ -299,6 +299,8 @@ PDF को HTML में बदलने की पूरी प्रक्र
 .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में कैसे बदलें, फ़ॉन्ट को TTF और WOFF में सुरक्षित रखें और उच्च निष्ठा बनाए रखें।
 
 
+### [C# में PDF को PDFX में बदलने का तरीका – चरण‑दर‑चरण गाइड](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

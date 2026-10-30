@@ -118,6 +118,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose 建立段落 PDF：新增圖形與插入頁面](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 了解如何使用 Aspose.PDF 在 .NET 中建立段落 PDF，並加入圖形與插入新頁面。
 
+### [如何在 C# 中建立 OpenAI 客戶端並產生 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+了解如何在 C# 中使用 OpenAI API 建立客戶端並生成 PDF 摘要。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

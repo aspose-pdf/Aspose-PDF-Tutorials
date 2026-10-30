@@ -69,7 +69,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PDFからPNGへのチュートリアル – C#でPDFページをPNGに変換](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) Aspose.PDF for .NET を使用して、C#でPDFページをPNG画像に変換する方法をステップバイステップで解説します。 |
 | [C# で PDF 変換オプションを設定する方法 – Aspose ガイド](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) Aspose.PDF for .NET を使用して C# で PDF 変換時のオプション設定方法をステップバイステップで解説します。 |  
 | [Aspose PDF チュートリアル: C#で PDF を PDF/X‑4 に変換](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
-| [C#でPDFドキュメントを読み込み – AsposeでPDF/X‑4に変換](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) Aspose.PDF for .NET を使用して、PDF ドキュメントを読み込み、PDF/X‑4 形式に変換する方法を学びます。 |  
+| [C#でPDFドキュメントを読み込み – AsposeでPDF/X‑4に変換](./load-pdf-document-c-convert-to-pdf-x-4/) Aspose.PDF for .NET を使用して、PDF ドキュメントを読み込み、PDF/X‑4 形式に変換する方法を学びます。 |  
 | [C#でAspose PDF変換 – ロード、PDF/X-4へ変換、保存](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) C#でAspose.PDFを使用し、PDFをロードしPDF/X‑4に変換して保存する手順を解説します。 |  
 | [PDFドキュメントを開く C# – 印刷用にPDF/X‑4へ変換](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) Aspose.PDF for .NET を使用して、C# で PDF を開き、印刷向けに PDF/X‑4 形式へ変換する手順を解説します。 |  
 | [C#でPDFをPDF/X‑4に変換する方法 – Aspose PDFを使用](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
@@ -95,6 +95,20 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [pdfx4 変換チュートリアル – PDF 標準を設定し、Aspose で PDF を変換](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) PDF 標準を設定し、Aspose.PDF for .NET で PDF を変換する方法を学びます。 |
 | [Aspose を使用して PDF を PDF/X‑1A に ICC 付きで変換する方法](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) Aspose.PDF for .NET を使用して、PDF を ICC プロファイル付きの PDF/X‑1A 形式に変換する手順を解説します。 |  
 | [ICC プロファイルを埋め込み、PDF を PDF/X‑1 に変換する方法 – Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) Aspose.PDF for .NET を使用して ICC プロファイルを埋め込み、PDF を PDF/X‑1 に変換する手順を学びます。 |
+| [Aspose.PDFでPDFをHTMLに保存 – 画像なしで PDF を HTML として保存する方法](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) Aspose.PDF for .NET を使用して、画像を除外して PDF を HTML に保存する手順を解説します。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF 変換: C# で PDF を PDF/X‑4 に変換](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する手順をステップバイステップで学びます。 |  
 | [DOCXにベーツ番号を追加してPDFへ変換 – 完全C#ガイド](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して DOCX にベーツ番号を追加し、PDF に変換する方法を学習します。 |  
 | [ドキュメント PDF を保存 – 楕円を追加し DOCX を PDF に変換する方法](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) Aspose.PDF for .NET を使用して、DOCX ファイルを PDF に変換し、PDF に楕円形を追加して保存する手順を解説します。 |  
@@ -111,11 +125,11 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [C#でのAspose PDF変換 – ステップバイステップガイド](./aspose-pdf-conversion-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して C# で PDF を変換する方法をステップバイステップで解説します。 |  
 | [Word を PDF に変換する際に ICC プロファイルを設定する – 完全 C# ガイド](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して、Word 文書を PDF に変換する際に ICC プロファイルを設定する方法をステップバイステップで解説します。 |  
 | [Word を HTML にエクスポートする完全 C# ガイド – ドキュメントを HTML として保存](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) Aspose.PDF for .NET を使用して、Word 文書を HTML にエクスポートし、保存する方法をステップバイステップで解説します。 |  
+| [C#でPDFドキュメントを読み込み – AsposeでPDF/X‑4に変換](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) Aspose.PDF for .NET を使用して、PDF ドキュメントを読み込み、PDF/X‑4 形式に変換する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

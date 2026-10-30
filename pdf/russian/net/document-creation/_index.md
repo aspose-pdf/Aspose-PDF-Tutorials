@@ -135,6 +135,8 @@
 ### [Создание PDF‑документа в C# с Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Узнайте, как создать PDF‑документ в C# с помощью Aspose.PDF.
 ### [Создание абзаца PDF с Aspose: добавление графики и вставка страницы](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+### [Как создать клиент OpenAI и сгенерировать PDF‑резюме на C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Узнайте, как создать клиент OpenAI и сгенерировать PDF‑резюме с помощью Aspose.PDF для .NET на C#.
 
 ## Дополнительные ресурсы
 

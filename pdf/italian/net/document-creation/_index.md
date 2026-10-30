@@ -121,6 +121,8 @@ Scopri come aggiungere numerazione Bates a un documento PDF generato con Aspose.
 ### [Creare documento PDF in C# con Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Scopri come creare un documento PDF in C# utilizzando Aspose.PDF.
 ### [Crea paragrafo PDF con Aspose: aggiungi grafica e inserisci pagina](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+### [Come creare un client OpenAI e generare un riepilogo PDF in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Scopri come configurare un client OpenAI in C# e generare automaticamente un riepilogo PDF con Aspose.PDF.
 
 ## Risorse aggiuntive
 

@@ -32,6 +32,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat kamus PDF kosong di C# dengan Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Panduan membuat kamus PDF kosong menggunakan Aspose.PDF untuk .NET dalam bahasa C#. |  
 | [Cara membuat keadaan grafik kosong dalam PDF dengan C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Panduan langkah demi langkah untuk membuat state grafik kosong dalam PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
 | [Cara mengubah transparansi PDF menggunakan Aspose.Pdf di C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Panduan langkah demi langkah untuk mengubah transparansi elemen PDF menggunakan Aspose.Pdf di C#. |
+| [Cara mengubah transparansi PDF di C# dengan Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Panduan langkah demi langkah untuk mengubah tingkat transparansi elemen PDF menggunakan Aspose.PDF di C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

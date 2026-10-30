@@ -118,6 +118,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument mit einer leeren
 Ein Code‑Tutorial zum Erstellen eines PDF‑Dokuments in C# mit Aspose.PDF.
 ### [Absatz-PDF mit Aspose erstellen: Grafiken hinzufügen und Seite einfügen](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Absätze erstellen, Grafiken hinzufügen und Seiten einfügen.
+### [Wie man einen OpenAI-Client erstellt und eine PDF‑Zusammenfassung in C# generiert](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Erfahren Sie, wie Sie mit OpenAI einen Client in C# erstellen und daraus eine PDF‑Zusammenfassung generieren.
 
 ## Weitere Ressourcen
 

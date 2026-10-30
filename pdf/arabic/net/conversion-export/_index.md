@@ -254,6 +254,9 @@
 ### [تحويل PDF إلى PDF/X-1A، تصدير صفحة PNG وإضافة ختم نصي](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 تعلم تحويل PDF إلى معيار PDF/X-1A، استخراج صفحة PNG وإضافة ختم نصي باستخدام Aspose.PDF .NET
 
+### [كيفية تحويل PDF إلى PDFX في C# – دليل خطوة بخطوة](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+دليل شامل يوضح كيفية تحويل ملفات PDF إلى صيغة PDF/X باستخدام Aspose.PDF في C# خطوة بخطوة.
+
 ### [كيفية حفظ ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 دليل شامل يوضح كيفية حفظ ملفات PDF باستخدام Aspose خطوة بخطوة باستخدام C#.
 ### [كيفية تصدير DOCX – دليل خطوة بخطوة لمطوري C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)

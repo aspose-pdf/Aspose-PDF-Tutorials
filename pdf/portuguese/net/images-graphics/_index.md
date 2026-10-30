@@ -101,10 +101,10 @@ Aprenda a adicionar imagens e texto a PDFs usando o Aspose.PDF para .NET. Este g
 ### [Como adicionar imagens a PDFs usando Aspose.PDF .NET: um guia completo](./aspose-pdf-net-add-images-pdfs/)
 Aprenda a adicionar imagens aos seus documentos PDF com facilidade usando o Aspose.PDF para .NET. Este guia passo a passo aborda configuração, implementação e aplicações práticas.
 
-### [Como adicionar imagens a PDFs usando Aspose.PDF para .NET: um guia completo](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [Como adicionar imagens a PDFs usando Aspose.PDF .NET: um guia completo](./add-images-to-pdfs-using-aspose-pdf-net/)
 Aprenda a adicionar imagens aos seus documentos PDF com facilidade usando o Aspose.PDF para .NET. Este guia passo a passo aborda configuração, implementação e aplicações práticas.
 
-### [Como adicionar imagens a PDFs usando Aspose.PDF para .NET: um guia passo a passo](./add-images-to-pdfs-aspose-pdf-net/)
+### [Como adicionar imagens a PDFs usando Aspose.PDF .NET: um guia passo a passo](./add-images-to-pdfs-aspose-pdf-net/)
 Aprenda a adicionar imagens aos seus PDFs com facilidade usando o Aspose.PDF para .NET. Este guia aborda a adição de imagens a PDFs existentes e a criação de novos a partir de arquivos DICOM.
 
 ### [Como adicionar um cabeçalho de imagem a PDFs usando Aspose.PDF para .NET: um guia passo a passo](./add-image-header-pdf-aspose-dotnet/)
@@ -143,6 +143,9 @@ Aprenda a adicionar retângulos a documentos PDF usando C# e Aspose.PDF com este
 Aprenda a aplicar transparência e desenhar retângulos em documentos PDF usando Aspose.PDF para .NET.
 ### [Como mudar a opacidade em um PDF usando Aspose.PDF para .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 Aprenda a alterar a opacidade de elementos em PDFs com Aspose.PDF para .NET. Guia passo a passo para aplicar transparência a imagens e objetos.
+
+### [Como adicionar retângulo a PDF com Aspose.PDF em C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Aprenda a adicionar retângulos a PDFs usando Aspose.PDF para .NET em C# com este guia passo a passo.
 
 ### [Como excluir imagens de arquivos PDF usando Aspose.PDF para .NET - Guia completo](./delete-images-aspose-pdf-net/)
 

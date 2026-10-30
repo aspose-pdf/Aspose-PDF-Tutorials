@@ -175,7 +175,7 @@ Pelajari cara menerapkan lisensi Aspose.PDF dan mengonversi PDF ke HTML dengan C
 ### [Master Font Substitution & Konversi PDF dengan Aspose.PDF .NET untuk Kepatuhan dan Konsistensi Merek](./mastering-font-substitution-pdf-conversion-asposepdf-net/)
 Pelajari cara mengelola font yang hilang dengan menggantinya dan mengonversi PDF ke format standar menggunakan Aspose.PDF .NET. Pastikan kepatuhan dan konsistensi merek di semua platform.
 ### [Menguasai Konversi PDF ke HTML dengan Penanganan Font di Aspose.PDF untuk .NET](./optimize-pdf-to-html-font-handling-aspose-net/)
-Pelajari cara mengoptimalkan konversi PDF ke HTML menggunakan Aspose.PDF untuk .NET, dengan fokus pada penanganan sumber daya font yang efisien dan integrasi yang mulus.
+Pelajari cara mengoptimalkan konversi PDF ke HTML menggunakan Aspose.PDF .NET, dengan fokus pada penanganan sumber daya font yang efisien dan integrasi yang mulus.
 ### [Konversi PDF ke HTML Menggunakan Aspose.PDF .NET: Menyimpan Gambar sebagai PNG Eksternal](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke HTML dengan gambar PNG eksternal menggunakan Aspose.PDF .NET. Panduan ini memastikan pelestarian tata letak dan pengoptimalan kinerja web.
 ### [Konversi PDF ke HTML dengan Aspose.PDF .NET: Panduan Lengkap](./aspose-pdf-net-pdf-to-html-conversion/)
@@ -212,7 +212,9 @@ Pelajari cara mengonversi PDF ke HTML dengan cepat menggunakan Aspose.Pdf dalam 
 ### [Cara Mengekspor DOCX – Panduan Langkah demi Langkah untuk Pengembang C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 Pelajari cara mengekspor dokumen DOCX menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
 ### [Mengonversi docx ke html dalam C# – Panduan Pemrograman Lengkap](./convert-docx-to-html-in-c-complete-programming-guide/)
-Panduan lengkap untuk mengonversi file docx menjadi HTML menggunakan C# dan Aspose.PDF.
+
+### [Cara mengonversi PDF ke PDFX dalam C# – panduan langkah demi langkah](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+Pelajari cara mengonversi PDF ke format PDF/X menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah.
 
 ### [Mengonversi docx ke png dalam C# – Panduan Lengkap](./convert-docx-to-png-in-c-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi gambar PNG menggunakan C# dan Aspose.PDF dengan contoh kode lengkap.

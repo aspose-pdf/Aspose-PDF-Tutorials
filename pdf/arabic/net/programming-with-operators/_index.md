@@ -32,6 +32,7 @@
 | [إنشاء قاموس PDF فارغ في C# باستخدام Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | تعلم كيفية إنشاء قاموس PDF فارغ باستخدام Aspose.Pdf في C# لتخصيص ملفات PDF بسهولة. |
 | [كيفية إنشاء حالة رسومية فارغة في ملف PDF باستخدام C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | تعلم كيفية إنشاء حالة رسومية فارغة في PDF باستخدام Aspose.PDF لـ .NET مع C#. |  
 | [كيفية تغيير شفافية PDF باستخدام Aspose.Pdf في C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | تعلم كيفية تعديل شفافية عناصر PDF باستخدام Aspose.Pdf في C# خطوة بخطوة. |
+| [كيفية تغيير شفافية PDF في C# باستخدام Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | تعلم كيفية تعديل شفافية ملفات PDF باستخدام Aspose.PDF لـ .NET في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

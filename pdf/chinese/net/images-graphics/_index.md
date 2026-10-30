@@ -54,6 +54,9 @@
 ### [使用 C# 向 PDF 添加矩形：分步指南](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Aspose.PDF Net 代码教程
 
+### [如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加矩形：分步指南](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加矩形。
+
 ### [使用 .NET 中的 Aspose.PDF 创建自定义 PDF 图章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
 

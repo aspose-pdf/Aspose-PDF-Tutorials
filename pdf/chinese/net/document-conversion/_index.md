@@ -28,7 +28,8 @@
 | [EPUB 转 PDF](./epub-to-pdf/) 学习如何使用 Aspose.PDF for .NET 将 EPUB 转换为 PDF，本指南一步步讲解。简单高效，适合所有用户。|  
 | [获取 SVG 尺寸](./get-svg-dimensions/) 学习如何使用 Aspose.PDF for .NET 将 SVG 文件转换为 PDF，本指南一步步讲解。非常适合需要处理 PDF 文件的开发人员。|  
 | [HTML 转 PDF](./html-to-pdf/) | 通过本全面的分步指南了解如何使用 Aspose.PDF for .NET 将 HTML 转换为 PDF。|  
-| [将 PDF 保存为 HTML – 保持矢量并禁用光栅化](./save-pdf-as-html-keep-vectors-disable-rasterization/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，保持矢量内容并禁用光栅化。|  
+| [将 PDF 保存为 HTML – 保持矢量并禁用光栅化](./save-pdf-as-html-keep-vectors-disable-rasterization/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，保持矢量内容并禁用光栅化。|
+| [使用 Aspose.PDF 将 PDF 保存为不含图像的 HTML](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | 通过本分步指南了解如何使用 Aspose.PDF 将 PDF 转换为不包含图像的 HTML 文件。|
 | [Markdown 转 PDF](./markdown-to-pdf/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 Markdown 转换为 PDF。非常适合希望简化文档转换的开发人员。|  
 | [MHT 转 PDF](./mht-to-pdf/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 MHT 文件转换为 PDF。轻松高效的文档转换。|  
 | [根据图像尺寸调整页面方向](./page-orientation-according-image-dimensions/) 在本分步指南中了解如何使用 Aspose.PDF for .NET 创建 PDF，并根据图像尺寸设置页面方向。|  
@@ -94,7 +95,7 @@
 | [使用 Aspose.PDF 将 PDF 转换为 HTML – 分步指南](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 文件转换为 HTML。|
 | [Aspose PDF 转换（C#）– 将 PDF 转换为 PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4，适用于 ASP.NET 项目。|  
 | [PDF 格式转换教程 – 使用 Aspose 在 C# 中将 PDF 转换为 PDF/X‑4](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文件转换为 PDF/X‑4，适用于 ASP.NET 项目。|  
-| [PDF 格式转换教程 – 在 C# 中将 PDF 转换为 PDF/X-4](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X-4。|  
+| [PDF 格式转换教程 – 在 C# 中将 PDF 转换为 PDF/X-4](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文件转换为 PDF/X-4。|  
 | [从 Word 创建 HTML – 将 DOCX 转换为 HTML 的完整指南](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 DOCX 文档转换为 HTML。|
 | [Aspose PDF 教程：在 C# 中加载并将 PDF 转换为 PDF/X‑4](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中加载 PDF 并将其转换为 PDF/X‑4。|  
 | [将 PDF 转换为 PDF/X-1a – 完整分步指南](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为符合 PDF/X‑1a 标准的 PDF。|  

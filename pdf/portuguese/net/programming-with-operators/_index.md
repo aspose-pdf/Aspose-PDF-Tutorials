@@ -32,6 +32,7 @@ Os tutoriais "Programação com Operadores" do Aspose.PDF para .NET guiam você 
 | [Criar dicionário PDF vazio em C# com Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Aprenda a criar um dicionário PDF vazio usando Aspose.Pdf para .NET em C# neste tutorial passo a passo. |  
 | [Como criar um estado gráfico vazio em um PDF com C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Aprenda a criar um estado gráfico vazio em um PDF usando C# e Aspose.PDF. |  
 | [Como alterar a transparência de PDF usando Aspose.Pdf em C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Aprenda a mudar a transparência de elementos em PDFs usando Aspose.Pdf para .NET em C#. |  
+| [Como alterar a transparência de PDF em C# com Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Aprenda a modificar a transparência de elementos em PDFs usando Aspose.PDF para .NET em C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

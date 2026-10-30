@@ -276,7 +276,10 @@ Dowiedz się, jak zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C#, krok
 Dowiedz się, jak konwertować dokumenty PDF na obrazy TIFF za pomocą Aspose.PDF dla .NET. Opanuj niestandardowe głębie kolorów i zaawansowane techniki przetwarzania obrazu.
 
 ### [Konwertuj PDF do PDF/X-1a, wyeksportuj stronę PNG i dodaj znak tekstowy](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
-Dowiedz się, jak konwertować dokument PDF do formatu PDF/X-1a, zapisywać wybraną stronę jako PNG oraz dodawać znak tekstowy przy użyciu Aspose.PDF dla .NET.
+Dowiedz się, jak konwertować dokument PDF do formatu PDF/X‑1a, zapisywać wybraną stronę jako PNG oraz dodawać znak tekstowy przy użyciu Aspose.PDF dla .NET.
+
+### [Jak przekonwertować PDF na PDFX w C# – przewodnik krok po kroku](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+Samouczek krok po kroku, jak w C# przekonwertować plik PDF do formatu PDF/X przy użyciu Aspose.PDF.
 
 ### [Jak zapisać PDF przy użyciu Aspose – przewodnik krok po kroku](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Dowiedz się, jak zapisać dokument PDF przy użyciu Aspose w prostych krokach, wykorzystując C# i .NET.

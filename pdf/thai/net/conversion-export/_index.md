@@ -241,7 +241,7 @@
 ### [การแปลง PDFเป็น HTMLโดยใช้ Aspose.PDF .NET: บันทึกรูปภาพเป็น PNG ภายนอก](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDFเป็น HTMLด้วยรูปภาพ PNG ภายนอกโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้จะช่วยรักษาเค้าโครงและเพิ่มประสิทธิภาพการทำงานของเว็บ
 
-### [การแปลง PDFเป็น HTMLด้วย Aspose.PDF .NET: คู่มือที่ครอบคลุม](./aspose-pdf-net-pdf-to-html-conversion/)
+### [การแปลง PDFเป็น HTMLโดยใช้ Aspose.PDF .NET: คู่มือที่ครอบคลุม](./aspose-pdf-net-pdf-to-html-conversion/)
 เรียนรู้การแปลง PDFเป็น HTMLโดยใช้ Aspose.PDF สำหรับ .NET เพิ่มการเข้าถึงและการมีส่วนร่วมของเอกสารด้วยตัวเลือกที่ปรับแต่งได้
 ### [บันทึก PDF เป็น HTML ด้วย Aspose.Pdf – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างละเอียดด้วย Aspose.Pdf ใน C# พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
@@ -264,16 +264,12 @@
 ### [วิธีบันทึก PDF ด้วย Aspose – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF ด้วย Aspose อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 
-### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
-เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างครบถ้วนด้วย Aspose.PDF สำหรับ .NET และ C#
-
 ### [วิธีส่งออก DOCX – คู่มือขั้นตอนสำหรับนักพัฒนา C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 ### [บันทึก PDF เป็น HTML ด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-with-aspose-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ด้วย Aspose.NET ด้วยคู่มือ C# ครบถ้วน
 
 ### [บันทึก PDF เป็น HTML ด้วย C# – คู่มือขั้นตอนเต็ม](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ด้วย C# ผ่านคู่มือขั้นตอนเต็มที่ครอบคลุม
-
 
 ### [แปลง PDF เป็น PDF/X-1a, ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความ](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 เรียนรู้วิธีแปลง PDF เป็น PDF/X‑1a ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความด้วย Aspose.PDF สำหรับ .NET
@@ -300,6 +296,8 @@
 
 
 ### [วิธีข้ามการส่งออกรูปภาพใน PDF ไปเป็น HTML – คู่มือ C# ฉบับสมบูรณ์](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+### [วิธีแปลง PDF เป็น PDFX ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X อย่างมืออาชีพด้วย C# โดยใช้ Aspose.PDF .NET พร้อมขั้นตอนและตัวอย่างโค้ด
 
 ## แหล่งข้อมูลเพิ่มเติม
 
@@ -310,6 +308,8 @@
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 ### [แปลงหน้า PDF เป็นรูปภาพด้วย Aspose.PDF ใน .NET](./convert-pdf-pages-to-images-aspose-dotnet/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
+### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างครบถ้วนด้วย Aspose.PDF สำหรับ .NET และ C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

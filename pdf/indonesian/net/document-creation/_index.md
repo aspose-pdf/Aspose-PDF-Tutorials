@@ -118,6 +118,7 @@ Pelajari cara membuat dokumen PDF dengan menambahkan halaman kosong dan menggamb
 Pelajari cara membuat dokumen PDF menggunakan Aspose.Pdf di C# dengan contoh kode lengkap.
 ### [Buat Paragraf PDF dengan Aspose: Tambahkan Grafik dan Sisipkan Halaman](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Pelajari cara membuat paragraf PDF, menambahkan grafik, dan menyisipkan halaman menggunakan Aspose.PDF untuk .NET.
+### [Cara Membuat Klien OpenAI dan Menghasilkan Ringkasan PDF dalam C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 
 ## Sumber Daya Tambahan
 
