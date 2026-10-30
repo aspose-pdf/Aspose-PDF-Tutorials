@@ -29,6 +29,7 @@ Aspose.PDFs handledningar "Programmering med text" för .NET erbjuder ett omfatt
 | [Lägg till verktygstips till text i PDF-fil](./add-tooltip-to-text/) | Lär dig hur du lägger till verktygstips i text i PDF-filer med Aspose.PDF för .NET. Förbättra dina PDF-filer med informativa hovertexter utan ansträngning. |
 | [Lägg till transparent text i PDF-fil](./add-transparent-text/) | Lär dig hur du enkelt lägger till transparent text i en PDF med Aspose.PDF för .NET med den här omfattande guiden. Steg-för-steg-instruktioner för att uppnå perfekt transparens. |
 | [Lägg till Bates-nummer i PDF – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Lär dig hur du lägger till Bates-nummer i PDF-dokument med Aspose.PDF för .NET. Steg-för-steg-guide med kodexempel. |
+| [Lägg till Bates-nummerering i PDF med Aspose.PDF i C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Lär dig hur du lägger till Bates-nummerering i PDF-dokument med Aspose.PDF för .NET i C#. |
 | [Skapa PDF med flera kolumner](./create-multi-column-pdf/) | Lär dig hur du skapar PDF-filer med flera kolumner med Aspose.PDF för .NET. En steg-för-steg-guide med kodexempel och detaljerade förklaringar. Perfekt för proffs. |
 | [Anpassade tabbstopp i PDF-fil](./custom-tab-stops/) | Lär dig hur du konfigurerar anpassade tabbstopp i en PDF med Aspose.PDF för .NET. Den här handledningen beskriver steg-för-steg-instruktioner för att justera text professionellt. |
 | [Bestäm radbrytning i PDF-fil](./determine-line-break/) | Lär dig hur du identifierar radbrytningar i PDF-dokument med Aspose.PDF för .NET. En steg-för-steg-handledning för utvecklare. |
@@ -74,6 +75,7 @@ Aspose.PDFs handledningar "Programmering med text" för .NET erbjuder ett omfatt
 | [Använd Latex-skript i PDF-fil](./use-latex-script/) | Lär dig hur du använder Latex-skript för att lägga till matematiska uttryck eller formler i PDF-filer med Aspose.PDF för .NET. |
 | [Skapa Span-element i Word med C# – Komplett guide](./create-span-element-in-word-with-c-complete-guide/) | Lär dig hur du skapar ett Span-element i ett Word-dokument med C# i en komplett steg-för-steg-guide. |
 | [Skapa sammanfattnings-PDF med Aspose.Pdf.AI i C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Lär dig skapa en sammanfattnings-PDF med Aspose.Pdf.AI i C# med steg-för-steg-instruktioner. |
+| [Hur man lägger till text i PDF med Aspose.PDF i C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Lär dig hur du lägger till text i en PDF med Aspose.PDF i C# med steg-för-steg‑exempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

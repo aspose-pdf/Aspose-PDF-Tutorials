@@ -71,6 +71,8 @@
 | [在 C# 中設定 PDF 轉換選項 – Aspose 指南](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) |了解如何在 C# 中使用 Aspose.PDF for .NET 設定 PDF 轉換選項，以取得最佳輸出效果。 |
 | [Aspose PDF 教學：在 C# 中將 PDF 轉換為 PDF/X‑4](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
 | [載入 PDF 文件 C# – 使用 Aspose 轉換為 PDF/X‑4](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) |了解如何在 C# 中載入 PDF 並使用 Aspose.PDF for .NET 轉換為 PDF/X‑4 格式。 |
+| [載入 PDF 文件 C# – 使用 Aspose 轉換為 PDF/X‑4](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 載入 PDF 並將其轉換為 PDF/X‑4 格式的完整步驟。 |
+| [載入 PDF 文件並使用 Aspose.PDF 轉換為 PDF/X‑4](./load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 載入 PDF 並轉換為 PDF/X‑4。 |
 | [Aspose PDF 轉換於 C#：載入、轉換為 PDF/X-4、儲存](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) |了解如何使用 Aspose.PDF for .NET 在 C# 中載入文件、轉換為 PDF/X‑4 並儲存。 |
 | [建立 span 元素並新增至頁面 – 將 DOCX 轉換為 PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中建立 span 元素並將 DOCX 轉換為 PDF。 |
 | [在 C# 中開啟 PDF 文件 – 轉換為 PDF/X‑4 以列印](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) |透過本逐步指南了解如何在 C# 中開啟 PDF 並將其轉換為適合列印的 PDF/X‑4 格式。 |
@@ -104,7 +106,6 @@
 | [如何使用 Aspose.Pdf 轉換 PDF – 完整 C# 指南](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |透過本完整 C# 教學了解如何使用 Aspose.PDF 轉換 PDF 為其他格式，涵蓋程式碼範例與最佳實踐。 |  
 | [Aspose PDF 轉換（C#）- 逐步指南](./aspose-pdf-conversion-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中執行 PDF 轉換。 |  
 | [PDF 轉 PDF/X‑4](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X‑4。 |  
-| [載入 PDF 文件 C# – 轉換為 PDF/X-4 步驟指南](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 載入 PDF 並將其轉換為 PDF/X-4 格式的完整步驟。 |  
 | [Aspose PDF 轉 HTML（C#）完整指南](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML。 |  
 | [將 PDF 另存為 HTML – 保留向量並停用點陣化](./save-pdf-as-html-keep-vectors-disable-rasterization/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 另存為 HTML，保留向量圖形並停用點陣化。 |  
 | [如何使用 Aspose 儲存 PDF – 完整 C# 轉換指南](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 以 C# 將檔案儲存為 PDF，涵蓋步驟與最佳實踐。 |  

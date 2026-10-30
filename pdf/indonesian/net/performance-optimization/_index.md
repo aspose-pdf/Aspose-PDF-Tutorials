@@ -79,6 +79,8 @@ Pelajari cara mengoptimalkan PDF secara menyeluruh dengan Aspose.Pdf melalui pan
 
 ### [Cara Mengoptimalkan PDF di .NET – Kompres PDF di .NET Langkah demi Langkah](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 Pelajari cara mengompres PDF di .NET secara efisien dengan langkah demi langkah, meningkatkan ukuran file dan performa aplikasi.
+### [Cara Mengoptimalkan PDF menggunakan Aspose.Pdf di C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Pelajari cara mengoptimalkan PDF menggunakan Aspose.Pdf di C# dengan teknik efisien untuk mengurangi ukuran dan meningkatkan kinerja.
 
 ## Sumber Daya Tambahan
 

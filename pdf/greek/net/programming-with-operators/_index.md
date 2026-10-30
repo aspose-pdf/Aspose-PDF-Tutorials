@@ -33,6 +33,7 @@
 | [Πώς να δημιουργήσετε κενή κατάσταση γραφικών σε PDF με C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Μάθετε πώς να δημιουργήσετε μια κενή κατάσταση γραφικών σε PDF χρησιμοποιώντας C# και Aspose.PDF. |
 | [Πώς να αλλάξετε τη διαφάνεια PDF χρησιμοποιώντας Aspose.Pdf σε C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Μάθετε πώς να ρυθμίσετε τη διαφάνεια σε έγγραφα PDF με Aspose.Pdf για .NET σε C#. |  
 | [Πώς να αλλάξετε τη διαφάνεια PDF σε C# με το Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Μάθετε πώς να ρυθμίσετε τη διαφάνεια των στοιχείων PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C#. |
+| [Πώς να προσθέσετε κατάσταση γραφικών PDF χρησιμοποιώντας Aspose.PDF σε C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Μάθετε πώς να προσθέσετε κατάσταση γραφικών σε PDF με Aspose.PDF για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

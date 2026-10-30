@@ -96,6 +96,11 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Mengonversi PDF dengan Aspose – Panduan Lengkap Langkah‑per‑Langkah](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose dengan panduan langkah demi langkah yang lengkap dan mudah diikuti. Bahasa Indonesia:  
 | [Mengonversi PDF ke PDFX dengan Aspose.Pdf – Panduan Lengkap](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Pelajari cara mengonversi file PDF ke PDF/X menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang lengkap. Bahasa Indonesia: |
 | [Cara menyematkan profil ICC dan mengonversi PDF ke PDF/X-1 dengan Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Pelajari cara menyematkan profil ICC ke PDF dan mengonversinya ke PDF/X-1 menggunakan Aspose.Pdf untuk .NET. |
+| [Muat dokumen PDF dan konversi ke PDF/X‑4 dengan Aspose.PDF](./load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf/) | Pelajari cara memuat dokumen PDF dan mengonversinya ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah. |
+
+
+
+
 | [Aspose PDF conversion: Konversi PDF ke PDF/X‑4 dengan C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |  
 | [Atur Profil ICC Saat Mengonversi Word ke PDF – Panduan Lengkap C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Pelajari cara mengatur profil ICC saat mengonversi dokumen Word ke PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C# ini. Bahasa Indonesia:  
 | [Tambahkan profil ICC dan konversi PDF ke PDF/X‑4 – Panduan C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Pelajari cara menambahkan profil ICC dan mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan panduan C# langkah demi langkah. |
@@ -117,5 +122,4 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

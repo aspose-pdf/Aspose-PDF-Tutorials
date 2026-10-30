@@ -33,6 +33,7 @@ Az Aspose.PDF for .NET „Operátorokkal való programozás” című oktatóany
 | [Üres grafikus állapot létrehozása PDF-ben C#-val](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Ismerd meg, hogyan hozhatsz létre üres grafikus állapotot PDF-ben C# használatával az Aspose.PDF for .NET segítségével. |  
 | [PDF átlátszóság módosítása Aspose.Pdf használatával C#-ban](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Ismerje meg, hogyan állíthatja be a PDF átlátszóságát Aspose.Pdf segítségével C# nyelven. |  
 | [Hogyan változtassuk meg a PDF átlátszóságát C#-ban az Aspose.PDF segítségével](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Ismerje meg, hogyan állíthatja be a PDF átlátszóságát C#-ban az Aspose.PDF használatával. |  
+| [Grafikus állapot hozzáadása PDF-hez Aspose.PDF használatával C#-ban](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Ismerje meg, hogyan adhat hozzá grafikus állapotot egy PDF-hez C#-ban az Aspose.PDF segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

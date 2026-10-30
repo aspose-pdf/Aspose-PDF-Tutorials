@@ -46,6 +46,9 @@ Aprenda a desenhar retângulos em documentos PDF usando Aspose.PDF para .NET com
 ### [Adicionar retângulo a PDF com C# – guia passo a passo](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Aprenda a adicionar um retângulo a um documento PDF usando C# e Aspose.PDF para .NET. Guia completo com exemplos de código.
 
+
+### [Como adicionar retângulo a PDF em C# com Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+
 ### [Crie carimbos PDF personalizados com Aspose.PDF no .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Um tutorial de código para Aspose.PDF Net
 

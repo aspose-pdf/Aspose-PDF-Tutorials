@@ -43,6 +43,8 @@ Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidat obdélník do PDF dokum
 Naučte se, jak pomocí Aspose.PDF v .NET přidat obdélník do PDF souboru s podrobným kódem C#.
 ### [Jak přidat obdélník do PDF pomocí Aspose.PDF v C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 Podrobný návod, jak v C# pomocí Aspose.PDF vytvořit a vložit obdélník do PDF souboru.
+### [Jak přidat obdélník do PDF v C# pomocí Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidat obdélník do PDF souboru.
 
 ### [Vytvořte si vlastní PDF razítka s Aspose.PDF v .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Výukový program pro kódování Aspose.PDF Net

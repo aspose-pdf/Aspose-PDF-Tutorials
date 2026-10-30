@@ -62,33 +62,17 @@
 | [Импорт FDF в PDF с C# – Полное пошаговое руководство](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Узнайте, как импортировать файлы FDF в PDF с помощью C# и Aspose.PDF для .NET в этом полном пошаговом руководстве. |
 | [Сохранить PDF-документ с Aspose.PDF – полное руководство](./save-pdf-document-with-aspose-pdf-complete-guide/) | Узнайте, как полностью сохранить PDF-документ с помощью Aspose.PDF для .NET в этом подробном руководстве. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+| [Как создать PDF‑документ с интерактивными полями формы в C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Узнайте, как создавать PDF‑документы с интерактивными полями формы на C# с помощью Aspose.PDF. |
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Как создать PDF с Aspose – Добавить поле в коллекцию](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Узнайте, как добавить поле в коллекцию при создании PDF с помощью Aspose.PDF для .NET. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Создать PDF‑документ с несколькими виджетами TextBox – пошаговое руководство](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Узнайте, как создавать PDF‑документы с несколькими виджетами TextBox, используя Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Добавить номера Бейтса в PDF – пошаговое руководство C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Узнайте, как добавить номера Бейтса в PDF‑файлы с помощью Aspose.PDF для .NET на C# в этом пошаговом руководстве. |
@@ -99,6 +83,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

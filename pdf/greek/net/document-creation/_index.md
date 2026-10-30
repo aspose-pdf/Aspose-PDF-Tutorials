@@ -90,6 +90,7 @@
 
 ### [Κατακτήστε τη δημιουργία φυλλαδίων PDF με το Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
+
 ### [Δημιουργία εγγράφου PDF – Προσθήκη σελίδας σε PDF, ετικέτα επικεφαλίδας και τοποθέτηση στοιχείων](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
 Μάθετε πώς να δημιουργήσετε έγγραφο PDF, να προσθέσετε σελίδα, να ορίσετε ετικέτα επικεφαλίδας και να τοποθετήσετε στοιχεία με το Aspose.PDF για .NET.
 
@@ -138,6 +139,8 @@
 ### [Δημιουργία παραγράφου PDF με Aspose: προσθήκη γραφικών και εισαγωγή σελίδας](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Μάθετε πώς να δημιουργήσετε παράγραφο PDF, να προσθέσετε γραφικά και να εισάγετε σελίδες με Aspose.PDF για .NET.
 ### [Πώς να δημιουργήσετε πελάτη OpenAI και να δημιουργήσετε σύνοψη PDF σε C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [Πώς να αρχικοποιήσετε τον πελάτη OpenAI και να συνοψίσετε PDF με AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Μάθετε πώς να δημιουργήσετε έναν πελάτη OpenAI και να χρησιμοποιήσετε AI για σύνοψη αρχείων PDF με Aspose.PDF για .NET.
 
 ## Πρόσθετοι Πόροι
 

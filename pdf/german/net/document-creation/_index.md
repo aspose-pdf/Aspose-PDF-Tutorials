@@ -120,6 +120,8 @@ Ein Code‑Tutorial zum Erstellen eines PDF‑Dokuments in C# mit Aspose.PDF.
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Absätze erstellen, Grafiken hinzufügen und Seiten einfügen.
 ### [Wie man einen OpenAI-Client erstellt und eine PDF‑Zusammenfassung in C# generiert](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 Erfahren Sie, wie Sie mit OpenAI einen Client in C# erstellen und daraus eine PDF‑Zusammenfassung generieren.
+### [Wie man den OpenAI-Client initialisiert und PDFs mit KI zusammenfasst](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Erfahren Sie, wie Sie den OpenAI-Client initialisieren und PDFs mithilfe von KI zusammenfassen.
 
 ## Weitere Ressourcen
 

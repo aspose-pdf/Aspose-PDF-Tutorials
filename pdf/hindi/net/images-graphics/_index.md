@@ -204,6 +204,8 @@ Aspose.Pdf का उपयोग करके PDF में ExtGState सेट
 ### [Aspose.PDF के साथ कस्टम ExtGState PDF जोड़ें – चरण‑दर‑चरण गाइड](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF का उपयोग करके PDF में कस्टम ExtGState जोड़ने की प्रक्रिया सीखें। विस्तृत कोड उदाहरण और सर्वोत्तम अभ्यास।
 ### [.NET के लिए Aspose.PDF के साथ PDF अपारदर्शिता सेट करें – संपूर्ण गाइड](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+### [C# के साथ Aspose.PDF का उपयोग करके PDF में आयत कैसे जोड़ें](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+C# में Aspose.PDF का उपयोग करके PDF दस्तावेज़ में आयत जोड़ने की चरण‑दर‑स्टेप गाइड।
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके ग्राफ़िक्स स्टेट PDF जोड़ें: एक चरण-दर-स्टेप मार्गदर्शिका](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 

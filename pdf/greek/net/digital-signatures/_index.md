@@ -143,6 +143,8 @@
 ### [Πώς να επαληθεύσετε PDF με το Aspose.PDF – έλεγχος εγκυρότητας υπογραφής PDF σε C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
 Μάθετε πώς να ελέγξετε την εγκυρότητα της ψηφιακής υπογραφής PDF χρησιμοποιώντας το Aspose.PDF σε C#.
 
+### [Πώς να εξάγετε υπογραφές από έγγραφο Word σε C#](./how-to-get-signatures-from-a-word-document-in-c/)
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

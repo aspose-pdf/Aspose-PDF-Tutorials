@@ -121,6 +121,7 @@ Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban az Aspose.Pdf használ
 Tanulja meg, hogyan hozhat létre bekezdés PDF-et, grafikai elemeket adhat hozzá, és oldalt szúrhat be az Aspose.PDF for .NET használatával.
 ### [OpenAI kliens létrehozása és PDF összefoglaló generálása C#-ban](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 Tanulja meg, hogyan hozhat létre OpenAI klienst és generálhat PDF összefoglalót C#-ban az Aspose.PDF segítségével.
+### [Hogyan inicializáljuk az OpenAI klienst és összefoglaljuk a PDF-et AI segítségével](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## További források
 

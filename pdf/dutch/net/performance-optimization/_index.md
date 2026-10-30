@@ -76,6 +76,8 @@ Leer hoe u PDF-bestanden volledig kunt optimaliseren met Aspose.PDF in deze stap
 ### [Hoe PDF te optimaliseren in .NET – PDF comprimeren in .NET stap voor stap](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 Leer hoe u PDF-bestanden in .NET kunt comprimeren met stapsgewijze instructies voor optimale bestandsgrootte en prestaties.
 
+### [Hoe PDF te optimaliseren met Aspose.PDF in C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

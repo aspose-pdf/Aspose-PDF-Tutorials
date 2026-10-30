@@ -74,6 +74,10 @@
 | [Έλεγχος υπογραφών PDF με Aspose.Pdf – Πλήρης οδηγός](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε υπογραφές PDF χρησιμοποιώντας το Aspose.Pdf σε πλήρη οδηγό βήμα προς βήμα. |  
 | [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα οδηγίες. |
 | [Πώς να επικυρώσετε υπογραφές PDF με Aspose.PDF σε C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Μάθετε πώς να επικυρώνετε υπογραφές PDF χρησιμοποιώντας Aspose.PDF σε C#. |
+| [Πώς να επικυρώσετε υπογραφές PDF με Αρχή Πιστοποίησης σε C#](./how-to-validate-pdf-signatures-with-a-certificate-authority/) | Μάθετε πώς να επικυρώσετε ψηφιακές υπογραφές PDF χρησιμοποιώντας Αρχή Πιστοποίησης σε C#. |
+| [Αποθήκευση υπογεγραμμένου PDF με προσαρμοσμένη ψηφιακή υπογραφή σε C#](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | Μάθετε πώς να αποθηκεύετε PDF με προσαρμοσμένη ψηφιακή υπογραφή χρησιμοποιώντας C# και Aspose.PDF. |
+| [Πώς να επικυρώσετε υπογραφές PDF χρησιμοποιώντας Aspose.PDF σε C#](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Μάθετε πώς να επικυρώνετε υπογραφές PDF με Aspose.PDF σε C# με βήμα‑βήμα οδηγίες. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

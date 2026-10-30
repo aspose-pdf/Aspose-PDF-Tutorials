@@ -74,6 +74,8 @@
 | [إنشاء عنصر Span في Word باستخدام C# – دليل كامل](./create-span-element-in-word-with-c-complete-guide/) | تعلم كيفية إنشاء عنصر Span في مستندات Word باستخدام C# خطوة بخطوة مع أمثلة عملية. |  
 | [إنشاء ملخص PDF باستخدام Aspose.Pdf.AI و OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | تعلم كيفية توليد ملخص لمستند PDF باستخدام Aspose.Pdf.AI وتكامل OpenAI للذكاء الاصطناعي. |
 | [كيفية إنشاء ملخص PDF باستخدام Aspose.Pdf.AI في C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | تعلم كيفية إنشاء ملف PDF ملخص باستخدام Aspose.Pdf.AI في C# خطوة بخطوة. |
+| [إضافة ترقيم بياتس إلى PDF باستخدام Aspose.PDF في C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | تعلم كيفية إضافة ترقيم بياتس إلى ملفات PDF باستخدام Aspose.PDF مع C# خطوة بخطوة. |
+| [كيفية إضافة نص إلى PDF باستخدام Aspose.PDF في C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | تعلم كيفية إضافة نص إلى ملفات PDF باستخدام Aspose.PDF في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

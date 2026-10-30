@@ -63,6 +63,7 @@
 | [تحويل PDF إلى PDF/X‑4 باستخدام Aspose – دليل خطوة بخطوة](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |  
 | [دليل Aspose PDF: تحويل PDF إلى PDF/X‑4 باستخدام C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |
 | [تحميل مستند PDF C# – التحويل إلى PDF/X‑4 باستخدام Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) |تعلم كيفية تحميل مستند PDF باستخدام C# وتحويله إلى صيغة PDF/X‑4 باستخدام مكتبة Aspose.PDF. |
+| [تحميل مستند PDF وتحويله إلى PDF/X‑4 باستخدام Aspose.PDF](./load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf/) |تعلم كيفية تحميل مستند PDF وتحويله إلى صيغة PDF/X‑4 باستخدام مكتبة Aspose.PDF لـ .NET خطوة بخطوة. |
 | [فتح مستند PDF C# – التحويل إلى PDF/X‑4 للطباعة](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) |تعلم كيفية فتح مستند PDF وتحويله إلى صيغة PDF/X‑4 للطباعة باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
 | [تحويل PDF إلى PDF/X‑4 باستخدام C#](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |  
 | [دليل تحويل تنسيق PDF – تحويل PDF إلى PDF/X‑4 باستخدام Aspose في C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |  
@@ -111,7 +112,7 @@
 | [تحويل PDF إلى PDF/X‑4 باستخدام Aspose PDF في C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) |تعلم كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET مع لغة C# في هذا الدليل خطوة بخطوة. |
 | [تحويل PDF إلى PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/X-4 باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة. |
 | [إضافة ملف تعريف ICC وتحويل PDF إلى PDF/X‑4 – دليل C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) |تعرف على كيفية إضافة ملف تعريف ICC وتحويل ملفات PDF إلى PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل C# خطوة بخطوة. |  
-| [تحميل مستند PDF C# – التحويل إلى PDF/X-4 دليل خطوة بخطوة](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |تعرف على كيفية تحميل مستند PDF باستخدام C# وتحويله إلى صيغة PDF/X-4 باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [تحميل مستند PDF C# – التحويل إلى PDF/X‑4 دليل خطوة بخطوة](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |تعرف على كيفية تحميل مستند PDF باستخدام C# وتحويله إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [تحويل Aspose PDF إلى HTML باستخدام C# – دليل شامل](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET مع دليل خطوة بخطوة شامل. |
 | [كيفية تحويل PDF باستخدام Aspose.Pdf – دليل C# كامل](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose.Pdf في دليل شامل بلغة C# خطوة بخطوة. |
 | [كيفية حفظ PDF باستخدام Aspose – دليل C# الكامل](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |تعرف على كيفية حفظ ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة بلغة C#. |  

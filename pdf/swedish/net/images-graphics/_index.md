@@ -45,6 +45,8 @@ Lär dig hur du validerar PDF-filer och lägger till en rektangel med Aspose.PDF
 Lär dig steg för steg hur du skapar och anpassar rektanglar i PDF-dokument med Aspose.PDF för .NET.
 ### [Lägg till rektangel i PDF med C# – steg‑för‑steg‑guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Lär dig hur du lägger till en rektangel i en PDF med C# i en steg‑för‑steg‑guide.
+### [Hur man lägger till en rektangel i PDF med C# – En steg‑för‑steg‑guide](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Lär dig hur du lägger till en rektangel i PDF-dokument med C# och Aspose.Pdf i denna detaljerade guide.
 
 ### [Hur du lägger till en rektangel i PDF med Aspose.PDF i C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 Lär dig steg för steg hur du lägger till en rektangel i PDF-dokument med Aspose.PDF för .NET och C#.

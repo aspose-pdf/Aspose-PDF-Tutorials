@@ -34,6 +34,7 @@ Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama
 | [Determinar quebra de linha em arquivo PDF](./determine-line-break/) | Aprenda a determinar quebras de linha em documentos PDF usando o Aspose.PDF para .NET. Um tutorial passo a passo para desenvolvedores. |
 | [Incorporar fontes padrão tipo 1 em arquivo PDF](./embed-standard-type-1fonts/) | Aprenda como incorporar fontes Tipo 1 Padrão em arquivos PDF usando o Aspose.PDF para .NET com este guia passo a passo para melhorar a acessibilidade do seu documento. |
 | [Extrair texto de colunas em arquivo PDF](./extract-columns-text/) | Aprenda a extrair colunas de texto de arquivos PDF usando o Aspose.PDF para .NET. Este guia detalha cada etapa com exemplos de código e explicações. |
+| [Como adicionar texto PDF com Aspose.PDF em C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Aprenda a adicionar texto a arquivos PDF usando Aspose.PDF para .NET em C# com este tutorial passo a passo. |
 | [Extrair parágrafos em arquivo PDF](./extract-paragraphs/) | Aprenda a extrair parágrafos de arquivos PDF usando o Aspose.PDF para .NET neste tutorial fácil de seguir. Perfeito para desenvolvedores de todos os níveis. |   
 | [Extrair texto inteiro em arquivo PDF](./extract-text-all/) |Aprenda a extrair facilmente texto de arquivos PDF usando o Aspose.PDF para .NET com este tutorial passo a passo.|
 | [Extrair texto da região da página em arquivo PDF](./extract-text-from-page-region/) | Aprenda a extrair texto de uma região específica em um PDF usando o Aspose.PDF para .NET com este guia passo a passo. Reúna e salve texto de seus documentos com eficiência. |
@@ -74,6 +75,8 @@ Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama
 | [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |  
 | [Criar elemento Span no Word com C# – Guia completo](./create-span-element-in-word-with-c-complete-guide/) | Aprenda a criar um elemento Span em documentos Word usando C# com este guia passo a passo completo. |  
 | [Gerar resumo de PDF com Aspose.Pdf.AI e OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aprenda a gerar um resumo de documentos PDF usando Aspose.Pdf.AI integrado ao OpenAI. |  
+| [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbering-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |
+| [Adicionar numeração Bates ao PDF usando Aspose.PDF em C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Aprenda a adicionar numeração Bates a documentos PDF usando Aspose.PDF para .NET em C# com este guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

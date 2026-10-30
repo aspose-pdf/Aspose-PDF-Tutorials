@@ -114,6 +114,8 @@ Hướng dẫn cách tạo tài liệu PDF với trang trắng và hình chữ n
 Hướng dẫn tạo tài liệu PDF bằng C# sử dụng Aspose.Pdf.
 ### [Cách tạo client OpenAI và tạo bản tóm tắt PDF bằng C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 Hướng dẫn tạo client OpenAI và tạo bản tóm tắt PDF bằng C# sử dụng Aspose.PDF.
+### [Cách khởi tạo client OpenAI và tóm tắt PDF bằng AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Hướng dẫn khởi tạo client OpenAI và sử dụng AI để tóm tắt nội dung PDF trong .NET.
 
 ## Tài nguyên bổ sung
 

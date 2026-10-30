@@ -61,6 +61,7 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 | [C# で FDF を PDF にインポート – 完全ステップバイステップ ガイド](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で FDF ファイルを PDF にインポートする方法をステップバイステップで解説します。 |  
 | [Aspose.PDF で PDF ドキュメントを保存する – 完全ガイド](./save-pdf-document-with-aspose-pdf-complete-guide/) Aspose.PDF を使用して PDF ドキュメントを保存する完全な手順を解説します。 |  
 | [C# で PDF フォームフィールドを作成する – ステップバイステップ ガイド](./create-pdf-form-field-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して C# で PDF フォームフィールドを作成する方法をステップバイステップで解説します。 |  
+| [C# でインタラクティブなフォームフィールドを持つ PDF ドキュメントを作成する方法](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) Aspose.PDF for .NET を使用して、C# でインタラクティブなフォームフィールド付き PDF を作成する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,7 +69,6 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -97,6 +96,4 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

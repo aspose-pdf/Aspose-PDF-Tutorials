@@ -23,6 +23,7 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | [Voeg een geordende HTML-lijst toe aan documenten](./add-html-ordered-list-into-documents/) | Leer hoe u geordende HTML-lijsten kunt toevoegen aan PDF-documenten met Aspose.PDF voor .NET. Ontdek stapsgewijze instructies in deze gedetailleerde tutorial. |  
 | [HTML toevoegen met behulp van DOM](./add-html-using-dom/) Leer in deze stapsgewijze tutorial hoe u HTML-inhoud toevoegt aan PDF-documenten met Aspose.PDF voor .NET. Verbeter uw PDF-bestanden eenvoudig met dynamische HTML-opmaak. |
 | [HTML toevoegen met DOM en PDF Overwrite](./add-html-using-dom-and-overwrite/) | Leer hoe u HTML-inhoud aan een PDF toevoegt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt alles, van de installatie tot de uiteindelijke opslag. |  
+| [Hoe tekst toevoegen aan PDF met Aspose.PDF in C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Leer hoe u tekst toevoegt aan een PDF-bestand met Aspose.PDF voor .NET in C#. |
 | [Volgende regels inspringen in PDF-bestand](./add-subsequent-lines-indent/) | Leer hoe u inspringing voor volgende regels toevoegt aan PDF-bestanden met Aspose.PDF voor .NET. Volg deze gedetailleerde stapsgewijze handleiding voor professionele tekstopmaak. |  
 | [Tekstrand toevoegen in PDF-bestand](./add-text-border/) | Leer hoe u een tekstrand toevoegt aan een PDF-bestand met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Verbeter uw PDF-documenten. |  
 | [Tekst met schaduwkleuren toevoegen in PDF-bestand](./add-text-with-shading-colors/) | Leer hoe u tekstarcering toevoegt aan PDF-bestanden met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Personaliseer uw documenten met kleurverlopen. |  
@@ -63,7 +64,7 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | [Zoek reguliere expressie in PDF-bestand](./search-regular-expression/) | Leer hoe u met Aspose.PDF voor .NET naar reguliere expressies in PDF-bestanden kunt zoeken in deze stapsgewijze tutorial. Verhoog uw productiviteit met regex. |  
 | [Zoek tekst en voeg hyperlink toe](./search-text-and-add-hyperlink/) | Leer hoe u tekst kunt zoeken en hyperlinks kunt toevoegen in PDF's met Aspose.PDF voor .NET met onze stapsgewijze zelfstudie. |  
 | [Zoek tekst en teken rechthoek](./search-text-and-draw-rectangle/) Leer hoe u tekst in PDF's kunt zoeken en markeren met rechthoeken met Aspose.PDF voor .NET! Eenvoudige stapsgewijze handleiding voor verbeterde PDF-bewerkingsvaardigheden. |  
-| [Zoek tekstsegmentenpagina in PDF-bestand](./search-text-segments-page/) | Leer hoe u tekstsegmenten in PDF-bestanden kunt zoeken met Aspose.PDF voor .NET met deze gedetailleerde stapsgewijze handleiding. Extraheer tekst, analyseer segmenten en meer. |  
+| [Zoektekstsegmentenpagina in PDF-bestand](./search-text-segments-page/) | Leer hoe u tekstsegmenten in PDF-bestanden kunt zoeken met Aspose.PDF voor .NET met deze gedetailleerde stapsgewijze handleiding. Extraheer tekst, analyseer segmenten en meer. |  
 | [Zoektekst met DotNet Regex](./search-text-with-dot-net-regex/) | Leer hoe u tekst in PDF's kunt zoeken met behulp van .NET Regex met Aspose.PDF. Volg onze stapsgewijze handleiding en vereenvoudig uw PDF-taken. |   
 | [Regelafstand in PDF-bestand specificeren](./specify-line-spacing/) | Leer hoe u de regelafstand in een PDF kunt specificeren met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die op zoek zijn naar nauwkeurige tekstopmaak. |  
 | [Tekstuitlijning voor zwevende vakinhoud in PDF-bestand](./text-alignment-for-floating-box-contents/) | Leer hoe u zwevende tekstvakken in PDF-bestanden kunt uitlijnen met Aspose.PDF voor .NET. Maak verbluffende documenten met professionele lay-outs. |  
@@ -74,6 +75,7 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | [Span-element maken in Word met C# – Complete gids](./create-span-element-in-word-with-c-complete-guide/) | Leer hoe u met C# een span-element in een Word-document maakt, inclusief volledige codevoorbeelden en stapsgewijze uitleg. |  
 | [PDF-samenvatting genereren met Aspose.Pdf.AI en OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Leer hoe u met Aspose.Pdf.AI en OpenAI een samenvatting van een PDF genereert. |  
 | [Hoe maak je een samenvattende PDF met Aspose.Pdf.AI in C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Leer hoe u met Aspose.Pdf.AI een samenvattende PDF maakt in C#. |  
+| [Bates-nummers toevoegen aan PDF met Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Leer hoe u Bates-nummers aan PDF-documenten kunt toevoegen met Aspose.PDF voor .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,7 @@ Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištěn�
 | [Kontrola PDF na podpisy – Jak vypsat podpisy v C# s Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Naučte se, jak v C# získat seznam digitálních podpisů v PDF souboru pomocí Aspose.PDF. |  
 | [Jak ověřit podpis v PDF pomocí C# – Kompletní průvodce Aspose](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Naučte se, jak ověřit digitální podpisy v PDF pomocí C# s kompletním návodem Aspose. |  
 | [Přidat digitální podpis PDF v C# – Kompletní průvodce krok za krokem](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak v C# přidat digitální podpis do PDF souboru pomocí Aspose.PDF krok za krokem. |  
+| [Uložit podepsaný PDF s vlastním digitálním podpisem v C#](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | Naučte se uložit podepsaný PDF soubor s vlastním digitálním podpisem pomocí Aspose.PDF pro .NET v C#. |  
 | [Kontrola podpisů PDF v C# – Rychlý průvodce ověřením digitálních podpisů](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Rychlý návod, jak v C# ověřit digitální podpisy PDF pomocí Aspose.PDF. |  
 | [Ověřit digitální podpis PDF v C# pomocí Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Naučte se, jak v C# ověřit digitální podpis PDF pomocí Aspose.PDF. |  
 | [Ověřit digitální podpis PDF v C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Naučte se, jak v C# ověřit digitální podpis PDF pomocí Aspose.PDF a zjistit jeho platnost. |  
@@ -73,6 +74,9 @@ Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištěn�
 | [Ověření PDF podpisu v C# s Aspose.PDF – kompletní průvodce](./verify-pdf-signature-in-c-with-aspose-pdf-complete-guide/) | Naučte se, jak v C# ověřit digitální podpis PDF pomocí Aspose.PDF, krok za krokem s praktickými ukázkami. |  
 | [Návod na podpis PDF: ověření digitálního podpisu PDF pomocí Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Naučte se, jak ověřit digitální podpis PDF pomocí Aspose.PDF v .NET. |  
 | [Vytvoření možností podpisu v C# – kompletní průvodce digitálním podepisováním](./create-signature-options-in-c-full-guide-to-digital-signing/) | Kompletní průvodce vytvořením možností digitálního podpisu v C# pomocí Aspose.PDF. |  
+| [Jak ověřit podpisy PDF a detekovat manipulaci v C#](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) | Naučte se, jak v C# ověřit podpisy PDF a zjistit, zda byl dokument pozměněn. |
+| [Jak ověřit podpisy PDF pomocí certifikační autority v C#](./how-to-validate-pdf-signatures-with-a-certificate-authority/) | Naučte se, jak ověřovat PDF podpisy pomocí certifikační autority v C# s Aspose.PDF. |
+| [Jak ověřit podpisy PDF pomocí Aspose.PDF v C#](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Naučte se, jak pomocí Aspose.PDF pro .NET ověřit podpisy PDF v jazyce C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

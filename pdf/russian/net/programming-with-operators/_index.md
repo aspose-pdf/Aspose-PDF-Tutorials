@@ -33,6 +33,7 @@
 | [Как создать пустое графическое состояние в PDF с помощью C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Узнайте, как создать пустое графическое состояние в PDF с использованием Aspose.PDF для .NET и C#. |
 | [Как изменить прозрачность PDF с помощью Aspose.Pdf в C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Узнайте, как изменить прозрачность элементов PDF с помощью Aspose.Pdf для .NET в C#. |  
 | [Как изменить прозрачность PDF в C# с Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Узнайте, как изменить прозрачность элементов PDF в C# с помощью Aspose.PDF. |
+| [Как добавить графическое состояние PDF с помощью Aspose.PDF в C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Узнайте, как добавить графическое состояние в PDF с помощью Aspose.PDF для .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

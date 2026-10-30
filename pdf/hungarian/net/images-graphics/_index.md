@@ -40,10 +40,14 @@ Ismerje meg, hogyan hozhat létre és helyezhet el téglalapokat PDF dokumentumo
 
 ### [Hogyan rajzoljunk téglalapot PDF-ben C#‑ban – Lépésről lépésre útmutató](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Tanuld meg, hogyan rajzolj téglalapokat PDF dokumentumokba C#‑ban az Aspose.PDF for .NET segítségével.
+
 ### [Téglalap hozzáadása PDF-hez C#-ban – Teljes Aspose PDF útmutató](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz C#-ban az Aspose.PDF segítségével.
 ### [Téglalap hozzáadása PDF-hez C#-ban – lépésről lépésre útmutató](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Tanuld meg, hogyan adhat hozzá egyszerű téglalapokat PDF-fájlokhoz C# és Aspose.PDF for .NET segítségével.
+
+### [Hogyan adjunk hozzá téglalapot PDF-hez C#-ban az Aspose.Pdf használatával](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Tanuld meg, hogyan hozhatsz létre téglalapokat PDF dokumentumokban C#-ban az Aspose.Pdf segítségével.
 
 ### [Egyéni PDF-bélyegzők létrehozása az Aspose.PDF segítségével .NET-ben](./create-custom-pdf-stamps-aspose-pdf-net/)
 Kód oktatóanyag az Aspose.PDF Nethez

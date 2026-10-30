@@ -74,6 +74,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Elemen Span di Word dengan C# – Panduan Lengkap](./create-span-element-in-word-with-c-complete-guide/) | Pelajari cara membuat elemen Span di dokumen Word menggunakan C# dengan panduan lengkap langkah demi langkah. Bahasa Indonesia:  
 | [Hasilkan Ringkasan PDF dengan Aspose.Pdf.AI dan OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Pelajari cara menghasilkan ringkasan PDF secara otomatis menggunakan Aspose.Pdf.AI dan OpenAI dalam tutorial langkah demi langkah. |
 | [Cara Membuat PDF Ringkasan dengan Aspose.Pdf.AI di C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Pelajari cara menghasilkan PDF ringkasan secara otomatis menggunakan Aspose.Pdf.AI dengan kode C#. |
+| [Tambahkan penomoran Bates ke PDF menggunakan Aspose.PDF dalam C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Pelajari cara menambahkan penomoran Bates ke PDF menggunakan Aspose.PDF dengan bahasa C#. Contoh kode langkah demi langkah disertakan. |
+| [Cara Menambahkan Teks PDF dengan Aspose.PDF di C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Pelajari cara menambahkan teks ke file PDF menggunakan Aspose.PDF dengan bahasa C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

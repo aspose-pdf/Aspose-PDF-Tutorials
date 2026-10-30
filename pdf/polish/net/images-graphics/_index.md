@@ -42,6 +42,8 @@ Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu Aspose.PDF w .NET.
 ### [Dodaj prostokąt do pliku PDF w C# – przewodnik krok po kroku](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Dowiedz się, jak wstawiać prostokąty do dokumentów PDF przy użyciu Aspose.PDF dla .NET i języka C# w kilku prostych krokach.
 
+### [Jak dodać prostokąt do PDF w C# przy użyciu Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+
 ### [Utwórz niestandardowe stemple PDF za pomocą Aspose.PDF w .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
@@ -89,7 +91,7 @@ Dowiedz się, jak dodawać obrazy i tekst do plików PDF za pomocą Aspose.PDF d
 ### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./aspose-pdf-net-add-images-pdfs/)
 Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje konfigurację, implementację i praktyczne zastosowania.
 
-### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET: kompletny przewodnik](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF .NET: kompletny przewodnik](./add-images-to-pdfs-using-aspose-pdf-net/)
 Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje konfigurację, implementację i praktyczne zastosowania.
 
 ### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-images-to-pdfs-aspose-pdf-net/)

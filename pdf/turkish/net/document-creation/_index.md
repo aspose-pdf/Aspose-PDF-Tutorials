@@ -134,6 +134,8 @@ C# ile boş bir sayfa ekleyip dikdörtgen çizen basit bir PDF belgesi oluşturu
 Aspose.PDF kullanarak paragraf PDF'si oluşturma, grafik ekleme ve sayfa ekleme adımlarını öğrenin.
 ### [C#'ta OpenAI istemcisi oluşturma ve PDF özeti oluşturma](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 C# kullanarak OpenAI istemcisi oluşturup, yanıtları PDF özetine dönüştürmeyi öğrenin.
+### [OpenAI istemcisini başlatma ve AI ile PDF özetleme](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+OpenAI istemcisiyle PDF dosyalarını özetlemek için adım adım rehber.
 
 ## Ek Kaynaklar
 

@@ -33,6 +33,7 @@ Aspose.PDF for .NET'in "Operatörlerle Programlama" eğitimleri, PDF programlama
 | [C# ile PDF'de boş grafik durumu oluşturma](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Aspose.PDF for .NET ile C# kullanarak PDF içinde boş bir grafik durumu nasıl oluşturulur? |
 | [C#'ta Aspose.Pdf ile PDF şeffaflığını değiştirme](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak C# içinde PDF belgelerinin şeffaflığını nasıl ayarlayacağınızı öğrenin. |  
 | [C# ile PDF şeffaflığını değiştirme](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak C# içinde PDF nesnelerinin şeffaflığını ayarlamayı öğrenin. |
+| [C#'ta Aspose.PDF ile Grafik Durumu PDF Ekleme](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak C# dilinde grafik durumunu PDF'ye eklemeyi öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

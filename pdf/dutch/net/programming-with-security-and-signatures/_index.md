@@ -72,6 +72,10 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [PDF-handtekening tutorial: een digitale PDF-handtekening valideren met Aspose.PDF](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) | Leer hoe u een digitale handtekening in een PDF kunt valideren met Aspose.PDF voor .NET. |
 | [Handtekeningopties maken in C# – volledige gids voor digitale ondertekening](./create-signature-options-in-c-full-guide-to-digital-signing/) | Leer hoe u handtekeningopties configureert en digitale ondertekeningen implementeert in C# met Aspose.PDF. |
 | [Hoe PDF-handtekeningen te valideren met Aspose.PDF in C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Leer hoe u PDF-handtekeningen valideert met Aspose.PDF voor .NET in C# met een stapsgewijze handleiding. |
+| [Hoe PDF-handtekeningen te verifiëren en manipulatie te detecteren in C#](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) | Leer hoe u PDF-handtekeningen kunt verifiëren en tekenen van manipulatie kunt opsporen met Aspose.PDF voor .NET in C#. |
+| [Ondertekende PDF opslaan met een aangepaste digitale handtekening in C#](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | Leer hoe u een ondertekende PDF opslaat met een aangepaste digitale handtekening in C# met Aspose.PDF. |
+| [PDF-handtekeningen valideren met een certificeringsinstantie in C#](./how-to-validate-pdf-signatures-with-a-certificate-authority/) | Leer hoe u PDF-handtekeningen valideert met een certificeringsinstantie in C# met Aspose.PDF. |  
+| [Hoe PDF-handtekeningen te valideren met Aspose.PDF in C#](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Leer hoe u PDF-handtekeningen valideert met Aspose.PDF voor .NET in C# met een stapsgewijze handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -101,8 +105,8 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 {{< blocks/products/pf/tutorial-page-section >}}
 
 | [Ondertekende PDF maken in C# – Stapsgewijze handleiding](./create-signed-pdf-in-c-step-by-step-guide/) | Leer hoe u een ondertekende PDF maakt in C# met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor veilige documenten. |
-| [PDF-handtekening verifiëren met Aspose.Pdf – Stapsgewijze handleiding](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding. |  
-| [Handtekeningen valideren in PDF-bestand](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Leer hoe u handtekeningen in PDF-bestanden valideert met Aspose.PDF voor .NET in C#. Volg de stapsgewijze handleiding voor veilige verificatie. |  
+| [PDF-handtekening verifiëren met Aspose.Pdf – Stapsgewijze handleiding](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding. |
+| [Handtekeningen valideren in PDF-bestand](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Leer hoe u handtekeningen in PDF-bestanden valideert met Aspose.PDF voor .NET in C#. Volg de stapsgewijze handleiding voor veilige verificatie. |
 | [PDF-bestanden repareren – Complete C#-gids met Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in C#. Volg onze stapsgewijze handleiding. |
 | [PKCS7 Detached ondertekenaar maken in C# – Complete gids](./create-pkcs7-detached-signer-in-c-complete-guide/) | Leer hoe u een PKCS7 detached ondertekenaar maakt in C# met Aspose.PDF voor .NET. Stapsgewijze handleiding voor veilige digitale handtekeningen. |
 | [PDF-handtekeningnamen ophalen met Aspose.PDF in C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Leer hoe u met Aspose.PDF in C# de namen van PDF-handtekeningen kunt ophalen. |

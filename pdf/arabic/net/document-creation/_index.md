@@ -118,6 +118,7 @@
 ### [إنشاء فقرة PDF باستخدام Aspose: إضافة رسومات وإدراج صفحة](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 ### [كيفية إنشاء عميل OpenAI وتوليد ملخص PDF باستخدام C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 تعلم كيفية إنشاء عميل OpenAI في C# وتوليد ملخص PDF تلقائيًا باستخدام Aspose.PDF.
+### [كيفية تهيئة عميل OpenAI وتلخيص PDF باستخدام الذكاء الاصطناعي](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## موارد إضافية
 

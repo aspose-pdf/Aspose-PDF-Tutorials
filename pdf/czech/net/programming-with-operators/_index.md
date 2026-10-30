@@ -33,6 +33,7 @@ Výukové programy „Programování s operátory“ v Aspose.PDF pro .NET vás 
 | [Jak vytvořit prázdný grafický stav v PDF pomocí C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit prázdný grafický stav v PDF pomocí C#. |  
 | [Jak změnit průhlednost PDF pomocí Aspose.Pdf v C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Naučte se, jak upravit průhlednost objektů v PDF pomocí Aspose.PDF pro .NET v jazyce C#. |  
 | [Jak změnit průhlednost PDF v C# pomocí Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Naučte se, jak nastavit průhlednost objektů v PDF pomocí Aspose.PDF pro .NET v jazyce C#. |  
+| [Jak přidat stav grafiky PDF pomocí Aspose.PDF v C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Naučte se, jak přidat stav grafiky do PDF pomocí Aspose.PDF v C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

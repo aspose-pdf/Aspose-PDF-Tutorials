@@ -120,6 +120,8 @@ Dowiedz się, jak w C# stworzyć dokument PDF przy użyciu biblioteki Aspose.Pdf
 ### [Tworzenie akapitu PDF w Aspose: dodawanie grafiki i wstawianie strony](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Samouczek pokazujący, jak dodać grafikę i wstawić stronę do akapitu PDF przy użyciu Aspose.
 ### [Jak utworzyć klienta OpenAI i wygenerować podsumowanie PDF w C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [Jak zainicjować klienta OpenAI i podsumować PDF za pomocą AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Dowiedz się, jak zainicjować klienta OpenAI i podsumować plik PDF przy użyciu sztucznej inteligencji.
 
 ## Dodatkowe zasoby
 

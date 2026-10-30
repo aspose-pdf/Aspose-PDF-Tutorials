@@ -61,6 +61,7 @@
 | [استيراد FDF إلى PDF باستخدام C# – دليل شامل خطوة بخطوة](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) تعرّف على كيفية استيراد ملفات FDF إلى مستندات PDF باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
 | [حفظ مستند PDF باستخدام Aspose.PDF – دليل كامل](./save-pdf-document-with-aspose-pdf-complete-guide/) تعلم كيفية حفظ مستند PDF باستخدام Aspose.PDF خطوة بخطوة. |
 | [إنشاء حقل نموذج PDF في C# – دليل خطوة بخطوة](./create-pdf-form-field-in-c-step-by-step-guide/) تعلم كيفية إنشاء حقل نموذج PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |  
+| [كيفية إنشاء مستند PDF مع حقول نموذج تفاعلية في C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) تعلم كيفية إنشاء مستند PDF يحتوي على حقول نموذج تفاعلية باستخدام C# و Aspose.PDF.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,7 +69,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -97,6 +96,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

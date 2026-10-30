@@ -33,6 +33,7 @@
 | [كيفية إنشاء حالة رسومية فارغة في ملف PDF باستخدام C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | تعلم كيفية إنشاء حالة رسومية فارغة في PDF باستخدام Aspose.PDF لـ .NET مع C#. |  
 | [كيفية تغيير شفافية PDF باستخدام Aspose.Pdf في C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | تعلم كيفية تعديل شفافية عناصر PDF باستخدام Aspose.Pdf في C# خطوة بخطوة. |
 | [كيفية تغيير شفافية PDF في C# باستخدام Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | تعلم كيفية تعديل شفافية ملفات PDF باستخدام Aspose.PDF لـ .NET في C#. |
+| [كيفية إضافة حالة رسومية PDF باستخدام Aspose.PDF في C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | تعلم كيفية إضافة حالة رسومية إلى ملف PDF باستخدام Aspose.PDF في C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

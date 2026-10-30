@@ -114,6 +114,8 @@ Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 �
 Aspose.Pdf를 사용하여 C#에서 PDF 문서를 만드는 방법을 단계별로 안내합니다.
 ### [Aspose를 사용하여 단락 PDF 만들기: 그래픽 추가 및 페이지 삽입](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Aspose.PDF를 활용해 단락 PDF에 그래픽을 추가하고 새 페이지를 삽입하는 방법을 단계별로 안내합니다.
+### [OpenAI 클라이언트를 초기화하고 AI로 PDF 요약하기](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+OpenAI 클라이언트를 설정하고 AI를 사용해 PDF 내용을 요약하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

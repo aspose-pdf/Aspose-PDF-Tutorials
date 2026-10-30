@@ -123,6 +123,8 @@ Scopri come creare un documento PDF in C# utilizzando Aspose.PDF.
 ### [Crea paragrafo PDF con Aspose: aggiungi grafica e inserisci pagina](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 ### [Come creare un client OpenAI e generare un riepilogo PDF in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 Scopri come configurare un client OpenAI in C# e generare automaticamente un riepilogo PDF con Aspose.PDF.
+### [Come inizializzare il client OpenAI e riassumere PDF con IA](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Scopri come configurare il client OpenAI e generare riassunti automatici di PDF usando l'intelligenza artificiale.
 
 ## Risorse aggiuntive
 

@@ -29,6 +29,7 @@ tutorial "Programmazione con il testo" di Aspose.PDF per .NET offrono una gamma 
 | [Aggiungi suggerimento al testo nel file PDF](./add-tooltip-to-text/) | Scopri come aggiungere suggerimenti al testo nei file PDF utilizzando Aspose.PDF per .NET. Arricchisci i tuoi PDF con testi informativi da visualizzare con il mouse senza sforzo. |  
 | [Aggiungi testo trasparente nel file PDF](./add-transparent-text/) | Scopri come aggiungere facilmente testo trasparente a un PDF utilizzando Aspose.PDF per .NET con questa guida completa. Istruzioni passo passo per ottenere una trasparenza perfetta. |
 | [Aggiungi numeri Bates al PDF – numerazione Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Scopri come aggiungere numeri Bates ai documenti PDF utilizzando Aspose.PDF per .NET. Guida passo passo con esempi di codice. |
+| [Aggiungi numerazione Bates al PDF usando Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Scopri come aggiungere la numerazione Bates ai PDF con Aspose.PDF in C#. |
 | [Crea PDF multicolonna](./create-multi-column-pdf/) | Scopri come creare PDF multicolonna utilizzando Aspose.PDF per .NET. Una guida passo passo con esempi di codice e spiegazioni dettagliate. Perfetto per i professionisti. |  
 | [Crea elemento Span in Word con C# – Guida completa](./create-span-element-in-word-with-c-complete-guide/) | Scopri come creare un elemento Span in un documento Word usando C# con questa guida completa passo passo. |  
 | [Tabulazione personalizzata nel file PDF](./custom-tab-stops/) | Scopri come impostare tabulazioni personalizzate in un PDF utilizzando Aspose.PDF per .NET. Questo tutorial illustra passo dopo passo come allineare il testo in modo professionale. |  
@@ -74,6 +75,7 @@ tutorial "Programmazione con il testo" di Aspose.PDF per .NET offrono una gamma 
 | [Segmenti di testo nel file PDF](./text-segments/) | Scopri come cercare specifici segmenti di testo in un file PDF utilizzando espressioni regolari in Aspose.PDF per .NET. |  
 | [Utilizzare lo script Latex nel file PDF](./use-latex-script/) | Scopri come usare lo script Latex per aggiungere espressioni matematiche o formule in un file PDF utilizzando Aspose.PDF per .NET. |  
 | [Genera riepilogo PDF con Aspose.Pdf.AI e OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Scopri come generare un riepilogo di un PDF usando Aspose.Pdf.AI e l'API di OpenAI in questo tutorial passo passo. |
+| [Come aggiungere testo PDF con Aspose.PDF in C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Impara ad aggiungere testo a un PDF usando Aspose.PDF in C# con esempi di codice passo passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

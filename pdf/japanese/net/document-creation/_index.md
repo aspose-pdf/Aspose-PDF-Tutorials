@@ -73,6 +73,7 @@ Aspose.Pdf を使用して C# で PDF ドキュメントを作成する方法を
 Aspose.PDF for .NET を使用して、段落を含む PDF にグラフィックを追加し、ページを挿入する方法を学びます。
 
 ### [C# で OpenAI クライアントを作成し、PDF 要約を生成する方法](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [OpenAI クライアントを初期化し、AIで PDF を要約する方法](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## 追加リソース
 

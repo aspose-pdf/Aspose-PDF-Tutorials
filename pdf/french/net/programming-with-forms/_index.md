@@ -61,6 +61,7 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Créer un champ de zone de texte PDF – Guide étape par étape](./create-pdf-textbox-field-step-by-step-guide/) | Apprenez à créer un champ de zone de texte dans un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 | [Importer un FDF dans un PDF avec C# – Guide complet étape par étape](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Apprenez à importer un fichier FDF dans un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Enregistrer un document PDF avec Aspose.PDF – guide complet](./save-pdf-document-with-aspose-pdf-complete-guide/) | Apprenez à enregistrer un document PDF avec Aspose.PDF grâce à ce guide complet étape par étape. |
+| [Comment créer un PDF avec des champs de formulaire interactifs en C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Apprenez à créer un document PDF contenant des champs de formulaire interactifs en C# avec Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,7 +69,6 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -99,6 +98,4 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

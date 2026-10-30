@@ -92,6 +92,8 @@ Aprenda a ajustar la opacidad de elementos en archivos PDF usando Aspose.PDF par
 
 ### [Cómo añadir un rectángulo a un PDF con Aspose.PDF en C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 Aprenda a añadir un rectángulo a un PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
+### [Cómo añadir un rectángulo a un PDF en C# con Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Aprenda a dibujar un rectángulo en archivos PDF usando C# y Aspose.PDF paso a paso.
 
 ### [Cómo eliminar imágenes de archivos PDF con Aspose.PDF para .NET: guía completa](./delete-images-aspose-pdf-net/)
 Aprenda a eliminar imágenes de archivos PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de código y prácticas recomendadas.

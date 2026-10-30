@@ -33,6 +33,7 @@ Hướng dẫn "Lập trình với Toán tử" của Aspose.PDF cho .NET hướn
 | [Cách tạo trạng thái đồ họa trống trong PDF bằng C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Hướng dẫn tạo một trạng thái đồ họa trống trong PDF bằng C# sử dụng Aspose.PDF cho .NET. |
 | [Cách thay đổi độ trong suốt PDF bằng Aspose.Pdf trong C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Hướng dẫn chi tiết cách điều chỉnh độ trong suốt của tài liệu PDF bằng Aspose.Pdf trong C#. |  
 | [Cách thay đổi độ trong suốt PDF trong C# với Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Hướng dẫn chi tiết cách thay đổi độ trong suốt của tài liệu PDF bằng C# và Aspose.PDF. |  
+| [Cách thêm trạng thái đồ họa pdf bằng Aspose.PDF trong C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Hướng dẫn từng bước cách thêm trạng thái đồ họa vào tệp PDF bằng Aspose.PDF cho .NET trong C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

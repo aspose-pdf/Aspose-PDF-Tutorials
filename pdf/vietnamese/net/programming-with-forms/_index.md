@@ -61,6 +61,7 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Nhập FDF vào PDF bằng C# – Hướng dẫn chi tiết từng bước](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Tìm hiểu cách nhập tệp FDF vào tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 | [Lưu tài liệu PDF với Aspose.PDF – hướng dẫn đầy đủ](./save-pdf-document-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm các tùy chọn và ví dụ thực tế. |
 | [Tạo trường biểu mẫu PDF trong C# – hướng dẫn từng bước](./create-pdf-form-field-in-c-step-by-step-guide/) | Tìm hiểu cách tạo trường biểu mẫu PDF trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |
+| [Cách tạo tài liệu PDF với các trường biểu mẫu tương tác trong C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Hướng dẫn tạo tài liệu PDF có các trường biểu mẫu tương tác bằng C# và Aspose.PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,7 +69,6 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -99,6 +98,4 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

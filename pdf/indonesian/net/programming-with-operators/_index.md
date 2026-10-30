@@ -33,6 +33,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara membuat keadaan grafik kosong dalam PDF dengan C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Panduan langkah demi langkah untuk membuat state grafik kosong dalam PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
 | [Cara mengubah transparansi PDF menggunakan Aspose.Pdf di C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Panduan langkah demi langkah untuk mengubah transparansi elemen PDF menggunakan Aspose.Pdf di C#. |
 | [Cara mengubah transparansi PDF di C# dengan Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Panduan langkah demi langkah untuk mengubah tingkat transparansi elemen PDF menggunakan Aspose.PDF di C#. |
+| [Cara menambahkan state grafik PDF menggunakan Aspose.PDF di C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Panduan langkah demi langkah untuk menambahkan state grafik pada PDF menggunakan Aspose.PDF dengan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

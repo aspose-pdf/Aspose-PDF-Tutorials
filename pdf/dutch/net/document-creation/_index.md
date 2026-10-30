@@ -119,6 +119,8 @@ Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt met een lege pagina e
 Leer hoe u een PDF-paragraaf maakt, grafische elementen toevoegt en een pagina invoegt met Aspose.PDF voor .NET.
 ### [Hoe een OpenAI-client te maken en een PDF-samenvatting te genereren in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 Leer hoe u een OpenAI-client maakt en een PDF-samenvatting genereert met Aspose.PDF in C#.
+### [Hoe OpenAI-client te initialiseren en PDF samen te vatten met AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Leer hoe u een OpenAI-client initialiseert en automatisch een PDF samenvat met kunstmatige intelligentie.
 
 ## Aanvullende bronnen
 

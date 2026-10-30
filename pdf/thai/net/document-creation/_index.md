@@ -123,6 +123,7 @@
 ### [วิธีสร้างเอกสาร PDF/X‑1 ด้วย Aspose.PDF สำหรับ .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
 ### [สร้างเอกสาร PDF ด้วย C# และ Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF อย่างละเอียด
+### [วิธีเริ่มต้นคลไอเอนต์ OpenAI และสรุป PDF ด้วย AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ### [สร้างย่อหน้ PDF ด้วย Aspose: เพิ่มกราฟิกและแทรกหน้า](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 เรียนรู้วิธีสร้างย่อหน้าที่มีกราฟิกและแทรกหน้าใน PDF ด้วย Aspose

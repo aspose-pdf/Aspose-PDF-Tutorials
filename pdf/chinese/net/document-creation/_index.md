@@ -120,6 +120,8 @@ Aspose.PDF Net 代码教程
 ### [创建段落 PDF（Aspose）：添加图形并插入页面](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 ### [如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 学习如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要。
+### [如何初始化 OpenAI 客户端并使用 AI 摘要 PDF](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+了解如何在 .NET 中初始化 OpenAI 客户端并使用 AI 对 PDF 内容进行摘要。
 
 ## 其他资源
 

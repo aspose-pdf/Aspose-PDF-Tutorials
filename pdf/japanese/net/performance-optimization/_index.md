@@ -75,6 +75,9 @@ Aspose.Pdf を活用して PDF を最適化する手順とベストプラクテ�
 ### [PDF を .NET で最適化する方法 – .NET で PDF を段階的に圧縮](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 PDF を .NET で効率的に圧縮し、サイズとパフォーマンスを向上させる手順を解説します。
 
+### [Aspose.Pdf を使用した C# で PDF を最適化する方法](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Aspose.Pdf を使って C# で PDF を効率的に最適化し、サイズ削減とパフォーマンス向上を実現する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

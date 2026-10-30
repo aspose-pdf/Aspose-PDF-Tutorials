@@ -72,6 +72,8 @@ Dowiedz się, jak skutecznie kompresować obrazy w plikach PDF przy użyciu Aspo
 Poznaj pełny przewodnik optymalizacji plików PDF przy użyciu Aspose.Pdf, obejmujący techniki zmniejszania rozmiaru i zwiększania wydajności.
 ### [Jak optymalizować PDF w .NET – kompresja PDF w .NET krok po kroku](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 Dowiedz się, jak skompresować pliki PDF w .NET, aby zmniejszyć ich rozmiar i poprawić wydajność.
+### [Jak zoptymalizować PDF przy użyciu Aspose.Pdf w C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Szybki przewodnik, jak zoptymalizować pliki PDF w C# przy użyciu Aspose.Pdf, aby zmniejszyć rozmiar i poprawić wydajność.
 
 ## Dodatkowe zasoby
 

@@ -142,6 +142,7 @@ Panduan langkah demi langkah untuk memvalidasi tanda tangan PDF dan menampilkan 
 
 ### [Cara Mendapatkan Tanda Tangan dari PDF di C# – Panduan Langkah demi Langkah](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Panduan langkah demi langkah untuk mengekstrak tanda tangan digital dari file PDF menggunakan C# dan Aspose.PDF.
+### [Cara Mendapatkan Tanda Tangan dari Dokumen Word di C#](./how-to-get-signatures-from-a-word-document-in-c/)
 
 ## Sumber Daya Tambahan
 

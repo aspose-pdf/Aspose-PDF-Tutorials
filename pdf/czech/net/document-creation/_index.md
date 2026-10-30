@@ -123,6 +123,8 @@ Naučte se vytvořit PDF dokument s prázdnou stránkou a nakresleným obdélní
 Naučte se, jak pomocí Aspose.PDF v C# vytvořit PDF dokument, přidat stránky, tvary a uložit soubor.
 ### [Vytvoření odstavce PDF pomocí Aspose: přidání grafiky a vložení stránky](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Naučte se, jak vytvořit PDF s odstavcem, přidat grafiku a vložit novou stránku pomocí Aspose.PDF pro .NET.
+### [Jak inicializovat klienta OpenAI a shrnout PDF pomocí AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Naučte se, jak inicializovat klienta OpenAI a pomocí AI vytvořit souhrn PDF dokumentu.
 
 ## Další zdroje
 

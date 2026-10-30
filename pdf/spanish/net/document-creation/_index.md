@@ -120,6 +120,8 @@ Aprenda a crear un documento PDF básico en C# utilizando Aspose.PDF, con ejempl
 Aprenda a crear un párrafo PDF, añadir gráficos e insertar páginas usando Aspose.PDF para .NET.
 ### [Cómo crear un cliente OpenAI y generar un resumen PDF en C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 Aprenda a crear un cliente OpenAI en C# y generar un resumen PDF usando Aspose.PDF.
+### [Cómo inicializar el cliente OpenAI y resumir PDF con IA](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Aprenda a configurar el cliente OpenAI en .NET y generar resúmenes automáticos de documentos PDF usando IA.
 
 ## Recursos adicionales
 

@@ -75,6 +75,9 @@ Tìm hiểu cách nén hình ảnh trong PDF bằng Aspose.PDF cho C#, giảm k�
 ### [Cách tối ưu hóa PDF – Hướng dẫn toàn diện với Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
 Khám phá hướng dẫn chi tiết để tối ưu hóa PDF bằng Aspose.Pdf, bao gồm các kỹ thuật giảm kích thước và cải thiện hiệu suất.
 
+### [Cách tối ưu hóa PDF bằng Aspose.Pdf trong C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Hướng dẫn từng bước tối ưu hóa PDF bằng Aspose.PDF trong C#, giảm kích thước và cải thiện hiệu suất.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

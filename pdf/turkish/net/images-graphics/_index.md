@@ -164,7 +164,7 @@ Aspose.PDF for .NET kullanarak PDF'lerden grafikleri etkili bir şekilde nasıl 
 Aspose.PDF for .NET kullanarak PDF belgelerindeki görselleri etkili bir şekilde nasıl değiştireceğinizi öğrenin. Bu kapsamlı geliştirici kılavuzuyla belge güncellemelerinizi kolaylaştırın.
 
 ### [.NET için Aspose.PDF Kullanarak PDF'lerdeki Resimleri Nasıl Değiştirirsiniz: Eksiksiz Bir Kılavuz](./replace-images-aspose-pdf-net-tutorial/)
-Aspose.PDF for .NET kullanarak PDF belgelerindeki görselleri nasıl etkili bir şekilde değiştireceğinizi öğrenin. Bu kapsamlı kılavuz, kurulum, uygulama ve pratik uygulamaları kapsar.
+Aspose.PDF for .NET kullanarak PDF belgelerindeki görselleri nasıl etkili bir şekilde değiştirebileceğinizi öğrenin. Bu kapsamlı kılavuz, kurulum, uygulama ve pratik uygulamaları kapsar.
 
 ### [Aspose.PDF for .NET Kullanılarak PDF'de Görüntü Boyutu Nasıl Ayarlanır](./set-image-size-pdf-aspose-dotnet/)
 Profesyonel belgeler ve sunumlar oluşturmak için mükemmel olan Aspose.PDF for .NET ile PDF'lerdeki resim boyutlarını nasıl ayarlayacağınızı öğrenin.
@@ -211,6 +211,8 @@ Aspose.PDF for .NET kullanarak PDF'lerdeki gri tonlamalı ve RGB görüntüleri 
 
 ### [Aspose.PDF ile C#'ta Grafik Durumu PDF Ekleme: Adım Adım Kılavuz](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 Aspose.PDF for .NET kullanarak PDF belgelerine grafik durumu eklemeyi öğrenin. C# kod örnekleriyle adım adım kılavuz.
+### [C# ile Aspose.Pdf kullanarak PDF'ye dikdörtgen ekleme: Adım Adım Kılavuz](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+C# ve Aspose.PDF for .NET ile PDF belgelerine dikdörtgen eklemeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

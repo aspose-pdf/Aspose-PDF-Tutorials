@@ -61,6 +61,7 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 | [Importar FDF em PDF com C# – Guia Completo Passo a Passo](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aprenda a importar arquivos FDF em documentos PDF usando C# e Aspose.PDF para .NET neste guia passo a passo. |  
 | [Salvar documento PDF com Aspose.PDF – guia completo](./save-pdf-document-with-aspose-pdf-complete-guide/) | Aprenda a salvar documentos PDF usando Aspose.PDF em .NET com este guia passo a passo completo. |
 | [Criar campo de formulário PDF em C# – guia passo a passo](./create-pdf-form-field-in-c-step-by-step-guide/) | Aprenda a criar um campo de formulário PDF em C# usando Aspose.PDF para .NET neste tutorial passo a passo. |
+| [Como criar documento PDF com campos de formulário interativos em C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Aprenda a criar um documento PDF com campos de formulário interativos usando Aspose.PDF para .NET em C# neste tutorial passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,7 +69,6 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -99,6 +98,4 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

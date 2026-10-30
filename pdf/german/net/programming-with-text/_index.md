@@ -74,6 +74,8 @@ Die Aspose.PDF-Tutorials „Programmieren mit Text“ für .NET bieten umfassend
 | [Span-Element in Word mit C# erstellen – Komplettanleitung](./create-span-element-in-word-with-c-complete-guide/) | Erfahren Sie, wie Sie mit C# ein Span-Element in einem Word-Dokument erstellen – Schritt‑für‑Schritt‑Anleitung. |
 | [PDF-Zusammenfassung mit Aspose.Pdf.AI und OpenAI generieren](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Erfahren Sie, wie Sie mit Aspose.Pdf.AI und OpenAI automatisch eine Zusammenfassung von PDF-Dokumenten erstellen. |
 | [Wie man ein Zusammenfassungs-PDF mit Aspose.Pdf.AI in C# erstellt](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Erfahren Sie, wie Sie mit Aspose.Pdf.AI in C# ein PDF mit automatischer Zusammenfassung erstellen. |  
+| [Bates-Nummerierung zu PDF hinzufügen – Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |  
+| [Text zu PDF mit Aspose.PDF in C# hinzufügen](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text zu einer PDF-Datei in C# hinzufügen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

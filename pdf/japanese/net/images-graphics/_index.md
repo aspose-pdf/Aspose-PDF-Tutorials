@@ -47,12 +47,16 @@ Aspose.PDF を使って PDF に四角形を描画し、位置やサイズ、塗�
 ### [PDF を検証し、矩形を追加する完全ガイド](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Aspose.PDF for .NET を使用して、PDF の有効性を確認し、矩形を描画して文書を強化する方法を学びます。
 
-### [C# で PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+### [C# で PDF に四角形を追加する: ステップバイステップ ガイド](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
+### [C# で Aspose.Pdf を使用して PDF に四角形を追加する方法](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Aspose.PDF と C# を使って PDF に四角形を描画し、位置やサイズ、色を設定する手順を解説します。
+
+### [C# を使用して PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方法をステップバイステップで解説します。
 
 ### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
-### [C# で PDF に四角形を追加する: ステップバイステップ ガイド](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 
 ### [.NET で Aspose.PDF を使用してカスタム PDF スタンプを作成する](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル

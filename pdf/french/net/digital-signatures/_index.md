@@ -145,6 +145,8 @@ Apprenez à valider une signature PDF et à répertorier toutes les signatures p
 
 ### [Comment valider un PDF avec Aspose.PDF – vérifier la validité de la signature PDF en C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
 Apprenez à valider la signature d'un PDF en C# avec Aspose.PDF, étape par étape.
+### [Comment obtenir les signatures d'un document Word en C#](./how-to-get-signatures-from-a-word-document-in-c/)
+Un guide complet pour extraire les signatures d'un document Word en C# avec Aspose.
 
 ## Ressources supplémentaires
 

@@ -74,9 +74,37 @@
 | [PDF 签名教程：使用 Aspose.PDF 验证 PDF 数字签名](./pdf-signature-tutorial-validate-a-pdf-digital-signature-with/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 文档的数字签名，确保其完整性和真实性。|  
 | [在 C# 中创建签名选项 – 完整数字签名指南](./create-signature-options-in-c-full-guide-to-digital-signing/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建签名选项并完成数字签名的完整指南。|  
 | [如何使用 Aspose 验证 PDF 中的签名 – 完整分步指南](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，确保文档完整性和真实性。|  
+| [在 C# 中验证 PDF 签名并检测篡改](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检测文档是否被篡改。|  
+| [在 C# 中使用自定义数字签名保存已签名的 PDF](./save-signed-pdf-with-a-custom-digital-signature-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建自定义数字签名并保存已签名的 PDF 文档。|  
+| [如何在 C# 中使用证书颁发机构验证 PDF 签名](./how-to-validate-pdf-signatures-with-a-certificate-authority/) 了解如何使用 Aspose.PDF for .NET 在 C# 中通过证书颁发机构验证 PDF 签名，确保签名真实性。|  
+| [如何使用 Aspose.PDF 在 C# 中验证 PDF 签名](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 | [在 C# 中验证 PDF 签名 – 完整分步指南](./verify-pdf-signature-in-c-complete-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，分步指导确保文档完整性和真实性。|  
 | [打开已签名的 PDF – 如何读取其数字签名](./open-signed-pdf-how-to-read-its-digital-signatures/) 了解如何使用 Aspose.PDF for .NET 打开已签名的 PDF 并读取其数字签名。分步指南帮助您检查签名信息。|  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 | [如何使用 Aspose 验证 PDF 中的签名 – C# 教程](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 文档的数字签名，确保签名完整性和真实性。|  
 | [如何修复 PDF 文件 – 使用 Aspose.Pdf 的完整 C# 指南](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) 了解如何使用 Aspose.Pdf for .NET 在 C# 中修复受损的 PDF 文件，分步指南帮助您恢复文档完整性。|  

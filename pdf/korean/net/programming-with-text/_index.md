@@ -19,7 +19,7 @@ Aspose.PDF의 .NET용 "텍스트 프로그래밍" 튜토리얼은 PDF 문서에�
 ## 튜토리얼
 | 제목 | 설명 |
 | --- | --- | 
-| [PDF 파일에 숨겨진 텍스트 추가 및 검색](./add-and-search-hidden-text/) | Aspose.PDF for .NET을 사용하여 PDF 문서에 숨겨진 텍스트를 추가하고 검색하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다. |  
+| [PDF 파일에 숨겨진 텍스트 추가 및 검색](./add-and-search-hidden-text/) | Aspose.PDF for .NET을 사용하여 PDF 문서에 숨겨진 텍스트를 추가하고 검색하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드를 확인하세요. |  
 | [문서에 HTML 순서 목록 추가](./add-html-ordered-list-into-documents/) | Aspose.PDF for .NET을 사용하여 PDF 문서에 HTML 순서 목록을 추가하는 방법을 알아보세요. 이 자세한 튜토리얼에서 단계별 지침을 확인하세요. |  
 | [DOM을 사용하여 HTML 추가](./add-html-using-dom/) 이 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 PDF 문서에 HTML 콘텐츠를 추가하는 방법을 알아봅니다. 동적 HTML 서식을 사용하여 PDF 파일을 간편하게 개선하세요. |  
 | [DOM 및 PDF 덮어쓰기를 사용하여 HTML 추가](./add-html-using-dom-and-overwrite/) | Aspose.PDF for .NET을 사용하여 PDF에 HTML 콘텐츠를 추가하는 방법을 알아보세요. 이 단계별 가이드에서는 설정부터 최종 저장까지 모든 것을 다룹니다. |  
@@ -75,6 +75,8 @@ Aspose.PDF의 .NET용 "텍스트 프로그래밍" 튜토리얼은 PDF 문서에�
 | [Aspose.Pdf.AI 및 OpenAI를 사용하여 PDF 요약 생성](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aspose.Pdf.AI와 OpenAI를 활용해 PDF 문서의 요약을 자동으로 생성하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Pdf.AI를 사용하여 요약 PDF 만들기](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Aspose.Pdf.AI를 활용해 PDF 요약을 생성하는 방법을 단계별로 안내합니다. |
 
+| [C#에서 Aspose.PDF를 사용하여 PDF에 베이츠 번호 추가](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | C#와 Aspose.PDF를 활용해 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose.PDF를 사용하여 텍스트 PDF 추가하기](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 텍스트를 추가하는 방법을 단계별로 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,7 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Lägg till textruta i PDF-formulär – Komplett C#-guide](./add-text-box-to-pdf-form-complete-c-guide/) | Lär dig hur du lägger till en textruta i ett PDF-formulär med Aspose.PDF för .NET i denna kompletta C#-guide. |
 | [Skapa PDF‑textrutefält – steg‑för‑steg‑guide](./create-pdf-textbox-field-step-by-step-guide/) | Lär dig hur du skapar ett textrutefält i en PDF med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
 | [Hur man skapar PDF med Aspose – Lägg till formulärfält och sidor](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Lär dig hur du skapar en PDF, lägger till formulärfält och sidor med Aspose.PDF för .NET i en steg-för-steg-guide. |
+| [Hur man skapar PDF-dokument med interaktiva formulärfält i C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Lär dig skapa PDF-dokument med interaktiva formulärfält i C# med Aspose.PDF. |
 | [Skapa PDF-dokument med flera widgetar – steg-för-steg-guide](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Lär dig hur du skapar ett PDF-dokument med flera widgetar med Aspose.PDF för .NET i denna steg-för-steg-guide. |
 | [Skapa PDF med sidor och textrutefält – Fullständig C#-guide](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Lär dig hur du skapar en PDF med flera sidor och textrutefält i C# med Aspose.PDF för .NET i denna steg-för-steg-guide. |
 | [Skapa PDF-dokument C# – Steg‑för‑steg‑guide för flersidiga formulär](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Lär dig skapa PDF-dokument med flera sidor och formulär i C# med Aspose.PDF för .NET i en steg‑för‑steg‑guide. |
@@ -68,7 +69,6 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -99,6 +98,4 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

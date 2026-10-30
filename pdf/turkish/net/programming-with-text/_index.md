@@ -74,6 +74,8 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
 | [Aspose.Pdf.AI ve OpenAI ile PDF özeti oluşturma](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aspose.PDF for .NET ve OpenAI kullanarak PDF belgelerinin özetini otomatik olarak oluşturmayı öğrenin. |
 | [C#'ta Aspose.Pdf.AI ile Özet PDF Oluşturma](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Aspose.Pdf.AI kullanarak C# ile PDF özetleri oluşturmayı adım adım öğrenin. |  
+| [C# ile Aspose.PDF kullanarak PDF'ye Bates numaraları ekleme](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Aspose.PDF for .NET ile C# kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
+| [C# ile Aspose.PDF kullanarak PDF'ye Metin Ekleme](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına metin eklemeyi adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

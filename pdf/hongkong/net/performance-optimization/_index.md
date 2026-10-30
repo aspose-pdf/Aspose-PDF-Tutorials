@@ -76,6 +76,9 @@
 ### [如何在 .NET 中最佳化 PDF – 逐步壓縮 PDF](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 了解如何在 .NET 中逐步壓縮 PDF，以提升效能並減少檔案大小。
 
+### [如何在 C# 中使用 Aspose.PDF 優化 PDF](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+了解如何在 C# 中使用 Aspose.PDF 進行 PDF 優化，提高效能與減少檔案大小。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

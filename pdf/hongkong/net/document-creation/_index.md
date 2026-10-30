@@ -120,6 +120,7 @@ Aspose.PDF Net 程式碼教學
 
 ### [如何在 C# 中建立 OpenAI 客戶端並產生 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 了解如何在 C# 中使用 OpenAI API 建立客戶端並生成 PDF 摘要。
+### [如何初始化 OpenAI 客戶端並使用 AI 摘要 PDF](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## 其他資源
 
