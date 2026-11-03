@@ -26,6 +26,7 @@
 - [วนรอบคอลเลกชัน C# – คู่มือแบบง่ายสำหรับการวนลูปรายการ](./iterate-collection-c-simple-guide-to-loop-over-items/) | เรียนรู้วิธีวนลูปผ่านคอลเลกชันใน C# อย่างง่ายด้วย Aspose.PDF สำหรับ .NET
 - [สร้างพจนานุกรม PDF ว่างใน C# – คู่มือ Aspose.Pdf ฉบับสมบูรณ์](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | เรียนรู้วิธีสร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF อย่างละเอียดในคู่มือฉบับสมบูรณ์  
 - [วิธีเปลี่ยนความโปร่งใสของ PDF ใน C# ด้วย Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | เรียนรู้วิธีปรับความโปร่งใสของ PDF ด้วย Aspose.Pdf ใน C# อย่างละเอียด
+- [วิธีเปลี่ยนความทึบของ PDF ใน C# ด้วย Aspose.Pdf](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) | เรียนรู้วิธีปรับความทึบของ PDF ใน C# ด้วย Aspose.Pdf อย่างละเอียด
 - [สร้างสถานะกราฟิกที่กำหนดเองใน PDF ด้วย Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | เรียนรู้วิธีสร้างและกำหนดสถานะกราฟิกที่กำหนดเองในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET  
 - [เพิ่มสี่เหลี่ยม PDF ด้วย Aspose.Pdf – คู่มือ C# ฉบับสมบูรณ์](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET ด้วยตัวอย่างโค้ด C# อย่างละเอียด  
 - [แก้ไขพจนานุกรมทรัพยากร PDF ด้วย Aspose.PDF – คู่มือ C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | เรียนรู้วิธีแก้ไขพจนานุกรมทรัพยากรของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ในคู่มือ C# ที่เข้าใจง่าย  

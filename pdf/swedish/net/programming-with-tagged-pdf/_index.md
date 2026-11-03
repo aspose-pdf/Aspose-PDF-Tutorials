@@ -45,7 +45,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guida
 | [Taggat PDF-innehåll](./tagged-pdf-content/) | Lär dig hur du arbetar med taggat innehåll i ett PDF-dokument med Aspose.PDF för .NET. En steg-för-steg-guide för att använda taggar. |  
 | [Tagga bild i befintlig PDF](./tag-image-in-existing-pdf/) | Lär dig hur du taggar bilder i befintliga PDF-filer med Aspose.PDF för .NET. Steg-för-steg-guide för att förbättra tillgängligheten med PDF/UA-kompatibilitet. |  
 | [Element i textblockstrukturen](./text-block-structure-elements/) | Lär dig hur du använder Aspose.PDF för .NET för att lägga till textblockstrukturelement, till exempel rubriker och taggade stycken, i ett befintligt PDF-dokument. |  
-| [Textstrukturelement i PDF-fil](./text-structure-elements/) Lär dig att manipulera textstrukturelement i PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt du behöver för att skapa strukturerade PDF-filer. |  
+| [Textstrukturelement i PDF-fil](./text-structure-elements/) Lär dig att manipulera textstrukturelement i PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt du behöver skapa strukturerade PDF-filer. |  
 | [Validera PDF-fil](./validate-pdf/) | Lär dig hur du validerar en PDF-fil med Aspose.PDF för .NET. Kontrollera att den uppfyller standarder och generera en valideringsrapport. |  
 | [Skapa PDF-dokument C# – Fullständig guide med taggad text och positionering](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Lär dig skapa ett PDF-dokument i C# med taggad text och exakt positionering i en komplett steg‑för‑steg‑guide. |  
 | [Skapa tillgängligt textspann i PDF med Aspose: Fullständig C#‑guide](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Lär dig hur du skapar ett tillgängligt textspann i en PDF med Aspose.PDF för .NET i en komplett C#‑guide. |  
@@ -54,6 +54,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guida
 | [Hur man taggar PDF med Aspose.Pdf – Komplett programmeringsguide](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Lär dig steg‑för‑steg hur du taggar PDF‑filer med Aspose.Pdf i en komplett programmeringsguide. |  
 | [Skapa Span-element PDF med Aspose – Ladda PDF med Aspose och tagga innehåll](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Lär dig hur du skapar ett span‑element i en PDF, laddar PDF med Aspose och taggar innehållet för förbättrad tillgänglighet. |
 | [Skapa PDF-dokument C# – Placera text och lägg till strukturellt träd](./create-pdf-document-c-position-text-and-add-structural-tree/) | Lär dig hur du placerar text och bygger ett strukturellt träd i en PDF med Aspose.PDF för .NET i C#. |  
+| [Hur man lägger till tillgänglighetstaggar i PDF med Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Lär dig hur du lägger till tillgänglighetstaggar i PDF-filer med Aspose.PDF för .NET i en steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

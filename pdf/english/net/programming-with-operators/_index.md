@@ -35,6 +35,7 @@ Aspose.PDF for .NET's "Programming with Operators" tutorials guide you through t
 | [How to change PDF transparency using Aspose.Pdf in C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Step-by-step guide to changing PDF transparency using Aspose.PDF for .NET in C#. |  
 | [How to change PDF transparency in C# with Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Step-by-step guide to changing PDF transparency using Aspose.PDF for .NET in C#. |  
 | [How to add graphics state pdf using Aspose.PDF in C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Step-by-step guide to adding graphics state to a PDF using Aspose.PDF for .NET in C#. |  
+| [How to change PDF opacity in C# with Aspose.Pdf – step‑by‑step guide](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) | Step-by-step guide to changing PDF opacity using Aspose.PDF for .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

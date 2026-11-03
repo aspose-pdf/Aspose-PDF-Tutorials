@@ -34,6 +34,7 @@ Aspose.PDF for .NET 的「使用運算子進行程式設計」教學課程將引
 | [如何在 C# 中使用 Aspose.Pdf 更改 PDF 透明度](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) |本指南說明如何使用 Aspose.Pdf 在 C# 中調整 PDF 的透明度屬性。 |  
 | [如何在 C# 中使用 Aspose.PDF 更改 PDF 透明度](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) |本指南說明如何在 C# 中使用 Aspose.PDF 調整 PDF 元素的透明度。 |  
 | [如何在 C# 中使用 Aspose.PDF 新增圖形狀態 PDF](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | 使用 Aspose.PDF 在 C# 中新增圖形狀態的步驟指南。 |  
+| [如何在 C# 中使用 Aspose.Pdf 更改 PDF 透明度 – 步驟指南](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) |本逐步指南說明如何在 C# 使用 Aspose.Pdf 調整 PDF 的透明度屬性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

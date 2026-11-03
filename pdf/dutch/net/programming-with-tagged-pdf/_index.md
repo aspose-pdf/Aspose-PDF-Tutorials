@@ -55,6 +55,7 @@ De tutorials "Programmeren met getagde PDF's" van Aspose.PDF voor .NET begeleide
 | [Maak getagde PDF in C# – Volledige stapsgewijze handleiding](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, volledig stap‑voor‑stap uitgelegd. |  
 | [Hoe PDF taggen met Aspose.Pdf – Complete programmeergids](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Leer stap voor stap hoe u PDF's tagt met Aspose.Pdf in C#, inclusief volledige codevoorbeelden en best practices. |
 | [PDF-document maken in C# – Tekst positioneren en structurele boom toevoegen](./create-pdf-document-c-position-text-and-add-structural-tree/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt, tekst positioneert en een structurele boom toevoegt in C#. |
+| [Hoe toegankelijkheidstags aan PDF toevoegen met Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Leer hoe u toegankelijkheidstags toevoegt aan een PDF met Aspose.PDF voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -66,4 +67,4 @@ De tutorials "Programmeren met getagde PDF's" van Aspose.PDF voor .NET begeleide
 | [Hoe PDF taggen met Aspose – Complete gids voor PDF-toegankelijkheidstags](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Leer hoe u PDF's tagt met Aspose voor volledige toegankelijkheid en naleving van PDF/UA-standaarden. |  
 | [Maak PDF toegankelijk met Aspose: Paragraaf PDF invoegen stap‑voor‑stap](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Leer hoe u met Aspose.PDF voor .NET een paragraaf toevoegt aan een PDF om de toegankelijkheid te verbeteren, stap voor stap. |
 | [Maak getagde PDF in C# – Voeg koptekst en toegankelijke tekst toe](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Leer hoe u een getagde PDF maakt in C# met een koptekst en toegankelijke tekst met Aspose.PDF voor .NET. |  
-| [Maak een toegankelijke PDF met Aspose.Pdf – Stapsgewijze handleiding](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Leer hoe u een toegankelijke PDF maakt met Aspose.Pdf via een stapsgewijze handleiding. |  
+| [Maak een toegankelijke PDF met Aspose.Pdf – Stapsgewijze handleiding](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Leer hoe u een toegankelijke PDF maakt met Aspose.Pdf via een stapsgewijze handleiding. |

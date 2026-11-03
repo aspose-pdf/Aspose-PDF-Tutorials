@@ -59,7 +59,7 @@
 | [Как пометить PDF с помощью Aspose.Pdf – Полное руководство по программированию](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Подробное пошаговое руководство по тегированию PDF с помощью Aspose.Pdf, охватывающее все аспекты программирования. |  
 | [Создать элемент Span в PDF с Aspose – загрузить PDF и пометить содержимое](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Узнайте, как создать элемент Span, загрузить PDF и пометить содержимое с помощью Aspose.PDF для .NET. |  
 | [Создать PDF-документ C# – позиционировать текст и добавить структурное дерево](./create-pdf-document-c-position-text-and-add-structural-tree/) | Создайте PDF-документ на C#, разместите текст и добавьте структурное дерево с помощью Aspose.PDF. |  
-
+| [Как добавить теги доступности в PDF с помощью Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Узнайте, как добавлять теги доступности в PDF-файлы с помощью Aspose.PDF для .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -34,6 +34,7 @@ Aspose.PDF for .NET'in "Operatörlerle Programlama" eğitimleri, PDF programlama
 | [C#'ta Aspose.Pdf ile PDF şeffaflığını değiştirme](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak C# içinde PDF belgelerinin şeffaflığını nasıl ayarlayacağınızı öğrenin. |  
 | [C# ile PDF şeffaflığını değiştirme](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak C# içinde PDF nesnelerinin şeffaflığını ayarlamayı öğrenin. |
 | [C#'ta Aspose.PDF ile Grafik Durumu PDF Ekleme](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak C# dilinde grafik durumunu PDF'ye eklemeyi öğrenin. |  
+| [C# ile Aspose.Pdf kullanarak PDF opaklığını nasıl değiştirirsiniz – adım adım rehber](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) | Aspose.PDF for .NET ile PDF dosyalarının opaklık ayarlarını adım adım değiştirmeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

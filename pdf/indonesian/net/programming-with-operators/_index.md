@@ -34,6 +34,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara mengubah transparansi PDF menggunakan Aspose.Pdf di C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Panduan langkah demi langkah untuk mengubah transparansi elemen PDF menggunakan Aspose.Pdf di C#. |
 | [Cara mengubah transparansi PDF di C# dengan Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Panduan langkah demi langkah untuk mengubah tingkat transparansi elemen PDF menggunakan Aspose.PDF di C#. |
 | [Cara menambahkan state grafik PDF menggunakan Aspose.PDF di C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Panduan langkah demi langkah untuk menambahkan state grafik pada PDF menggunakan Aspose.PDF dengan C#. |
+| [Cara mengubah opasitas PDF di C# dengan Aspose.Pdf – panduan langkah demi langkah](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) | Panduan langkah demi langkah untuk mengubah opasitas PDF menggunakan Aspose.Pdf di C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -26,6 +26,7 @@
 | [تكرار مجموعة C# – دليل بسيط للتكرار عبر العناصر](./iterate-collection-c-simple-guide-to-loop-over-items/) | تعلم كيفية تكرار العناصر في مجموعة C# باستخدام حلقة بسيطة مع Aspose.PDF لـ .NET. |
 | [إنشاء قاموس PDF فارغ في C# – دليل Aspose.Pdf الكامل](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | تعلم كيفية إنشاء قاموس PDF فارغ باستخدام Aspose.PDF لـ .NET في C# من خلال دليل شامل خطوة بخطوة. |  
 | [كيفية تغيير شفافية PDF في C# باستخدام Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | تعلم كيفية تعديل شفافية عناصر PDF باستخدام Aspose.Pdf في C# خطوة بخطوة. |
+| [كيفية تغيير شفافية PDF في C# باستخدام Aspose.Pdf – دليل خطوة بخطوة](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) | تعلم كيفية تعديل شفافية ملفات PDF باستخدام Aspose.Pdf في C# خطوة بخطوة. |
 | [إنشاء حالة رسومية مخصصة في PDF باستخدام Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) تعلم كيفية إنشاء حالة رسومية مخصصة في ملفات PDF باستخدام Aspose.PDF لـ .NET.  
 | [إضافة مستطيل PDF باستخدام Aspose.Pdf – دليل C# كامل](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | دليل شامل خطوة بخطوة لإضافة مستطيل إلى ملف PDF باستخدام Aspose.PDF في C#. |  
 | [تحرير قاموس موارد PDF باستخدام Aspose.PDF – دليل C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | دليل شامل لتعديل قاموس موارد PDF باستخدام Aspose.PDF في C# خطوة بخطوة. |  
