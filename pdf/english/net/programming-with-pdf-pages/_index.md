@@ -22,15 +22,15 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 
 {{< tutorial-card link="./compare-pdfs/" title="Compare PDFs with Different Page Sizes Using Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
 {{< tutorial-card link="./compare-pdf-pages/" title="Compare PDF Pages Page‑by‑Page with Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
 
 {{< tutorial-card link="./split-pdf/" title="Split PDF After Page Ten Using Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
-
 {{< tutorial-card link="./rotate-pdf-page/" title="Rotate a Single PDF Page 180 Degrees with Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
 
 {{< tutorial-card link="./rotate-pages/" title="Rotate Every PDF Page 180° Using Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="How to edit PDF page resources using Aspose.PDF in C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | Title | Description |
 | --- | --- | 

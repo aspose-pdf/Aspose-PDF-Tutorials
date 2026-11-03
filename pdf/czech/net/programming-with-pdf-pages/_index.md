@@ -30,25 +30,23 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 
 {{< tutorial-card link="./compare-pdfs/" title="Porovnejte PDF soubory s různými velikostmi stránek pomocí Aspose.PDF pro .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
-
 | Název | Popis |
 | --- | --- | 
 | [Změna orientace](./change-orientation/) | Podrobný návod pro změnu orientace stránky PDF pomocí Aspose.PDF pro .NET. Snadno sledovatelný a implementovatelný ve vašich projektech. |  
 | [Zřetězení PDF souborů](./concatenate-pdf-files/) | S tímto komplexním podrobným návodem snadno spojíte PDF soubory pomocí Aspose.PDF pro .NET. |  
 | [Smazat konkrétní stránku v souboru PDF](./delete-particular-page/) | Naučte se, jak odstranit konkrétní stránku ze souboru PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
-| [Určit barvu stránky](./determine-page-color/) Naučte se určit barvu stránky PDF souborů pomocí Aspose.PDF pro .NET s naším podrobným návodem. Snadná implementace pro všechny úrovně dovedností. |  
+| [Určit barvu stránky](./determine-page-color/) | Naučte se určit barvu stránky PDF souborů pomocí Aspose.PDF pro .NET s naším podrobným návodem. Snadná implementace pro všechny úrovně dovedností. |  
 | [Přizpůsobit obsah stránky souboru PDF](./fit-page-contents/) | Snadno upravte obsah PDF pomocí Aspose.PDF pro .NET. Tato příručka poskytuje podrobný postup krok za krokem k dosažení optimálního rozvržení stránky. |  
 | [Získejte rozměry stránky PDF](./get-dimensions/) | V tomto tutoriálu vysvětlíme, jak získat rozměry stránek PDF a provádět manipulace s nimi pomocí Aspose.PDF pro .NET. Jsou zde uvedeny podrobné kroky, které vás provedou celým procesem. |  
 | [Získejte počet stránek v souboru PDF](./get-number-of-pages/) | Podrobný návod, jak získat počet stránek v PDF souboru pomocí Aspose.PDF pro .NET. Jednoduchá implementace, ideální pro vaše projekty. |  
 | [Získejte počet stránek v souboru PDF](./get-page-count/) | Naučte se, jak získat počet stránek v souboru PDF pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu pro jednoduché a efektivní řešení. |  
-| [Získat konkrétní stránku](./get-particular-page/) V tomto podrobném návodu se naučíte, jak extrahovat konkrétní stránku z PDF a uložit ji jako nový dokument pomocí Aspose.PDF pro .NET. |  
+| [Získat konkrétní stránku](./get-particular-page/) | V tomto podrobném návodu se naučíte, jak extrahovat konkrétní stránku z PDF a uložit ji jako nový dokument pomocí Aspose.PDF pro .NET. |  
 | [Získat vlastnosti PDF](./get-properties/) | Naučte se, jak efektivně extrahovat vlastnosti PDF pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu a osvědčenými postupy. |  
 | [Nastavit obrázek jako pozadí stránky v souboru PDF](./image-as-background/) | Naučte se, jak nastavit obrázek jako pozadí stránky v PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vytvořte profesionální a vizuálně přitažlivé dokumenty. |  
 | [Vložit prázdnou stránku do PDF souboru](./insert-empty-page/) | Naučte se, jak vložit prázdnou stránku do PDF dokumentu pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu pro bezproblémovou manipulaci s PDF. |  
 | [Vložit prázdnou stránku na konec](./insert-empty-page-at-end/) | Naučte se v tomto průvodci pro začátečníky bez námahy vkládat prázdnou stránku do dokumentu PDF s Aspose.PDF pro .NET. Ideální pro rychlé úpravy. |  
 | [Přidat prázdnou stránku PDF pomocí Aspose.PDF – Kompletní průvodce](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Kompletní průvodce přidáním prázdné stránky do PDF pomocí Aspose.PDF pro .NET. |  
-| [Rozdělit na stránky](./split-to-pages/) Snadno rozdělte PDF soubory na jednotlivé stránky pomocí Aspose.PDF pro .NET s tímto komplexním tutoriálem. Součástí je podrobný návod. |  
+| [Rozdělit na stránky](./split-to-pages/) | Snadno rozdělte PDF soubory na jednotlivé stránky pomocí Aspose.PDF pro .NET s tímto komplexním tutoriálem. Součástí je podrobný návod. |  
 | [Přeskupení stránek PDF pomocí Aspose.Pdf – Kompletní průvodce C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Kompletní průvodce, jak přeskupit stránky PDF pomocí Aspose.Pdf v C#. |
 | [Aktualizovat rozměry stránky PDF](./update-dimensions/) | Zjistěte, jak snadno aktualizovat rozměry stránek PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem. |  
 | [Přiblížit na obsah stránky v souboru PDF](./zoom-to-page-contents/) | V tomto komplexním průvodci se naučte, jak přiblížit obsah stránky v souborech PDF pomocí Aspose.PDF pro .NET. Vylepšete své dokumenty PDF podle svých specifických potřeb. |  
@@ -64,19 +62,6 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Přidat Batesovo číslování do PDF pomocí Aspose.PDF – Kompletní průvodce](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Naučte se, jak přidat Batesovo číslování do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci. |
 | [Změna průhlednosti PDF v C# – krok‑za‑krokem průvodce](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak změnit průhlednost PDF pomocí Aspose.PDF pro .NET v C# s podrobným krok‑za‑krokem návodem. |
 | [Přidat Batesovo číslování PDF pomocí Aspose – průvodce krok za krokem](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí Aspose.PDF pro .NET. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose PDF tutoriál – Vložení prázdné stránky a aktualizace Batesova číslování](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Naučte se, jak vložit prázdnou stránku a aktualizovat Batesovo číslování v PDF pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -90,6 +75,8 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
+| [Jak upravit zdroje stránky PDF pomocí Aspose.PDF v C#](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Naučte se upravovat zdroje stránky PDF, jako jsou fonty a obrázky, pomocí Aspose.PDF pro .NET v C#. |
 
 | [Vytvořit prázdnou stránku PDF – Kompletní tutoriál kreslení PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Kompletní průvodce vytvořením prázdné stránky PDF a kreslením obsahu pomocí Aspose.PDF pro .NET. |
 | [Přidání stránek do PDF pomocí Aspose – Kompletní průvodce C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Kompletní návod, jak pomocí Aspose.PDF pro .NET přidat nové stránky do PDF souboru v jazyce C#. |  

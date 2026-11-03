@@ -30,25 +30,23 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 
 {{< tutorial-card link="./compare-pdfs/" title="PDF-ek összehasonlítása különböző oldalméretekkel az Aspose.PDF for .NET használatával" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
-
 | Cím | Leírás |
 | --- | --- | 
 | [Orientációváltás](./change-orientation/) | Lépésről lépésre útmutató PDF-fájlok oldaltájolásának megváltoztatásához az Aspose.PDF for .NET segítségével. Könnyen követhető és megvalósítható a projektjeiben. |  
 | [PDF fájlok összefűzése](./concatenate-pdf-files/) | PDF fájlok egyszerű összefűzése az Aspose.PDF for .NET segítségével ezzel az átfogó, lépésről lépésre szóló útmutatóval. |  
 | [Töröljön egy adott oldalt a PDF fájlból](./delete-particular-page/) | Tanulja meg, hogyan törölhet egy adott oldalt egy PDF-fájlból az Aspose.PDF for .NET használatával ebből a lépésről lépésre szóló útmutatóból. |  
-| [Oldalszín meghatározása](./determine-page-color/) Tanulja meg a PDF fájlok oldalszínének meghatározását az Aspose.PDF for .NET segítségével lépésről lépésre bemutató útmutatónkkal. Egyszerű megvalósítás minden képzettségi szint számára. |  
+| [Oldalszín meghatározása](./determine-page-color/) | Tanulja meg a PDF fájlok oldalszínének meghatározását az Aspose.PDF for .NET segítségével lépésről lépésre bemutató útmutatónkkal. Egyszerű megvalósítás minden képzettségi szint számára. |  
 | [Oldaltartalom illesztése PDF fájlba](./fit-page-contents/) | Könnyedén illesztheti PDF tartalmát az Aspose.PDF for .NET segítségével. Ez az útmutató részletes, lépésről lépésre bemutatja az optimális oldalelrendezés elérését. |  
 | [PDF oldalméretek lekérése](./get-dimensions/) | Ebben az oktatóanyagban elmagyarázzuk, hogyan lehet PDF oldalak méreteit lekérdezni és manipulációkat végezni az Aspose.PDF for .NET használatával. Részletes lépéseket talál a folyamat végigvezetéséhez. |  
 | [Oldalak számának lekérése PDF fájlban](./get-number-of-pages/) | Lépésről lépésre útmutató az Aspose.PDF for .NET használatával PDF fájlban lévő oldalak számának meghatározásához. Egyszerűen megvalósítható, ideális a projektjeihez. |  
 | [Oldalszám lekérése PDF fájlban](./get-page-count/) | Ismerje meg, hogyan szerezheti meg az oldalszámot egy PDF fájlban az Aspose.PDF for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat egy egyszerű és hatékony megoldásért. |  
-| [Egy adott oldal beszerzése](./get-particular-page/) Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan kinyerhet egy adott oldalt egy PDF-ből, és hogyan mentheti el új dokumentumként az Aspose.PDF for .NET segítségével. |  
+| [Egy adott oldal beszerzése](./get-particular-page/) | Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan kinyerhet egy adott oldalt egy PDF-ből, és hogyan mentheti el új dokumentumként az Aspose.PDF for .NET segítségével. |  
 | [PDF-tulajdonságok lekérése](./get-properties/) | Ismerje meg, hogyan kinyerheti hatékonyan a PDF tulajdonságait az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató kódpéldákkal és bevált gyakorlatokkal.  
 | [Kép beállítása oldal háttereként PDF fájlban](./image-as-background/) | Tanulja meg, hogyan állíthat be képet hátterként egy PDF dokumentumban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Készítsen professzionális, vizuálisan vonzó dokumentumokat. |  
 | [Üres oldal beszúrása PDF fájlba](./insert-empty-page/) | Tanulja meg, hogyan szúrhat be üres oldalt egy PDF dokumentumba az Aspose.PDF for .NET használatával. Lépésről lépésre bemutató kódpéldákkal a zökkenőmentes PDF-szerkesztéshez. |  
-| [Üres oldal beszúrása a végére](./insert-empty-page-at-end/) | Tanuld meg, hogyan szúrhatsz be könnyedén üres oldalt egy PDF dokumentumba az Aspose.PDF for .NET segítségével ebben a kezdőknek szóló útmutatóban. Tökéletes a gyors szerkesztésekhez. |  
+| [Üres oldal beszúrása a végére](./insert-empty-page-at-end/) | Tanuld meg, hogyan szúrhatsz be üres oldalt egy PDF dokumentumba az Aspose.PDF for .NET segítségével ebben a kezdőknek szóló útmutatóban. Tökéletes a gyors szerkesztésekhez. |  
 | [Üres oldal hozzáadása PDF-hez Aspose.PDF – Teljes útmutató](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Lépésről lépésre bemutatja, hogyan szúrhat be üres oldalt PDF dokumentumba az Aspose.PDF for .NET segítségével. |  
-| [Oldalakra osztás](./split-to-pages/) Könnyedén bontsd fel a PDF fájlokat különálló oldalakra az Aspose.PDF for .NET segítségével ezzel az átfogó oktatóanyaggal. Lépésről lépésre útmutató mellékelve. |  
+| [Oldalakra osztás](./split-to-pages/) | Könnyedén bontsd fel a PDF fájlokat különálló oldalakra az Aspose.PDF for .NET segítségével ezzel az átfogó oktatóanyaggal. Lépésről lépésre útmutató mellékelve. |  
 | [PDF oldalméretek frissítése](./update-dimensions/) | Fedezze fel, hogyan frissítheti könnyedén a PDF oldalak méreteit az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |  
 | [Átlátszóság módosítása PDF-ben C#-ben az Aspose.Pdf‑vel – lépésről‑lépésre útmutató](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Tanulja meg, hogyan állíthatja be a PDF oldalak átlátszóságát C#‑ben az Aspose.Pdf segítségével ebben a részletes útmutatóban. |  
 | [PDF fájl tartalmának nagyítása](./zoom-to-page-contents/) | Ebben az átfogó útmutatóban megtudhatja, hogyan nagyíthatja az oldalak tartalmát PDF fájlokban az Aspose.PDF for .NET segítségével. Javítsa PDF dokumentumait az Ön igényei szerint. |
@@ -66,19 +64,6 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [PDF oldal duplikálása Aspose.Pdf‑vel – Teljes útmutató](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Lépésről lépésre bemutatja, hogyan másolhat vagy duplikálhat egy oldalt PDF dokumentumban az Aspose.PDF for .NET segítségével. |
 | [Bates-számozás hozzáadása PDF-hez az Aspose.PDF segítségével – Teljes útmutató](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Lépésről lépésre útmutató a Bates-számozás PDF-fájlokhoz való hozzáadásához az Aspose.PDF for .NET használatával. |
 | [Bates számozás hozzáadása PDF-hez Aspose‑val – lépésről‑lépésre útmutató](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá Bates‑számozást PDF dokumentumokhoz az Aspose.PDF for .NET segítségével. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose PDF oktatóanyag – Üres oldal beszúrása és Bates-számozás frissítése](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Útmutató üres oldal beszúrásához és a Bates-számozás frissítéséhez PDF-ben az Aspose.PDF for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -92,6 +77,8 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
+| [PDF oldal erőforrásainak szerkesztése Aspose.PDF használatával C#-ban](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Lépésről lépésre útmutató a PDF oldal erőforrásainak módosításához az Aspose.PDF for .NET segítségével C#-ban. |
 
 | [Üres PDF oldal létrehozása – Teljes PDF rajzolási útmutató](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Lépésről lépésre útmutató üres PDF oldal létrehozásához és teljes PDF rajzoláshoz az Aspose.PDF for .NET használatával. |
 | [Oldalak hozzáadása PDF-hez Aspose-szal – Teljes C# útmutató](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Lépésről lépésre bemutatja, hogyan adhat hozzá oldalakat egy PDF-hez az Aspose.PDF for .NET használatával C#-ban. |

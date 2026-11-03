@@ -30,7 +30,7 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 
 {{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比較頁面尺寸不同的 PDF" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="使用 Aspose.PDF 在 C# 中編輯 PDF 頁面資源" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 |標題 |描述 |
 | --- | --- | 
@@ -66,18 +66,6 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 | [使用 Aspose.Pdf 複製 PDF 頁面 – 完整指南](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) |使用 Aspose.PDF for .NET 複製 PDF 頁面的完整逐步指南，簡單易於實作。 |  
 | [在 C# 中使用 Aspose.Pdf 更改 PDF 不透明度 – 逐步指南](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) |使用 Aspose.PDF for .NET 在 C# 中調整 PDF 透明度的完整逐步指南，簡單易於實作。 |  
 | [使用 Aspose 為 PDF 添加 Bates 編號 – 完整逐步指南](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) |使用 Aspose.PDF for .NET 為 PDF 添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Aspose PDF 教學 – 插入空白頁並更新 Bates 編號](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) |使用 Aspose.PDF for .NET 在 PDF 中插入空白頁並更新 Bates 編號的逐步指南。 |
 
