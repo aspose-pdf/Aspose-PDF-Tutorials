@@ -65,6 +65,7 @@
 | [إضافة ترقيم Bates في Word – دليل خطوة بخطوة كامل](./add-bates-numbering-in-word-complete-step-by-step-guide/) | تعرّف على كيفية إضافة ترقيم Bates إلى مستندات Word باستخدام Aspose.Words لـ .NET في دليل خطوة بخطوة. |  
 | [إضافة صفحة فارغة في مستند Word باستخدام C# – دليل شامل](./add-blank-page-in-word-document-with-c-complete-guide/) | تعرّف على كيفية إضافة صفحة فارغة إلى مستند Word باستخدام C# ومكتبة Aspose.Words في دليل خطوة بخطوة شامل. |
 
+| [كيفية إنشاء قاموس PDF فارغ باستخدام Aspose.PDF في C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | تعلّم كيفية إنشاء قاموس PDF فارغ باستخدام Aspose.PDF في C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

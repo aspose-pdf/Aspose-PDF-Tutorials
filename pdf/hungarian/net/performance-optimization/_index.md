@@ -75,6 +75,9 @@ Ismerje meg a PDF optimalizálásának minden lépését az Aspose.Pdf segítsé
 ### [Hogyan optimalizálja a PDF-et .NET-ben – PDF tömörítése .NET-ben lépésről lépésre](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 Ismerje meg, hogyan tömörítheti a PDF-fájlokat .NET-ben lépésről lépésre az Aspose.PDF segítségével.
 
+### [Hogyan optimalizáljuk a PDF-et az Aspose.Pdf használatával C#-ban](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Ismerje meg, hogyan optimalizálhatja a PDF-fájlokat az Aspose.Pdf segítségével C#-ban.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

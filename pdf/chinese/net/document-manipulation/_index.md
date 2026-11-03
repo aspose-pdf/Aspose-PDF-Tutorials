@@ -356,6 +356,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF 保存已修改的 PDF – 完整 C# 指南](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中保存已修改的 PDF 文档的完整步骤。
 
+### [使用 Aspose.PDF 保存已修改的 PDF 并添加透明度](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+了解如何使用 Aspose.PDF 保存已修改的 PDF 文档并为内容添加透明效果，实现更灵活的文档呈现。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

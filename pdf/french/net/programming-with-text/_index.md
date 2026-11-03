@@ -28,7 +28,8 @@ Les tutoriels « Programmation avec du texte » d'Aspose.PDF pour .NET offrent
 | [Ajouter du texte avec des couleurs d'ombrage dans un fichier PDF](./add-text-with-shading-colors/) | Découvrez comment ajouter un ombrage de texte à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Personnalisez vos documents avec des dégradés de couleurs. |  
 | [Ajouter une info-bulle au texte d'un fichier PDF](./add-tooltip-to-text/) | Apprenez à ajouter des infobulles au texte de vos fichiers PDF avec Aspose.PDF pour .NET. Améliorez vos PDF avec des textes informatifs au survol, sans effort. |  
 | [Ajouter du texte transparent dans un fichier PDF](./add-transparent-text/) | Découvrez comment ajouter facilement du texte transparent à un PDF avec Aspose.PDF pour .NET grâce à ce guide complet. Instructions étape par étape pour obtenir une transparence parfaite. |  
-| [Créer un PDF multicolonne](./create-multi-column-pdf/) | Apprenez à créer des PDF multicolonnes avec Aspose.PDF pour .NET. Un guide étape par étape avec des exemples de code et des explications détaillées. Idéal pour les professionnels. |  
+| [Créer un PDF multicolonne](./create-multi-column-pdf/) | Apprenez à créer des PDF multicolonnes avec Aspose.PDF pour .NET. Un guide étape par étape avec des exemples de code et des explications détaillées. Idéal pour les professionnels. |
+| [Comment créer un PDF résumé avec Aspose.Pdf.AI en C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Apprenez à générer un PDF récapitulatif à l'aide d'Aspose.Pdf.AI en C# avec ce guide étape par étape. |
 | [Tabulations personnalisées dans un fichier PDF](./custom-tab-stops/) | Apprenez à configurer des tabulations personnalisées dans un PDF avec Aspose.PDF pour .NET. Ce tutoriel explique étape par étape comment aligner du texte de manière professionnelle. |  
 | [Déterminer le saut de ligne dans un fichier PDF](./determine-line-break/) | Apprenez à déterminer les sauts de ligne dans les documents PDF avec Aspose.PDF pour .NET. Un tutoriel étape par étape pour les développeurs. |  
 | [Intégrer les polices standard Type 1 dans un fichier PDF](./embed-standard-type-1fonts/) | Apprenez à intégrer des polices Standard Type 1 dans des fichiers PDF à l'aide d'Aspose.PDF pour .NET avec ce guide étape par étape pour améliorer l'accessibilité de votre document. |  
@@ -73,6 +74,8 @@ Les tutoriels « Programmation avec du texte » d'Aspose.PDF pour .NET offrent
 | [Utiliser le script Latex dans un fichier PDF](./use-latex-script/) | Apprenez à utiliser le script Latex pour ajouter des expressions mathématiques ou des formules dans un fichier PDF à l'aide d'Aspose.PDF pour .NET. |
 | [Ajouter des numéros Bates à un PDF – numérotation Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Apprenez à ajouter des numéros Bates à un PDF avec Aspose.PDF pour .NET. Guide étape par étape avec exemples de code. |
 | [Créer un élément Span dans Word avec C# – Guide complet](./create-span-element-in-word-with-c-complete-guide/) | Apprenez à créer un élément Span dans Word avec C# grâce à ce guide complet étape par étape. |  
+| [Ajouter une numérotation Bates à un PDF avec Aspose.PDF en C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF avec Aspose.PDF en C#. Guide étape par étape. |
+| [Comment ajouter du texte PDF avec Aspose.PDF en C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Apprenez à ajouter du texte à un PDF avec Aspose.PDF en C#. Guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

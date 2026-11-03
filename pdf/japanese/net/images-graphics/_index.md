@@ -38,18 +38,25 @@ Aspose.PDF for .NET を使用して、SVG ファイルを高品質な PDF にシ
 ### [Aspose.PDF for .NET を使用して PDF に四角形を作成および塗りつぶす: ステップバイステップ ガイド](./create-fill-rectangle-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントに四角形を作成し、塗りつぶす方法を学びます。このステップバイステップガイドでは、C# でのセットアップから実装まで、すべてを網羅しています。
 
+### [Aspose.PDF for .NET を使用して C# で PDF に四角形を追加する: ステップバイステップ ガイド](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Aspose.PDF for .NET を使用して、C# で PDF に四角形を追加する方法をステップバイステップで学びます。
+
 ### [Aspose.PDF を使用して PDF に四角形を追加する – 完全プログラミングガイド](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Aspose.PDF を使って PDF に四角形を描画し、位置やサイズ、塗りつぶしを設定する方法をステップバイステップで解説します。
 
 ### [PDF を検証し、矩形を追加する完全ガイド](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Aspose.PDF for .NET を使用して、PDF の有効性を確認し、矩形を描画して文書を強化する方法を学びます。
 
-### [C# で PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+### [C# で PDF に四角形を追加する: ステップバイステップ ガイド](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
+### [C# で Aspose.Pdf を使用して PDF に四角形を追加する方法](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Aspose.PDF と C# を使って PDF に四角形を描画し、位置やサイズ、色を設定する手順を解説します。
+
+### [C# を使用して PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方法をステップバイステップで解説します。
 
 ### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
-### [C# で PDF に四角形を追加する: ステップバイステップ ガイド](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 
 ### [.NET で Aspose.PDF を使用してカスタム PDF スタンプを作成する](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
@@ -212,6 +219,8 @@ Aspose.PDF を使用して、PDF にカスタム ExtGState を追加し、透明
 Aspose.PDF for .NET を使い、C# で PDF の不透明度を設定する方法をステップバイステップで解説します。
 ### [Aspose.PDF for .NET を使用して PDF の不透明度を変更する: ステップバイステップ ガイド](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 Aspose.PDF for .NET を利用して、PDF 内の要素の不透明度を調整する方法を学びます。コード例とベストプラクティスを紹介。
+### [C# で Aspose.Pdf を使用してグラフィックスステート PDF を追加する](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Aspose.PDF for .NET を利用し、C# でグラフィックスステートを操作して PDF に適用する方法を学びます。
 
 ## 追加リソース
 

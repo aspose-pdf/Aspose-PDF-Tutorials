@@ -73,6 +73,9 @@ Aprenda a optimizar PDFs con Aspose.PDF siguiendo esta guía completa paso a pas
 ### [Cómo optimizar PDF en .NET – comprimir PDF en .NET paso a paso](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 Aprenda a comprimir archivos PDF en .NET paso a paso usando Aspose.PDF para mejorar el rendimiento y reducir el tamaño.
 
+### [Cómo optimizar PDF usando Aspose.Pdf en C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Aprenda a optimizar archivos PDF en C# con Aspose.PDF mediante técnicas eficaces de reducción de tamaño y mejora de rendimiento.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

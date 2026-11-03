@@ -40,12 +40,18 @@
 
 ### [Как нарисовать прямоугольник в PDF с помощью C# – пошаговое руководство](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Узнайте, как рисовать прямоугольники в PDF с помощью Aspose.PDF для .NET и C#. Пошаговое руководство с примерами кода.
+
 ### [Добавление прямоугольника в PDF с помощью C# – Полное руководство Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Узнайте, как добавить прямоугольник в PDF‑документ с помощью Aspose.PDF для .NET и C# в полном пошаговом руководстве.
 ### [Добавление прямоугольника в PDF с помощью Aspose.PDF – Полное руководство по программированию](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Узнайте, как добавить прямоугольник в PDF‑документ с помощью Aspose.PDF, используя полный пример кода на C#.
 ### [Добавление прямоугольника в PDF с помощью C# – пошаговое руководство](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Узнайте, как добавить прямоугольник в PDF-файл с помощью C# и Aspose.PDF для .NET, следуя пошаговым инструкциям.
+
+### [Как добавить прямоугольник в PDF с помощью Aspose.PDF в C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Узнайте, как добавить прямоугольник в PDF‑документ с помощью Aspose.PDF для .NET и C#.
+### [Как добавить прямоугольник в PDF с помощью C# и Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Узнайте, как добавить прямоугольник в PDF‑документ, используя Aspose.Pdf и C#.
 
 ### [Создание пользовательских PDF-штампов с помощью Aspose.PDF в .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Учебник по коду для Aspose.PDF Net
@@ -207,6 +213,7 @@
 Узнайте, как создавать и применять пользовательские ExtGState объекты для управления прозрачностью и режимами наложения в PDF с помощью Aspose.PDF для .NET.
 ### [Как установить прозрачность в PDF с помощью Aspose.PDF в C# – пошаговое руководство](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Узнайте, как установить прозрачность в PDF‑документах с помощью Aspose.PDF в C# с подробными примерами кода.
+### [Добавление графического состояния PDF с помощью Aspose.PDF в C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 
 ## Дополнительные ресурсы
 

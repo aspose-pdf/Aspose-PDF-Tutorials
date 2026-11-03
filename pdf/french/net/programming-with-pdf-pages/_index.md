@@ -63,6 +63,19 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 | [Ajouter une page vierge PDF avec Aspose.PDF – Guide complet](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Apprenez à ajouter une page vierge à un PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Modifier l'opacité d'un PDF en C# avec Aspose.Pdf – guide étape par étape](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Apprenez à ajuster l'opacité des éléments d'un PDF en C# avec Aspose.PDF grâce à ce guide détaillé étape par étape. |
 | [Ajouter une numérotation Bates PDF avec Aspose – guide étape par étape](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Comment ajouter une numérotation Bates à un PDF avec Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Guide étape par étape pour ajouter une numérotation Bates à un PDF avec Aspose.PDF pour .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 | [Comment modifier les ressources de page PDF avec Aspose.PDF en C#](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Guide étape par étape pour modifier les ressources d'une page PDF (polices, images, etc.) avec Aspose.PDF en C#. |
 
 | [Aspose PDF Tutoriel – Insérer une page vierge et mettre à jour la numérotation Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Apprenez à insérer une page blanche dans un PDF et à mettre à jour la numérotation Bates avec Aspose.PDF pour .NET, étape par étape. |  

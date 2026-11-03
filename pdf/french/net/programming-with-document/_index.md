@@ -64,6 +64,7 @@ Cette ressource comprend des tutoriels sur la fonctionnalité de programmation a
 | [Comment lire un document Word et extraire une page spécifique – Guide C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Apprenez à lire un document Word et à extraire une page précise à l'aide d'Aspose.Words pour .NET en C#. |
 | [Créer un plugin Aspose personnalisé – Guide complet pour automatiser le traitement PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Apprenez à développer un plugin Aspose sur mesure pour automatiser le traitement de fichiers PDF avec Aspose.PDF pour .NET. |  
 | [Ajouter une page blanche dans un document Word avec C# – Guide complet](./add-blank-page-in-word-document-with-c-complete-guide/) | Apprenez à ajouter une page blanche à un document Word avec C# grâce à ce guide complet étape par étape. |
+| [Comment créer un dictionnaire PDF vide avec Aspose.PDF en C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Apprenez à créer un dictionnaire PDF vide avec Aspose.PDF en C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

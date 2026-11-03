@@ -140,6 +140,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen prüfen und dere
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen prüfen und alle vorhandenen Signaturen im Dokument auflisten.
 ### [So validieren Sie PDF mit Aspose.PDF – prüfen Sie die PDF‑Signaturgültigkeit in C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
 Erfahren Sie, wie Sie mit Aspose.PDF in C# die Gültigkeit einer PDF‑Signatur prüfen.
+### [Wie man Signaturen aus einem Word-Dokument in C# abruft](./how-to-get-signatures-from-a-word-document-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Words für .NET Signaturen aus einem Word-Dokument in C# extrahieren.
 
 ## Weitere Ressourcen
 

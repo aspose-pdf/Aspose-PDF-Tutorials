@@ -65,6 +65,7 @@ De bron bevat tutorials over de programmeerfunctie met documentfunctionaliteit v
 
 | [Bates-nummers toevoegen in Word – Complete stapsgewijze handleiding](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Leer hoe u Bates-nummers toevoegt aan Word-documenten met Aspose.Words voor .NET in deze volledige stap‑voor‑stap gids. |
 | [Lege pagina toevoegen aan Word-document met C# – Complete gids](./add-blank-page-in-word-document-with-c-complete-guide/) | Leer hoe u een lege pagina toevoegt aan een Word-document met C# met deze stapsgewijze handleiding. |
+| [Leeg PDF-woordenboek maken met Aspose.PDF in C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Leer hoe u een leeg PDF-woordenboek maakt met Aspose.PDF in C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

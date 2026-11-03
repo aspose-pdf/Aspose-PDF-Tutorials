@@ -141,6 +141,8 @@ Scopri come estrarre le firme da un PDF in C# con una guida passo‑passo.
 Scopri come verificare le firme PDF con Aspose.PDF, passo dopo passo, per garantire l'integrità dei documenti.
 ### [Come convalidare un PDF con Aspose.PDF – verificare la validità della firma PDF in C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
 Scopri come verificare la validità delle firme PDF in C# utilizzando Aspose.PDF.
+### [Come ottenere le firme da un documento Word in C#](./how-to-get-signatures-from-a-word-document-in-c/)
+Scopri come estrarre le firme digitali da un documento Word usando C# e Aspose.Words.
 
 ## Risorse aggiuntive
 

@@ -63,9 +63,35 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [Lege pagina toevoegen aan PDF met Aspose.PDF – Complete gids](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u een lege pagina aan een PDF toevoegt met Aspose.PDF in deze volledige stap‑voor‑stap handleiding. |
 | [PDF-opaciteit wijzigen in C# met Aspose.Pdf – stapsgewijze handleiding](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Leer hoe u de doorzichtigheid van PDF-elementen aanpast met Aspose.Pdf in C# via een stapsgewijze handleiding. |
 | [Bates-nummers toevoegen aan PDF met Aspose – stapsgewijze handleiding](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Leer hoe u Bates‑nummering aan PDF‑bestanden toevoegt met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
-| [Hoe PDF-paginaressources bewerken met Aspose.PDF in C#](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Leer hoe u PDF-paginaressources kunt aanpassen met Aspose.PDF voor .NET in C# via een stapsgewijze handleiding. |
+| [Hoe Bates-nummering aan een PDF toevoegen met Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Leer hoe u Bates-nummering aan een PDF kunt toevoegen met Aspose.Pdf voor .NET in een stapsgewijze handleiding. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Aspose PDF-tutorial – Een lege pagina invoegen en Bates-nummering bijwerken](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Leer hoe u een lege pagina toevoegt en de Bates-nummering bijwerkt in een PDF met Aspose.PDF voor .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [Hoe PDF-paginaressources bewerken met Aspose.PDF in C#](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Leer hoe u PDF-paginaressources kunt aanpassen met Aspose.PDF voor .NET in C# via een stapsgewijze handleiding. |
 
 | [Lege PDF-pagina maken – Volledige PDF-tekenhandleiding](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Leer hoe u een lege PDF-pagina maakt met volledige tekenfunctionaliteit in Aspose.PDF voor .NET. |
 | [Pagina's toevoegen aan PDF met Aspose – Complete C#-gids](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Leer hoe u met Aspose PDF-pagina's kunt toevoegen in een uitgebreide C#-handleiding. |

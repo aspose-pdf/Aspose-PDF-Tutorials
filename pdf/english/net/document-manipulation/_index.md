@@ -204,6 +204,8 @@ Learn how to eliminate unwanted open actions from PDF files using Aspose.PDF for
 Learn how to remove embedded fonts from PDF files using Aspose.PDF for .NET in this step-by-step tutorial.
 ### [How to Remove Embedded Fonts PDF – Step‑by‑Step C# Guide](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Learn how to remove embedded fonts from PDF files using Aspose.PDF for .NET with this step-by-step C# guide.
+### [How to save modified PDF with Aspose.Pdf and add transparency](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Learn how to save a modified PDF and apply transparency using Aspose.PDF for .NET.
 
 ### [How to Split PDF Pages Using Aspose.PDF for .NET&#58; A Complete Guide](./mastering-pdf-page-splitting-aspose-pdf-net/)
 Learn how to efficiently split PDF pages into individual files using Aspose.PDF for .NET with this comprehensive guide. Boost your document manipulation skills today.

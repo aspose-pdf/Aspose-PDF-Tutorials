@@ -50,20 +50,33 @@
 | [Обновить размеры страницы PDF](./update-dimensions/) | Узнайте, как легко обновить размеры страницы PDF с помощью Aspose.PDF для .NET в этом подробном пошаговом руководстве. |
 | [Как редактировать ресурсы страниц PDF с помощью Aspose.PDF в C#](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Пошаговое руководство по редактированию ресурсов страниц PDF с помощью Aspose.PDF для .NET на C#. |
 | [Увеличить содержимое страницы в PDF-файле](./zoom-to-page-contents/) | Узнайте, как увеличить масштаб содержимого страницы в файлах PDF с помощью Aspose.PDF для .NET в этом подробном руководстве. Улучшите свои документы PDF в соответствии с вашими конкретными потребностями. |  
-| [Добавить номера страниц в PDF с C# – Полное пошаговое руководство](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Пошаговое руководство по добавлению номеров страниц в PDF-файлы с помощью C# и Aspose.PDF для .NET. |
-| [Создать PDF документ C# – Добавить нумерацию Бейтса](./create-pdf-document-c-add-bates-numbering/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF с помощью C# и Aspose.PDF для .NET. |
-| [Добавить нумерацию Бейтса в PDF – Пошаговое руководство по нумерации страниц PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Подробное пошаговое руководство по добавлению нумерации Бейтса в PDF‑документы с помощью Aspose.PDF для .NET. |
-| [Создать PDF-документ C# – Руководство по добавлению фигур и пустых страниц](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Пошаговое руководство по добавлению фигур и пустых страниц в PDF-документ с помощью C# и Aspose.PDF для .NET. |
-| [Добавить нумерацию Бейтса в PDF с Aspose – Полное руководство](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF с помощью Aspose.PDF для .NET. |
+| [Добавить номера страниц в PDF с C# – Полное пошаговое руководство](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Пошаговое руководство по добавлению номеров страниц в PDF-файлы с помощью C# и Aspose.PDF для .NET. |  
+| [Создать PDF документ C# – Добавить нумерацию Бейтса](./create-pdf-document-c-add-bates-numbering/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF с помощью C# и Aspose.PDF для .NET. |  
+| [Добавить нумерацию Бейтса в PDF – Пошаговое руководство по нумерации страниц PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Подробное пошаговое руководство по добавлению нумерации Бейтса в PDF‑документы с помощью Aspose.PDF для .NET. |  
+| [Создать PDF‑документ C# – Руководство по добавлению фигур и пустых страниц](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Пошаговое руководство по добавлению фигур и пустых страниц в PDF‑документ с помощью C# и Aspose.PDF для .NET. |  
+| [Добавить нумерацию Бейтса в PDF с Aspose – Полное руководство](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF с помощью Aspose.PDF для .NET. |  
+| [Как добавить нумерацию Бейтса в PDF с помощью Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF с использованием Aspose.Pdf для .NET. |  
 | [Переупорядочить страницы PDF в C# – Полное пошаговое руководство](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Пошаговое руководство по переупорядочиванию страниц PDF с помощью Aspose.PDF для .NET в C#. Простая реализация для всех уровней. |
 | [Добавить нумерацию Бейтса в C# – Пошаговое руководство](./add-bates-numbering-in-c-step-by-step-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF с помощью Aspose.PDF для .NET и C#. |
 | [Добавить страницы в PDF – Пошаговое руководство для разработчиков C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Пошаговое руководство по добавлению страниц в PDF с помощью Aspose.PDF для .NET и C#. |
 | [Переупорядочить страницы PDF с Aspose.Pdf – Полное руководство на C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Пошаговое руководство по переупорядочиванию страниц PDF с помощью Aspose.Pdf в C#. |
 | [Добавить нумерацию Бейтса в PDF с C# – Полное руководство](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью C# и Aspose.PDF для .NET. |
 | [Дублирование страницы PDF с Aspose.Pdf – Полное руководство](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Пошаговое руководство по дублированию страницы PDF с помощью Aspose.Pdf для .NET. Простая реализация для всех уровней. |
-| [Добавить нумерацию Бейтса в PDF с Aspose.PDF – Полное руководство](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |
-| [Добавить пустую страницу PDF с Aspose.PDF – Полное руководство](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению пустой страницы в PDF с помощью Aspose.PDF для .NET. |
-| [Добавить нумерацию Бейтса в PDF с Aspose – пошаговое руководство](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |
+| [Добавить нумерацию Бейтса в PDF с Aspose.PDF – Полное руководство](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |  
+| [Добавить пустую страницу PDF с Aspose.PDF – Полное руководство](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению пустой страницы в PDF с помощью Aspose.PDF для .NET. |  
+| [Добавить нумерацию Бейтса в PDF с Aspose – пошаговое руководство](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Вставить пустую страницу и обновить нумерацию Бейтса](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Пошаговое руководство по вставке пустой страницы и обновлению нумерации Бейтса в PDF с помощью Aspose.PDF для .NET. |  
 | [Создать пустую страницу PDF – Полное руководство по рисованию PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Подробное пошаговое руководство по созданию пустой страницы PDF с использованием полного рисования PDF в Aspose.PDF для .NET. |

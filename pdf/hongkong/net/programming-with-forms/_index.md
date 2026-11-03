@@ -61,34 +61,18 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 | [使用 Aspose.Pdf 在 C# 中建立多頁表單 – 步驟指南](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 在 C# 中建立多頁 PDF 表單，提升表單功能與使用者體驗。 |
 | [使用 C# 將 FDF 匯入 PDF – 完整步驟指南](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) |本教學示範如何使用 Aspose.PDF for .NET 透過 C# 將 FDF 檔案匯入 PDF，完整步驟說明。 |  
 | [使用 Aspose.PDF 保存 PDF 文件 – 完整指南](./save-pdf-document-with-aspose-pdf-complete-guide/) |本完整指南說明如何使用 Aspose.PDF for .NET 將 PDF 文件儲存至檔案或串流。 |  
+| [如何使用 C# 建立具有互動式表單欄位的 PDF 文件](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 以 C# 建立包含互動表單欄位的 PDF 文件。 |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [如何使用 Aspose 建立 PDF – 新增欄位至集合](./how-to-create-pdf-with-aspose-add-field-to-collection/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中將欄位新增至集合，以提升表單功能。 |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [建立多個文字方塊小部件的 PDF 文件 – 步驟指南](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) |本逐步教學說明如何使用 Aspose.PDF for .NET 在 PDF 中建立包含多個文字方塊的小部件。 |  
 | [在 PDF 中添加 Bates 編號 – C# 步驟指南](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中以 C# 添加 Bates 編號，以便文件管理與追蹤。 |  
@@ -99,6 +83,4 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

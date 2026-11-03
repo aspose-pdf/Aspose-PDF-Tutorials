@@ -74,7 +74,7 @@ Lär dig hur du validerar PDF‑signaturer i C# med en tydlig steg‑för‑steg
 Lär dig hur du verifierar PDF‑signaturer med Aspose i en steg‑för‑steg‑guide.
 
 ### [Extrahera signaturer från PDF med Aspose.Pdf – Komplett guide](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
-Lär dig hur du extraherar alla digitala signaturer från PDF-dokument med Aspose.Pdf i .NET, inklusive kodexempel och steg-för-steg-instruktioner.
+Lär dig hur du extraherar alla digitala signaturer från PDF-dokument med Aspose.Pdf i .NET, inklusive kodexempel och steg-för‑steg‑instruktioner.
 
 ### [Hur man extraherar signatär från PDF – Komplett C#‑guide](./how-to-extract-signer-from-pdf-complete-c-guide/)
 Lär dig hur du extraherar signatärens information från en PDF med en komplett C#‑guide.
@@ -145,6 +145,8 @@ Lär dig hur du kontrollerar och validerar digitala signaturer i PDF-filer med A
 Lär dig hur du validerar PDF-signaturer och listar befintliga signaturer med Aspose.PDF för .NET i en komplett guide.
 
 ### [Hur man validerar PDF med Aspose.PDF – kontrollera PDF-signaturens giltighet i C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+### [Hur man hämtar signaturer från ett Word-dokument i C#](./how-to-get-signatures-from-a-word-document-in-c/)
+Lär dig hur du extraherar signaturer från ett Word-dokument med C# och Aspose.Words.
 
 ## Ytterligare resurser
 
