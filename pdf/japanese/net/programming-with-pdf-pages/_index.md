@@ -68,33 +68,7 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [C# で PDF の不透明度を変更 – Aspose.Pdf ステップバイステップガイド](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF の不透明度を変更する方法をステップバイステップで解説します。 |
 | [Aspose を使ったベーツ番号付け PDF の追加 – 完全ステップバイステップガイド](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF にベーツ番号を追加する方法をステップバイステップで解説します。 |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [空白ページを挿入してベーツ番号を更新する](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) Aspose.PDF for .NET を使用して、PDF に空白ページを挿入し、ベーツ番号を更新する手順をステップバイステップで解説します。 |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [空白 PDF ページの作成 – 完全 PDF 描画チュートリアル](./create-blank-pdf-page-full-pdf-drawing-tutorial/) Aspose.PDF for .NET を使用して、空白の PDF ページを作成し、フル描画機能を活用する手順をステップバイステップで解説します。 |  
 | [Aspose を使用して PDF にページを追加 – 完全な C# ガイド](./add-pages-to-pdf-with-aspose-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF に新しいページを追加する手順をステップバイステップで解説します。 |  
@@ -104,5 +78,4 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

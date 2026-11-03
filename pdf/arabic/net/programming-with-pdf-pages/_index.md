@@ -66,33 +66,7 @@
 | [تغيير شفافية PDF في C# باستخدام Aspose.PDF – دليل خطوة بخطوة](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) دليل خطوة بخطوة لتغيير شفافية ملفات PDF باستخدام Aspose.PDF لـ .NET في C#. |
 | [إضافة ترقيم Bates إلى PDF باستخدام Aspose – دليل خطوة بخطوة](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [إدراج صفحة فارغة وتحديث ترقيم Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | دليل خطوة بخطوة لإدراج صفحة فارغة في ملف PDF وتحديث ترقيم Bates باستخدام Aspose.PDF لـ .NET. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [إضافة صفحات إلى PDF باستخدام Aspose – دليل C# كامل](./add-pages-to-pdf-with-aspose-complete-c-guide/) | دليل خطوة بخطوة لإضافة صفحات إلى ملف PDF باستخدام Aspose.PDF لـ .NET بلغة C#. |
 | [إنشاء صفحة PDF فارغة – دليل كامل لرسم PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | دليل خطوة بخطوة لإنشاء صفحة PDF فارغة باستخدام Aspose.PDF لـ .NET مع شرح كامل للرسم. |
@@ -103,5 +77,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

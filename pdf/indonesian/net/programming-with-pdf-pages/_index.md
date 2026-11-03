@@ -66,33 +66,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Menambahkan Penomoran Bates ke PDF dengan Aspose.PDF – Panduan Lengkap](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Panduan langkah demi langkah menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |
 | [Menambahkan penomoran Bates pada PDF dengan Aspose – panduan langkah demi langkah](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Tutorial Aspose PDF – Menyisipkan Halaman Kosong dan Memperbarui Penomoran Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Panduan langkah demi langkah untuk menyisipkan halaman kosong ke dalam PDF dan memperbarui penomoran Bates menggunakan Aspose.PDF untuk .NET.  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Buat Halaman PDF Kosong – Tutorial Menggambar PDF Lengkap](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Panduan lengkap untuk membuat halaman PDF kosong menggunakan Aspose.PDF untuk .NET dengan teknik menggambar PDF penuh. |
 | [Menambahkan Halaman ke PDF dengan Aspose – Panduan Lengkap C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Panduan langkah demi langkah menambahkan halaman ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |
@@ -103,5 +77,4 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

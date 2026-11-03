@@ -66,33 +66,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Cambiar la opacidad de PDF en C# con Aspose.Pdf – guía paso a paso](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Guía paso a paso para cambiar la opacidad de un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos. |
 | [Agregar numeración Bates a PDF con Aspose – guía paso a paso](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Tutorial Aspose PDF – Insertar una página en blanco y actualizar la numeración Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) Aprenda a insertar una página en blanco y actualizar la numeración Bates en un PDF usando Aspose.PDF para .NET.  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Crear página PDF en blanco – Tutorial completo de dibujo PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Aprenda a crear una página PDF en blanco y dibujar contenido completo usando Aspose.PDF para .NET paso a paso. |
 | [Agregar páginas a PDF con Aspose – Guía completa en C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Guía paso a paso para agregar páginas a un PDF usando Aspose.PDF en C#. |  
@@ -103,5 +77,4 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

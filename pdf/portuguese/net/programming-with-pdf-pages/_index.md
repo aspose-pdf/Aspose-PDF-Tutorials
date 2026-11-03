@@ -34,19 +34,6 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 
 {{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Como editar recursos de página PDF usando Aspose.PDF em C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | Título | Descrição |
 | --- | --- | 
 | [Mudança de Orientação](./change-orientation/) | Guia passo a passo para alterar a orientação da página de um PDF com Aspose.PDF para .NET. Fácil de seguir e implementar em seus projetos. |  
@@ -81,33 +68,7 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 | [Alterar opacidade de PDF em C# com Aspose.PDF – guia passo a passo](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Aprenda a mudar a opacidade de elementos em um PDF usando C# e Aspose.PDF neste guia passo a passo. |
 | [Adicionar numeração Bates a PDF com Aspose – guia passo a passo](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Aprenda a adicionar numeração Bates a arquivos PDF usando Aspose.PDF em um guia passo a passo. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Tutorial Aspose PDF – Inserir uma Página em Branco e Atualizar a Numeração Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Aprenda a inserir uma página em branco e atualizar a numeração Bates em um PDF usando Aspose.PDF para .NET. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Criar página PDF em branco – Tutorial completo de desenho PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Aprenda a criar uma página PDF em branco usando o Aspose.PDF para .NET com este tutorial passo a passo. |  
 | [Adicionar páginas ao PDF com Aspose – Guia completo em C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Guia passo a passo para adicionar páginas a um PDF usando Aspose.PDF para .NET com C#. |
@@ -118,5 +79,4 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

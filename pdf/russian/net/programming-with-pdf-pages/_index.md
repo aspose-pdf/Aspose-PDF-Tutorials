@@ -30,19 +30,6 @@
 
 {{< tutorial-card link="./compare-pdfs/" title="Сравнение PDF с разными размерами страниц с использованием Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | Название | Описание |
 | --- | --- | 
 | [Изменить непрозрачность PDF в C# – пошаговое руководство](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Пошаговое руководство по изменению непрозрачности PDF с помощью Aspose.PDF для .NET на C#. |
@@ -78,19 +65,6 @@
 | [Добавить пустую страницу PDF с Aspose.PDF – Полное руководство](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Пошаговое руководство по добавлению пустой страницы в PDF с помощью Aspose.PDF для .NET. |
 | [Добавить нумерацию Бейтса в PDF с Aspose – пошаговое руководство](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF-файлы с помощью Aspose.PDF для .NET. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Вставить пустую страницу и обновить нумерацию Бейтса](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Пошаговое руководство по вставке пустой страницы и обновлению нумерации Бейтса в PDF с помощью Aspose.PDF для .NET. |  
 | [Создать пустую страницу PDF – Полное руководство по рисованию PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Подробное пошаговое руководство по созданию пустой страницы PDF с использованием полного рисования PDF в Aspose.PDF для .NET. |
 | [Добавить страницы в PDF с Aspose – Полное руководство C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Пошаговое руководство по добавлению страниц в PDF с помощью Aspose.PDF для .NET на C#. |
@@ -101,5 +75,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

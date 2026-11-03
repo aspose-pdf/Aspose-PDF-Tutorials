@@ -66,33 +66,7 @@ Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Cod
 | [PDF-Opazität in C# mit Aspose.Pdf ändern – Schritt‑für‑Schritt‑Anleitung](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Transparenz von PDF‑Inhalten in C# anpassen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [Bates‑Nummerierung zu PDF hinzufügen mit Aspose – Schritt‑für‑Schritt‑Anleitung](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates‑Nummerierung zu PDFs hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose PDF Tutorial – Leere Seite einfügen und Bates-Nummerierung aktualisieren](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere Seite einfügen und die Bates-Nummerierung im PDF aktualisieren. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Seiten zu PDF hinzufügen mit Aspose – Vollständiger C#‑Leitfaden](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Schritt‑für‑Schritt‑Anleitung zum Hinzufügen von Seiten zu einer PDF‑Datei mit Aspose.PDF für .NET in C#. |  
 | [Leere PDF-Seite erstellen – Vollständiges PDF-Zeichnungstutorial](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere PDF-Seite erstellen und vollständig zeichnen können – Schritt‑für‑Schritt‑Anleitung. |  
@@ -103,5 +77,4 @@ Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Cod
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

@@ -66,19 +66,6 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 | [Add Blank Page PDF with Aspose.PDF – Complete Guide](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Step-by-step guide to add a blank page to a PDF using Aspose.PDF for .NET. Easy to follow and implement. |
 | [Add bates numbering pdf with Aspose – step‑by‑step guide](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Step-by-step guide to add Bates numbering to a PDF using Aspose.PDF for .NET. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Add page numbers pdf with C# – Full Step‑by‑Step Guide](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Step-by-step guide to add page numbers to a PDF using C# and Aspose.PDF for .NET. |
 | [Create PDF Document in C# – Add Page to PDF & Rectangle](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Step-by-step guide to create a PDF, add a page and draw a rectangle using Aspose.PDF for .NET. |  
 | [Create Blank PDF Page – Full PDF Drawing Tutorial](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Step-by-step guide to create a blank PDF page using Aspose.PDF for .NET with full PDF drawing capabilities. |
@@ -89,5 +76,4 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

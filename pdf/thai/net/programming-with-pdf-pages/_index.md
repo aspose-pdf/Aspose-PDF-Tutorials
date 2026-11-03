@@ -36,19 +36,6 @@
 
 {{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="แก้ไขทรัพยากรหน้า PDF ด้วย Aspose.PDF ใน C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 - [การเปลี่ยนแปลงทิศทาง](./change-orientation/) | คำแนะนำทีละขั้นตอนในการเปลี่ยนทิศทางของหน้า PDF ด้วย Aspose.PDF สำหรับ .NET ทำตามและนำไปใช้กับโปรเจ็กต์ของคุณได้ง่าย -  
 | [เชื่อมโยงไฟล์ PDF](./concatenate-pdf-files/) | เชื่อมโยงไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้  
 - [ลบหน้าใดหน้าหนึ่งในไฟล์ PDF](./delete-particular-page/) | เรียนรู้วิธีการลบหน้าเฉพาะจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ -  
@@ -81,19 +68,6 @@
 - [เปลี่ยนความทึบของ PDF ใน C# ด้วย Aspose.Pdf – คู่มือขั้นตอนเต็ม](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | คำแนะนำทีละขั้นตอนในการปรับความทึบของหน้า PDF ด้วย Aspose.Pdf สำหรับ .NET
 - [เพิ่มหมายเลขบาเตส PDF ด้วย Aspose – คู่มือเต็มขั้นตอน](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | เรียนรู้วิธีเพิ่มหมายเลขบาเตสในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็ม
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 - [บทช่วยสอน Aspose PDF – แทรกหน้าว่างและอัปเดตหมายเลข Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | เรียนรู้วิธีแทรกหน้าว่างใน PDF และอัปเดตหมายเลข Bates อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET  
 - [สร้างหน้า PDF เปล่า – บทเรียนการวาด PDF เต็มรูปแบบ](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | เรียนรู้วิธีสร้างหน้า PDF เปล่าและวาดเนื้อหาเต็มรูปแบบด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 - [เพิ่มหน้าใน PDF ด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./add-pages-to-pdf-with-aspose-complete-c-guide/) | เรียนรู้วิธีเพิ่มหน้าในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยตัวอย่าง C# อย่างละเอียด |
@@ -103,5 +77,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

@@ -66,33 +66,7 @@
 | [Προσθήκη αριθμού Bates σε PDF με Aspose.PDF – Πλήρης οδηγός](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Μάθετε πώς να προσθέσετε αριθμούς Bates σε PDF χρησιμοποιώντας το Aspose.PDF με πλήρη βήμα‑βήμα οδηγίες. |
 | [Προσθήκη αρίθμησης Bates σε PDF με Aspose – οδηγός βήμα‑βήμα](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με αναλυτικές οδηγίες βήμα‑βήμα. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose PDF Tutorial – Εισαγωγή κενής σελίδας και ενημέρωση αριθμού Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Μάθετε πώς να εισάγετε μια κενή σελίδα σε PDF και να ενημερώσετε τη αρίθμηση Bates χρησιμοποιώντας το Aspose.PDF για .NET. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Δημιουργία Κενής Σελίδας PDF – Πλήρης Εκπαίδευση Σχεδίασης PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Μάθετε πώς να δημιουργήσετε μια κενή σελίδα PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό σχεδίασης. |
 | [Προσθήκη Σελίδων σε PDF με Aspose – Πλήρης Οδηγός C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Οδηγός βήμα προς βήμα για την προσθήκη σελίδων σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#. |
@@ -103,5 +77,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

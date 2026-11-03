@@ -66,33 +66,7 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Zmień krycie PDF w C# – przewodnik krok po kroku](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Krok po kroku pokażemy, jak zmienić krycie (przezroczystość) w pliku PDF przy użyciu Aspose.PDF w C#. |
 | [Dodaj numerację Bates w pliku PDF przy użyciu Aspose – przewodnik krok po kroku](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numerację Bates do pliku PDF przy użyciu Aspose.PDF dla .NET. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Samouczek Aspose PDF – Wstaw pustą stronę i zaktualizuj numerację Batesa](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Krok po kroku pokażemy, jak wstawić pustą stronę i zaktualizować numerację Bates w pliku PDF przy użyciu Aspose.PDF dla .NET. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Utwórz pustą stronę PDF – Pełny samouczek rysowania PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Krok po kroku pokażemy, jak utworzyć pustą stronę PDF i rysować na niej przy użyciu Aspose.PDF dla .NET. |  
 | [Dodaj strony do PDF za pomocą Aspose – Kompletny przewodnik C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Kompletny przewodnik krok po kroku, jak dodać strony do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |  
@@ -103,5 +77,4 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
