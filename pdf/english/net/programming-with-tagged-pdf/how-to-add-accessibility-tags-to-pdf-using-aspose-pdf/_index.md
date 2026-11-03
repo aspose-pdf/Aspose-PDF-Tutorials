@@ -66,7 +66,7 @@ url: /net/programming-with-tagged-pdf/how-to-add-accessibility-tags-to-pdf-using
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to add accessibility tags to PDF using Aspose.PDF
+# How to add accessibility tags to PDF using Aspose.PDF for .NET
 
 If you need to **add accessibility tags to PDF** files, this guide shows you a complete solution with Aspose.PDF for .NET. Whether you are preparing legal documents, e‑books, or reports that must meet PDF/UA compliance, you will learn how to create a tagged PDF that screen readers can interpret.
 
@@ -251,7 +251,9 @@ Running the program produces `tagged_out.pdf`, a PDF that now contains a paragra
 
 | Situation | How to adapt the code | Reason |
 |-----------|----------------------|--------|
-| **Multiple pages** | Loop through `pdfDocument.Pages` and apply tags to each page as needed. | Ensures every
+| **Multiple pages** | Loop through `pdfDocument.Pages` and apply tags to each page as needed. | Ensures every page receives the appropriate accessibility information. |
+| **Different tag roles** | Use `TaggedRoles.Heading`, `TaggedRoles.ListItem`, etc., depending on content semantics. | Provides richer structure for assistive technologies. |
+| **Dynamic content** | Generate tag text programmatically based on data sources. | Keeps the PDF content synchronized with underlying data. |
 
 ## What should you learn next?
 

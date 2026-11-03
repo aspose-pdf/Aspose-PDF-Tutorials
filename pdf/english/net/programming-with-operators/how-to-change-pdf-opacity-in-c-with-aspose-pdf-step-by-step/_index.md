@@ -60,7 +60,7 @@ tags:
 - Aspose.Pdf
 - Opacity
 - GraphicsState
-title: Learn to change PDF opacity in C# using Aspose.Pdf – step‑by‑step guide
+title: Implement PDF opacity changes in C# with Aspose.Pdf – step‑by‑step guide
 url: /net/programming-with-operators/how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/
 ---
 
