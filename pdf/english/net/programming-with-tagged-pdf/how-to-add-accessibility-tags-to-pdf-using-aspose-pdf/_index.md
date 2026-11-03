@@ -58,7 +58,7 @@ tags:
 - PDF
 - C#
 - Accessibility
-title: Add accessibility tags to PDF with Aspose.PDF for .NET
+title: How to add accessibility tags to PDF using Aspose.PDF for .NET
 url: /net/programming-with-tagged-pdf/how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/
 ---
 
