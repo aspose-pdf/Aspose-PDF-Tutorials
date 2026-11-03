@@ -19,6 +19,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 ## Návody
 | Název | Popis |
 | --- | --- | 
+| [Jak vytvořit souhrnný PDF pomocí Aspose.Pdf.AI v C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Naučte se vytvořit souhrnný PDF dokument pomocí Aspose.Pdf.AI v C# s podrobným návodem a ukázkami kódu. |
 | [Přidat a vyhledat skrytý text v souboru PDF](./add-and-search-hidden-text/) | Naučte se přidávat a vyhledávat skrytý text v PDF dokumentech pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu. |  
 | [Přidání seřazeného seznamu HTML do dokumentů](./add-html-ordered-list-into-documents/) | Naučte se přidávat seřazené seznamy HTML do PDF dokumentů pomocí Aspose.PDF pro .NET. Objevte podrobné pokyny v tomto podrobném tutoriálu. |  
 | [Přidání HTML pomocí DOMu](./add-html-using-dom/) V tomto podrobném návodu se naučte, jak přidat HTML obsah do PDF dokumentů pomocí Aspose.PDF pro .NET. Snadno vylepšete své PDF soubory pomocí dynamického formátování HTML. |
@@ -73,6 +74,9 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | [Použití Latexového skriptu v PDF souboru](./use-latex-script/) | Naučte se, jak pomocí Latexového skriptu přidávat matematické výrazy nebo vzorce do PDF souboru pomocí Aspose.PDF pro .NET. |  
 | [Přidat Batesova čísla do PDF – Bates číslování PDF](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Naučte se přidávat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET. Podrobný návod s ukázkami kódu. |  
 | [Vytvořit prvek Span v aplikaci Word pomocí C# – Kompletní průvodce](./create-span-element-in-word-with-c-complete-guide/) | Naučte se vytvořit prvek Span v dokumentu Word pomocí C# s podrobným návodem a ukázkami kódu. |  
+| [Přidat Batesovo číslování do PDF pomocí Aspose.PDF v C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Naučte se přidávat Batesova čísla do PDF souborů pomocí Aspose.PDF v C# s podrobným návodem a ukázkami kódu. |  
+| [Jak přidat text do PDF pomocí Aspose.PDF v C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Naučte se přidávat text do PDF souborů pomocí Aspose.PDF v jazyce C# s praktickými ukázkami kódu. |  
+| [Jak vytvořit klienta OpenAI a generovat souhrn PDF v C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Naučte se vytvořit klienta OpenAI a generovat souhrn PDF pomocí Aspose.PDF pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,7 @@ Zdroj obsahuje návody k programování s funkcí dokumentů v knihovně Aspose.
 | [Nastavení faktoru přiblížení v souboru PDF](./setzoomfactor/) | Naučte se, jak nastavit faktor přiblížení v souborech PDF pomocí Aspose.PDF pro .NET. Vylepšete uživatelský zážitek s tímto podrobným návodem. |  
 | [Zmenšit PDF dokumenty](./shrinkdocuments/) | V tomto podrobném návodu se naučte, jak zmenšit PDF dokumenty pomocí Aspose.PDF pro .NET. Optimalizujte PDF zdroje a zmenšete velikost souboru bez kompromisů v kvalitě. |  
 | [Odstranění vložených písem a optimalizace souborů PDF](./unembedfonts/) | V tomto podrobném tutoriálu se naučte, jak odebrat vložené fonty a optimalizovat soubory PDF pomocí Aspose.PDF pro .NET. |  
+| [Jak vytvořit prázdný PDF slovník a upravit PDF zdroje pomocí Aspose.PDF v C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Naučte se, jak vytvořit prázdný PDF slovník a upravit jeho zdroje pomocí Aspose.PDF pro .NET v C#. |  
 | [Ověřit PDF AB Standard](./validatepdfabstandard/) V tomto podrobném návodu se naučte, jak ověřit PDF pro standard PDF/A-1b pomocí Aspose.PDF pro .NET. Zajistěte shodu s předpisy pro dlouhodobou archivaci. |  
 | [Ověřování PDF souborů – standard](./validatepdfastandard/) | V tomto komplexním návodu se naučte, jak ověřit soubory PDF podle standardu PDF/A-1a pomocí nástroje Aspose.PDF pro .NET. |  
 | [Ověření standardu PDF UA](./validatepdfuastandard/) | Naučte se, jak ověřit PDF pro standard přístupnosti PDF/UA pomocí Aspose.PDF pro .NET s naším podrobným návodem a podrobným vysvětlením. |  
@@ -64,6 +65,7 @@ Zdroj obsahuje návody k programování s funkcí dokumentů v knihovně Aspose.
 | [Vytvořte vlastní plugin Aspose – Kompletní průvodce automatizací zpracování PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Naučte se, jak vytvořit vlastní plugin pro Aspose a automatizovat zpracování PDF pomocí podrobného průvodce a ukázek kódu. |  
 | [Přidání Batesova číslování ve Wordu – kompletní krok‑za‑krokem průvodce](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Naučte se, jak přidat Batesovo číslování do dokumentů Word pomocí Aspose.Words pro .NET v podrobném krok‑za‑krokem návodu. |  
 | [Přidání prázdné stránky do dokumentu Word pomocí C# – Kompletní průvodce](./add-blank-page-in-word-document-with-c-complete-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET přidat prázdnou stránku do dokumentu Word pomocí C# v podrobném průvodci. |
+| [Jak vytvořit prázdný PDF slovník pomocí Aspose.PDF v C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Naučte se, jak vytvořit prázdný PDF slovník pomocí Aspose.PDF pro .NET v jazyce C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

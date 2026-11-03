@@ -30,32 +30,33 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 
 {{< tutorial-card link="./compare-pdfs/" title="So sánh PDF với kích thước trang khác nhau bằng Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/" title="Thêm đánh số Bates cho PDF bằng Aspose – hướng dẫn từng bước" >}}
 
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Cách chỉnh sửa tài nguyên trang PDF bằng Aspose.PDF trong C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thay đổi hướng](./change-orientation/) | Hướng dẫn từng bước để thay đổi hướng trang của PDF bằng Aspose.PDF cho .NET. Dễ dàng thực hiện và triển khai trong các dự án của bạn. |  
 | [Nối các tập tin PDF](./concatenate-pdf-files/) | Nối các tệp PDF dễ dàng bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. |  
 | [Xóa trang cụ thể trong tệp PDF](./delete-particular-page/) | Tìm hiểu cách xóa một trang cụ thể khỏi tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
-| [Xác định màu trang](./determine-page-color/) Học cách xác định màu trang của tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi. Triển khai dễ dàng cho mọi cấp độ kỹ năng. |  
+| [Xác định màu trang](./determine-page-color/) | Học cách xác định màu trang của tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi. Triển khai dễ dàng cho mọi cấp độ kỹ năng. |  
 | [Phù hợp với nội dung trang trong tệp PDF](./fit-page-contents/) | Dễ dàng điều chỉnh nội dung PDF của bạn bằng Aspose.PDF cho .NET. Hướng dẫn này cung cấp phương pháp chi tiết, từng bước để đạt được bố cục trang tối ưu. |  
 | [Nhận Kích thước Trang PDF](./get-dimensions/) | Trong hướng dẫn này, chúng tôi giải thích cách lấy kích thước trang PDF và thực hiện thao tác bằng Aspose.PDF cho .NET. Các bước chi tiết được cung cấp để hướng dẫn bạn thực hiện quy trình. |  
 | [Lấy Số Trang Trong Tệp PDF](./get-number-of-pages/) | Hướng dẫn từng bước để lấy số trang trong tệp PDF bằng Aspose.PDF cho .NET. Dễ triển khai, lý tưởng cho các dự án của bạn. |  
 | [Nhận Số Trang Trong Tệp PDF](./get-page-count/) | Tìm hiểu cách lấy số trang trong tệp PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có giải pháp đơn giản và hiệu quả. |  
-| [Nhận trang cụ thể](./get-particular-page/) Tìm hiểu cách trích xuất một trang cụ thể từ PDF và lưu thành một tài liệu mới bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
+| [Nhận trang cụ thể](./get-particular-page/) | Tìm hiểu cách trích xuất một trang cụ thể từ PDF và lưu thành một tài liệu mới bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
 | [Nhận Thuộc tính PDF](./get-properties/) | Tìm hiểu cách trích xuất hiệu quả các thuộc tính PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã và các biện pháp thực hành tốt nhất. |  
 | [Đặt hình ảnh làm nền trang trong tệp PDF](./image-as-background/) | Tìm hiểu cách đặt hình ảnh làm nền trang trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tạo tài liệu chuyên nghiệp, hấp dẫn về mặt hình ảnh. |  
 | [Chèn trang trống vào tệp PDF](./insert-empty-page/) | Tìm hiểu cách chèn một trang trống vào tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ mã để thao tác PDF liền mạch. |  
 | [Chèn trang trống vào cuối](./insert-empty-page-at-end/) | Học cách chèn một trang trống vào tài liệu PDF một cách dễ dàng với Aspose.PDF cho .NET trong hướng dẫn dành cho người mới bắt đầu này. Hoàn hảo cho việc chỉnh sửa nhanh. |  
-| [Chia thành các trang](./split-to-pages/) Dễ dàng chia PDF thành các trang riêng lẻ bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Có kèm hướng dẫn từng bước. |  
+| [Chia thành các trang](./split-to-pages/) | Dễ dàng chia PDF thành các trang riêng lẻ bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Có kèm hướng dẫn từng bước. |  
 | [Cập nhật kích thước trang PDF](./update-dimensions/) | Khám phá cách cập nhật kích thước trang PDF dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này. |  
 | [Phóng to nội dung trang trong tệp PDF](./zoom-to-page-contents/) | Tìm hiểu cách phóng to nội dung trang trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Cải thiện tài liệu PDF của bạn theo nhu cầu cụ thể của bạn. |  
 | [Thêm số trang PDF bằng C# – Hướng dẫn chi tiết từng bước](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Hướng dẫn chi tiết cách thêm số trang vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Tạo tài liệu PDF C# – Thêm số Bates](./create-pdf-document-c-add-bates-numbering/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Thêm số Bates vào PDF – Hướng dẫn chi tiết từng bước để đánh số các trang PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Hướng dẫn chi tiết các bước để thêm số Bates vào các trang PDF bằng Aspose.PDF cho .NET. |  
-| [Tạo tài liệu PDF C# – Thêm hình dạng & Trang trống](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF, thêm các hình dạng và chèn trang trống bằng Aspose.PDF cho .NET trong C#. |  
-| [Thêm đánh số Bates vào PDF với Aspose – Hướng dẫn chi tiết](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Hướng dẫn từng bước để thêm đánh số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET, phù hợp cho các dự án quản lý tài liệu. |  
 | [Thêm số Bates trong C# – Hướng dẫn chi tiết từng bước](./add-bates-numbering-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
+| [Cách thêm đánh số Bates vào PDF với Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Hướng dẫn chi tiết cách thêm số Bates vào tệp PDF bằng Aspose.Pdf cho .NET. |  
 | [Thêm trang vào PDF – Hướng dẫn chi tiết từng bước cho nhà phát triển C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Hướng dẫn chi tiết cách thêm trang vào PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Sắp xếp lại các trang PDF trong C# – Hướng dẫn chi tiết từng bước](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Hướng dẫn chi tiết cách sắp xếp lại thứ tự các trang PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Sắp xếp lại các trang PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách sắp xếp lại các trang PDF bằng C# với Aspose.PDF cho .NET. |  
@@ -72,7 +73,6 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,11 +83,12 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Tạo Trang PDF Trống – Hướng Dẫn Vẽ PDF Toàn Diện](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Hướng dẫn chi tiết cách tạo một trang PDF trống và vẽ nội dung bằng Aspose.PDF cho .NET. |  
 | [Thêm trang vào PDF với Aspose – Hướng dẫn C# đầy đủ](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Hướng dẫn chi tiết cách thêm trang vào tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |
 | [Tạo tài liệu PDF trong C# – Thêm trang vào PDF & Hình chữ nhật](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Hướng dẫn chi tiết cách tạo tài liệu PDF, thêm trang và vẽ hình chữ nhật bằng Aspose.PDF cho .NET trong C#. |  
+| [Thêm đánh số Bates vào PDF với Aspose – Hướng dẫn chi tiết](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Hướng dẫn từng bước để thêm đánh số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET, phù hợp cho các dự án quản lý tài liệu. |  
+| [Tạo tài liệu PDF C# – Thêm hình dạng & Trang trống](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF, thêm các hình dạng và chèn trang trống bằng Aspose.PDF cho .NET trong C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

@@ -136,6 +136,8 @@ Leer hoe u handtekeningen uit een PDF-document haalt met C# en Aspose.PDF in een
 Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF in .NET.
 ### [PDF valideren met Aspose.PDF – controleer geldigheid van PDF-handtekening in C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
 Leer hoe u een PDF valideert en de handtekeninggeldigheid controleert met Aspose.PDF in C#.
+### [Hoe handtekeningen uit een Word-document halen in C#](./how-to-get-signatures-from-a-word-document-in-c/)
+Leer hoe u handtekeningen uit een Word-document haalt met C# en Aspose.Words.
 
 ## Aanvullende bronnen
 

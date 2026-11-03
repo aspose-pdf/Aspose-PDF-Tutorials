@@ -1,0 +1,7 @@
+Title: How to add accessibility tags to PDF using Aspose.PDF
+Slug: how-to-add-accessibility-tags-to-pdf-using-aspose-pdf
+Category: programming-with-tagged-pdf
+ProcessedDate: 2026-10-23T22:15:16.823014
+SourceRepo: AI Search API
+Keywords: add accessibility tags to pdf
+PRNumber: 167

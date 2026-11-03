@@ -226,6 +226,7 @@ Apprenez à modifier facilement la couleur du texte des liens dans les PDF avec 
 
 ### [Comment réparer les fichiers PDF avec Aspose.Pdf – Guide complet](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Apprenez à réparer les fichiers PDF corrompus ou endommagés en utilisant Aspose.Pdf avec ce guide complet étape par étape.
+### [Comment enregistrer un PDF modifié avec Aspose.Pdf et ajouter de la transparence](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 
 ### [Insérer des pages dans un PDF avec Aspose.PDF pour .NET : Guide complet de manipulation de documents](./insert-pages-pdf-aspose-dotnet-guide/)
 Apprenez à insérer des pages dans un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre tout, de la configuration à la mise en œuvre, idéal pour les développeurs C#.

@@ -29,8 +29,11 @@ Die Tutorials „Programmieren mit Operatoren“ von Aspose.PDF für .NET führe
 | [Benutzerdefinierten Grafikzustand in PDF erstellen mit Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen benutzerdefinierten Grafikzustand erstellen und anwenden. |
 | [Rechteck zu PDF hinzufügen mit Aspose.Pdf – Vollständige C#‑Anleitung](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF einfügen – vollständige C#‑Anleitung. |
 | [PDF-Resource-Dictionary mit Aspose.PDF bearbeiten – C#‑Leitfaden](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Erfahren Sie, wie Sie das Resource Dictionary einer PDF-Datei mit Aspose.PDF für .NET bearbeiten – vollständige C#‑Anleitung. |
-| [Leeres PDF-Wörterbuch in C# mit Aspose.Pdf erstellen](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein leeres PDF-Wörterbuch in C# erstellen. |
-| [Wie man einen leeren Grafikzustand in einem PDF mit C# erstellt](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen leeren Grafikzustand in einem PDF mit C# erzeugen. |
+| [Leeres PDF-Wörterbuch in C# mit Aspose.Pdf erstellen](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein leeres PDF-Wörterbuch in C# erstellen. |  
+| [Wie man einen leeren Grafikzustand in einem PDF mit C# erstellt](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen leeren Grafikzustand in einem PDF mit C# erzeugen. |  
+| [Wie man die PDF-Transparenz mit Aspose.Pdf in C# ändert](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Transparenz von PDF-Elementen in C# anpassen. |  
+| [Wie man die PDF-Transparenz in C# mit Aspose.PDF ändert](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Transparenz von PDF-Elementen in C# anpassen. |
+| [Grafikzustand-PDF mit Aspose.PDF in C# hinzufügen](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET den Grafikzustand in einer PDF-Datei in C# hinzufügen. |  
 | [Wie man die PDF-Transparenz in C# mit Aspose.Pdf ändert – Schritt‑für‑Schritt‑Anleitung](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) | Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Opazität von PDF-Elementen in C# anpassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

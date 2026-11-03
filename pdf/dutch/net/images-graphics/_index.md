@@ -44,6 +44,9 @@ Leer hoe u met Aspose.PDF een rechthoek aan een PDF toevoegt met volledige codev
 ### [Rechthoek toevoegen aan PDF met C# – stapsgewijze handleiding](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 Leer hoe u met Aspose.PDF voor .NET een rechthoek aan een PDF toevoegt met C# in deze stapsgewijze handleiding.
 
+### [Hoe een rechthoek aan PDF toe te voegen in C# met Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Leer hoe u met Aspose.Pdf in C# een rechthoek aan een PDF-document toevoegt, inclusief codevoorbeelden en stap‑voor‑stap uitleg.
+
 ### [Maak aangepaste PDF-stempels met Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net
 
@@ -69,6 +72,9 @@ Leer hoe u de graphics state van een PDF kunt manipuleren en transparantie-inste
 Leer hoe u de doorzichtigheid van PDF-pagina's of elementen kunt aanpassen met Aspose.PDF voor .NET in C#.
 ### [Transparantie toevoegen aan PDF-bestanden met Aspose.PDF voor .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 Een codetutorial voor Aspose.PDF Net
+
+### [Hoe een rechthoek toevoegen aan PDF met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Leer hoe u met Aspose.PDF voor .NET een rechthoek aan een PDF toevoegt met C#, inclusief codevoorbeelden en praktische tips.
 
 ### [Efficiënte PDF-afbeeldingsidentificatie met Aspose.PDF voor .NET](./master-image-identification-aspose-pdf-net/)
 Leer hoe u grijswaarden- en RGB-afbeeldingen in PDF's kunt identificeren met Aspose.PDF voor .NET. Deze tutorial behandelt installatie, beeldextractie en prestatietips.
@@ -207,6 +213,8 @@ Leer hoe u ExtGState-objecten kunt toepassen om transparantie, mengmodi en ander
 ### [Grafische status toevoegen aan PDF met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 ### [Aangepaste ExtGState PDF toevoegen met Aspose.PDF: een stapsgewijze handleiding](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Leer hoe u met Aspose.PDF aangepaste ExtGState-instellingen toevoegt aan PDF's voor geavanceerde transparantie‑ en weergave‑effecten.
+### [Grafische status toevoegen aan PDF met Aspose.PDF in C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Leer hoe u de graphics state van een PDF kunt beheren met Aspose.PDF in C#.
 
 ## Aanvullende bronnen
 

@@ -60,6 +60,7 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 | [使用 C# 将 FDF 导入 PDF – 完整分步指南](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 将 FDF 文件导入 PDF，实现表单数据填充。|
 | [使用 Aspose.PDF 保存 PDF 文档 – 完整指南](./save-pdf-document-with-aspose-pdf-complete-guide/) 本完整指南演示如何使用 Aspose.PDF for .NET 保存 PDF 文档，包括示例代码和最佳实践。|
 | [在 C# 中创建 PDF 表单字段 – 步骤指南](./create-pdf-form-field-in-c-step-by-step-guide/) 通过本分步指南学习如何在 C# 中创建 PDF 表单字段。|
+| [如何使用 C# 创建带交互式表单字段的 PDF 文档](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 C# 中创建包含交互式表单字段的 PDF 文档。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -67,7 +68,6 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -82,7 +82,6 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -96,6 +95,4 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

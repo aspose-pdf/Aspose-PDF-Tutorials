@@ -129,6 +129,8 @@ C# का उपयोग करके PDF हस्ताक्षर को �
 
 ### [C# में PDF से हस्ताक्षर प्राप्त करें – चरण‑दर‑चरण गाइड](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 ### [Aspose.PDF के साथ PDF को मान्य कैसे करें – C# में PDF हस्ताक्षर वैधता जांचें](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+### [C# में Word दस्तावेज़ से हस्ताक्षर प्राप्त करें](./how-to-get-signatures-from-a-word-document-in-c/)
+C# का उपयोग करके Word दस्तावेज़ में डिजिटल हस्ताक्षर निकालने की प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

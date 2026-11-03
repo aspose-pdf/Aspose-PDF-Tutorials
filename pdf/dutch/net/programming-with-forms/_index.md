@@ -61,6 +61,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [PDF-tekstvak maken – Stapsgewijze handleiding](./create-pdf-textbox-field-step-by-step-guide/) | Leer hoe u een tekstvak toevoegt aan een PDF-document met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [FDF importeren in PDF met C# – Complete stap‑voor‑stap‑gids](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Leer hoe u een FDF-bestand in een PDF importeert met C# met deze volledige stap‑voor‑stap‑handleiding. |
 | [PDF-document opslaan met Aspose.PDF – volledige gids](./save-pdf-document-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u PDF-documenten opslaat met Aspose.PDF voor .NET in deze volledige gids. |  
+| [PDF-document maken met interactieve formuliervelden in C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Leer hoe u een PDF-document maakt met interactieve formuliervelden in C# met Aspose.PDF voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,7 +69,6 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -99,6 +98,4 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

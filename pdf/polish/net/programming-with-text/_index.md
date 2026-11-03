@@ -27,7 +27,9 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | [Dodaj obramowanie tekstu w pliku PDF](./add-text-border/) | Dowiedz się, jak dodać obramowanie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje dokumenty PDF. |  
 | [Dodaj tekst z kolorami cieniowania w pliku PDF](./add-text-with-shading-colors/) | Dowiedz się, jak dodawać cieniowanie tekstu w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Dostosuj swoje dokumenty za pomocą kolorowych gradientów. |  
 | [Dodaj podpowiedź do tekstu w pliku PDF](./add-tooltip-to-text/) | Dowiedz się, jak dodawać podpowiedzi do tekstu w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Bez trudu wzbogacaj swoje pliki PDF o informacyjne teksty wyświetlane po najechaniu kursorem. |  
+| [Dodaj tekst do pliku PDF przy użyciu Aspose.PDF w C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Dowiedz się, jak dodać tekst do pliku PDF przy użyciu Aspose.PDF w C# w tym przewodniku krok po kroku. |  
 | [Dodaj przezroczysty tekst do pliku PDF](./add-transparent-text/) | Dowiedz się, jak łatwo dodać przezroczysty tekst do pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Instrukcje krok po kroku, jak uzyskać idealną przezroczystość. |  
+| [Dodaj numerację Bates do pliku PDF przy użyciu Aspose.PDF w C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Dowiedz się, jak dodać numerację Bates do dokumentów PDF przy użyciu Aspose.PDF w C# w tym przewodniku krok po kroku. |  
 | [Dodaj numery Bates do pliku PDF – numerowanie Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Dowiedz się, jak dodać numery Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET. Przewodnik krok po kroku. |  
 | [Utwórz plik PDF z wieloma kolumnami](./create-multi-column-pdf/) | Dowiedz się, jak tworzyć wielokolumnowe pliki PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami kodu i szczegółowymi wyjaśnieniami. Idealny dla profesjonalistów. |  
 | [Niestandardowe tabulatory w pliku PDF](./custom-tab-stops/) | Dowiedz się, jak skonfigurować niestandardowe tabulatory w pliku PDF za pomocą Aspose.PDF dla .NET. Ten samouczek zawiera instrukcje krok po kroku dotyczące profesjonalnego wyrównywania tekstu. |  
@@ -62,7 +64,7 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | [Wyszukaj i uzyskaj cały tekst](./search-and-get-text-all/) | Dowiedz się, jak wyszukiwać i pobierać tekst ze wszystkich stron dokumentu PDF za pomocą Aspose.PDF dla platformy .NET. |  
 | [Wyszukaj i uzyskaj stronę tekstową w pliku PDF](./search-and-get-text-page/) | Dowiedz się, jak wyszukiwać i pobierać tekst z określonej strony w pliku PDF za pomocą Aspose.PDF dla platformy .NET. |  
 | [Wyszukaj wyrażenie regularne w pliku PDF](./search-regular-expression/) | Dowiedz się, jak wyszukiwać wyrażenia regularne w plikach PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Zwiększ swoją produktywność dzięki wyrażeniom regularnym. |  
-| [Wyszukaj tekst i dodaj hiperłącze](./search-text-and-add-hyperlink/) | Dowiedz się, jak wyszukiwać tekst i dodawać hiperłącza w plikach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego samouczka krok po kroku. |  
+| [Wyszukaj tekst i dodaj hiperłącze](./search-text-and-add-hyperlink/) | Dowiedz się, jak wyszukiwać tekst i dodawać hiperłącza w plikach PDF za pomocą platformy .NET, korzystając z naszego samouczka krok po kroku. |  
 | [Wyszukaj tekst i narysuj prostokąt](./search-text-and-draw-rectangle/) Naucz się wyszukiwać tekst w plikach PDF i wyróżniać go prostokątami za pomocą Aspose.PDF dla .NET! Łatwy samouczek krok po kroku dla ulepszonych umiejętności manipulowania plikami PDF. |  
 | [Wyszukaj segmenty tekstu Strona w pliku PDF](./search-text-segments-page/) | Dowiedz się, jak wyszukiwać segmenty tekstu w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Wyodrębnij tekst, przeanalizuj segmenty i nie tylko. |  
 | [Wyszukaj tekst za pomocą wyrażenia regularnego Dot Net](./search-text-with-dot-net-regex/) | Dowiedz się, jak wyszukiwać tekst w plikach PDF za pomocą .NET Regex z Aspose.PDF. Postępuj zgodnie z naszym przewodnikiem krok po kroku i uprość swoje zadania związane z plikami PDF. |   
@@ -73,7 +75,9 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | [Użyj skryptu Latex w pliku PDF](./use-latex-script/) | Dowiedz się, jak używać skryptu Latex do dodawania wyrażeń matematycznych lub wzorów do pliku PDF za pomocą Aspose.PDF dla platformy .NET. |
 | [Utwórz element span w Word przy użyciu C# – Kompletny przewodnik](./create-span-element-in-word-with-c-complete-guide/) | Dowiedz się, jak programowo tworzyć elementy span w dokumentach Word przy użyciu C# w tym kompletnym przewodniku. |
 | [Generuj podsumowanie PDF przy użyciu Aspose.Pdf.AI i OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Dowiedz się, jak generować podsumowanie dokumentu PDF przy użyciu Aspose.Pdf.AI i OpenAI w .NET. |
+| [Jak utworzyć klienta OpenAI i wygenerować podsumowanie PDF w C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Dowiedz się, jak skonfigurować klienta OpenAI i przy pomocy Aspose.PDF wygenerować podsumowanie dokumentu PDF w C#. |
 
+| [Jak utworzyć podsumowanie PDF przy użyciu Aspose.Pdf.AI w C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Dowiedz się, jak generować podsumowanie dokumentu PDF przy użyciu Aspose.Pdf.AI w C# w kilku prostych krokach. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

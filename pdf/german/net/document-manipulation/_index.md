@@ -352,6 +352,9 @@ Erfahren Sie, wie Sie ein geändertes PDF speichern und PDF-Ressourcen mit Aspos
 ### [Speichern Sie ein modifiziertes PDF mit Aspose.PDF – Vollständige C#‑Anleitung](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein bearbeitetes PDF speichern und dabei bewährte Vorgehensweisen nutzen.
 
+### [Wie Sie ein modifiziertes PDF mit Aspose.PDF speichern und Transparenz hinzufügen](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Erfahren Sie, wie Sie ein bearbeitetes PDF speichern und Transparenz hinzufügen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

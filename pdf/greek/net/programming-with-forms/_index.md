@@ -61,6 +61,7 @@
 | [Εισαγωγή FDF σε PDF με C# – Πλήρης Οδηγός Βήμα‑βήμα](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Μάθετε πώς να εισάγετε αρχεία FDF σε PDF χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 | [Αποθήκευση εγγράφου PDF με Aspose.PDF – πλήρης οδηγός](./save-pdf-document-with-aspose-pdf-complete-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF με αυτόν τον πλήρη οδηγό βήμα προς βήμα. |
 | [Δημιουργία πεδίου φόρμας PDF σε C# – οδηγός βήμα‑βήμα](./create-pdf-form-field-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε πεδία φόρμας PDF χρησιμοποιώντας C# με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα. |
+| [Πώς να δημιουργήσετε PDF έγγραφο με διαδραστικά πεδία φόρμας σε C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Μάθετε πώς να δημιουργήσετε PDF με διαδραστικά πεδία φόρμας χρησιμοποιώντας C# και Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,7 +69,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -99,6 +98,4 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

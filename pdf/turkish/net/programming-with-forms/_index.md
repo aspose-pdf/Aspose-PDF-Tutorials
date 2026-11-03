@@ -61,6 +61,7 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [C# ile PDF'ye FDF İçe Aktarma – Tam Adım Adım Kılavuz](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile FDF dosyasını PDF'ye nasıl aktaracağınızı adım adım öğrenin. |  
 | [Aspose.PDF ile PDF Belgesini Kaydet – tam rehber](./save-pdf-document-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF belgelerini kaydetmenin tüm adımlarını öğrenin. |  
 | [C#'ta PDF form alanı oluşturma – adım adım rehber](./create-pdf-form-field-in-c-step-by-step-guide/) | C# kullanarak PDF form alanı oluşturmayı adım adım öğrenin. |
+| [C# ile etkileşimli form alanları içeren PDF belgesi oluşturma](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Aspose.PDF for .NET kullanarak C# ile etkileşimli form alanları içeren PDF belgesi oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,7 +69,6 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -83,7 +83,6 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -99,6 +98,4 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

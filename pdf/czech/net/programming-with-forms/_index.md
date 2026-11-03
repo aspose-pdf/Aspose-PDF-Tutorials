@@ -55,37 +55,20 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Jak vytvořit PDF pomocí Aspose – Přidat formulářové pole a stránky](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF, přidat formulářová pole a stránky v jednom průvodci. |
 | [Vytvořit PDF dokument s více widgety – krok za krokem](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF dokument obsahující více widgetů, krok za krokem s ukázkovým kódem. |
 | [Vytvořit PDF s stránkami a textovými poli – kompletní průvodce v C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Naučte se, jak vytvořit PDF s více stránkami a textovými poli pomocí Aspose.PDF pro .NET v kompletním C# průvodci. |
-
 | [Vytvořit PDF dokument s Aspose – Přidat textové pole](./create-pdf-document-with-aspose-add-text-box-field/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat textové pole do PDF dokumentu v tomto podrobném návodu. |
-{{< /blocks/products/pf/tutorial-page-section >}}
+| [Jak vytvořit PDF dokument s interaktivními formulářovými poli v C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Naučte se pomocí Aspose.PDF pro .NET vytvořit PDF dokument s interaktivními formulářovými poli v jazyce C#. |
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Jak vytvořit PDF s Aspose – Přidat pole do kolekce](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Naučte se, jak pomocí Aspose.PDF přidat pole do kolekce v PDF dokumentu. |  
 | [Vytvořit PDF dokument C# – krok za krokem průvodce více stránkovými formuláři](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# vytvořit více stránkový PDF formulář krok za krokem. |
 
 | [Vytvořit vícestránkový formulář v C# s Aspose.Pdf – krok za krokem](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit vícestránkový formulář v C# krok za krokem. |
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Vytvořit PDF dokument s více widgety textových polí – krok za krokem](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Naučte se, jak vytvořit PDF dokument s více textovými poli pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
 | [Přidat Batesová čísla do PDF – krok za krokem C# průvodce](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Naučte se, jak přidat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném C# návodu. |  
@@ -99,6 +82,4 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-
