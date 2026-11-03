@@ -1,19 +1,24 @@
 ---
-date: '2026-06-17'
-description: เรียนรู้วิธีการใส่แท็ก PDF ด้วย Aspose.PDF for Java, เพิ่มส่วนหัวใน PDF,
-  เพิ่มย่อหน้าใน PDF, และปฏิบัติตามมาตรฐาน PDF/UA เพื่อการเข้าถึงที่เหนือระดับ
+date: '2026-10-28'
+description: เรียนรู้วิธีสร้าง PDF ที่มีแท็กด้วย Aspose.PDF for Java, เพิ่ม header
+  PDF, เพิ่ม paragraph PDF, ตั้งค่า PDF language, และบรรลุ PDF/UA compliance เพื่อการเข้าถึงที่เหนือกว่า
 keywords:
-- how to tag pdf
-- add header to pdf
-- add paragraph to pdf
-- aspose pdf maven dependency
-- aspose pdf gradle dependency
+- create tagged pdf
+- add header pdf
+- pdf ua compliance
+- set pdf language
+- add paragraph pdf
+lastmod: '2026-10-28'
+og_description: สร้าง PDF ที่มีแท็กด้วย Aspose.PDF for Java, เพิ่ม header PDF, เพิ่ม
+  paragraph PDF, ตั้งค่า PDF language, และรับประกัน PDF/UA compliance ในไม่กี่นาที
+og_image_alt: Tutorial showing how to create a tagged PDF using Aspose.PDF for Java
+og_title: วิธีสร้าง PDF ที่มีแท็กด้วย Aspose.PDF for Java
 schemas:
 - author: Aspose
-  dateModified: '2026-06-17'
-  description: Learn how to tag pdf with Aspose.PDF for Java, add header to pdf, add
-    paragraph to pdf, and meet PDF/UA standards for superior accessibility.
-  headline: How to Tag PDF with Aspose.PDF for Java – Accessible PDFs
+  dateModified: '2026-10-28'
+  description: Learn how to create tagged PDF with Aspose.PDF for Java, add header
+    PDF, add paragraph PDF, and meet PDF/UA standards for superior accessibility.
+  headline: How to create tagged PDF with Aspose.PDF for Java
   type: TechArticle
 - questions:
   - answer: A tagged PDF includes semantic information that aids screen readers, improving
@@ -30,32 +35,35 @@ schemas:
       for comprehensive guides and API references.
     question: Where can I find more resources on Aspose.PDF?
   type: FAQPage
-title: วิธีการใส่แท็ก PDF ด้วย Aspose.PDF for Java – PDF ที่เข้าถึงได้
+tags:
+- create tagged pdf
+- aspose pdf
+- java pdf accessibility
+title: วิธีสร้าง PDF ที่มีแท็กด้วย Aspose.PDF for Java
 url: /th/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีทำการแท็ก PDF ด้วย Aspose.PDF for Java – PDF ที่เข้าถึงได้
 
-ในบทแนะนำที่ครอบคลุมนี้ คุณจะได้ค้นพบ **วิธีทำการแท็ก pdf** ด้วย Aspose.PDF for Java ซึ่งช่วยให้คุณสร้างเอกสารที่เข้าถึงได้เต็มรูปแบบที่เครื่องอ่านหน้าจอสามารถนำทางได้อย่างง่ายดาย เราจะเดินผ่านการเพิ่มส่วนหัว, แทรกองค์ประกอบย่อหน้า, ตั้งค่าภาษาเอกสาร, และทำให้เป็นไปตามมาตรฐาน PDF/UA — ทั้งหมดด้วยคำแนะนำที่ชัดเจนเป็นขั้นตอน
+# วิธีสร้าง PDF ที่มีแท็กด้วย Aspise.PDF สำหรับ Java
+
+ในบทเรียนนี้คุณจะได้เรียนรู้ **วิธีสร้างไฟล์ PDF ที่มีแท็ก** ด้วย Aspose.PDF for Java การทำแท็กจะเพิ่มโครงสร้างเชิงตรรกะที่เครื่องอ่านหน้าจอสามารถตีความได้ ทำให้คุณสามารถปฏิบัติตามมาตรฐาน PDF/UA ตั้งค่าภาษา PDF และฝังส่วนหัวและย่อหน้าเพื่อให้เอกสารเข้าถึงได้อย่างเต็มที่ มาดูขั้นตอนกันทีละขั้นตอน
 
 ## คำตอบสั้น
-- **อะไรคือการแท็ก PDF?** การเพิ่มโครงสร้างเชิงตรรกะ (แท็ก) ที่อธิบายหัวเรื่อง, ย่อหน้า, ตาราง ฯลฯ เพื่อการเข้าถึง  
-- **ใช้ไลบรารีใด?** Aspose.PDF for Java (เวอร์ชัน 25.3 หรือใหม่กว่า)  
-- **ต้องการไลเซนส์หรือไม่?** สามารถใช้รุ่นทดลองฟรีสำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
-- **สามารถเพิ่มส่วนหัวและย่อหน้าได้หรือไม่?** ได้ – API มีคลาส `HeaderElement` และ `ParagraphElement`  
+- **อะไรคือการทำแท็ก PDF?** การเพิ่มโครงสร้างเชิงตรรกะ (แท็ก) ที่อธิบายหัวเรื่อง ย่อหน้า ตาราง ฯลฯ เพื่อการเข้าถึง  
+- **ใช้ไลบรารีอะไร?** Aspose.PDF for Java (เวอร์ชัน 25.3 หรือใหม่กว่า)  
+- **ต้องมีลิขสิทธิ์หรือไม่?** ทดลองใช้ฟรีสำหรับการประเมิน; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **สามารถเพิ่มหัวเรื่องและย่อหน้าได้หรือไม่?** ได้ – API มีคลาส `HeaderElement` และ `ParagraphElement`  
 - **เป็นเฉพาะ Java เท่านั้นหรือ?** ตัวอย่างเป็น Java แต่แนวคิดคล้ายกันมีสำหรับ .NET และแพลตฟอร์มอื่น ๆ  
 
-## การแท็ก PDF คืออะไร
-การแท็ก PDF คือกระบวนการฝังโครงสร้างเชิงความหมายแบบต้นไม้ไว้ในไฟล์ PDF เพื่ออธิบายเนื้อหาแต่ละส่วน (หัวเรื่อง, ย่อหน้า, รายการ, ตาราง) โครงสร้างนี้ช่วยให้เทคโนโลยีช่วยเหลือสามารถนำเสนอเอกสารในลำดับที่มีความหมายได้
+## การทำแท็ก PDF คืออะไร?
+การทำแท็ก PDF ฝังโครงสร้างเชิงความหมายลงในไฟล์ ซึ่งอธิบายส่วนต่าง ๆ ของเนื้อหา เช่น หัวเรื่อง ย่อหน้า รายการและตาราง โครงสร้างนี้ทำให้เทคโนโลยีช่วยเหลือสามารถแสดงเอกสารตามลำดับการอ่านที่เป็นตรรกะ ตั้งค่าภาษาอย่างเหมาะสม และให้ผู้ใช้ข้ามไปยังส่วนต่าง ๆ ได้โดยตรง จึงช่วยให้สอดคล้องกับมาตรฐานการเข้าถึงเช่น PDF/UA
 
-## ทำไมต้องใช้ Aspose.PDF for Java เพื่อแท็ก PDF
-Aspose.PDF for Java รองรับ **รูปแบบเข้าและออกกว่า 50 แบบ** และสามารถประมวลผล PDF หลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ ทำให้การแท็กที่รวดเร็วและเชื่อถือได้สำหรับเอกสารระดับองค์กรขนาดใหญ่ API การเข้าถึงที่ในตัวช่วยขจัดความจำเป็นในการใช้เครื่องมือของบุคคลที่สาม
+## ทำไมต้องใช้ Aspose.PDF สำหรับ Java เพื่อสร้าง PDF ที่มีแท็ก?
+Aspose.PDF for Java รองรับ **รูปแบบไฟล์เข้าและออกกว่า 50 แบบ** และสามารถประมวลผล PDF หลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ ทำให้การทำแท็กสำหรับเอกสารระดับองค์กรขนาดใหญ่ทำได้อย่างรวดเร็วและเชื่อถือได้ API การเข้าถึงที่มาพร้อมในตัวช่วยขจัดความจำเป็นในการใช้เครื่องมือของบุคคลที่สาม ทำให้คุณบรรลุมาตรฐาน PDF/UA ได้ในไม่กี่นาที
 
 ## ข้อกำหนดเบื้องต้น
 - **Aspose.PDF for Java** ≥ 25.3 (แนะนำให้ใช้เวอร์ชันล่าสุด)  
@@ -63,7 +71,7 @@ Aspose.PDF for Java รองรับ **รูปแบบเข้าและ
 - Maven หรือ Gradle สำหรับจัดการ dependencies  
 - ความรู้พื้นฐานของ Java  
 
-## การตั้งค่า Aspose.PDF for Java
+## การตั้งค่า Aspose.PDF สำหรับ Java
 เพิ่มไลบรารีลงในโปรเจกต์ของคุณโดยใช้ระบบ build ใดระบบหนึ่งต่อไปนี้
 
 ### การตั้งค่า Maven
@@ -85,13 +93,13 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### การรับใบอนุญาต
-Aspose.PDF มีรุ่นทดลองฟรีสำหรับการประเมิน คุณสามารถรับใบอนุญาตชั่วคราวสำหรับการทดสอบหรือซื้อไลเซนส์เต็มรูปแบบสำหรับการใช้งานจริง
+Aspose.PDF มีการทดลองใช้ฟรีสำหรับการประเมิน รับใบอนุญาตชั่วคราวสำหรับการทดสอบหรือซื้อใบอนุญาตเต็มสำหรับการใช้งานจริง
 
-## วิธีทำการแท็ก PDF – คู่มือขั้นตอน
-การแท็ก PDF เกี่ยวข้องกับการโหลดไฟล์, กำหนดโครงสร้างเชิงตรรกะ, แล้วเพิ่มแท็กเชิงความหมายเช่นหัวเรื่องและย่อหน้า ในคู่มือนี้คุณจะได้เห็นวิธีเปิดเอกสาร, ตั้งค่าชื่อเรื่องและภาษา, แล้วแทรกส่วนหัวและย่อหน้าเพื่อสร้าง PDF ที่แท็กครบถ้วนและเข้าถึงได้
+## วิธีสร้าง PDF ที่มีแท็ก – คู่มือขั้นตอนโดยละเอียด
+การทำแท็ก PDF เกี่ยวข้องกับการโหลดไฟล์ กำหนดโครงสร้างเชิงตรรกะ แล้วเพิ่มแท็กเชิงความหมาย เช่น หัวเรื่องและย่อหน้า ในคู่มือนี้คุณจะได้เห็นวิธีเปิดเอกสาร ตั้งค่าชื่อและภาษา แล้วแทรกองค์ประกอบหัวเรื่องและย่อหน้าเพื่อผลิต PDF ที่มีแท็กและเข้าถึงได้อย่างสมบูรณ์
 
-### ขั้นตอนที่ 1: เริ่มต้น Document
-คลาส `Document` เป็นอ็อบเจ็กต์ระดับบนของ Aspose.PDF ที่แทนไฟล์ PDF หนึ่งไฟล์ในหน่วยความจำ หลังจากสร้างอินสแตนซ์แล้ว การทำงานทั้งหมดเกี่ยวกับการแท็กจะดำเนินผ่านอ็อบเจ็กต์นี้
+### ขั้นตอนที่ 1: เริ่มต้นเอกสาร
+คลาส `Document` แทนไฟล์ PDF ในหน่วยความจำและเป็นจุดเริ่มต้นสำหรับการทำงานทั้งหมดของ Aspose.PDF หลังจากสร้างอินสแตนซ์แล้ว การทำแท็กทั้งหมดจะดำเนินผ่านอ็อบเจกต์นี้
 
 ```java
 import com.aspose.pdf.Document;
@@ -104,11 +112,11 @@ Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-### ขั้นตอนที่ 2: ตั้งค่าชื่อเรื่องและภาษาของ Document
-เมธอด `setTitle` กำหนดสตริงชื่อเรื่องให้กับเมตาดาต้า PDF  
+### ขั้นตอนที่ 2: ตั้งค่าชื่อเอกสารและภาษา
+เมธอด `setTitle` กำหนดสตริงชื่อให้กับเมทาดาต้า PDF  
 เมธอด `setLanguage` กำหนดภาษาหลักของเอกสารโดยใช้โค้ด BCP‑47  
 
-การตั้งค่าชื่อเรื่องและภาษาเพิ่มความเข้าถึงและทำให้เป็นไปตามมาตรฐาน PDF/UA ใช้เมธอด `setTitle` และ `setLanguage` บนอินสแตนซ์ `Document`
+การตั้งชื่อและภาษาเพิ่มความเข้าถึงและช่วยให้สอดคล้องกับ PDF/UA ใช้เมธอด `setTitle` และ `setLanguage` บนอินสแตนซ์ `Document`
 
 ```java
 taggedContent.setTitle("Tagged Pdf Document");
@@ -116,9 +124,9 @@ taggedContent.setLanguage("en-US");
 document.save(outputDir + "/TaggedPdfSetup.pdf");
 ```
 
-### วิธีเพิ่มส่วนหัวใน PDF?
-คลาส `HeaderElement` แทนแท็กหัวเรื่องในโครงสร้างต้นไม้ของ PDF  
-สร้าง `HeaderElement`, กำหนดระดับหัวเรื่อง, แล้วเชื่อมต่อกับต้นไม้แท็กของเอกสาร การทำเช่นนี้ให้จุดนำทางที่ชัดเจนสำหรับเครื่องอ่านหน้าจอ โดยการระบุระดับที่เหมาะสม (เช่น H1, H2) จะทำให้ลำดับชั้นของเอกสารถูกตีความอย่างถูกต้องโดยเทคโนโลยีช่วยเหลือ
+### วิธีเพิ่มหัวเรื่องใน PDF?
+`HeaderElement` เป็นอ็อบเจกต์แท็กที่กำหนดหัวเรื่องในโครงสร้างเชิงตรรกะของ PDF  
+สร้าง `HeaderElement` กำหนดระดับหัวเรื่องเช่น H1 หรือ H2 แล้วผูกเข้ากับต้นไม้แท็กของเอกสาร ซึ่งทำให้เครื่องอ่านหน้าจอมีจุดนำทางที่ชัดเจน แสดงลำดับชั้นของเอกสารอย่างถูกต้อง และให้ผู้ใช้ข้ามไปยังส่วนสำคัญได้โดยตรง
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.HeaderElement;
@@ -129,8 +137,8 @@ document.save(outputDir + "/TaggedPdfWithHeader.pdf");
 ```
 
 ### วิธีเพิ่มย่อหน้าใน PDF?
-คลาส `ParagraphElement` แทนแท็กย่อหน้าในโครงสร้างแท็กของ PDF  
-สร้างอินสแตนซ์ `ParagraphElement`, เติมข้อความ, แล้วเชื่อมต่อกับแท็กพาเรนท์ที่เหมาะสม แท็กย่อหน้าช่วยสื่อความหมายของเนื้อหาหลัก ทำให้เครื่องอ่านหน้าจออ่านข้อความเป็นบล็อกต่อเนื่อง การแท็กย่อหน้าอย่างถูกต้องช่วยปรับปรุงการไหลของการอ่านและสอดคล้องกับมาตรฐานการเข้าถึง
+`ParagraphElement` เป็นอ็อบเจกต์แท็กที่แทนบล็อกข้อความหลักในโครงสร้างเชิงตรรกะของ PDF  
+สร้างอินสแตนซ์ `ParagraphElement` ตั้งค่าข้อความเป็นสตริงที่ต้องการ แล้วเชื่อมต่อกับแท็กพาเรนต์ที่เหมาะสมในลำดับชั้น แท็กย่อหน้าจะสื่อความหมายของเนื้อหาหลัก ทำให้เทคโนโลยีช่วยเหลืออ่านข้อความเป็นบล็อกต่อเนื่อง รักษาลำดับการอ่านที่ถูกต้อง และใช้กฎการตั้งค่าภาษาและการแบ่งคำที่เหมาะสม
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -145,72 +153,70 @@ document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 
 ## การสร้าง PDF ที่มีแท็ก – กรณีการใช้งานทั่วไป
 1. **การปฏิบัติตามมาตรฐานการเข้าถึง** – ตรงตาม WCAG 2.1 และ PDF/UA 1.0 สำหรับผู้ใช้ที่มีความพิการ  
-2. **การนำทางที่ดีขึ้น** – เปิดใช้งานการกระโดดอย่างรวดเร็วไปยังหัวเรื่องและส่วนต่าง ๆ ในคู่มือขนาดใหญ่  
-3. **การบูรณาการเทคโนโลยีช่วยเหลือ** – ทำงานร่วมกับเครื่องอ่านหน้าจอ, จอแสดงผลเบรลล์, และเครื่องมือ voice‑over อย่างราบรื่น  
+2. **การนำทางที่ดีขึ้น** – ให้ข้ามไปยังหัวเรื่องและส่วนต่าง ๆ ได้อย่างรวดเร็วในคู่มือขนาดใหญ่  
+3. **การบูรณาการเทคโนโลยีช่วยเหลือ** – ทำงานร่วมกับเครื่องอ่านหน้าจอ, จอแสดงผลบราไล, และเครื่องมือพูดออกเสียงอย่างราบรื่น  
 
 ## ตั้งค่าภาษา PDF – ทำไมจึงสำคัญ
-การระบุภาษา (เช่น `en-US`) ทำให้เทคโนโลยีช่วยเหลือใช้การออกเสียงและการแบ่งคำที่ถูกต้อง เพิ่มคะแนนการเข้าถึงของเอกสารและทำให้สอดคล้องกับข้อกำหนด PDF/UA
+การระบุภาษา (เช่น `en-US`) ทำให้เทคโนโลยีช่วยเหลือสามารถใช้การออกเสียงและกฎการแบ่งคำที่ถูกต้อง เพิ่มคะแนนการเข้าถึงของเอกสารและทำให้สอดคล้องกับข้อกำหนด PDF/UA
 
 ## การเพิ่มแท็กใน PDF – เคล็ดลับและแนวทางปฏิบัติที่ดีที่สุด
-- **โครงสร้างแท็ก:** รักษาต้นไม้แท็กให้ตื้น; การซ้อนลึกอาจทำให้ผู้อ่านบางคนสับสน  
+- **โครงสร้างแท็ก:** ให้ต้นไม้แท็กตื้น; การซ้อนลึกอาจทำให้ผู้อ่านสับสน  
 - **การตั้งชื่อที่สอดคล้อง:** ใช้ค่า `ActualText` ชัดเจนสำหรับหัวเรื่องและย่อหน้า  
-- **ตรวจสอบล่วงหน้า:** รันการตรวจสอบแผง “Tags” ของ Adobe Acrobat หลังการเปลี่ยนแปลงแต่ละขั้นตอน  
+- **ตรวจสอบตั้งแต่ต้น:** ใช้แถบ “Tags” ของ Adobe Acrobat ตรวจสอบหลังการเปลี่ยนแปลงแต่ละขั้นตอน  
 
-## พิจารณาประสิทธิภาพ
+## ข้อควรพิจารณาด้านประสิทธิภาพ
 เมื่อจัดการกับ PDF ขนาดใหญ่ (สูงสุด 500 MB):
 
 - ใช้ `try‑with‑resources` ของ Java หรือเรียก `close()` อย่างชัดเจนเพื่อปล่อยตัวจัดการไฟล์  
 - เรียก `document.optimizeResources()` เพื่อลดการใช้หน่วยความจำ  
 
-## ปัญหาที่พบบ่อยและวิธีแก้ไข
+## ปัญหาทั่วไปและวิธีแก้
 | ปัญหา | วิธีแก้ |
 |-------|----------|
-| แท็กไม่ปรากฏใน Acrobat | ตรวจสอบว่าคุณได้เรียก `document.save()` **หลังจาก** เพิ่มแต่ละองค์ประกอบ |
-| ไม่สามารถจดจำภาษา | ตรวจสอบว่าโค้ดภาษาตรงตามมาตรฐาน BCP‑47 (เช่น `en-US`, `fr-FR`) |
-| ไฟล์ขนาดใหญ่ทำให้เกิด OutOfMemoryError | เปิดใช้งาน `document.optimizeResources()` และประมวลผลหน้าเป็นชิ้นส่วน |
+| แท็กไม่ปรากฏใน Acrobat | ตรวจสอบว่าคุณได้เรียก `document.save()` **หลังจาก** เพิ่มแต่ละองค์ประกอบแล้ว |
+| ภาษาไม่ถูกจดจำ | ตรวจสอบว่าโค้ดภาษาตรงตามมาตรฐาน BCP‑47 (เช่น `en-US`, `fr-FR`) |
+| ไฟล์ขนาดใหญ่ทำให้เกิด OutOfMemoryError | เปิดใช้งาน `document.optimizeResources()` และประมวลผลหน้าเป็นส่วนๆ |
 
 ## คำถามที่พบบ่อย
 
-**ถาม: PDF ที่มีแท็กคืออะไร?**  
-ตอบ: PDF ที่มีแท็กรวมข้อมูลเชิงความหมายที่ช่วยให้เครื่องอ่านหน้าจอทำงานได้ดีขึ้น เพิ่มการเข้าถึง
+**Q: PDF ที่มีแท็กคืออะไร?**  
+A: PDF ที่มีแท็กมีข้อมูลเชิงความหมายที่ช่วยให้เครื่องอ่านหน้าจอทำงานได้ดีขึ้น เพิ่มการเข้าถึงให้กับผู้ใช้  
 
-**ถาม: จะเริ่มต้นกับ Aspose.PDF for Java อย่างไร?**  
-ตอบ: เพิ่มไลบรารีลงในโปรเจกต์ของคุณโดยใช้ Maven หรือ Gradle ตามที่แสดงด้านบน  
+**Q: จะเริ่มต้นกับ Aspose.PDF for Java อย่างไร?**  
+A: เพิ่มไลบรารีลงในโปรเจกต์ของคุณโดยใช้ Maven หรือ Gradle ตามที่แสดงด้านบน  
 
-**ถาม: สามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?**  
-ตอบ: ใช่ มีรุ่นทดลองฟรี; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์  
+**Q: สามารถใช้ Aspose.PDF ได้ฟรีหรือไม่?**  
+A: ใช่ มีการทดลองใช้ฟรี; ต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์  
 
-**ถาม: ประโยชน์ของ PDF ที่มีแท็กคืออะไร?**  
-ตอบ: พวกมันเพิ่มการเข้าถึง, ปรับปรุงการนำทาง, และทำงานได้ดีร่วมกับเทคโนโลยีช่วยเหลือ  
+**Q: ประโยชน์ของ PDF ที่มีแท็กคืออะไร?**  
+A: เพิ่มการเข้าถึง, ปรับปรุงการนำทาง, ทำงานร่วมกับเทคโนโลยีช่วยเหลือได้ดี  
 
-**ถาม: จะหาแหล่งข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.PDF ได้จากที่ไหน?**  
-ตอบ: เยี่ยมชม [เอกสารอย่างเป็นทางการของ Aspose](https://reference.aspose.com/pdf/java/) เพื่อดูคู่มือและอ้างอิง API อย่างครบถ้วน  
+**Q: จะหาแหล่งข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.PDF ได้จากที่ไหน?**  
+A: เยี่ยมชม [เอกสารประกอบของ Aspose](https://reference.aspose.com/pdf/java/) สำหรับคู่มือและอ้างอิง API อย่างครบถ้วน  
 
 ## แหล่งข้อมูล
-- [Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Library](https://releases.aspose.com/pdf/java/)
-- [Purchase License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/pdf/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/pdf/10)
+- [เอกสารประกอบ](https://reference.aspose.com/pdf/java/)
+- [ดาวน์โหลดไลบรารี](https://releases.aspose.com/pdf/java/)
+- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
+- [ทดลองใช้ฟรี](https://releases.aspose.com/pdf/java/)
+- [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2026-06-17  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
+**อัปเดตล่าสุด:** 2026-10-28  
+**ทดสอบด้วย:** Aspose.PDF for Java 25.3  
+**ผู้เขียน:** Aspose
 
 ## บทแนะนำที่เกี่ยวข้อง
 
-- [Create and Manage Tagged PDFs Using Aspose.PDF for Java: Enhance Accessibility in Your Documents](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
-- [Create Accessible PDFs with Images Using Aspose.PDF for Java: A Complete Guide to Tagged PDF Creation](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
-- [Create Accessible Tagged Tables in PDFs Using Aspose.PDF for Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
-
+- [สร้างและจัดการ PDF ที่มีแท็กโดยใช้ Aspose.PDF สำหรับ Java: ปรับปรุงการเข้าถึงในเอกสารของคุณ](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [สร้าง PDF ที่เข้าถึงได้ด้วยรูปภาพโดยใช้ Aspose.PDF สำหรับ Java: คู่มือเต็มสำหรับการสร้าง PDF ที่มีแท็ก](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [สร้างตารางที่มีแท็กที่เข้าถึงได้ใน PDF โดยใช้ Aspose.PDF สำหรับ Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
