@@ -76,6 +76,7 @@ Aspose.PDF 的 .NET「使用文字程式設計」教學課程提供了處理 PDF
 | [如何使用 Aspose.Pdf.AI 在 C# 中建立摘要 PDF](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) |了解如何使用 Aspose.Pdf.AI 在 C# 中建立 PDF 摘要。 |  
 | [使用 Aspose.PDF 在 C# 中為 PDF 添加 Bates 編號](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 文件添加 Bates 編號，以便於文件管理與追蹤。 |
 | [如何在 C# 中使用 Aspose.PDF 新增文字至 PDF](./how-to-add-text-pdf-with-aspose-pdf-in-c/) |學習在 C# 中使用 Aspose.PDF 新增文字至 PDF 文件的步驟說明。 |
+| [如何在 C# 中建立 OpenAI 客戶端並產生 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) |了解如何使用 C# 建立 OpenAI 客戶端並生成 PDF 摘要的步驟。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

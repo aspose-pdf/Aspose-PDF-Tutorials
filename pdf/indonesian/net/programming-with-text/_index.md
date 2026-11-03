@@ -76,6 +76,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Membuat PDF Ringkasan dengan Aspose.Pdf.AI di C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Pelajari cara menghasilkan PDF ringkasan secara otomatis menggunakan Aspose.Pdf.AI dengan kode C#. |
 | [Tambahkan penomoran Bates ke PDF menggunakan Aspose.PDF dalam C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Pelajari cara menambahkan penomoran Bates ke PDF menggunakan Aspose.PDF dengan bahasa C#. Contoh kode langkah demi langkah disertakan. |
 | [Cara Menambahkan Teks PDF dengan Aspose.PDF di C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Pelajari cara menambahkan teks ke file PDF menggunakan Aspose.PDF dengan bahasa C#. |
+| [Cara Membuat Klien OpenAI dan Menghasilkan Ringkasan PDF dalam C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Pelajari cara membuat klien OpenAI dan menghasilkan ringkasan PDF menggunakan Aspose.PDF untuk .NET dengan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

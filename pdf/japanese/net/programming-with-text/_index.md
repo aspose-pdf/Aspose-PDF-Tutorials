@@ -76,6 +76,7 @@ Aspose.PDFの.NET向け「テキストプログラミング」チュートリア
 | [C# で Aspose.Pdf.AI を使用して要約 PDF を作成する方法](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) Aspose.PDF for .NET と Aspose.Pdf.AI を活用し、C# で PDF の要約を自動生成する手順をステップバイステップで解説します。 |  
 | [C# で Aspose.PDF を使用して PDF にベーツ番号を追加](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) Aspose.PDF for .NET を使用し、C# で PDF にベーツ番号（ページ番号）を自動的に付与する方法をステップバイステップで解説します。 |  
 | [C# で Aspose.PDF を使用してテキスト PDF を追加する方法](./how-to-add-text-pdf-with-aspose-pdf-in-c/) Aspose.PDF for .NET を使用して、C# でテキスト PDF を追加する手順を学びます。 |  
+| [C# で OpenAI クライアントを作成し、PDF の要約を生成する方法](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) Aspose.PDF for .NET と OpenAI を使用して、C# で PDF の要約を生成する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

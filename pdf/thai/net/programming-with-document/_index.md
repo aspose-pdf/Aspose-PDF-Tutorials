@@ -65,6 +65,7 @@
 - [วิธีซ่อมไฟล์ PDF – คู่มือขั้นตอนโดยใช้ Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | เรียนรู้วิธีซ่อมแซมไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET อย่างละเอียดในขั้นตอนง่าย ๆ  
 - [เปิดไฟล์ PDF ด้วย C# – วิธีซ่อมแซม PDF ที่เสียหายในไม่กี่นาที](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | เรียนรู้วิธีเปิดไฟล์ PDF ด้วย C# และซ่อมแซมไฟล์ PDF ที่เสียหายในไม่กี่นาทีด้วย Aspose.PDF สำหรับ .NET  
 - [วิธีอ่านไฟล์ Word และดึงหน้าที่ต้องการจาก Word – คู่มือ C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | เรียนรู้วิธีอ่านไฟล์ Word และดึงหน้าที่ต้องการโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# อย่างละเอียด
+- [วิธีสร้างพจนานุกรม PDF ว่างและแก้ไขทรัพยากร PDF ด้วย Aspose.PDF ใน C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | เรียนรู้วิธีสร้างพจนานุกรม PDF ว่างและแก้ไขทรัพยากร PDF ด้วย Aspose.PDF สำหรับ .NET ใน C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,7 @@
 | [كيفية إنشاء ملخص PDF باستخدام Aspose.Pdf.AI في C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | تعلم كيفية إنشاء ملف PDF ملخص باستخدام Aspose.Pdf.AI في C# خطوة بخطوة. |
 | [إضافة ترقيم بياتس إلى PDF باستخدام Aspose.PDF في C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | تعلم كيفية إضافة ترقيم بياتس إلى ملفات PDF باستخدام Aspose.PDF مع C# خطوة بخطوة. |
 | [كيفية إضافة نص إلى PDF باستخدام Aspose.PDF في C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | تعلم كيفية إضافة نص إلى ملفات PDF باستخدام Aspose.PDF في C# خطوة بخطوة. |
+| [كيفية إنشاء عميل OpenAI وتوليد ملخص PDF باستخدام C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | تعلم كيفية إنشاء عميل OpenAI وتوليد ملخص لمستند PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

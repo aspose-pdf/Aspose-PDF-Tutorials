@@ -76,6 +76,7 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | [PDF-samenvatting genereren met Aspose.Pdf.AI en OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Leer hoe u met Aspose.Pdf.AI en OpenAI een samenvatting van een PDF genereert. |  
 | [Hoe maak je een samenvattende PDF met Aspose.Pdf.AI in C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Leer hoe u met Aspose.Pdf.AI een samenvattende PDF maakt in C#. |  
 | [Bates-nummers toevoegen aan PDF met Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Leer hoe u Bates-nummers aan PDF-documenten kunt toevoegen met Aspose.PDF voor .NET in C#. |  
+| [Hoe maak je een OpenAI-client en genereer je een PDF-samenvatting in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Leer hoe je een OpenAI-client instelt en met Aspose.PDF een PDF-samenvatting genereert in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

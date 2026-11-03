@@ -72,10 +72,11 @@
 | [Текстовые сегменты в PDF-файле](./text-segments/) | Узнайте, как искать определенные текстовые сегменты в PDF-файле с помощью регулярных выражений в Aspose.PDF для .NET. |  
 | [Использовать скрипт Latex в PDF-файле](./use-latex-script/) | Узнайте, как использовать скрипт Latex для добавления математических выражений или формул в файл PDF с помощью Aspose.PDF для .NET. |  
 | [Добавить номера Бейтса в PDF](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Узнайте, как добавить номера Бейтса в PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
-| [Создание элемента Span в Word с C# – Полное руководство](./create-span-element-in-word-with-c-complete-guide/) | Узнайте, как создать элемент span в документе Word с помощью C# – полное руководство. |  
+| [Создание элемента Span в Word с C# – Полное руководство](./create-span-element-in-word-with-c-complete-guide/) | Узнайте, как создать элемент span в документе Word с помощью C# – полное руководство. |
 | [Создать резюме PDF с помощью Aspose.Pdf.AI и OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Узнайте, как создать резюме PDF с использованием Aspose.Pdf.AI и OpenAI. |
 | [Как создать сводный PDF с Aspose.Pdf.AI на C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Узнайте, как с помощью Aspose.Pdf.AI создать сводный PDF-файл в C#. |
 | [Добавить нумерацию Бейтса в PDF с помощью Aspose.PDF на C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF на C#. |
+| [Как создать клиент OpenAI и сгенерировать резюме PDF в C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Узнайте, как использовать OpenAI API для создания резюме PDF-файла с помощью C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

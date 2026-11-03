@@ -19,6 +19,7 @@ Các hướng dẫn "Lập trình với Văn bản" của Aspose.PDF dành cho .
 ## Hướng dẫn
 | Tiêu đề | Mô tả |
 | --- | --- | 
+| [Cách tạo client OpenAI và tạo tóm tắt PDF bằng C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Hướng dẫn tạo client OpenAI và sử dụng Aspose.PDF để tạo tóm tắt PDF trong C#. |  
 | [Thêm và tìm kiếm văn bản ẩn trong tệp PDF](./add-and-search-hidden-text/) | Học cách thêm và tìm kiếm văn bản ẩn trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã. |  
 | [Thêm danh sách có thứ tự HTML vào tài liệu](./add-html-ordered-list-into-documents/) | Học cách thêm danh sách có thứ tự HTML vào tài liệu PDF bằng Aspose.PDF cho .NET. Khám phá hướng dẫn từng bước trong hướng dẫn chi tiết này. |  
 | [Thêm HTML bằng DOM](./add-html-using-dom/) Tìm hiểu cách thêm nội dung HTML vào tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện tệp PDF của bạn bằng định dạng HTML động một cách dễ dàng. |  

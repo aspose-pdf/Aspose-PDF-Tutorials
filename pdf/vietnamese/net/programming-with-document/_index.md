@@ -65,6 +65,7 @@ Tài nguyên này bao gồm các hướng dẫn về tính năng lập trình v�
 | [Thêm trang trống vào tài liệu Word bằng C# – Hướng dẫn chi tiết](./add-blank-page-in-word-document-with-c-complete-guide/) | Hướng dẫn chi tiết cách thêm trang trống vào tài liệu Word bằng C# sử dụng Aspose.Words cho .NET. |  
 | [Cách tạo từ điển PDF trống bằng Aspose.PDF trong C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Hướng dẫn tạo một từ điển PDF trống bằng Aspose.PDF cho .NET trong C#. |  
 
+| [Tạo từ điển PDF trống và chỉnh sửa tài nguyên PDF bằng Aspose.PDF trong C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Hướng dẫn tạo từ điển PDF trống và chỉnh sửa tài nguyên PDF bằng Aspose.PDF cho .NET trong C#. |
 | [Tạo plugin Aspose tùy chỉnh – Hướng dẫn đầy đủ để tự động xử lý PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Hướng dẫn chi tiết cách tạo plugin Aspose tùy chỉnh để tự động hoá quy trình xử lý PDF bằng .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 

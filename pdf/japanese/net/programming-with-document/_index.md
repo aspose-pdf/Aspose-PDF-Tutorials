@@ -66,6 +66,7 @@
 | [C# で Word 文書に空白ページを追加する – 完全ガイド](./add-blank-page-in-word-document-with-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で Word 文書に空白ページを追加する方法をステップバイステップで解説します。 |  
 | [C# で Aspose.PDF を使用して空の PDF 辞書を作成する方法](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) Aspose.PDF for .NET を使用して、C# で空の PDF 辞書オブジェクトを作成する手順をステップバイステップで解説します。 |  
 
+| [Aspose.PDF を使用して空の PDF 辞書を作成し、PDF リソースを編集する方法（C#）](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) Aspose.PDF for .NET を使用して空の PDF 辞書を作成し、PDF リソースを編集する手順を学びます。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

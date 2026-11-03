@@ -66,6 +66,7 @@ Die Ressource enthält Tutorials zur Programmierung mit Dokumentfunktion der Asp
 | [Wie man ein leeres PDF‑Wörterbuch mit Aspose.PDF in C# erstellt](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein leeres PDF‑Wörterbuch in C# erstellen. |
 
 | [PDF-Datei öffnen C# – So reparieren Sie ein beschädigtes PDF in Minuten](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein beschädigtes PDF in wenigen Minuten reparieren. |
+| [Wie man ein leeres PDF‑Wörterbuch erstellt und PDF‑Ressourcen mit Aspose.PDF in C# bearbeitet](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein leeres PDF‑Wörterbuch erstellen und die PDF‑Ressourcen bearbeiten. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

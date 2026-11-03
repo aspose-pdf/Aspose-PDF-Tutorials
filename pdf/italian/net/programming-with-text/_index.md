@@ -76,6 +76,7 @@ tutorial "Programmazione con il testo" di Aspose.PDF per .NET offrono una gamma 
 | [Utilizzare lo script Latex nel file PDF](./use-latex-script/) | Scopri come usare lo script Latex per aggiungere espressioni matematiche o formule in un file PDF utilizzando Aspose.PDF per .NET. |  
 | [Genera riepilogo PDF con Aspose.Pdf.AI e OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Scopri come generare un riepilogo di un PDF usando Aspose.Pdf.AI e l'API di OpenAI in questo tutorial passo passo. |
 | [Come aggiungere testo PDF con Aspose.PDF in C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Impara ad aggiungere testo a un PDF usando Aspose.PDF in C# con esempi di codice passo passo. |  
+| [Come creare un client OpenAI e generare un riepilogo PDF in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Scopri come configurare il client OpenAI e generare un riepilogo PDF usando Aspose.PDF per .NET con C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
