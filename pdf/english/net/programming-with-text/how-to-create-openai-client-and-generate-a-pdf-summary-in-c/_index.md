@@ -248,7 +248,7 @@ Next steps you might explore:
 Feel free to experiment with temperature, max‑token settings, and OCR options to fit the specific needs of your project. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
