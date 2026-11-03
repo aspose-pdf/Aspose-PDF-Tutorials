@@ -1,26 +1,22 @@
 ---
-date: '2026-06-12'
-description: Aprenda a criar PDF marcado em Java usando Aspose.PDF, adicionar tags
-  de acessibilidade ao PDF, definir títulos, cabeçalhos e parágrafos para documentos
-  compatíveis e pesquisáveis.
+date: '2026-10-23'
+description: Aprenda a marcar PDF em Java usando Aspose.PDF, adicionar tags de acessibilidade,
+  definir títulos, cabeçalhos e parágrafos para documentos compatíveis e pesquisáveis.
 keywords:
-- create tagged pdf java
+- how to tag pdf
+- pdf accessibility tags
+- pdf accessibility guidelines
 - add accessibility tags pdf
-- Aspose.PDF Java tagging
-- PDF accessibility Java
-- structured PDF Java
-schemas:
+- aspose pdf tagging
 - author: Aspose
-  dateModified: '2026-06-12'
-  description: Learn how to create tagged PDF Java using Aspose.PDF, add accessibility
-    tags PDF, set titles, headers, and paragraphs for compliant, searchable documents.
-  headline: 'How to Create Tagged PDF Java with Aspose.PDF: Enhance Accessibility
-    and Structure'
+  dateModified: '2026-10-23'
+  description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  headline: How to tag PDF in Java with Aspose.PDF for accessibility
   type: TechArticle
-- description: Learn how to create tagged PDF Java using Aspose.PDF, add accessibility
-    tags PDF, set titles, headers, and paragraphs for compliant, searchable documents.
-  name: 'How to Create Tagged PDF Java with Aspose.PDF: Enhance Accessibility and
-    Structure'
+- description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  name: How to tag PDF in Java with Aspose.PDF for accessibility
   steps:
   - name: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
       your organization from legal risk.'
@@ -75,26 +71,97 @@ schemas:
       PDF/A‑1b or PDF/A‑2u files suitable for long‑term archival.
     question: Is there support for creating PDF/A compliant documents?
   type: FAQPage
-title: 'Como criar PDF marcado em Java com Aspose.PDF: melhorar acessibilidade e estrutura'
+lastmod: '2026-10-23'
+og_description: Aprenda a marcar PDF em Java usando Aspose.PDF, adicionar tags de
+  acessibilidade, definir títulos, cabeçalhos e parágrafos para criar documentos compatíveis
+  e pesquisáveis que atendam aos padrões PDF/UA e WCAG.
+og_image_alt: Diagram showing tagged PDF structure created with Aspose.PDF for Java
+og_title: Como marcar PDF em Java com Aspose.PDF para acessibilidade
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  headline: How to tag PDF in Java with Aspose.PDF for accessibility
+  type: TechArticle
+- description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  name: How to tag PDF in Java with Aspose.PDF for accessibility
+  steps:
+  - name: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
+      your organization from legal risk.'
+    text: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
+      your organization from legal risk.'
+  - name: '**Searchability:** Indexed tags make content searchable both within the
+      PDF and by external search engines, increasing discoverability by up to **30 %**
+      in enterprise repositories (Aspose internal benchmark).'
+    text: '**Searchability:** Indexed tags make content searchable both within the
+      PDF and by external search engines, increasing discoverability by up to **30 %**
+      in enterprise repositories (Aspose internal benchmark).'
+  - name: '**Device flexibility:** Tagged PDFs reflow gracefully on mobile screens,
+      e‑readers, and assistive devices, improving the reading experience for all users.'
+    text: '**Device flexibility:** Tagged PDFs reflow gracefully on mobile screens,
+      e‑readers, and assistive devices, improving the reading experience for all users.'
+  - name: '**Libraries and versions**:'
+    text: '**Libraries and versions**:'
+  - name: '**Environment setup**:'
+    text: '**Environment setup**:'
+  - name: '**Knowledge prerequisites**:'
+    text: '**Knowledge prerequisites**:'
+  - name: '**Accessibility compliance:** Government agencies and educational institutions
+      rely on tagged PDFs to meet legal accessibility mandates.'
+    text: '**Accessibility compliance:** Government agencies and educational institutions
+      rely on tagged PDFs to meet legal accessibility mandates.'
+  - name: '**Document organization:** Large technical manuals, financial reports,
+      and research papers become searchable and navigable, reducing user support tickets
+      by up to **45 %**.'
+    text: '**Document organization:** Large technical manuals, financial reports,
+      and research papers become searchable and navigable, reducing user support tickets
+      by up to **45 %**.'
+  - name: '**E‑learning materials:** Structured eBooks and course packs can be repurposed
+      for screen‑reader‑friendly formats, expanding reach to learners with disabilities.'
+    text: '**E‑learning materials:** Structured eBooks and course packs can be repurposed
+      for screen‑reader‑friendly formats, expanding reach to learners with disabilities.'
+  type: HowTo
+- questions:
+  - answer: Set the appropriate language code using `document.getTaggedContent().setLanguage("fr-FR")`
+      for French, `"es-ES"` for Spanish, etc., before adding tags.
+    question: How do I handle non‑English text with Aspose.PDF?
+  - answer: Yes, you can append tags to each page’s content stream; the API automatically
+      maintains a global logical structure across pages.
+    question: Can I create multi‑page PDFs with structured elements?
+  - answer: After creating a `HeaderTag`, apply styling via the `TextState` object—set
+      font, size, color, and spacing to match your brand guidelines.
+    question: What if my document needs a custom header style?
+  - answer: Verify that the output directory exists and has write permissions, and
+      ensure no other process locks the target file. Use `document.getError()` for
+      detailed diagnostics.
+    question: How do I troubleshoot issues with document saving?
+  - answer: Absolutely. Call `document.convertToPdfA()` after tagging to generate
+      PDF/A‑1b or PDF/A‑2u files suitable for long‑term archival.
+    question: Is there support for creating PDF/A compliant documents?
+  type: FAQPage
+title: Como marcar PDF em Java com Aspose.PDF para acessibilidade
 url: /pt/java/advanced-features/java-pdf-tagging-aspose-pdf-enhancement/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-# Implementando a marcação de PDF Java com Aspose.PDF: Melhorar a Acessibilidade
+
+
+# Implementando marcação de PDF em Java com Aspose.PDF: melhorar a acessibilidade
 
 ## Introdução
 
-Criar um arquivo **create tagged pdf java** não é mais uma tarefa de nicho—é um requisito central para aplicações modernas e inclusivas. Neste tutorial, você descobrirá como usar **Aspose.PDF for Java** para adicionar tags de acessibilidade ao PDF, definir um título significativo, definir cabeçalhos hierárquicos e inserir conteúdo de parágrafo rico. Ao final, você terá um PDF totalmente marcado que leitores de tela podem navegar sem esforço, atendendo aos padrões PDF/UA e Section 508, além de melhorar a pesquisabilidade e a reutilização do documento.
+Como marcar PDFs em Java é uma etapa crítica para qualquer aplicação que deve atender a todos os usuários, incluindo aqueles que dependem de tecnologia assistiva. Neste tutorial, você aprenderá a usar **Aspose.PDF for Java** para adicionar tags de acessibilidade, definir um título significativo, definir cabeçalhos hierárquicos e inserir conteúdo rico de parágrafos. Ao final, você terá um PDF totalmente marcado que os leitores de tela podem navegar sem esforço, atendendo aos padrões PDF/UA e Section 508, além de melhorar a capacidade de busca e a reutilização de documentos.
 
-### Respostas Rápidas
+### Respostas rápidas
 - **O que é marcação de PDF?** Adicionar metadados estruturais (títulos, cabeçalhos, parágrafos) que descrevem o fluxo lógico do documento.  
 - **Por que marcar PDFs?** Melhora a acessibilidade, permite melhor navegação e satisfaz os padrões de conformidade.  
 - **Qual biblioteca usar?** Aspose.PDF for Java fornece uma API completa para marcação.  
-- **Preciso de licença?** Uma versão de avaliação funciona para testes; uma licença comercial remove limitações.  
+- **Preciso de uma licença?** Uma versão de avaliação funciona para testes; uma licença comercial remove as limitações.  
 - **Posso adicionar estilos personalizados?** Sim—use as opções de estilo do Aspose.PDF após criar as tags.
 
 ## O que é marcação de PDF?
@@ -103,30 +170,30 @@ A marcação de PDF é o processo de incorporar uma estrutura lógica—títulos
 
 ## Por que adicionar tags de acessibilidade ao PDF?
 
-Marcar um PDF com informações de acessibilidade oferece vantagens claras. Garante que o documento esteja em conformidade com normas legais, facilita a localização do conteúdo por mecanismos de busca e permite que o arquivo se adapte suavemente a diversos dispositivos e tecnologias assistivas.  
-Adicionar tags de acessibilidade ao PDF entrega três benefícios concretos:  
-1. **Conformidade:** Atende aos requisitos PDF/UA, WCAG 2.1 e Seção 508, protegendo sua organização de riscos legais.  
-2. **Pesquisa:** Tags indexadas tornam o conteúdo pesquisável tanto dentro do PDF quanto por mecanismos de busca externos, aumentando a descoberta em até **30 %** em repositórios corporativos (benchmark interno da Aspose).  
+Marcar um PDF com informações de acessibilidade oferece claras vantagens. Garante que o documento esteja em conformidade com normas legais, facilita a localização do conteúdo por meio de mecanismos de busca e permite que o arquivo se adapte suavemente a diversos dispositivos e tecnologias assistivas.  
+Adicionar tags de acessibilidade ao PDF oferece três benefícios concretos:  
+1. **Conformidade:** Atende aos requisitos PDF/UA, WCAG 2.1 e Section 508, protegendo sua organização de riscos legais.  
+2. **Busca:** Tags indexadas tornam o conteúdo pesquisável tanto dentro do PDF quanto por mecanismos de busca externos, aumentando a descoberta em até **30 %** em repositórios corporativos (benchmark interno da Aspose).  
 3. **Flexibilidade de dispositivos:** PDFs marcados se adaptam suavemente em telas móveis, e‑readers e dispositivos assistivos, melhorando a experiência de leitura para todos os usuários.
 
 ## Pré-requisitos
 
-Antes de começar, assegure‑se de que você possui o seguinte:
+Antes de começar, certifique‑se de que você tem o seguinte:
 
-1. **Bibliotecas e Versões**:  
+1. **Bibliotecas e versões**:  
    - Aspose.PDF for Java **25.3** ou posterior (a API suporta **50+** formatos de entrada e saída).  
 
-2. **Configuração do Ambiente**:  
+2. **Configuração do ambiente**:  
    - Java Development Kit (JDK) 8 ou mais recente instalado.  
    - Uma IDE como IntelliJ IDEA, Eclipse ou VS Code.  
 
-3. **Pré‑requisitos de Conhecimento**:  
-   - Habilidades básicas de programação Java.  
+3. **Pré‑requisitos de conhecimento**:  
+   - Habilidades básicas de programação em Java.  
    - Familiaridade com Maven ou Gradle para gerenciamento de dependências.  
 
 ## Configurando Aspose.PDF para Java
 
-Para começar a usar Aspose.PDF, você precisará adicionar a biblioteca ao seu projeto usando Maven ou Gradle.
+Para começar com o Aspose.PDF, adicione a biblioteca ao seu projeto usando Maven ou Gradle.
 
 **Maven:**  
 ```xml
@@ -142,17 +209,17 @@ Para começar a usar Aspose.PDF, você precisará adicionar a biblioteca ao seu 
 implementation 'com.aspose:aspose-pdf:25.3'
 ```  
 
-Após adicionar a dependência, obtenha uma licença para Aspose.PDF:  
+Depois de adicionar a dependência, obtenha uma licença para o Aspose.PDF:  
 
 - **Teste gratuito**: Baixe uma versão de avaliação temporária em [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
-- **Licença temporária**: Obtenha-a via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) para remover quaisquer limitações de avaliação.  
+- **Licença temporária**: Adquira-a via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) para remover quaisquer limitações de avaliação.  
 - **Compra**: Visite a [Aspose Purchase page](https://purchase.aspose.com/buy) para obter uma licença completa.
 
-## Como criar PDF Java marcado usando Aspose.PDF?  
+## Como criar PDF marcado em Java usando Aspose.PDF?
 
-Carregue seu documento PDF com `new Document("input.pdf")`, então use a API `Tag` para definir um título, idioma, cabeçalhos e parágrafos—este fluxo único cria um PDF totalmente marcado em apenas algumas chamadas de método. **A API `Tag` fornece métodos para criar e gerenciar tags de acessibilidade dentro de um documento PDF.** O processo ocorre na memória, de modo que até mesmo um documento de 300 páginas é processado sem carregar o arquivo inteiro na RAM, mantendo o uso de memória abaixo de **50 MB** em um servidor típico.
+Carregue seu PDF com `new Document("input.pdf")`, então chame a API `Tag` para definir um título, idioma, cabeçalhos e parágrafos. Esse padrão de duas etapas cria um PDF totalmente marcado na memória sem carregar o arquivo inteiro, mantendo o uso de heap abaixo de **50 MB** mesmo para documentos de 300 páginas.
 
-### Definindo Título e Idioma
+### Definindo título e idioma
 
 A classe `Document` é o objeto de nível superior do Aspose.PDF que representa um único arquivo PDF na memória. Definir um título claro e o código de idioma no nível do documento é o primeiro passo rumo à acessibilidade.
 
@@ -176,9 +243,9 @@ taggedContent.setLanguage("en-US");
 // setLanguage specifies the primary language (e.g., "en-US") which assists screen readers.
 ```  
 
-### Criando Elementos de Cabeçalho
+### Criando elementos de cabeçalho
 
-A classe `HeaderTag` define um cabeçalho estrutural dentro de um PDF marcado. Ao atribuir um nível (1‑6), você cria uma hierarquia que espelha o contorno lógico do seu conteúdo.
+A classe `HeaderTag` define um cabeçalho estrutural dentro de um PDF marcado. Ao atribuir um nível (1‑6), você cria uma hierarquia que reflete o contorno lógico do seu conteúdo.
 
 **Visão geral:**  
 Definir cabeçalhos hierárquicos permite melhor organização e navegação dentro do PDF, permitindo que ferramentas assistivas gerem automaticamente um contorno navegável.
@@ -202,12 +269,12 @@ for (int level = 1; level <= 6; level++) {
 }
 ```  
 
-### Adicionando um Elemento de Parágrafo
+### Adicionando um elemento de parágrafo
 
 A classe `Paragraph` representa um bloco de texto dentro da estrutura lógica do PDF. Tags de parágrafo são os blocos de construção do conteúdo principal do seu documento.
 
 **Visão geral:**  
-Parágrafos contêm seu conteúdo principal, formatado para legibilidade e marcado para acessibilidade, garantindo que leitores de tela os tratem como prosa contínua em vez de uma série de palavras desconexas.
+Parágrafos contêm seu conteúdo principal, formatados para legibilidade e marcados para acessibilidade, garantindo que leitores de tela os tratem como prosa contínua em vez de uma série de palavras desconexas.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -224,9 +291,9 @@ rootElement.appendChild(p);
 // setText assigns the content of the paragraph, enhancing readability and document flow.
 ```  
 
-### Salvando o Documento
+### Salvando o documento
 
-Salvar o documento grava tanto o conteúdo visual quanto a estrutura de tags ocultas no disco, produzindo um PDF que cumpre os padrões de acessibilidade.
+Salvar o documento grava tanto o conteúdo visual quanto a estrutura de tags oculta no disco, produzindo um PDF que cumpre os padrões de acessibilidade.
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
@@ -236,44 +303,46 @@ document.save(outputDir + "/TextBlockStructureElements.pdf");
 // The save method finalizes and writes your changes to a specified directory.
 ```  
 
-## Melhores Práticas de Marcação de PDF
+## Melhores práticas de marcação de PDF
 
-- **Hierarquia consistente:** Sempre comece com um cabeçalho de nível‑1 (o título do documento) e aninhe os cabeçalhos subsequentes logicamente (por exemplo, nível‑2 para capítulos, nível‑3 para seções).  
-- **Declaração de idioma:** Defina o código de idioma ISO‑639‑1 correto logo no início; isso influencia a pronúncia do leitor de tela e a precisão de texto‑para‑fala.  
+- **Hierarquia consistente:** Sempre comece com um cabeçalho de nível‑1 (o título do documento) e aninhe os cabeçalhos subsequentes de forma lógica (por exemplo, nível‑2 para capítulos, nível‑3 para seções).  
+- **Declaração de idioma:** Defina o código de idioma ISO‑639‑1 correto logo no início; ele influencia a pronúncia do leitor de tela e a precisão da conversão texto‑para‑fala.  
 - **Títulos descritivos:** Mantenha os títulos concisos—idealmente **5‑8 palavras**—e refletindo o propósito do documento.  
 - **Evite tags vazias:** Cada elemento estrutural deve conter conteúdo visível; tags vazias podem causar falhas de validação em verificadores PDF/UA.  
-- **Validar com ferramentas:** Use o “Verificador de Acessibilidade” do Adobe Acrobat Pro ou o **veraPDF** de código aberto para confirmar a conformidade antes da distribuição.
+- **Valide com ferramentas:** Use o “Accessibility Checker” do Adobe Acrobat Pro ou o **veraPDF** de código aberto para confirmar a conformidade antes da distribuição.
 
-## Aplicações Práticas
+## Aplicações práticas
 
-1. **Conformidade de acessibilidade:** Órgãos governamentais e instituições educacionais dependem de PDFs marcados para atender às exigências legais de acessibilidade.  
-2. **Organização de documentos:** Grandes manuais técnicos, relatórios financeiros e artigos de pesquisa tornam‑se pesquisáveis e navegáveis, reduzindo tickets de suporte em até **45 %**.  
-3. **Materiais de E‑Learning:** eBooks e pacotes de curso estruturados podem ser reutilizados em formatos compatíveis com leitores de tela, ampliando o alcance para aprendizes com deficiência.  
+Marcar PDFs é útil em diversos setores:
 
-## Considerações de Desempenho
+1. **Conformidade de acessibilidade:** Órgãos governamentais e instituições de ensino dependem de PDFs marcados para atender a mandatos legais de acessibilidade.  
+2. **Organização de documentos:** Manuais técnicos extensos, relatórios financeiros e artigos de pesquisa tornam‑se pesquisáveis e navegáveis, reduzindo tickets de suporte ao usuário em até **45 %**.  
+3. **Materiais de e‑learning:** eBooks estruturados e pacotes de curso podem ser reutilizados em formatos amigáveis a leitores de tela, ampliando o alcance para aprendizes com deficiência.  
 
-Ao processar cargas de trabalho de PDF de alto volume, tenha em mente estas dicas:
+## Considerações de desempenho
+
+Ao processar cargas de trabalho de PDF em alto volume, tenha em mente estas dicas:
 
 - **Gerenciamento eficiente de memória:** Reutilize uma única instância `Document` ao processar várias páginas para manter o uso de heap baixo.  
 - **Processamento em lote:** Agrupe arquivos PDF em lotes de 10‑20 antes de invocar a API de marcação; isso reduz a sobrecarga de I/O em até **30 %**.  
-- **Perfilamento:** Use Java Flight Recorder ou VisualVM para identificar gargalos—pontos críticos comuns incluem chamadas repetidas a `Document.save()` dentro de loops apertados.  
+- **Perfilagem:** Use Java Flight Recorder ou VisualVM para identificar gargalos—pontos críticos comuns incluem chamadas repetidas a `Document.save()` dentro de loops apertados.  
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
-**P: Como lidar com texto não‑inglês com Aspose.PDF?**  
-R: Defina o código de idioma apropriado usando `document.getTaggedContent().setLanguage("fr-FR")` para francês, `"es-ES"` para espanhol, etc., antes de adicionar tags.
+**Q: Como lidar com texto não‑inglês usando Aspose.PDF?**  
+A: Defina o código de idioma apropriado usando `document.getTaggedContent().setLanguage("fr-FR")` para francês, `"es-ES"` para espanhol, etc., antes de adicionar tags.
 
-**P: Posso criar PDFs de várias páginas com elementos estruturados?**  
-R: Sim, você pode anexar tags ao fluxo de conteúdo de cada página; a API mantém automaticamente uma estrutura lógica global entre as páginas.
+**Q: Posso criar PDFs de várias páginas com elementos estruturados?**  
+A: Sim, você pode anexar tags ao fluxo de conteúdo de cada página; a API mantém automaticamente uma estrutura lógica global entre as páginas.
 
-**P: E se meu documento precisar de um estilo de cabeçalho personalizado?**  
-R: Após criar um `HeaderTag`, aplique estilo via o objeto `TextState`—defina fonte, tamanho, cor e espaçamento para corresponder às diretrizes da sua marca.
+**Q: E se meu documento precisar de um estilo de cabeçalho personalizado?**  
+A: Após criar um `HeaderTag`, aplique estilos via o objeto `TextState`—defina fonte, tamanho, cor e espaçamento para corresponder às diretrizes da sua marca.
 
-**P: Como solucionar problemas ao salvar o documento?**  
-R: Verifique se o diretório de saída existe e tem permissões de gravação, e assegure‑se de que nenhum outro processo esteja bloqueando o arquivo de destino. Use `document.getError()` para diagnósticos detalhados.
+**Q: Como solucionar problemas ao salvar o documento?**  
+A: Verifique se o diretório de saída existe e tem permissões de gravação, e assegure que nenhum outro processo esteja bloqueando o arquivo de destino. Use `document.getError()` para diagnósticos detalhados.
 
-**P: Existe suporte para criar documentos compatíveis com PDF/A?**  
-R: Absolutamente. Chame `document.convertToPdfA()` após a marcação para gerar arquivos PDF/A‑1b ou PDF/A‑2u adequados para arquivamento de longo prazo.
+**Q: Existe suporte para criar documentos compatíveis com PDF/A?**  
+A: Absolutamente. Chame `document.convertToPdfA()` após a marcação para gerar arquivos PDF/A‑1b ou PDF/A‑2u adequados para arquivamento de longo prazo.
 
 ## Recursos
 
@@ -284,23 +353,23 @@ R: Absolutamente. Chame `document.convertToPdfA()` após a marcação para gerar
 - [Aquisição de Licença Temporária](https://purchase.aspose.com/temporary-license/)
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/pdf/10)
 
-Seguindo este guia, você agora sabe **como criar PDFs Java marcados** que são ao mesmo tempo acessíveis e bem estruturados. Implemente essas técnicas em seu próximo projeto para entregar documentos inclusivos e pesquisáveis que atendam aos padrões modernos de conformidade.
+Seguindo este guia, você agora sabe **como marcar PDF em Java** e pode entregar documentos inclusivos e pesquisáveis que atendem aos padrões modernos de conformidade.
 
 ---
 
-**Última atualização:** 2026-06-12  
+**Última atualização:** 2026-10-23  
 **Testado com:** Aspose.PDF for Java 25.3  
 **Autor:** Aspose
 
-## Tutoriais Relacionados
+## Tutoriais relacionados
 
 - [Criar e Gerenciar PDFs Marcados Usando Aspose.PDF para Java: Melhorar a Acessibilidade em Seus Documentos](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
 - [Criar PDF Acessível com Conteúdo Marcado em Java Usando Aspose.PDF](/pdf/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/)
 - [Como verificar a acessibilidade de PDF com Aspose.PDF Java para conformidade PDF/UA-1](/pdf/java/advanced-features/validate-pdf-accessibility-aspose-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

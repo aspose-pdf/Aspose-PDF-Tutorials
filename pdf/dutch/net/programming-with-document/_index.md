@@ -64,6 +64,7 @@ De bron bevat tutorials over de programmeerfunctie met documentfunctionaliteit v
 | [Aangepaste Aspose-plug-in maken – Complete gids voor het automatiseren van PDF-verwerking](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Leer hoe u een aangepaste Aspose-plug‑in maakt om PDF‑verwerking te automatiseren met stap‑voor‑stap codevoorbeelden. |
 | [Bates-nummers toevoegen in Word – Complete stapsgewijze handleiding](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Leer hoe u Bates-nummers toevoegt aan Word-documenten met Aspose.Words voor .NET in deze volledige stap‑voor‑stap gids. |
 | [Lege pagina toevoegen aan Word-document met C# – Complete gids](./add-blank-page-in-word-document-with-c-complete-guide/) | Leer hoe u een lege pagina toevoegt aan een Word-document met C# met deze stapsgewijze handleiding. |
+| [Leeg PDF-woordenboek maken met Aspose.PDF in C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Leer hoe u een leeg PDF-woordenboek maakt met Aspose.PDF in C#. |
 | [Leeg PDF-woordenboek maken en PDF-resources bewerken met Aspose.PDF in C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Leer hoe u een leeg PDF-woordenboek maakt en PDF-resources bewerkt met Aspose.PDF voor .NET in C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 

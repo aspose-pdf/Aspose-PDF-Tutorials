@@ -30,24 +30,24 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 
 {{< tutorial-card link="./compare-pdfs/" title="Confronta PDF con dimensioni di pagina diverse usando Aspose.PDF per .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Come modificare le risorse della pagina PDF usando Aspose.PDF in C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | Titolo | Descrizione |
 | --- | --- | 
 | [Cambia orientamento](./change-orientation/) | Guida passo passo per modificare l'orientamento delle pagine di un PDF con Aspose.PDF per .NET. Facile da seguire e implementare nei tuoi progetti. |  
 | [Concatenare file PDF](./concatenate-pdf-files/) | Concatena i file PDF senza sforzo utilizzando Aspose.PDF per .NET con questa guida completa passo dopo passo.  
 | [Elimina una pagina specifica nel file PDF](./delete-particular-page/) | Scopri come eliminare una pagina specifica da un file PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata.  
-| [Determina il colore della pagina](./determine-page-color/) Impara a determinare il colore di pagina dei file PDF utilizzando Aspose.PDF per .NET con la nostra guida passo passo. Implementazione semplice per tutti i livelli di competenza. |  
+| [Determina il colore della pagina](./determine-page-color/) | Impara a determinare il colore di pagina dei file PDF utilizzando Aspose.PDF per .NET con la nostra guida passo passo. Implementazione semplice per tutti i livelli di competenza. |  
 | [Adatta il contenuto della pagina al file PDF](./fit-page-contents/) | Adatta senza sforzo i contenuti dei tuoi PDF utilizzando Aspose.PDF per .NET. Questa guida fornisce un approccio dettagliato e passo dopo passo per ottenere un layout di pagina ottimale. |  
 | [Ottieni le dimensioni della pagina PDF](./get-dimensions/) | In questo tutorial, spieghiamo come ottenere le dimensioni di una pagina PDF ed eseguire manipolazioni utilizzando Aspose.PDF per .NET. Vengono forniti passaggi dettagliati per guidarvi attraverso il processo. |  
 | [Ottieni il numero di pagine nel file PDF](./get-number-of-pages/) | Guida passo passo per ottenere il numero di pagine in un file PDF utilizzando Aspose.PDF per .NET. Semplice da implementare, ideale per i tuoi progetti. |  
 | [Ottieni il conteggio delle pagine nel file PDF](./get-page-count/) | Scopri come ottenere il numero di pagine in un file PDF utilizzando Aspose.PDF per .NET. Segui la nostra guida passo passo per una soluzione semplice ed efficace. |  
-| [Ottieni una pagina specifica](./get-particular-page/) Scopri come estrarre una pagina specifica da un PDF e salvarla come nuovo documento utilizzando Aspose.PDF per .NET in questa guida dettagliata.  
+| [Ottieni una pagina specifica](./get-particular-page/) | Scopri come estrarre una pagina specifica da un PDF e salvarla come nuovo documento utilizzando Aspose.PDF per .NET in questa guida dettagliata.  
 | [Ottieni proprietà PDF](./get-properties/) | Scopri come estrarre in modo efficiente le proprietà PDF utilizzando Aspose.PDF per .NET. Guida dettagliata con esempi di codice e best practice. |  
 | [Imposta l'immagine come sfondo della pagina nel file PDF](./image-as-background/) | Scopri come impostare un'immagine come sfondo di pagina in un PDF utilizzando Aspose.PDF per .NET con questa guida passo passo. Crea documenti professionali e visivamente accattivanti. |  
 | [Inserisci pagina vuota nel file PDF](./insert-empty-page/) | Scopri come inserire una pagina vuota in un documento PDF utilizzando Aspose.PDF per .NET. Tutorial passo passo con esempi di codice per una manipolazione PDF impeccabile. |  
 | [Inserisci pagina vuota alla fine](./insert-empty-page-at-end/) | Impara a inserire una pagina vuota in un documento PDF senza sforzo con Aspose.PDF per .NET in questa guida per principianti. Perfetta per modifiche rapide. |  
-| [Dividi in pagine](./split-to-pages/) Dividi facilmente i PDF in singole pagine utilizzando Aspose.PDF per .NET con questo tutorial completo. Guida passo passo inclusa. |  
+| [Dividi in pagine](./split-to-pages/) | Dividi facilmente i PDF in singole pagine utilizzando Aspose.PDF per .NET con questo tutorial completo. Guida passo passo inclusa. |  
 | [Aggiorna le dimensioni della pagina PDF](./update-dimensions/) | Scopri come aggiornare senza sforzo le dimensioni delle pagine PDF con Aspose.PDF per .NET in questa guida completa e dettagliata. |  
 | [Zoom sul contenuto della pagina nel file PDF](./zoom-to-page-contents/) | Scopri come ingrandire il contenuto delle pagine nei file PDF utilizzando Aspose.PDF per .NET in questa guida completa. Ottimizza i tuoi documenti PDF in base alle tue esigenze specifiche. |
 | [Riordina le pagine PDF in C# – Guida completa passo‑passo](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Guida passo passo per riordinare le pagine di un PDF usando C# e Aspose.PDF per .NET. |
@@ -65,6 +65,7 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 | [Aggiungi numerazione Bates a PDF con Aspose.PDF – Guida completa](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Guida passo passo per aggiungere la numerazione Bates ai file PDF usando Aspose.PDF per .NET. |
 | [Aggiungi pagina vuota PDF con Aspose.PDF – Guida completa](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Guida passo passo per aggiungere una pagina vuota a un PDF usando Aspose.PDF per .NET, con esempi di codice chiari. |
 | [Aggiungi numerazione Bates al PDF con Aspose – guida passo‑passo](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Guida passo passo per aggiungere la numerazione Bates ai file PDF utilizzando Aspose.PDF per .NET. |
+| [Come aggiungere la numerazione Bates a un PDF con Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Guida passo passo per aggiungere la numerazione Bates a un PDF utilizzando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,7 +73,6 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -89,6 +89,4 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

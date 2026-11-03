@@ -143,6 +143,7 @@ Aspose.PDF를 활용해 PDF 서명을 검증하고 문서에 포함된 모든 �
 
 ### [C#에서 PDF 서명을 가져오는 방법 – 단계별 가이드](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 C#을 사용해 PDF 파일에서 서명을 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 Word 문서의 서명을 가져오는 방법](./how-to-get-signatures-from-a-word-document-in-c/)
 
 ## 추가 자료
 

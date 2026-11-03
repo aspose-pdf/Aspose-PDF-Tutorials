@@ -64,6 +64,7 @@ Kaynak, Aspose.PDF for .NET kütüphanesinin belge özelliğiyle programlaması 
 | [PDF Dosyalarını Onarma – Aspose.PDF ile Adım Adım Kılavuz](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aspose.PDF kullanarak PDF dosyalarını adım adım onarma yöntemlerini öğrenin. |  
 | [Word'de Bates Numaralandırma Ekle – Tam Adım Adım Kılavuz](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak Word belgelerine Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [C# ile Word Belgesine Boş Sayfa Ekle – Tam Kılavuz](./add-blank-page-in-word-document-with-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile bir Word belgesine nasıl boş sayfa ekleyeceğinizi adım adım öğrenin. |
+| [Aspose.PDF ile C#'ta Boş PDF Sözlüğü Oluşturma](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak C# dilinde boş bir PDF sözlüğü oluşturmayı adım adım öğrenin. |  
 | [Aspose.PDF ile Boş PDF Sözlüğü Oluşturma ve PDF Kaynaklarını Düzenleme C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Aspose.PDF for .NET kullanarak C# ile boş bir PDF sözlüğü oluşturmayı ve PDF kaynaklarını düzenlemeyi öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -28,7 +28,9 @@ Los tutoriales de "Programación con Texto" de Aspose.PDF para .NET ofrecen una 
 | [Agregar texto con colores de sombreado en un archivo PDF](./add-text-with-shading-colors/) Aprenda a añadir sombreado de texto en archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Personalice sus documentos con degradados de color.  
 | [Agregar información sobre herramientas al texto en un archivo PDF](./add-tooltip-to-text/) Aprenda a añadir información sobre herramientas al texto de archivos PDF con Aspose.PDF para .NET. Mejore sus PDF con textos informativos al pasar el cursor fácilmente.  
 | [Agregar texto transparente en un archivo PDF](./add-transparent-text/) Aprenda a añadir fácilmente texto transparente a un PDF con Aspose.PDF para .NET con esta guía completa. Instrucciones paso a paso para lograr una transparencia perfecta.  
+| [Cómo agregar texto PDF con Aspose.PDF en C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) Aprenda a agregar texto a un archivo PDF usando Aspose.PDF para .NET en C#. Guía paso a paso con ejemplos de código.  
 | [Agregar números Bates a PDF – numeración Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) Aprenda a agregar números Bates a documentos PDF usando Aspose.PDF para .NET. Guía paso a paso con ejemplos de código.  
+| [Agregar numeración Bates a PDF usando Aspose.PDF en C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) Aprenda a agregar numeración Bates a documentos PDF con Aspose.PDF para .NET en C#. Guía paso a paso con ejemplos de código.  
 | [Crear PDF de varias columnas](./create-multi-column-pdf/) Aprenda a crear archivos PDF multicolumna con Aspose.PDF para .NET. Una guía paso a paso con ejemplos de código y explicaciones detalladas. Ideal para profesionales.  
 | [Crear elemento Span en Word con C# – Guía completa](./create-span-element-in-word-with-c-complete-guide/) Aprenda a crear un elemento Span en Word usando C# con esta guía completa paso a paso.  
 | [Tabulaciones personalizadas en archivos PDF](./custom-tab-stops/) Aprenda a configurar tabulaciones personalizadas en un PDF con Aspose.PDF para .NET. Este tutorial explica paso a paso cómo alinear texto profesionalmente.  
@@ -73,6 +75,7 @@ Los tutoriales de "Programación con Texto" de Aspose.PDF para .NET ofrecen una 
 | [Segmentos de texto en archivos PDF](./text-segments/) | Aprenda a buscar segmentos de texto específicos en un archivo PDF utilizando expresiones regulares en Aspose.PDF para .NET. |  
 | [Usar script de Latex en archivos PDF](./use-latex-script/) | Aprenda a utilizar el script Latex para agregar expresiones matemáticas o fórmulas en archivos PDF usando Aspose.PDF para .NET. |  
 | [Generar resumen PDF con Aspose.Pdf.AI y OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) Aprenda a generar un resumen de PDF utilizando Aspose.Pdf.AI y la API de OpenAI con este tutorial paso a paso.  
+| [Cómo crear un PDF de resumen con Aspose.Pdf.AI en C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Aprenda a generar un PDF de resumen utilizando Aspose.Pdf.AI en C# con este tutorial paso a paso. |
 | [Cómo crear cliente OpenAI y generar un resumen PDF en C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Aprenda a crear un cliente OpenAI y generar un resumen de PDF usando Aspose.PDF para .NET y la API de OpenAI en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

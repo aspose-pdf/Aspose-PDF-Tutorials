@@ -31,7 +31,9 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 
 {{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比较页面尺寸不同的 PDF" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/" title="使用 Aspose 为 PDF 添加 Bates 编号 – 完整分步指南" imgSrc="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="使用 Aspose.PDF for .NET 在 C# 中编辑 PDF 页面资源" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | --- | --- | 
 | [改变方向](./change-orientation/) 使用 Aspose.PDF for .NET 更改 PDF 页面方向的分步指南。易于遵循并在您的项目中实施。|  
@@ -57,6 +59,7 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 | [创建 PDF 文档 C# – 添加形状和空白页指南](./create-pdf-document-c-add-shapes-blank-pages-guide/) 使用 Aspose.PDF for .NET 在 C# 中创建 PDF 文档并添加形状和空白页的分步指南。|  
 | [使用 Aspose 为 PDF 添加 Bates 编号 – 完整指南](./add-bates-numbering-pdf-with-aspose-complete-guide/) 使用 Aspose.PDF for .NET 为 PDF 文档添加 Bates 编号的完整分步指南，帮助您轻松实现文档唯一标识。|  
 | [在 C# 中添加 Bates 编号 – 完整分步指南](./add-bates-numbering-in-c-step-by-step-guide/) 使用 Aspose.PDF for .NET 和 C# 在 PDF 中添加 Bates 编号的完整分步指南，易于实现。|  
+| [如何使用 Aspose.Pdf 为 PDF 添加 Bates 编号](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) 使用 Aspose.PDF for .NET 为 PDF 文档添加 Bates 编号的分步指南，帮助您轻松实现文档唯一标识。|  
 | [向 PDF 添加页面 – C# 开发人员分步指南](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) 使用 Aspose.PDF for .NET 为 C# 开发人员提供向 PDF 添加页面的完整分步指南。|  
 | [在 C# 中重新排序 PDF 页面 – 完整分步指南](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) 使用 Aspose.PDF for .NET 在 C# 中重新排序 PDF 页面，完整分步指南。|  
 | [使用 C# 为 PDF 添加贝茨编号 – 完整指南](./add-bates-numbering-to-pdfs-with-c-complete-guide/) 使用 Aspose.PDF for .NET 和 C# 为 PDF 添加贝茨编号的完整分步指南，帮助您轻松实现文档编号。|  
@@ -65,19 +68,8 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 | [使用 Aspose.PDF 添加空白页 PDF – 完整指南](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) 使用 Aspose.PDF for .NET 完整分步指南，帮助您在 PDF 中添加空白页。|  
 | [使用 Aspose.Pdf 在 C# 中更改 PDF 不透明度 – 分步指南](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) 使用 Aspose.PDF for .NET 在 C# 中更改 PDF 不透明度的分步指南。|  
 | [使用 Aspose 为 PDF 添加 Bates 编号 – 完整分步指南](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) 使用 Aspose.PDF for .NET 为 PDF 文档添加 Bates 编号的完整分步指南，易于实现。|  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
+| [创建空白 PDF 页面 – 完整 PDF 绘图教程](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | 使用 Aspose.PDF for .NET 创建空白 PDF 页面并进行完整绘图的分步指南。|  
+| [使用 Aspose 向 PDF 添加页面 – 完整 C# 指南](./add-pages-to-pdf-with-aspose-complete-c-guide/) | 使用 Aspose.PDF for .NET 完整的 C# 指南，教您向 PDF 添加页面并进行自定义。|  
 
 | [Aspose PDF 教程 – 插入空白页并更新 Bates 编号](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) 使用 Aspose.PDF for .NET 在 PDF 中插入空白页并更新 Bates 编号的分步指南。易于遵循并在项目中实现。|  
 
@@ -86,22 +78,4 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-| [创建空白 PDF 页面 – 完整 PDF 绘图教程](./create-blank-pdf-page-full-pdf-drawing-tutorial/) 使用 Aspose.PDF for .NET 创建空白 PDF 页面并进行完整绘图的分步指南。|  
-| [使用 Aspose 向 PDF 添加页面 – 完整 C# 指南](./add-pages-to-pdf-with-aspose-complete-c-guide/) 使用 Aspose.PDF for .NET 完整的 C# 指南，教您向 PDF 添加页面并进行自定义。|  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-

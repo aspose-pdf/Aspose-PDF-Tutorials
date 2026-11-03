@@ -76,6 +76,8 @@
 ### [كيفية تحسين ملفات PDF في .NET – ضغط PDF في .NET خطوة بخطوة](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 دليل خطوة بخطوة لضغط ملفات PDF باستخدام Aspose.PDF لـ .NET وتحسين الأداء.
 
+### [كيفية تحسين PDF باستخدام Aspose.PDF في C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

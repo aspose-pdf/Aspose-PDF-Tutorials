@@ -44,12 +44,13 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Come impostare le opzioni per la conversione PDF in C# – Guida Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Scopri come impostare le opzioni di conversione PDF in C# con Aspose.PDF per .NET in questa guida passo passo. |
 | [Tutorial Aspose PDF: Converti PDF in PDF/X‑4 in C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire un PDF in PDF/X‑4 usando Aspose.PDF per .NET con un esempio completo in C#. |
 | [Carica documento PDF C# – Converti in PDF/X‑4 con Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Scopri come caricare un documento PDF in C# e convertirlo in PDF/X‑4 utilizzando Aspose.PDF per .NET. |
+| [Carica documento PDF e converti in PDF/X‑4 con Aspose.PDF](./load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf/) | Scopri come caricare un documento PDF in C# e convertirlo in PDF/X‑4 utilizzando Aspose.PDF per .NET. |
 | [Apri documento PDF C# – Converti in PDF/X‑4 per la stampa](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Scopri come aprire un documento PDF in C# e convertirlo in PDF/X‑4 ottimizzato per la stampa con Aspose.PDF per .NET. |
 | [Come convertire PDF in PDF/X‑4 in C# con Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Scopri come convertire PDF in PDF/X‑4 usando Aspose.PDF per .NET con un esempio completo in C#. |
 | [Converti PDF in HTML in C# – Guida semplice passo‑passo](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Scopri come convertire PDF in HTML utilizzando Aspose.PDF per .NET con questa guida passo passo in C#. |
 | [Conversione PDF Aspose in C# – Converti PDF in PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Scopri come convertire PDF in PDF/X‑4 usando Aspose.PDF per .NET con un esempio passo passo in C#. |
 | [Tutorial di conversione del formato PDF – Converti PDF in PDF/X‑4 con Aspose in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Scopri come convertire PDF in PDF/X‑4 utilizzando Aspose.PDF per .NET con questo tutorial passo passo in C#. |
-| [Tutorial di conversione del formato PDF – Converti PDF in PDF/X-4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire PDF in PDF/X‑4 con Aspose.PDF per .NET in C# passo dopo passo. |
+| [Tutorial di conversione del formato PDF – Converti PDF in PDF/X‑4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire PDF in PDF/X‑4 con Aspose.PDF per .NET in C# passo dopo passo. |
 | [Carica e Converti PDF in PDF/X‑4 in C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Scopri come caricare PDF e convertirli in PDF/X‑4 usando Aspose.PDF per .NET in C# con questo tutorial passo passo. |
 | [Converti PDF in PDF/X‑1a – Guida completa passo‑passo](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Scopri come convertire PDF in PDF/X‑1a utilizzando Aspose.PDF per .NET con questa guida dettagliata passo passo. |
 | [Tutorial di conversione Aspose PDF – Converti PDF in PDF/X‑4 passo‑passo](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Scopri come convertire PDF in PDF/X‑4 utilizzando Aspose.PDF per .NET con questa guida dettagliata passo‑passo. |
@@ -65,6 +66,7 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Converti PDF in PDF/X‑4 con C# – Guida completa Aspose.Pdf](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | Scopri come convertire PDF in PDF/X‑4 usando Aspose.PDF per .NET con una guida completa in C#. |
 | [Tutorial di conversione PDF/X‑4 – impostare lo standard PDF e convertire PDF con Aspose](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Scopri come impostare lo standard PDF/X‑4 e convertire PDF utilizzando Aspose.PDF per .NET in questa guida passo passo. |
 | [Come utilizzare Aspose per convertire PDF in PDF/X‑1A con ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Scopri come convertire PDF in PDF/X‑1A mantenendo il profilo ICC con Aspose.PDF per .NET. |
+| [Come incorporare il profilo ICC e convertire PDF in PDF/X‑1 con Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Scopri come incorporare un profilo ICC in un PDF e convertirlo in PDF/X‑1 usando Aspose.Pdf per .NET. |
 | [Suggerimenti per il font da PDF a PNG](./pdf-to-png-font-hinting/) | Impara a convertire PDF in PNG con suggerimenti sui font utilizzando Aspose.PDF per .NET in una semplice guida passo passo. |
 | [PDF in PPT](./pdf-to-ppt/) | Scopri come convertire PDF in PPT utilizzando Aspose.PDF per .NET con questa guida passo passo. Facile, efficiente e perfetto per le presentazioni. |
 | [PDF in SVG](./pdf-to-svg/) | Scopri come convertire i file PDF in formato SVG utilizzando Aspose.PDF per .NET in questo tutorial passo passo. Perfetto per sviluppatori e designer. |
@@ -94,6 +96,7 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Converti DOCX in HTML in C# – Guida completa](./convert-docx-to-html-in-c-complete-guide/) | Scopri come convertire file DOCX in HTML usando Aspose.PDF per .NET con C# in questa guida completa passo passo. |
 | [Crea immagine PDF con Aspose.Pdf – Guida passo‑passo](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Scopri come creare un'immagine PDF con Aspose.Pdf seguendo questa guida dettagliata passo passo. |
 | [Come convertire PDF con Aspose – Guida completa passo‑passo](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Scopri come convertire PDF utilizzando Aspose con questa guida dettagliata passo‑passo. |
+| [Come salvare PDF come HTML senza immagini usando Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | Scopri come convertire un PDF in HTML mantenendo il testo ma escludendo le immagini con Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -101,7 +104,6 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -131,6 +133,4 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-

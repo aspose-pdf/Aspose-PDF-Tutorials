@@ -344,6 +344,8 @@ Pelajari cara menghapus font dari file PDF secara programatis menggunakan Aspose
 ### [Cara Menghapus Font Tersemat pada PDF – Panduan Langkah demi Langkah C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Pelajari cara menghapus font tersemat dari file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# yang jelas.
 
+### [Cara menyimpan PDF yang dimodifikasi dengan Aspose.PDF dan menambahkan transparansi](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+
 ## Sumber Daya Tambahan
 ### [Ratakan Lapisan PDF di C# – Panduan Ekspor & Ekstrak](./flatten-pdf-layers-in-c-export-extract-guide/)
 Pelajari cara meratakan lapisan PDF, mengekspor dan mengekstrak konten menggunakan Aspose.PDF untuk .NET dengan C#.

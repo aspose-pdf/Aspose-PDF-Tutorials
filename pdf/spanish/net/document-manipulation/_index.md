@@ -358,6 +358,9 @@ Aprenda a reparar archivos PDF dañados o corruptos usando Aspose.PDF con esta g
 ### [Guardar PDF actualizado – Editar recursos PDF con Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Aprenda a guardar un PDF actualizado después de editar sus recursos usando Aspose.PDF para .NET.
 
+### [Cómo guardar un PDF modificado con Aspose.PDF y agregar transparencia](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Aprenda a guardar PDFs modificados y aplicar transparencia usando Aspose.PDF para .NET.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

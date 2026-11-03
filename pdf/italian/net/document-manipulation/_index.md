@@ -349,6 +349,8 @@ Scopri come salvare un PDF aggiornato dopo aver modificato le risorse PDF utiliz
 ### [Salva PDF modificato con Aspose.PDF – Guida completa C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Scopri come salvare un PDF modificato utilizzando Aspose.PDF per .NET con esempi di codice C# passo passo.
 
+### [Come salvare PDF modificati con Aspose.PDF e aggiungere trasparenza](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

@@ -76,6 +76,9 @@ Získejte podrobný návod, jak optimalizovat PDF soubory pomocí Aspose.PDF, v�
 ### [Jak optimalizovat PDF v .NET – komprimovat PDF v .NET krok za krokem](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
 Naučte se, jak krok po kroku komprimovat PDF soubory v .NET pomocí Aspose.PDF pro dosažení menší velikosti a lepšího výkonu.
 
+### [Jak optimalizovat PDF pomocí Aspose.PDF v C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Naučte se, jak optimalizovat PDF soubory pomocí Aspose.PDF v C# pro menší velikost a vyšší výkon.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

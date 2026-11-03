@@ -65,6 +65,7 @@ Cette ressource comprend des tutoriels sur la fonctionnalité de programmation a
 | [Créer un plugin Aspose personnalisé – Guide complet pour automatiser le traitement PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Apprenez à développer un plugin Aspose sur mesure pour automatiser le traitement de fichiers PDF avec Aspose.PDF pour .NET. |
 | [Comment créer un dictionnaire PDF vide et modifier les ressources PDF avec Aspose.PDF en C#](./how-to-create-empty-pdf-dictionary-and-edit-pdf-resources-wi/) | Apprenez à créer un dictionnaire PDF vide et à modifier ses ressources avec Aspose.PDF pour .NET en C#. |
 | [Ajouter une page blanche dans un document Word avec C# – Guide complet](./add-blank-page-in-word-document-with-c-complete-guide/) | Apprenez à ajouter une page blanche à un document Word avec C# grâce à ce guide complet étape par étape. |
+| [Comment créer un dictionnaire PDF vide avec Aspose.PDF en C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Apprenez à créer un dictionnaire PDF vide avec Aspose.PDF en C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
