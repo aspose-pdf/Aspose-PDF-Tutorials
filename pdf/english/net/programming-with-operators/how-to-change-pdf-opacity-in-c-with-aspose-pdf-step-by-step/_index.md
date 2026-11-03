@@ -60,7 +60,7 @@ tags:
 - Aspose.Pdf
 - Opacity
 - GraphicsState
-title: How to change PDF opacity in C# with Aspose.Pdf – step‑by‑step guide
+title: Learn to change PDF opacity in C# using Aspose.Pdf – step‑by‑step guide
 url: /net/programming-with-operators/how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/
 ---
 
@@ -242,14 +242,14 @@ You now know **how to change PDF opacity** in C# using Aspose.Pdf. By creating a
 Ready for the next challenge? Try combining this technique with **Aspose.Pdf opacity** on images, or explore **PDF blend mode** effects to produce professional‑grade overlays. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Change PDF Opacity with Aspose.PDF – Complete C# Guide](/pdf/english/net/programming-with-stamps-and-watermarks/change-pdf-opacity-with-aspose-pdf-complete-c-guide/)
-- [Change opacity PDF in C# with Aspose.Pdf – step‑by‑step guide](/pdf/english/net/programming-with-pdf-pages/change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/)
-- [How to change PDF transparency in C# using Aspose.Pdf](/pdf/english/net/programming-with-operators/how-to-change-pdf-transparency-in-c-using-aspose-pdf/)
+- [Change PDF Opacity with Aspose.PDF – Complete C# Guide]({{< relref "/pdf/english/net/programming-with-stamps-and-watermarks/change-pdf-opacity-with-aspose-pdf-complete-c-guide/" >}})
+- [Change opacity PDF in C# with Aspose.Pdf – step‑by‑step guide]({{< relref "/pdf/english/net/programming-with-pdf-pages/change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/" >}})
+- [How to change PDF transparency in C# using Aspose.Pdf]({{< relref "/pdf/english/net/programming-with-operators/how-to-change-pdf-transparency-in-c-using-aspose-pdf/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

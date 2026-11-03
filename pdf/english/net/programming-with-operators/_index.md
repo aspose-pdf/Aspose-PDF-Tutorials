@@ -1,6 +1,6 @@
 ---
-title: Programming with Operators
-linktitle: Programming with Operators
+title: Master PDF Operators with Aspose.PDF for .NET
+linktitle: Master PDF Operators with Aspose.PDF for .NET
 weight: 23
 url: /net/programming-with-operators/
 description: The Aspose.PDF for .NET Programming with Operators tutorials teach you the essential techniques for working with operators in PDF programming.
@@ -12,27 +12,50 @@ description: The Aspose.PDF for .NET Programming with Operators tutorials teach 
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Programming with Operators
+# Master PDF Operators with Aspose.PDF for .NET
 
 
 Aspose.PDF for .NET's "Programming with Operators" tutorials guide you through the essential concepts and techniques for working with operators in PDF programming. You will learn how to manipulate the content, layout and properties of PDF documents using operators. These tutorials will help you master common operations and create custom PDF documents with Aspose.PDF for .NET. Follow these tutorials to enrich your PDF programming skills and create professional looking documents.
 
+Here is a simple example that demonstrates how to add a text string to a PDF page using an operator:
+
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+
+// Load an existing PDF document
+Document pdfDocument = new Document("input.pdf");
+
+// Get the first page
+Page page = pdfDocument.Pages[1];
+
+// Create a text fragment
+TextFragment textFragment = new TextFragment("Hello, Aspose.PDF!");
+textFragment.Position = new Position(100, 700);
+
+// Add the text fragment to the page's paragraphs collection
+page.Paragraphs.Add(textFragment);
+
+// Save the updated PDF
+pdfDocument.Save("output.pdf");
+```
+
 ## Tutorials
 | Title | Description |
 | --- | --- | 
-| [Create custom graphics state in PDF using Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Learn how to create a custom graphics state in a PDF using Aspose.PDF for .NET in this step-by-step guide. |  
-| [Create empty PDF dictionary in C# with Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Learn how to create an empty PDF dictionary using Aspose.PDF for .NET in C#. |  
-| [Draw XForm On Page](./draw-xform-on-page/) | earn how to draw XForms in PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
-| [Iterate Collection C# – Simple Guide to Loop Over Items](./iterate-collection-c-simple-guide-to-loop-over-items/) | Learn how to loop over collections in C# using simple examples with Aspose.PDF for .NET. |  
-| [How to create empty graphics state in a PDF with C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | Learn how to create an empty graphics state in a PDF using Aspose.PDF for .NET with C# in this step-by-step guide. |
-| [PDF Operators](./pdf-operators/) | Step-by-step guide to using PDF operators with Aspose.PDF for .NET. Add an image to a PDF page and specify its position. |  
-| [Remove Graphics Objects In PDF File](./remove-graphics-objects/) | Learn how to remove graphics objects from a PDF file using Aspose.PDF for .NET in this step-by-step guide. Simplify your PDF manipulation tasks. |  
-| [Add Transparency to PDF using Aspose – Complete C# Guide](./add-transparency-to-pdf-using-aspose-complete-c-guide/) | Comprehensive C# guide to adding transparency effects to PDFs using Aspose.PDF for .NET. |  
-| [Create Empty PDF Dictionary in C# – Complete Aspose.Pdf Guide](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Step-by-step guide to creating an empty PDF dictionary in C# using Aspose.PDF for .NET. |  
-| [How to change PDF transparency in C# using Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Step-by-step guide to changing PDF transparency using Aspose.PDF for .NET in C#. |  
-| [How to change PDF opacity in C# with Aspose.Pdf – step‑by‑step guide](./how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step/) | Step-by-step guide to changing PDF opacity using Aspose.PDF for .NET in C#. |  
-| [Add rectangle PDF with Aspose.Pdf – Complete C# Guide](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Step-by-step guide to adding a rectangle to a PDF using Aspose.PDF for .NET in C#. |  
-| [Edit PDF Resource Dictionary with Aspose.PDF – C# Guide](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Step-by-step guide to editing the PDF resource dictionary using Aspose.PDF for .NET in C#. |  
+| [Create custom graphics state in PDF using Aspose.Pdf]({{< relref "create-custom-graphics-state-in-pdf-using-aspose-pdf" >}}) | Learn how to create a custom graphics state in a PDF using Aspose.PDF for .NET in this step-by-step guide. |  
+| [Create empty PDF dictionary in C# with Aspose.Pdf]({{< relref "create-empty-pdf-dictionary-in-c-with-aspose-pdf" >}}) | Learn how to create an empty PDF dictionary using Aspose.PDF for .NET in C#. |  
+| [Draw XForm On Page]({{< relref "draw-xform-on-page" >}}) | Learn how to draw XForms in PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
+| [Iterate Collection C# – Simple Guide to Loop Over Items]({{< relref "iterate-collection-c-simple-guide-to-loop-over-items" >}}) | Learn how to loop over collections in C# using simple examples with Aspose.PDF for .NET. |  
+| [How to create empty graphics state in a PDF with C#]({{< relref "how-to-create-empty-graphics-state-in-a-pdf-with-c" >}}) | Learn how to create an empty graphics state in a PDF using Aspose.PDF for .NET with C# in this step-by-step guide. |
+| [PDF Operators]({{< relref "pdf-operators" >}}) | Step-by-step guide to using PDF operators with Aspose.PDF for .NET. Add an image to a PDF page and specify its position. |  
+| [Remove Graphics Objects In PDF File]({{< relref "remove-graphics-objects" >}}) | Learn how to remove graphics objects from a PDF file using Aspose.PDF for .NET in this step-by-step guide. Simplify your PDF manipulation tasks. |  
+| [Add Transparency to PDF using Aspose – Complete C# Guide]({{< relref "add-transparency-to-pdf-using-aspose-complete-c-guide" >}}) | Comprehensive C# guide to adding transparency effects to PDFs using Aspose.PDF for .NET. |  
+| [Create Empty PDF Dictionary in C# – Complete Aspose.Pdf Guide]({{< relref "create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide" >}}) | Step-by-step guide to creating an empty PDF dictionary in C# using Aspose.PDF for .NET. |  
+| [How to change PDF transparency in C# using Aspose.Pdf]({{< relref "how-to-change-pdf-transparency-in-c-using-aspose-pdf" >}}) | Step-by-step guide to changing PDF transparency using Aspose.PDF for .NET in C#. |  
+| [How to change PDF opacity in C# with Aspose.Pdf – step‑by‑step guide]({{< relref "how-to-change-pdf-opacity-in-c-with-aspose-pdf-step-by-step" >}}) | Step-by-step guide to changing PDF opacity using Aspose.PDF for .NET in C#. |  
+| [Add rectangle PDF with Aspose.Pdf – Complete C# Guide]({{< relref "add-rectangle-pdf-with-aspose-pdf-complete-c-guide" >}}) | Step-by-step guide to adding a rectangle to a PDF using Aspose.PDF for .NET in C#. |  
+| [Edit PDF Resource Dictionary with Aspose.PDF – C# Guide]({{< relref "edit-pdf-resource-dictionary-with-aspose-pdf-c-guide" >}}) | Step-by-step guide to editing the PDF resource dictionary using Aspose.PDF for .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

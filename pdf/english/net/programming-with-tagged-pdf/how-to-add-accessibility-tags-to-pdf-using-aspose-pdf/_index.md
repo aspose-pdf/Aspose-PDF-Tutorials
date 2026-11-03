@@ -58,7 +58,7 @@ tags:
 - PDF
 - C#
 - Accessibility
-title: How to add accessibility tags to PDF using Aspose.PDF
+title: Add accessibility tags to PDF with Aspose.PDF for .NET
 url: /net/programming-with-tagged-pdf/how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/
 ---
 
@@ -253,15 +253,13 @@ Running the program produces `tagged_out.pdf`, a PDF that now contains a paragra
 |-----------|----------------------|--------|
 | **Multiple pages** | Loop through `pdfDocument.Pages` and apply tags to each page as needed. | Ensures every
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create Tagged PDFs with Aspose.PDF for .NET: A Complete Guide to Enhancing Accessibility and Document Structure](/pdf/english/net/advanced-features/create-tagged-pdfs-aspose-pdf-net/)
-- [Create and Manage Tagged PDFs with Aspose.PDF for .NET: Enhance Accessibility and SEO](/pdf/english/net/advanced-features/create-manage-tagged-pdfs-aspose-pdf-dotnet/)
-- [Aspose.PDF .NET: Enhancing PDF Accessibility through Tagging](/pdf/english/net/advanced-features/aspose-pdf-net-accessible-tagging-guide/)
+- {{< relref "pdf/english/net/advanced-features/create-tagged-pdfs-aspose-pdf-net/" >}}Create Tagged PDFs with Aspose.PDF for .NET: A Complete Guide to Enhancing Accessibility and Document Structure
+- {{< relref "pdf/english/net/advanced-features/create-manage-tagged-pdfs-aspose-pdf-dotnet/" >}}Create and Manage Tagged PDFs with Aspose.PDF for .NET: Enhance Accessibility and SEO
+- {{< relref "pdf/english/net/advanced-features/aspose-pdf-net-accessible-tagging-guide/" >}}Aspose.PDF .NET: Enhancing PDF Accessibility through Tagging
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
