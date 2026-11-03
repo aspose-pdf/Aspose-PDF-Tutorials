@@ -1,25 +1,22 @@
 ---
-date: '2026-06-12'
-description: تعلم كيفية إنشاء Tagged PDF Java باستخدام Aspose.PDF، إضافة accessibility
-  tags PDF، وتعيين العناوين والرؤوس والفقرات لإنشاء مستندات متوافقة وقابلة للبحث.
+date: '2026-10-23'
+description: تعلم كيفية إضافة وسوم PDF في Java باستخدام Aspose.PDF، وإضافة accessibility
+  tags، وتعيين titles, headers, و paragraphs لإنشاء مستندات متوافقة وقابلة للبحث.
 keywords:
-- create tagged pdf java
+- how to tag pdf
+- pdf accessibility tags
+- pdf accessibility guidelines
 - add accessibility tags pdf
-- Aspose.PDF Java tagging
-- PDF accessibility Java
-- structured PDF Java
-schemas:
+- aspose pdf tagging
 - author: Aspose
-  dateModified: '2026-06-12'
-  description: Learn how to create tagged PDF Java using Aspose.PDF, add accessibility
-    tags PDF, set titles, headers, and paragraphs for compliant, searchable documents.
-  headline: 'How to Create Tagged PDF Java with Aspose.PDF: Enhance Accessibility
-    and Structure'
+  dateModified: '2026-10-23'
+  description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  headline: How to tag PDF in Java with Aspose.PDF for accessibility
   type: TechArticle
-- description: Learn how to create tagged PDF Java using Aspose.PDF, add accessibility
-    tags PDF, set titles, headers, and paragraphs for compliant, searchable documents.
-  name: 'How to Create Tagged PDF Java with Aspose.PDF: Enhance Accessibility and
-    Structure'
+- description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  name: How to tag PDF in Java with Aspose.PDF for accessibility
   steps:
   - name: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
       your organization from legal risk.'
@@ -74,58 +71,131 @@ schemas:
       PDF/A‑1b or PDF/A‑2u files suitable for long‑term archival.
     question: Is there support for creating PDF/A compliant documents?
   type: FAQPage
-title: 'كيفية إنشاء Tagged PDF Java باستخدام Aspose.PDF: تحسين إمكانية الوصول والبنية'
+lastmod: '2026-10-23'
+og_description: تعلم كيفية إضافة وسوم PDF في Java باستخدام Aspose.PDF، وإضافة accessibility
+  tags، وتعيين titles, headers, و paragraphs لإنشاء مستندات متوافقة وقابلة للبحث تلبي
+  معايير PDF/UA و WCAG.
+og_image_alt: Diagram showing tagged PDF structure created with Aspose.PDF for Java
+og_title: كيفية إضافة وسوم PDF في Java باستخدام Aspose.PDF لتسهيل الوصول
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  headline: How to tag PDF in Java with Aspose.PDF for accessibility
+  type: TechArticle
+- description: Learn how to tag PDF in Java using Aspose.PDF, add accessibility tags,
+    set titles, headers, and paragraphs for compliant, searchable documents.
+  name: How to tag PDF in Java with Aspose.PDF for accessibility
+  steps:
+  - name: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
+      your organization from legal risk.'
+    text: '**Compliance:** Meets PDF/UA, WCAG 2.1, and Section 508 requirements, protecting
+      your organization from legal risk.'
+  - name: '**Searchability:** Indexed tags make content searchable both within the
+      PDF and by external search engines, increasing discoverability by up to **30 %**
+      in enterprise repositories (Aspose internal benchmark).'
+    text: '**Searchability:** Indexed tags make content searchable both within the
+      PDF and by external search engines, increasing discoverability by up to **30 %**
+      in enterprise repositories (Aspose internal benchmark).'
+  - name: '**Device flexibility:** Tagged PDFs reflow gracefully on mobile screens,
+      e‑readers, and assistive devices, improving the reading experience for all users.'
+    text: '**Device flexibility:** Tagged PDFs reflow gracefully on mobile screens,
+      e‑readers, and assistive devices, improving the reading experience for all users.'
+  - name: '**Libraries and versions**:'
+    text: '**Libraries and versions**:'
+  - name: '**Environment setup**:'
+    text: '**Environment setup**:'
+  - name: '**Knowledge prerequisites**:'
+    text: '**Knowledge prerequisites**:'
+  - name: '**Accessibility compliance:** Government agencies and educational institutions
+      rely on tagged PDFs to meet legal accessibility mandates.'
+    text: '**Accessibility compliance:** Government agencies and educational institutions
+      rely on tagged PDFs to meet legal accessibility mandates.'
+  - name: '**Document organization:** Large technical manuals, financial reports,
+      and research papers become searchable and navigable, reducing user support tickets
+      by up to **45 %**.'
+    text: '**Document organization:** Large technical manuals, financial reports,
+      and research papers become searchable and navigable, reducing user support tickets
+      by up to **45 %**.'
+  - name: '**E‑learning materials:** Structured eBooks and course packs can be repurposed
+      for screen‑reader‑friendly formats, expanding reach to learners with disabilities.'
+    text: '**E‑learning materials:** Structured eBooks and course packs can be repurposed
+      for screen‑reader‑friendly formats, expanding reach to learners with disabilities.'
+  type: HowTo
+- questions:
+  - answer: Set the appropriate language code using `document.getTaggedContent().setLanguage("fr-FR")`
+      for French, `"es-ES"` for Spanish, etc., before adding tags.
+    question: How do I handle non‑English text with Aspose.PDF?
+  - answer: Yes, you can append tags to each page’s content stream; the API automatically
+      maintains a global logical structure across pages.
+    question: Can I create multi‑page PDFs with structured elements?
+  - answer: After creating a `HeaderTag`, apply styling via the `TextState` object—set
+      font, size, color, and spacing to match your brand guidelines.
+    question: What if my document needs a custom header style?
+  - answer: Verify that the output directory exists and has write permissions, and
+      ensure no other process locks the target file. Use `document.getError()` for
+      detailed diagnostics.
+    question: How do I troubleshoot issues with document saving?
+  - answer: Absolutely. Call `document.convertToPdfA()` after tagging to generate
+      PDF/A‑1b or PDF/A‑2u files suitable for long‑term archival.
+    question: Is there support for creating PDF/A compliant documents?
+  type: FAQPage
+title: كيفية إضافة وسوم PDF في Java باستخدام Aspose.PDF لتسهيل الوصول
 url: /ar/java/advanced-features/java-pdf-tagging-aspose-pdf-enhancement/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-# تنفيذ وسم PDF في Java باستخدام Aspose.PDF: تحسين إمكانية الوصول
 
-## مقدمة
 
-إنشاء ملف **create tagged pdf java** لم يعد مهمة متخصصة—إنه مطلب أساسي للتطبيقات الحديثة والشاملة. في هذا الدرس ستكتشف كيفية استخدام **Aspose.PDF for Java** لإضافة وسوم إمكانية الوصول إلى PDF، وتعيين عنوان ذو معنى، وتعريف رؤوس هرمية، وإدراج محتوى فقرة غني. في النهاية، ستحصل على PDF مُوسم بالكامل يمكن لقارئات الشاشة التنقل فيه بسهولة، مع الالتزام بمعايير PDF/UA وSection 508 بالإضافة إلى تحسين قابلية البحث وإعادة استخدام المستند.
+
+
+# تنفيذ وضع العلامات على ملفات PDF باستخدام Java مع Aspose.PDF: تحسين إمكانية الوصول
+
+## المقدمة
+
+كيفية وضع العلامات على ملفات PDF في Java خطوة حاسمة لأي تطبيق يجب أن يخدم جميع المستخدمين، بما في ذلك الذين يعتمدون على التكنولوجيا المساعدة. في هذا البرنامج التعليمي ستتعلم كيفية استخدام **Aspose.PDF for Java** لإضافة علامات إمكانية الوصول، وتعيين عنوان ذي معنى، وتعريف رؤوس هرمية، وإدراج محتوى فقرة غني. في النهاية، ستحصل على ملف PDF مُوسوم بالكامل يمكن لقارئات الشاشة التنقل فيه بسهولة، مع الالتزام بمعايير PDF/UA وSection 508 مع تحسين قابلية البحث وإعادة استخدام المستند.
 
 ### إجابات سريعة
-- **ما هو وسم PDF؟** إضافة بيانات تعريف هيكلية (عناوين، رؤوس، فقرات) تصف تدفق المستند المنطقي.  
-- **لماذا وسم ملفات PDF؟** تحسين إمكانية الوصول، تمكين تنقل أفضل، وتلبية معايير الامتثال.  
-- **أي مكتبة يجب استخدامها؟** Aspose.PDF for Java توفر واجهة برمجة تطبيقات كاملة للوسم.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية تعمل للتقييم؛ الترخيص التجاري يزيل القيود.  
-- **هل يمكنني إضافة أنماط مخصصة؟** نعم—استخدم خيارات التنسيق في Aspose.PDF بعد إنشاء الوسوم.
+- **ما هو وضع العلامات على PDF؟** إضافة بيانات وصفية هيكلية (عناوين، رؤوس، فقرات) تصف التدفق المنطقي للمستند.  
+- **لماذا وضع العلامات على ملفات PDF؟** تحسين إمكانية الوصول، وتمكين تنقل أفضل، وتلبية معايير الامتثال.  
+- **ما المكتبة التي يجب استخدامها؟** Aspose.PDF for Java توفر واجهة برمجة تطبيقات كاملة الميزات لوضع العلامات.  
+- **هل أحتاج إلى ترخيص؟** الإصدار التجريبي يعمل للتقييم؛ الترخيص التجاري يزيل القيود.  
+- **هل يمكنني إضافة أنماط مخصصة؟** نعم — استخدم خيارات تنسيق Aspose.PDF بعد إنشاء العلامات.
 
-## ما هو وسم PDF؟
+## ما هو وضع العلامات على PDF؟
 
-وسم PDF هو عملية دمج بنية منطقية—عناوين، رؤوس، فقرات، جداول، قوائم—مباشرة داخل ملف PDF. تقرأ تقنيات المساعدة مثل قارئات الشاشة هذه البنية المخفية لتوصيل تسلسل المستند للمستخدمين ذوي الإعاقات البصرية، مما يسمح لهم بالقفز بين الأقسام، سماع النطق الصحيح، وفهم التدفق العام دون الاعتماد على الإشارات البصرية فقط.
+وضع العلامات على PDF هو عملية تضمين بنية منطقية — عناوين، رؤوس، فقرات، جداول، قوائم — مباشرةً داخل ملف PDF. تقرأ تقنيات المساعدة مثل قارئات الشاشة هذه البنية المخفية لنقل هيكل المستند، مما يسمح للمستخدمين ذوي الإعاقات البصرية بالانتقال بين الأقسام، وسماع النطق الصحيح، وفهم التدفق العام دون الاعتماد على الإشارات البصرية فقط.
 
-## لماذا إضافة وسوم إمكانية الوصول إلى PDF؟
+## لماذا إضافة علامات إمكانية الوصول إلى PDF؟
 
-إضافة وسوم إمكانية الوصول إلى PDF توفر مزايا واضحة. فهي تضمن توافق المستند مع المعايير القانونية، تجعل المحتوى أسهل في العثور عليه عبر محركات البحث، وتسمح للملف بالتكيف بسلاسة مع مختلف الأجهزة وتقنيات المساعدة.  
-إضافة وسوم إمكانية الوصول إلى PDF تقدم ثلاث فوائد ملموسة:  
-1. **الامتثال:** يفي بمتطلبات PDF/UA، WCAG 2.1، ومتطلبات Section 508، مما يحمي مؤسستك من المخاطر القانونية.  
-2. **قابلية البحث:** تجعل الوسوم المفهرسة المحتوى قابلًا للبحث داخل PDF وخارج محركات البحث، مما يزيد من إمكانية الاكتشاف بنسبة تصل إلى **30 %** في مستودعات المؤسسات (معيار Aspose الداخلي).  
-3. **مرونة الأجهزة:** تعيد تنسيق ملفات PDF الموسومة بسلاسة على شاشات الهواتف المحمولة، القارئات الإلكترونية، والأجهزة المساعدة، مما يحسن تجربة القراءة لجميع المستخدمين.
+إضافة علامات إمكانية الوصول إلى PDF توفر مزايا واضحة. فهي تضمن توافق المستند مع المعايير القانونية، وتسهّل العثور على المحتوى عبر محركات البحث، وتسمح للملف بالتكيف بسلاسة مع مختلف الأجهزة وتقنيات المساعدة.  
+توفر إضافة علامات إمكانية الوصول إلى PDF ثلاث فوائد ملموسة:
+1. **الامتثال:** يفي بمتطلبات PDF/UA وWCAG 2.1 وSection 508، مما يحمي مؤسستك من المخاطر القانونية.  
+2. **قابلية البحث:** تجعل العلامات المفهرسة المحتوى قابلًا للبحث داخل PDF وكذلك عبر محركات البحث الخارجية، مما يزيد من إمكانية الاكتشاف بنسبة تصل إلى **30 %** في مستودعات المؤسسات (معيار داخلي من Aspose).  
+3. **مرونة الأجهزة:** تُعيد ملفات PDF الموسومة تنسيق النص بسلاسة على شاشات الهواتف المحمولة، وأجهزة القراءة الإلكترونية، وأجهزة المساعدة، مما يحسن تجربة القراءة لجميع المستخدمين.
 
-## المتطلبات المسبقة (H2)
+## المتطلبات المسبقة
 
-قبل أن تبدأ، تأكد من توفر ما يلي:
+قبل البدء، تأكد من وجود ما يلي:
 
 1. **المكتبات والإصدارات**:  
-   - Aspose.PDF for Java **25.3** أو أحدث (واجهة برمجة التطبيقات تدعم **50+** صيغ إدخال وإخراج).  
+   - Aspose.PDF for Java **25.3** أو أحدث (تدعم الواجهة البرمجية **50+** صيغ إدخال وإخراج).  
 
 2. **إعداد البيئة**:  
    - Java Development Kit (JDK) 8 أو أحدث مثبت.  
-   - IDE مثل IntelliJ IDEA أو Eclipse أو VS Code.  
+   - بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse أو VS Code.  
 
 3. **المتطلبات المعرفية**:  
    - مهارات برمجة Java الأساسية.  
    - الإلمام بـ Maven أو Gradle لإدارة التبعيات.  
 
-## إعداد Aspose.PDF لـ Java (H2)
+## إعداد Aspose.PDF لـ Java
 
-لبدء العمل مع Aspose.PDF، ستحتاج إلى إضافة المكتبة إلى مشروعك باستخدام Maven أو Gradle.
+لبدء العمل مع Aspose.PDF، أضف المكتبة إلى مشروعك باستخدام Maven أو Gradle.
 
 **Maven:**  
 ```xml
@@ -141,22 +211,21 @@ weight: 1
 implementation 'com.aspose:aspose-pdf:25.3'
 ```  
 
-بعد إضافة التبعية، احصل على ترخيص لـ Aspose.PDF:  
+بعد إضافة التبعية، احصل على ترخيص لـ Aspose.PDF:
+- **نسخة تجريبية مجانية**: Download a temporary trial from [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
+- **ترخيص مؤقت**: Acquire it via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) to remove any evaluation limits.  
+- **شراء**: Visit the [Aspose Purchase page](https://purchase.aspose.com/buy) for a full license.
 
-- **نسخة تجريبية**: تحميل نسخة تجريبية مؤقتة من [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
-- **ترخيص مؤقت**: احصل عليه عبر [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) لإزالة أي قيود تقييم.  
-- **شراء**: زر [Purchase License](https://purchase.aspose.com/buy) للحصول على ترخيص كامل.
+## كيفية إنشاء PDF موسوم باستخدام Java و Aspose.PDF؟
 
-## كيف تنشئ PDF موسوم باستخدام Java و Aspose.PDF؟  
+حمّل ملف PDF الخاص بك باستخدام `new Document("input.pdf")`، ثم استدعِ واجهة برمجة التطبيقات `Tag` لتعيين عنوان، لغة، رؤوس، وفقرات. يخلق هذا النمط ذو الخطوتين ملف PDF مُوسوم بالكامل في الذاكرة دون تحميل الملف بالكامل، مع الحفاظ على استهلاك الذاكرة تحت **50 MB** حتى للوثائق التي تتألف من 300 صفحة.
 
-حمّل مستند PDF الخاص بك باستخدام `new Document("input.pdf")`، ثم استخدم واجهة `Tag` لتحديد عنوان، لغة، رؤوس، وفقرات—هذه العملية الواحدة تنشئ PDF موسوم بالكامل في بضع استدعاءات للطرق. **واجهة `Tag` توفر طرقًا لإنشاء وإدارة وسوم إمكانية الوصول داخل مستند PDF.** العملية تُجرى في الذاكرة، لذا حتى مستندًا من 300 صفحة يُعالج دون تحميل الملف بالكامل إلى RAM، مع الحفاظ على استهلاك الذاكرة تحت **50 MB** على خادم نموذجي.
-
-### تعيين العنوان واللغة (H2)
+### تعيين العنوان واللغة
 
 فئة `Document` هي الكائن الأعلى مستوى في Aspose.PDF الذي يمثل ملف PDF واحد في الذاكرة. تعيين عنوان واضح ورمز لغة على مستوى المستند هو الخطوة الأولى نحو إمكانية الوصول.
 
 **نظرة عامة:**  
-هذه الميزة تسمح لك بوسم مستندك بعنوان ذو معنى وتحديد اللغة الأساسية. يستخدم قارئ الشاشة هذه المعلومات للإعلان عن المستند بشكل صحيح وتطبيق قواعد النطق المناسبة.
+تتيح لك هذه الميزة وضع تسمية على مستندك بعنوان ذي معنى وتحديد اللغة الأساسية. تستخدم قارئات الشاشة هذه المعلومات للإعلان عن المستند بشكل صحيح وتطبيق قواعد النطق المناسبة.
 
 ```java
 import com.aspose.pdf.Document;
@@ -175,12 +244,12 @@ taggedContent.setLanguage("en-US");
 // setLanguage specifies the primary language (e.g., "en-US") which assists screen readers.
 ```  
 
-### إنشاء عناصر العنوان (H2)
+### إنشاء عناصر الرأس
 
-فئة `HeaderTag` تعرف رأسًا هيكليًا داخل PDF موسوم. من خلال تعيين مستوى (1‑6)، تنشئ تسلسلًا هرميًا يعكس المخطط المنطقي لمحتواك.
+فئة `HeaderTag` تحدد رأسًا هيكليًا داخل PDF موسوم. من خلال تعيين مستوى (1‑6)، تنشئ تسلسلًا هرميًا يعكس المخطط المنطقي لمحتواك.
 
 **نظرة عامة:**  
-تحديد رؤوس هرمية يتيح تنظيمًا أفضل وتنقلًا داخل PDF، مما يسمح للأدوات المساعدة بإنشاء مخطط تنقل تلقائي.
+يتيح تعريف رؤوس هرمية تنظيمًا أفضل وتنقلًا داخل PDF، مما يسمح لأدوات المساعدة بإنشاء مخطط قابل للتنقل تلقائيًا.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
@@ -201,12 +270,12 @@ for (int level = 1; level <= 6; level++) {
 }
 ```  
 
-### إضافة عنصر فقرة (H2)
+### إضافة عنصر فقرة
 
-فئة `Paragraph` تمثل كتلة نص داخل البنية المنطقية للـ PDF. وسوم الفقرات هي اللبنات الأساسية للمحتوى الرئيسي لمستندك.
+فئة `Paragraph` تمثل كتلة نص داخل البنية المنطقية لـ PDF. تُعد علامات الفقرة اللبنات الأساسية للمحتوى الرئيسي لمستندك.
 
 **نظرة عامة:**  
-الفقرات تحمل المحتوى الرئيسي، مُنسقة للقراءة وموسومة لإمكانية الوصول، مما يضمن أن قارئات الشاشة تتعامل معها كنص مستمر بدلاً من سلسلة كلمات غير مرتبطة.
+تحمل الفقرات المحتوى الرئيسي، مُنسقة لسهولة القراءة وموسومة لإمكانية الوصول، مما يضمن أن قارئات الشاشة تتعامل معها كنص مستمر بدلاً من سلسلة كلمات غير مرتبطة.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -223,9 +292,9 @@ rootElement.appendChild(p);
 // setText assigns the content of the paragraph, enhancing readability and document flow.
 ```  
 
-### حفظ المستند (H2)
+### حفظ المستند
 
-حفظ المستند يكتب كلًا من المحتوى المرئي وبنية الوسوم المخفية إلى القرص، منتجًا PDF يلتزم بمعايير إمكانية الوصول.
+حفظ المستند يكتب كلًا من المحتوى المرئي والبنية المخفية للعلامات إلى القرص، منتجًا ملف PDF يتوافق مع معايير إمكانية الوصول.
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
@@ -235,44 +304,44 @@ document.save(outputDir + "/TextBlockStructureElements.pdf");
 // The save method finalizes and writes your changes to a specified directory.
 ```  
 
-## أفضل ممارسات وسم PDF (H2)
+## أفضل ممارسات وضع العلامات على PDF
 
-- **التسلسل الهرمي المتسق:** ابدأ دائمًا بعنوان مستوى‑1 (عنوان المستند) وتدرج العناوين اللاحقة منطقياً (مثلاً، مستوى‑2 للفصول، مستوى‑3 للأقسام).  
-- **إعلان اللغة:** حدد رمز اللغة ISO‑639‑1 الصحيح مبكرًا؛ يؤثر على نطق قارئ الشاشة ودقة تحويل النص إلى كلام.  
-- **عناوين وصفية:** اجعل العناوين مختصرة—مثاليًا **5‑8 كلمات**—وتعكس هدف المستند.  
-- **تجنب الوسوم الفارغة:** يجب أن يحتوي كل عنصر هيكلي على محتوى مرئي؛ الوسوم الفارغة قد تتسبب في فشل التحقق في أدوات PDF/UA.  
-- **التحقق باستخدام الأدوات:** استخدم “Accessibility Checker” في Adobe Acrobat Pro أو أداة المصدر المفتوح **veraPDF** لتأكيد الامتثال قبل التوزيع.
+- **تسلسل هرمي متسق:** ابدأ دائمًا برأس مستوى‑1 (عنوان المستند) وتدرج العناوين اللاحقة منطقيًا (مثلاً، مستوى‑2 للفصول، مستوى‑3 للأقسام).  
+- **إعلان اللغة:** حدد رمز اللغة ISO‑639‑1 الصحيح مبكرًا؛ فهو يؤثر على نطق قارئات الشاشة ودقة تحويل النص إلى كلام.  
+- **عناوين وصفية:** اجعل العناوين مختصرة — مثاليًا **5‑8 كلمات** — وتعكس هدف المستند.  
+- **تجنب العلامات الفارغة:** يجب أن يحتوي كل عنصر هيكلي على محتوى مرئي؛ العلامات الفارغة قد تتسبب في فشل التحقق في أدوات فحص PDF/UA.  
+- **التحقق باستخدام الأدوات:** استخدم “Accessibility Checker” في Adobe Acrobat Pro أو الأداة المفتوحة المصدر **veraPDF** لتأكيد الامتثال قبل التوزيع.
 
-## التطبيقات العملية (H2)
+## التطبيقات العملية
 
-1. **الامتثال لإمكانية الوصول:** تعتمد الوكالات الحكومية والمؤسسات التعليمية على ملفات PDF الموسومة لتلبية المتطلبات القانونية لإمكانية الوصول.  
-2. **تنظيم المستندات:** تصبح الأدلة التقنية الكبيرة، التقارير المالية، والأوراق البحثية قابلة للبحث والتنقل، مما يقلل تذاكر دعم المستخدمين بنسبة تصل إلى **45 %**.  
-3. **مواد التعلم الإلكتروني:** يمكن إعادة استخدام الكتب الإلكترونية المهيكلة وحزم الدورات لتكون صديقة لقارئات الشاشة، مما يوسع الوصول إلى المتعلمين ذوي الإعاقات.  
+إن وضع العلامات على ملفات PDF مفيد عبر العديد من الصناعات:
+1. **الامتثال لإمكانية الوصول:** تعتمد الجهات الحكومية والمؤسسات التعليمية على ملفات PDF الموسومة لتلبية المتطلبات القانونية لإمكانية الوصول.  
+2. **تنظيم المستندات:** تتحول الأدلة التقنية الكبيرة، والتقارير المالية، والأوراق البحثية إلى ملفات قابلة للبحث والتنقل، مما يقلل من تذاكر دعم المستخدمين بنسبة تصل إلى **45 %**.  
+3. **مواد التعلم الإلكتروني:** يمكن إعادة توظيف الكتب الإلكترونية المهيكلة وحزم الدورات لتكون صديقة لقارئات الشاشة، مما يوسع الوصول إلى المتعلمين ذوي الإعاقات.
 
-## اعتبارات الأداء (H2)
+## اعتبارات الأداء
 
-عند معالجة أحمال عمل PDF عالية الحجم، ضع في اعتبارك النصائح التالية:
+عند معالجة أحمال عمل PDF ذات الحجم الكبير، ضع هذه النصائح في الاعتبار:
+- **إدارة الذاكرة بكفاءة:** أعد استخدام كائن `Document` واحد عند معالجة صفحات متعددة للحفاظ على استهلاك الذاكرة منخفضًا.  
+- **المعالجة الدفعية:** قم بتجميع ملفات PDF إلى دفعات من 10‑20 قبل استدعاء واجهة برمجة التطبيقات للوسم؛ هذا يقلل من عبء الإدخال/الإخراج بنسبة تصل إلى **30 %**.  
+- **تحليل الأداء:** استخدم Java Flight Recorder أو VisualVM لتحديد نقاط الاختناق — تشمل النقاط الساخنة الشائعة استدعاءات متكررة لـ `Document.save()` داخل حلقات ضيقة.
 
-- **إدارة الذاكرة الفعّالة:** أعد استخدام كائن `Document` واحد عند معالجة صفحات متعددة للحفاظ على استهلاك الذاكرة منخفضًا.  
-- **المعالجة الدفعية:** اجمع ملفات PDF في دفعات من 10‑20 قبل استدعاء واجهة وسم؛ يقلل ذلك من عبء الإدخال/الإخراج بنسبة تصل إلى **30 %**.  
-- **التحليل:** استخدم Java Flight Recorder أو VisualVM لتحديد نقاط الاختناق—النقاط الساخنة الشائعة تشمل استدعاءات متكررة لـ `Document.save()` داخل حلقات ضيقة.  
+## الأسئلة المتكررة
 
-## الأسئلة المتكررة (H2)
+**Q: كيف يمكنني التعامل مع النص غير الإنجليزي باستخدام Aspose.PDF؟**  
+A: قم بتعيين رمز اللغة المناسب باستخدام `document.getTaggedContent().setLanguage("fr-FR")` للفرنسية، `"es-ES"` للإسبانية، إلخ، قبل إضافة العلامات.
 
-**س: كيف أتعامل مع النص غير الإنجليزي باستخدام Aspose.PDF؟**  
-ج: اضبط رمز اللغة المناسب باستخدام `document.getTaggedContent().setLanguage("fr-FR")` للفرنسية، `"es-ES"` للإسبانية، إلخ، قبل إضافة الوسوم.
+**Q: هل يمكنني إنشاء ملفات PDF متعددة الصفحات مع عناصر هيكلية؟**  
+A: نعم، يمكنك إلحاق العلامات بكل تدفق محتوى للصفحة؛ تقوم الواجهة البرمجية تلقائيًا بالحفاظ على بنية منطقية عامة عبر الصفحات.
 
-**س: هل يمكنني إنشاء ملفات PDF متعددة الصفحات مع عناصر هيكلية؟**  
-ج: نعم، يمكنك إلحاق وسوم بكل تدفق محتوى للصفحة؛ الواجهة تحافظ تلقائيًا على بنية منطقية شاملة عبر الصفحات.
+**Q: ماذا لو كان مستندي يحتاج إلى نمط رأس مخصص؟**  
+A: بعد إنشاء `HeaderTag`، طبّق التنسيق عبر كائن `TextState` — حدد الخط، الحجم، اللون، والمسافات لتتناسب مع إرشادات علامتك التجارية.
 
-**س: ماذا لو كان المستند يحتاج إلى نمط رأس مخصص؟**  
-ج: بعد إنشاء `HeaderTag`، طبّق التنسيق عبر كائن `TextState`—حدد الخط، الحجم، اللون، والمسافات لتتناسب مع إرشادات العلامة التجارية.
+**Q: كيف يمكنني استكشاف مشكلات حفظ المستند؟**  
+A: تأكد من وجود دليل الإخراج وأن لديه أذونات كتابة، وتأكد من عدم وجود عملية أخرى تقفل الملف الهدف. استخدم `document.getError()` للحصول على تشخيص مفصل.
 
-**س: كيف أقوم باستكشاف مشكلات حفظ المستند؟**  
-ج: تأكد من وجود دليل الإخراج وصلاحيات الكتابة، وتأكد من عدم قفل عملية أخرى للملف المستهدف. استخدم `document.getError()` للحصول على تشخيص مفصل.
-
-**س: هل هناك دعم لإنشاء مستندات متوافقة مع PDF/A؟**  
-ج: بالتأكيد. استدعِ `document.convertToPdfA()` بعد الوسم لإنشاء ملفات PDF/A‑1b أو PDF/A‑2u مناسبة للأرشفة طويلة الأمد.
+**Q: هل هناك دعم لإنشاء مستندات متوافقة مع PDF/A؟**  
+A: بالتأكيد. استدعِ `document.convertToPdfA()` بعد وضع العلامات لإنشاء ملفات PDF/A‑1b أو PDF/A‑2u مناسبة للأرشفة طويلة الأمد.
 
 ## الموارد
 
@@ -280,25 +349,26 @@ document.save(outputDir + "/TextBlockStructureElements.pdf");
 - [تحميل Aspose.PDF](https://releases.aspose.com/pdf/java/)
 - [شراء ترخيص](https://purchase.aspose.com/buy)
 - [نسخة تجريبية مجانية](https://releases.aspose.com/pdf/java/)
-- [الحصول على ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
+- [اكتساب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى دعم Aspose](https://forum.aspose.com/c/pdf/10)
 
-باتباع هذا الدليل، الآن تعرف **how to create tagged PDF Java** ملفات يمكن الوصول إليها ومهيكلة جيدًا. نفّذ هذه التقنيات في مشروعك التالي لتقديم مستندات شاملة وقابلة للبحث تلبي معايير الامتثال الحديثة.
+باتباع هذا الدليل، أنت الآن تعرف **كيفية وضع العلامات على PDF في Java** ويمكنك تقديم مستندات شاملة وقابلة للبحث تلبي معايير الامتثال الحديثة.
 
 ---
 
-**آخر تحديث:** 2026-06-12  
+**آخر تحديث:** 2026-10-23  
 **تم الاختبار مع:** Aspose.PDF for Java 25.3  
 **المؤلف:** Aspose
 
-## دروس ذات صلة
+## الدروس ذات الصلة
 
-- [إنشاء وإدارة ملفات PDF الموسومة باستخدام Aspose.PDF for Java: تحسين إمكانية الوصول في مستنداتك](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [إنشاء وإدارة ملفات PDF الموسومة باستخدام Aspose.PDF لـ Java: تحسين إمكانية الوصول في مستنداتك](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
 - [إنشاء PDF قابل للوصول مع محتوى موسوم في Java باستخدام Aspose.PDF](/pdf/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/)
-- [كيفية التحقق من إمكانية وصول PDF باستخدام Aspose.PDF Java للامتثال PDF/UA-1](/pdf/java/advanced-features/validate-pdf-accessibility-aspose-java/)
+- [كيفية فحص إمكانية الوصول لملف PDF باستخدام Aspose.PDF Java للامتثال لـ PDF/UA-1](/pdf/java/advanced-features/validate-pdf-accessibility-aspose-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
