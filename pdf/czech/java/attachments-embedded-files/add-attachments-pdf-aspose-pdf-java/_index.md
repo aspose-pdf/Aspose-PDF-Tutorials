@@ -54,6 +54,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Jak přidat vložený soubor do PDF pomocí Aspose.PDF pro Java – Průvodce vývojáře
@@ -260,14 +261,11 @@ Nyní víte, jak **přidat vložený soubor do PDF** pomocí Aspose.PDF pro Java
 **Tested With:** Aspose.PDF 25.3 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Související tutoriály
 
 - [Jak extrahovat vložené soubory z PDF pomocí Aspose.PDF pro Java: Kompletní průvodce](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Mistrovství Aspose.PDF Java: Přístup a správa vložených souborů v PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Jak extrahovat vložené soubory z PDF portfolia pomocí Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

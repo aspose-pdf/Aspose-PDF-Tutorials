@@ -53,6 +53,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF for Java के साथ PDF में एम्बेडेड फ़ाइल जोड़ने का तरीका – एक डेवलपर गाइड
@@ -259,14 +260,11 @@ PDF के अंदर फ़ाइलें एम्बेड करना �
 **परीक्षित संस्करण:** Aspose.PDF 25.3 for Java  
 **लेखक:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Aspose.PDF for Java का उपयोग करके PDFs से एम्बेडेड फ़ाइलें निकालने का तरीका: एक व्यापक गाइड](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Aspose.PDF Java में महारत: PDFs में एम्बेडेड फ़ाइलों तक पहुँच और प्रबंधन](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Aspose.PDF Java का उपयोग करके PDF पोर्टफ़ोलियो से एम्बेडेड फ़ाइलें निकालना](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

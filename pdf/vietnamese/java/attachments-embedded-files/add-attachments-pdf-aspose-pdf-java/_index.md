@@ -53,6 +53,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Cách Thêm Tệp Nhúng vào PDF bằng Aspose.PDF cho Java – Hướng Dẫn cho Nhà Phát Triển
@@ -259,14 +260,11 @@ Bạn đã biết cách **thêm tệp nhúng vào PDF** bằng Aspose.PDF cho Ja
 **Tested With:** Aspose.PDF 25.3 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Các hướng dẫn liên quan
 
 - [Cách Trích xuất Tệp Nhúng từ PDF bằng Aspose.PDF cho Java: Hướng Dẫn Toàn Diện](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Làm Chủ Aspose.PDF Java: Truy cập và Quản lý Tệp Nhúng trong PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Cách Trích xuất Tệp Nhúng từ PDF Portfolio bằng Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

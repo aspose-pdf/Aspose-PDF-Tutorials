@@ -54,6 +54,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Wie man eingebettete Datei zu PDF mit Aspose.PDF für Java hinzufügt – Ein Entwicklerhandbuch
@@ -256,14 +257,11 @@ Sie wissen jetzt, wie Sie **eingebettete Datei zu PDF hinzufügen** mit Aspose.P
 **Tested With:** Aspose.PDF 25.3 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Verwandte Tutorials
 
 - [Wie man eingebettete Dateien aus PDFs mit Aspose.PDF für Java extrahiert: Ein umfassender Leitfaden](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Aspose.PDF Java meistern: Zugriff und Verwaltung eingebetteter Dateien in PDFs](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Wie man eingebettete Dateien aus einem PDF‑Portfolio mit Aspose.PDF Java extrahiert](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

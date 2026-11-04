@@ -53,6 +53,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Как добавить вложенный файл в PDF с помощью Aspose.PDF for Java – Руководство разработчика
@@ -257,14 +258,11 @@ You now know how to **add embedded file to PDF** using Aspose.PDF for Java. This
 **Тестировано с:** Aspose.PDF 25.3 for Java  
 **Автор:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Связанные руководства
 
 - [Как извлечь вложенные файлы из PDF с помощью Aspose.PDF for Java: Полное руководство](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Освойте Aspose.PDF Java: Доступ и управление вложенными файлами в PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Как извлечь вложенные файлы из PDF‑портфолио с помощью Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

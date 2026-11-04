@@ -54,6 +54,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Jak dodać osadzony plik do PDF przy użyciu Aspose.PDF for Java – Przewodnik dla programisty
@@ -258,14 +259,11 @@ Teraz wiesz, jak **dodać osadzony plik do PDF** przy użyciu Aspose.PDF for Jav
 **Tested With:** Aspose.PDF 25.3 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Powiązane samouczki
 
 - [Jak wyodrębnić osadzone pliki z PDF przy użyciu Aspose.PDF for Java: Kompletny przewodnik](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Opanuj Aspose.PDF Java: Dostęp i zarządzanie osadzonymi plikami w PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Jak wyodrębnić osadzone pliki z PDF Portfolio przy użyciu Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF for Java を使用して PDF に埋め込みファイルを追加する方法 – 開発者ガイド
@@ -258,14 +259,11 @@ CMS や文書生成パイプラインと統合すれば、添付プロセスを�
 **テスト環境:** Aspose.PDF 25.3 for Java  
 **作者:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## 関連チュートリアル
 
 - [Aspose.PDF for Java を使用して PDF から埋め込みファイルを抽出する方法：包括的ガイド](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Aspose.PDF Java マスターガイド：PDF 内の埋め込みファイルにアクセスし管理する](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Aspose.PDF Java を使用して PDF ポートフォリオから埋め込みファイルを抽出する方法](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
