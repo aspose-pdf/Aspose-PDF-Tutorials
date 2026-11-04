@@ -63,31 +63,7 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 | [Guardar documento PDF con Aspose.PDF – guía completa](./save-pdf-document-with-aspose-pdf-complete-guide/) | Aprenda a guardar documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
 | [Cómo crear documento PDF con campos de formulario interactivos en C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) Aprenda a crear documentos PDF con campos de formulario interactivos usando Aspose.PDF para .NET en C# paso a paso.  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Cómo crear PDF con Aspose – Agregar campo a la colección](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Aprenda a agregar un campo a una colección en un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Crear documento PDF con varios widgets de cuadro de texto](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aprenda a crear un documento PDF con múltiples widgets de cuadro de texto usando Aspose.PDF para .NET en esta guía paso a paso. |
 | [Agregar números Bates a PDFs](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aprenda a añadir números Bates a documentos PDF usando Aspose.PDF para .NET con este tutorial paso a paso en C#. |  

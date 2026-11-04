@@ -14,7 +14,6 @@
 
 # टैग की गई पीडीएफ के साथ प्रोग्रामिंग
 
-
 Aspose.PDF for .NET के "टैग किए गए PDF के साथ प्रोग्रामिंग" ट्यूटोरियल आपको टैग किए गए PDF में हेरफेर करने और उसे बनाने के लिए इस लाइब्रेरी का उपयोग करने के बारे में बताते हैं। जानें कि सामग्री संरचना कैसे बनाएं, टैग किए गए तत्वों को कैसे प्रबंधित करें, PDF/UA अनुपालन को कैसे मान्य करें और PDF दस्तावेज़ों की पहुँच में सुधार कैसे करें। ये ट्यूटोरियल आपको टैग किए गए PDF के साथ प्रोग्रामिंग की गहन समझ देते हैं और आपको Aspose.PDF for .NET की शक्ति का अधिकतम लाभ उठाने में मदद करते हैं।
 
 ## ट्यूटोरियल
@@ -56,18 +55,6 @@ Aspose.PDF for .NET के "टैग किए गए PDF के साथ प�
 | [Aspose.Pdf के साथ PDF को टैग करने का तरीका – पूर्ण प्रोग्रामिंग गाइड](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Aspose.PDF का उपयोग करके PDF को टैग करने के लिए विस्तृत चरण‑दर‑चरण मार्गदर्शिका। |
 | [Aspose के साथ स्पैन एलिमेंट PDF बनाएं – PDF लोड करें और टैग सामग्री](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Aspose.PDF के साथ PDF में स्पैन एलिमेंट बनाना, PDF लोड करना और सामग्री को टैग करने की प्रक्रिया सीखें। |
 | [Aspose.PDF का उपयोग करके PDF में एक्सेसिबिलिटी टैग कैसे जोड़ें](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Aspose.PDF के साथ PDF में एक्सेसिबिलिटी टैग जोड़ने की चरण‑दर‑चरण मार्गदर्शिका। |
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Aspose के साथ PDF को टैग कैसे करें – PDF एक्सेसिबिलिटी टैग्स का पूर्ण मार्गदर्शक](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aspose का उपयोग करके PDF में एक्सेसिबिलिटी टैग जोड़ने की पूरी प्रक्रिया सीखें, जिससे दस्तावेज़ सुलभ और मानकों के अनुरूप बनें। |
 | [Aspose के साथ PDF को सुलभ बनाएं: पैराग्राफ PDF डालें चरण‑दर‑चरण](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aspose.PDF for .NET का उपयोग करके PDF में पैराग्राफ जोड़कर उसे सुलभ बनाने की चरण‑दर‑चरण मार्गदर्शिका। |

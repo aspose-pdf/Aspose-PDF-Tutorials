@@ -79,32 +79,9 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Skapa signaturalternativ i C# – komplett guide till digital signering](./create-signature-options-in-c-full-guide-to-digital-signing/) | Lär dig hur du skapar signaturalternativ och signerar PDF-dokument digitalt med Aspose.PDF för .NET. |
 
 | [Hur man validerar PDF-signaturer med Aspose.PDF i C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Lär dig hur du validerar PDF‑signaturer med Aspose.PDF i C#. |
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Verifiera PDF-signatur i C# – Komplett steg‑för‑steg‑guide](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Lär dig hur du verifierar digitala PDF‑signaturer i C# med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |  
 | [Öppna signerad PDF – Så läser du dess digitala signaturer](./open-signed-pdf-how-to-read-its-digital-signatures/) | Lär dig hur du öppnar en signerad PDF och läser dess digitala signaturer med Aspose.PDF för .NET. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Verifiera PDF digital signatur i C# – Komplett guide](./verify-pdf-digital-signature-in-c-complete-guide/) | Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. En steg‑för‑steg‑guide. |  
 | [Validera signaturer i PDF med Aspose – C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Lär dig hur du validerar digitala signaturer i PDF-dokument med Aspose.PDF för .NET i C#. |  

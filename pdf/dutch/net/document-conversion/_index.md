@@ -97,17 +97,6 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [Hoe PDF te converteren met Aspose – Complete stapsgewijze handleiding](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Leer hoe u PDF-bestanden converteert met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
 | [PDF converteren naar PDF/X-1a met C# – Stapsgewijze handleiding](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Leer hoe u PDF-bestanden naar PDF/X‑1a converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
 | [PDF opslaan als HTML zonder afbeeldingen met Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | Leer hoe u een PDF opslaat als HTML zonder afbeeldingen met Aspose.PDF voor .NET. |
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Aspose PDF-conversie: PDF naar PDF/X‑4 converteren in C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Leer hoe u een PDF-bestand naar PDF/X‑4 converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
 | [HTML maken vanuit PDF in C# – Complete stapsgewijze handleiding](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET HTML genereert uit PDF-bestanden met een volledige stap‑voor‑stap handleiding in C#. |  

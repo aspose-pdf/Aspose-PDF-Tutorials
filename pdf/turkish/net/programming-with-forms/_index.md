@@ -63,31 +63,7 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [C#'ta PDF form alanı oluşturma – adım adım rehber](./create-pdf-form-field-in-c-step-by-step-guide/) | C# kullanarak PDF form alanı oluşturmayı adım adım öğrenin. |
 | [C# ile etkileşimli form alanları içeren PDF belgesi oluşturma](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Aspose.PDF for .NET kullanarak C# ile etkileşimli form alanları içeren PDF belgesi oluşturmayı öğrenin. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose ile PDF Oluşturma – Koleksiyona Alan Ekle](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Aspose.PDF for .NET kullanarak bir PDF koleksiyonuna yeni bir alan eklemeyi adım adım öğrenin. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [PDF'lere Bates Numaraları Ekle – Adım Adım C# Kılavuzu](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aspose.PDF for .NET ile PDF'lere Bates numaraları ekleyerek belge takibini otomatikleştirin. |
 | [Birden Çok Metin Kutusu Widget'ı Kullanarak PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aspose.PDF for .NET kullanarak PDF belgesine birden çok metin kutusu widget'ı eklemeyi ve doldurmayı öğrenin. |

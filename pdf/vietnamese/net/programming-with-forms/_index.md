@@ -63,31 +63,7 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Tạo trường biểu mẫu PDF trong C# – hướng dẫn từng bước](./create-pdf-form-field-in-c-step-by-step-guide/) | Tìm hiểu cách tạo trường biểu mẫu PDF trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Cách tạo tài liệu PDF với các trường biểu mẫu tương tác trong C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Hướng dẫn tạo tài liệu PDF có các trường biểu mẫu tương tác bằng C# và Aspose.PDF. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Cách tạo PDF với Aspose – Thêm trường vào bộ sưu tập](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Tìm hiểu cách tạo tệp PDF và thêm trường vào bộ sưu tập bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Thêm số Bates vào PDF – Hướng dẫn C# từng bước](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET với C# trong vài bước đơn giản. |
 | [Tạo tài liệu PDF với nhiều widget Hộp văn bản – Hướng dẫn từng bước](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Tìm hiểu cách tạo tài liệu PDF có nhiều hộp văn bản bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |

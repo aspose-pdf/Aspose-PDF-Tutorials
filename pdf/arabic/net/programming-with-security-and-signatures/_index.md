@@ -75,18 +75,6 @@
 | [التحقق من توقيع PDF في C# – دليل خطوة بخطوة كامل](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | تعلّم كيفية التحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF لـ .NET خطوة بخطوة. |  
 | [فتح ملف PDF موقع – كيفية قراءة توقيعاته الرقمية](./open-signed-pdf-how-to-read-its-digital-signatures/) | تعرّف على كيفية فتح ملفات PDF الموقعة وقراءة توقيعاتها الرقمية باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [تحقق من توقيع PDF في C# – دليل خطوة بخطوة](./verify-pdf-signature-in-c-step-by-step-guide/) | تعلم كيفية التحقق من صحة توقيع PDF باستخدام C# مع Aspose.PDF لـ .NET خطوة بخطوة. |  
 | [كيفية التحقق من توقيعات PDF واكتشاف التلاعب في C#](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) | تعلم كيفية التحقق من توقيعات PDF واكتشاف أي تعديل أو تلاعب باستخدام C# و Aspose.PDF. |
 | [حفظ ملف PDF موقع بتوقيع رقمي مخصص في C#](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | تعلم كيفية حفظ ملف PDF موقع باستخدام توقيع رقمي مخصص في C# مع Aspose.PDF. |

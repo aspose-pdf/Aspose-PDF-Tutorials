@@ -102,18 +102,6 @@
 | [C#에서 PDF를 PDF/X‑4로 변환하는 방법 – 단계별 가이드](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF를 PDF/X‑4 형식으로 변환하는 단계별 가이드를 제공합니다. |  
 | [이미지 없이 PDF를 HTML로 저장하는 방법 (Aspose.PDF 사용)](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | Aspose.PDF를 사용하여 이미지 없이 PDF를 HTML 파일로 저장하는 단계별 가이드입니다. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [ICC 프로파일 추가 및 PDF를 PDF/X‑4로 변환 – C# 가이드](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 ICC 프로파일을 추가하고 PDF/X‑4 형식으로 변환하는 방법을 단계별 가이드로 알아보세요. |
 | [PDF 문서 로드 C# – PDF/X-4로 변환 단계별 가이드](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 문서를 로드하고 PDF/X-4 형식으로 변환하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose PDF를 HTML로 변환하는 완전 가이드](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 C#에서 PDF를 HTML로 변환하는 방법을 배웁니다. |

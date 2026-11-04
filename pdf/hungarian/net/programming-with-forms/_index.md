@@ -63,31 +63,7 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [PDF űrlapmező létrehozása C#‑ban – lépésről lépésre útmutató](./create-pdf-form-field-in-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre PDF űrlapmezőket C#‑ban az Aspose.PDF for .NET segítségével lépésről lépésre. |
 | [Hogyan hozzunk létre PDF dokumentumot interaktív űrlapmezőkkel C#-ban](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Lépésről lépésre útmutató PDF dokumentum interaktív űrlapmezőkkel C#-ban. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [PDF létrehozása az Aspose-szal – Mező hozzáadása a gyűjteményhez](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Tanulja meg, hogyan adhat hozzá mezőt egy gyűjteményhez PDF létrehozásakor az Aspose.PDF for .NET használatával. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Bates-számok hozzáadása PDF-ekhez – Lépésről lépésre C# útmutató](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET használatával. |
 | [PDF dokumentum létrehozása több szövegdoboz widgettel – Lépésről lépésre útmutató](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF dokumentumot több szövegdoboz widgettel az Aspose.PDF for .NET segítségével. |

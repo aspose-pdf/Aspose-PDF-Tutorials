@@ -63,18 +63,6 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 | [Creare campo modulo PDF in C# – guida passo‑passo](./create-pdf-form-field-in-c-step-by-step-guide/) | Scopri come creare un campo modulo PDF in C# con Aspose.PDF per .NET, passo dopo passo, con esempi di codice. |  
 | [Come creare un documento PDF con campi modulo interattivi in C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Scopri come creare un documento PDF con campi modulo interattivi usando Aspose.PDF per .NET in C#. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Come creare PDF con Aspose – Aggiungere campo modulo e pagine](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Scopri come creare un PDF, aggiungere campi modulo e gestire le pagine usando Aspose.PDF per .NET. |
 | [Aggiungi numeri Bates ai PDF – Guida passo‑passo C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Scopri come aggiungere numeri Bates ai PDF con Aspose.PDF per .NET in C#, passo dopo passo. |
 | [Crea documento PDF con più widget di casella di testo – Guida passo‑passo](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Scopri come creare un documento PDF con più widget di casella di testo usando Aspose.PDF per .NET in questa guida passo‑passo. |

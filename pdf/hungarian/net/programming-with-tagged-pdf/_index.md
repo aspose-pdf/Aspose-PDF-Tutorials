@@ -14,7 +14,6 @@
 
 # Programozás címkézett PDF-fel
 
-
 Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című oktatóanyagai végigvezetik a könyvtár használatán, amellyel címkézett PDF-eket manipulálhat és hozhat létre. Ismerje meg, hogyan hozhat létre tartalomstruktúrákat, kezelheti a címkézett elemeket, érvényesítheti a PDF/UA-megfelelőséget, és hogyan javíthatja a PDF-dokumentumok akadálymentesítését. Ezek az oktatóanyagok mélyreható ismereteket nyújtanak a címkézett PDF-ekkel való programozásról, és segítenek a legtöbbet kihozni az Aspose.PDF for .NET erejéből.
 
 ## Oktatóanyagok
@@ -55,19 +54,6 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 | [Címkézett PDF létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |
 | [Hogyan címkézzünk PDF-et az Aspose.PDF‑vel – Teljes programozási útmutató](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Ismerje meg, hogyan címkézhet PDF-fájlokat az Aspose.PDF for .NET segítségével egy részletes, lépésről‑lépésre útmutatóban. |
 | [PDF dokumentum létrehozása C#‑ban – Szöveg pozicionálása és struktúrafa hozzáadása](./create-pdf-document-c-position-text-and-add-structural-tree/) | Ismerje meg, hogyan helyezhet el szöveget és adhat hozzá struktúrafát egy PDF dokumentumban C#‑ban az Aspose.PDF for .NET segítségével. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Hogyan címkézzük a PDF-et az Aspose-szal – Teljes útmutató a PDF hozzáférhetőségi címkékhez](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Lépésről lépésre útmutató a PDF-ek hozzáférhetőségi címkéinek létrehozásához az Aspose.PDF for .NET segítségével. |
 | [PDF hozzáférhetővé tétele Aspose-szal: Bekezdés beszúrása PDF-be lépésről‑lépésre](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Ismerje meg, hogyan szúrhat be bekezdést egy PDF-be az Aspose.PDF for .NET segítségével, hogy javítsa a hozzáférhetőséget. |

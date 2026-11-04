@@ -14,7 +14,6 @@
 
 # Lập trình với tem và hình mờ
 
-
 Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành cho .NET hướng dẫn bạn từng bước để thêm tem và hình mờ vào tài liệu PDF của bạn. Bạn sẽ học cách tùy chỉnh tem, áp dụng hình mờ văn bản và đồ họa, cũng như quản lý vị trí và giao diện của chúng. Các hướng dẫn này sẽ giúp bạn thêm một lớp bảo mật và nhận dạng vào tệp PDF của mình theo cách dễ dàng và hiệu quả.
 
 ## Hướng dẫn
@@ -58,19 +57,6 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Thêm độ trong suốt vào PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách áp dụng độ trong suốt cho tài liệu PDF bằng Aspose.PDF cho .NET với ví dụ C#. |  
 | [Cách Thay Đổi Độ Trong Suốt trong PDF với Aspose.PDF – Hướng Dẫn Đầy Đủ](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Tìm hiểu cách thay đổi độ trong suốt của các đối tượng trong PDF bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết. |  
 | [Cách Thêm Số Bates vào PDF với Aspose – Hướng Dẫn Từng Bước](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) Tìm hiểu cách thêm số Bates vào PDF bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Hướng dẫn đánh số Bates: Thêm số Bates vào PDF bằng C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Tìm hiểu cách thêm số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Thay đổi độ trong suốt PDF trong C# – Hướng dẫn đầy đủ Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) Tìm hiểu cách thay đổi độ trong suốt của tệp PDF bằng C# với Aspose.PDF cho .NET qua hướng dẫn chi tiết. |  

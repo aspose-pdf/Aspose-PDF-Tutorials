@@ -97,18 +97,6 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [Convertir un PDF en PDF/X‑1a avec C# – Guide étape par étape](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Apprenez à convertir un PDF en PDF/X‑1a avec C# grâce à ce guide détaillé étape par étape. |  
 | [Comment enregistrer un PDF en HTML sans images avec Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | Apprenez à convertir un PDF en HTML sans inclure les images à l'aide d'Aspose.PDF pour .NET, guide étape par étape. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Conversion Aspose PDF : Convertir un PDF en PDF/X‑4 en C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Apprenez à convertir un PDF en PDF/X‑4 avec Aspose.PDF pour .NET en C# grâce à ce guide étape par étape. |
 | [Ajouter une numérotation Bates à DOCX et convertir en PDF – Guide complet C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Apprenez à ajouter une numérotation Bates à un fichier DOCX puis le convertir en PDF avec Aspose.PDF pour .NET en C#. |
 | [Enregistrer le PDF en HTML – Conserver les vecteurs et désactiver la rasterisation](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Apprenez à enregistrer un PDF au format HTML tout en conservant les vecteurs et en désactivant la rasterisation avec Aspose.PDF pour .NET. |  

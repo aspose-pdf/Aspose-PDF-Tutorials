@@ -14,7 +14,6 @@
 
 # 使用標籤的 PDF 進行編程
 
-
 Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將引導您使用此程式庫來操作和產生標記 PDF。了解如何建立內容結構、管理標記元素、驗證 PDF/UA 合規性以及提高 PDF 文件的可存取性。這些教學讓您深入了解使用標記 PDF 進行編程，並協助您充分利用 Aspose.PDF for .NET 的強大功能。
 
 ## 教學
@@ -56,19 +55,6 @@ Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將�
 | [使用 Aspose.Pdf 標記 PDF – 完整程式設計指南](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) |透過本完整指南，學習如何使用 Aspose.Pdf 為 PDF 加上標記，提升可存取性與結構化。 |  
 | [使用 Aspose 建立 Span 元素 PDF – 載入 PDF 並標記內容](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) |在本教學中了解如何使用 Aspose.PDF for .NET 載入 PDF 並建立 Span 元素以標記內容。 |  
 | [如何使用 Aspose.PDF 為 PDF 添加可存取性標籤](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) |本教學說明如何使用 Aspose.PDF 為 PDF 添加可存取性標籤，提升文件的可讀性與合規性。 |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [如何使用 Aspose 標記 PDF – PDF 可存取性標籤完整指南](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) |本完整指南說明如何使用 Aspose.PDF 為 PDF 添加可存取性標籤，提升文件的可讀性與合規性。 |  
 | [使用 Aspose 使 PDF 可存取：插入段落 PDF 步驟說明](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) |本教學說明如何使用 Aspose.PDF for .NET 在 PDF 中插入段落，以提升文件的可存取性。 |  

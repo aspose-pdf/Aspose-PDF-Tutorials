@@ -63,31 +63,7 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 | [C# で PDF フォームフィールドを作成する – ステップバイステップ ガイド](./create-pdf-form-field-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して C# で PDF フォームフィールドを作成する方法をステップバイステップで解説します。 |  
 | [C# でインタラクティブなフォームフィールドを持つ PDF ドキュメントを作成する方法](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) Aspose.PDF for .NET を使用して、C# でインタラクティブなフォームフィールド付き PDF を作成する手順を解説します。 |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose で PDF を作成 – コレクションにフィールドを追加](./how-to-create-pdf-with-aspose-add-field-to-collection/) Aspose.PDF for .NET を使用して、PDF のフィールドコレクションに新しいフィールドを追加する方法をステップバイステップで解説します。 |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [テキストボックス PDF の追加方法 – PDF フォームフィールドの作成と編集済み PDF ドキュメントの保存](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) Aspose.PDF for .NET を使用して PDF にテキストボックス フィールドを作成し、編集した PDF を保存する方法をステップバイステップで解説します。 |
 

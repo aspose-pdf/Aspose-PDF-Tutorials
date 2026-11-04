@@ -97,18 +97,6 @@
 | [كيفية حفظ PDF كـ HTML دون صور باستخدام Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) |تعلم كيفية حفظ ملفات PDF كـ HTML دون تضمين الصور باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [حفظ PDF كـ HTML باستخدام Aspose.PDF – دليل خطوة بخطوة بلغة C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET عبر دليل شامل خطوة بخطوة بلغة C#. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [تحويل PDF إلى PDF/X‑4 باستخدام Aspose PDF في C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) |تعلم كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET مع لغة C# في هذا الدليل خطوة بخطوة. |
 | [تحويل PDF إلى PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/X-4 باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة. |
 | [إضافة ملف تعريف ICC وتحويل PDF إلى PDF/X‑4 – دليل C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) |تعرف على كيفية إضافة ملف تعريف ICC وتحويل ملفات PDF إلى PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل C# خطوة بخطوة. |  

@@ -76,32 +76,9 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [C# ile Özel Dijital İmza Kullanarak İmzalı PDF'yi Kaydet](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | C# kullanarak özel bir dijital imza ile imzalı PDF dosyasını kaydetmeyi öğrenin. |  
 | [C# ile Sertifika Yetkilisi Kullanarak PDF İmzalarını Doğrulama](./how-to-validate-pdf-signatures-with-a-certificate-authority/) | C# ve Aspose.PDF ile PDF imzalarını Sertifika Yetkilisi ile doğrulamayı öğrenin. |
 | [C#'ta Aspose.PDF ile PDF İmzalarını Doğrulama](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak C# içinde PDF imzalarını nasıl doğrulayacağınızı öğrenin. |
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [C#'ta PDF İmzasını Doğrulama – Tam Adım Adım Kılavuz](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF imzasını nasıl doğrulayacağınızı adım adım öğrenin. |  
 | [İmzalı PDF Aç – Dijital İmzalarını Nasıl Okursunuz](./open-signed-pdf-how-to-read-its-digital-signatures/) | Aspose.PDF for .NET kullanarak imzalı PDF dosyalarının dijital imzalarını nasıl okuyacağınızı adım adım öğrenin. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [PDF Dosyasında İmzaları Doğrulama](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı öğrenin. |  
 | [PDF Dosyalarını Onarmak – Aspose.Pdf ile Tam C# Rehberi](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarını nasıl onaracağınızı adım adım öğrenin. |  

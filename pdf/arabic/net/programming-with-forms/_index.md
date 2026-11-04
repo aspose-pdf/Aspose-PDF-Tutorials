@@ -63,31 +63,7 @@
 | [إنشاء حقل نموذج PDF في C# – دليل خطوة بخطوة](./create-pdf-form-field-in-c-step-by-step-guide/) تعلم كيفية إنشاء حقل نموذج PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |  
 | [كيفية إنشاء مستند PDF مع حقول نموذج تفاعلية في C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) تعلم كيفية إنشاء مستند PDF يحتوي على حقول نموذج تفاعلية باستخدام C# و Aspose.PDF.  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [كيفية إنشاء PDF باستخدام Aspose – إضافة حقل إلى مجموعة](./how-to-create-pdf-with-aspose-add-field-to-collection/) تعرّف على كيفية إضافة حقل إلى مجموعة في مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [كيفية إضافة مربع نص إلى PDF – إنشاء حقل نموذج PDF وحفظ المستند المُعدل](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) تعلم كيفية إضافة مربع نص إلى نموذج PDF وحفظ المستند بعد التعديل باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
 

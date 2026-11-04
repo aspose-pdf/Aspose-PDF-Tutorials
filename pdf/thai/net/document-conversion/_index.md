@@ -101,18 +101,6 @@
 - [วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose – คู่มือครบถ้วน](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | เรียนรู้วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็ม  
 - [บันทึก PDF เป็น HTML – ไม่รวมรูปภาพด้วย Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML โดยไม่รวมรูปภาพด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 - [Aspose PDF conversion: แปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ใน C# ด้วยคู่มือทีละขั้นตอนนี้  
 - [บันทึก PDF เป็น HTML – รักษาเวกเตอร์และปิดการแรสเตอร์ไลซ์](./save-pdf-as-html-keep-vectors-disable-rasterization/) | เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML โดยคงเวกเตอร์ไว้และปิดการแรสเตอร์ไลซ์ด้วย Aspose.PDF สำหรับ .NET  
 - [เพิ่มโปรไฟล์ ICC และแปลง PDF เป็น PDF/X‑4 – คำแนะนำ C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | เรียนรู้วิธีเพิ่มโปรไฟล์ ICC และแปลง PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือ C# ทีละขั้นตอน

@@ -98,18 +98,6 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [ICC プロファイルを埋め込み、PDF を PDF/X‑1 に変換する方法 – Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) Aspose.PDF for .NET を使用して ICC プロファイルを埋め込み、PDF を PDF/X‑1 に変換する手順を学びます。 |
 | [Aspose.PDFでPDFをHTMLに保存 – 画像なしで PDF を HTML として保存する方法](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) Aspose.PDF for .NET を使用して、画像を除外して PDF を HTML に保存する手順を解説します。 |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose PDF 変換: C# で PDF を PDF/X‑4 に変換](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する手順をステップバイステップで学びます。 |  
 | [DOCXにベーツ番号を追加してPDFへ変換 – 完全C#ガイド](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して DOCX にベーツ番号を追加し、PDF に変換する方法を学習します。 |  
 | [ドキュメント PDF を保存 – 楕円を追加し DOCX を PDF に変換する方法](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) Aspose.PDF for .NET を使用して、DOCX ファイルを PDF に変換し、PDF に楕円形を追加して保存する手順を解説します。 |  

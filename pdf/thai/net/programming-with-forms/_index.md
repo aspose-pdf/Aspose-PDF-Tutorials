@@ -62,31 +62,7 @@
 | [สร้างฟิลด์ฟอร์ม PDF ด้วย C# – คู่มือทีละขั้นตอน](./create-pdf-form-field-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างฟิลด์ฟอร์ม PDF ด้วย C# อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET |  
 | [วิธีสร้างเอกสาร PDF พร้อมฟิลด์ฟอร์มโต้ตอบใน C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | เรียนรู้วิธีสร้างเอกสาร PDF พร้อมฟิลด์ฟอร์มโต้ตอบโดยใช้ C# และ Aspose.PDF สำหรับ .NET อย่างละเอียด |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 - [วิธีสร้าง PDF ด้วย Aspose – เพิ่มฟิลด์ลงในคอลเลกชัน](./how-to-create-pdf-with-aspose-add-field-to-collection/) | เรียนรู้วิธีเพิ่มฟิลด์ลงในคอลเลกชันของ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่เข้าใจง่าย |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [สร้างเอกสาร PDF พร้อมหลายวิดเจ็ต TextBox – คู่มือทีละขั้นตอน](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | เรียนรู้วิธีสร้าง PDF ที่มีหลาย TextBox widget ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอนนี้ |  
 | [เพิ่มหมายเลข Bates ให้กับ PDF – คู่มือขั้นตอนโดยขั้นตอน C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนโดยขั้นตอนนี้ |  

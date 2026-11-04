@@ -81,32 +81,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan PDF yang Ditandatangani dengan Tanda Tangan Digital Kustom di C#](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | Pelajari cara menyimpan PDF yang telah ditandatangani dengan tanda tangan digital kustom menggunakan Aspose.PDF untuk .NET di C#. |  
 | [Cara memvalidasi tanda tangan PDF dengan Otoritas Sertifikat di C#](./how-to-validate-pdf-signatures-with-a-certificate-authority/) | Pelajari cara memvalidasi tanda tangan PDF menggunakan Otoritas Sertifikat di C# dengan Aspose.PDF. |
 | [Cara memvalidasi tanda tangan PDF menggunakan Aspose.PDF di C#](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Pelajari cara memvalidasi tanda tangan PDF menggunakan Aspose.PDF di C# dengan panduan langkah demi langkah. |
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Verifikasi Tanda Tangan PDF di C# – Panduan Lengkap Langkah demi Langkah](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Pelajari cara memverifikasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. Bahasa Indonesia:  
 | [Buka PDF yang Ditandatangani – Cara Membaca Tanda Tangan Digital](./open-signed-pdf-how-to-read-its-digital-signatures/) | Pelajari cara membuka PDF yang ditandatangani dan membaca tanda tangan digitalnya menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah. Bahasa Indonesia:  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Cara Memvalidasi Tanda Tangan dalam PDF menggunakan Aspose – Tutorial C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Pelajari cara memvalidasi tanda tangan digital dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C#. |  
 | [Verifikasi Tanda Tangan PDF di C# – Panduan Pemrograman Lengkap](./verify-pdf-signature-in-c-complete-programming-guide/) | Pelajari cara memverifikasi tanda tangan PDF menggunakan C# dengan Aspose.PDF untuk .NET dalam panduan pemrograman lengkap. |

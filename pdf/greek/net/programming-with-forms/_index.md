@@ -63,31 +63,7 @@
 | [Δημιουργία πεδίου φόρμας PDF σε C# – οδηγός βήμα‑βήμα](./create-pdf-form-field-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε πεδία φόρμας PDF χρησιμοποιώντας C# με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα. |
 | [Πώς να δημιουργήσετε PDF έγγραφο με διαδραστικά πεδία φόρμας σε C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Μάθετε πώς να δημιουργήσετε PDF με διαδραστικά πεδία φόρμας χρησιμοποιώντας C# και Aspose.PDF. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Πώς να δημιουργήσετε PDF με το Aspose – Προσθήκη πεδίου σε συλλογή](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Μάθετε πώς να προσθέσετε ένα πεδίο σε μια συλλογή PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον βήμα-βήμα οδηγό. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Προσθήκη αριθμών Bates σε PDF – Οδηγός βήμα‑βήμα C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Μάθετε πώς να προσθέτετε αριθμούς Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγό C# βήμα‑βήμα. |  
 | [Δημιουργία εγγράφου PDF με πολλαπλά πλαίσια κειμένου – Οδηγός βήμα‑βήμα](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Μάθετε πώς να δημιουργήσετε PDF με πολλαπλά πλαίσια κειμένου χρησιμοποιώντας το Aspose.PDF για .NET. |  

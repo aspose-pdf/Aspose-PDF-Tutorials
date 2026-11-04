@@ -14,7 +14,6 @@
 
 # การเขียนโปรแกรมด้วย PDF ที่มีแท็ก
 
-
 บทช่วยสอน "การเขียนโปรแกรมด้วย PDF ที่ติดแท็ก" ของ Aspose.PDF สำหรับ .NET จะแนะนำคุณเกี่ยวกับการใช้ไลบรารีนี้เพื่อจัดการและสร้าง PDF ที่ติดแท็ก เรียนรู้วิธีการสร้างโครงสร้างเนื้อหา จัดการองค์ประกอบที่ติดแท็ก ตรวจสอบการปฏิบัติตามมาตรฐาน PDF/UA และปรับปรุงการเข้าถึงเอกสาร PDF บทช่วยสอนเหล่านี้จะช่วยให้คุณเข้าใจการเขียนโปรแกรมด้วย PDF ที่ติดแท็กอย่างลึกซึ้ง และช่วยให้คุณใช้ประโยชน์จาก Aspose.PDF สำหรับ .NET ได้อย่างเต็มประสิทธิภาพ
 
 ## บทช่วยสอน
@@ -55,19 +54,6 @@
 - [วิธีทำแท็ก PDF ด้วย Aspose.Pdf – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | เรียนรู้วิธีทำแท็ก PDF อย่างละเอียดด้วย Aspose.Pdf สำหรับ .NET ผ่านคู่มือการเขียนโปรแกรมเต็มรูปแบบ  
 - [สร้างเอกสาร PDF ด้วย C# – กำหนดตำแหน่งข้อความและเพิ่มโครงสร้างต้นไม้](./create-pdf-document-c-position-text-and-add-structural-tree/) | เรียนวิธีกำหนดตำแหน่งข้อความและเพิ่มโครงสร้างต้นไม้ใน PDF ด้วย C# และ Aspose.PDF สำหรับ .NET
 - [วิธีเพิ่มแท็กการเข้าถึงให้ PDF ด้วย Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | เรียนรู้วิธีการเพิ่มแท็กการเข้าถึงให้ไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 - [วิธีการแท็ก PDF ด้วย Aspose – คู่มือฉบับสมบูรณ์สำหรับแท็กการเข้าถึง PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | เรียนรู้ขั้นตอนการแท็ก PDF เพื่อเพิ่มการเข้าถึงด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
 - [ทำให้ PDF เข้าถึงได้ด้วย Aspose: แทรกย่อหน้าลงใน PDF ทีละขั้นตอน](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | เรียนรู้วิธีแทรกย่อหน้าใน PDF ที่เข้าถึงได้โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนทีละขั้นตอน  

@@ -59,35 +59,12 @@ Aspose.PDF for .NET "Forms 프로그래밍" 튜토리얼은 대화형 PDF 양식
 | [C#에서 대화형 양식 필드가 있는 PDF 문서 만들기](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Aspose.PDF for .NET을 사용하여 C#에서 대화형 양식 필드가 포함된 PDF 문서를 만드는 방법을 단계별로 안내합니다. |
 
 | [PDF 양식에 텍스트 상자 추가 – 완전 C# 가이드](./add-text-box-to-pdf-form-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF 양식에 텍스트 상자를 추가하는 방법을 단계별로 안내합니다. |
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Aspose로 PDF 만들기 – 컬렉션에 필드 추가](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Aspose.PDF for .NET을 사용하여 PDF 컬렉션에 새 필드를 추가하는 방법을 단계별로 안내합니다. |  
 | [PDF 텍스트 상자 필드 만들기 – 단계별 가이드](./create-pdf-textbox-field-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자 필드를 만드는 방법을 단계별 가이드로 알아보세요. |  
 | [C#를 사용하여 FDF를 PDF에 가져오기 – 완전 단계별 가이드](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 FDF 파일을 PDF에 가져오는 방법을 단계별로 안내합니다. |  
 | [Aspose.PDF로 PDF 문서 저장 – 완전 가이드](./save-pdf-document-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 문서를 저장하는 전체 과정을 단계별로 안내합니다. |  
 | [C#에서 PDF 양식 필드 만들기 – 단계별 가이드](./create-pdf-form-field-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 양식 필드를 생성하는 방법을 단계별로 안내합니다. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [PDF에 Bates 번호 추가 – 단계별 C# 가이드](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 Bates 번호를 추가하는 단계별 가이드입니다. |  
 | [여러 텍스트 박스 위젯이 있는 PDF 문서 만들기 – 단계별 가이드](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aspose.PDF for .NET을 사용하여 여러 텍스트 박스 위젯이 포함된 PDF 문서를 만드는 방법을 단계별로 안내합니다. |  
