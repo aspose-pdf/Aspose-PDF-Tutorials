@@ -235,9 +235,7 @@ You now know **how to validate pdf** files with Aspose.PDF for .NET, how to **re
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Extract PDF Signature Information Using Aspose.PDF .NET: A Step‑By‑Step Guide]({{< relref "/pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/" >}})
 - [How to Use OCSP to Validate PDF Digital Signature in C#]({{< relref "/pdf/english/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/" >}})
-- [Validate PDF Digital Signature in C# – Complete Aspose.PDF Guide]({{< relref "/pdf/english/net/digital-signatures/validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

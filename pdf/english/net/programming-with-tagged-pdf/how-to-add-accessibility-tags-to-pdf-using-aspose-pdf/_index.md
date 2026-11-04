@@ -259,9 +259,6 @@ Running the program produces `tagged_out.pdf`, a PDF that now contains a paragra
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "pdf/english/net/advanced-features/create-tagged-pdfs-aspose-pdf-net/" >}}Create Tagged PDFs with Aspose.PDF for .NET: A Complete Guide to Enhancing Accessibility and Document Structure
-- {{< relref "pdf/english/net/advanced-features/create-manage-tagged-pdfs-aspose-pdf-dotnet/" >}}Create and Manage Tagged PDFs with Aspose.PDF for .NET: Enhance Accessibility and SEO
-- {{< relref "pdf/english/net/advanced-features/aspose-pdf-net-accessible-tagging-guide/" >}}Aspose.PDF .NET: Enhancing PDF Accessibility through Tagging
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -241,7 +241,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [How to Optimize PDF in C# – Reduce File Size Quickly]({{< relref "/pdf/english/net/performance-optimization/how-to-optimize-pdf-in-c-reduce-file-size-quickly/" >}})
 - [Optimize PDF Images – Reduce PDF File Size with C#]({{< relref "/pdf/english/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/" >}})
-- [Fast Image Shrinking in PDFs with Aspose.PDF .NET: Optimize and Compress Images Efficiently]({{< relref "/pdf/english/net/images-graphics/optimize-pdf-images-aspose-net-fast-compression/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
