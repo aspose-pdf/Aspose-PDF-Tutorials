@@ -221,7 +221,6 @@ The following tutorials cover closely related topics that build on the technique
 
 - [How to Create PDF with Aspose – Add Form Field and Pages]({{< relref "/pdf/english/net/programming-with-forms/how-to-create-pdf-with-aspose-add-form-field-and-pages/" >}})
 - [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document]({{< relref "/pdf/english/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/" >}})
-- [Create PDF Document with Aspose – Add Page, Text Box, and Form]({{< relref "/pdf/english/net/forms-annotations/create-pdf-document-with-aspose-add-page-text-box-and-form/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

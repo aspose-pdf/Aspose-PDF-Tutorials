@@ -262,9 +262,6 @@ Run the program:
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Edit PDF Resource Dictionary with Aspose.PDF – C# Guide]({{< relref "../programming-with-operators/edit-pdf-resource-dictionary-with-aspose-pdf-c-guide.md" >}})
-- [Add graphics state pdf with Aspose.Pdf – step‑by‑step guide]({{< relref "../images-graphics/add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide.md" >}})
-- [Save Updated PDF – Edit PDF Resources with Aspose.Pdf]({{< relref "../document-manipulation/save-updated-pdf-edit-pdf-resources-with-aspose-pdf.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
