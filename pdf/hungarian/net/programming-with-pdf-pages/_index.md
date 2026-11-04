@@ -66,18 +66,6 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [Bates számozás hozzáadása PDF-hez Aspose‑val – lépésről‑lépésre útmutató](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá Bates‑számozást PDF dokumentumokhoz az Aspose.PDF for .NET segítségével. |
 | [Aspose PDF oktatóanyag – Üres oldal beszúrása és Bates-számozás frissítése](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Útmutató üres oldal beszúrásához és a Bates-számozás frissítéséhez PDF-ben az Aspose.PDF for .NET segítségével. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [PDF oldal erőforrásainak szerkesztése Aspose.PDF használatával C#-ban](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Lépésről lépésre útmutató a PDF oldal erőforrásainak módosításához az Aspose.PDF for .NET segítségével C#-ban. |
 
 | [Üres PDF oldal létrehozása – Teljes PDF rajzolási útmutató](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Lépésről lépésre útmutató üres PDF oldal létrehozásához és teljes PDF rajzoláshoz az Aspose.PDF for .NET használatával. |

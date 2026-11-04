@@ -67,18 +67,6 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Thay đổi độ trong suốt PDF trong C# với Aspose.Pdf – hướng dẫn chi tiết từng bước](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Hướng dẫn chi tiết cách thay đổi độ trong suốt của tài liệu PDF bằng C# và Aspose.PDF. |  
 | [Thêm đánh số Bates cho PDF bằng Aspose – hướng dẫn từng bước](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Hướng dẫn chi tiết cách thêm đánh số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Chèn trang trống và cập nhật số Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Hướng dẫn chi tiết cách chèn một trang trống vào PDF và cập nhật số Bates bằng Aspose.PDF cho .NET. |  
 | [Tạo Trang PDF Trống – Hướng Dẫn Vẽ PDF Toàn Diện](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Hướng dẫn chi tiết cách tạo một trang PDF trống và vẽ nội dung bằng Aspose.PDF cho .NET. |  
 | [Thêm trang vào PDF với Aspose – Hướng dẫn C# đầy đủ](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Hướng dẫn chi tiết cách thêm trang vào tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |
