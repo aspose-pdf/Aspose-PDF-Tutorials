@@ -52,6 +52,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # PDF에 임베디드 파일 추가하기 – Aspose.PDF for Java 개발자 가이드
@@ -258,14 +259,11 @@ CMS 또는 문서 생성 파이프라인과 통합하면 첨부 프로세스를 
 **테스트 환경:** Aspose.PDF 25.3 for Java  
 **작성자:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## 관련 튜토리얼
 
 - [How to Extract Embedded Files from PDFs Using Aspose.PDF for Java: A Comprehensive Guide](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Master Aspose.PDF Java: Access and Manage Embedded Files in PDFs](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [How to Extract Embedded Files from a PDF Portfolio Using Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

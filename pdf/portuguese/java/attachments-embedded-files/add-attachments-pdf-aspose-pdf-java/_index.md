@@ -54,6 +54,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Como Adicionar Arquivo Incorporado ao PDF com Aspose.PDF para Java – Um Guia para Desenvolvedores
@@ -260,14 +261,11 @@ Agora você sabe como **adicionar arquivo incorporado ao PDF** usando Aspose.PDF
 **Tested With:** Aspose.PDF 25.3 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Tutoriais Relacionados
 
 - [Como Extrair Arquivos Incorporados de PDFs Usando Aspose.PDF para Java: Um Guia Abrangente](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Domine Aspose.PDF Java: Acesse e Gerencie Arquivos Incorporados em PDFs](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Como Extrair Arquivos Incorporados de um Portfólio PDF Usando Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

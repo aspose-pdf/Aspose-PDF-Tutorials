@@ -91,9 +91,9 @@ url: /nl/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # PDF opslaan als HTML en PDF-lagen renderen met Aspose.PDF Java
@@ -294,10 +294,10 @@ Begin vandaag nog met het verkennen van de mogelijkheden van Aspose.PDF Java en 
 - [pdf naar html java – PDF naar HTML converteren met ingesloten bronnen met Aspose.PDF voor Java](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
 
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -52,6 +52,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # วิธีเพิ่มไฟล์ฝังใน PDF ด้วย Aspose.PDF for Java – คำแนะนำสำหรับนักพัฒนา
@@ -258,14 +259,11 @@ int numberOfPages = document.getPages().size();
 **ทดสอบกับ:** Aspose.PDF 25.3 for Java  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## บทแนะนำที่เกี่ยวข้อง
 
 - [วิธีสกัดไฟล์ฝังจาก PDF ด้วย Aspose.PDF for Java: คู่มือฉบับสมบูรณ์](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [เชี่ยวชาญ Aspose.PDF Java: การเข้าถึงและจัดการไฟล์ฝังใน PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [วิธีสกัดไฟล์ฝังจาก PDF Portfolio ด้วย Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

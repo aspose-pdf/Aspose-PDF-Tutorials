@@ -53,6 +53,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Hur man lägger till inbäddad fil i PDF med Aspose.PDF för Java – En utvecklarguide
@@ -255,14 +256,11 @@ Du vet nu hur du **lägger till inbäddad fil i PDF** med Aspose.PDF för Java. 
 **Testad med:** Aspose.PDF 25.3 för Java  
 **Författare:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Relaterade handledningar
 
 - [Hur man extraherar inbäddade filer från PDF‑filer med Aspose.PDF för Java: En omfattande guide](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Behärska Aspose.PDF Java: Åtkomst och hantering av inbäddade filer i PDF‑filer](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Hur man extraherar inbäddade filer från en PDF‑portfölj med Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

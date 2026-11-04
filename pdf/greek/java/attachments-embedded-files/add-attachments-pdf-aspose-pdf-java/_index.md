@@ -54,6 +54,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Πώς να Προσθέσετε Ενσωματωμένο Αρχείο σε PDF με το Aspose.PDF για Java – Οδηγός για Προγραμματιστές
@@ -260,14 +261,11 @@ int numberOfPages = document.getPages().size();
 **Δοκιμασμένο Με:** Aspose.PDF 25.3 for Java  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Σχετικά Tutorials
 
 - [How to Extract Embedded Files from PDFs Using Aspose.PDF for Java: A Comprehensive Guide](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Master Aspose.PDF Java: Access and Manage Embedded Files in PDFs](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [How to Extract Embedded Files from a PDF Portfolio Using Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

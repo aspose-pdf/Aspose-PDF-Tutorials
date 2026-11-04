@@ -54,6 +54,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Cara Menambahkan File Tersemat ke PDF dengan Aspose.PDF untuk Java – Panduan Pengembang
@@ -256,14 +257,11 @@ Anda kini tahu cara **menambahkan file tersemat ke PDF** menggunakan Aspose.PDF 
 **Diuji dengan:** Aspose.PDF 25.3 untuk Java  
 **Penulis:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Tutorial Terkait
 
 - [Cara Mengekstrak File Tersemat dari PDF Menggunakan Aspose.PDF untuk Java: Panduan Komprehensif](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Menguasai Aspose.PDF Java: Akses dan Kelola File Tersemat dalam PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Cara Mengekstrak File Tersemat dari PDF Portfolio Menggunakan Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

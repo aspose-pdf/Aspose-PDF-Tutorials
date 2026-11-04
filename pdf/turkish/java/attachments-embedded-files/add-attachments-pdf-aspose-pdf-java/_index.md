@@ -52,6 +52,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF for Java ile PDF'ye Gömülü Dosya Ekleme – Geliştirici Rehberi
@@ -258,14 +259,11 @@ Artık Aspose.PDF for Java kullanarak **add embedded file to PDF** işlemini nas
 **Tested With:** Aspose.PDF 25.3 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## İlgili Eğitimler
 
 - [Aspose.PDF for Java Kullanarak PDF'lerden Gömülü Dosyaları Nasıl Çıkarılır: Kapsamlı Rehber](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [Aspose.PDF Java'yi Ustalaştırın: PDF'lerde Gömülü Dosyalara Erişim ve Yönetim](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [Aspose.PDF Java Kullanarak PDF Portföyünden Gömülü Dosyaları Nasıl Çıkarılır](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

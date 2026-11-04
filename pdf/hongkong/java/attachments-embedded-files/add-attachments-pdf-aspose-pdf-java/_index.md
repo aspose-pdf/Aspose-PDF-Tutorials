@@ -51,6 +51,7 @@ weight: 1
 {{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # 如何使用 Aspose.PDF for Java 向 PDF 添加嵌入式檔案 – 開發者指南
@@ -257,14 +258,11 @@ int numberOfPages = document.getPages().size();
 **測試環境：** Aspose.PDF 25.3 for Java  
 **作者：** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## 相關教學
 
 - [如何使用 Aspose.PDF for Java 從 PDF 中提取嵌入式檔案：完整指南](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
 - [精通 Aspose.PDF Java：存取與管理 PDF 中的嵌入式檔案](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
 - [如何使用 Aspose.PDF Java 從 PDF Portfolio 中提取嵌入式檔案](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
