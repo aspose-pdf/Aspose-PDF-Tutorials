@@ -239,8 +239,8 @@ Happy coding, and enjoy lighter PDFs!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Optimize PDF in C# – Reduce File Size Quickly]({{< relref "/pdf/english/net/performance-optimization/how-to-optimize-pdf-in-c-reduce-file-size-quickly/" >}})
-- [Optimize PDF Images – Reduce PDF File Size with C#]({{< relref "/pdf/english/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/" >}})
+- [How to Optimize PDF in C# – Reduce File Size Quickly]({{< relref "/net/performance-optimization/how-to-optimize-pdf-in-c-reduce-file-size-quickly/" >}})
+- [Optimize PDF Images – Reduce PDF File Size with C#]({{< relref "/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
