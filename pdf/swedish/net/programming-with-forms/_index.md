@@ -63,31 +63,7 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Spara PDF-dokument med Aspose.PDF – komplett guide](./save-pdf-document-with-aspose-pdf-complete-guide/) | Lär dig hur du sparar PDF-dokument med Aspose.PDF i en komplett steg-för-steg-guide. |
 | [Skapa PDF-formulärfält i C# – steg‑för‑steg‑guide](./create-pdf-form-field-in-c-step-by-step-guide/) | Lär dig hur du skapar ett PDF-formulärfält i C# med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Skapa PDF med Aspose – Lägg till fält i samling](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Lär dig hur du lägger till ett fält i en samling när du skapar PDF med Aspose.PDF för .NET i denna steg-för-steg-guide. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Lägg till Bates-nummer i PDF-filer – Steg‑för‑steg C#‑guide](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Lär dig hur du lägger till Bates-nummer i PDF-filer med Aspose.PDF för .NET i en steg‑för‑steg‑guide för C#. |
 | [Skapa PDF-dokument med flera TextBox‑widgets – steg‑för‑steg‑guide](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Lär dig hur du skapar ett PDF‑dokument med flera TextBox‑widgets med Aspose.PDF för .NET i den här steg‑för‑steg‑guiden. |

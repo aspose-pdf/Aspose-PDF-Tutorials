@@ -14,7 +14,6 @@
 
 # Programmation avec PDF balisé
 
-
 Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET vous guident dans l'utilisation de cette bibliothèque pour manipuler et générer des PDF balisés. Apprenez à créer des structures de contenu, à gérer les éléments balisés, à valider la conformité PDF/UA et à améliorer l'accessibilité des documents PDF. Ces tutoriels vous offrent une compréhension approfondie de la programmation avec des PDF balisés et vous aident à exploiter pleinement la puissance d'Aspose.PDF pour .NET.
 
 ## Tutoriels
@@ -56,19 +55,6 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Créer un élément Span PDF avec Aspose – Charger le PDF et baliser le contenu](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Apprenez à créer un élément Span dans un PDF, charger le fichier et appliquer des balises avec Aspose.PDF pour .NET. |
 | [Créer un document PDF C# – Positionner le texte et ajouter l'arbre structurel](./create-pdf-document-c-position-text-and-add-structural-tree/) | Apprenez à positionner du texte et à ajouter un arbre de structure dans un PDF avec Aspose.PDF pour .NET en C#. |
 | [Comment ajouter des balises d'accessibilité à un PDF avec Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Apprenez à ajouter des balises d'accessibilité à vos fichiers PDF à l'aide d'Aspose.PDF pour .NET. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Comment baliser un PDF avec Aspose – Guide complet des balises d'accessibilité PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Apprenez à baliser vos PDF pour l'accessibilité avec Aspose grâce à ce guide complet étape par étape. |  
 | [Rendre le PDF accessible avec Aspose : insérer un paragraphe PDF étape par étape](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Apprenez à insérer un paragraphe dans un PDF accessible avec Aspose.PDF pour .NET, étape par étape. |

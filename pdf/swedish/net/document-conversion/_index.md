@@ -98,18 +98,6 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [Konvertera PDF till 2.0 – Fullständig ASP.NET-guide med felloggning](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Lär dig hur du konverterar PDF till PDF 2.0 i ASP.NET med komplett felhantering och loggning. |
 | [Läs in PDF-dokument och konvertera till PDF/X‑4 – Komplett guide](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Lär dig hur du läser in ett PDF-dokument och konverterar det till PDF/X‑4-format med Aspose.PDF för .NET i denna kompletta steg‑för‑steg‑guide. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Lägg till ICC-profil och konvertera PDF till PDF/X‑4 – C#-guide](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Lär dig hur du lägger till en ICC-profil och konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i C#. |  
 | [Lägg till Bates-nummerering i DOCX och konvertera till PDF – Komplett C#-guide](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Lär dig hur du lägger till Bates-nummerering i DOCX-filer och konverterar dem till PDF med Aspose.PDF för .NET i en komplett C#‑guide. |
 | [Aspose PDF till HTML‑konvertering i C# – Komplett guide](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Lär dig hur du konverterar PDF till HTML i C# med Aspose.PDF i denna kompletta steg‑för‑steg‑guide. |

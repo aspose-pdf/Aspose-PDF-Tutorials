@@ -80,32 +80,8 @@
 | [C# で証明書機関を使用して PDF 署名を検証する方法](./how-to-validate-pdf-signatures-with-a-certificate-authority/) Aspose.PDF for .NET を使用して、C# で証明書機関 (CA) を利用し、PDF のデジタル署名を検証する手順を学びます。 |  
 | [Aspose.PDF を使用して C# で PDF 署名を検証する方法](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) Aspose.PDF for .NET を使用し、C# で PDF のデジタル署名を検証する手順をステップバイステップで解説します。 |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [C# で PDF 署名を検証する – 完全ステップバイステップガイド](./verify-pdf-signature-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF のデジタル署名を検証し、整合性と真正性を確認する方法を学びます。ステップバイステップで解説します。 |  
 | [署名付きPDFを開く – デジタル署名の読み取り方法](./open-signed-pdf-how-to-read-its-digital-signatures/) Aspose.PDF for .NET を使用して、署名付きPDFのデジタル署名情報を取得し、検証する方法を学びます。 |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Aspose を使用した PDF の署名を検証する方法 – C# チュートリアル](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) Aspose.PDF for .NET を使用して PDF のデジタル署名を検証する手順をステップバイステップで学びます。 |  
 | [PDF ファイルの修復方法 – Aspose.Pdf を使用した完全な C# ガイド](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) Aspose.PDF for .NET を使用して PDF ファイルを修復する方法を学びましょう。ステップバイステップのガイドで、破損した文書を復元できます。 |  

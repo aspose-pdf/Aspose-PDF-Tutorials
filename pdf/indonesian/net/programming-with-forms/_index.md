@@ -63,31 +63,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat bidang formulir PDF di C# – panduan langkah demi langkah](./create-pdf-form-field-in-c-step-by-step-guide/) | Pelajari cara membuat bidang formulir PDF menggunakan C# dengan panduan langkah demi langkah. |
 | [Cara Membuat Dokumen PDF dengan Bidang Formulir Interaktif di C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Pelajari cara membuat dokumen PDF dengan bidang formulir interaktif menggunakan Aspose.PDF untuk .NET dalam C#. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Cara Membuat PDF dengan Aspose – Tambahkan Bidang ke Koleksi](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Pelajari cara menambahkan bidang ke koleksi dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Menambahkan Bates Numbers ke PDF – Panduan Langkah‑demi‑Langkah C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Pelajari cara menambahkan Bates Numbers ke file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah dalam C#. |
 | [Buat Dokumen PDF dengan Beberapa Widget Kotak Teks – Panduan Langkah‑demi‑Langkah](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Pelajari cara membuat dokumen PDF dengan beberapa widget kotak teks menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |

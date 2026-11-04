@@ -78,32 +78,8 @@
 | [Αποθήκευση υπογεγραμμένου PDF με προσαρμοσμένη ψηφιακή υπογραφή σε C#](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | Μάθετε πώς να αποθηκεύετε PDF με προσαρμοσμένη ψηφιακή υπογραφή χρησιμοποιώντας C# και Aspose.PDF. |
 | [Πώς να επικυρώσετε υπογραφές PDF χρησιμοποιώντας Aspose.PDF σε C#](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Μάθετε πώς να επικυρώνετε υπογραφές PDF με Aspose.PDF σε C# με βήμα‑βήμα οδηγίες. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Επαλήθευση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα προς βήμα](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF σε C# με το Aspose.PDF για .NET, βήμα προς βήμα. |  
 | [Άνοιγμα υπογεγραμμένου PDF – Πώς να διαβάσετε τις ψηφιακές υπογραφές του](./open-signed-pdf-how-to-read-its-digital-signatures/) | Μάθετε πώς να ανοίξετε ένα υπογεγραμμένο PDF και να εξάγετε τις ψηφιακές του υπογραφές χρησιμοποιώντας Aspose.PDF για .NET. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Πώς να Επικυρώσετε Υπογραφές σε PDF χρησιμοποιώντας το Aspose – C# Tutorial](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF με το Aspose.PDF για .NET σε C#. |
 | [Πώς να επισκευάσετε αρχεία PDF – Πλήρης οδηγός C# με Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Μάθετε πώς να επισκευάσετε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες βήμα προς βήμα. |  

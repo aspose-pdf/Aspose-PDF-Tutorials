@@ -150,33 +150,6 @@ htmlDoc.Save("output.pdf");
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step‑by‑step tutorial. Perfect for developers and document enthusiasts. |  
 | [How to save PDF as HTML without images using Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | Learn how to save a PDF as HTML without embedding images using Aspose.PDF for .NET. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Load PDF Document C# – Convert to PDF/X-4 Step‑by‑Step Guide](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Learn how to load a PDF document and convert it to PDF/X-4 using Aspose.PDF for .NET with this step-by-step guide. |  
 | [How to Save PDF with Aspose – Complete C# Conversion Guide](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Learn how to save PDFs using Aspose.PDF for .NET with a complete C# conversion guide, covering essential steps and best practices. |
 | [Create HTML from PDF in C# – Complete Step‑by‑Step Guide](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Learn how to create HTML from a PDF using Aspose.PDF for .NET with this step‑by‑step guide. |

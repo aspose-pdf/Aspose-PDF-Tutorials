@@ -14,7 +14,6 @@
 
 # Programmering med taggad PDF
 
-
 Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guidar dig genom hur du använder det här biblioteket för att manipulera och generera taggade PDF-filer. Lär dig hur du skapar innehållsstrukturer, hanterar taggade element, validerar PDF/UA-kompatibilitet och förbättrar tillgängligheten för PDF-dokument. Dessa handledningar ger dig en djupgående förståelse för programmering med taggade PDF-filer och hjälper dig att få ut det mesta av kraften i Aspose.PDF för .NET.
 
 ## Handledningar
@@ -55,19 +54,6 @@ Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guida
 | [Skapa Span-element PDF med Aspose – Ladda PDF med Aspose och tagga innehåll](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Lär dig hur du skapar ett span‑element i en PDF, laddar PDF med Aspose och taggar innehållet för förbättrad tillgänglighet. |
 | [Skapa PDF-dokument C# – Placera text och lägg till strukturellt träd](./create-pdf-document-c-position-text-and-add-structural-tree/) | Lär dig hur du placerar text och bygger ett strukturellt träd i en PDF med Aspose.PDF för .NET i C#. |  
 | [Hur man lägger till tillgänglighetstaggar i PDF med Aspose.PDF](./how-to-add-accessibility-tags-to-pdf-using-aspose-pdf/) | Lär dig hur du lägger till tillgänglighetstaggar i PDF-filer med Aspose.PDF för .NET i en steg‑för‑steg‑guide. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 
 | [Skapa taggad PDF i C# – Steg‑för‑steg‑guide](./create-tagged-pdf-in-c-step-by-step-guide/) | Lär dig hur du skapar en taggad PDF i C# med en detaljerad steg‑för‑steg‑guide. |  
 | [Gör PDF tillgänglig med Aspose: Infoga stycke PDF steg‑för‑steg](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Lär dig hur du gör en PDF tillgänglig genom att infoga ett stycke med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |  
