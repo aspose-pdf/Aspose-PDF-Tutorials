@@ -247,7 +247,7 @@ Ready for the next challenge? Try combining this technique with **Aspose.Pdf opa
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to change PDF transparency in C# using Aspose.Pdf]({{< relref "/pdf/english/net/programming-with-operators/how-to-change-pdf-transparency-in-c-using-aspose-pdf/" >}})
+- [How to change PDF transparency in C# using Aspose.Pdf]({{< relref "/net/programming-with-operators/how-to-change-pdf-transparency-in-c-using-aspose-pdf/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

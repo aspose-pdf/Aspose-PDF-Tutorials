@@ -206,8 +206,8 @@ Ready to secure your PDFs? Implement the code, replace the placeholder signing l
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Verify Signature in PDF using C# – Complete Aspose Guide]({{< relref "/pdf/english/net/programming-with-security-and-signatures/how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/" >}})
-- [Validate Digital Signature PDF in C# – Complete Aspose‑Pdf Guide]({{< relref "/pdf/english/net/programming-with-security-and-signatures/validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/" >}})
+- [How to Verify Signature in PDF using C# – Complete Aspose Guide]({{< relref "/net/programming-with-security-and-signatures/how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/" >}})
+- [Validate Digital Signature PDF in C# – Complete Aspose‑Pdf Guide]({{< relref "/net/programming-with-security-and-signatures/validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

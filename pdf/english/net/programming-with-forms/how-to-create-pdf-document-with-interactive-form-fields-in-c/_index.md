@@ -219,8 +219,8 @@ Explore the official Aspose.Pdf documentation for a full list of form field type
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Create PDF with Aspose – Add Form Field and Pages]({{< relref "/pdf/english/net/programming-with-forms/how-to-create-pdf-with-aspose-add-form-field-and-pages/" >}})
-- [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document]({{< relref "/pdf/english/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/" >}})
+- [How to Create PDF with Aspose – Add Form Field and Pages]({{< relref "/net/programming-with-forms/how-to-create-pdf-with-aspose-add-form-field-and-pages/" >}})
+- [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document]({{< relref "/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
