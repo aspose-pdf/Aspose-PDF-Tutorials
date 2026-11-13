@@ -213,10 +213,6 @@ L'exécution de ce programme produit deux artefacts :
 
 | Question | Réponse |
 |----------|--------|
-| **Que faire si le PDF source est protégé par mot de passe ?** | Utilisez `options.WithPassword("mySecret")` avant de créer le copilot. |
-| **Puis-je limiter la longueur du résumé ?** | Définissez `options.WithMaxTokens(300)` pour plafonner le nombre de tokens renvoyés par l'IA. |
-| **Comment résumer efficacement un PDF multi‑pages ?** | Le copilot découpe automatiquement les gros PDF ; cependant, vous pouvez augmenter `options.WithChunkSize(1500)` pour contrôler la granularité des morceaux. |
-| **L'API est‑elle soumise à une limitation de débit ?** | Oui. Le client respecte les limites de throttling du service ; si vous atteignez une limite, une `RateLimitExceededException` est levée — attrapez‑la et réessayez après un délai de back‑off. |
 | **Ai‑je besoin d'une licence pour une utilisation en production ?** | Une licence valide supprime le filigrane d'essai et débloque toutes les fonctionnalités. Installez la licence avec `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`. |
 
 ## Bonnes pratiques lors de l'utilisation du copilot de résumé
