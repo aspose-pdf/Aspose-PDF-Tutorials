@@ -214,10 +214,6 @@ Uruchomienie tego programu generuje dwa artefakty:
 
 | Pytanie | Odpowiedź |
 |----------|--------|
-| **Co zrobić, jeśli źródłowy PDF jest zabezpieczony hasłem?** | Użyj `options.WithPassword("mySecret")` przed utworzeniem copilot. |
-| **Czy mogę ograniczyć długość podsumowania?** | Ustaw `options.WithMaxTokens(300)`, aby ograniczyć liczbę tokenów zwracanych przez AI. |
-| **Jak efektywnie podsumować wielostronicowy PDF?** | Copilot automatycznie dzieli duże PDF‑y na fragmenty; możesz jednak zwiększyć `options.WithChunkSize(1500)`, aby kontrolować wielkość fragmentów. |
-| **Czy API ma limit liczby żądań?** | Tak. Klient respektuje limity throttlingu usługi; jeśli przekroczysz limit, zostanie rzucony `RateLimitExceededException` — przechwyć go i spróbuj ponownie po opóźnieniu. |
 | **Czy potrzebna jest licencja do użytku produkcyjnego?** | Ważna licencja usuwa znak wodny wersji próbnej i odblokowuje pełne funkcje. Zainstaluj licencję za pomocą `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`. |
 
 ## Najlepsze praktyki przy używaniu summary copilot
