@@ -215,10 +215,6 @@ Menjalankan program ini menghasilkan dua artefak:
 
 | Pertanyaan | Jawaban |
 |----------|--------|
-| **Bagaimana jika PDF sumber dilindungi kata sandi?** | Gunakan `options.WithPassword("mySecret")` sebelum membuat copilot. |
-| **Bisakah saya membatasi panjang ringkasan?** | Atur `options.WithMaxTokens(300)` untuk membatasi jumlah token yang dikembalikan AI. |
-| **Bagaimana cara merangkum PDF multi‑halaman secara efisien?** | Copilot secara otomatis memecah PDF besar; namun, Anda dapat meningkatkan `options.WithChunkSize(1500)` untuk mengontrol granularitas chunk. |
-| **Apakah API dibatasi rate‑limit?** | Ya. Klien menghormati batas throttle layanan; jika Anda mencapai batas, `RateLimitExceededException` akan dilempar—tangkap dan coba lagi setelah back‑off. |
 | **Apakah saya memerlukan lisensi untuk penggunaan produksi?** | Lisensi yang valid menghilangkan watermark trial dan membuka semua fitur. Instal lisensi dengan `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`. |
 
 ## Praktik terbaik saat menggunakan summary copilot
