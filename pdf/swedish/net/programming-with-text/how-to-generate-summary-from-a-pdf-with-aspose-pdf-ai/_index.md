@@ -214,10 +214,6 @@ När du kör detta program skapas två artefakter:
 
 | Fråga | Svar |
 |----------|--------|
-| **Vad händer om källdokumentet PDF är lösenordsskyddat?** | Använd `options.WithPassword("mySecret")` innan du skapar copiloten. |
-| **Kan jag begränsa sammanfattningens längd?** | Ställ in `options.WithMaxTokens(300)` för att begränsa antalet token som AI:n returnerar. |
-| **Hur sammanfattar jag en flersidig PDF effektivt?** | Copiloten delar automatiskt upp stora PDF‑er; du kan dock öka `options.WithChunkSize(1500)` för att styra chunk‑granulariteten. |
-| **Är API:n hastighetsbegränsad?** | Ja. Klienten respekterar tjänstens throttling‑gränser; om du når en gräns kastas ett `RateLimitExceededException`—fånga det och försök igen efter en back‑off. |
 | **Behöver jag en licens för produktionsanvändning?** | En giltig licens tar bort provvattenstämpeln och låser upp alla funktioner. Installera licensen med `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`. |
 
 ## Bästa praxis när du använder summary copilot
