@@ -213,10 +213,6 @@ Spuštěním tohoto programu vzniknou dva artefakty:
 
 | Otázka | Odpověď |
 |--------|---------|
-| **Co když je zdrojové PDF chráněno heslem?** | Použijte `options.WithPassword("mySecret")` před vytvořením copilotu. |
-| **Mohu omezit délku souhrnu?** | Nastavte `options.WithMaxTokens(300)`, čímž omezíte počet tokenů, které AI vrátí. |
-| **Jak efektivně sumarizovat více‑stránkové PDF?** | Copilot automaticky rozděluje velká PDF; můžete však zvýšit `options.WithChunkSize(1500)`, aby se upravila granularita chunků. |
-| **Je API limitováno rychlostí?** | Ano. Klient respektuje limity služby; pokud limit překročíte, vyvolá se `RateLimitExceededException` – zachyťte ji a opakujte po zpětném odkladu. |
 | **Potřebuji licenci pro produkční použití?** | Platná licence odstraňuje vodotisk trial verze a odemyká všechny funkce. Licenci nainstalujete pomocí `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`. |
 
 ## Nejlepší postupy při používání summary copilot
