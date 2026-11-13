@@ -76,8 +76,8 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | [Utwórz element span w Word przy użyciu C# – Kompletny przewodnik](./create-span-element-in-word-with-c-complete-guide/) | Dowiedz się, jak programowo tworzyć elementy span w dokumentach Word przy użyciu C# w tym kompletnym przewodniku. |
 | [Generuj podsumowanie PDF przy użyciu Aspose.Pdf.AI i OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Dowiedz się, jak generować podsumowanie dokumentu PDF przy użyciu Aspose.Pdf.AI i OpenAI w .NET. |
 | [Jak utworzyć klienta OpenAI i wygenerować podsumowanie PDF w C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Dowiedz się, jak skonfigurować klienta OpenAI i przy pomocy Aspose.PDF wygenerować podsumowanie dokumentu PDF w C#. |
-
 | [Jak utworzyć podsumowanie PDF przy użyciu Aspose.Pdf.AI w C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Dowiedz się, jak generować podsumowanie dokumentu PDF przy użyciu Aspose.Pdf.AI w C# w kilku prostych krokach. |
+| [Jak wygenerować podsumowanie z pliku PDF przy użyciu Aspose.Pdf.AI](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Dowiedz się, jak wygenerować podsumowanie dokumentu PDF przy użyciu Aspose.Pdf.AI w .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

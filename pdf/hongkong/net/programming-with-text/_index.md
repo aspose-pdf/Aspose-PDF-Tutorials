@@ -53,7 +53,7 @@ Aspose.PDF 的 .NET「使用文字程式設計」教學課程提供了處理 PDF
 | [替換 PDF 檔案中的字體](./replace-fonts/) |使用 Aspose.PDF for .NET 輕鬆取代 PDF 檔案中的字型。帶有程式碼範例的逐步指南，用於替換字體。 |  
 | [替換 PDF 文件中的所有文本](./replace-text-all/) |了解如何使用 Aspose.PDF for .NET 輕鬆替換 PDF 檔案中的文字。包含程式碼片段的完整指南。 |  
 | [在 PDF 檔案中以正規表示式取代文本](./replace-text-on-regular-expression/) 了解如何使用 Aspose.PDF for .NET 根據正規表示式取代 PDF 檔案中的文字。按照我們的逐步指南，有效地自動執行文字變更。 |  
-| [替換 PDF 檔案中的文字頁](./replace-text-page/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 取代 PDF 檔案中的文字。輕鬆自訂字體、顏色和文字屬性。 |  
+| [替換 PDF 檔案中的文字頁](./replace-text-page/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 取代 PDF 檔案中的文字。輕鬆自訂字體、顺色和文字屬性。 |  
 | [使用 PDF 檔案中的段落旋轉文字](./rotate-text-using-paragraph/) |了解如何使用 Aspose.PDF for .NET 旋轉 PDF 中的文字。請按照本逐步指南來製作您的文件。 |  
 | [使用 PDF 檔案中的文字片段旋轉文字](./rotate-text-using-text-fragment/) |透過逐步指南了解如何使用 Aspose.PDF for .NET 旋轉 PDF 檔案中的文字。探索文字操作技術，從定位到旋轉。 |  
 | [使用文字片段和段落旋轉文本](./rotate-text-using-text-fragment-and-paragraph/) |了解如何使用 Aspose.PDF for .NET 使用 PDF 文件中的文字片段和段落旋轉文字。 |  
@@ -72,8 +72,9 @@ Aspose.PDF 的 .NET「使用文字程式設計」教學課程提供了處理 PDF
 | [在 PDF 檔案中使用 Latex 腳本](./use-latex-script/) |了解如何使用 Latex 腳本透過 Aspose.PDF for .NET 在 PDF 檔案中新增數學運算式或公式。 |  
 | [在 PDF 中添加 Bates 編號](./add-bates-numbers-to-pdf-bates-numbering-pdf/) |了解如何使用 Aspose.PDF for .NET 在 PDF 文件中添加 Bates 編號，以便於文件管理與追蹤。 |  
 | [使用 C# 在 Word 中建立 Span 元素 – 完整指南](./create-span-element-in-word-with-c-complete-guide/) |學習如何使用 C# 在 Word 文件中建立 Span 元素的完整步驟與範例。 |  
-| [使用 Aspose.Pdf.AI 與 OpenAI 產生 PDF 摘要](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) |了解如何結合 Aspose.Pdf.AI 與 OpenAI 生成 PDF 文件的摘要，提升文件分析效率。 |  
-| [如何使用 Aspose.Pdf.AI 在 C# 中建立摘要 PDF](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) |了解如何使用 Aspose.Pdf.AI 在 C# 中建立 PDF 摘要。 |  
+| [使用 Aspose.Pdf.AI 與 OpenAI 產生 PDF 摘要](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) |了解如何結合 Aspose.Pdf.AI 與 OpenAI 生成 PDF 文件的摘要，提升文件分析效率。 |
+| [如何使用 Aspose.Pdf.AI 在 C# 中建立摘要 PDF](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) |了解如何使用 Aspose.Pdf.AI 在 C# 中建立 PDF 摘要。 |
+| [如何使用 Aspose.Pdf.AI 從 PDF 產生摘要](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) |了解如何使用 Aspose.Pdf.AI 從 PDF 文件自動生成摘要的步驟與範例。 |
 | [使用 Aspose.PDF 在 C# 中為 PDF 添加 Bates 編號](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 文件添加 Bates 編號，以便於文件管理與追蹤。 |
 | [如何在 C# 中使用 Aspose.PDF 新增文字至 PDF](./how-to-add-text-pdf-with-aspose-pdf-in-c/) |學習在 C# 中使用 Aspose.PDF 新增文字至 PDF 文件的步驟說明。 |
 | [如何在 C# 中建立 OpenAI 客戶端並產生 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) |了解如何使用 C# 建立 OpenAI 客戶端並生成 PDF 摘要的步驟。 |  

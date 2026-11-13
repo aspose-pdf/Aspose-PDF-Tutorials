@@ -77,6 +77,7 @@ Aspose.PDF के "टेक्स्ट के साथ प्रोग्र�
 | [C# में Aspose.PDF का उपयोग करके PDF में Bates नंबरिंग जोड़ें](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | C# में Aspose.PDF के साथ PDF में Bates नंबरिंग जोड़ने की चरण-दर-स्टेप गाइड। |  
 
 | [Aspose.Pdf.AI और OpenAI के साथ PDF सारांश उत्पन्न करें](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aspose.Pdf.AI और OpenAI का उपयोग करके PDF फ़ाइल का सारांश स्वचालित रूप से बनाना सीखें। |
+| [Aspose.Pdf.AI के साथ PDF से सारांश कैसे उत्पन्न करें](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Aspose.Pdf.AI का उपयोग करके PDF फ़ाइल से स्वचालित रूप से सारांश उत्पन्न करने की प्रक्रिया सीखें। |
 | [C# में OpenAI क्लाइंट बनाना और PDF सारांश उत्पन्न करना](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Aspose.PDF और OpenAI के साथ C# में क्लाइंट बनाकर PDF सारांश कैसे उत्पन्न करें, सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 

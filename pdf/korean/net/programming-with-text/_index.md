@@ -75,9 +75,9 @@ Aspose.PDF의 .NET용 "텍스트 프로그래밍" 튜토리얼은 PDF 문서에�
 | [Aspose.Pdf.AI 및 OpenAI를 사용하여 PDF 요약 생성](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aspose.Pdf.AI와 OpenAI를 활용해 PDF 문서의 요약을 자동으로 생성하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Pdf.AI를 사용하여 요약 PDF 만들기](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Aspose.Pdf.AI를 활용해 PDF 요약을 생성하는 방법을 단계별로 안내합니다. |
 | [C#에서 OpenAI 클라이언트를 생성하고 PDF 요약을 생성하기](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Aspose.PDF for .NET과 OpenAI를 사용해 C#에서 OpenAI 클라이언트를 만들고 PDF 요약을 생성하는 방법을 단계별로 안내합니다. |
-
-| [C#에서 Aspose.PDF를 사용하여 PDF에 베이츠 번호 추가](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | C#와 Aspose.PDF를 활용해 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |
-| [C#에서 Aspose.PDF를 사용하여 텍스트 PDF 추가하기](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 텍스트를 추가하는 방법을 단계별로 안내합니다. |
+| [Aspose.Pdf.AI를 사용하여 PDF에서 요약 생성하기](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Aspose.Pdf.AI를 활용해 PDF 파일에서 자동으로 요약을 생성하는 단계별 가이드입니다. |
+| [C#에서 Aspose.Pdf를 사용하여 PDF에 베이츠 번호 추가](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | C#와 Aspose.PDF를 활용해 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose.Pdf를 사용하여 텍스트 PDF 추가하기](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 텍스트를 추가하는 방법을 단계별로 안내합니다. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

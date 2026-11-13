@@ -38,7 +38,7 @@
 | [Добавить водяной знак в PDF на C# – Полное руководство с Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Узнайте, как добавить водяной знак в PDF с помощью Aspose.PDF для .NET на C# в этом полном руководстве. |  
 | [Добавить нумерацию Бейтса в PDF с C# – Полное руководство](./add-bates-numbering-to-pdfs-with-c-complete-guide/) Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET и C# в этом пошаговом руководстве. |  
 | [Изображение и номер страницы в разделе «Верхний и нижний колонтитулы»](./image-and-page-number-in-header-footer-section/) Узнайте, как добавить изображение и номера страниц в верхний и нижний колонтитулы PDF-файла с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |  
-| [Изображение и номер страницы в разделе верхнего и нижнего колонтитула](./image-and-page-number-in-header-footer-section-inline/) | Узнайте, как добавить изображение и номер страницы в заголовок PDF-файла с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. |  
+| [Изображение и номер страницы в разделе верхнего и нижнего колонтитула](./image-and-page-number-in-header-footer-section-inline/) | Узнайте, как добавить изображение и номер страницы в заголовок PDF-файла с помощью Aspose.PDF для .NET с этим пошаговым руководством. |  
 | [Изображение в нижнем колонтитуле](./image-in-footer/) | Узнайте, как добавить изображение в нижний колонтитул PDF-файла с помощью Aspose.PDF для .NET с этим подробным пошаговым руководством. Идеально подходит для улучшения ваших документов. |  
 | [Изображение в заголовке](./image-in-header/) | Узнайте, как добавить изображение в заголовок PDF-файла с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |  
 | [Номер страницы в верхнем и нижнем колонтитуле с использованием плавающего поля](./page-number-in-header-footer-using-floating-box/) | Легко добавляйте номера страниц в верхний и нижний колонтитулы PDF-файла с помощью плавающего поля с Aspose.PDF для .NET в этом пошаговом руководстве. |  
@@ -58,15 +58,15 @@
 | [Как добавить штамп в PDF с Aspose.Pdf – пошаговое руководство](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Узнайте, как добавить штамп в PDF с помощью Aspose.PDF для .NET в этом подробном пошаговом руководстве. |  
 | [Добавить нумерацию Бейтса в PDF с Aspose – Полное руководство](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET в этом полном руководстве. |  
 | [Как добавить нумерацию Бейтса в PDF с помощью C# – Полное руководство](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF для .NET и C# в этом полном пошаговом руководстве. |
-| [Добавить нумерацию Бейтса в PDF – Полное руководство с Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET в этом полном пошаговом руководстве. |  
-| [Добавить нумерацию Бейтса в PDF на C# – Полное пошаговое руководство](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF для .NET, следуя подробному пошаговому руководству. |  
+| [Добавить нумерацию Бейтса в PDF – Полное руководство с Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET в этом полном руководстве. |  
+| [Добавить нумерацию Бейтса в PDF на C# – Полное пошаговое руководство](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF для .NET, следуя подробному пошаговому руководству. |  
 | [Создать текстовый водяной знак в Word с Aspose.Words – Полное руководство](./create-text-watermark-in-word-with-aspose-words-complete-gui/) Узнайте, как создать текстовый водяной знак в документах Word с помощью Aspose.Words для .NET в этом полном руководстве. |
 | [Учебник по нумерации Бейтса: добавление номеров в PDF с Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) |  
 | [Как добавить водяной знак в PDF – добавить текстовое наложение в PDF с Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Узнайте, как добавить текстовый водяной знак в PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |  
 | [Добавить прозрачность в PDF с Aspose.PDF – Полное руководство на C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Узнайте, как применить прозрачность к элементам PDF с помощью Aspose.PDF для .NET в полном руководстве на C#. |  
 | [Как изменить непрозрачность в PDF с Aspose.PDF – Полное руководство](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Узнайте, как изменить непрозрачность в PDF с помощью Aspose.PDF для .NET в полном руководстве. |  
-| [Как добавить нумерацию Бейтса в PDF с Aspose – пошаговое руководство](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET, следуя пошаговым инструкциям и примерам кода. |  
-
+| [Как добавить нумерацию Бейтса в PDF с Aspose – пошаговое руководство](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET, следуя пошаговым инструкциям и примерам кода. |
+| [Изменить непрозрачность PDF с Aspose.Pdf и сохранить файл](./change-pdf-opacity-with-aspose-pdf-and-save-the-file/) | Узнайте, как изменить непрозрачность PDF и сохранить файл с помощью Aspose.PDF для .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -54,18 +54,14 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Tạo Đánh Dấu Văn Bản trong Word bằng Aspose.Words – Hướng Dẫn Đầy Đủ](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Tìm hiểu cách tạo đánh dấu văn bản trong Word bằng Aspose.Words qua hướng dẫn chi tiết và ví dụ mã. |  
 | [Hướng dẫn Đánh số Bates: Thêm số vào PDF với Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Tìm hiểu cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET để dễ dàng quản lý và truy xuất. |  
 | [Cách Thêm Hình Mờ PDF – Thêm Văn Bản Đè Lên PDF với Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Tìm hiểu cách thêm hình mờ văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết và ví dụ mã. |  
-| [Thêm độ trong suốt vào PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách áp dụng độ trong suốt cho tài liệu PDF bằng Aspose.PDF cho .NET với ví dụ C#. |  
-| [Cách Thay Đổi Độ Trong Suốt trong PDF với Aspose.PDF – Hướng Dẫn Đầy Đủ](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Tìm hiểu cách thay đổi độ trong suốt của các đối tượng trong PDF bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết. |  
-| [Cách Thêm Số Bates vào PDF với Aspose – Hướng Dẫn Từng Bước](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) Tìm hiểu cách thêm số Bates vào PDF bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
-
-| [Hướng dẫn đánh số Bates: Thêm số Bates vào PDF bằng C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Tìm hiểu cách thêm số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
-| [Thay đổi độ trong suốt PDF trong C# – Hướng dẫn đầy đủ Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) Tìm hiểu cách thay đổi độ trong suốt của tệp PDF bằng C# với Aspose.PDF cho .NET qua hướng dẫn chi tiết. |  
-| [Thêm Số Bates vào PDF bằng C# – Hướng Dẫn Đầy Đủ](./add-bates-numbering-pdf-in-c-complete-guide/) | Tìm hiểu cách thêm số Bates vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết bằng C#. |
-| [Cách Thêm Bates – Hướng Dẫn Từng Bước cho PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Tìm hiểu cách thêm số Bates vào tài liệu PDF của bạn bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
-| [Thay đổi độ trong suốt PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Tìm hiểu cách thay đổi độ trong suốt của tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |  
-| [Hình mờ bảo mật PDF với Aspose: Thêm Dấu Văn Bản vào Trang Đầu](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Tìm hiểu cách thêm dấu văn bản bảo mật vào trang đầu của PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |  
-| [Cách Lưu PDF — Thêm Đánh số Bates với Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Hướng dẫn cách lưu tệp PDF và thêm đánh số Bates bằng Aspose.PDF cho .NET trong các bước chi tiết. |  
-| [Tạo Hình Mờ PDF – Thêm Tem & Chuyển DOCX sang PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) Tìm hiểu cách tạo hình mờ PDF, thêm tem và chuyển DOCX sang PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết. |  
+| [Thêm độ trong suốt vào PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách áp dụng độ trong suốt cho tài liệu PDF bằng Aspose.PDF cho .NET với ví dụ C#. |
+| [Cách Thay Đổi Độ Trong Suốt trong PDF với Aspose.PDF – Hướng Dẫn Đầy Đủ](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Tìm hiểu cách thay đổi độ trong suốt của các đối tượng trong PDF bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết. |
+| [Thay đổi độ trong suốt PDF trong C# – Hướng dẫn đầy đủ Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) Tìm hiểu cách thay đổi độ trong suốt của tệp PDF bằng C# với Aspose.PDF cho .NET qua hướng dẫn chi tiết. |
+| [Thay đổi độ trong suốt PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Tìm hiểu cách thay đổi độ trong suốt của tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
+| [Thay đổi độ trong suốt PDF với Aspose.Pdf và lưu tệp](./change-pdf-opacity-with-aspose-pdf-and-save-the-file/) | Hướng dẫn cách thay đổi độ trong suốt PDF và lưu lại tệp bằng Aspose.Pdf. |
+| [Hình mờ bảo mật PDF với Aspose: Thêm Dấu Văn Bản vào Trang Đầu](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Tìm hiểu cách thêm dấu văn bản bảo mật vào trang đầu của PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
+| [Cách Lưu PDF — Thêm Đánh số Bates với Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Hướng dẫn cách lưu tệp PDF và thêm đánh số Bates bằng Aspose.PDF cho .NET trong các bước chi tiết. |
+| [Tạo Hình Mờ PDF – Thêm Tem & Chuyển DOCX sang PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) Tìm hiểu cách tạo hình mờ PDF, thêm tem và chuyển DOCX sang PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

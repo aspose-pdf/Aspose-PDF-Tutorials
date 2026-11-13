@@ -34,6 +34,7 @@ Các hướng dẫn "Lập trình với Văn bản" của Aspose.PDF dành cho .
 | [Thêm đánh số Bates vào PDF bằng Aspose.PDF trong C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Học cách thêm số Bates vào PDF bằng Aspose.PDF cho .NET trong C# qua hướng dẫn chi tiết. |
 | [Tạo PDF Nhiều Cột](./create-multi-column-pdf/) | Tìm hiểu cách tạo PDF nhiều cột bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ về mã và giải thích chi tiết. Hoàn hảo cho các chuyên gia. |  
 | [Tạo tóm tắt PDF bằng Aspose.Pdf.AI và OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Học cách tạo tóm tắt nội dung PDF bằng Aspose.Pdf.AI kết hợp OpenAI trong .NET. |
+| [Cách tạo tóm tắt từ PDF bằng Aspose.Pdf.AI](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Hướng dẫn tạo tóm tắt nội dung PDF bằng Aspose.Pdf.AI trong .NET. |
 | [Tùy chỉnh Tab dừng trong tệp PDF](./custom-tab-stops/) | Tìm hiểu cách thiết lập các điểm dừng tab tùy chỉnh trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các hướng dẫn từng bước để căn chỉnh văn bản một cách chuyên nghiệp. |  
 | [Xác định ngắt dòng trong tệp PDF](./determine-line-break/) | Tìm hiểu cách xác định ngắt dòng trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước dành cho nhà phát triển. |  
 | [Nhúng Phông chữ Chuẩn Type 1 vào Tệp PDF](./embed-standard-type-1fonts/) | Tìm hiểu cách nhúng phông chữ Standard Type 1 vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này để tăng cường khả năng truy cập cho tài liệu của bạn. |  

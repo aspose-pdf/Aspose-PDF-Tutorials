@@ -64,6 +64,7 @@ Aspose.PDF 的“使用图章和水印进行编程”.NET 教程将指导您逐�
 | [使用 Aspose.PDF 更改 PDF 不透明度的完整指南](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) 通过本指南学习如何在 PDF 中使用 Aspose.PDF 调整不透明度，实现更灵活的视觉效果。|  
 | [如何使用 Aspose 在 PDF 中添加贝茨编号 – 步骤指南](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中添加贝茨编号，实现文档的唯一标识和追踪。|  
 | [在 C# 中设置 Bates 编号选项 – 完整指南](./how-to-set-bates-numbering-options-in-c-complete-guide/) 学习如何使用 Aspose.PDF for .NET 在 C# 中设置 Bates 编号选项的完整步骤指南。|  
+| [使用 Aspose.Pdf 更改 PDF 不透明度并保存文件](./change-pdf-opacity-with-aspose-pdf-and-save-the-file/) 学习如何使用 Aspose.Pdf 调整 PDF 的不透明度并将更改保存到文件。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,6 +75,7 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | [Span-element maken in Word met C# – Complete gids](./create-span-element-in-word-with-c-complete-guide/) | Leer hoe u met C# een span-element in een Word-document maakt, inclusief volledige codevoorbeelden en stapsgewijze uitleg. |  
 | [PDF-samenvatting genereren met Aspose.Pdf.AI en OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Leer hoe u met Aspose.Pdf.AI en OpenAI een samenvatting van een PDF genereert. |  
 | [Hoe maak je een samenvattende PDF met Aspose.Pdf.AI in C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Leer hoe u met Aspose.Pdf.AI een samenvattende PDF maakt in C#. |  
+| [Hoe een samenvatting te genereren uit een PDF met Aspose.Pdf.AI](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Leer hoe u met Aspose.Pdf.AI een samenvatting van een PDF genereert. |  
 | [Bates-nummers toevoegen aan PDF met Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Leer hoe u Bates-nummers aan PDF-documenten kunt toevoegen met Aspose.PDF voor .NET in C#. |  
 | [Hoe maak je een OpenAI-client en genereer je een PDF-samenvatting in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Leer hoe je een OpenAI-client instelt en met Aspose.PDF een PDF-samenvatting genereert in C#. |  
 

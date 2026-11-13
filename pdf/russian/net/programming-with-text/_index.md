@@ -75,6 +75,7 @@
 | [Создание элемента Span в Word с C# – Полное руководство](./create-span-element-in-word-with-c-complete-guide/) | Узнайте, как создать элемент span в документе Word с помощью C# – полное руководство. |
 | [Создать резюме PDF с помощью Aspose.Pdf.AI и OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Узнайте, как создать резюме PDF с использованием Aspose.Pdf.AI и OpenAI. |
 | [Как создать сводный PDF с Aspose.Pdf.AI на C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Узнайте, как с помощью Aspose.Pdf.AI создать сводный PDF-файл в C#. |
+| [Как сгенерировать резюме из PDF с помощью Aspose.Pdf.AI](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Узнайте, как с помощью Aspose.Pdf.AI генерировать резюме из PDF-файла. |
 | [Добавить нумерацию Бейтса в PDF с помощью Aspose.PDF на C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF на C#. |
 | [Как создать клиент OpenAI и сгенерировать резюме PDF в C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Узнайте, как использовать OpenAI API для создания резюме PDF-файла с помощью C#. |
 

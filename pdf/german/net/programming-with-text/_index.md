@@ -77,6 +77,7 @@ Die Aspose.PDF-Tutorials „Programmieren mit Text“ für .NET bieten umfassend
 | [Bates-Nummerierung zu PDF hinzufügen – Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |  
 | [Text zu PDF mit Aspose.PDF in C# hinzufügen](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text zu einer PDF-Datei in C# hinzufügen. |  
 | [Wie man einen OpenAI-Client erstellt und eine PDF-Zusammenfassung in C# generiert](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET und OpenAI in C# einen Client erstellen und automatisch eine PDF-Zusammenfassung generieren. |
+| [Wie man aus einer PDF mit Aspose.Pdf.AI eine Zusammenfassung erstellt](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Erfahren Sie, wie Sie mit Aspose.Pdf.AI automatisch eine Zusammenfassung einer PDF-Datei generieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

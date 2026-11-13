@@ -66,6 +66,7 @@
 | [كيفية تغيير الشفافية في PDF باستخدام Aspose.PDF – دليل كامل](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) |تعرف على كيفية تعديل شفافية العناصر في ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [كيفية إضافة ترقيم بياتس في ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | تعلم كيفية إضافة ترقيم بياتس إلى مستندات PDF باستخدام Aspose.PDF لـ .NET من خلال دليل شامل خطوة بخطوة. |
 | [كيفية تعيين خيارات ترقيم بايتس في C# – دليل كامل](./how-to-set-bates-numbering-options-in-c-complete-guide/) | تعلم كيفية ضبط خيارات ترقيم بايتس في ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل شامل خطوة بخطوة. |
+| [تغيير شفافية PDF باستخدام Aspose.Pdf وحفظ الملف](./change-pdf-opacity-with-aspose-pdf-and-save-the-file/) | تعلم كيفية تعديل شفافية ملفات PDF وحفظها باستخدام Aspose.Pdf لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
