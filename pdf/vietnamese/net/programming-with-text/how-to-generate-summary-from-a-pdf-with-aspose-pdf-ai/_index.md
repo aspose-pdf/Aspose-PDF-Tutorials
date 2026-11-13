@@ -211,10 +211,6 @@ Chạy chương trình này sẽ tạo ra hai kết quả:
 
 | Question | Answer |
 |----------|--------|
-| **Nếu PDF nguồn được bảo vệ bằng mật khẩu thì sao?** | Sử dụng `options.WithPassword("mySecret")` trước khi tạo copilot. |
-| **Tôi có thể giới hạn độ dài tóm tắt không?** | Đặt `options.WithMaxTokens(300)` để giới hạn số token mà AI trả về. |
-| **Làm sao để tóm tắt PDF đa trang một cách hiệu quả?** | Copilot tự động chia nhỏ các PDF lớn; tuy nhiên, bạn có thể tăng `options.WithChunkSize(1500)` để kiểm soát độ chi tiết của các phần. |
-| **API có bị giới hạn tần suất không?** | Có. Client tuân thủ giới hạn tần suất của dịch vụ; nếu vượt giới hạn, sẽ ném `RateLimitExceededException`—bắt lỗi và thử lại sau một khoảng thời gian chờ. |
 | **Tôi có cần giấy phép cho việc sử dụng trong môi trường production không?** | Giấy phép hợp lệ sẽ loại bỏ watermark dùng thử và mở khóa toàn bộ tính năng. Cài đặt giấy phép bằng `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`. |
 
 ## Các thực tiễn tốt nhất khi sử dụng summary copilot
