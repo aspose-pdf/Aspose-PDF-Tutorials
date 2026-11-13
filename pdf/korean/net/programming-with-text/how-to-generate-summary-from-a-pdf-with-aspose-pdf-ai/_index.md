@@ -211,10 +211,6 @@ class Program
 
 | 질문 | 답변 |
 |----------|--------|
-| **원본 PDF가 비밀번호로 보호된 경우는 어떻게 해야 하나요?** | copilot을 생성하기 전에 `options.WithPassword("mySecret")`를 사용합니다. |
-| **요약 길이를 제한할 수 있나요?** | AI가 반환하는 토큰 수를 제한하려면 `options.WithMaxTokens(300)`를 설정합니다. |
-| **다중 페이지 PDF를 효율적으로 요약하려면 어떻게 해야 하나요?** | copilot은 큰 PDF를 자동으로 청크로 나누지만, 청크 세분성을 제어하려면 `options.WithChunkSize(1500)`를 늘릴 수 있습니다. |
-| **API에 속도 제한이 있나요?** | 예. 클라이언트는 서비스의 제한을 준수합니다; 제한에 도달하면 `RateLimitExceededException`이 발생하므로 이를 잡고 백오프 후 재시도합니다. |
 | **프로덕션 사용에 라이선스가 필요합니까?** | 유효한 라이선스를 사용하면 체험 워터마크가 제거되고 전체 기능을 사용할 수 있습니다. 라이선스는 `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`와 같이 설치합니다. |
 
 ## summary copilot 사용 시 모범 사례
