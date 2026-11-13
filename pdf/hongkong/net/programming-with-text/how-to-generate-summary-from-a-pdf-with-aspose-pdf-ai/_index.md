@@ -212,10 +212,6 @@ class Program
 
 | 問題 | 回答 |
 |----------|--------|
-| **What if the source PDF is password‑protected?** | 在建立 copilot 前使用 `options.WithPassword("mySecret")`。 |
-| **Can I limit the summary length?** | 設定 `options.WithMaxTokens(300)` 以限制 AI 回傳的 token 數量。 |
-| **How do I summarize a multi‑page PDF efficiently?** | Copilot 會自動將大型 PDF 分塊；若需調整分塊粒度，可增加 `options.WithChunkSize(1500)`。 |
-| **Is the API rate‑limited?** | 會的。客戶端會遵守服務的節流限制；若觸發上限，會拋出 `RateLimitExceededException`——捕獲後稍作等待再重試。 |
 | **Do I need a license for production use?** | 正式授權會移除試用水印並解鎖全部功能。可使用 `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");` 來安裝授權。 |
 
 ## Best practices when using summary copilot
