@@ -17,17 +17,17 @@ og_description: How to generate summary from a PDF with Aspose.Pdf.AI. Follow th
   tutorial to learn how to summarize PDFs, convert PDF to summary, and create summary
   copilot.
 og_image_alt: Screenshot showing how to generate summary from a PDF using Aspose.Pdf.AI
-og_title: How to generate summary from a PDF with Aspose.Pdf.AI – complete guide
+og_title: How to generate a summary from a document
 schemas:
 - author: Aspose
   dateModified: '2026-11-12'
   description: How to generate summary from a PDF with Aspose.Pdf.AI – step‑by‑step
     guide to summarize PDFs, convert PDF to summary, and create summary copilot.
-  headline: How to generate summary from a PDF with Aspose.Pdf.AI
+  headline: How to generate a summary from a document
   type: TechArticle
 - description: How to generate summary from a PDF with Aspose.Pdf.AI – step‑by‑step
     guide to summarize PDFs, convert PDF to summary, and create summary copilot.
-  name: How to generate summary from a PDF with Aspose.Pdf.AI
+  name: How to generate a summary from a document
   steps:
   - name: '**Initialize** the OpenAI client with your API key.'
     text: '**Initialize** the OpenAI client with your API key.'
@@ -46,7 +46,7 @@ tags:
 - Aspose.Pdf.AI
 - PDF summarization
 - .NET
-title: How to generate summary from a PDF with Aspose.Pdf.AI
+title: How to generate a summary from a document
 url: /net/programming-with-text/how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/
 ---
 
@@ -79,7 +79,7 @@ dotnet add package Aspose.Pdf.AI
 
 The overall workflow consists of six simple steps:
 
-1. **Initialize** the OpenAI client with your API key.  
+1. **Initialize** the Aspose.Pdf.AI client with your API key.  
 2. **Configure** summary options (temperature, source document).  
 3. **Create** the summary copilot using the client and options.  
 4. **Request** a plain‑text summary.  
@@ -91,6 +91,8 @@ Each step is described in detail below.
 ## How to summarize PDF – setting up the client
 
 First, you need an authenticated client that talks to the Aspose.Pdf.AI backend. The SDK provides a fluent builder that hides the HTTP plumbing.
+
+> **Note:** The actual client class in the Aspose.Pdf.AI SDK is `PdfAIClient`. The code snippet below uses placeholder names for illustration.
 
 ```csharp
 using System;
@@ -237,7 +239,7 @@ You now know **how to generate summary** from a PDF using Aspose.Pdf.AI, from in
 Feel free to modify the temperature, chunk size, or output format to suit your specific use case. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

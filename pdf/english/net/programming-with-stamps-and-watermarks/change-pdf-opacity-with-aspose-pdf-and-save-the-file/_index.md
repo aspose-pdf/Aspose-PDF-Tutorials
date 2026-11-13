@@ -1,8 +1,8 @@
 ---
 category: general
 date: 2026-11-12
-description: Learn how to change PDF opacity using Aspose.Pdf, add transparency, set
-  blend mode, and save modified PDF in C#.
+description: Learn how to adjust PDF opacity using Aspose.Pdf for .NET, add transparency, set
+  blend mode, and save the modified PDF in C#.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,20 +14,20 @@ keywords:
 - set fill opacity
 language: en
 lastmod: 2026-11-12
-og_description: Change PDF opacity with Aspose.Pdf, learn how to add transparency,
+og_description: Adjust PDF opacity with Aspose.Pdf for .NET, learn how to add transparency,
   set blend mode, and save modified PDF files in C#.
 og_image_alt: Screenshot of a PDF page with altered opacity using Aspose.Pdf
-og_title: Change PDF opacity with Aspose.Pdf – add transparency and save
+og_title: Adjust PDF opacity with Aspose.Pdf – add transparency and save
 schemas:
 - author: Aspose
   dateModified: '2026-11-12'
-  description: Learn how to change PDF opacity using Aspose.Pdf, add transparency,
-    set blend mode, and save modified PDF in C#.
-  headline: Change PDF opacity with Aspose.Pdf and save the file
+  description: Learn how to adjust PDF opacity using Aspose.Pdf for .NET, add transparency,
+    set blend mode, and save the modified PDF in C#.
+  headline: Adjust PDF opacity with Aspose.Pdf and save the file
   type: TechArticle
-- description: Learn how to change PDF opacity using Aspose.Pdf, add transparency,
-    set blend mode, and save modified PDF in C#.
-  name: Change PDF opacity with Aspose.Pdf and save the file
+- description: Learn how to adjust PDF opacity using Aspose.Pdf for .NET, add transparency,
+    set blend mode, and save the modified PDF in C#.
+  name: Adjust PDF opacity with Aspose.Pdf and save the file
   steps:
   - name: Load the PDF document
     text: Start by creating a `Document` instance that points to your source file.
@@ -58,7 +58,7 @@ tags:
 - Aspose.Pdf
 - C#
 - PDF manipulation
-title: Change PDF opacity with Aspose.Pdf and save the file
+title: Adjust PDF opacity using Aspose.Pdf for .NET and save the file
 url: /net/programming-with-stamps-and-watermarks/change-pdf-opacity-with-aspose-pdf-and-save-the-file/
 ---
 
@@ -66,9 +66,9 @@ url: /net/programming-with-stamps-and-watermarks/change-pdf-opacity-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Change PDF opacity with Aspose.Pdf and save the file
+# Adjust PDF opacity using Aspose.Pdf for .NET and save the file
 
-If you need to **change PDF opacity** in a document, Aspose.Pdf provides a straightforward API to adjust both stroke and fill transparency. This tutorial shows exactly **how to add transparency**, **how to set blend mode**, and **save modified PDF** files with just a few lines of C# code.
+If you need to **adjust PDF opacity** in a document, Aspose.Pdf provides a straightforward API to modify both stroke and fill transparency. This tutorial shows exactly **how to add transparency**, **how to set blend mode**, and **save modified PDF** files with just a few lines of C# code.
 
 You’ll walk through every step—from loading an existing PDF to defining a new graphics state and persisting the changes. By the end of this guide you can:
 
@@ -143,7 +143,7 @@ A graphics state defines how drawing operations behave. The following dictionary
 
 ```csharp
 // Create an empty dictionary for the new graphics state
-var newGraphicsState = CosPdfDictionary.CreateEmptyDictionary(pdfDoc);
+var newGraphicsState = new CosPdfDictionary(pdfDoc);
 
 // Set desired parameters
 var parameters = new[]
@@ -234,13 +234,44 @@ class ChangePdfOpacityDemo
         // 3. Ensure ExtGState dictionary exists
         var extGStateDict = resourcesEditor["ExtGState"]?.ToCosPdfDictionary()
                              ?? new CosPdfDictionary(pdfDoc);
-        resourcesEditor["Ext
+        resourcesEditor["ExtGState"] = extGStateDict;
 
+        // 4. Define a new graphics state
+        var newGraphicsState = new CosPdfDictionary(pdfDoc);
+        var parameters = new[]
+        {
+            new KeyValuePair<string, ICosPdfPrimitive>("CA", new CosPdfNumber(1.0)),
+            new KeyValuePair<string, ICosPdfPrimitive>("ca", new CosPdfNumber(0.5)),
+            new KeyValuePair<string, ICosPdfPrimitive>("BM", new CosPdfName("Normal"))
+        };
+        foreach (var param in parameters)
+            newGraphicsState.Add(param);
 
-## What Should You Learn Next?
+        // 5. Register the graphics state
+        extGStateDict.Add("GS0", newGraphicsState);
 
+        // 6. Apply the graphics state to page content
+        var content = new MemoryStream();
+        var writer = new StreamWriter(content);
+        writer.WriteLine("q");
+        writer.WriteLine("/GS0 gs");
+        writer.WriteLine("0.2 0.5 0.8 rg");
+        writer.WriteLine("100 500 200 100 re");
+        writer.WriteLine("f");
+        writer.WriteLine("Q");
+        writer.Flush();
+        content.Position = 0;
+        page.Contents.Add(new ContentStream(content));
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+        // 7. Save the modified PDF
+        pdfDoc.Save(@"YOUR_DIRECTORY\output.pdf");
+    }
+}
+```
+
+## What should you learn next?
+
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [How to save modified PDF with Aspose.Pdf and add transparency](/pdf/english/net/document-manipulation/how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 - [How to add transparency to PDF using Aspose.PDF in C#](/pdf/english/net/images-graphics/how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)

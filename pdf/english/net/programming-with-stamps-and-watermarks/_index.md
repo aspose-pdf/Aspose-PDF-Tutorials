@@ -1,6 +1,6 @@
 ---
-title: Apply Stamps and Watermarks to PDFs using Aspose.PDF for .NET
-linktitle: Apply Stamps and Watermarks to PDFs using Aspose.PDF for .NET
+title: Apply Stamps and Watermarks to Documents
+linktitle: Apply Stamps and Watermarks to Documents
 weight: 24
 url: /net/programming-with-stamps-and-watermarks/
 description: Learn how to add stamps and watermarks to PDF documents using Aspose.PDF for .NET, including security and personalization techniques.
