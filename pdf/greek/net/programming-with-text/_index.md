@@ -72,9 +72,10 @@
 | [Τμήματα κειμένου σε αρχείο PDF](./text-segments/) | Μάθετε πώς να αναζητάτε συγκεκριμένα τμήματα κειμένου σε αρχείο PDF χρησιμοποιώντας κανονικές εκφράσεις στο Aspose.PDF για .NET. |  
 | [Χρήση Latex Script σε αρχείο PDF](./use-latex-script/) | Μάθετε πώς να χρησιμοποιείτε το σενάριο Latex για να προσθέσετε μαθηματικές εκφράσεις ή τύπους σε αρχείο PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Προσθήκη Bates Numbers σε PDF – αριθμοδότηση Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Μάθετε πώς να προσθέτετε Bates Numbers σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
-| [Δημιουργία περίληψης PDF με Aspose.Pdf.AI και OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Μάθετε πώς να δημιουργείτε περίληψη PDF χρησιμοποιώντας το Aspose.Pdf.AI σε συνδυασμό με το OpenAI. |  
-| [Πώς να δημιουργήσετε PDF περίληψης με Aspose.Pdf.AI σε C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Μάθετε πώς να δημιουργήσετε PDF περίληψης χρησιμοποιώντας το Aspose.Pdf.AI σε C# με βήμα-βήμα οδηγίες. |  
-| [Προσθήκη Bates Numbers σε PDF – αριθμοδότηση Bates](./add-bates-numbering-to-pdf/) | Μάθετε πώς να προσθέτετε Bates Numbers σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
+| [Δημιουργία περίληψης PDF με Aspose.Pdf.AI και OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Μάθετε πώς να δημιουργείτε περίληψη PDF χρησιμοποιώντας το Aspose.Pdf.AI σε συνδυασμό με το OpenAI. |
+| [Πώς να δημιουργήσετε PDF περίληψης με Aspose.Pdf.AI σε C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Μάθετε πώς να δημιουργήσετε PDF περίληψης χρησιμοποιώντας το Aspose.Pdf.AI σε C# με βήμα-βήμα οδηγίες. |
+| [Πώς να δημιουργήσετε περίληψη από PDF με Aspose.Pdf.AI](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) |  |
+| [Προσθήκη Bates Numbers σε PDF – αριθμοδότηση Bates](./add-bates-numbering-to-pdf/) | Μάθετε πώς να προσθέτετε Bates Numbers σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Προσθήκη αριθμών Bates σε PDF χρησιμοποιώντας Aspose.PDF σε C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Μάθετε πώς να προσθέτετε αριθμούς Bates σε αρχεία PDF με το Aspose.PDF για .NET σε C#. |  
 
 | [Πώς να δημιουργήσετε πελάτη OpenAI και να δημιουργήσετε περίληψη PDF σε C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Μάθετε πώς να δημιουργήσετε πελάτη OpenAI και να παράγετε περίληψη PDF με C# χρησιμοποιώντας Aspose.PDF. |  

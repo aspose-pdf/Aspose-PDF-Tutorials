@@ -21,7 +21,7 @@ Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama
 | --- | --- | 
 | [Adicionar e pesquisar texto oculto em arquivo PDF](./add-and-search-hidden-text/) | Aprenda a adicionar e pesquisar texto oculto em documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código incluídos. |  
 | [Adicionar lista ordenada HTML em documentos](./add-html-ordered-list-into-documents/) | Aprenda a adicionar listas ordenadas em HTML em documentos PDF usando o Aspose.PDF para .NET. Descubra instruções passo a passo neste tutorial detalhado. |  
-| [Adicionar HTML usando DOM](./add-html-using-dom/) Aprenda a adicionar conteúdo HTML a documentos PDF usando o Aspose.PDF para .NET neste tutorial passo a passo. Aprimore seus arquivos PDF com formatação HTML dinâmica facilmente. |  
+| [Adicionar HTML usando DOM](./add-html-using-dom/) Aprenda a adicionar conteúdo HTML a documentos PDF usando o Aspose.PDF para .NET neste tutorial passo a passo. Aprimore seus arquivos PDF com formatação HTML dinâmica facilmente. |
 | [Adicionar HTML usando DOM e sobrescrever PDF](./add-html-using-dom-and-overwrite/) | Aprenda a adicionar conteúdo HTML a um PDF usando o Aspose.PDF para .NET. Este guia passo a passo abrange tudo, desde a configuração até o salvamento final. |  
 | [Adicionar recuo de linhas subsequentes em arquivo PDF](./add-subsequent-lines-indent/) | Aprenda a adicionar recuo de linhas subsequentes a arquivos PDF usando o Aspose.PDF para .NET. Siga este guia passo a passo detalhado para formatação de texto profissional. |  
 | [Adicionar borda de texto em arquivo PDF](./add-text-border/) | Aprenda a adicionar uma borda de texto em um arquivo PDF usando o Aspose.PDF para .NET com este guia passo a passo. Aprimore seus documentos PDF. |  
@@ -72,10 +72,11 @@ Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama
 | [Texto e imagem como parágrafo em arquivo PDF](./text-and-image-as-paragraph/) | Crie PDFs com texto e imagens usando o Aspose.PDF para .NET. Aprenda a adicionar texto e imagens embutidas passo a passo. |
 | [Segmentos de texto em arquivo PDF](./text-segments/) | Aprenda a pesquisar segmentos de texto específicos em um arquivo PDF usando expressões regulares no Aspose.PDF para .NET. |
 | [Usar script Latex em arquivo PDF](./use-latex-script/) | Aprenda a usar o script Latex para adicionar expressões matemáticas ou fórmulas em arquivos PDF usando o Aspose.PDF para .NET. |
-| [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |  
+| [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbering-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |  
 | [Como criar cliente OpenAI e gerar um resumo de PDF em C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/) | Aprenda a criar um cliente OpenAI e gerar um resumo de PDF usando Aspose.PDF para .NET em C#. |  
 | [Criar elemento Span no Word com C# – Guia completo](./create-span-element-in-word-with-c-complete-guide/) | Aprenda a criar um elemento Span em documentos Word usando C# com este guia passo a passo completo. |  
-| [Gerar resumo de PDF com Aspose.Pdf.AI e OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aprenda a gerar um resumo de documentos PDF usando Aspose.Pdf.AI integrado ao OpenAI. |  
+| [Gerar resumo de PDF com Aspose.Pdf.AI e OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aprenda a gerar um resumo de documentos PDF usando Aspose.Pdf.AI integrado ao OpenAI. |
+| [Como gerar resumo a partir de um PDF com Aspose.Pdf.AI](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Aprenda a gerar um resumo de um PDF usando Aspose.Pdf.AI neste tutorial passo a passo. |
 | [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbering-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |
 | [Adicionar numeração Bates ao PDF usando Aspose.PDF em C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Aprenda a adicionar numeração Bates a documentos PDF usando Aspose.PDF para .NET em C# com este guia passo a passo. |
 

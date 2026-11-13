@@ -20,6 +20,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | Název | Popis |
 | --- | --- | 
 | [Jak vytvořit souhrnný PDF pomocí Aspose.Pdf.AI v C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Naučte se vytvořit souhrnný PDF dokument pomocí Aspose.Pdf.AI v C# s podrobným návodem a ukázkami kódu. |
+| [Jak vygenerovat souhrn z PDF pomocí Aspose.Pdf.AI](./how-to-generate-summary-from-a-pdf-with-aspose-pdf-ai/) | Naučte se automaticky generovat souhrn PDF dokumentu pomocí Aspose.Pdf.AI s podrobným návodem a ukázkami kódu. |
 | [Přidat a vyhledat skrytý text v souboru PDF](./add-and-search-hidden-text/) | Naučte se přidávat a vyhledávat skrytý text v PDF dokumentech pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu. |  
 | [Přidání seřazeného seznamu HTML do dokumentů](./add-html-ordered-list-into-documents/) | Naučte se přidávat seřazené seznamy HTML do PDF dokumentů pomocí Aspose.PDF pro .NET. Objevte podrobné pokyny v tomto podrobném tutoriálu. |  
 | [Přidání HTML pomocí DOMu](./add-html-using-dom/) V tomto podrobném návodu se naučte, jak přidat HTML obsah do PDF dokumentů pomocí Aspose.PDF pro .NET. Snadno vylepšete své PDF soubory pomocí dynamického formátování HTML. |

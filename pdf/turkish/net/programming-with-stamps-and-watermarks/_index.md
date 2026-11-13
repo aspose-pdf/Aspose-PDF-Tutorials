@@ -59,14 +59,18 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [PDF'e Filigran Ekleme – Aspose ile Metin Üst Katmanı Ekleme](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Aspose.PDF for .NET kullanarak PDF dosyalarına metin tabanlı filigran eklemeyi adım adım öğrenin. |
 | [PDF'ye Şeffaflık Ekle – Aspose.PDF – Tam C# Kılavuzu](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına şeffaflık eklemeyi adım adım öğrenin. |  
 | [Aspose.PDF ile PDF'de Opaklığı Değiştirme – Tam Kılavuz](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarınızda opaklık ayarlarını nasıl değiştireceğinizi adım adım öğrenin. |
-| [Aspose ile PDF'ye Bates Numaralandırması Ekleme – Adım Adım Kılavuz](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |  
+| [Aspose ile PDF'ye Bates Numaralandırması Ekleme – Adım Adım Kılavuz](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [C# ile Bates Numaralandırma Seçeneklerini Ayarlama – Tam Kılavuz](./how-to-set-bates-numbering-options-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# içinde Bates numaralandırma seçeneklerini nasıl ayarlayacağınızı adım adım öğrenin. |  
 
 | [C# ile Bates Numaralandırma PDF Ekle – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırma eklemeyi adım adım öğrenin. |  
 | [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır. |
 | [Bates Numarası Ekleme – PDF'ler için Adım Adım Kılavuz](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Aspose.PDF for .NET kullanarak PDF belgelerine Bates numarası eklemeyi öğrenin. |
-| [Aspose.PDF ile PDF Şeffaflığını Değiştir – Tam C# Rehberi](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF dosyasının şeffaflığını ayarlamayı adım adım öğrenin. |  
+| [Aspose.PDF ile PDF Şeffaflığını Değiştir – Tam C# Rehberi](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF dosyasının şeffaflığını ayarlamayı adım adım öğrenin. |
 | [C# ile PDF'e Bates Numaralandırması Ekleme – Tam Kılavuz](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
+| [C# ile PDF Şeffaflığını Değiştir – Tam Aspose Kılavuzu](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF sayfalarının şeffaflığını nasıl ayarlayacağınızı adım adım öğrenin. |
+| [Aspose.PDF ile PDF Şeffaflığını Değiştir – Tam Kılavuz](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarınızda opaklık ayarlarını nasıl değiştireceğinizi adım adım öğrenin. |
+| [Aspose.Pdf ile PDF Şeffaflığını Değiştir ve Dosyayı Kaydet](./change-pdf-opacity-with-aspose-pdf-and-save-the-file/) | Aspose.PDF for .NET kullanarak PDF opaklığını değiştirip dosyayı kaydetmeyi adım adım öğrenin. |
+| [Aspose ile PDF'ye Bates Numaralandırması Ekleme – Adım Adım Kılavuz](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

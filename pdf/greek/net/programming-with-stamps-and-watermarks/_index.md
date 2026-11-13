@@ -54,7 +54,7 @@
 | [Πώς να προσθέσετε σφραγίδα σε PDF με το Aspose.Pdf – Οδηγός βήμα προς βήμα](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να προσθέσετε σφραγίδα σε αρχείο PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικές οδηγίες και παραδείγματα κώδικα. |  
 | [Δημιουργία πλήρους σελίδας ειδοποίησης PDF – Γρήγορος οδηγός C#](./create-pdf-full-page-notice-quick-c-guide/) | Μάθετε πώς να δημιουργήσετε μια πλήρης σελίδα ειδοποίησης σε PDF χρησιμοποιώντας C# με το Aspose.PDF για .NET. |  
 | [Προσθήκη αρίθμησης Bates σε PDF με C# – Πλήρης Οδηγός](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό. |
-| [Προσθήκη αρίθμησης Bates σε PDF με το Aspose – Πλήρης Οδηγός](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Μάθετε πώς να προσθέσετε αρίθμηση Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με αναλυτικό βήμα-βήμα οδηγό. |  
+| [Προσθήκη αρίθμησης Bates σε PDF με το Aspose – Πλήρης Οδηγός](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αναλυτικό βήμα-βήμα οδηγό. |  
 | [Πώς να προσθέσετε αριθμό Bates σε PDF με C# – Πλήρης Οδηγός](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Μάθετε πώς να προσθέσετε αριθμό Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με C# σε αυτόν τον πλήρη οδηγό. |
 | [Προσθήκη αρίθμησης Bates σε PDF – Πλήρης οδηγός με Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με πλήρη οδηγό βήμα-βήμα. |  
 | [Προσθήκη αρίθμησης Bates σε PDF με C# – Πλήρης Οδηγός Βήμα‑βήμα](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C# σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |  
@@ -64,6 +64,7 @@
 | [Προσθήκη διαφάνειας σε PDF με Aspose.PDF – Πλήρης οδηγός C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Μάθετε πώς να εφαρμόσετε διαφάνεια σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET σε πλήρη οδηγό C#. |  
 | [Πώς να αλλάξετε τη διαφάνεια σε PDF με το Aspose.PDF – Πλήρης Οδηγός](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) Μάθετε πώς να ρυθμίσετε τη διαφάνεια των στοιχείων σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό. |  
 | [Πώς να ορίσετε επιλογές αρίθμησης Bates σε C# – πλήρης οδηγός](./how-to-set-bates-numbering-options-in-c-complete-guide/) Μάθετε πώς να ρυθμίσετε τις επιλογές αρίθμησης Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#. |  
+| [Αλλαγή διαφάνειας PDF με Aspose.Pdf και αποθήκευση του αρχείου](./change-pdf-opacity-with-aspose-pdf-and-save-the-file/) Μάθετε πώς να ρυθμίσετε τη διαφάνεια ενός PDF και να αποθηκεύσετε το αρχείο χρησιμοποιώντας Aspose.Pdf για .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
