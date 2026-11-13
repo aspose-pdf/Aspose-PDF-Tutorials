@@ -209,10 +209,6 @@ class Program
 
 | 问题 | 回答 |
 |----------|--------|
-| **如果源 PDF 受密码保护怎么办？** | 在创建 copilot 之前使用 `options.WithPassword("mySecret")`。 |
-| **我可以限制摘要长度吗？** | 设置 `options.WithMaxTokens(300)` 以限制 AI 返回的 token 数量。 |
-| **如何高效地摘要多页 PDF？** | copilot 会自动对大型 PDF 进行分块；不过，您可以增加 `options.WithChunkSize(1500)` 来控制分块粒度。 |
-| **API 是否有速率限制？** | 是的。客户端遵守服务的限流规则；如果触发限制，会抛出 `RateLimitExceededException`——捕获后进行退避重试。 |
 | **生产环境是否需要许可证？** | 有效许可证会去除试用水印并解锁全部功能。使用 `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");` 安装许可证。 |
 
 ## 使用 summary copilot 的最佳实践
