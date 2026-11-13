@@ -214,10 +214,6 @@ Bu program iki çıktı üretir:
 
 | Soru | Cevap |
 |------|-------|
-| **Kaynak PDF şifre korumalıysa ne olur?** | Copilot oluşturulmadan önce `options.WithPassword("mySecret")` kullanın. |
-| **Özet uzunluğunu sınırlayabilir miyim?** | AI'nin döndürdüğü token sayısını sınırlamak için `options.WithMaxTokens(300)` ayarlayın. |
-| **Çok sayfalı bir PDF'yi verimli bir şekilde nasıl özetlerim?** | Copilot büyük PDF'leri otomatik olarak parçalara ayırır; parçalama inceliğini kontrol etmek için `options.WithChunkSize(1500)` artırabilirsiniz. |
-| **API istekleri sınırlı mı?** | Evet. İstemci hizmetin throttling limitlerine uyar; bir limit aşıldığında `RateLimitExceededException` fırlatılır—bunu yakalayıp bir geri çekilme süresi sonrası yeniden deneyin. |
 | **Üretim ortamında lisansa ihtiyacım var mı?** | Geçerli bir lisans deneme filigranını kaldırır ve tam özellikleri açar. Lisansı şu şekilde kurun: `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`. |
 
 ## Summary copilot kullanırken en iyi uygulamalar
