@@ -214,10 +214,6 @@ Das Ausführen dieses Programms erzeugt zwei Artefakte:
 
 | Frage | Antwort |
 |----------|--------|
-| **Was ist, wenn die Quell‑PDF passwortgeschützt ist?** | Verwenden Sie `options.WithPassword("mySecret")` bevor Sie den Copilot erstellen. |
-| **Kann ich die Länge der Zusammenfassung begrenzen?** | Setzen Sie `options.WithMaxTokens(300)`, um die Anzahl der vom KI‑Modell zurückgegebenen Tokens zu begrenzen. |
-| **Wie fasse ich ein mehrseitiges PDF effizient zusammen?** | Der Copilot teilt große PDFs automatisch in Abschnitte; Sie können jedoch `options.WithChunkSize(1500)` erhöhen, um die Granularität der Abschnitte zu steuern. |
-| **Ist die API rate‑limited?** | Ja. Der Client respektiert die Drosselungsgrenzen des Dienstes; wenn Sie ein Limit erreichen, wird eine `RateLimitExceededException` ausgelöst – fangen Sie sie ab und versuchen Sie es nach einer Verzögerung erneut. |
 | **Benötige ich eine Lizenz für den Produktionseinsatz?** | Eine gültige Lizenz entfernt das Test‑Wasserzeichen und schaltet alle Funktionen frei. Installieren Sie die Lizenz mit `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");`. |
 
 ## Best Practices bei der Verwendung von summary copilot
