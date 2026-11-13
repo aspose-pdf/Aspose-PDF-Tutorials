@@ -1,0 +1,7 @@
+Title: Change PDF opacity with Aspose.Pdf and save the file
+Slug: change-pdf-opacity-with-aspose-pdf-and-save-the-file
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-11-13T06:37:42.927886
+SourceRepo: AI Search API
+Keywords: change pdf opacity, how to add transparency, save modified pdf, how to set blend mode, set fill opacity
+PRNumber: 177
