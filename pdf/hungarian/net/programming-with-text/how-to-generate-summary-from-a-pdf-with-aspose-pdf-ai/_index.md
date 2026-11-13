@@ -214,10 +214,6 @@ A program futtatása két eredményt hoz létre:
 
 | Question | Answer |
 |----------|--------|
-| **Mi van, ha a forrás PDF jelszóval védett?** | Használja a `options.WithPassword("mySecret")`-t a copilot létrehozása előtt. |
-| **Korlátozhatom-e az összefoglaló hosszát?** | Állítsa be a `options.WithMaxTokens(300)`-t, hogy korlátozza az AI által visszaadott tokenek számát. |
-| **Hogyan foglaljak össze hatékonyan többoldalas PDF-et?** | A copilot automatikusan darabolja a nagy PDF-eket; azonban növelheti a `options.WithChunkSize(1500)`-t a darabolás részletességének szabályozásához. |
-| **Az API korlátozott a hívások számában?** | Igen. A kliens tiszteletben tartja a szolgáltatás throttling korlátait; ha eléri a limitet, `RateLimitExceededException` kerül dobásra – kezelje és próbálja újra késleltetéssel. |
 | **Szükségem van licencre a termelésben való használathoz?** | Egy érvényes licenc eltávolítja a próba vízjelet és feloldja a teljes funkciókat. Telepítse a licencet a `License license = new License(); license.SetLicense("Aspose.Pdf.AI.lic");` kóddal. |
 
 ## Legjobb gyakorlatok a summary copilot használatakor
