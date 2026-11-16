@@ -32,7 +32,7 @@ tags:
 - C#
 - Digital signature
 - Aspose
-title: How to validate PDF digital signature in C# with Aspose.Pdf
+title: How to validate a PDF digital signature in C# using Aspose.Pdf for .NET
 url: /net/programming-with-security-and-signatures/how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/
 ---
 
@@ -245,14 +245,14 @@ namespace PdfSignatureValidation
 By following this guide you now know how to **validate PDF digital signature**, **check signed PDF validity**, and **validate signed PDF document** using Aspose.Pdf in C#. Feel free to experiment with different hash algorithms, validation modes, and certificate stores to suit your security requirements. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Use OCSP to Validate PDF Digital Signature in C#](/pdf/english/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/)
-- [Validate PDF Signature and List PDF Signatures with Aspose.PDF – Complete Guide](/pdf/english/net/digital-signatures/validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
-- [Create and Sign PDF with a custom digital signature in C# using Aspose.PDF](/pdf/english/net/programming-with-security-and-signatures/save-signed-pdf-with-a-custom-digital-signature-in-c/)
+- [How to Use OCSP to Validate PDF Digital Signature in C#]({{< relref "pdf/english/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/" >}})
+- [Validate PDF Signature and List PDF Signatures with Aspose.PDF – Complete Guide]({{< relref "pdf/english/net/digital-signatures/validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/" >}})
+- [Create and Sign PDF with a custom digital signature in C# using Aspose.PDF]({{< relref "pdf/english/net/programming-with-security-and-signatures/save-signed-pdf-with-a-custom-digital-signature-in-c/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

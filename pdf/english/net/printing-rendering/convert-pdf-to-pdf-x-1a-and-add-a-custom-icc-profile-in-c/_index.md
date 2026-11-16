@@ -41,7 +41,7 @@ tags:
 - PDF conversion
 - C#
 - Aspose.PDF
-title: Convert PDF to PDF/X‑1A and add a custom ICC profile in C#
+title: Use Aspose.PDF for .NET to Convert PDF to PDF/X‑1A and Add a Custom ICC Profile in C#
 url: /net/printing-rendering/convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/
 ---
 
@@ -207,16 +207,17 @@ class PdfX1AConverter
         Document pdfDocument = new Document(sourcePdfPath);
 
         // 2. Prepare conversion options for PDF/X‑
+    }
+}
+```
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Embed ICC profile and convert PDF to PDF/X-1 using Aspose.Pdf](/pdf/english/net/document-conversion/how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/)
-- [Set ICC Profile in PDF/X‑1A Conversion – Complete C# Guide](/pdf/english/net/document-conversion/set-icc-profile-in-pdf-x-1a-conversion-complete-c-guide/)
-- [add icc profile and convert PDF to PDF/X‑4 – C# guide](/pdf/english/net/document-conversion/add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/)
+- [Embed ICC profile and convert PDF to PDF/X-1 using Aspose.Pdf](pdf/english/net/document-conversion/how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/)
+- [Set ICC Profile in PDF/X‑1A Conversion – Complete C# Guide](pdf/english/net/document-conversion/set-icc-profile-in-pdf-x-1a-conversion-complete-c-guide/)
+- [add icc profile and convert PDF to PDF/X‑4 – C# guide](pdf/english/net/document-conversion/add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

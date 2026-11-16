@@ -17,7 +17,7 @@ language: en
 lastmod: 2026-11-16
 og_description: Create PDF graphics state in C# with Aspose.Pdf. Follow this complete
   tutorial to set opacity and blend mode programmatically.
-og_image_alt: Illustration of how to create PDF graphics state with Aspose.Pdf in
+og_image_alt: Illustration of how to create PDF graphics state with Aspise.Pdf in
   C#
 og_title: Create PDF graphics state in C# – step‑by‑step Aspose.Pdf guide
 schemas:
@@ -31,7 +31,7 @@ tags:
 - Aspose.Pdf
 - C#
 - PDF
-title: How to create PDF graphics state in C# with Aspose.Pdf
+title: Learn how to create PDF graphics state in C# with Aspose.Pdf
 url: /net/images-graphics/how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/
 ---
 
@@ -75,7 +75,6 @@ using System.Collections.Generic;
 using Aspose.Pdf;
 using Aspose.Pdf.Text;
 using Aspose.Pdf.Operators;
-using Aspose.Pdf.Generator;
 ```
 
 > **Pro tip:** If you’re using the free evaluation version, add `Aspose.Pdf.License license = new Aspose.Pdf.License(); license.SetLicense("Aspose.Pdf.lic");` before loading the document to avoid watermark messages.
@@ -218,7 +217,7 @@ using System;
 using System.Collections.Generic;
 using Aspose.Pdf;
 using Aspose.Pdf.Text;
-using Aspose.Pdf.Generator;
+using Aspose.Pdf.Operators;
 
 class Program
 {
@@ -251,17 +250,22 @@ class Program
             foreach (var p in parameters) newGraphicsState.Add(p);
 
             // 4️⃣ Register the state with a name (GS0)
-            extGState.Add("
+            extGState.Add("GS0", newGraphicsState);
 
+            // 5️⃣ Save the updated PDF
+            document.Save(outputPath);
+        }
+    }
+}
+```
 
-## What Should You Learn Next?
+## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create custom graphics state in PDF using Aspose.Pdf](/pdf/english/net/programming-with-operators/create-custom-graphics-state-in-pdf-using-aspose-pdf/)
-- [Add graphics state to PDF using Aspose.PDF for .NET (C#)](/pdf/english/net/programming-with-operators/how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/)
-- [How to create empty graphics state in a PDF with C#](/pdf/english/net/programming-with-operators/how-to-create-empty-graphics-state-in-a-pdf-with-c/)
+- [Create custom graphics state in PDF using Aspose.Pdf]({{< relref "pdf/english/net/programming-with-operators/create-custom-graphics-state-in-pdf-using-aspose-pdf/_index.md" >}})
+- [Add graphics state to PDF using Aspose.PDF for .NET (C#)]({{< relref "pdf/english/net/programming-with-operators/how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/_index.md" >}})
+- [How to create empty graphics state in a PDF with C#]({{< relref "pdf/english/net/programming-with-operators/how-to-create-empty-graphics-state-in-a-pdf-with-c/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

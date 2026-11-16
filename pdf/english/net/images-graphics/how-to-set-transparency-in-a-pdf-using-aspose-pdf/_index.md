@@ -42,7 +42,7 @@ tags:
 - PDF
 - Aspose.Pdf
 - C#
-title: How to set transparency in a PDF using Aspose.Pdf
+title: Apply transparency to a PDF with Aspose.Pdf for .NET
 url: /net/images-graphics/how-to-set-transparency-in-a-pdf-using-aspose-pdf/
 ---
 
@@ -233,14 +233,14 @@ The `PageEditor` adds a simple rectangle to the page and explicitly sets the gra
 ## Common
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to add graphics state pdf and control transparency with Aspose.PDF](/pdf/english/net/images-graphics/how-to-add-graphics-state-pdf-and-control-transparency-with/)
-- [How to add transparency to PDF using Aspose.PDF in C#](/pdf/english/net/images-graphics/how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
-- [How to change PDF transparency using Aspose.Pdf in C#](/pdf/english/net/programming-with-operators/how-to-change-pdf-transparency-using-aspose-pdf-in-c/)
+- [Add graphics state and control transparency with Aspose.Pdf]({{< relref "pdf/english/net/images-graphics/how-to-add-graphics-state-pdf-and-control-transparency-with" >}})
+- [Add transparency to PDF using Aspose.Pdf in C#]({{< relref "pdf/english/net/images-graphics/how-to-add-transparency-to-pdf-using-aspose-pdf-in-c" >}})
+- [Change PDF transparency using Aspose.Pdf in C#]({{< relref "pdf/english/net/programming-with-operators/how-to-change-pdf-transparency-using-aspose-pdf-in-c" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
