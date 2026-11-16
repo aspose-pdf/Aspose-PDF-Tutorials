@@ -1,0 +1,7 @@
+Title: Convert PDF to PDF/X‑1A and add a custom ICC profile in C#
+Slug: convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c
+Category: printing-rendering
+ProcessedDate: 2026-11-16T11:49:14.969363
+SourceRepo: AI Search API
+Keywords: convert pdf to pdf/x-1a, add icc profile, set custom icc profile
+PRNumber: 178
