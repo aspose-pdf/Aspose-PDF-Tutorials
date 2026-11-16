@@ -1,0 +1,7 @@
+Title: How to create PDF graphics state in C# with Aspose.Pdf
+Slug: how-to-create-pdf-graphics-state-in-c-with-aspose-pdf
+Category: images-graphics
+ProcessedDate: 2026-11-16T11:49:08.030815
+SourceRepo: AI Search API
+Keywords: create pdf graphics state
+PRNumber: 178
