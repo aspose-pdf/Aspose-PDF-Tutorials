@@ -19,6 +19,7 @@ Kapsamlı Aspose.PDF .NET eğitimlerimizi kullanarak PDF belgelerini görsel ö�
 
 ### [How to add transparency to PDF using Aspose.PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 
+### [Aspose.Pdf kullanarak PDF'de şeffaflık ayarlama](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
 ### [.NET için Aspose.PDF'yi Kullanarak PDF'lere Resim Damgaları Ekleme: Adım Adım Kılavuz](./add-image-stamp-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak logolar gibi resim damgalarını bir PDF'in her sayfasına sorunsuz bir şekilde nasıl ekleyeceğinizi öğrenin. Belgelerinizi profesyonel markalama ile geliştirin.
@@ -194,10 +195,10 @@ Aspose.PDF for .NET kullanarak PDF'lere görüntü bindirme, maske ekleme ve oto
 ### [Aspose.Pdf ile PDF'ye ExtGState Ekleme – Tam Kılavuz](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Aspose.Pdf kullanarak PDF belgelerine ExtGState ekleyerek şeffaflık ve render ayarlarını nasıl kontrol edeceğinizi öğrenin.
 ### [Aspose.Pdf ile Grafik Durumu PDF Ekleme: Adım Adım Kılavuz](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
-Aspose.Pdf kullanarak PDF belgelerine grafik durumu eklemeyi ve görüntüleme ayarlarını yönetmeyi öğrenin.
+### [C# ile Aspose.Pdf kullanarak PDF grafik durumunu oluşturma: Adım Adım Kılavuz](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+
 ### [.NET için Aspose.PDF ile Grafik Durumunu PDF'ye Ekleyin ve Şeffaflığı Kontrol Edin](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
-Aspose.PDF ile grafik durumunu ekleyerek PDF'de şeffaflık kontrolünü nasıl sağlayacağınızı öğrenin.
-### [Aspose.PDF .NET ile PDF'de Opaklığı Değiştirme: Adım Adım Kılavuz](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+### [Aspose.PDF ile PDF'de Opaklığı Değiştirme: Adım Adım Kılavuz](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 
 ### [Aspose.PDF ile Özel ExtGState PDF Ekleme: Adım Adım Kılavuz](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF for .NET kullanarak PDF'lerde özel ExtGState nesneleri ekleyerek şeffaflık ve karışım modlarını kontrol etmeyi öğrenin.

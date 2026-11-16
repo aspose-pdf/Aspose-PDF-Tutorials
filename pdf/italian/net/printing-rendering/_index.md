@@ -52,10 +52,15 @@ Scopri come impostare un fattore di zoom personalizzato nei documenti PDF utiliz
 
 ### [Come eseguire il rendering di PDF in C# – Guida completa a PNG, HTML e Stamping](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Scopri come convertire PDF in PNG, generare HTML e applicare filigrane usando Aspose.PDF per .NET in C#.
+
 ### [Come convertire PDF in PNG con C# – Guida passo passo](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 Scopri come convertire le pagine PDF in immagini PNG usando Aspose.PDF per .NET con esempi di codice C# passo passo.
+
 ### [Converti PDF per la stampa con Aspose.PDF – guida passo passo](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 Scopri come convertire PDF ottimizzati per la stampa usando Aspose.PDF con esempi di codice C# dettagliati.
+
+### [Converti PDF in PDF/X‑1A e aggiungi un profilo ICC personalizzato in C#](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+Scopri come convertire un PDF in formato PDF/X‑1A e incorporare un profilo ICC personalizzato usando Aspose.PDF per .NET in C#.
 
 ## Risorse aggiuntive
 

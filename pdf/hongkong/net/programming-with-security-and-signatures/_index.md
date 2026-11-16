@@ -99,6 +99,7 @@
 | [載入 PFX 憑證 C# – 建立 PKCS7 分離簽章](./load-pfx-certificate-c-create-pkcs7-detached-signature/) |了解如何使用 Aspose.PDF for .NET 在 C# 中載入 PFX 憑證並建立 PKCS7 分離式簽章。 |
 | [如何在 C# 中驗證 PDF 簽章 – 完整步驟指南](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章。逐步指南確保簽章完整性。 |  
 | [如何驗證 PDF – 完整的 C# 數位簽章指南](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) |了解如何使用 Aspose.PDF for .NET 以 C# 完整驗證 PDF 數位簽章，確保文件真實性與完整性。 |
+| [如何在 C# 中使用 Aspose.Pdf 驗證 PDF 數位簽章](./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 數位簽章的完整步驟。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

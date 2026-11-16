@@ -211,11 +211,18 @@ Leer hoe u een afbeeldingsoverlay met masker toevoegt en automatische lade-selec
 ### [ExtGState toevoegen aan PDF met Aspose.Pdf – een volledige handleiding](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Leer hoe u ExtGState-objecten kunt toepassen om transparantie, mengmodi en andere grafische instellingen in PDF's te beheren met Aspose.Pdf.
 ### [Grafische status toevoegen aan PDF met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u de graphics state van een PDF kunt manipuleren en transparantie‑instellingen kunt beheren met Aspose.PDF voor .NET.
+
 ### [Aangepaste ExtGState PDF toevoegen met Aspose.PDF: een stapsgewijze handleiding](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
-Leer hoe u met Aspose.PDF aangepaste ExtGState-instellingen toevoegt aan PDF's voor geavanceerde transparantie‑ en weergave‑effecten.
+Leer hoe u met Aspose.PDF aangepaste ExtGState‑instellingen toevoegt aan PDF's voor geavanceerde transparantie‑ en weergave‑effecten.
+
 ### [Grafische status toevoegen aan PDF met Aspose.PDF in C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 Leer hoe u de graphics state van een PDF kunt beheren met Aspose.PDF in C#.
 
+### [Hoe een PDF graphics state te maken in C# met Aspose.Pdf: een stapsgewijze handleiding](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+Leer hoe u met Aspose.Pdf in C# een graphics state voor PDF's maakt, inclusief transparantie‑ en mengmodi‑instellingen.
+
+### [Hoe transparantie instellen in een PDF met Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

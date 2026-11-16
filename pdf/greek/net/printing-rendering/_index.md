@@ -52,9 +52,14 @@
 
 ### [Πώς να αποδώσετε PDF σε C# – Πλήρης οδηγός για PNG, HTML & Σφραγίδωση](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Μάθετε πώς να μετατρέπετε PDF σε PNG, HTML και να προσθέτετε σφραγίδες χρησιμοποιώντας Aspose.PDF για .NET σε C#.
+
 ### [Πώς να αποδώσετε PDF ως PNG σε C# – Οδηγός βήμα προς βήμα](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία PDF σε εικόνες PNG χρησιμοποιώντας C# και Aspose.PDF, βήμα προς βήμα με παραδείγματα κώδικα.
+
 ### [Μετατροπή PDF για εκτύπωση με το Aspose.PDF – οδηγός βήμα προς βήμα](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+
+### [Μετατροπή PDF σε PDF/X‑1A και προσθήκη προσαρμοσμένου προφίλ ICC σε C#](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+Μάθετε πώς να μετατρέψετε ένα PDF σε μορφή PDF/X‑1A και να ενσωματώσετε προσαρμοσμένο προφίλ ICC χρησιμοποιώντας C# και Aspose.PDF.
 
 ## Πρόσθετοι Πόροι
 

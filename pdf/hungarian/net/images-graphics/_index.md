@@ -132,6 +132,9 @@ Ismerje meg, hogyan javíthatja PDF-dokumentumait alfa átlátszóságú téglal
 ### [PDF átlátszóság beállítása C#-ban az Aspose.PDF segítségével – teljes útmutató](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Tanulja meg, hogyan állíthatja be a PDF átlátszóságát C#-ban az Aspose.PDF segítségével, lépésről lépésre útmutatóval.
 
+### [Átlátszóság beállítása PDF-ben az Aspose.Pdf segítségével](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Tanulja meg, hogyan állíthat be átlátszóságot PDF dokumentumokban az Aspose.Pdf segítségével C#-ban.
+
 ### [Képek törlése PDF fájlokból az Aspose.PDF for .NET használatával - Teljes útmutató](./delete-images-aspose-pdf-net/)
 Ismerje meg, hogyan törölhet hatékonyan képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az útmutató bemutatja a beállítást, a kódpéldákat és a bevált gyakorlatokat.
 
@@ -171,35 +174,11 @@ Ismerje meg, hogyan méretezheti át, tömörítheti és állíthatja be hatéko
 ### [Grafikai állapot hozzáadása PDF-hez Aspose.Pdf használatával – lépésről lépésre útmutató](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Tanulja meg, hogyan kezelheti a grafikai állapotot PDF-dokumentumokban az Aspose.Pdf segítségével.
 
-### [Grafikák eltávolítása PDF-ekből az Aspose.PDF .NET használatával: Teljes körű útmutató](./remove-graphics-aspose-pdf-net/)
-Ismerje meg, hogyan távolíthat el hatékonyan grafikákat PDF-ekből az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a dokumentumok rendszerezéséhez és a fájlméretek optimalizálásához.
-
-### [Képek cseréje PDF-ekben az Aspose.PDF .NET használatával: Fejlesztői útmutató](./replace-images-pdf-aspose-net-guide/)
-Ismerje meg, hogyan cserélheti le hatékonyan a képeket a PDF dokumentumokban az Aspose.PDF for .NET segítségével. Egyszerűsítse dokumentumfrissítéseit ezzel az átfogó fejlesztői útmutatóval.
-
-### [Képek cseréje PDF-ekben az Aspose.PDF .NET használatával: Teljes körű útmutató](./replace-images-aspose-pdf-net-tutorial/)
-Ismerje meg, hogyan cserélhet hatékonyan képeket PDF dokumentumokban az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
-
-### [Képméret beállítása PDF-ben az Aspose.PDF for .NET használatával](./set-image-size-pdf-aspose-dotnet/)
-Tanuld meg, hogyan módosíthatod a képméreteket a PDF fájlokban az Aspose.PDF for .NET segítségével, amely tökéletes professzionális dokumentumok és prezentációk készítéséhez.
-
-### [Képelhelyezés elsajátítása PDF fájlokban az Aspose.PDF for .NET használatával](./optimize-image-placement-aspose-pdf-net/)
-Tanulja meg, hogyan optimalizálhatja a képek elhelyezését PDF dokumentumokban az Aspose.PDF for .NET segítségével. Javítsa a dokumentumok minőségét és hatékonyságát gyakorlati útmutatókkal.
-
-### [PDF képek optimalizálása az Aspose.PDF for .NET segítségével: Átfogó útmutató](./optimize-pdf-images-aspose-pdf-dotnet/)
-Ismerje meg, hogyan tömörítheti és optimalizálhatja a PDF dokumentumokban található képeket az Aspose.PDF for .NET segítségével, csökkentve a fájlméretet a minőség megőrzése mellett. Ideális fejlesztők és dokumentumkezelők számára.
-
-### [LaTeX renderelése PDF-ekben az Aspose.PDF .NET segítségével: Lépésről lépésre útmutató](./render-latex-aspose-pdf-net-guide/)
-Ismerje meg, hogyan renderelhet összetett LaTeX szkripteket PDF dokumentumokká az Aspose.PDF for .NET használatával, beleértve a beállítási, megvalósítási és optimalizálási tippeket is.
-
-### [Képhátterek beállítása PDF-ekben az Aspose.PDF for .NET használatával: Átfogó útmutató](./aspose-pdf-net-set-image-backgrounds/)
-
-### [Átlátszóság hozzáadása PDF-hez Aspose PDF használatával C#-ban – Lépésről lépésre útmutató](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-### [Átlátszóság hozzáadása PDF-hez Aspose.PDF használatával C#-ban](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
-### [Átlátszóság beállítása PDF-ben az Aspose.Pdf C#-val](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
-Tanuld meg, hogyan állíthat be átlátszóságot PDF-dokumentumokban az Aspose.Pdf C# használatával.
 ### [Grafikai állapot hozzáadása PDF-hez Aspose.Pdf C#-ban](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 Tanuld meg, hogyan állíthatsz be grafikai állapotot PDF-dokumentumokban az Aspose.PDF for .NET segítségével C#-ban.
+
+### [PDF grafikai állapot létrehozása C#-ban az Aspose.Pdf használatával](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+Ismerje meg, hogyan hozhat létre PDF grafikai állapotot C#-ban az Aspose.Pdf segítségével, lépésről lépésre útmutatóval.
 
 ### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 

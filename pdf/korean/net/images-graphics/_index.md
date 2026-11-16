@@ -63,6 +63,8 @@ Aspose.PDF for .NET을 사용해 PDF에 투명 효과를 적용하는 방법을 
 
 ### [Aspose.PDF C#를 사용하여 PDF에 투명도 설정: 단계별 가이드](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Aspose.PDF for .NET을 사용해 PDF에 투명도 설정 방법을 단계별로 안내합니다.
+### [Aspose.Pdf를 사용하여 PDF에 투명도 설정하는 방법](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Aspose.Pdf를 사용하여 PDF 문서에 투명도를 설정하는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose.PDF를 사용하여 PDF에 도형 추가하기 – 단계별 가이드](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 C#에서 Aspose.PDF를 사용하여 PDF에 도형을 추가하는 방법을 단계별로 안내합니다.
 ### [Aspose.PDF로 그래픽 상태 추가 및 투명도 제어 방법](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
@@ -183,31 +185,14 @@ Aspose.PDF for .NET의 GraphicsAbsorber를 사용해 PDF에서 벡터 그래픽�
 ### [Aspose.Pdf를 사용하여 그래픽 상태 PDF 추가: 단계별 가이드](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Aspose.Pdf를 활용해 PDF에 그래픽 상태를 적용하고 관리하는 방법을 단계별로 안내합니다.
 
-### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 개발자 가이드](./replace-images-pdf-aspose-net-guide/)
+### [Aspose.Pdf를 사용하여 그래픽 상태 PDF 추가 – 완전 가이드](./add-graphics-state-pdf-with-aspose-pdf-complete-guide/)
+Aspose.Pdf를 활용해 PDF에 그래픽 상태를 적용하고 관리하는 방법을 단계별로 안내합니다.
 
-### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 완전한 가이드](./replace-images-aspose-pdf-net-tutorial/)
+### [C#와 Aspose.Pdf를 사용하여 PDF 그래픽 상태 만들기](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+Aspose.Pdf를 활용해 PDF 그래픽 상태를 생성하고 관리하는 방법을 단계별로 안내합니다.
+
 ### [C#에서 Aspose.Pdf를 사용하여 그래픽 상태 PDF 추가](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
-
-
-### [Aspose.PDF for .NET을 사용하여 PDF의 이미지 크기를 설정하는 방법](./set-image-size-pdf-aspose-dotnet/)
-
-### [Aspose.PDF for .NET을 사용하여 PDF 이미지 배치 마스터하기](./optimize-image-placement-aspose-pdf-net/)
-
-### [Aspose.PDF for .NET을 사용하여 PDF 이미지 최적화: 포괄적인 가이드](./optimize-pdf-images-aspose-pdf-dotnet/)
-
-### [Aspose.PDF .NET을 사용하여 PDF에서 LaTeX 렌더링: 단계별 가이드](./render-latex-aspose-pdf-net-guide/)
-
-### [Aspose.PDF for .NET을 사용하여 PDF에 이미지 배경 설정: 포괄적인 가이드](./aspose-pdf-net-set-image-backgrounds/)
-
-### [Aspose.PDF를 사용하여 PDF에 사각형 추가 – 완전 프로그래밍 가이드](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
-Aspose.PDF를 활용해 PDF 문서에 사각형을 그리는 방법을 단계별로 안내합니다.
-### [Word 문서에서 무손실 이미지 압축 – 완전 가이드](./lossless-image-compression-in-word-docs-complete-guide/)
-Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 품질 손실 없이 압축하는 방법을 단계별로 안내합니다.
-### [이미지 오버레이 PDF 튜토리얼 – 마스크 추가 및 자동 트레이 선택 활성화](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
-
-### [Aspose.PDF를 사용하여 사용자 정의 ExtGState PDF 추가 – 단계별 가이드](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
-### [Aspose.PDF for .NET을 사용하여 PDF에서 투명도 변경하는 방법](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
-Aspose.PDF for .NET을 활용해 PDF 요소의 투명도를 조절하는 방법을 단계별로 안내합니다.
+C#에서 Aspose.Pdf를 사용하여 그래픽 상태를 PDF에 추가하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

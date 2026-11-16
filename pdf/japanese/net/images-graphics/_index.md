@@ -77,6 +77,8 @@ Aspose.PDF C# を使って PDF の要素に透明効果を設定する手順を�
 ### [Aspose.PDF for .NET を使用して PDF ファイルに透明度を追加する方法](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 Aspose.PDF for .NET を利用し、PDF ドキュメントに透明な要素や画像を追加して、デザインの柔軟性を高める手順を解説します。
 
+### [Aspose.PDF を使用して PDF の透明度を設定する方法](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+
 ### [Aspose.PDF for .NET による効率的な PDF 画像識別](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF 内のグレースケール画像と RGB 画像を識別する方法を学びます。このチュートリアルでは、インストール、画像の抽出、パフォーマンスに関するヒントを紹介します。
 
@@ -221,6 +223,9 @@ Aspose.PDF for .NET を使い、C# で PDF の不透明度を設定する方法�
 Aspose.PDF for .NET を利用して、PDF 内の要素の不透明度を調整する方法を学びます。コード例とベストプラクティスを紹介。
 ### [C# で Aspose.Pdf を使用してグラフィックスステート PDF を追加する](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 Aspose.PDF for .NET を利用し、C# でグラフィックスステートを操作して PDF に適用する方法を学びます。
+
+### [C# で Aspose.Pdf を使用してグラフィックスステート PDF を追加する](./add-graphics-state-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+### [C# で Aspose.Pdf を使用して PDF グラフィックスステートを作成する方法](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
 
 ## 追加リソース
 

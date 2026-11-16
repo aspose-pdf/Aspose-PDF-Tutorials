@@ -201,8 +201,12 @@ Dowiedz się, jak w C# dodać przezroczystość do plików PDF przy użyciu Aspo
 
 ### [Jak dodać przezroczystość do PDF przy użyciu Aspose.PDF w C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Dowiedz się, jak dodać przezroczystość do plików PDF w C# przy użyciu Aspose.PDF.
-### [Jak ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf w C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
-Dowiedz się, jak w C# ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf, krok po kroku.
+
+### [Jak ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf w C#](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Dowiedz się, jak w C# ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf.
+
+### [Jak ustawić przezroczystość w PDF przy użyciu Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Dowiedz się, jak ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf.
 
 ### [Bezstratna kompresja obrazów w dokumentach Word – kompletny przewodnik](./lossless-image-compression-in-word-docs-complete-guide/)
 Dowiedz się, jak bezstratnie kompresować obrazy w dokumentach Word, aby zmniejszyć rozmiar pliku bez utraty jakości.
@@ -220,6 +224,8 @@ Dowiedz się, jak dodać niestandardowy ExtGState do plików PDF przy użyciu As
 ### [Jak zmienić przezroczystość w pliku PDF za pomocą Aspose.PDF dla .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 ### [Dodaj stan graficzny PDF przy użyciu Aspose.Pdf w C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 Dowiedz się, jak dodać stan graficzny do pliku PDF przy użyciu Aspose.PDF w C#.
+### [Jak utworzyć stan graficzny PDF w C# przy użyciu Aspose.Pdf](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+Dowiedz się, jak utworzyć stan graficzny PDF w C# przy użyciu Aspose.Pdf.
 
 ## Dodatkowe zasoby
 

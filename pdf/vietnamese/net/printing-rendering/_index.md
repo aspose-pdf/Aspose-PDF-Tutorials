@@ -52,9 +52,13 @@ Tìm hiểu cách thiết lập hệ số thu phóng tùy chỉnh trong tài li�
 
 ### [Cách Render PDF trong C# – Hướng dẫn đầy đủ về PNG, HTML & Đánh dấu](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Tìm hiểu cách chuyển đổi PDF sang PNG, HTML và áp dụng dấu (stamp) trong C# bằng Aspose.PDF, kèm ví dụ mã chi tiết.
+
 ### [Cách render PDF thành PNG trong C# – Hướng dẫn từng bước](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.PDF cho .NET để chuyển đổi tệp PDF sang định dạng PNG trong C#.
+
 ### [Chuyển đổi PDF để in với Aspose.PDF – hướng dẫn từng bước](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+
+### [Chuyển đổi PDF sang PDF/X‑1A và thêm hồ sơ ICC tùy chỉnh trong C#](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
 
 ## Tài nguyên bổ sung
 

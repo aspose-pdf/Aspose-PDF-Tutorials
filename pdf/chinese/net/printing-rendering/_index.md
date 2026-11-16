@@ -27,7 +27,7 @@
 通过本分步指南了解如何使用 Aspose.PDF .NET 将标准 PDF 文档转换为专业小册子。
 
 ### [如何使用 Aspose.PDF for .NET 创建 PDF 小册子：分步指南](./create-pdf-booklet-aspose-pdf-net-guide/)
-了解如何使用 Aspose.PDF for .NET 创建专业的 PDF 小册子。按照我们的分步指南，简化文档处理并增强您的演示文稿。
+了解如何使用 Aspose.PDF for .NET 创建专业的 PDF 小册子。按照我们的分步指南，简化文档处理并增强您的演示稿。
 
 ### [如何在 C# 中使用 Aspose.PDF for .NET 从 PDF 打印特定页面](./print-specific-pages-pdf-aspose-net/)
 学习如何使用 C# 和 Aspose.PDF for .NET 从 PDF 打印特定页面范围。按照本分步指南，高效管理文档。
@@ -55,8 +55,12 @@
 
 ### [如何在 C# 中渲染 PDF – PNG、HTML 与水印完整指南](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 渲染为 PNG、HTML，并添加水印的完整步骤。
+
 ### [使用 Aspose.PDF 将 PDF 转换为打印格式 – 分步指南](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 了解如何使用 Aspose.PDF 将 PDF 转换为适合打印的格式，提供分步代码示例。
+
+### [在 C# 中将 PDF 转换为 PDF/X‑1A 并添加自定义 ICC 配置文件](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑1A，并嵌入自定义 ICC 配置文件，以满足打印标准。
 
 ## 其他资源
 

@@ -22,6 +22,8 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 
 {{< tutorial-card link="./encrypt-pdf/" title="Aspose.PDF for .NET kullanarak Kullanıcı ve Sahibi Parolalarıyla PDF Şifreleme" imgSrc="./encrypt-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/" title="How to validate PDF digital signature in C# with Aspose.Pdf" imgSrc="./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/images/thumb.png" >}}
+
 | Başlık | Açıklama |
 | --- | --- | 
 | [PDF Dosyasında Şifreyi Değiştir](./change-password/) | Aspose.PDF for .NET kullanarak PDF şifrelerini kolayca değiştirmeyi öğrenin. Adım adım kılavuzumuz sizi güvenli bir şekilde bu süreçte yönlendirir. |  

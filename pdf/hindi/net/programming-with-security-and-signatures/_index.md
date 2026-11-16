@@ -22,6 +22,8 @@
 
 {{< tutorial-card link="./encrypt-pdf/" title="Aspose.PDF for .NET का उपयोग करके उपयोगकर्ता और मालिक पासवर्ड के साथ PDF एन्क्रिप्ट करें" imgSrc="./encrypt-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/" title="How to validate PDF digital signature in C# with Aspose.Pdf" imgSrc="./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/images/thumb.png" >}}
+
 | शीर्षक | विवरण |
 | --- | --- | 
 | [पीडीएफ फाइल में पासवर्ड बदलें](./change-password/) | .NET के लिए Aspose.PDF का उपयोग करके आसानी से PDF पासवर्ड बदलना सीखें। हमारा चरण-दर-चरण गाइड आपको सुरक्षित तरीके से प्रक्रिया से गुज़ारता है। |  

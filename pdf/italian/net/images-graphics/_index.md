@@ -67,14 +67,35 @@ Scopri come applicare effetti di trasparenza ai PDF con Aspose.PDF per .NET usan
 ### [Come impostare la trasparenza in un PDF con Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Scopri come impostare la trasparenza nei PDF utilizzando Aspose.PDF per .NET con esempi di codice C#.
 
-### [Come aggiungere una forma a PDF con Aspose.PDF in C# – Guida passo passo](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Scopri come inserire forme personalizzate nei PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo.
-### [Aggiungere lo stato grafico al PDF con Aspose.PDF – guida passo passo](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
-Scopri come gestire lo stato grafico nei PDF usando Aspose.PDF per .NET, con esempi di codice C# passo passo.
+### [Come aggiungere lo stato grafico al PDF con Aspose.PDF – guida passo passo](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Scopri come gestire lo stato grafico nei PDF usando Aspose.PDF per .NET, con esempi C# passo passo.
 ### [Come aggiungere la trasparenza ai file PDF utilizzando Aspose.PDF per .NET: una guida passo passo](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 Scopri come applicare effetti di trasparenza ai PDF con Aspose.PDF per .NET, migliorando l'aspetto dei documenti.
 ### [Come modificare l'opacità in un PDF con Aspose.PDF per .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
-Scopri come impostare l'opacità di immagini, forme o testo nei PDF usando Aspose.PDF per .NET.
+Scopri come impostare l'opacità di immagini, forme o testo nei PDF usando Aspose.PDF per .NET con esempi di codice C#.
+
+### [Come impostare la trasparenza in un PDF utilizzando Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Scopri come impostare la trasparenza nei PDF con Aspose.Pdf in C#, con esempi di codice passo passo.
+
+### [Come aggiungere una forma a PDF con Aspose.PDF in C# – Guida passo passo](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Scopri come inserire forme personalizzate nei PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo.
+### [Aggiungere lo stato grafico al PDF con Aspose.PDF – guida passo passo](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Scopri come gestire lo stato grafico nei PDF usando Aspose.PDF per .NET, con esempi C# passo passo.
+### [Come aggiungere la trasparenza ai file PDF utilizzando Aspose.PDF per .NET: una guida passo passo](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Scopri come applicare effetti di trasparenza ai PDF con Aspose.PDF per .NET, migliorando l'aspetto dei documenti.
+### [Come modificare l'opacità in un PDF con Aspose.PDF per .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Scopri come impostare l'opacità di immagini, forme o testo nei PDF usando Aspose.PDF per .NET con esempi di codice C#.
+
+### [Come aggiungere una forma a PDF con Aspose.PDF in C# – Guida passo passo](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Scopri come inserire forme personalizzate nei PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo.
+### [Aggiungere lo stato grafico al PDF con Aspose.PDF – guida passo passo](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Scopri come gestire lo stato grafico nei PDF usando Aspose.PDF per .NET, con esempi C# passo passo.
+### [Come aggiungere la trasparenza ai file PDF utilizzando Aspose.PDF per .NET: una guida passo passo](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Scopri come applicare effetti di trasparenza ai PDF con Aspose.PDF per .NET, migliorando l'aspetto dei documenti.
+### [Come modificare l'opacità in un PDF con Aspose.PDF per .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Scopri come impostare l'opacità di immagini, forme o testo nei PDF usando Aspose.PDF per .NET con esempi di codice C#.
+
+### [Come creare lo stato grafico PDF in C# con Aspose.Pdf](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
 
 ### [Identificazione efficiente delle immagini PDF con Aspose.PDF per .NET](./master-image-identification-aspose-pdf-net/)
 Scopri come identificare immagini in scala di grigi e RGB nei PDF utilizzando Aspose.PDF per .NET. Questo tutorial include suggerimenti su installazione, estrazione delle immagini e prestazioni.
