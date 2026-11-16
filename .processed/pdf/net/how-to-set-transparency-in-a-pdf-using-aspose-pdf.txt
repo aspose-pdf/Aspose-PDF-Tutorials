@@ -1,0 +1,7 @@
+Title: How to set transparency in a PDF using Aspose.Pdf
+Slug: how-to-set-transparency-in-a-pdf-using-aspose-pdf
+Category: images-graphics
+ProcessedDate: 2026-11-16T11:49:10.520091
+SourceRepo: AI Search API
+Keywords: how to set transparency, edit pdf resources, load pdf aspose
+PRNumber: 178
