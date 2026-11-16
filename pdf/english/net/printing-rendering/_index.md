@@ -56,6 +56,8 @@ Learn to render PDFs to PNG and HTML, and apply stamping using Aspose.PDF for .N
 Learn how to convert PDF pages to PNG images using Aspose.PDF for .NET with C# code examples and step‑by‑step instructions.
 ### [Convert PDF for printing with Aspose.PDF – step‑by‑step guide](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 
+### [Convert PDF to PDF/X‑1A and add a custom ICC profile in C#](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

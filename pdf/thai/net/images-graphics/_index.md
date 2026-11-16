@@ -51,6 +51,18 @@
 ### [เพิ่มสถานะกราฟิกใน PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 เรียนรู้วิธีจัดการสถานะกราฟิกใน PDF ด้วย Aspose.Pdf ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด C#
 
+### [วิธีสร้างสถานะกราฟิก PDF ด้วย C# และ Aspose.Pdf](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+เรียนรู้วิธีสร้างสถานะกราฟิกในไฟล์ PDF ด้วย C# และ Aspose.Pdf
+
+### [วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF – คู่มือการเขียนโปรแกรมแบบครบถ้วน](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+เรียนรู้วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือการเขียนโปรแกรมแบบครบถ้วน
+
+### [วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย C# – คู่มือทีละขั้นตอน](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+เรียนรู้วิธีการเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย C# อย่างละเอียดตามขั้นตอน
+
+### [เพิ่มสถานะกราฟิกใน PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีจัดการสถานะกราฟิกใน PDF ด้วย Aspose.Pdf ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด C#
+
 ### [วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF ใน C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 เรียนรู้วิธีการเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C#
 ### [วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย C# และ Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
@@ -69,7 +81,10 @@
 เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนใน C#
 
 ### [วิธีตั้งค่าความโปร่งใสใน PDF ด้วย Aspose PDF ใน C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
-เรียนรู้วิธีกำหนดความโปร่งใสให้กับ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านตัวอย่างโค้ด C# อย่างละเอียด
+เรียนรูธีกำหนดความโปร่งใสให้กับ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านตัวอย่างโค้ด C# อย่างละเอียด
+
+### [วิธีตั้งค่าความโปร่งใสใน PDF ด้วย Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+เรียนรู้วิธีตั้งค่าความโปร่งใสให้กับไฟล์ PDF ด้วย Aspose.Pdf
 
 ### [วิธีเพิ่มรูปทรงลงใน PDF ด้วย Aspose.PDF ใน C# – คู่มือทีละขั้นตอน](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 เรียนรู้วิธีเพิ่มรูปทรงต่าง ๆ ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET พร้อมตัวอย่างโค้ด C# อย่างละเอียด
@@ -201,7 +216,7 @@
 ### [ตั้งค่าพื้นหลังรูปภาพใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./aspose-pdf-net-set-image-backgrounds/)
 เรียนรู้วิธีปรับปรุงเอกสาร PDF ของคุณโดยการตั้งค่าพื้นหลังรูปภาพโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงเคล็ดลับการตั้งค่า การใช้งาน และการปรับแต่ง
 
-### [วิธีตรวจสอบ PDF และเพิ่มสี่เหลี่ยม – คู่มือฉบับสมบูรณ์](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+### [วิธีการตรวจสอบ PDF และเพิ่มสี่เหลี่ยม – คู่มือฉบับสมบูรณ์](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 เรียนรู้วิธีตรวจสอบความถูกต้องของไฟล์ PDF และเพิ่มสี่เหลี่ยมลงในเอกสารด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 ### [การบีบอัดรูปภาพแบบไม่มีการสูญเสียในเอกสาร Word – คู่มือฉบับสมบูรณ์](./lossless-image-compression-in-word-docs-complete-guide/)
 เรียนรู้วิธีบีบอัดรูปภาพในไฟล์ Word โดยไม่สูญเสียคุณภาพด้วย Aspose.Words สำหรับ .NET อย่างละเอียด

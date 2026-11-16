@@ -201,6 +201,9 @@ Naučte se, jak pomocí Aspose.PDF vytvořit a použít vlastní ExtGState pro n
 ### [Jak nastavit průhlednost v PDF pomocí Aspose.PDF pro .NET v C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Naučte se, jak nastavit průhlednost objektů v PDF dokumentech pomocí Aspose.PDF pro .NET v C#.
 
+### [Jak nastavit průhlednost v PDF pomocí Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Naučte se, jak nastavit průhlednost v PDF dokumentu pomocí Aspose.Pdf.
+
 ### [Jak ověřit PDF a přidat obdélník – Kompletní průvodce](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Naučte se, jak pomocí Aspose.PDF pro .NET ověřit PDF soubor a přidat obdélníkový tvar do dokumentu.
 ### [Překrytí obrázků v PDF – přidání masky a povolení automatického výběru zásobníku](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
@@ -215,8 +218,10 @@ Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidat obdélník do PDF dokum
 Naučte se, jak pomocí Aspose.PDF spravovat grafický stav PDF, včetně nastavení průhlednosti a kompozice, krok za krokem.
 ### [Jak přidat grafický stav PDF a řídit průhlednost pomocí Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 Naučte se, jak nastavit stav grafiky a ovládat průhlednost v PDF pomocí Aspose.PDF.
-
 ### [Přidání grafického stavu PDF pomocí Aspose.Pdf v C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Naučte se, jak pomocí Aspose.PDF spravovat grafický stav PDF v C#.
+### [Jak vytvořit grafický stav PDF v C# pomocí Aspose.Pdf: Podrobný návod](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+Naučte se, jak pomocí Aspose.Pdf v C# vytvořit a použít grafický stav PDF pro nastavení průhlednosti a dalších parametrů.
 
 ## Další zdroje
 

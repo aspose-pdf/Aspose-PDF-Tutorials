@@ -214,8 +214,14 @@ Apprenez à superposer des images sur un PDF, ajouter un masque et activer la s�
 ### [Ajouter ExtGState à un PDF avec Aspose.PDF – guide complet](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Apprenez à appliquer des états graphiques avancés (ExtGState) aux PDF avec Aspose.PDF pour .NET, incluant la transparence et les effets.
 ### [Ajouter l'état graphique PDF avec Aspose.PDF – guide étape par étape](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
-Apprenez à manipuler l'état graphique d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé étape par étape.
+Apprenez à manipuler l'état graphique d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé.
 
+### [Ajouter l'état graphique PDF avec Aspose.PDF – guide complet](./add-graphics-state-pdf-with-aspose-pdf-complete-guide/)
+Apprenez à manipuler l'état graphique d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé étape par étape.
+### [Ajouter l'état graphique PDF avec Aspose.PDF – guide étape par étape](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Apprenez à manipuler l'état graphique d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé.
+### [Comment créer l'état graphique PDF en C# avec Aspose.Pdf](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+Apprenez à créer et gérer l'état graphique d'un PDF en C# avec Aspose.Pdf grâce à ce guide détaillé.
 ### [Ajouter un ExtGState personnalisé à un PDF avec Aspose.PDF – guide étape par étape](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ### [Définir l'arrière-plan des images dans les fichiers PDF avec Aspose.PDF pour .NET : guide complet](./aspose-pdf-net-set-image-backgrounds/)
@@ -236,3 +242,6 @@ Découvrez comment améliorer vos documents PDF en définissant des images d'arr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+### [Comment définir la transparence dans un PDF avec Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Apprenez à appliquer la transparence aux éléments d'un PDF en utilisant Aspose.Pdf grâce à ce guide étape par étape.

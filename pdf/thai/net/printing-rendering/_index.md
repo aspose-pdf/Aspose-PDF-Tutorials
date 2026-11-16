@@ -57,6 +57,8 @@
 ### [แปลง PDF เพื่อการพิมพ์ด้วย Aspose.PDF – คู่มือทีละขั้นตอน](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ PDF ให้เหมาะสมกับการพิมพ์โดยใช้ Aspose.PDF ด้วยขั้นตอนละเอียดและตัวอย่างโค้ดใน C#
 
+### [แปลง PDF เป็น PDF/X‑1A และเพิ่มโปรไฟล์ ICC แบบกำหนดเองใน C#](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

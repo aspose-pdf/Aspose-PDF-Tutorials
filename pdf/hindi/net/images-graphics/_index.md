@@ -18,6 +18,8 @@
 ## उपलब्ध ट्यूटोरियल
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में इमेज स्टैम्प जोड़ें: एक चरण-दर-स्तर मार्गदर्शिका](./add-image-stamp-to-pdf-aspose-dotnet/)
+.NET के लिए Aspose.PDF का उपयोग करके PDF के प्रत्येक पृष्ठ पर लोगो जैसे छवि स्टैम्प को सहजता से जोड़ना सीखें। पेशेवर ब्रांडिंग के साथ अपने दस्तावेज़ों को बेहतर बनाएँ।
+
 ### [How to add transparency to PDF files using Aspose.PDF for .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 
 
@@ -73,9 +75,14 @@ C# कोड के साथ PDF में विभिन्न आकृत�
 
 ### [C# में Aspose.PDF का उपयोग करके PDF में पारदर्शिता कैसे जोड़ें](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 C# में Aspose.PDF का उपयोग करके PDF में पारदर्शिता जोड़ने की विस्तृत गाइड।
+
 ### [PDF में पारदर्शिता जोड़ें और आयत बनाएं: Aspose.PDF के साथ चरण-दर-चरण मार्गदर्शिका](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 Aspose.PDF का उपयोग करके PDF में पारदर्शिता लागू करें और आयत आकृति बनाएं। C# कोड उदाहरण के साथ सीखें।
-### [.NET के लिए Aspose.PDF का उपयोग करके PDF में अपारदर्शिता बदलें: एक चरण-दर-चरण मार्गदर्शिका](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+
+### [Aspose.Pdf का उपयोग करके PDF में पारदर्शिता कैसे सेट करें](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Aspose.Pdf का उपयोग करके PDF में पारदर्शिता सेट करने की चरण‑दर‑गाइड।
+
+### [.NET के लिए Aspose.PDF का उपयोग करके PDF में अपारदर्शिता बदलें: एक चरण-दर-स्तर मार्गदर्शिका](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 
 ### [.NET के लिए Aspose.PDF के साथ कुशल PDF छवि पहचान](./master-image-identification-aspose-pdf-net/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF में ग्रेस्केल और RGB छवियों की पहचान करना सीखें। यह ट्यूटोरियल इंस्टॉलेशन, इमेज एक्सट्रैक्शन और प्रदर्शन युक्तियों को कवर करता है।
@@ -121,7 +128,7 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 .NET के लिए Aspose.PDF का उपयोग करके अपने PDF में विशिष्ट पृष्ठों पर छवि स्टैम्प जोड़ना सीखें। ब्रांडिंग, वॉटरमार्किंग को बेहतर बनाएँ या दस्तावेज़ों को कुशलतापूर्वक वैयक्तिकृत करें।
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में इमेज स्टैम्प कैसे जोड़ें: एक व्यापक गाइड](./add-image-stamp-pdf-aspose-dotnet/)
-.NET के लिए Aspose.PDF का उपयोग करके अपने PDF में लोगो या वॉटरमार्क जैसे इमेज स्टैम्प जोड़ना सीखें। यह गाइड सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करती है।
+.NET के लिए Aspose.PDF का उपयोग करके अपने PDF में लोगो या वॉटरमार्क जैसे इमेज स्टैम्प जोड़ना सीखें। यह गाइड सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करता है।
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को PNG छवियों में कैसे परिवर्तित करें](./convert-pdf-page-to-png-aspose-dotnet/)
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में डैश्ड लाइन्स कैसे बनाएं: एक चरण-दर-स्तर मार्गदर्शिका](./create-dashed-lines-aspose-pdf-net/)
@@ -207,7 +214,8 @@ Aspose.PDF का उपयोग करके PDF में कस्टम Ext
 ### [C# के साथ Aspose.PDF का उपयोग करके PDF में आयत कैसे जोड़ें](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 C# में Aspose.PDF का उपयोग करके PDF दस्तावेज़ में आयत जोड़ने की चरण‑दर‑स्टेप गाइड।
 
-### [.NET के लिए Aspose.PDF का उपयोग करके ग्राफ़िक्स स्टेट PDF जोड़ें: एक चरण-दर-स्टेप मार्गदर्शिका](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+### [.NET के लिए Aspose.PDF के साथ PDF ग्राफ़िक्स स्टेट जोड़ें: एक चरण-दर-स्टेप मार्गदर्शिका](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+### [C# के साथ Aspose.Pdf का उपयोग करके PDF ग्राफ़िक्स स्टेट बनाना](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
 
 ## अतिरिक्त संसाधन
 

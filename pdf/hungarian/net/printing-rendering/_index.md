@@ -57,6 +57,9 @@ Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#‑ban az Aspose
 ### [PDF konvertálása nyomtatáshoz az Aspose.PDF segítségével – lépésről lépésre útmutató](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhatja a PDF fájlokat nyomtatásra optimalizált formátumba az Aspose.PDF .NET segítségével.
 
+### [PDF konvertálása PDF/X‑1A formátumba és egyedi ICC profil hozzáadása C#‑ban](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+Tanulja meg, hogyan konvertálhat PDF-et PDF/X‑1A szabványba, és adhat hozzá egyedi ICC profilt C#‑ban az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

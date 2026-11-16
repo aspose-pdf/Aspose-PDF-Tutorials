@@ -56,6 +56,9 @@
 تعلم كيفية تحويل ملفات PDF إلى صور PNG أو HTML وإضافة الختم باستخدام Aspose.PDF لـ .NET في C# خطوة بخطوة.
 ### [تحويل PDF للطباعة باستخدام Aspose.PDF – دليل خطوة بخطوة](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 
+### [تحويل PDF إلى PDF/X‑1A وإضافة ملف تعريف ICC مخصص في C#](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+تعلم كيفية تحويل مستند PDF إلى صيغة PDF/X‑1A وإرفاق ملف تعريف ICC مخصص باستخدام Aspose.PDF لـ .NET في C#.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

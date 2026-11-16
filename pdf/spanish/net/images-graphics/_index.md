@@ -47,6 +47,9 @@ Aprenda a agregar rectángulos a documentos PDF usando Aspose.PDF para .NET con 
 ### [Cómo establecer la transparencia en un PDF con Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Aprenda a aplicar transparencias en documentos PDF usando Aspose.Pdf con C# paso a paso.
 
+### [Cómo establecer la transparencia en un PDF usando Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Aprenda a establecer la transparencia en un PDF usando Aspose.Pdf con C# paso a paso.
+
 ### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
 ### [Cómo añadir estado de gráficos PDF y controlar la transparencia con Aspose.PDF: guía paso a paso](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
@@ -183,6 +186,9 @@ Aprenda a reemplazar imágenes en documentos PDF de forma eficiente con Aspose.P
 Aprenda a reemplazar imágenes en documentos PDF de forma eficiente con Aspose.PDF para .NET. Optimice las actualizaciones de sus documentos con esta completa guía para desarrolladores.
 ### [Cómo configurar el tamaño de una imagen en un PDF usando Aspose.PDF para .NET](./set-image-size-pdf-aspose-dotnet/)
 Aprenda a ajustar el tamaño de las imágenes en archivos PDF con Aspose.PDF para .NET, perfecto para crear documentos y presentaciones profesionales.
+
+### [Cómo crear estado gráfico PDF en C# con Aspose.Pdf](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+Aprenda a crear y aplicar el estado gráfico en documentos PDF usando Aspose.Pdf con C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -167,13 +167,13 @@ Aspose.PDF Net 程式碼教學
 ### [如何使用 Aspose.PDF .NET 從 PDF 中擷取影像（逐步指南）](./extract-images-pdf-aspose-net/)
 透過本綜合指南了解如何使用 Aspose.PDF .NET 從 PDF 檔案高效提取影像。非常適合需要精確影像擷取的開發人員。
 
-### [如何使用 Aspose.PDF for .NET 從 PDF 中擷取影像：開發人員指南](./extract-images-from-pdf-aspose-net-guide/)
+### [如何使用 Aspose.PDF for .NET 從 PDF 中擷取影像：開發人員指南](./extract-images-from-pdf-aspose-pdf-net-guide/)
 透過這份全面的開發人員指南，了解如何使用 Aspose.PDF for .NET 輕鬆地從 PDF 文件中擷取影像。立即增強您的文件處理工作流程。
 
-### [如何使用 Aspose.PDF for .NET 從 PDF 擷取影像：逐步指南](./extract-images-aspose-pdf-dot-net-guide/)
+### [如何使用 Aspose.PDF for .NET 從 PDF 中擷取影像：逐步指南](./extract-images-aspose-pdf-dot-net-guide/)
 透過本綜合指南（包含程式碼範例和最佳實務）了解如何使用 Aspose.PDF for .NET 從 PDF 檔案高效提取影像。
 
-### [如何使用 Aspose.PDF for .NET 從 PDF 擷取影像：逐步指南](./extract-images-aspose-pdf-net-guide/)
+### [如何使用 Aspose.PDF for .NET 從 PDF 中擷取影像：逐步指南](./extract-images-aspose-pdf-net-guide/)
 透過本綜合指南了解如何使用 Aspose.PDF for .NET 從 PDF 文件中擷取影像。非常適合希望增強文件處理能力的開發人員。
 
 ### [如何使用 Aspose.PDF for .NET 從 PDF 的特定頁面擷取影像](./extract-images-pdfs-specific-pages-aspose-dotnet/)
@@ -220,6 +220,12 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 在 C# 中新增圖形狀態 PDF：逐步指南](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 了解如何在 C# 中使用 Aspose.PDF 設定圖形狀態，以控制 PDF 的渲染效果。
+
+### [如何在 C# 中使用 Aspose.PDF 為 PDF 新增圖形狀態](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
+了解如何在 C# 中使用 Aspose.Pdf 建立 PDF 圖形狀態，以控制渲染效果。
+
+### [如何使用 Aspose.Pdf 在 PDF 中設定透明度](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+了解如何使用 Aspose.Pdf 在 PDF 中設定透明度，以提升文件的視覺效果。
 
 ## 其他資源
 

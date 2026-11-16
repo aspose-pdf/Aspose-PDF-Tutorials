@@ -52,10 +52,15 @@ Aspose.PDF for .NET kullanarak PDF belgelerinde özel bir yakınlaştırma fakt�
 
 ### [C#'ta PDF Render Etme – PNG, HTML ve Damgalama İçin Tam Kılavuz](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 C# kullanarak Aspose.PDF ile PDF'leri PNG, HTML formatına dönüştürmeyi ve damgalama işlemlerini adım adım öğrenin.
+
 ### [C# ile PDF'yi PNG Olarak İşleme – Adım Adım Kılavuz](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 C# ve Aspose.PDF for .NET kullanarak PDF dosyalarını PNG görüntülerine dönüştürmeyi adım adım öğrenin.
+
 ### [Aspose.PDF ile Yazdırma İçin PDF Dönüştürme – Adım Adım Kılavuz](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF kullanarak PDF dosyalarını yazdırma için nasıl dönüştüreceğinizi adım adım öğrenin.
+
+### [PDF'yi PDF/X‑1A'ye Dönüştürün ve C#'ta Özel Bir ICC Profili Ekleyin](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+C# kullanarak PDF dosyalarını PDF/X‑1A formatına dönüştürmeyi ve özel bir ICC profili eklemeyi öğrenin.
 
 ## Ek Kaynaklar
 

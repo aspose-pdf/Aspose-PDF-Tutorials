@@ -57,6 +57,9 @@
 ### [Конвертировать PDF для печати с помощью Aspose.PDF – пошаговое руководство](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 Узнайте, как преобразовать PDF в формат, оптимизированный для печати, используя возможности Aspose.PDF в .NET.
 
+### [Конвертировать PDF в PDF/X‑1A и добавить пользовательский ICC‑профиль в C#](./convert-pdf-to-pdf-x-1a-and-add-a-custom-icc-profile-in-c/)
+Узнайте, как конвертировать PDF в формат PDF/X‑1A и добавить пользовательский ICC‑профиль с помощью Aspose.PDF для .NET в C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)
