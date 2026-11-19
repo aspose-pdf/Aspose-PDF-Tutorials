@@ -297,6 +297,8 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang HTML và lo
 Hướng dẫn tạo PDF, chèn hình chữ nhật và lưu dưới dạng HTML bằng Aspose.PDF cho .NET.
 ### [Lưu PDF dưới dạng HTML với Aspose.PDF – hướng dẫn từng bước](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu PDF dưới dạng HTML bằng Aspose.PDF trong .NET, bao gồm các tùy chọn cấu hình và ví dụ mã.
+### [Cách lưu PDF dưới dạng HTML trong C# đồng thời bảo toàn vector](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+Hướng dẫn lưu PDF thành HTML trong C# mà vẫn giữ nguyên các phần tử vector, đảm bảo chất lượng và khả năng mở rộng.
 
 ## Tài nguyên bổ sung
 

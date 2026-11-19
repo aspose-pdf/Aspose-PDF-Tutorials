@@ -115,6 +115,9 @@ Un tutorial de código para Aspose.PDF Net
 ### [Cómo cambiar la opacidad en un PDF con Aspose.PDF para .NET: guía paso a paso](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 Aprenda a modificar la opacidad de elementos en archivos PDF usando Aspose.PDF para .NET con ejemplos de código C#.
 
+### [Cómo establecer la opacidad en un PDF y cambiar el modo de fusión con Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+Aprenda a establecer la opacidad y a cambiar el modo de fusión en documentos PDF usando Aspose.Pdf para .NET.
+
 ### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aprenda
 

@@ -97,9 +97,9 @@ Lär dig hur du exporterar den första sidan i en PDF till PNG med 300 DPI med
 ### [Hur man renderar PDF till PNG med Aspose – Komplett guide](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 Lär dig hur du konverterar PDF-filer till PNG-bilder med Aspose i en komplett steg-för-steg-guide.
 ### [Konvertera docx till png i C# – Komplett guide](./convert-docx-to-png-in-c-complete-guide/)
-Lär dig hur du konverterar DOCX-filer till PNG-bilder i C# med Aspose.PDF för .NET i en komplett steg-för-steg-guide.
+Lär dig hur du konverterar DOCX-filer till PNG-bilder i C# med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide.
 ### [Konvertera PDF-sida till PNG – Komplett Aspose.PDF-guide](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
-Lär dig hur du konverterar en PDF-sida till PNG-bilder med Aspose.PDF för .NET i en komplett steg-för-steg-guide.
+Lär dig hur du konverterar en PDF-sida till PNG-bilder med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide.
 ### [Rendera PDF-sidor som PNG-bilder – komplett Aspose.PDF-guide](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
 Lär dig steg-för-steg hur du renderar PDF-sidor till PNG-bilder med Aspose.PDF för .NET i en komplett guide.
 
@@ -254,7 +254,7 @@ Lär dig hur du snabbt konverterar PDF till HTML i C# med Aspose.Pdf.
 Lär dig hur du konverterar PDF till HTML med Aspose.PDF i C#, steg för steg med kodexempel.
 
 ### [Spara PDF som HTML med Aspose.Pdf – Komplett C#-guide](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
-Lär dig hur du sparar PDF som HTML med Aspose.Pdf i C# med en komplett steg-för-steg-guide.
+Lär dig hur du sparar PDF som HTML med Aspose.Pdf i C# med en komplett steg‑för‑steg‑guide.
 ### [Aspose PDF till HTML: Komplett guide för att konvertera PDF-filer och ta bort bilder](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Lär dig hur du konverterar PDF till HTML och tar bort bilder med Aspose.PDF i .NET.
 
@@ -290,13 +290,16 @@ Lär dig hur du sparar PDF‑filer med Aspose i .NET med tydliga steg‑för‑s
 Lär dig hur du konverterar PDF‑filer till PNG‑bilder i C# med Aspose.PDF, steg för steg med kodexempel.
 ### [Spara PDF som HTML med Aspose.PDF – Snabb C#-guide](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Lär dig snabbt hur du sparar PDF som HTML med Aspose.PDF i C#.
-### [Konvertera PDF till HTML och verifiera PDF-signatur – Fullständig Aspose .NET-guide](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+### [Hur man exporterar PDF till HTML i C# – Komplett Aspose-guide](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Lär dig steg-för-steg hur du exporterar PDF-filer till HTML med Aspose.PDF i C# med en komplett guide.
 ### [Hur man exporterar PDF till HTML i C# – Komplett Aspose-guide](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Lär dig steg-för-steg hur du exporterar PDF-filer till HTML med Aspose.PDF i C# med en komplett guide.
 ### [Konvertera docx till html i C# – Komplett programmeringsguide](./convert-docx-to-html-in-c-complete-programming-guide/)
 Lär dig hur du konverterar DOCX-filer till HTML med Aspose.PDF för .NET i C# med steg-för-steg-exempel.
 ### [Spara PDF som HTML – Skapa PDF, lägg till rektangel](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 ### [Spara PDF som HTML med Aspose.PDF – steg‑för‑steg‑guide](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+
+### [Hur man sparar PDF som HTML i C# samtidigt som vektorer bevaras](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
 
 ## Ytterligare resurser
 

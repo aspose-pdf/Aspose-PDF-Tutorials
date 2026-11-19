@@ -147,18 +147,12 @@
 
 
 
-
-
-
-
 ### [Как экспортировать PDF в HTML на C# – Полное руководство Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Узнайте, как экспортировать PDF в HTML с помощью Aspose.PDF для .NET на C#, следуя полному пошаговому руководству.
 ### [Преобразование PDF в HTML на C# – Полное пошаговое руководство](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 Узнайте, как преобразовать PDF в HTML на C# с помощью Aspose.PDF, следуя подробному пошаговому руководству и примерам кода.
 ### [Сохранить PDF без изображений – преобразовать PDF в HTML с помощью Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
 Узнайте, как сохранять PDF без включения изображений, преобразуя его в HTML с помощью Aspose.PDF для .NET.
-
-
 
 
 
@@ -332,8 +326,12 @@
 Краткое руководство по сохранению PDF в HTML с использованием Aspose.PDF и C#.
 ### [Сохранить PDF как HTML с C# – Полное пошаговое руководство](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Подробное руководство по сохранению PDF в HTML с помощью C#, охватывающее настройки, параметры и примеры кода.
+### [Как отобразить PDF в PNG на C# – Полное руководство](./how-to-render-pdf-to-png-in-c-complete-guide/)
+Подробное руководство по преобразованию PDF в PNG в C# с использованием Aspose.PDF, включая примеры кода и оптимизацию качества.
 ### [Как отслеживать ход преобразования PDF-файла с помощью Aspose.PDF для .NET: пошаговое руководство](./track-pdf-conversion-progress-aspose-dotnet/)
 Узнайте, как эффективно отслеживать процесс преобразования PDF с помощью Aspose.PDF для .NET. Следуйте этому пошаговому руководству, чтобы улучшить рабочие процессы документов и улучшить обратную связь с пользователями.
+
+### [Как сохранить PDF как HTML в C# с сохранением векторов](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

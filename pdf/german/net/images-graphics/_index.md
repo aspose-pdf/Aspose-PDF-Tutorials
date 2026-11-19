@@ -154,6 +154,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF h
 ### [Wie Sie die Deckkraft in einem PDF mit Aspose.Pdf für .NET ändern](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Deckkraft von Elementen in PDFs anpassen.
 
+### [Wie man die Deckkraft in einem PDF festlegt und den Mischmodus mit Aspose.Pdf ändert](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+
 ### [So fügen Sie mit Aspose.PDF für .NET ein Rechteck zu PDF hinzu](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
 ### [So fügen Sie mit Aspose.PDF für .NET ein Rechteck zu PDF in C# hinzu](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF hinzufügen.

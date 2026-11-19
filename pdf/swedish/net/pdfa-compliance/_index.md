@@ -34,6 +34,9 @@ Lär dig hur du skapar tillgängliga taggade PDF-dokument och validerar deras ef
 ### [Hur man konverterar PDF-filer till PDF/X-4 med Aspose.PDF för .NET: Steg-för-steg-guide](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Lär dig hur du konverterar vanliga PDF-dokument till det robusta PDF/X-4-formatet med Aspose.PDF för .NET. Den här guiden täcker installation, implementering och felsökning.
 
+### [Aspose.PDF spara som PDF/X‑4: steg‑för‑steg‑guide](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Lär dig hur du sparar PDF-filer som PDF/X‑4 med Aspose.PDF .NET i en detaljerad steg‑för‑steg‑guide.
+
 ### [Konvertera PDF till PDF/X-1A – Så skapar du PDF/X-1A-dokument](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
 Lär dig hur du konverterar PDF-filer till PDF/X-1A-formatet med Aspose.PDF för .NET, inklusive steg-för-steg-instruktioner och kodexempel.
 

@@ -23,6 +23,7 @@
 - 
 
 {{< tutorial-card link="./encrypt-pdf/" title="เข้ารหัส PDF ด้วยรหัสผ่านผู้ใช้และเจ้าของโดยใช้ Aspose.PDF for .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+{{< tutorial-card link="./validate-pdf-signature-in-c-complete-aspose-pdf-guide/" title="ตรวจสอบลายเซ็น PDF ด้วย C# – คู่มือ Aspose.Pdf ฉบับสมบูรณ์" imgSrc="./validate-pdf-signature-in-c-complete-aspose-pdf-guide/images/thumb.png" >}}
 
 - [เปลี่ยนรหัสผ่านในไฟล์ PDF](./change-password/) | เรียนรู้วิธีเปลี่ยนรหัสผ่าน PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนของเราจะพาคุณผ่านขั้นตอนต่างๆ อย่างปลอดภัย -  
 | [ถอดรหัสไฟล์ PDF](./decrypt/) | เรียนรู้วิธีถอดรหัสไฟล์ PDF อย่างปลอดภัยโดยใช้ Aspose.PDF สำหรับ .NET รับคำแนะนำทีละขั้นตอนเพื่อพัฒนาทักษะการจัดการเอกสารของคุณ -  

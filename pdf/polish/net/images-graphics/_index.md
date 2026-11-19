@@ -61,6 +61,9 @@ Dowiedz się, jak dodawać kształty do dokumentów PDF przy użyciu Aspose.PDF 
 ### [Ustaw przezroczystość PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak ustawić przezroczystość w dokumentach PDF przy użyciu Aspose.PDF w C#.
 
+### [Jak ustawić przezroczystość w PDF i jak zmienić tryb mieszania przy użyciu Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+Dowiedz się, jak ustawić przezroczystość i zmienić tryb mieszania w pliku PDF przy użyciu Aspose.Pdf.
+
 ### [Efektywna identyfikacja obrazów PDF z Aspose.PDF dla .NET](./master-image-identification-aspose-pdf-net/)
 Dowiedz się, jak identyfikować obrazy w skali szarości i RGB w plikach PDF za pomocą Aspose.PDF dla .NET. Ten samouczek obejmuje instalację, ekstrakcję obrazu i wskazówki dotyczące wydajności.
 
@@ -202,7 +205,7 @@ Dowiedz się, jak w C# dodać przezroczystość do plików PDF przy użyciu Aspo
 ### [Jak dodać przezroczystość do PDF przy użyciu Aspose.PDF w C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Dowiedz się, jak dodać przezroczystość do plików PDF w C# przy użyciu Aspose.PDF.
 
-### [Jak ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf w C#](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+### [Jak ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf w C#](./how-to-set-transparency-in-a-pdf-using-aspose-pdf-in-c/)
 Dowiedz się, jak w C# ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf.
 
 ### [Jak ustawić przezroczystość w PDF przy użyciu Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)

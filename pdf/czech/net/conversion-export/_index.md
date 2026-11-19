@@ -46,6 +46,9 @@ Naučte se, jak převádět PDF soubory do interaktivních formátů HTML pomoc�
 ### [Uložení PDF jako HTML – Vytvořte PDF a přidejte obdélníkový tvar](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
 Naučte se, jak uložit PDF jako HTML a přidat do PDF obdélníkový tvar pomocí Aspose.PDF pro .NET.
 
+### [Jak uložit PDF jako HTML v C# při zachování vektorů](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+Naučte se uložit PDF jako HTML v C# a zachovat vektorovou grafiku.
+
 ### [Převod tabulek z Excelu do PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-excel-to-pdf-aspose-dotnet/)
 Naučte se, jak efektivně převádět excelové listy do tabulek PDF pomocí nástroje Aspose.PDF pro .NET. Tato příručka obsahuje podrobné pokyny a základní tipy.
 ### [Převod Markdownu do PDF v .NET pomocí Aspose.PDF: Komplexní průvodce](./convert-markdown-pdf-aspose-net-tutorial/)

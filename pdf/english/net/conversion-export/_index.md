@@ -29,6 +29,9 @@ pdfDoc.Save("output.docx", saveOptions);
 ```
 
 ## Available Tutorials
+### [How to save PDF as HTML in C# while preserving vectors](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+
+
 
 ### [Advanced PDF to Excel Conversion: Master Aspose.PDF for .NET Techniques]({{< relref "aspose-pdf-net-convert-pdfs-to-excel.md" >}})
 Learn advanced techniques for converting PDFs to Excel using Aspose.PDF for .NET, streamline data extraction, and optimize productivity.

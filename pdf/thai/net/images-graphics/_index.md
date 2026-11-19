@@ -183,7 +183,7 @@
 ### [วิธีการแยกภาพจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./extract-images-aspose-pdf-net-guide/)
 เรียนรู้วิธีการดึงภาพจากเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือที่ครอบคลุมนี้ เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงความสามารถในการประมวลผลเอกสาร
 
-### [วิธีการแยกภาพจากหน้าเฉพาะของ PDF โดยใช้ Aspose.PDF สำหรับ .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
+### [วิธีการแยกภาพจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
 เรียนรู้วิธีการดึงภาพจากหน้าเฉพาะใน PDF อย่างมีประสิทธิภาพด้วย Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงเคล็ดลับการตั้งค่า การใช้งาน และประสิทธิภาพการทำงาน
 
 ### [วิธีแยกข้อมูลหน้า PDF และเรนเดอร์รูปภาพด้วย Aspose.PDF สำหรับ .NET (คู่มือปี 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
@@ -235,8 +235,11 @@
 ### [วิธีเปลี่ยนความทึบแสงใน PDF ด้วย Aspose.PDF สำหรับ .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 เรียนรู้วิธีปรับความทึบแสงของวัตถุใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 
-### [เพิ่มกราฟิกสเตตใน PDF ด้วย Aspose.Pdf ใน C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
-เรียนรู้วิธีจัดการสถานะกราฟิกใน PDF ด้วย Aspose.Pdf สำหรับ .NET ผ่านตัวอย่างโค้ด C#
+### [วิธีตั้งค่าความทึบแสงใน PDF และวิธีเปลี่ยนโหมดผสมด้วย Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+เรียนรู้วิธีกำหนดความทึบแสงและเปลี่ยนโหมดผสมของวัตถุใน PDF ด้วย Aspose.Pdf
+
+### [เพิ่ม ExtGState ไปยัง PDF ด้วย Aspose.PDF สำหรับ .NET – คู่มือฉบับสมบูรณ์](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+เรียนรู้วิธีการใช้ ExtGState เพื่อควบคุมความโปร่งใสและการเรนเดอร์ใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

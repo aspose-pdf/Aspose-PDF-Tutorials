@@ -84,7 +84,7 @@ Apprenez à convertir des PDF en HTML avec Aspose.PDF pour .NET tout en préserv
 Apprenez à enregistrer des fichiers PDF au format HTML en C# avec Aspose, en suivant un guide complet pas à pas.
 
 ### [Enregistrer un PDF en HTML avec C# – Guide complet étape par étape](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
-Apprenez à enregistrer des PDF au format HTML en C# avec Aspose, grâce à un guide complet étape par étape.
+Apprenez à enregistrer des PDF au format HTML en C# avec Aspose, grâce à un guide complet étape à étape.
 
 ### [Convertir un PDF en HTML avec des dimensions personnalisées à l'aide d'Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
@@ -94,6 +94,10 @@ Découvrez comment convertir des documents PDF au format HTML à l’aide d’As
 
 ### [Enregistrer un PDF en HTML avec Aspose.PDF – Guide complet C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Apprenez à convertir des PDF en HTML avec Aspose.PDF en C#, incluant des astuces pour une conversion précise et personnalisée.
+
+### [Comment enregistrer un PDF en HTML en C# tout en préservant les vecteurs](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+Apprenez à enregistrer un PDF au format HTML en C# tout en conservant les graphiques vectoriels.
+
 ### [Aspose PDF vers HTML : Guide complet pour convertir les PDF et supprimer les images](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Apprenez à convertir des PDF en HTML tout en supprimant les images indésirables avec Aspose.PDF pour .NET.
 
@@ -178,7 +182,7 @@ Apprenez à recadrer des zones spécifiques d'une page PDF et à les convertir e
 Découvrez comment exporter efficacement des données d'applications au format PDF avec Aspose.PDF pour .NET. Ce guide présente la configuration, des exemples de code en C# et les fonctionnalités clés.
 
 ### [Exporter des annotations PDF avec Aspose.PDF .NET : un guide complet](./export-annotations-aspose-pdf-net/)
-Découvrez comment exporter efficacement des annotations à partir de PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et les bonnes pratiques.
+Découvrez comment exporter efficacement des annotations à partir de PDF avec Aspose.PDF .NET. Ce guide couvre la configuration, la mise en œuvre et les bonnes pratiques.
 
 ### [Exporter des données PDF au format XML avec Aspose.PDF pour .NET : guide étape par étape](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Découvrez comment exporter efficacement les données de formulaire PDF en XML structuré à l'aide d'Aspose.PDF pour .NET, une bibliothèque puissante conçue pour la manipulation de PDF.

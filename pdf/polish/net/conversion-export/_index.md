@@ -92,8 +92,8 @@ Kompletny przewodnik w C# pokazujący, jak zapisać plik PDF jako HTML przy uży
 ### [Zapisz PDF jako HTML przy użyciu C# – Kompletny przewodnik krok po kroku](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Dowiedz się, jak zapisać plik PDF jako HTML w C#, korzystając z Aspose.PDF, krok po kroku z przykładami kodu.
 
-### [Konwertuj PDF do HTML z niestandardowymi adresami URL obrazów za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
-Dowiedz się, jak konwertować dokumenty PDF do formatu HTML za pomocą Aspose.PDF dla platformy .NET, m.in. jak dostosowywać adresy URL obrazów i wdrażać dostosowaną strategię oszczędzania zasobów.
+### [Konwertuj PDF do HTML z niestandardowymi adresami URL obrazów przy użyciu Aspose.PDF .NET: kompleksowy przewodnik](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
+Dowiedz się, jak konwertować dokumenty PDF do formatu HTML przy użyciu Aspose.PDF dla platformy .NET, m.in. jak dostosowywać adresy URL obrazów i wdrażać dostosowaną strategię oszczędzania zasobów.
 
 ### [Jak wyeksportować PDF do HTML w C# – Kompletny przewodnik Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Dowiedz się, jak w C# wyeksportować plik PDF do HTML przy użyciu Aspose.PDF, krok po kroku, z przykładami kodu.
@@ -305,13 +305,9 @@ Dowiedz się, jak zapisać plik PDF jako HTML przy użyciu Aspose.PDF w .NET.
 ### [Zapisz PDF jako HTML i konwertuj do PDF/X‑4 za pomocą Aspose.PDF w C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 Dowiedz się, jak zapisać plik PDF jako HTML i następnie przekonwertować go do formatu PDF/X‑4 przy użyciu Aspose.PDF w C#.
 
-## Dodatkowe zasoby
+### [Jak zapisać PDF jako HTML w C# zachowując wektory](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+Dowiedz się, jak w C# zapisać PDF jako HTML, zachowując elementy wektorowe, przy użyciu Aspose.PDF.
 
-- [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)
-- [Aspose.PDF dla Net API Reference](https://reference.aspose.com/pdf/net/)
-- [Pobierz Aspose.PDF dla Net](https://releases.aspose.com/pdf/net/)
-- [Bezpłatne wsparcie](https://forum.aspose.com/)
-- [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 ### [Konwersja PDF do PNG za pomocą Aspose.PDF .NET: Ulepszone wskazówki dotyczące czcionek w celu uzyskania ostrego renderowania tekstu](./convert-pdf-png-aspose-net-font-hinting/)
 Dowiedz się, jak konwertować dokumenty PDF na wysokiej jakości obrazy PNG za pomocą Aspose.PDF .NET, zapewniając ostre renderowanie tekstu dzięki podpowiedziom dotyczącym czcionek.
 

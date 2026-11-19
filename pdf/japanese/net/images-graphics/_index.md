@@ -227,6 +227,8 @@ Aspose.PDF for .NET を利用し、C# でグラフィックスステートを操
 ### [C# で Aspose.Pdf を使用してグラフィックスステート PDF を追加する](./add-graphics-state-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 ### [C# で Aspose.Pdf を使用して PDF グラフィックスステートを作成する方法](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
 
+### [Aspose.PDF for .NET を使用して PDF の不透明度を設定し、ブレンドモードを変更する方法](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

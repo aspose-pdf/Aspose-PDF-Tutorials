@@ -17,6 +17,9 @@ Découvrez comment enrichir vos documents PDF avec des éléments visuels grâce
 
 ## Tutoriels disponibles
 
+### [How to set opacity in a PDF and how to change blend mode with Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+
+
 ### [Ajouter des tampons d'image aux fichiers PDF à l'aide d'Aspose.PDF pour .NET : guide étape par étape](./add-image-stamp-to-pdf-aspose-dotnet/)
 Découvrez comment ajouter facilement des tampons d'image, tels que des logos, à chaque page d'un PDF avec Aspose.PDF pour .NET. Améliorez vos documents avec une image de marque professionnelle.
 

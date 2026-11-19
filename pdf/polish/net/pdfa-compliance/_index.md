@@ -55,6 +55,9 @@ Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/A przy użyciu Aspo
 ### [Jak ustawić ICC w Aspose PDF – Kompletny przewodnik C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
 Pełny przewodnik, jak skonfigurować profil ICC w dokumentach PDF przy użyciu Aspose.PDF w C#.
 
+### [Aspose.PDF zapisz jako PDF/X‑4: przewodnik krok po kroku](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Dowiedz się, jak zapisać dokumenty jako PDF/X‑4 przy użyciu Aspose.PDF w .NET.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

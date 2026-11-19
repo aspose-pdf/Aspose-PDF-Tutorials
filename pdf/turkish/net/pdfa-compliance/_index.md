@@ -54,6 +54,9 @@ C# ve Aspose.PDF kullanarak PDF dosyalarını PDF/A formatına hızlı ve basit 
 ### [Aspose PDF'de ICC Ayarlama – Tam C# Kılavuzu](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
 Aspose PDF ile ICC profili ayarlamayı ve renk yönetimini C# kodu ile adım adım öğrenin.
 
+### [Aspose.PDF ile PDF/X-4 Olarak Kaydet: Adım Adım Kılavuz](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Aspose.PDF kullanarak PDF dosyalarını PDF/X-4 formatına nasıl kaydedeceğinizi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

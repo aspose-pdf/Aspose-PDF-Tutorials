@@ -75,6 +75,8 @@
 ### [Как установить прозрачность в PDF с помощью Aspose.PDF](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 Узнайте, как применять прозрачность к элементам PDF‑документов с помощью Aspose.PDF в C#.
 
+### [Как установить непрозрачность в PDF и изменить режим наложения с Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+
 ### [Эффективная идентификация изображений PDF с помощью Aspose.PDF для .NET](./master-image-identification-aspose-pdf-net/)
 Узнайте, как определить изображения в оттенках серого и RGB в PDF-файлах с помощью Aspose.PDF для .NET. В этом руководстве рассматриваются вопросы установки, извлечения изображений и советы по производительности.
 

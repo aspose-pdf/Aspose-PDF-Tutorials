@@ -35,6 +35,9 @@ Aprenda a criar documentos PDF marcados e acessíveis e validar sua conformidade
 ### [Como converter PDFs para PDF/X-4 usando Aspose.PDF para .NET: guia passo a passo](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Aprenda a converter documentos PDF padrão para o robusto formato PDF/X-4 usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e solução de problemas.
 
+### [Aspose.PDF .NET: salvar como PDF/X-4 – guia passo a passo](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Aprenda a salvar documentos como PDF/X-4 usando Aspose.PDF .NET com este guia passo a passo.
+
 ### [Converter PDF para PDF/X-1A – Como criar documento PDF/X-1A](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
 Aprenda a converter PDFs para o formato PDF/X-1A usando Aspose.PDF para .NET, com instruções passo a passo e exemplos de código.
 

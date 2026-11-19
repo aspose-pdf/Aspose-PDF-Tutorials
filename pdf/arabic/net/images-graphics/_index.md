@@ -52,6 +52,8 @@
 
 ### [كيفية إضافة الشفافية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 ### [كيفية تعيين الشفافية في ملف PDF باستخدام Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+### [كيفية تعيين الشفافية في ملف PDF وكيفية تغيير وضع المزج باستخدام Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+تعرّف على كيفية تعيين الشفافية وتغيير وضع المزج للعناصر في ملفات PDF باستخدام Aspose.Pdf خطوة بخطوة.
 
 ### [التعرف على صور PDF بكفاءة باستخدام Aspose.PDF لـ .NET](./master-image-identification-aspose-pdf-net/)
 تعرّف على كيفية تحديد صور تدرجات الرمادي وألوان RGB في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي التثبيت، واستخراج الصور، ونصائح الأداء.
