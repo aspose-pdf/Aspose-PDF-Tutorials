@@ -1,0 +1,7 @@
+Title: How to set opacity in a PDF and how to change blend mode with Aspose.Pdf
+Slug: how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit
+Category: images-graphics
+ProcessedDate: 2026-11-19T14:58:29.931445
+SourceRepo: AI Search API
+Keywords: how to set opacity, how to change blend
+PRNumber: 179
