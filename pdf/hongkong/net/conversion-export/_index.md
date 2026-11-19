@@ -17,6 +17,9 @@
 
 ## 可用教程
 
+### [How to save PDF as HTML in C# while preserving vectors](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+
+
 ### [進階 PDF 到 Excel 轉換：掌握 Aspose.PDF for .NET 技術](./aspose-pdf-net-convert-pdfs-to-excel/)
 學習使用 Aspose.PDF for .NET 將 PDF 轉換為 Excel 的高級技術，簡化資料擷取並優化生產力。
 

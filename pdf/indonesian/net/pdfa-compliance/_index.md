@@ -55,6 +55,9 @@ Panduan langkah demi langkah untuk membuat PDF/A di C# dan mengonversi PDF biasa
 ### [Cara Mengatur ICC di Aspose PDF – Panduan Lengkap C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
 Panduan lengkap langkah demi langkah untuk mengatur profil ICC pada PDF menggunakan Aspose.PDF dengan C#.
 
+### [Aspose.PDF Simpan sebagai PDF/X‑4: Panduan Langkah demi Langkah](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Panduan langkah demi langkah untuk menyimpan dokumen sebagai PDF/X‑4 menggunakan Aspose.PDF untuk .NET.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

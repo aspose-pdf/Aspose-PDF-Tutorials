@@ -54,6 +54,9 @@ C# のコード例を使って、PDF をシンプルに PDF/A 形式に変換し
 ### [Aspose PDF で ICC を設定する方法 – 完全 C# ガイド](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
 Aspose.PDF で ICC プロファイルを設定し、色管理された PDF を生成する完全な C# 手順を解説します。
 
+### [Aspose.PDF を PDF/X-4 に保存する: ステップバイステップ ガイド](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Aspose.PDF Net のコードチュートリアル
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

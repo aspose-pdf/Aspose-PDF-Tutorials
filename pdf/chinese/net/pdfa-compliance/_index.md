@@ -34,6 +34,9 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X-4：分步指南](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 将标准 PDF 文档转换为强大的 PDF/X-4 格式。本指南涵盖设置、实施和故障排除。
 
+### [Aspose.PDF 将 PDF 保存为 PDF/X-4：分步指南](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+了解如何使用 Aspose.PDF 将 PDF 保存为符合 PDF/X-4 标准的文档，提供详细步骤和代码示例。
+
 ### [如何使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X-1A：创建 PDF/X-1A 文档](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
 了解如何使用 Aspose.PDF for .NET 将普通 PDF 转换为符合 PDF/X-1A 标准的文档，并提供创建步骤和代码示例。
 
@@ -48,10 +51,13 @@ Aspose.PDF Net 代码教程
 
 ### [在 C# 中创建 PDF/A 文件 – 完整转换教程](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 本教程详细演示如何使用 Aspose.PDF for .NET 在 C# 中将文档完整转换为符合 PDF/A 标准的文件。
+
 ### [如何在 C# 中创建 PDF/A – Aspose 分步指南](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/A 标准的文档，提供详细的代码示例和步骤说明。
+
 ### [如何在 C# 中创建 PDF/A – 轻松将 PDF 转换为 PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 本教程演示如何使用 Aspose.PDF for .NET 在 C# 中将普通 PDF 转换为符合 PDF/A 标准的文档，步骤简明易懂。
+
 ### [如何在 Aspose PDF 中设置 ICC – 完整 C# 指南](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
 了解如何在 Aspose.PDF 中使用 C# 设置 ICC 配置文件，以确保颜色管理的准确性。
 

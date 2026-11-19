@@ -151,85 +151,26 @@ Pelajari cara mengubah tingkat transparansi elemen dalam PDF menggunakan Aspose.
 
 ### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Menghapus Gambar dari File PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./delete-images-aspose-pdf-net/)
-Pelajari cara menghapus gambar dari file PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan praktik terbaik.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./delete-images-aspose-pdf-net-guide/)
-Pelajari cara menghapus gambar dari PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./delete-images-from-pdf-aspose-dotnet/)
-Pelajari cara menghapus semua gambar dari PDF secara efisien menggunakan Aspose.PDF for .NET, meningkatkan privasi file dan mengurangi ukuran. Ikuti panduan langkah demi langkah ini.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Mendeteksi Warna Halaman PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./detect-pdf-page-color-aspose-dotnet/)
-Pelajari cara menentukan jenis warna setiap halaman dalam PDF menggunakan Aspose.PDF untuk .NET. Tutorial langkah demi langkah ini mencakup instalasi, pengaturan, dan aplikasi praktis.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Mengekstrak Informasi Gambar dari PDF Menggunakan Aspose.PDF untuk .NET](./extract-image-info-pdf-aspose-pdf-net/)
-Pelajari cara mengekstrak dimensi dan resolusi gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Tutorial ini mencakup pengaturan, implementasi, dan aplikasi praktis.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Mengekstrak Gambar dari PDF Menggunakan Aspose.PDF .NET (Panduan Langkah demi Langkah)](./extract-images-pdf-aspose-net/)
-Pelajari cara mengekstrak gambar dari file PDF secara efisien menggunakan Aspose.PDF .NET dengan panduan lengkap ini. Sempurna untuk pengembang yang membutuhkan ekstraksi gambar yang tepat.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Mengekstrak Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Pengembang](./extract-images-from-pdf-aspose-net-guide/)
-Pelajari cara mengekstrak gambar dari dokumen PDF dengan mudah menggunakan Aspose.PDF for .NET dengan panduan pengembang yang komprehensif ini. Tingkatkan alur kerja pemrosesan dokumen Anda hari ini.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Mengekstrak Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./extract-images-aspose-pdf-dot-net-guide/)
-Pelajari cara mengekstrak gambar secara efisien dari file PDF menggunakan Aspose.PDF untuk .NET dengan panduan komprehensif ini, yang menampilkan contoh kode dan praktik terbaik.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Mengekstrak Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./extract-images-aspose-pdf-net-guide/)
-Pelajari cara mengekstrak gambar dari dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap ini. Sempurna bagi pengembang yang ingin meningkatkan kemampuan pemrosesan dokumen.
+### [Cara Mengatur Transparansi dalam PDF menggunakan Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
-### [Cara Mengekstrak Gambar dari Halaman Tertentu PDF Menggunakan Aspose.PDF untuk .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
-Pelajari cara mengekstrak gambar secara efisien dari halaman tertentu dalam PDF dengan Aspose.PDF untuk .NET. Panduan ini mencakup kiat penyiapan, penerapan, dan performa.
-
-### [Cara Mengekstrak Info Halaman PDF & Merender Gambar dengan Aspose.PDF untuk .NET (Panduan 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
-Pelajari cara mengekstrak dimensi halaman dan merender gambar dari PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, implementasi, dan aplikasi praktis.
-
-### [Cara Mengoptimalkan Gambar PDF Menggunakan Aspose.PDF untuk .NET](./optimize-pdf-images-aspose-dotnet/)
-Pelajari cara mengubah ukuran, mengompres, dan menyesuaikan kualitas gambar dalam PDF secara efisien menggunakan Aspose.PDF for .NET. Tingkatkan kinerja dokumen dan pengalaman pengguna.
-
-### [Cara Menghapus Grafik dari PDF Menggunakan Aspose.PDF .NET: Panduan Lengkap](./remove-graphics-aspose-pdf-net/)
-Pelajari cara menghapus gambar dari PDF secara efisien menggunakan Aspose.PDF for .NET. Ikuti panduan langkah demi langkah ini untuk merapikan dokumen Anda dan mengoptimalkan ukuran file.
-
-### [Cara Mengganti Gambar dalam PDF Menggunakan Aspose.PDF .NET: Panduan Pengembang](./replace-images-pdf-aspose-net-guide/)
-Pelajari cara mengganti gambar dalam dokumen PDF secara efisien menggunakan Aspose.PDF untuk .NET. Sederhanakan pembaruan dokumen Anda dengan panduan pengembang yang komprehensif ini.
-
-### [Cara Mengganti Gambar dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./replace-images-aspose-pdf-net-tutorial/)
-Pelajari cara mengganti gambar dalam dokumen PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan komprehensif ini mencakup penyiapan, penerapan, dan aplikasi praktis.
-
-### [Cara Mengatur Ukuran Gambar dalam PDF Menggunakan Aspose.PDF untuk .NET](./set-image-size-pdf-aspose-dotnet/)
-Pelajari cara menyesuaikan ukuran gambar dalam PDF dengan Aspose.PDF untuk .NET, sempurna untuk membuat dokumen dan presentasi profesional.
-
-### [Menguasai Penempatan Gambar dalam PDF Menggunakan Aspose.PDF untuk .NET](./optimize-image-placement-aspose-pdf-net/)
-Pelajari cara mengoptimalkan penempatan gambar dalam dokumen PDF dengan Aspose.PDF untuk .NET. Tingkatkan kualitas dan efisiensi dokumen dengan panduan praktis.
-
-### [Optimalkan Gambar PDF dengan Aspose.PDF untuk .NET: Panduan Lengkap](./optimize-pdf-images-aspose-pdf-dotnet/)
-Pelajari cara mengompres dan mengoptimalkan gambar dalam dokumen PDF menggunakan Aspose.PDF for .NET, mengurangi ukuran file sambil mempertahankan kualitas. Ideal untuk pengembang dan pengelola dokumen.
-
-### [Render LaTeX dalam PDF dengan Aspose.PDF .NET: Panduan Langkah demi Langkah](./render-latex-aspose-pdf-net-guide/)
-Pelajari cara merender skrip LaTeX yang kompleks menjadi dokumen PDF menggunakan Aspose.PDF untuk .NET, termasuk kiat penyiapan, penerapan, dan pengoptimalan.
-
-### [Mengatur Latar Belakang Gambar dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./aspose-pdf-net-set-image-backgrounds/)
-Pelajari cara menyempurnakan dokumen PDF Anda dengan mengatur latar belakang gambar menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
-
-### [Cara Menambahkan Bentuk ke PDF dengan Aspose.PDF di C# – Panduan Langkah demi Langkah](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Pelajari cara menambahkan bentuk ke PDF dengan Aspose.PDF untuk .NET menggunakan C#. Ikuti panduan langkah demi langkah untuk menguasai penempatan bentuk.
-### [Kompresi Gambar Tanpa Kehilangan dalam Dokumen Word – Panduan Lengkap](./lossless-image-compression-in-word-docs-complete-guide/)
-Pelajari cara mengompres gambar dalam dokumen Word secara lossless menggunakan Aspose.Words untuk .NET, menjaga kualitas tinggi sambil mengurangi ukuran file.
-### [Tutorial Overlay Gambar PDF – Tambahkan Masker & Aktifkan Pemilihan Tray Otomatis](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
-Pelajari cara menambahkan overlay gambar dengan masker serta mengaktifkan pemilihan tray otomatis pada PDF menggunakan Aspose.PDF untuk .NET.
-
-### [Cara Menggunakan GraphicsAbsorber – Ekstrak Grafik Vektor dari PDF dengan Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
-Pelajari cara mengekstrak grafik vektor dari PDF menggunakan GraphicsAbsorber di Aspose.Pdf dengan contoh kode C#.
-### [Menambahkan Persegi Panjang ke PDF dengan C# – Panduan Langkah demi Langkah](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
-Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan C# dengan Aspose.PDF, langkah demi langkah.
-
-### [Menambahkan Status Grafik PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
-Pelajari cara mengelola status grafik dalam PDF menggunakan Aspose.PDF, termasuk transparansi, komposit, dan efek lanjutan.
-### [Mengatur Opasitas PDF di C# dengan Aspose.PDF – panduan lengkap](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
-Pelajari cara mengatur tingkat transparansi halaman PDF menggunakan Aspose.PDF untuk .NET dengan C#.
-
-### [Cara Membuat State Grafik PDF di C# dengan Aspose.Pdf](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
-Pelajari cara membuat state grafik PDF menggunakan Aspose.Pdf di C# untuk mengontrol transparansi, blending, dan efek lanjutan.
+### [Cara Mengatur Opasitas dalam PDF dan Mengubah Mode Campuran dengan Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+Pelajari cara mengatur opasitas elemen PDF dan mengubah mode campuran menggunakan Aspose.Pdf dalam C#.
 
 ## Sumber Daya Tambahan
 

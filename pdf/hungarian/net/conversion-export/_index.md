@@ -17,6 +17,9 @@ Konverziós és exportálási oktatóanyagaink átfogó útmutatást nyújtanak 
 
 ## Elérhető oktatóanyagok
 
+### [How to save PDF as HTML in C# while preserving vectors](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+
+
 ### [PDF-ből Excelbe konvertálás haladó szinten: Aspose.PDF .NET technikák mesteri változata](./aspose-pdf-net-convert-pdfs-to-excel/)
 Sajátítson el haladó technikákat PDF-ek Excel formátumba konvertálásához az Aspose.PDF for .NET használatával, egyszerűsítse az adatkinyerést és optimalizálja a termelékenységet.
 

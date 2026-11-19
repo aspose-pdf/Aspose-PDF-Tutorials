@@ -17,6 +17,9 @@ Kapsamlı Aspose.PDF .NET eğitimlerimizi kullanarak PDF belgelerini görsel ö�
 
 ## Mevcut Eğitimler
 
+### [How to set opacity in a PDF and how to change blend mode with Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+
+
 ### [How to add transparency to PDF using Aspose.PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 
 ### [Aspose.Pdf kullanarak PDF'de şeffaflık ayarlama](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)

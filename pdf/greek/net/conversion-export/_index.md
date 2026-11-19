@@ -231,14 +231,10 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Αποθήκευση PDF ως HTML με το Aspose.PDF – οδηγός βήμα προς βήμα](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 Μάθετε πώς να αποθηκεύετε αρχεία PDF σε μορφή HTML χρησιμοποιώντας το Aspose.PDF με βήμα‑βήμα οδηγίες.
 
-## Πρόσθετοι Πόροι
+### [Πώς να αποθηκεύσετε PDF ως HTML σε C# ενώ διατηρείτε τα διανύσματα](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+Μάθετε πώς να αποθηκεύσετε PDF ως HTML σε C# διατηρώντας τα διανύσματα για υψηλή ποιότητα.
 
-- [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)
-- [Aspose.PDF για αναφορά Net API](https://reference.aspose.com/pdf/net/)
-- [Λήψη Aspose.PDF για το Διαδίκτυο](https://releases.aspose.com/pdf/net/)
-- [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
-- [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
-### [Αποθήκευση PDF ως HTML και μετατροπή σε PDF/X‑4 με το Aspose.PDF σε C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+### [Αποθήκευση PDF ως HTML με Aspose – Πλήρης οδηγός C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 Μάθετε πώς να αποθηκεύσετε PDF ως HTML και να το μετατρέψετε σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF σε C#.
 ### [πώς να αποθηκεύσετε HTML από PDF – Οδηγός βήμα προς βήμα](./how-to-save-html-from-pdf-step-by-step-guide/)
 Μάθετε πώς να εξάγετε HTML από αρχεία PDF με αναλυτικές οδηγίες βήμα προς βήμα.

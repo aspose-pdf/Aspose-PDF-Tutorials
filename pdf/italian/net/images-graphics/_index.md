@@ -239,6 +239,9 @@ Scopri come impostare l'opacità dei PDF usando Aspose.PDF per .NET in C#, con e
 ### [Aggiungere lo stato grafico PDF con Aspose.PDF in C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 Scopri come gestire lo stato grafico nei PDF usando Aspose.PDF per .NET con C#.
 
+### [Come impostare l'opacità in un PDF e cambiare la modalità di fusione con Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+Scopri come impostare l'opacità di elementi PDF e modificare la modalità di fusione usando Aspose.Pdf in C#.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

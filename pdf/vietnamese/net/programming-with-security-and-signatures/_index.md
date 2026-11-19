@@ -22,6 +22,8 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 
 {{< tutorial-card link="./encrypt-pdf/" title="Mã hóa PDF bằng mật khẩu Người dùng và Chủ sở hữu bằng Aspose.PDF for .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./validate-pdf-signature-in-c-complete-aspose-pdf-guide/" title="Validate PDF signature in C# – complete Aspose.Pdf guide" imgSrc="./validate-pdf-signature-in-c-complete-aspose-pdf-guide/images/thumb.png" >}}
+
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thay đổi mật khẩu trong tệp PDF](./change-password/) | Học cách thay đổi mật khẩu PDF dễ dàng bằng Aspose.PDF cho .NET. Hướng dẫn từng bước của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình này một cách an toàn. |  

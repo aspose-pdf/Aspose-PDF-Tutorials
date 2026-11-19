@@ -46,12 +46,19 @@
 
 ### [Создание PDF/A файла в C# – Полное руководство по конвертации](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 Подробное руководство по созданию PDF/A файлов в C# с полной конвертацией, включая примеры кода и шаги настройки.
+
 ### [Как создать PDF/A в C# – пошаговое руководство Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Узнайте, как с помощью Aspose.PDF для .NET создать PDF/A в C# шаг за шагом, обеспечивая архивное качество документов.
+
 ### [Конвертировать PDF в PDF/A на C# – Полное пошаговое руководство](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 Узнайте, как преобразовать PDF в PDF/A с помощью C#, следуя полному пошаговому руководству.
+
 ### [Как создать PDF/A в C# – легко конвертировать PDF в PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 Узнайте, как быстро создать PDF/A из обычного PDF в C# с помощью Aspose.PDF .NET.
+
+### [Aspose.PDF: сохранение в PDF/X‑4: пошаговое руководство](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Подробное руководство по сохранению PDF в формате PDF/X‑4 с помощью Aspose.PDF для .NET.
+
 ### [Как установить ICC в Aspose PDF – Полное руководство C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
 Узнайте, как задать профиль ICC в PDF с помощью Aspose.PDF для .NET, используя C# в полном пошаговом руководстве.
 

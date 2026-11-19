@@ -85,6 +85,12 @@
 ### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือขั้นตอนโดยขั้นตอน](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
 
+### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
+
+### [วิธีบันทึก PDF เป็น HTML ใน C# พร้อมการรักษาเวกเตอร์](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ใน C# โดยคงรูปแบบเวกเตอร์ไว้
+
 ### [แปลง PDF เป็น HTML ด้วย C# – คู่มือการเขียนโปรแกรมแบบครบถ้วน](./convert-pdf-to-html-in-c-complete-programming-guide/)
 เรียนรู้วิธีแปลง PDF เป็น HTML อย่างละเอียดด้วย C# พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่งขั้นสูง
 

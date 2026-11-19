@@ -66,7 +66,10 @@ Tanuld meg, hogyan adhatsz hozzá alakzatot PDF dokumentumokhoz Aspose.PDF for .
 ### [Átlátszóság hozzáadása PDF fájlokhoz az Aspose.PDF for .NET segítségével](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 Tanuld meg, hogyan adhat hozzá átlátszóságot PDF fájlokhoz az Aspose.PDF for .NET segítségével.
 ### [Átlátszóság módosítása PDF-ben az Aspose.Pdf for .NET használatával](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
-Tanuld meg, hogyan állíthatod be a PDF elemek átlátszóságát az Aspose.Pdf for .NET segítségével C#-ban.
+Tanulja meg, hogyan állíthatod be a PDF elemek átlátszóságát az Aspose.Pdf for .NET segítségével C#-ban.
+
+### [Átlátszóság beállítása PDF-ben és keverési mód módosítása az Aspose.Pdf segítségével](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+Ismerje meg, hogyan állíthatja be az átlátszóságot és módosíthatja a keverési módot PDF-fájlokban az Aspose.Pdf .NET könyvtárral C#-ban.
 
 ### [Hatékony PDF képfelismerés az Aspose.PDF for .NET segítségével](./master-image-identification-aspose-pdf-net/)
 Tanuld meg, hogyan azonosíthatod a szürkeárnyalatos és RGB képeket PDF-ekben az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a telepítést, a képkinyerést és a teljesítménnyel kapcsolatos tippeket ismerteti.

@@ -108,7 +108,7 @@ Un tutorial de código para Aspose.PDF Net
 Aprenda a convertir documentos PDF a formato HTML utilizando Aspose.PDF para .NET, incluida la personalización de URL de imágenes y la implementación de una estrategia personalizada de ahorro de recursos.
 
 ### [Guardar PDF como HTML usando Aspose.PDF – Guía completa en C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
-Aprenda a guardar archivos PDF como HTML con Aspose.PDF usando C# con esta guía completa.
+Aprenda a guardar archivos PDF como HTML usando Aspose-PDF en C# con esta guía completa.
 
 ### [Cómo exportar PDF a HTML en C# – Guía completa de Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Aprenda a exportar documentos PDF a HTML usando C# y Aspose.PDF con una guía paso a paso.
@@ -265,7 +265,7 @@ Aprenda a convertir archivos PDF a imágenes y a resaltar texto con Aspose.PDF p
 ### [Domine Aspose.PDF .NET: Convierta PDF a HTML con CSS personalizado](./aspose-pdf-net-license-html-conversion-custom-css/)
 Aprenda a aplicar una licencia Aspose.PDF y a convertir archivos PDF a HTML con CSS personalizado usando C#. Desbloquee todas las capacidades de procesamiento de documentos hoy mismo.
 
-### [Guardar PDF como HTML con Aspose.PDF – guía paso a paso](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+### [Guardar PDF como HTML con Aspose – guía paso a paso](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 Aprenda a guardar documentos PDF como HTML utilizando Aspose.PDF con una guía paso a paso.
 
 ### [Domine la sustitución de fuentes y la conversión de PDF con Aspose.PDF .NET para lograr conformidad y coherencia de marca](./mastering-font-substitution-pdf-conversion-asposepdf-net/)
@@ -309,6 +309,9 @@ Aprenda a renderizar archivos PDF como imágenes PNG usando C# y Aspose.PDF con 
 Aprenda a renderizar archivos PDF en imágenes PNG de alta calidad usando Aspose con esta guía paso a paso.
 ### [Guardar PDF como HTML y convertir a PDF/X‑4 con Aspose.PDF en C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 Aprenda a guardar un PDF como HTML y luego convertirlo a PDF/X‑4 usando Aspose.PDF en C#.
+
+### [Cómo guardar PDF como HTML en C# preservando vectores](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+Aprenda a guardar PDFs como HTML manteniendo los gráficos vectoriales usando Aspose.PDF en C#.
 
 ## Recursos adicionales
 

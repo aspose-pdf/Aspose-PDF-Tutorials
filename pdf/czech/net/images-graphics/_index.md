@@ -64,6 +64,9 @@ Naučte se, jak nastavit průhlednost a kreslit obdélníky v PDF dokumentech po
 ### [Nastavení průhlednosti PDF v C# pomocí Aspose.PDF – kompletní průvodce](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Naučte se, jak nastavit průhlednost PDF dokumentů v C# pomocí Aspose.PDF, včetně praktických ukázek kódu.
 
+### [Jak nastavit neprůhlednost v PDF a jak změnit režim prolnutí pomocí Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+Naučte se nastavit neprůhlednost objektů v PDF a měnit režim prolnutí pomocí Aspose.Pdf v C#.
+
 ### [Efektivní identifikace obrázků PDF s Aspose.PDF pro .NET](./master-image-identification-aspose-pdf-net/)
 Naučte se, jak identifikovat obrázky ve stupních šedi a RGB v PDF pomocí Aspose.PDF pro .NET. Tento tutoriál se zabývá instalací, extrakcí obrázků a tipy pro výkon.
 
@@ -160,7 +163,7 @@ Naučte se, jak efektivně extrahovat obrázky ze souborů PDF pomocí Aspose.PD
 Naučte se, jak extrahovat obrázky z PDF dokumentů pomocí Aspose.PDF pro .NET v tomto komplexním průvodci. Ideální pro vývojáře, kteří chtějí vylepšit možnosti zpracování dokumentů.
 
 ### [Jak extrahovat obrázky z konkrétních stránek PDF pomocí Aspose.PDF pro .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
-Naučte se, jak efektivně extrahovat obrázky z konkrétních stránek v PDF pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a výkon.
+Naučte se, jak efektivně extrahovat obrázky z konkrétních stránkách v PDF pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a výkon.
 
 ### [Jak extrahovat informace o stránce PDF a vykreslit obrázky pomocí Aspose.PDF pro .NET (Průvodce 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
 Naučte se, jak extrahovat rozměry stránek a vykreslovat obrázky z PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.

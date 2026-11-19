@@ -22,6 +22,8 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 
 {{< tutorial-card link="./encrypt-pdf/" title="PDF titkosítása felhasználói és tulajdonosi jelszavakkal az Aspose.PDF for .NET használatával" imgSrc="./encrypt-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./validate-pdf-signature-in-c-complete-aspose-pdf-guide/" title="Validate PDF signature in C# – complete Aspose.Pdf guide" imgSrc="./validate-pdf-signature-in-c-complete-aspose-pdf-guide/images/thumb.png" >}}
+
 | Cím | Leírás |
 | --- | --- | 
 | [Jelszó módosítása PDF fájlban](./change-password/) | Tanulja meg, hogyan módosíthatja egyszerűen a PDF-jelszavakat az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutatónk biztonságosan végigvezeti Önt a folyamaton. |  

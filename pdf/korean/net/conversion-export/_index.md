@@ -170,7 +170,7 @@ Aspose.PDF for .NET을 사용하여 텍스트 파일을 전문적인 PDF 문서�
 Aspose.PDF와 C#을 사용하여 XML 파일을 전문적인 PDF로 효율적으로 변환하는 방법을 알아보세요. .NET 개발자를 위한 단계별 가이드를 따라 해 보세요.
 
 ### [Aspose.PDF for .NET을 사용하여 XML을 PDF로 변환: 단계별 가이드](./convert-xml-pdf-aspose-dotnet/)
-.NET에서 Aspose.PDF와 XSLT를 사용하여 XML 데이터를 스타일이 적용된 PDF로 변환하는 방법을 알아보세요. 이 가이드에서는 설정, 변환 단계 및 실제 적용 사례를 다룹니다.
+.NET에서 Aspose.PDF와 XSLT를 사용하여 XML 데이터를 스타일이 적용된 PDF로 변환하는 방법을 알아보세요. 이 가이에서는 설정, 변환 단계 및 실제 적용 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 동적 이미지를 포함한 XML을 PDF로 변환](./convert-xml-to-pdf-dynamic-images-aspose-net/)
 Aspose.PDF for .NET을 사용하여 동적 이미지 삽입을 포함하여 XML 데이터를 전문적인 PDF 문서로 변환하는 방법을 알아보세요.
@@ -303,6 +303,9 @@ Aspose.PDF를 이용해 이미지 없이 PDF를 저장하고 HTML로 변환하�
 ### [Aspose.PDF 로 PDF를 HTML로 저장하기 – 단계별 가이드](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
 
 ### [C#에서 Aspose.PDF를 사용하여 PDF를 HTML로 저장하고 PDF/X‑4로 변환하기](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+
+### [벡터를 보존하면서 C#에서 PDF를 HTML로 저장하는 방법](./how-to-save-pdf-as-html-in-c-while-preserving-vectors/)
+Aspose.PDF for .NET을 사용하여 C#에서 PDF를 HTML로 저장하면서 벡터 그래픽을 유지하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

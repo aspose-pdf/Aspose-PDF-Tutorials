@@ -27,6 +27,9 @@ pdfDocument.Save("output.pdf");
 ```
 
 ## Available Tutorials
+### [How to set opacity in a PDF and how to change blend mode with Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+
+
 ### [How to set transparency in a PDF with Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 
 ### [How to set transparency in a PDF using Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)

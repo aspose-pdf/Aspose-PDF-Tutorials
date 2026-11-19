@@ -97,7 +97,7 @@
 | [تحقق من توقيع PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | تعلم كيفية التحقق من صحة توقيع ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |  
 | [كيفية التحقق من ملف PDF – دليل C# كامل للتوقيعات الرقمية](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | تعلم خطوة بخطوة كيفية التحقق من صحة توقيع ملفات PDF باستخدام Aspose.PDF لـ .NET ولغة C#. |
 | [كيفية التحقق من صحة توقيع PDF الرقمي في C# باستخدام Aspose.Pdf](./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/) | تعلم خطوة بخطوة كيفية التحقق من صحة التوقيع الرقمي لملفات PDF باستخدام C# و Aspose.Pdf. |
-
+| [التحقق من توقيع PDF في C# – دليل كامل Aspose.Pdf](./validate-pdf-signature-in-c-complete-aspose-pdf-guide/) | دليل شامل خطوة بخطوة للتحقق من توقيع PDF باستخدام Aspose.Pdf في C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -65,11 +65,13 @@ Aspose.PDF for .NET을 사용해 PDF에 투명 효과를 적용하는 방법을 
 Aspose.PDF for .NET을 사용해 PDF에 투명도 설정 방법을 단계별로 안내합니다.
 ### [Aspose.Pdf를 사용하여 PDF에 투명도 설정하는 방법](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 Aspose.Pdf를 사용하여 PDF 문서에 투명도를 설정하는 방법을 단계별로 안내합니다.
+### [Aspose.Pdf를 사용하여 PDF에 투명도 설정하는 방법](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+Aspose.Pdf를 사용하여 PDF 문서에 투명도를 설정하는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose.PDF를 사용하여 PDF에 도형 추가하기 – 단계별 가이드](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 C#에서 Aspose.PDF를 사용하여 PDF에 도형을 추가하는 방법을 단계별로 안내합니다.
 ### [Aspose.PDF로 그래픽 상태 추가 및 투명도 제어 방법](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 Aspose.PDF를 사용해 그래픽 상태를 추가하고 투명도를 제어하는 단계별 가이드
-### [Aspose.PDF를 사용하여 PDF에 투명도를 추가하고 사각형을 그리는 방법](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+### [Aspose.PDF를 사용하여 PDF에 투명도 추가하고 사각형을 그리는 방법](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 PDF에 투명 사각형을 그리는 단계별 가이드
 ### [Aspose.PDF for .NET을 사용하여 PDF 파일에 투명도 추가하는 방법](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 Aspose.PDF for .NET을 사용하여 PDF 파일에 투명 효과를 적용하는 단계별 가이드
@@ -193,6 +195,9 @@ Aspose.Pdf를 활용해 PDF 그래픽 상태를 생성하고 관리하는 방법
 
 ### [C#에서 Aspose.Pdf를 사용하여 그래픽 상태 PDF 추가](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 C#에서 Aspose.Pdf를 사용하여 그래픽 상태를 PDF에 추가하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Pdf를 사용하여 PDF에 불투명도 설정 및 블렌드 모드 변경 방법](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+Aspose.Pdf를 활용해 PDF의 불투명도와 블렌드 모드를 제어하는 단계별 가이드.
 
 ## 추가 자료
 

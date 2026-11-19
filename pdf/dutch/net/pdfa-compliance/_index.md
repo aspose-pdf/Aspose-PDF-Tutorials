@@ -37,6 +37,9 @@ Leer hoe u toegankelijke, getagde PDF-documenten maakt en de naleving ervan vali
 ### [PDF's converteren naar PDF/X-4 met Aspose.PDF voor .NET: stapsgewijze handleiding](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Leer hoe u standaard PDF-documenten kunt converteren naar het robuuste PDF/X-4-formaat met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, implementatie en probleemoplossing.
 
+### [Aspose.PDF opslaan als PDF/X‑4: stapsgewijze handleiding](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Leer hoe u met Aspose.PDF een PDF opslaat als PDF/X‑4 met een duidelijke stap‑voor‑stap handleiding.
+
 ### [PDF naar PDF/X-1A converteren met Aspose.PDF voor .NET: stapsgewijze handleiding](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
 Leer hoe u een PDF-bestand kunt omzetten naar het archiefformaat PDF/X-1A met Aspose.PDF voor .NET. Volg de stapsgewijze instructies voor correcte creatie.
 

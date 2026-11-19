@@ -17,6 +17,9 @@ Descubra como aprimorar documentos PDF com elementos visuais usando nossos tutor
 
 ## Tutoriais disponíveis
 
+### [How to set opacity in a PDF and how to change blend mode with Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+
+
 ### [Adicionar carimbos de imagem a PDFs usando Aspose.PDF para .NET: um guia passo a passo](./add-image-stamp-to-pdf-aspose-dotnet/)
 Aprenda a adicionar carimbos de imagem, como logotipos, a todas as páginas de um PDF com facilidade usando o Aspose.PDF para .NET. Aprimore seus documentos com uma identidade visual profissional.
 

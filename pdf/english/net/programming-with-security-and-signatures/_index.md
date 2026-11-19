@@ -32,6 +32,9 @@ pdf.Save("encrypted.pdf");
 ```
 
 ## Tutorials
+### [Validate PDF signature in C# – complete Aspose.Pdf guide](./validate-pdf-signature-in-c-complete-aspose-pdf-guide/)
+
+
 ### [How to validate PDF digital signature in C# with Aspose.Pdf](./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/)
 
 

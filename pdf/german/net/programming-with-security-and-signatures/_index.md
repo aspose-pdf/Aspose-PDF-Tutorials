@@ -96,8 +96,9 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [OCSP zur Validierung von PDF-Digitalunterschriften in C# verwenden](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET OCSP nutzen, um digitale PDF‑Signaturen in C# zu überprüfen. |
 | [PDF‑Signatur mit Aspose.Pdf überprüfen – Schritt‑für‑Schritt‑Anleitung](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Signatur einer PDF‑Datei überprüfen. |
 | [Wie man PDF überprüft – Vollständiger C#‑Leitfaden für digitale Signaturen](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Dateien vollständig prüfen und digitale Signaturen validieren – Schritt‑für‑Schritt‑Anleitung. |
-| [PDF‑Digitale Signatur in C# validieren – Vollständiger Leitfaden](./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien in C# prüfen und validieren. |
-| [PDF‑Digitale Signatur in C# validieren – Vollständiger Leitfaden](./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien in C# prüfen und validieren. |
+| [PDF‑Digitale Signatur in C# validieren – Vollständiger Leitfaden](./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF‑Dateien in C# prüfen und validieren. |
+| [PDF‑Digitale Signatur in C# validieren – Vollständiger Leitfaden](./how-to-validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF‑Dateien in C# prüfen und validieren. |
+| [PDF‑Signatur in C# validieren – vollständiger Aspose.Pdf Leitfaden](./validate-pdf-signature-in-c-complete-aspose-pdf-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# vollständig prüfen und validieren. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

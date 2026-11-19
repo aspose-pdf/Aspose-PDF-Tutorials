@@ -46,14 +46,21 @@
 
 ### [إنشاء ملف PDF/A في C# – دليل التحويل الكامل](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 تعلم كيفية إنشاء ملفات PDF/A من الصفر في C# باستخدام Aspose.PDF خطوة بخطوة مع شرح كامل للتحويل.
+
 ### [كيفية إنشاء PDF/A في C# – دليل Aspose خطوة بخطوة](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 تعرف على كيفية إنشاء مستندات PDF/A باستخدام C# مع Aspose خطوة بخطوة لضمان التوافق مع معايير الأرشفة.
+
 ### [تحويل PDF إلى PDF/A باستخدام C# – دليل كامل خطوة بخطوة](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 تعرف على كيفية تحويل ملفات PDF إلى PDF/A باستخدام C# مع دليل شامل خطوة بخطوة.
+
 ### [كيفية إنشاء PDF/A في C# – تحويل PDF إلى PDF/A بسهولة](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 تعلم خطوة بخطوة كيفية إنشاء ملفات PDF/A من ملفات PDF باستخدام C# و Aspose.PDF بسهولة.
+
 ### [كيفية تعيين ICC في Aspose PDF – دليل كامل بلغة C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
 تعلم كيفية ضبط ملف تعريف اللون ICC في مستندات PDF باستخدام Aspose.PDF للـ .NET مع أمثلة شاملة بلغة C#.
+
+### [Aspose.PDF حفظ كـ PDF/X-4: دليل خطوة بخطوة](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+دليل خطوة بخطوة لحفظ المستندات بصيغة PDF/X-4 باستخدام Aspose.PDF للـ .NET.
 
 ## موارد إضافية
 

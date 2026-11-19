@@ -31,6 +31,9 @@ Naučte se, jak vytvářet přístupné tagované dokumenty PDF a ověřit jejic
 ### [Jak převést PDF soubory do PDF/X-4 pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Naučte se, jak převádět standardní PDF dokumenty do robustního formátu PDF/X-4 pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, implementací a řešením problémů.
 
+### [Aspose.PDF: uložení jako PDF/X‑4 – krok‑za‑krokem průvodce](./aspose-pdf-save-as-pdfx4-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF v .NET uložit dokument jako PDF/X‑4 pomocí podrobného návodu krok za krokem.
+
 ### [Převod PDF na PDF/X-1A – Jak vytvořit dokument PDF/X-1A](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
 Naučte se, jak převést PDF soubory do formátu PDF/X-1A a vytvořit dokument, který splňuje požadavky standardu.
 
