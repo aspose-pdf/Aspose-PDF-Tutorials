@@ -1,0 +1,7 @@
+Title: How to save PDF as HTML in C# while preserving vectors
+Slug: how-to-save-pdf-as-html-in-c-while-preserving-vectors
+Category: conversion-export
+ProcessedDate: 2026-11-19T14:58:32.305469
+SourceRepo: AI Search API
+Keywords: save pdf as html, convert pdf to html, c# pdf to html, load pdf document, how to preserve vectors
+PRNumber: 179
