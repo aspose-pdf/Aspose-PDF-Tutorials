@@ -45,7 +45,7 @@ tags:
 - PDF conversion
 - C#
 - HTML export
-title: How to save PDF as HTML in C# while preserving vectors
+title: How to save PDF as HTML in C# with Aspose.PDF while preserving vectors
 url: /net/conversion-export/how-to-save-pdf-as-html-in-c-while-preserving-vectors/
 ---
 
@@ -53,7 +53,7 @@ url: /net/conversion-export/how-to-save-pdf-as-html-in-c-while-preserving-vector
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to save PDF as HTML in C# while preserving vectors
+# How to save PDF as HTML in C# with Aspose.PDF while preserving vectors
 
 If you need to **save PDF as HTML** in a .NET project, this guide shows you the exact steps. You’ll learn how to load a PDF document, configure the conversion, and ensure that vector graphics remain vectors instead of becoming raster images.
 
@@ -256,13 +256,13 @@ You now know how to **save PDF as HTML** in C# while ensuring that vector graphi
 Feel free to experiment with the optional settings—different CSS strategies, page ranges, or resource folders—to match the exact needs of your application. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Save PDF as HTML – Keep Vectors & Disable Rasterization](/pdf/english/net/document-conversion/save-pdf-as-html-keep-vectors-disable-rasterization/)
-- [Convert PDF to HTML in C# – Full Step‑by‑Step Guide](/pdf/english/net/conversion-export/convert-pdf-to-html-in-c-full-step-by-step-guide/)
+- [Save PDF as HTML – Keep Vectors & Disable Rasterization]({{< relref "pdf/english/net/document-conversion/save-pdf-as-html-keep-vectors-disable-rasterization/_index.md" >}})
+- [Convert PDF to HTML in C# – Full Step‑by‑Step Guide]({{< relref "pdf/english/net/conversion-export/convert-pdf-to-html-in-c-full-step-by-step-guide/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

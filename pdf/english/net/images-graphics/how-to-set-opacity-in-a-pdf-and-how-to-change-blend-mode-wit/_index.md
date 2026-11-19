@@ -17,20 +17,20 @@ lastmod: 2026-11-19
 og_description: How to set opacity and how to change blend mode in a PDF using Aspose.Pdf.
   Follow this complete C# tutorial to make graphics transparent.
 og_image_alt: Code editor showing C# example that sets PDF opacity and blend mode
-og_title: How to set opacity and change blend mode in a PDF with Aspose.Pdf
+og_title: Set PDF opacity and change blend mode using Aspose.Pdf for .NET
 schemas:
 - author: Aspose
   dateModified: '2026-11-19'
   description: Learn how to set opacity and how to change blend mode in a PDF using
     Aspose.Pdf. Step‑by‑step C# guide for transparent graphics.
-  headline: How to set opacity in a PDF and how to change blend mode with Aspose.Pdf
+  headline: Set PDF opacity and change blend mode using Aspose.Pdf for .NET
   type: TechArticle
 tags:
 - Aspose.Pdf
 - C#
 - PDF manipulation
 - Transparency
-title: How to set opacity in a PDF and how to change blend mode with Aspose.Pdf
+title: Set PDF opacity and change blend mode using Aspose.Pdf for .NET
 url: /net/images-graphics/how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/
 ---
 
@@ -266,7 +266,7 @@ Next, you might explore:
 Happy coding, and enjoy making your PDFs more visually dynamic!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

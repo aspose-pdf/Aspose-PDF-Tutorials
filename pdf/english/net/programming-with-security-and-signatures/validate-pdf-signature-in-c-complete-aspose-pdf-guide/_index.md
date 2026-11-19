@@ -49,7 +49,7 @@ tags:
 - csharp
 - digital signature
 - validation
-title: Validate PDF signature in C# – complete Aspose.Pdf guide
+title: How to Validate PDF Signature in C# with Aspose.Pdf – Complete Guide
 url: /net/programming-with-security-and-signatures/validate-pdf-signature-in-c-complete-aspose-pdf-guide/
 ---
 
@@ -254,14 +254,14 @@ By mastering these extensions, you’ll turn a simple validation script into a r
 ---
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to validate PDF with Aspose.PDF – check pdf signature validity in C#](/pdf/english/net/digital-signatures/how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
-- [Validate PDF Digital Signature in C# with Aspose.PDF](/pdf/english/net/programming-with-security-and-signatures/validate-pdf-digital-signature-in-c-with-aspose-pdf/)
-- [pdf signature tutorial: validate a PDF digital signature with Aspose.PDF](/pdf/english/net/programming-with-security-and-signatures/pdf-signature-tutorial-validate-a-pdf-digital-signature-with/)
+- [How to validate PDF with Aspose.PDF – check pdf signature validity in C#]({{< relref "/pdf/english/net/digital-signatures/how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/" >}})
+- [Validate PDF Digital Signature in C# with Aspose.PDF]({{< relref "/pdf/english/net/programming-with-security-and-signatures/validate-pdf-digital-signature-in-c-with-aspose-pdf/" >}})
+- [pdf signature tutorial: validate a PDF digital signature with Aspose.PDF]({{< relref "/pdf/english/net/programming-with-security-and-signatures/pdf-signature-tutorial-validate-a-pdf-digital-signature-with/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
