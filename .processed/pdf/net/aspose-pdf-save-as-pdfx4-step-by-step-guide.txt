@@ -1,0 +1,7 @@
+Title: Aspose.pdf save as pdfx4: step‑by‑step guide
+Slug: aspose-pdf-save-as-pdfx4-step-by-step-guide
+Category: pdfa-compliance
+ProcessedDate: 2026-11-19T14:58:27.151466
+SourceRepo: AI Search API
+Keywords: aspose.pdf save as pdfx4, convert pdf to pdf/x-4
+PRNumber: 179
