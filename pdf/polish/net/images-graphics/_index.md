@@ -17,6 +17,9 @@ Odkryj, jak wzbogacić dokumenty PDF o elementy wizualne, korzystając z naszych
 
 ## Dostępne samouczki
 
+### [How to add transparency to PDF in C# with Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
+
 ### [Dodawanie stempli graficznych do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-image-stamp-to-pdf-aspose-dotnet/)
 Dowiedz się, jak bezproblemowo dodawać stemple graficzne, takie jak logo, do każdej strony pliku PDF za pomocą Aspose.PDF dla .NET. Ulepsz swoje dokumenty dzięki profesjonalnemu brandingowi.
 

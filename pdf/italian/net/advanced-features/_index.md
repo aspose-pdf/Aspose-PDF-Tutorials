@@ -82,6 +82,8 @@ Scopri come confrontare due documenti PDF in C# e generare un diff completo con 
 ### [Aggiungere trasparenza ai PDF con Aspose.Pdf – Guida completa .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 Scopri come applicare effetti di trasparenza ai PDF usando Aspose.Pdf per .NET con esempi di codice C# dettagliati.
 
+### [Crea PDF riepilogativo con Aspose.Pdf.AI – guida passo‑passo](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

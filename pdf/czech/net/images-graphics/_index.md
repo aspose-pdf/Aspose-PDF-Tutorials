@@ -199,6 +199,8 @@ Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomoc
 Naučte se, jak přidat průhlednost do PDF dokumentů pomocí Aspose.PDF v C# krok za krokem.
 ### [Jak přidat průhlednost do PDF pomocí Aspose.PDF v C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Naučte se, jak pomocí Aspose.PDF v C# přidat průhlednost do PDF dokumentů, včetně nastavení alfa kanálu a efektů.
+### [Jak přidat průhlednost do PDF v C# pomocí Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+Naučte se, jak přidat průhlednost do PDF v C# pomocí Aspose.PDF.
 ### [Přidání vlastního ExtGState PDF pomocí Aspose.PDF: Podrobný návod](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.PDF vytvořit a použít vlastní ExtGState pro nastavení průhlednosti a dalších grafických parametrů v PDF.
 ### [Jak nastavit průhlednost v PDF pomocí Aspose.PDF pro .NET v C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)

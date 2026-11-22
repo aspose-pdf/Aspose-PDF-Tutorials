@@ -230,6 +230,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何在 PDF 中設定不透明度以及更改混合模式：使用 Aspose.Pdf 的逐步指南](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
 了解如何使用 Aspose.Pdf 在 PDF 中設定不透明度並調整混合模式，以實現更豐富的視覺效果。
 
+### [如何在 C# 中使用 Aspose.PDF 為 PDF 新增透明度](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+了解如何在 C# 中使用 Aspose.PDF 為 PDF 添加透明度，實現更佳的視覺呈現。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

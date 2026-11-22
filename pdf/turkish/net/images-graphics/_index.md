@@ -24,6 +24,8 @@ Kapsamlı Aspose.PDF .NET eğitimlerimizi kullanarak PDF belgelerini görsel ö�
 
 ### [Aspose.Pdf kullanarak PDF'de şeffaflık ayarlama](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
+### [C# ile Aspose.PDF kullanarak PDF'ye şeffaflık ekleme](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
 ### [.NET için Aspose.PDF'yi Kullanarak PDF'lere Resim Damgaları Ekleme: Adım Adım Kılavuz](./add-image-stamp-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak logolar gibi resim damgalarını bir PDF'in her sayfasına sorunsuz bir şekilde nasıl ekleyeceğinizi öğrenin. Belgelerinizi profesyonel markalama ile geliştirin.
 

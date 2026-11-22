@@ -82,6 +82,9 @@
 ### [เพิ่มความโปร่งใสให้ PDF ด้วย Aspose.Pdf – คู่มือ .NET ฉบับสมบูรณ์](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 เรียนรู้วิธีเพิ่มความโปร่งใสให้ไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
 
+### [สร้าง PDF สรุปด้วย Aspose.Pdf.AI – คู่มือแบบขั้นตอนต่อขั้นตอน](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF สรุปโดยใช้ Aspose.Pdf.AI ด้วยขั้นตอนละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

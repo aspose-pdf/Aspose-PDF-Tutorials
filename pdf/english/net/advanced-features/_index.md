@@ -55,6 +55,9 @@ Learn how to create accessible, tagged PDF documents using Aspose.PDF in .NET. I
 ### [How to Create Multi-Layer PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Learn how to create dynamic and interactive multi-layered PDF documents using Aspose.PDF for .NET with this step-by-step guide.
 
+### [Create summary PDF with Aspose.Pdf.AI – step‑by‑step guide](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Learn how to generate summary PDFs using Aspose.Pdf.AI with a detailed step‑by‑step guide and C# code examples.
+
 ### [How to Create Tagged PDFs with Aspose.PDF for .NET&#58; An Advanced Guide](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Learn how to create accessible tagged PDF documents using Aspose.PDF for .NET. Enhance document structure and accessibility with this comprehensive guide.
 

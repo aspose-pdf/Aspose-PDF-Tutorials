@@ -160,6 +160,9 @@ Tìm hiểu cách áp dụng độ trong suốt cho các đối tượng trong P
 ### [Cách thêm độ trong suốt vào PDF và vẽ hình chữ nhật trên PDF bằng Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 Hướng dẫn cách áp dụng độ trong suốt và vẽ hình chữ nhật trong PDF bằng Aspose.PDF.
 
+### [Cách thêm độ trong suốt vào PDF bằng C# với Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+Hướng dẫn chi tiết cách áp dụng độ trong suốt cho các đối tượng trong PDF bằng C# và Aspose.PDF.
+
 ### [Cách xóa hình ảnh khỏi tệp PDF bằng Aspose.PDF cho .NET - Hướng dẫn đầy đủ](./delete-images-aspose-pdf-net/)
 Tìm hiểu cách xóa hình ảnh khỏi tệp PDF hiệu quả bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ về mã và các biện pháp thực hành tốt nhất.
 

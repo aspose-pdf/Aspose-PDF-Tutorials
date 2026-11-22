@@ -234,13 +234,91 @@ Aprenda a manipular o estado gráfico em PDFs, controlando transparência, compo
 ### [Adicionar ExtGState personalizado a PDFs usando Aspose.PDF para .NET: um guia passo a passo](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Aprenda a criar e aplicar um ExtGState personalizado em PDFs usando Aspose.PDF para .NET, controlando transparência e outras propriedades gráficas.
 
-## Recursos adicionais
+### [How to add transparency to PDF with Aspose.Pdf – a step by step guide](./add-transparency-to-pdf-with-aspose-pdf-step-by-step-guide/)
 
-- [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)
-- [Referência da API Aspose.PDF para Net](https://reference.aspose.com/pdf/net/)
-- [Baixe Aspose.PDF para a rede](https://releases.aspose.com/pdf/net/)
-- [Suporte gratuito](https://forum.aspose.com/)
-- [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+### [How to add transparency to PDF in C# with Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
+### [How to add transparency to PDF and draw a rectangle on PDF using Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+
+### [How to change opacity in a PDF with Aspose.PDF for .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+
+### [How to add shape to PDF with Aspose.Pdf in C# – step by step guide](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+
+### [Add ExtGState to PDF with Aspose-Pdf – Complete Guide](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+
+### [How to add transparency to PDF files using Aspose-Pdf for .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+
+### [How to add transparency to PDF and draw a rectangle on PDF using Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+
+### [How to change opacity in a PDF with Aspose.PDF for .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+
+### [How to add rectangle to PDF with Aspose-PDF – Complete Programming Guide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+
+### [How to add rectangle to PDF with C# – step by step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
+### [How to add rectangle to PDF with C# – step by step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
+### [How to add rectangle to PDF in C# with Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+
+### [Create custom PDF stamps with Aspose-PDF .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
+
+### [Create PDF borders highlight with Aspose-PDF .NET – complete guide for developers](./create-pdf-borders-highlight-aspose-pdf-net/)
+
+### [Draw transparent shapes with Aspose-PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
+
+### [Add transparency to PDF with Aspose PDF in C# – step by step guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+
+### [How to add transparency to PDF using Aspose-PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+
+### [How to set transparency in a PDF with Aspose-Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+
+### [How to set transparency in a PDF using Aspose-Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+
+### [Add ExtGState to PDF with Aspose-Pdf – Complete Guide](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+
+### [How to add transparency to PDFs using Aspose-PDF for .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+
+### [How to add transparency to PDFs and draw a rectangle on PDF using Aspose-PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+
+### [How to change opacity in a PDF with Aspose-PDF for .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+
+### [How to add rectangle to PDF with Aspose-PDF – Complete Programming Guide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+
+### [How to add rectangle to PDF with C# – step by step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
+### [How to add rectangle to PDF with C# – step by step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
+### [How to add rectangle to PDF in C# with Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+
+### [Create custom PDF stamps with Aspose-PDF .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
+
+### [Create PDF borders highlight with Aspose-PDF .NET – complete guide for developers](./create-pdf-borders-highlight-aspose-pdf-net/)
+
+### [Draw transparent shapes with Aspose-PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
+
+### [Add transparency to PDF with Aspose PDF in C# – step by step guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+
+### [How to add transparency to PDF using Aspose-PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+
+### [How to set transparency in a PDF with Aspose-Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+
+### [How to set transparency in a PDF using Aspose-Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
+
+### [Add ExtGState to PDF with Aspose-Pdf – Complete Guide](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+
+### [How to add transparency to PDFs using Aspose-PDF for .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+
+### [How to add transparency to PDFs and draw a rectangle on PDF using Aspose-PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+
+### [How to change opacity in a PDF with Aspose-PDF for .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+
+### [How to add rectangle to PDF with Aspose-PDF – Complete Programming Guide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+
+### [How to add rectangle to PDF with C# – step by step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
+### [How to add rectangle to PDF with C# – step by step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
+### [How to add rectangle to PDF in C# with Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

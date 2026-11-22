@@ -17,6 +17,9 @@ Entdecken Sie, wie Sie PDF-Dokumente mit visuellen Elementen aufwerten – mit u
 
 ## Verfügbare Tutorials
 
+### [How to add transparency to PDF in C# with Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
+
 ### [Benutzerdefinierten ExtGState-PDF mit Aspose.PDF hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET benutzerdefinierte ExtGState-Objekte zu PDFs hinzufügen.
 

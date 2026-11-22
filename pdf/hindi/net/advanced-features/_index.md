@@ -78,6 +78,9 @@ Aspose.Pdf का उपयोग करके प्रत्येक PDF ल�
 Aspose.Pdf का उपयोग करके PDF में OCR लागू करने और पाठ निकालने के लिए चरण-दर-चरण C# कोड देखें।
 ### [Aspose.Pdf के साथ PDF में पारदर्शिता जोड़ें – पूर्ण .NET गाइड](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 
+### [Aspose.Pdf.AI के साथ सारांश PDF बनाएं – चरण-दर-चरण गाइड](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Aspose.Pdf.AI का उपयोग करके सारांश PDF बनाने की प्रक्रिया को चरण-दर-चरण सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

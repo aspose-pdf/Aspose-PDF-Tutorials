@@ -82,6 +82,9 @@ Leer hoe u twee PDF-documenten vergelijkt en verschillen genereert met Aspose.PD
 ### [Transparantie toevoegen aan PDF met Aspose.Pdf – Complete .NET-gids](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 Leer hoe u transparantie toepast op PDF‑elementen met Aspose.PDF voor .NET, inclusief codevoorbeelden en stapsgewijze instructies.
 
+### [Samenvatting PDF maken met Aspose.Pdf.AI – stapsgewijze handleiding](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Leer hoe u met Aspose.Pdf.AI een samenvattende PDF genereert met stapsgewijze instructies en voorbeeldcode.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

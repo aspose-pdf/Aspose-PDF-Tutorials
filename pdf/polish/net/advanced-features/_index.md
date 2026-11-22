@@ -33,7 +33,7 @@ Dowiedz się, jak zautomatyzować przepływy pracy PDF za pomocą Aspose.PDF dla
 Naucz się tworzyć ustrukturyzowane, tagowane pliki PDF za pomocą Aspose.PDF dla platformy .NET, zwiększając dostępność i czytelność dokumentu.
 
 ### [Tworzenie dostępnych, oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET: Ulepszanie tytułów, tekstu alternatywnego i układu](./enhanced-tagged-pdfs-aspose-pdf-dot-net/)
-Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF za pomocą Aspose.PDF dla .NET. Ustaw tytuły, tekst alternatywny i atrybuty układu, takie jak BBox, za pomocą C#. Popraw dostępność dokumentu.
+Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF przy użyciu Aspose.PDF dla .NET. Ustaw tytuły, tekst alternatywny i atrybuty układu, takie jak BBox, za pomocą C#. Popraw dostępność dokumentu.
 
 ### [Tworzenie dostępnych, oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./create-tagged-pdfs-aspose-pdf-dotnet/)
 Dowiedz się, jak tworzyć dostępne, oznaczone dokumenty PDF przy użyciu Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, dodawanie ilustracji i zapisywanie dokumentu.
@@ -81,6 +81,9 @@ Dowiedz się, jak porównać dwa pliki PDF i wygenerować ich różnice przy uż
 
 ### [Dodaj przezroczystość do PDF przy użyciu Aspose.Pdf – Kompletny przewodnik .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 Dowiedz się, jak dodać przezroczystość do dokumentów PDF przy użyciu Aspose.Pdf w .NET, z przykładami kodu C#.
+
+### [Utwórz podsumowujący PDF przy użyciu Aspose.Pdf.AI – przewodnik krok po kroku](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Dowiedz się, jak wygenerować podsumowujący dokument PDF przy użyciu Aspose.Pdf.AI w .NET, krok po kroku.
 
 ## Dodatkowe zasoby
 

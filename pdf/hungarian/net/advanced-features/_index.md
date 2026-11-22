@@ -38,10 +38,10 @@ Tanulja meg, hogyan hozhat létre strukturált, címkézett PDF-fájlokat az Asp
 ### [Akadálymentesített címkézett PDF-ek létrehozása az Aspose.PDF for .NET használatával: Címek, alternatív szöveg és elrendezés javítása](./enhanced-tagged-pdfs-aspose-pdf-dot-net/)
 Tanulja meg, hogyan hozhat létre akadálymentesített címkézett PDF-fájlokat az Aspose.PDF for .NET segítségével. Állítsa be a címeket, az alt szöveget és az elrendezési attribútumokat, például a BBox-ot, C# használatával. Javítsa a dokumentumok akadálymentesítését.
 
-### [Akadálymentesített címkézett PDF-ek létrehozása az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./create-tagged-pdfs-aspose-pdf-dotnet/)
+### [Akadálymentesített címkézett PDF-ek létrehozása az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./create-tagged-pdfs-aspose-pdf-dotnet/)
 Ismerje meg, hogyan hozhat létre akadálymentesített címkézett PDF dokumentumokat az Aspose.PDF for .NET használatával. Ez az útmutató a beállítást, az illusztrációk hozzáadását és a dokumentum mentését ismerteti.
 
-### [Többnyelvű címkézett PDF-ek létrehozása az Aspose.PDF for .NET segítségével: Átfogó útmutató](./create-multilingual-tagged-pdfs-aspose-pdf-net/)
+### [Többnyelvű címkézett PDF-ek létrehozása az Aspose.PDF for .NET használatával: Átfogó útmutató](./create-multilingual-tagged-pdfs-aspose-pdf-net/)
 Tanulja meg, hogyan hozhat létre akadálymentes, többnyelvű, címkézett PDF dokumentumokat az Aspose.PDF for .NET használatával, javítva a felhasználói élményt és az akadálymentesítést.
 
 ### [Címkézett PDF-ek létrehozása az Aspose.PDF for .NET segítségével: Teljes körű útmutató az akadálymentesítés és a dokumentumszerkezet javításához](./create-tagged-pdfs-aspose-pdf-net/)
@@ -81,6 +81,9 @@ Ismerje meg, hogyan hasonlíthatja össze a PDF-fájlokat C#-ban az Aspose.Pdf v
 
 ### [Két PDF dokumentum összehasonlítása – Teljes C# útmutató](./compare-two-pdf-documents-complete-c-guide/)
 Ismerje meg, hogyan hasonlíthatja össze a PDF-dokumentumokat C#-ban az Aspose.PDF segítségével, és generáljon PDF-diff fájlokat.
+
+### [Összefoglaló PDF létrehozása az Aspose.Pdf.AI‑val – lépésről‑lépésre útmutató](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre összefoglaló PDF-et az Aspose.Pdf.AI segítségével C#‑ban, részletes lépésekkel.
 
 ## További források
 

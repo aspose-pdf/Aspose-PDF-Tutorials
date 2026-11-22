@@ -82,6 +82,9 @@ Aprenda a comparar dois documentos PDF em C# usando Aspose.PDF, gerando diferen�
 ### [Adicionar transparência a PDF com Aspose.Pdf – Guia completo .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 Aprenda a aplicar transparência a documentos PDF usando Aspose.Pdf para .NET, com exemplos de código passo a passo.
 
+### [Criar PDF resumido com Aspose.Pdf.AI – guia passo a passo](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Aprenda a gerar um PDF resumido usando Aspose.Pdf.AI com instruções detalhadas passo a passo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

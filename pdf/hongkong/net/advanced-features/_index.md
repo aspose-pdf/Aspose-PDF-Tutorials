@@ -82,6 +82,8 @@
 ### [使用 Aspose.PDF 為 PDF 添加透明度 – 完整 .NET 指南](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 中添加透明度，提供完整步驟與範例程式碼。
 
+### [使用 Aspose.Pdf.AI 建立摘要 PDF – 步驟指南](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

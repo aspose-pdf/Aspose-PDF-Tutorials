@@ -64,6 +64,7 @@
 
 ### [如何在 C# 中比较 PDF – 生成 PDF 差异的完整指南](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中比较 PDF 文件并生成差异报告，帮助快速定位文档变化。
+
 ### [使用 C# 编辑 PDF 透明度 – 步骤指南](./edit-pdf-transparency-in-c-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中编辑 PDF 的透明度属性，实现渐变和层效果。
 
@@ -81,6 +82,9 @@
 
 ### [使用 Aspose.PDF for .NET 为 PDF 添加透明度 – 完整指南](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 中添加透明效果，包括设置透明度、图形和文本的示例代码。
+
+### [使用 Aspose.Pdf.AI 创建摘要 PDF：分步指南](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+了解如何使用 Aspose.Pdf.AI 生成 PDF 摘要，包括提取内容、合并页面和保存文件的完整步骤。
 
 ## 其他资源
 
