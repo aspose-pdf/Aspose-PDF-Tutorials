@@ -1,0 +1,7 @@
+Title: How to add transparency to PDF in C# with Aspose.PDF
+Slug: how-to-add-transparency-to-pdf-in-c-with-aspose-pdf
+Category: images-graphics
+ProcessedDate: 2026-11-22T23:08:31.417467
+SourceRepo: AI Search API
+Keywords: add transparency to pdf, how to change pdf opacity
+PRNumber: 180
