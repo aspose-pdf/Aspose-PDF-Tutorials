@@ -29,7 +29,7 @@ tags:
 - PDF
 - C#
 - Aspose.PDF
-title: How to add transparency to PDF in C# with Aspose.PDF
+title: Apply transparency to PDF in C# using Aspose.PDF
 url: /net/images-graphics/how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/
 ---
 
@@ -242,14 +242,14 @@ Next, explore related topics such as:
 Experiment with these variations to tailor PDF output to your project's visual requirements. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to add graphics state pdf and control transparency with Aspose.PDF](/pdf/english/net/images-graphics/how-to-add-graphics-state-pdf-and-control-transparency-with/)
-- [How to set opacity in a PDF and how to change blend mode with Aspose.Pdf](/pdf/hongkong/net/images-graphics/how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
-- [How to add transparency to PDF and draw a rectangle on PDF with Aspose.PDF](/pdf/english/net/images-graphics/how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+- [How to add graphics state pdf and control transparency with Aspose.PDF]([{{< relref "../how-to-add-graphics-state-pdf-and-control-transparency-with/_index.md" >}}}])
+- [How to set opacity in a PDF and how to change blend mode with Aspose.Pdf]([{{< relref "../../../../hongkong/net/images-graphics/how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/_index.md" >}}])
+- [How to add transparency to PDF and draw a rectangle on PDF with Aspose.PDF]([{{< relref "../how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/_index.md" >}}])
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

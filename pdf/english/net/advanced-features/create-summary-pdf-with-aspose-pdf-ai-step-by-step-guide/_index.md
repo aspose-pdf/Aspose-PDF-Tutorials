@@ -42,7 +42,7 @@ tags:
 - C#
 - Aspose
 - OpenAI
-title: Create summary PDF with Aspose.Pdf.AI – step‑by‑step guide
+title: Create summary PDF with Aspose.Pdf.AI in C# – step‑by‑step guide
 url: /net/advanced-features/create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/
 ---
 
@@ -120,7 +120,7 @@ var summaryOptions = OpenAISummaryCopilotOptions.Create()
 **Why this matters:**  
 Adjusting `temperature` lets you balance between concise factual summaries and more expressive prose. Specifying the document path tells the copilot which PDF to read.
 
-## Step 3 – Create the Summary Copilot
+## Step 3 – create the summary copilot
 
 The `AICopilotFactory` builds a copilot instance that knows how to process the document with the options you supplied.
 
@@ -266,15 +266,13 @@ These extensions let you build end‑to‑end document intelligence pipelines.
 
 *You’ve learned how to **create summary PDF** with Aspose.Pdf.AI, how to **summarize PDF with AI**, and how to **generate PDF summary** programmatically. Feel free to experiment with temperature settings, custom layouts, and batch processing to fit your specific use case.*
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to create OpenAI client and generate a PDF summary in C#](/pdf/english/net/document-creation/how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
-- [How to convert PDF to summary with Aspose.Pdf.AI in C#](/pdf/english/net/text-operations/how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
-- [Generate PDF summary with Aspose.Pdf.AI and OpenAI](/pdf/english/net/programming-with-text/generate-pdf-summary-with-aspose-pdf-ai-and-openai/)
+- [How to create OpenAI client and generate a PDF summary in C#](pdf/english/net/document-creation/how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+- [How to convert PDF to summary with Aspose.Pdf.AI in C#](pdf/english/net/text-operations/how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+- [Generate PDF summary with Aspose.Pdf.AI and OpenAI](pdf/english/net/programming-with-text/generate-pdf-summary-with-aspose-pdf-ai-and-openai/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
