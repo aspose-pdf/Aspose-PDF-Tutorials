@@ -1,6 +1,6 @@
 ---
-title: "Master Advanced PDF Features with Aspose.PDF .NET"
-description: "Learn to implement layers, portfolios, accessibility features, and advanced PDF functionality with these Aspose.PDF .NET tutorials."
+title: "Master Advanced PDF Features Using Aspose.PDF for .NET"
+description: "Learn to implement layers, portfolios, accessibility features, and advanced PDF functionality using Aspose.PDF for .NET tutorials."
 weight: 17
 url: "/net/advanced-features/"
 ---
@@ -11,9 +11,9 @@ url: "/net/advanced-features/"
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Advanced PDF Features Tutorials for Aspose.PDF .NET
+# Advanced PDF Features Tutorials for Aspose.PDF for .NET
 
-Explore advanced PDF capabilities with our comprehensive Aspose.PDF tutorials for .NET developers. These detailed guides cover implementing PDF layers and optional content groups, creating PDF portfolios and packages, enhancing accessibility through tags and structure, and leveraging specialized PDF features. Each tutorial provides working C# code examples for sophisticated PDF functionality, helping you build document solutions that take full advantage of the PDF specification's advanced capabilities.
+Explore advanced PDF capabilities with our comprehensive Aspose.PDF for .NET tutorials for .NET developers. These detailed guides cover implementing PDF layers and optional content groups, creating PDF portfolios and packages, enhancing accessibility through tags and structure, and leveraging specialized PDF features. Each tutorial provides working C# code examples for sophisticated PDF functionality, helping you build document solutions that take full advantage of the PDF specification's advanced capabilities.
 
 Below is a quick example of adding a layer to a PDF document using Aspose.PDF for .NET:
 
@@ -40,13 +40,13 @@ Learn how to enhance your PDF documents by adding colored line layers using Aspo
 ### [Edit PDF transparency in C# – step‑by‑Step guide]({{< relref "edit-pdf-transparency-in-c-step-by-step-guide/" >}})
 Learn how to edit PDF transparency using Aspose.PDF for .NET with C#, including setting opacity and blending modes.
 
-### [Add Transparency to PDF with Aspose.PDF – Complete .NET Guide]({{< relref "add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/" >}})
+### [Add Transparency to PDF with Aspose.PDF for .NET – Complete .NET Guide]({{< relref "add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/" >}})
 Learn how to apply transparency effects to PDF elements using Aspose.PDF for .NET with step-by-step code examples.
 
-### [Aspose.PDF .NET: enhancing PDF accessibility through tagging]({{< relref "aspose-pdf-net-accessible-tagging-guide/" >}})
-Learn how to use Aspose.PDF .NET for accessible tagging in PDFs. Set titles, languages, and logical structures easily.
+### [Aspose.PDF for .NET: enhancing PDF accessibility through tagging]({{< relref "aspose-pdf-net-accessible-tagging-guide/" >}})
+Learn how to use Aspose.PDF for .NET for accessible tagging in PDFs. Set titles, languages, and logical structures easily.
 
-### [Automate PDFs in .NET: Implement Document Close Action with Aspose.PDF]({{< relref "automate-pdfs-document-close-action-net/" >}})
+### [Automate PDFs in .NET: Implement Document Close Action with Aspose.PDF for .NET]({{< relref "automate-pdfs-document-close-action-net/" >}})
 Learn how to automate PDF workflows using Aspose.PDF for .NET by adding interactive document close actions. Enhance user engagement and streamline processes.
 
 ### [Create Accessible Structured Tagged PDFs Using Aspose.PDF for .NET]({{< relref "create-structured-tagged-pdfs-aspose-pdf-net/" >}})
@@ -79,22 +79,22 @@ Learn how to create accessible tagged PDF documents using Aspose.PDF for .NET. E
 ### [How to Validate PDFs Against the PDF/UA Standard Using Aspose.PDF for .NET: A Comprehensive Guide]({{< relref "validate-pdf-ua-standard-aspose-dotnet/" >}})
 Learn how to ensure your PDF documents meet accessibility standards with Aspose.PDF for .NET. This guide covers validation steps, setup, and real‑world applications.
 
-### [Master Aspose.PDF .NET for Accessible PDFs: Validate & Process PDF/UA-1 Documents]({{< relref "mastering-aspose-pdf-net-accessible-pdfs/" >}})
+### [Master Aspose.PDF for .NET for Accessible PDFs: Validate & Process PDF/UA-1 Documents]({{< relref "mastering-aspose-pdf-net-accessible-pdfs/" >}})
 Learn how to use Aspose.PDF for .NET to validate and process accessible PDF documents according to the PDF/UA-1 standard. Enhance digital document usability with this comprehensive guide.
 
-### [Mastering accessible PDF creation with Aspose.PDF .NET: crafting tagged PDFs with styled tables]({{< relref "aspose-pdf-net-tagged-pdfs-styled-tables/" >}})
+### [Mastering accessible PDF creation with Aspose.PDF for .NET: crafting tagged PDFs with styled tables]({{< relref "aspose-pdf-net-tagged-pdfs-styled-tables/" >}})
 Learn to craft accessible, styled tagged PDF documents using Aspose.PDF for .NET. Master creating compliant PDFs with structured tables and enhanced accessibility.
 
 ### [How to Compare PDFs in C# – Complete Guide to Generating PDF Diff]({{< relref "how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/" >}})
 Learn how to compare two PDFs in C# using Aspose.PDF for .NET and generate a visual diff document.
 
-### [How to Run OCR on PDF with Aspose.PDF – Complete C# Guide]({{< relref "how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/" >}})
+### [How to Run OCR on PDF with Aspose.PDF for .NET – Complete C# Guide]({{< relref "how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/" >}})
 Learn how to perform OCR on PDF files using Aspose.PDF for .NET with a complete C# implementation guide.
 
-### [Save each PDF layer with Aspose.PDF – step‑by‑Step guide]({{< relref "save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/" >}})
+### [Save each PDF layer with Aspose.PDF for .NET – step‑by‑Step guide]({{< relref "save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/" >}})
 Learn how to extract and save individual PDF layers using Aspose.PDF for .NET with this detailed step‑by‑step guide.
 
-### [Compare PDF documents with Aspose.PDF – complete visual diff guide]({{< relref "compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/" >}})
+### [Compare PDF documents with Aspose.PDF for .NET – complete visual diff guide]({{< relref "compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/" >}})
 Learn how to compare PDF documents and generate a visual diff using Aspose.PDF for .NET with step-by-step C# examples.
 
 ### [Compare two PDF documents – complete C# guide]({{< relref "compare-two-pdf-documents-complete-c-guide/" >}})

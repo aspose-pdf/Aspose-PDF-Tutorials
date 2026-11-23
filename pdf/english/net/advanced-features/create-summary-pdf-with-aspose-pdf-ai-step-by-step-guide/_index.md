@@ -17,7 +17,7 @@ lastmod: 2026-11-22
 og_description: Create summary PDF with Aspose.Pdf.AI. Follow this guide to summarize
   PDF with AI, convert PDF to summary, and generate PDF summary in C#.
 og_image_alt: Diagram illustrating the create summary PDF workflow using Aspose.Pdf.AI
-og_title: Create summary PDF with Aspose.Pdf.AI – quick C# tutorial
+og_title: Generate a summary PDF with Aspose.Pdf.AI API in C# – step‑by‑step guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-22'
@@ -42,7 +42,7 @@ tags:
 - C#
 - Aspose
 - OpenAI
-title: Create summary PDF with Aspose.Pdf.AI in C# – step‑by‑step guide
+title: Generate a summary PDF with Aspose.Pdf.AI API in C# – step‑by‑step guide
 url: /net/advanced-features/create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/
 ---
 
@@ -112,7 +112,7 @@ The client handles authentication, request throttling, and connection pooling. C
 You can fine‑tune the summarization behavior. The `temperature` parameter controls creativity; lower values produce more deterministic output. You also need to point to the source PDF.
 
 ```csharp
-var summaryOptions = OpenAISummaryCopilotOptions.Create()
+var summaryOptions = SummaryCopilotOptions.Create()
     .WithTemperature(0.5)                     // deterministic but still natural
     .WithDocument("YOUR_DIRECTORY/input.pdf");
 ```
@@ -195,7 +195,7 @@ namespace PdfSummaryDemo
             // -------------------------------------------------
             // Step 2: Define summary options – temperature controls creativity
             // -------------------------------------------------
-            var summaryOptions = OpenAISummaryCopilotOptions.Create()
+            var summaryOptions = SummaryCopilotOptions.Create()
                 .WithTemperature(0.5)                     // deterministic output
                 .WithDocument("YOUR_DIRECTORY/input.pdf"); // source PDF
 
@@ -241,7 +241,7 @@ Summary PDF saved to YOUR_DIRECTORY/Summary_out.pdf
 
 | Scenario | What to change | Why it matters |
 |----------|----------------|----------------|
-| **Large PDF ( > 50 MB )** | Increase `WithChunkSize` in `OpenAISummaryCopilotOptions` or split the document into smaller parts. | Prevents request payloads that exceed OpenAI limits. |
+| **Large PDF ( > 50 MB )** | Increase `WithChunkSize` in `SummaryCopilotOptions` or split the document into smaller parts. | Prevents request payloads that exceed OpenAI limits. |
 | **More creative summary** | Set `WithTemperature(0.9)`. | Higher temperature yields more varied phrasing, useful for marketing copy. |
 | **Custom PDF layout** | After `GetSummaryDocumentAsync`, edit `summaryDocument` (add header/footer, change fonts). | Allows branding or compliance requirements. |
 | **Error handling** | Wrap calls in `try / catch (PdfException ex)` and `OpenAIException`. | Provides graceful failure reporting in production services. |
@@ -270,9 +270,9 @@ These extensions let you build end‑to‑end document intelligence pipelines.
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to create OpenAI client and generate a PDF summary in C#](pdf/english/net/document-creation/how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
-- [How to convert PDF to summary with Aspose.Pdf.AI in C#](pdf/english/net/text-operations/how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
-- [Generate PDF summary with Aspose.Pdf.AI and OpenAI](pdf/english/net/programming-with-text/generate-pdf-summary-with-aspose-pdf-ai-and-openai/)
+- [How to create OpenAI client and generate a PDF summary in C#]({{< relref "pdf/english/net/document-creation/how-to-create-openai-client-and-generate-a-pdf-summary-in-c/_index.md" >}})
+- [How to convert PDF to summary with Aspose.Pdf.AI in C#]({{< relref "pdf/english/net/text-operations/how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/_index.md" >}})
+- [Generate PDF summary with Aspose.Pdf.AI and OpenAI]({{< relref "pdf/english/net/programming-with-text/generate-pdf-summary-with-aspose-pdf-ai-and-openai/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
