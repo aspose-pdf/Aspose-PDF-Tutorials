@@ -238,6 +238,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF for .NET 在 PDF 中设置透明度](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 了解如何使用 Aspose.Pdf 在 PDF 中设置透明度，以实现更丰富的视觉效果。
 
+### [如何在 C# 中使用 Aspose.PDF 为 PDF 添加透明度](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+本指南展示如何在 C# 使用 Aspose.PDF 为 PDF 文档设置透明度，实现更丰富的视觉效果。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

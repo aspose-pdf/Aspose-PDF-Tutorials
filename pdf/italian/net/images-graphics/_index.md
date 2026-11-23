@@ -17,6 +17,9 @@ Scopri come arricchire i documenti PDF con elementi visivi grazie ai nostri tuto
 
 ## Tutorial disponibili
 
+### [How to add transparency to PDF in C# with Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
+
 ### [Aggiungere timbri immagine ai PDF utilizzando Aspose.PDF per .NET: una guida passo passo](./add-image-stamp-to-pdf-aspose-dotnet/)
 Scopri come aggiungere senza problemi timbri immagine, come loghi, a ogni pagina di un PDF utilizzando Aspose.PDF per .NET. Arricchisci i tuoi documenti con un branding professionale.
 

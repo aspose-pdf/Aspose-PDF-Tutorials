@@ -17,6 +17,9 @@ Aspose.PDF .NETの包括的なチュートリアルで、PDFドキュメント�
 
 ## 利用可能なチュートリアル
 
+### [How to add transparency to PDF in C# with Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
+
 ### [Aspose.PDF for .NET を使用して PDF に画像スタンプを追加する: ステップバイステップ ガイド](./add-image-stamp-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、ロゴなどの画像スタンプを PDF の各ページにシームレスに追加する方法を学びましょう。プロフェッショナルなブランディングでドキュメントを魅力的に演出できます。
 

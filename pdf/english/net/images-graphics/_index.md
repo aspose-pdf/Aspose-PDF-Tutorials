@@ -34,6 +34,8 @@ pdfDocument.Save("output.pdf");
 
 ### [How to set transparency in a PDF using Aspose.Pdf](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 
+### [How to add transparency to PDF in C# with Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
 ### [Add image stamps to PDFs using Aspose.PDF for .NET&#58; a step‑Step guide]({{< relref "add-image-stamp-to-pdf-aspose-dotnet" >}})
 ### [Add graphics state pdf with Aspose.Pdf – step‑by‑step guide](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 ### [How to create PDF graphics state in C# with Aspose.Pdf](./how-to-create-pdf-graphics-state-in-c-with-aspose-pdf/)
@@ -115,16 +117,16 @@ A code tutorial for Aspose.PDF Net
 A code tutorial for Aspose.PDF Net
 
 ### [Fast image shrinking in PDFs with Aspose.PDF .NET&#58; optimize and compress images efficiently]({{< relref "optimize-pdf-images-aspose-net-fast-compression" >}})
-Learn how to shrink images within PDF files using Aspose.PDF for .NET, reducing file sizes while maintaining quality. Perfect for faster loading and efficient storage.
+Learn how to shrink images within PDF files using Aspose-PDF for .NET, reducing file sizes while maintaining quality. Perfect for faster loading and efficient storage.
 
 ### [How to Add Image Footers to PDFs Using Aspose.PDF .NET in C#]({{< relref "aspose-pdf-net-add-image-footers-pdfs" >}})
-Learn how to add image footers to your PDF documents using Aspose.PDF for .NET with this step-by-step guide. Perfect for branding and customization.
+Learn how to add image footers to your PDF documents using Aspose-PDF for .NET with this step-by-step guide. Perfect for branding and customization.
 
 ### [How to Add Images and Text to PDFs with Aspose.PDF for .NET&#58; A Step‑By‑Step Guide]({{< relref "adding-images-text-pdfs-aspose-pdf-dotnet" >}})
-Learn how to add images and text to PDFs using Aspose.PDF for .NET. This comprehensive guide covers everything from setup to implementation, perfect for enhancing your document editing skills.
+Learn how to add images and text to PDFs using Aspose-PDF for .NET. This comprehensive guide covers everything from setup to implementation, perfect for enhancing your document editing skills.
 
 ### [How to Add Images to PDFs Using Aspose.PDF .NET&#58; A Comprehensive Guide]({{< relref "aspose-pdf-net-add-images-pdfs" >}})
-Learn how to seamlessly add images to your PDF documents using Aspose.PDF for .NET. This step-by-step guide covers setup, implementation, and practical applications.
+Learn how to seamlessly add images to your PDF documents using Aspose-PDF for .NET. This step-by-step guide covers setup, implementation, and practical applications.
 
 ### [How to Add Images to PDFs Using Aspose.PDF for .NET&#58; A Complete Guide]({{< relref "add-images-to-pdfs-using-aspose-pdf-net" >}})
 Learn how to seamlessly add images to your PDF documents using Aspose.PDF for .NET. This step-by-step guide covers setup, implementation, and practical applications.
@@ -135,7 +137,7 @@ Learn how to seamlessly add images to your PDFs using Aspose.PDF for .NET. This 
 ### [How to Add an Image Header to PDFs Using Aspose.PDF for .NET&#58; A Step‑By‑Step Guide]({{< relref "add-image-header-pdf-aspose-dotnet" >}})
 Learn how to add image headers to your PDF documents using Aspose.PDF for .NET with this comprehensive step-by-step guide.
 ### [How to Add Image Footers to PDFs Using Aspose.PDF .NET in C#](./aspose-pdf-net-add-image-footers-pdfs/)
-Learn how to add image footers to your PDF documents using Aspose.PDF for .NET with this step‑by‑step guide. Perfect for branding and customization.
+Learn how to add image footers to your PDF documents using Aspose.PDF .NET with this step‑by‑step guide. Perfect for branding and customization.
 
 ### [How to Add an Image Stamp to PDF Headers Using Aspose.PDF for .NET]({{< relref "add-image-stamp-pdf-header-aspose-pdf" >}})
 Learn how to add image stamps to your PDF headers with Aspose.PDF for .NET, enhancing branding and professionalism.
@@ -267,7 +269,7 @@ Learn how to add images and text to PDFs using Aspose.PDF for .NET. This compreh
 Learn how to seamlessly add images to your PDF documents using Aspose.PDF for .NET. This step‑by‑step guide covers setup, implementation, and practical applications.
 ### [Set Image Backgrounds in PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./aspose-pdf-net-set-image-backgrounds/)
 ### [Render LaTeX in PDFs with Aspose.PDF .NET: a step‑By‑Step guide](./render-latex-aspose-pdf-net-guide/)
-Learn how to render complex LaTeX scripts into PDF documents using Aspose.PDF for .NET, including setup, implementation, and optimization tips.
+Learn how to render complex LaTeX scripts into PDF documents using Aspose.PDF .NET, including setup, implementation, and optimization tips.
 
 Learn how to enhance your PDF documents by setting image backgrounds using Aspose.PDF for .NET. This guide covers setup, implementation, and optimization tips.
 ### [Convert Images to PDF Using Aspose.PDF for .NET&#58; Step‑By‑Step Guide](./convert-images-pdf-aspose-net-guide/)

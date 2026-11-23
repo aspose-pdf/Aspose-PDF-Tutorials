@@ -82,6 +82,9 @@
 ### [Προσθήκη διαφάνειας σε PDF με το Aspose.Pdf – Πλήρης οδηγός .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 Μάθετε πώς να εφαρμόζετε διαφάνεια σε έγγραφα PDF χρησιμοποιώντας το Aspose.Pdf για .NET, με πλήρη παραδείγματα κώδικα.
 
+### [Δημιουργία PDF περίληψης με το Aspose.Pdf.AI – οδηγός βήμα‑βήμα](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Μάθετε πώς να δημιουργείτε PDF περίληψης χρησιμοποιώντας το Aspose.Pdf.AI με αναλυτικές οδηγίες βήμα‑βήμα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

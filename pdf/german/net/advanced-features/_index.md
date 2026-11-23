@@ -79,6 +79,9 @@ Erfahren Sie, wie Sie PDF-Dokumente visuell vergleichen und Unterschiede program
 ### [Transparenz zu PDF mit Aspose.Pdf hinzufügen – Vollständige .NET-Anleitung](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 Erfahren Sie, wie Sie mit Aspose.Pdf für .NET Transparenz zu PDF-Dokumenten hinzufügen und komplexe Grafik‑Effekte umsetzen.
 
+### [Zusammenfassendes PDF mit Aspose.Pdf.AI erstellen – Schritt‑für‑Schritt‑Anleitung](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf.AI ein zusammenfassendes PDF erstellen und dabei die KI‑gestützten Funktionen Schritt für Schritt nutzen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

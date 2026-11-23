@@ -65,78 +65,23 @@ Kód oktatóanyag az Aspose.PDF Nethez
 Tanuld meg, hogyan adhatsz hozzá alakzatot PDF dokumentumokhoz Aspose.PDF for .NET segítségével C#-ban.
 ### [Átlátszóság hozzáadása PDF fájlokhoz az Aspose.PDF for .NET segítségével](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
 Tanuld meg, hogyan adhat hozzá átlátszóságot PDF fájlokhoz az Aspose.PDF for .NET segítségével.
+
 ### [Átlátszóság módosítása PDF-ben az Aspose.Pdf for .NET használatával](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 Tanulja meg, hogyan állíthatod be a PDF elemek átlátszóságát az Aspose.Pdf for .NET segítségével C#-ban.
 
 ### [Átlátszóság beállítása PDF-ben és keverési mód módosítása az Aspose.Pdf segítségével](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
 Ismerje meg, hogyan állíthatja be az átlátszóságot és módosíthatja a keverési módot PDF-fájlokban az Aspose.Pdf .NET könyvtárral C#-ban.
 
-### [Hatékony PDF képfelismerés az Aspose.PDF for .NET segítségével](./master-image-identification-aspose-pdf-net/)
-Tanuld meg, hogyan azonosíthatod a szürkeárnyalatos és RGB képeket PDF-ekben az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a telepítést, a képkinyerést és a teljesítménnyel kapcsolatos tippeket ismerteti.
-
-### [Képfolyamok hatékony konvertálása PDF fájlokká az Aspose.PDF for .NET segítségével](./convert-image-stream-to-pdf-aspose-dotnet/)
-Ismerje meg, hogyan konvertálhat képfolyamokat professzionális minőségű PDF dokumentumokká az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a dokumentumkezelési munkafolyamatok fejlesztéséhez.
-
-### [PDF régiók kinyerése és konvertálása képekké az Aspose.PDF segítségével](./extract-convert-pdf-regions-aspose-net/)
-Kód oktatóanyag az Aspose.PDF Nethez
-
-### [Képbélyegzők kinyerése PDF-ekből az Aspose.PDF .NET használatával](./extract-image-stamps-pdfs-aspose-pdf-net/)
-Kód oktatóanyag az Aspose.PDF Nethez
-
-### [Képek kinyerése PDF aláírásokból az Aspose.PDF .NET használatával: Átfogó útmutató](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
-Ismerje meg, hogyan lehet PDF aláírásokba ágyazott képeket kinyerni az Aspose.PDF for .NET segítségével. Ez az útmutató lépésről lépésre bemutatja a gyakorlati alkalmazásokat.
-
-### [Képek kinyerése PDF-ből az Aspose.PDF for .NET segítségével](./extract-images-pdfs-aspose-pdf-net/)
-Kód oktatóanyag az Aspose.PDF Nethez
-
-### [Gyors képzsugorítás PDF-ekben az Aspose.PDF .NET segítségével: Képek hatékony optimalizálása és tömörítése](./optimize-pdf-images-aspose-net-fast-compression/)
-Tanuld meg, hogyan zsugoríthatod a képeket a PDF fájlokban az Aspose.PDF for .NET segítségével, csökkentve a fájlméretet a minőség megőrzése mellett. Tökéletes a gyorsabb betöltéshez és a hatékony tároláshoz.
-
-### [Hogyan adhatunk képlábléceket PDF-ekhez Aspose.PDF .NET használatával C#-ban](./aspose-pdf-net-add-image-footers-pdfs/)
-Tanuld meg, hogyan adhatsz hozzá képes lábléceket PDF-dokumentumaidhoz az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes arculattervezéshez és testreszabáshoz.
-
-### [Képek és szöveg hozzáadása PDF-ekhez az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./adding-images-text-pdfs-aspose-pdf-dotnet/)
-Tanuld meg, hogyan adhatsz hozzá képeket és szöveget PDF-ekhez az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató mindent lefed a beállítástól a megvalósításig, így tökéletes a dokumentumszerkesztési készségeid fejlesztéséhez.
-
-### [Képek hozzáadása PDF-ekhez az Aspose.PDF .NET használatával: Átfogó útmutató](./aspose-pdf-net-add-images-pdfs/)
-Ismerje meg, hogyan adhat zökkenőmentesen képeket PDF-dokumentumaihoz az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
-
-### [Képek hozzáadása PDF-ekhez az Aspose.PDF for .NET használatával: Teljes körű útmutató](./add-images-to-pdfs-using-aspose-pdf-net/)
-Ismerje meg, hogyan adhat zökkenőmentesen képeket PDF-dokumentumaihoz az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
-
-### [Képek hozzáadása PDF-ekhez az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./add-images-to-pdfs-aspose-pdf-net/)
-Ismerje meg, hogyan adhat zökkenőmentesen képeket PDF-fájljaihoz az Aspose.PDF for .NET segítségével. Ez az útmutató a képek meglévő PDF-fájlokhoz való hozzáadásáról és újak létrehozásáról szól DICOM-fájlokból.
-
-### [Képfejléc hozzáadása PDF-ekhez az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./add-image-header-pdf-aspose-dotnet/)
-Tanuld meg, hogyan adhatsz hozzá képfejléceket PDF-dokumentumaidhoz az Aspose.PDF for .NET használatával ebből az átfogó, lépésről lépésre haladó útmutatóból.
-
-### [Hogyan adhatunk hozzá képbélyegzőt PDF fejlécekhez az Aspose.PDF for .NET használatával](./add-image-stamp-pdf-header-aspose-pdf/)
-Tanuld meg, hogyan adhatsz hozzá képbélyegzőket PDF-fejlécekhez az Aspose.PDF for .NET segítségével, amivel fokozhatod a márkaépítést és a professzionalizmust.
-
-### [Hogyan adhatunk hozzá képbélyegzőt PDF oldalakhoz az Aspose.PDF for .NET használatával](./add-image-stamp-pdf-pages-aspose-dotnet/)
-Ismerje meg, hogyan adhat hozzá képbélyegzőket PDF-fájljainak adott oldalaihoz az Aspose.PDF for .NET segítségével. Javítsa a márkajelzést, a vízjelezést vagy szabja személyre a dokumentumokat hatékonyan.
-
-### [Képbélyegző hozzáadása PDF-hez Aspose.PDF for .NET használatával: Átfogó útmutató](./add-image-stamp-pdf-aspose-dotnet/)
-Ismerje meg, hogyan adhat hozzá képbélyegzőket, például logókat vagy vízjeleket PDF-fájljaihoz az Aspose.PDF for .NET használatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
-
-### [PDF oldalak PNG képekké konvertálása az Aspose.PDF for .NET használatával](./convert-pdf-page-to-png-aspose-dotnet/)
-Tanuld meg, hogyan konvertálhatsz PDF oldalakat kiváló minőségű PNG képekké az Aspose.PDF for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót kódpéldákkal és bevált gyakorlatokkal.
-
-### [Szaggatott vonalak létrehozása PDF-ekben az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./create-dashed-lines-aspose-pdf-net/)
-Ismerje meg, hogyan javíthatja PDF dokumentumait szaggatott vonalak hozzáadásával az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a kifinomult, professzionális megjelenésért.
-
-### [Hogyan készítsünk címkézett PDF-eket képekkel .NET-ben az Aspose.PDF használatával](./create-tagged-pdf-image-dotnet/)
-Ismerje meg, hogyan hozhat létre akadálymentesített, címkézett PDF-eket képekkel beágyazva az Aspose.PDF for .NET segítségével. Javítsa a dokumentumok akadálymentesítését és megjelenítését minden felhasználó számára.
-
-### [Átlátszó téglalapok létrehozása PDF fájlokban az Aspose.PDF for .NET használatával](./create-transparent-rectangles-aspose-pdf-dotnet/)
-Ismerje meg, hogyan javíthatja PDF-dokumentumait alfa átlátszóságú téglalapok létrehozásával az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót.
-
 ### [Átlátszóság hozzáadása PDF-hez és téglalap rajzolása PDF-ben az Aspose.PDF for .NET használatával](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+
 ### [PDF átlátszóság beállítása C#-ban az Aspose.PDF segítségével – teljes útmutató](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Tanulja meg, hogyan állíthatja be a PDF átlátszóságát C#-ban az Aspose.PDF segítségével, lépésről lépésre útmutatóval.
 
 ### [Átlátszóság beállítása PDF-ben az Aspose.Pdf segítségével](./how-to-set-transparency-in-a-pdf-using-aspose-pdf/)
 Tanulja meg, hogyan állíthat be átlátszóságot PDF dokumentumokban az Aspose.Pdf segítségével C#-ban.
+
+### [Átlátszóság hozzáadása PDF-hez C#-ban az Aspose.PDF segítségével](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+Tanulja meg, hogyan adhat hozzá átlátszóságot PDF-fájlokhoz C#-ban az Aspose.PDF segítségével.
 
 ### [Képek törlése PDF fájlokból az Aspose.PDF for .NET használatával - Teljes útmutató](./delete-images-aspose-pdf-net/)
 Ismerje meg, hogyan törölhet hatékonyan képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az útmutató bemutatja a beállítást, a kódpéldákat és a bevált gyakorlatokat.

@@ -80,7 +80,8 @@
 تعرف على كيفية مقارنة مستندين PDF باستخدام C# وإنشاء فرق شامل باستخدام Aspose.PDF.
 
 ### [إضافة الشفافية إلى ملفات PDF باستخدام Aspose.Pdf – دليل كامل .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
-تعلم كيفية تطبيق تأثير الشفافية على مستندات PDF باستخدام Aspose.Pdf في بيئة .NET خطوة بخطوة.
+
+### [إنشاء ملخص PDF باستخدام Aspose.Pdf.AI – دليل خطوة بخطوة](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
 
 ## موارد إضافية
 

@@ -172,6 +172,8 @@ Pelajari cara mengubah tingkat transparansi elemen dalam PDF menggunakan Aspose.
 ### [Cara Mengatur Opasitas dalam PDF dan Mengubah Mode Campuran dengan Aspose.Pdf](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
 Pelajari cara mengatur opasitas elemen PDF dan mengubah mode campuran menggunakan Aspose.Pdf dalam C#.
 
+### [Cara menambahkan transparansi ke PDF dalam C# dengan Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

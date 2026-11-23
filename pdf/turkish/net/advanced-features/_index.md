@@ -77,7 +77,8 @@ Aspose.Pdf for .NET kullanarak PDF dosyalarındaki her katmanı ayrı ayrı kayd
 Aspose.Pdf kullanarak PDF belgelerini görsel olarak karşılaştırmayı ve farkları (diff) oluşturmayı öğrenin.
 
 ### [İki PDF Belgesini Karşılaştırma – Tam C# Kılavuzu](./compare-two-pdf-documents-complete-c-guide/)
-C# ve Aspose.PDF kullanarak iki PDF belgesini karşılaştırmayı, farkları (diff) oluşturmayı ve raporlamayı öğrenin.
+
+### [Aspose.Pdf.AI ile Özet PDF Oluşturma – Adım Adım Kılavuz](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
 
 ## Ek Kaynaklar
 

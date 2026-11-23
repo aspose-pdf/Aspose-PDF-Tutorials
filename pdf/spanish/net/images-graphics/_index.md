@@ -42,8 +42,7 @@ Aprenda a agregar rectángulos a documentos PDF usando Aspose.PDF para .NET con 
 ### [Añadir rectángulo a PDF con C# – guía paso a paso](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 
 ### [Cómo añadir transparencia a PDF usando Aspose.PDF en C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
-
-
+### [Cómo añadir transparencia a PDF en C# con Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
 ### [Cómo establecer la transparencia en un PDF con Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Aprenda a aplicar transparencias en documentos PDF usando Aspose.Pdf con C# paso a paso.
 

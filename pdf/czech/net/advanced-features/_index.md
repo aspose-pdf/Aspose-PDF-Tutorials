@@ -79,7 +79,8 @@ Naučte se, jak porovnat PDF soubory a vizuálně zobrazit rozdíly pomocí Aspo
 Naučte se porovnat dva PDF dokumenty v C# a zobrazit rozdíly pomocí Aspose.PDF.
 
 ### [Přidání průhlednosti do PDF pomocí Aspose.Pdf – Kompletní průvodce .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
-Naučte se, jak přidat průhlednost do PDF dokumentů pomocí Aspose.Pdf pro .NET.
+
+### [Vytvořte souhrnný PDF pomocí Aspose.Pdf.AI – krok za krokem](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
 
 ## Další zdroje
 

@@ -17,6 +17,9 @@
 
 ## البرامج التعليمية المتاحة
 
+### [How to add transparency to PDF in C# with Aspose.PDF](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+
+
 ### [إضافة طوابع الصور إلى ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./add-image-stamp-to-pdf-aspose-dotnet/)
 تعرّف على كيفية إضافة طوابع الصور، مثل الشعارات، بسلاسة إلى كل صفحة من ملف PDF باستخدام Aspose.PDF لـ .NET. حسّن مستنداتك بعلامة تجارية احترافية.
 

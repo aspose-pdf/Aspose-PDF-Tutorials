@@ -80,6 +80,9 @@ Hướng dẫn chi tiết cách so sánh hai tệp PDF bằng C# và tạo báo 
 ### [Thêm Độ Trong Suốt vào PDF với Aspose.Pdf – Hướng Dẫn .NET Toàn Diện](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 Tìm hiểu cách thêm độ trong suốt vào tệp PDF bằng Aspose.Pdf cho .NET, kèm ví dụ mã chi tiết.
 
+### [Tạo PDF tóm tắt với Aspose.Pdf.AI – hướng dẫn từng bước](./create-summary-pdf-with-aspose-pdf-ai-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo PDF tóm tắt bằng Aspose.Pdf.AI trong .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

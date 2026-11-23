@@ -64,6 +64,9 @@ Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose.PDF voor 
 ### [Transparantie instellen in PDF met Aspose.Pdf C# – Stapsgewijze handleiding](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Leer hoe u transparantie-effecten in een PDF instelt met Aspose.Pdf voor .NET in C#.
 
+### [Hoe transparantie toevoegen aan PDF in C# met Aspose.PDF – Stapsgewijze handleiding](./how-to-add-transparency-to-pdf-in-c-with-aspose-pdf/)
+Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose.PDF voor .NET in C#.
+
 ### [Hoe een vorm aan een PDF toe te voegen met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Leer hoe u met Aspose.PDF voor .NET vormen toevoegt aan PDF‑documenten met C#, inclusief codevoorbeelden en tips voor positionering.
 ### [Hoe grafische status toe te voegen aan PDF en transparantie te regelen met Aspose.PDF: een stapsgewijze handleiding](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
@@ -314,10 +317,111 @@ Leer hoe u de afbeeldingsgroottes in PDF's kunt aanpassen met Aspose.PDF voor .N
 ### [Hoe de doorzichtigheid in een PDF te wijzigen met Aspose.PDF voor .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
 Leer hoe u de doorzichtigheid van afbeeldingen of vormen in een PDF kunt aanpassen met Aspose.PDF voor .NET.
 
-### [Het plaatsen van afbeeldingen in PDF's onder de knie krijgen met Aspose.PDF voor .NET](./optimize-image-placement-aspose-pdf-net/)
-Leer hoe u de plaatsing van afbeeldingen in PDF-documenten optimaliseert met Aspose.PDF voor .NET. Verbeter de documentkwaliteit en -efficiëntie met praktische handleidingen.
+### [Hoe de doorzichtigheid in een PDF in te stellen en de mengmodus te wijzigen met Aspose.Pdf: een stapsgewijze handleiding](./how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+Leer hoe u de doorzichtigheid en mengmodus van elementen in een PDF kunt aanpassen met Aspose.Pdf.
 
-### [PDF-afbeeldingen optimaliseren met Aspose.PDF voor .NET: een uitgebreide handleiding](./optimize-pdf-images-aspose-pdf-dotnet/)
+### [Hoe een rechthoek toevoegen aan PDF met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Leer hoe u met Aspose.PDF voor .NET een rechthoek aan een PDF toevoegt met C#, inclusief codevoorbeelden en praktische tips.
+
+### [Efficiënte PDF-afbeeldingsidentificatie met Aspose.PDF voor .NET](./master-image-identification-aspose-pdf-net/)
+Leer hoe u grijswaarden- en RGB-afbeeldingen in PDF's kunt identificeren met Aspose.PDF voor .NET. Deze tutorial behandelt installatie, beeldextractie en prestatietips.
+
+### [Converteer afbeeldingsstromen efficiënt naar PDF's met Aspose.PDF voor .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
+Leer hoe u afbeeldingsstromen kunt converteren naar PDF-documenten van professionele kwaliteit met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding om uw documentworkflows te verbeteren.
+
+### [PDF-regio's extraheren en converteren naar afbeeldingen met Aspose.PDF](./extract-convert-pdf-regions-aspose-net/)
+Een codetutorial voor Aspose.PDF Net
+
+### [Afbeeldingsstempels uit PDF's extraheren met Aspose.PDF .NET](./extract-image-stamps-pdfs-aspose-pdf-net/)
+Een codetutorial voor Aspose.PDF Net
+
+### [Afbeeldingen uit PDF-handtekeningen extraheren met Aspose.PDF .NET: een uitgebreide handleiding](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
+Leer hoe u afbeeldingen die in PDF-handtekeningen zijn ingesloten, kunt extraheren met Aspose.PDF voor .NET. Deze handleiding biedt stapsgewijze instructies en praktische toepassingen.
+
+### [Afbeeldingen uit PDF extraheren met Aspose.PDF voor .NET](./extract-images-pdfs-aspose-pdf-net/)
+Een codetutorial voor Aspose.PDF Net
+
+### [Snel afbeeldingen verkleinen in PDF's met Aspose.PDF .NET: Afbeeldingen efficiënt optimaliseren en comprimeren](./optimize-pdf-images-aspose-net-fast-compression/)
+Leer hoe u afbeeldingen in PDF-bestanden kunt verkleinen met Aspose.PDF voor .NET, waardoor de bestandsgrootte wordt verkleind met behoud van kwaliteit. Perfect voor sneller laden en efficiënte opslag.
+
+### [Hoe u afbeeldingsvoetteksten aan PDF's toevoegt met Aspose.PDF .NET in C#](./aspose-pdf-net-add-image-footers-pdfs/)
+Leer hoe u met Aspose.PDF voor .NET afbeeldingsvoetteksten aan uw PDF-documenten toevoegt met deze stapsgewijze handleiding. Perfect voor branding en personalisatie.
+
+### [Afbeeldingen en tekst toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./adding-images-text-pdfs-aspose-pdf-dotnet/)
+Leer hoe u afbeeldingen en tekst aan PDF's kunt toevoegen met Aspose.PDF voor .NET. Deze uitgebreide handleiding behandelt alles van installatie tot implementatie, perfect om uw vaardigheden in documentbewerking te verbeteren.
+
+### [Afbeeldingen toevoegen aan PDF's met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-add-images-pdfs/)
+Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
+
+### [Afbeeldingen toevoegen aan PDF's met Aspose.PDF voor .NET: een complete handleiding](./add-images-to-pdfs-using-aspose-pdf-net/)
+Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
+
+### [Afbeeldingen toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-images-to-pdfs-aspose-pdf-net/)
+Leer hoe u naadloos afbeeldingen aan uw PDF's toevoegt met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
+
+### [Een afbeeldingsheader toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-image-header-pdf-aspose-dotnet/)
+Leer hoe u afbeeldingsheaders toevoegt aan uw PDF-documenten met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding.
+
+### [Een afbeeldingstempel toevoegen aan PDF-headers met Aspose.PDF voor .NET](./add-image-stamp-pdf-header-aspose-pdf/)
+Leer hoe u met Aspose.PDF voor .NET afbeeldingsstempels aan uw PDF-headers kunt toevoegen. Zo versterkt u uw merkidentiteit en professionaliteit.
+
+### [Een afbeeldingstempel toevoegen aan PDF-pagina's met Aspose.PDF voor .NET](./add-image-stamp-pdf-pages-aspose-dotnet/)
+Leer hoe u afbeeldingenstempels toevoegt aan specifieke pagina's in uw PDF's met Aspose.PDF voor .NET. Verbeter uw branding, watermerken en personaliseer documenten efficiënt.
+
+### [Een afbeeldingstempel toevoegen aan een PDF met Aspose.PDF voor .NET: een uitgebreide handleiding](./add-image-stamp-pdf-aspose-dotnet/)
+Leer hoe u beeldstempels, zoals logo's of watermerken, aan uw PDF's toevoegt met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
+
+### [PDF-pagina's converteren naar PNG-afbeeldingen met Aspose.PDF voor .NET](./convert-pdf-page-to-png-aspose-dotnet/)
+Leer hoe u PDF-pagina's kunt converteren naar hoogwaardige PNG-afbeeldingen met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding met codevoorbeelden en best practices.
+
+### [Hoe u stippellijnen in PDF's maakt met Aspose.PDF voor .NET: een stapsgewijze handleiding](./create-dashed-lines-aspose-pdf-net/)
+Leer hoe u uw PDF-documenten kunt verbeteren door stippellijnen toe te voegen met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor een gepolijste, professionele uitstraling.
+
+### [Hoe u getagde PDF's met afbeeldingen in .NET kunt maken met Aspose.PDF](./create-tagged-pdf-image-dotnet/)
+Leer hoe u toegankelijke, getagde PDF's met ingesloten afbeeldingen maakt met Aspose.PDF voor .NET. Verbeter de toegankelijkheid en presentatie van documenten voor alle gebruikers.
+
+### [Transparante rechthoeken maken in PDF's met Aspose.PDF voor .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
+Leer hoe u uw PDF-documenten kunt verbeteren door rechthoeken met alfatransparantie te maken met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding.
+
+### [Hoe PDF te valideren en een rechthoek toe te voegen – een volledige handleiding](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Leer hoe u een PDF valideert en een rechthoek toevoegt met Aspose.PDF voor .NET, inclusief codevoorbeelden en best practices.
+### [Hoe transparantie aan PDF toe te voegen en een rechthoek te tekenen met Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Leer hoe u transparantie instelt en een rechthoek tekent in een PDF met Aspose.PDF voor .NET.
+
+### [Afbeeldingen uit PDF-bestanden verwijderen met Aspose.PDF voor .NET - Complete handleiding](./delete-images-aspose-pdf-net/)
+Leer hoe u efficiënt afbeeldingen uit PDF-bestanden verwijdert met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, codevoorbeelden en aanbevolen procedures.
+
+### [Afbeeldingen uit een PDF verwijderen met Aspose.PDF .NET: een stapsgewijze handleiding](./delete-images-aspose-pdf-net-guide/)
+Leer hoe u afbeeldingen uit PDF-bestanden verwijdert met Aspose.PDF voor .NET. Deze uitgebreide handleiding behandelt de installatie, implementatie en praktische toepassingen.
+
+### [Afbeeldingen uit een PDF verwijderen met Aspose.PDF voor .NET: een uitgebreide handleiding](./delete-images-from-pdf-aspose-dotnet/)
+Leer hoe u efficiënt alle afbeeldingen uit een PDF verwijdert met Aspose.PDF voor .NET, waardoor de privacy van bestanden wordt verbeterd en de bestandsgrootte wordt verkleind. Volg deze stapsgewijze handleiding.
+
+### [PDF-paginakleuren detecteren met Aspose.PDF voor .NET: een uitgebreide handleiding](./detect-pdf-page-color-aspose-dotnet/)
+Leer hoe u het kleurtype van elke pagina in een PDF kunt bepalen met Aspose.PDF voor .NET. Deze stapsgewijze tutorial behandelt de installatie, configuratie en praktische toepassingen.
+
+### [Hoe u afbeeldingsinformatie uit PDF's kunt extraheren met Aspose.PDF voor .NET](./extract-image-info-pdf-aspose-pdf-net/)
+Leer hoe u de afmetingen en resolutie van afbeeldingen uit PDF-bestanden kunt halen met Aspose.PDF voor .NET. Deze tutorial behandelt de installatie, implementatie en praktische toepassingen.
+
+### [Afbeeldingen uit PDF's extraheren met Aspose.PDF .NET (stap-voor-stap handleiding)](./extract-images-pdf-aspose-net/)
+Leer hoe je efficiënt afbeeldingen uit PDF-bestanden kunt extraheren met Aspose.PDF .NET met deze uitgebreide handleiding. Perfect voor ontwikkelaars die nauwkeurige beeldextractie nodig hebben.
+
+### [Afbeeldingen uit PDF's extraheren met Aspose.PDF voor .NET: een handleiding voor ontwikkelaars](./extract-images-from-pdf-aspose-net-guide/)
+Leer hoe u moeiteloos afbeeldingen uit PDF-documenten kunt extraheren met Aspose.PDF voor .NET met deze uitgebreide handleiding voor ontwikkelaars. Verbeter uw documentverwerkingsworkflow vandaag nog.
+
+### [Afbeeldingen uit PDF's extraheren met Aspose.PDF voor .NET: een stapsgewijze handleiding](./extract-images-aspose-pdf-dot-net-guide/)
+Leer hoe u efficiënt afbeeldingen uit PDF-bestanden kunt extraheren met Aspose.PDF voor .NET met deze uitgebreide gids, vol codevoorbeelden en aanbevolen procedures.
+
+### [Afbeeldingen uit PDF's extraheren met Aspose.PDF voor .NET: een stapsgewijze handleiding](./extract-images-aspose-pdf-net-guide/)
+Leer hoe u afbeeldingen uit PDF-documenten kunt extraheren met Aspose.PDF voor .NET met deze uitgebreide handleiding. Perfect voor ontwikkelaars die hun documentverwerking willen verbeteren.
+
+### [Afbeeldingen uit specifieke pagina's van een PDF extraheren met Aspose.PDF voor .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
+Leer hoe u efficiënt afbeeldingen uit specifieke pagina's in een PDF kunt extraheren met Aspose.PDF voor .NET. Deze handleiding behandelt tips voor installatie, implementatie en prestaties.
+
+### [Hoe PDF-pagina-informatie extraheren en afbeeldingen renderen met Aspose.PDF voor .NET (Handleiding 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
+Leer hoe u pagina-afmetingen kunt extraheren en afbeeldingen uit PDF's kunt renderen met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
+
+### [PDF-afbeeldingen optimaliseren met Aspose.PDF voor .NET](./optimize-pdf-images-aspose-pdf-dotnet/)
 Leer hoe u afbeeldingen in PDF-documenten kunt comprimeren en optimaliseren met Aspose.PDF voor .NET, waardoor de bestandsgrootte wordt verkleind met behoud van kwaliteit. Ideaal voor ontwikkelaars en documentbeheerders.
 
 ### [LaTeX in PDF's renderen met Aspose.PDF .NET: een stapsgewijze handleiding](./render-latex-aspose-pdf-net-guide/)
