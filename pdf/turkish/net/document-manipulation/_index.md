@@ -138,7 +138,7 @@ Aspose.PDF for .NET kullanarak PDF belgelerinize JavaScript işlevlerinin nasıl
 Bu ayrıntılı kılavuzla, C# dilinde belge iş akışlarını kolaylaştırmak için mükemmel olan Aspose.PDF for .NET'i kullanarak PDF dosyalarını etkili bir şekilde nasıl ekleyeceğinizi öğrenin.
 
 ### [.NET'te Aspose.PDF Kullanarak PDF'leri Nasıl Eklersiniz: Kapsamlı Bir Kılavuz](./mastering-pdf-append-aspose-pdf-net/)
-Bu ayrıntılı kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarını nasıl verimli bir şekilde ekleyeceğinizi öğrenin. Sorunsuz iş akışları için belge düzenlemede ustalaşın.
+Bu ayrıntılı kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarını nasıl verimli bir şekilde ekleyeceğinizi öğrenin. Sorunsuz iş akışları için belge düzenlemede ustalaşın.
 
 ### [Aspose.PDF for .NET Kullanarak PDF Sayfa Boyutları Nasıl Değiştirilir (Adım Adım Kılavuz)](./change-pdf-page-sizes-aspose-dotnet/)
 .NET için Aspose.PDF kullanarak bir PDF'deki sayfa boyutlarını nasıl etkili bir şekilde değiştireceğinizi öğrenin. Bu adım adım kılavuz, kurulum, kullanım ve pratik uygulamaları kapsar.
@@ -353,11 +353,9 @@ Aspose.Pdf kullanarak bozuk PDF dosyalarını onarma, hataları düzeltme ve dos
 ### [Güncellenmiş PDF'yi Kaydedin – Aspose.Pdf ile PDF Kaynaklarını Düzenleyin](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Aspose.Pdf kullanarak PDF kaynaklarını düzenledikten sonra güncellenmiş PDF dosyasını nasıl kaydedeceğinizi öğrenin.
 
-### [Aspose.PDF ile Değiştirilmiş PDF'yi Kaydet – Tam C# Kılavuzu](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
-Aspose.PDF for .NET kullanarak değiştirilmiş PDF dosyalarını kaydetmeyi adım adım öğrenin ve C# kod örnekleriyle uygulayın.
+### [Aspose.PDF ile Değiştirilmiş PDF'yi Kaydetme ve Şeffaflık Ekleme](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 
-### [Aspose.PDF ile Değiştirilen PDF'yi Kaydetme ve Şeffaflık Ekleme](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
-Aspose.PDF for .NET kullanarak PDF'yi değiştirdikten sonra kaydetmeyi ve şeffaflık eklemeyi adım adım öğrenin.
+### [C# ile Değiştirilmiş PDF'yi Kaydetme ve Bates Numaralandırması Ekleme](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
 
 ## Ek Kaynaklar
 

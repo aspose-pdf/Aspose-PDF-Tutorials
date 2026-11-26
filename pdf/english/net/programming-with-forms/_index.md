@@ -36,6 +36,9 @@ pdf.Save("SampleForm.pdf");
 ```
 
 ## Tutorials
+### [How to add text field PDF with Aspose.PDF in C#](./how-to-add-text-field-pdf-with-aspose-pdf-in-c/)
+
+
 | Title | Description |
 | --- | --- | 
 | [Add Tooltip To Field]({{< relref "add-tooltip-to-field" >}}) | Learn how to add tooltips to form fields in PDF documents using Aspose.PDF for .NET in this step-by-step guide. Improve usability and user experience. |  

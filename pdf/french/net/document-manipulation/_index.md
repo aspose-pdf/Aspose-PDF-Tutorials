@@ -107,6 +107,9 @@ Un tutoriel de code pour Aspose.PDF Net
 ### [Enregistrer un PDF modifié avec Aspose.PDF – Guide complet C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Apprenez à enregistrer un PDF modifié en utilisant Aspose.PDF pour .NET avec un guide complet en C#.
 
+### [Comment enregistrer un PDF modifié et ajouter une numérotation Bates en C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+Apprenez à enregistrer un PDF modifié et à y ajouter une numérotation Bates en C# avec Aspose.PDF pour .NET.
+
 ### [Masquer les numéros de page de la table des matières dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET : guide étape par étape](./hide-toc-page-numbers-aspose-pdf-dotnet/)
 Découvrez comment supprimer les numéros de page d'une table des matières dans vos fichiers PDF avec Aspose.PDF pour .NET. Ce guide propose des instructions étape par étape et des options de configuration clés.
 
@@ -125,7 +128,7 @@ Apprenez à ajouter des objets ligne dans des PDF avec Aspose.PDF pour .NET. Ce 
 ### [Comment ajouter un pied de page de texte dans un fichier PDF avec Aspose.PDF pour .NET : guide étape par étape](./add-text-stamp-footer-aspose-pdf-net/)
 Découvrez comment ajouter des pieds de page textuels à chaque page de vos documents PDF avec Aspose.PDF pour .NET grâce à notre guide étape par étape. Optimisez le traitement de vos documents.
 
-### [Comment ajouter un tampon de texte aux fichiers PDF avec Aspose.PDF pour .NET](./add-text-stamp-pdf-aspose-dotnet/)
+### [Comment ajouter un tampon de texte aux fichiers PDF avec Aspose.PDF pour .NET](./add-text-stamp-pdf-aspose-dotnet-tutorial/)
 Apprenez à ajouter efficacement des tampons de texte à vos documents PDF avec Aspose.PDF pour .NET. Optimisez la gestion de vos documents grâce à ce guide étape par étape.
 
 ### [Comment ajouter une page vide à la fin d'un PDF avec Aspose.PDF pour .NET | Guide étape par étape](./add-empty-page-end-pdf-aspose-pdf-net/)
@@ -235,7 +238,7 @@ Apprenez à insérer des pages dans un PDF avec Aspose.PDF pour .NET. Ce guide �
 Apprenez à insérer des pages dans un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Optimisez efficacement votre flux de travail documentaire.
 
 ### [Insérer une page vide dans un PDF avec Aspose.PDF .NET : un guide complet](./aspose-pdf-net-insert-empty-page/)
-Apprenez à insérer facilement des pages vides dans vos documents PDF avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour améliorer vos compétences en manipulation de documents.
+Apprenez à insérer facilement des pages vides dans vos documents PDF avec Aspose.PDF .NET. Suivez ce guide étape par étape pour améliorer vos compétences en manipulation de documents.
 
 ### [Maîtrisez la méthode MakeNUp d'Aspose.PDF .NET pour des mises en page PDF efficaces](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Apprenez à réorganiser efficacement plusieurs pages PDF pour créer de nouvelles mises en page grâce à la méthode MakeNUp d'Aspose.PDF .NET. Idéal pour les newsletters, brochures et rapports.
@@ -243,7 +246,7 @@ Apprenez à réorganiser efficacement plusieurs pages PDF pour créer de nouvell
 ### [Maîtriser Aspose.PDF pour .NET : Guide de concaténation PDF efficace](./mastering-aspose-pdf-dotnet-pdfs-concatenation-guide/)
 Apprenez à concaténer des PDF avec Aspose.PDF pour .NET grâce à ce guide complet. Simplifiez facilement le traitement de vos documents.
 
-### [Maîtrisez Aspose.PDF pour .NET : combinez facilement des fichiers PDF grâce à la fonctionnalité N-Up](./combine-pdfs-aspose-pdf-net-n-up-functionality/)
+### [Maîtriser Aspose.PDF pour .NET : combinez facilement des fichiers PDF grâce à la fonctionnalité N-Up](./combine-pdfs-aspose-pdf-net-n-up-functionality/)
 Découvrez comment utiliser Aspose.PDF pour .NET pour combiner efficacement plusieurs fichiers PDF grâce à la fonctionnalité N-Up. Idéal pour les développeurs souhaitant simplifier la manipulation de documents.
 
 ### [Maîtriser la gestion des PDF : ouvrir et gérer les propriétés des documents avec Aspose.PDF pour .NET](./aspose-pdf-dotnet-open-manage-properties/)

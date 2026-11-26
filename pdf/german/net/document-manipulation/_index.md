@@ -334,26 +334,34 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET vertrauliche Informationen in PDF
 
 ### [Wie man PDF in C# repariert – Beschädigte PDF-Dateien schnell beheben](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET beschädigte PDF-Dateien in C# schnell reparieren und wiederherstellen.
+
 ### [Wie Sie PDF in C# mit Aspose PDF redigieren – Vollständige Anleitung](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose PDF für .NET vertrauliche Informationen in PDFs redigieren und dauerhaft entfernen.
+
 ### [So entfernen Sie eingebettete Schriftarten aus PDF – Schritt‑für‑Schritt C#‑Leitfaden](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET eingebettete Schriftarten aus PDF-Dateien entfernen.
+
 ### [PDF-Ebenen in C# flachlegen – Export- und Extraktionsleitfaden](./flatten-pdf-layers-in-c-export-extract-guide/)
 Erfahren Sie, wie Sie PDF-Ebenen mit Aspose.PDF für .NET flachlegen und Inhalte exportieren oder extrahieren.
 
 ### [Visueller PDF-Vergleich in C# – Vollständige Anleitung zum Vergleich von zwei PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET visuelle Unterschiede zwischen zwei PDFs erkennen und vergleichen.
+
 ### [PDF-Layer in C# zusammenführen – So kombinieren Sie PDF-Layer](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Layer in C# zusammenführen und mehrere Ebenen zu einem Dokument kombinieren.
+
 ### [Wie man PDF-Dateien mit Aspose.Pdf repariert – Vollständige Anleitung](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
-Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.Pdf reparieren und wiederherstellen – Schritt-für-Schritt-Anleitung.
+Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.Pdf reparieren und wiederherstellen – Schritt‑für‑Schritt‑Anleitung.
+
 ### [Aktualisiertes PDF speichern – PDF-Ressourcen mit Aspose.Pdf bearbeiten](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Erfahren Sie, wie Sie ein geändertes PDF speichern und PDF-Ressourcen mit Aspose.Pdf effizient bearbeiten.
+
 ### [Speichern Sie ein modifiziertes PDF mit Aspose.PDF – Vollständige C#‑Anleitung](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein bearbeitetes PDF speichern und dabei bewährte Vorgehensweisen nutzen.
 
 ### [Wie Sie ein modifiziertes PDF mit Aspose.PDF speichern und Transparenz hinzufügen](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
-Erfahren Sie, wie Sie ein bearbeitetes PDF speichern und Transparenz hinzufügen.
+
+### [Wie Sie ein modifiziertes PDF speichern und Bates-Nummerierung in C# hinzufügen](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
 
 ## Weitere Ressourcen
 

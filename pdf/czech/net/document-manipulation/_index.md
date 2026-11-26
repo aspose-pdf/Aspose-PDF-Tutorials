@@ -227,7 +227,7 @@ Naučte se ovládat manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příruč
 ### [Manipulace s PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Naučte se, jak efektivně vytvářet, upravovat, slučovat a extrahovat data z PDF souborů pomocí Aspose.PDF pro .NET. Vylepšete své pracovní postupy s dokumenty a zvyšte produktivitu.
 
-### [Manipulace s počtem stránek v hlavním PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./mastering-pdf-manipulation-aspose-pdf-net/)
+### [Manipulace s PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./mastering-pdf-manipulation-aspose-pdf-net/)
 Naučte se, jak efektivně načítat a upravovat počet stránek PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
 ### [Zvládnutí Aspose.PDF .NET: Bezproblémová integrace LaTeXu do tabulek a buněk PDF](./integrate-latex-aspose-pdf-dotnet/)
@@ -289,23 +289,32 @@ Naučte se, jak rozdělovat vícestránkové PDF soubory a vytvářet nové PDF 
 
 ### [Jak redigovat PDF v C# – Skrytí textu PDF a odstranění obsahu PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Naučte se, jak v C# pomocí Aspose.PDF skrýt citlivý text a odstranit obsah z PDF dokumentů.
+
 ### [Zploštění vrstev PDF v C# – Průvodce exportem a extrakcí](./flatten-pdf-layers-in-c-export-extract-guide/)
 Naučte se, jak zploštit vrstvy PDF a exportovat nebo extrahovat jejich obsah pomocí Aspose.PDF pro .NET v C#.
 
 Naučte se, jak zploštit PDF soubory pomocí Aspose.PDF v tomto kompletním průvodci.
+
 ### [Uložení upraveného PDF pomocí Aspose.PDF – Kompletní průvodce C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Naučte se, jak pomocí Aspose.PDF pro .NET uložit změněný PDF soubor v C# s podrobnými ukázkami kódu a tipy pro efektivní práci.
+
+### [Jak uložit upravený PDF a přidat Batesovo číslování v C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+Naučte se, jak pomocí Aspose.PDF pro .NET uložit změněný PDF soubor a přidat Batesovo číslování pomocí C#.
 
 ### [Ultimátní průvodce manipulací s PDF pomocí Aspose.PDF .NET: Efektivní načítání, ukládání a nahrazování textu](./master-pdf-manipulation-aspose-pdf-net/)
 Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá načítáním, ukládáním a nahrazováním textu v PDF souborech, což je ideální pro vývojáře, kteří hledají efektivitu.
 
 ### [Jak zploštit PDF pomocí Aspose.PDF – Kompletní průvodce](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+
 ### [Jak odstranit vložená písma v PDF – krok‑po‑kroku průvodce C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Naučte se, jak pomocí Aspose.PDF pro .NET v C# odstranit vložená písma z PDF souborů.
+
 ### [Sloučení vrstev PDF v C# – Jak kombinovat vrstvy PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Naučte se, jak sloučit vrstvy PDF souborů pomocí Aspose.PDF pro .NET v jazyce C#.
+
 ### [Jak opravit PDF soubory pomocí Aspose.PDF – Kompletní průvodce](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Naučte se, jak opravit poškozené PDF soubory pomocí Aspose.PDF v tomto podrobném průvodci.
+
 ### [Uložení aktualizovaného PDF – úprava PDF zdrojů pomocí Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Naučte se, jak uložit změny v PDF a upravit jeho zdroje pomocí Aspose.PDF.
 

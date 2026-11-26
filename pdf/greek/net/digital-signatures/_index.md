@@ -117,7 +117,7 @@
 ### [Πώς να εξαγάγετε υπογραφές από PDF σε C# – Οδηγός βήμα προς βήμα](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Μάθετε πώς να εξάγετε ψηφιακές υπογραφές από αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF, με βήμα‑βήμα οδηγίες.
 
-### [Πώς να εξάγετε τον υπογράφοντα από PDF – Πλήρης οδηγός C#](./how-to-extract-signer-from-pdf-complete-c-guide/)
+### [Πώς να εξαγάγετε τον υπογράφοντα από PDF – Πλήρης οδηγός C#](./how-to-extract-signer-from-pdf-complete-c-guide/)
 Μάθετε πώς να εξάγετε τον υπογράφοντα από PDF με C# χρησιμοποιώντας το Aspose.PDF.
 
 ### [Έλεγχος υπογραφής PDF σε C# – Επικύρωση ψηφιακής υπογραφής PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
@@ -130,7 +130,7 @@
 ### [Πώς να υπογράψετε PDF σε C# – Πλήρης Οδηγός με Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
 
 ### [Πώς να ελέγξετε την υπογραφή σε PDF με το Aspose.PDF – Πλήρης Οδηγός](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
-Μάθετε πώς να ελέγχετε την υπογραφή σε PDF χρησιμοποιώντας το Aspose.PDF με πλήρη οδηγίες βήμα προς βήμα.
+Μάθετε πώς να ελέγχετε την υπογραφή σε PDF χρησιμοποιώντας το Aspose.PDF με πλήρεις οδηγίες βήμα προς βήμα.
 
 ### [Επικύρωση υπογραφής PDF και λίστα υπογραφών PDF με το Aspose.PDF – Πλήρης Οδηγός](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 Μάθετε πώς να επικυρώσετε υπογραφές PDF και να εμφανίσετε όλες τις υπογραφές ενός εγγράφου χρησιμοποιώντας το Aspose.PDF για .NET.
@@ -160,3 +160,6 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+### [Πώς να αποθηκεύσετε PDF ως HTML και να επικυρώσετε υπογραφές PDF](./how-to-save-pdf-as-html-and-validate-pdf-signatures/)
+Μάθετε πώς να μετατρέψετε PDF σε HTML και να ελέγξετε τις υπογραφές του με Aspose.PDF.

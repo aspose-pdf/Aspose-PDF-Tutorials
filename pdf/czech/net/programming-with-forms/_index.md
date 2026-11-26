@@ -57,22 +57,8 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Vytvořit PDF s stránkami a textovými poli – kompletní průvodce v C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Naučte se, jak vytvořit PDF s více stránkami a textovými poli pomocí Aspose.PDF pro .NET v kompletním C# průvodci. |
 | [Vytvořit PDF dokument s Aspose – Přidat textové pole](./create-pdf-document-with-aspose-add-text-box-field/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat textové pole do PDF dokumentu v tomto podrobném návodu. |
 | [Jak vytvořit PDF dokument s interaktivními formulářovými poli v C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Naučte se pomocí Aspose.PDF pro .NET vytvořit PDF dokument s interaktivními formulářovými poli v jazyce C#. |
-
-
-
-
-
-
-| [Jak vytvořit PDF s Aspose – Přidat pole do kolekce](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Naučte se, jak pomocí Aspose.PDF přidat pole do kolekce v PDF dokumentu. |  
-| [Vytvořit PDF dokument C# – krok za krokem průvodce více stránkovými formuláři](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# vytvořit více stránkový PDF formulář krok za krokem. |
-
-| [Vytvořit vícestránkový formulář v C# s Aspose.Pdf – krok za krokem](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit vícestránkový formulář v C# krok za krokem. |
-
-
-
-| [Vytvořit PDF dokument s více widgety textových polí – krok za krokem](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Naučte se, jak vytvořit PDF dokument s více textovými poli pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
-| [Přidat Batesová čísla do PDF – krok za krokem C# průvodce](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Naučte se, jak přidat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném C# návodu. |  
-| [Jak přidat textové pole PDF – Vytvořit pole formuláře PDF a uložit upravený PDF dokument](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Naučte se, jak vytvořit textové pole ve formuláři PDF a uložit upravený dokument pomocí Aspose.PDF pro .NET. |  
+| [Jak přidat textové pole PDF – Vytvořit pole formuláře PDF a uložit upravený PDF dokument](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Naučte se, jak vytvořit textové pole ve formuláři PDF a uložit upravený dokument pomocí Aspose.PDF pro .NET. |
+| [Jak přidat textové pole PDF pomocí Aspose.PDF v C#](./how-to-add-text-field-pdf-with-aspose-pdf-in-c/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat textové pole do PDF dokumentu v C#. |
 | [Import FDF do PDF pomocí C# – Kompletní průvodce krok za krokem](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Naučte se, jak importovat soubory FDF do PDF pomocí C# s podrobným krok za krokem návodem. |
 | [Uložit PDF dokument pomocí Aspose.PDF – kompletní průvodce](./save-pdf-document-with-aspose-pdf-complete-guide/) | Kompletní návod, jak uložit PDF dokument pomocí Aspose.PDF v .NET, včetně nastavení možností a optimalizace výstupu. |
 | [Vytvořit pole PDF formuláře v C# – krok za krokem](./create-pdf-form-field-in-c-step-by-step-guide/) | Naučte se, jak v C# pomocí Aspose.PDF vytvořit pole formuláře PDF krok za krokem. |

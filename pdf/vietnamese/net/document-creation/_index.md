@@ -117,6 +117,9 @@ Hướng dẫn tạo client OpenAI và tạo bản tóm tắt PDF bằng C# sử
 ### [Cách khởi tạo client OpenAI và tóm tắt PDF bằng AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Hướng dẫn khởi tạo client OpenAI và sử dụng AI để tóm tắt nội dung PDF trong .NET.
 
+{{< tutorial-card link="./create-pdf-document-c-add-bates-numbering-guide/" title="Tạo tài liệu PDF C# – Hướng dẫn thêm số Bates" imgSrc="./create-pdf-document-c-add-bates-numbering-guide/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="Cách tạo client OpenAI và tạo bản tóm tắt PDF bằng C#" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

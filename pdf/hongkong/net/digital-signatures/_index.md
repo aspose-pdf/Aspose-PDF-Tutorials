@@ -147,6 +147,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何使用 Aspose.PDF for .NET 驗證 PDF 簽章](./how-to-verify-pdf-signatures-with-aspose-pdf/)
 了解如何使用 Aspose.PDF 驗證 PDF 文件中的數位簽章，提供完整步驟與程式碼範例。
 
+### [如何將 PDF 儲存為 HTML 並驗證 PDF 簽章](./how-to-save-pdf-as-html-and-validate-pdf-signatures/)
+說明如何將 PDF 轉換為 HTML 並驗證其簽章。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

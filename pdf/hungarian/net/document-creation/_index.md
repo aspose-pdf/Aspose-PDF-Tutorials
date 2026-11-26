@@ -22,6 +22,8 @@ Dokumentumkészítési oktatóanyagaink átfogó útmutatást nyújtanak PDF-fá
 {{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3 dokumentum létrehozása három oldallal az Aspose.Pdf for .NET használatával" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 {{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="PDF/X‑1 dokumentum létrehozása az Aspose.PDF for .NET használatával" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 {{< tutorial-card link="./aspose-pdf-net-create-booklets-tutorial/" title="PDF füzetek létrehozása az Aspose.PDF for .NET használatával: lépésről lépésre útmutató" imgSrc="./aspose-pdf-net-create-booklets-tutorial/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="OpenAI kliens létrehozása és PDF összefoglaló generálása C#-ban" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
+
 ### [PDF füzetek létrehozása az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./aspose-pdf-net-create-booklets-tutorial/)
 Tanuld meg, hogyan készíthetsz professzionális PDF füzeteket az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 ### [PDF fájlok létrehozása XML-ből és XSLT-ből az Aspose.PDF .NET használatával: lépésről lépésre útmutató](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -119,8 +121,7 @@ Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, üres oldallal és t�
 Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban az Aspose.Pdf használatával.
 ### [Paragrafus PDF létrehozása Aspose: grafika hozzáadása és oldal beszúrása](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Tanulja meg, hogyan hozhat létre bekezdés PDF-et, grafikai elemeket adhat hozzá, és oldalt szúrhat be az Aspose.PDF for .NET használatával.
-### [OpenAI kliens létrehozása és PDF összefoglaló generálása C#-ban](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
-Tanulja meg, hogyan hozhat létre OpenAI klienst és generálhat PDF összefoglalót C#-ban az Aspose.PDF segítségével.
+### [OpenAI kliens létrehozása és PDF összefoglaló generálása C#-ban](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 ### [Hogyan inicializáljuk az OpenAI klienst és összefoglaljuk a PDF-et AI segítségével](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## További források

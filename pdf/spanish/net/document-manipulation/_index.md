@@ -361,6 +361,9 @@ Aprenda a guardar un PDF actualizado después de editar sus recursos usando Aspo
 ### [Cómo guardar un PDF modificado con Aspose.PDF y agregar transparencia](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 Aprenda a guardar PDFs modificados y aplicar transparencia usando Aspose.PDF para .NET.
 
+### [Cómo guardar un PDF modificado y agregar numeración Bates en C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+Aprenda a guardar PDFs modificados y añadir numeración Bates usando Aspose.PDF para .NET con C#.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

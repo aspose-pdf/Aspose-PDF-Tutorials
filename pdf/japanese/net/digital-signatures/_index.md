@@ -148,6 +148,9 @@ Aspose.PDF を使用して PDF のデジタル署名を検証する手順とサ�
 ### [C# で Word 文書から署名を取得する方法](./how-to-get-signatures-from-a-word-document-in-c/)
 C# を使用して Word 文書からデジタル署名情報を抽出する手順をステップバイステップで解説します。
 
+### [PDF を HTML に保存し、PDF 署名を検証する方法](./how-to-save-pdf-as-html-and-validate-pdf-signatures/)
+PDF を HTML に変換し、署名の有効性を検証する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

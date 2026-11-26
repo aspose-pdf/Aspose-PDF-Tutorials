@@ -222,8 +222,11 @@ Dowiedz się, jak programowo aktualizować łącza w plikach PDF za pomocą Aspo
 ### [Jak zaktualizować kolor tekstu łącza PDF za pomocą Aspose.PDF .NET: kompletny przewodnik](./update-pdf-link-text-color-aspose-net/)
 Dowiedz się, jak łatwo zmienić kolor tekstu linków w plikach PDF za pomocą Aspose.PDF dla .NET. Ten kompleksowy przewodnik obejmuje wskazówki dotyczące instalacji, implementacji i optymalizacji.
 
-### [Jak zapisać zmodyfikowany PDF przy użyciu Aspose.Pdf i dodać przezroczystość](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+### [Jak zapisać zmodyfikowany PDF – Edytuj zasoby PDF przy użyciu Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Dowiedz się, jak zapisać zmodyfikowany plik PDF i zastosować przezroczystość przy użyciu Aspose.PDF.
+
+### [Jak zapisać zmodyfikowany PDF i dodać numerację Bates w C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+Dowiedz się, jak zapisać zmodyfikowany plik PDF i dodać numerację Bates przy użyciu Aspose.PDF w C#.
 
 ### [Wstawianie stron do PDF za pomocą Aspose.PDF dla .NET: Kompletny przewodnik po manipulacji dokumentami](./insert-pages-pdf-aspose-dotnet-guide/)
 Dowiedz się, jak wstawiać strony do pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji po implementację, idealny dla programistów C#.
@@ -255,7 +258,7 @@ Dowiedz się, jak programowo zarządzać plikami PDF w .NET za pomocą Aspose.PD
 ### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksny przewodnik po automatyzacji dokumentów](./master-pdf-manipulation-aspose-dotnet-guide/)
 Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
 
-### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./master-pdf-manipulation-aspose-pdf-net-guide/)
+### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksny przewodnik](./master-pdf-manipulation-aspose-pdf-net-guide/)
 Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
 
 ### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: Łatwe ładowanie i modyfikowanie dokumentów](./mastering-pdf-manipulation-aspose-dotnet/)
@@ -307,7 +310,7 @@ Opanuj manipulację PDF za pomocą Aspose.PDF dla .NET. Dowiedz się, jak ładow
 Dowiedz się, jak zastąpić pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i praktyczne zastosowania.
 
 ### [Zapisz zaktualizowany PDF – Edytuj zasoby PDF przy użyciu Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
-Dowiedz się, jak zapisać zmodyfikowany plik PDF po edycji zasobów przy użyciu Aspose.PDF w .NET.
+Dowiedz się, jak zapisać zmodyfikowany plik PDF i zastosować przezroczystość przy użyciu Aspose.PDF.
 
 ### [Zmiana rozmiaru zawartości pliku PDF za pomocą Aspose.PDF dla .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
 Samouczek dotyczący kodu dla Aspose.PDF Net

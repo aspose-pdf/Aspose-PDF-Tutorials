@@ -174,6 +174,9 @@ Learn how to validate a PDF's digital signature using Aspose.PDF in C#.
 ### [How to get signatures from a Word document in C#](./how-to-get-signatures-from-a-word-document-in-c/)
 Learn how to extract digital signatures from a Word document using C# and Aspose.Words.
 
+### [How to save PDF as HTML and validate PDF signatures](./how-to-save-pdf-as-html-and-validate-pdf-signatures/)
+Learn how to convert a PDF to HTML and validate its digital signatures using Aspose.PDF for .NET.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

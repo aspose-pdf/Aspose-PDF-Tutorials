@@ -18,6 +18,8 @@
 ## บทช่วยสอนที่พร้อมใช้งาน
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="สร้างเอกสาร PDF/X‑3 ที่มีสามหน้าโดยใช้ Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="วิธีสร้างไคลเอนต์ OpenAI และสร้างสรุป PDF ด้วย C#" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
+
 ### [สร้างหนังสือ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./aspose-pdf-net-create-booklets-tutorial/)
 เรียนรู้วิธีสร้างหนังสือ PDF แบบมืออาชีพด้วย Aspose.PDF สำหรับ .NET บทช่วยสอนนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันจริง
 
@@ -128,7 +130,7 @@
 ### [สร้างย่อหน้ PDF ด้วย Aspose: เพิ่มกราฟิกและแทรกหน้า](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 เรียนรู้วิธีสร้างย่อหน้าที่มีกราฟิกและแทรกหน้าใน PDF ด้วย Aspose
 
-### [วิธีสร้างไคลเอนต์ OpenAI และสร้างสรุป PDF ด้วย C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [วิธีสร้างไคลเอนต์ OpenAI และสร้างสรุป PDF ด้วย C#](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

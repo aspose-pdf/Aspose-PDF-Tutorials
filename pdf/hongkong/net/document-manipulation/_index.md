@@ -325,6 +325,7 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 從 PDF 中移除字體 – 步驟指南](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 從 PDF 文件中移除嵌入字體，以減少檔案大小並優化文件。
+
 ### [如何在 PDF 中移除嵌入字型 – 步驟式 C# 教學](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中移除 PDF 檔案的嵌入字型，以減少檔案大小並優化效能。
 
@@ -340,11 +341,14 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 修復 PDF 檔案 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 了解如何使用 Aspose.PDF 修復受損或錯誤的 PDF 檔案，提供完整步驟與範例程式碼。
+
 ### [儲存已更新的 PDF – 使用 Aspose.Pdf 編輯 PDF 資源](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 
 ### [使用 Aspose.PDF 保存已修改的 PDF – 完整 C# 教學](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
-了解如何使用 Aspose.PDF for .NET 在 C# 中保存已修改的 PDF 文件，涵蓋完整步驟與最佳實踐。
+
 ### [如何使用 Aspose.PDF 保存已修改的 PDF 並新增透明度](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+
+### [如何在 C# 中保存已修改的 PDF 並新增 Bates 編號](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
 
 ## 其他資源
 

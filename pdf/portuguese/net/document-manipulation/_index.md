@@ -246,7 +246,7 @@ Aprenda a usar o Aspose.PDF para .NET para combinar vários arquivos PDF com efi
 Aprenda a abrir, recuperar e exibir propriedades de documentos PDF usando o Aspose.PDF para .NET. Aprimore sua experiência de visualização de PDFs em todos os aplicativos.
 
 ### [Domine a manipulação de PDF em .NET usando Aspose.PDF: um guia completo](./master-pdf-manipulation-net-asposepdf/)
-Aprenda a gerenciar PDFs com eficiência com o Aspose.PDF para .NET. Anexe, extraia e divida arquivos PDF facilmente com este guia detalhado.
+Aprenda a gerenciar PDFs com eficiência com o Aspose.PDF para .NET. Anexe, extrair e dividir arquivos PDF facilmente com este guia detalhado.
 
 ### [Domine a manipulação de PDF em .NET com Aspose.PDF: um guia completo](./aspose-pdf-net-tutorial/)
 Aprenda a gerenciar PDFs programaticamente em .NET usando o Aspose.PDF. Este guia aborda o carregamento de documentos, o acesso a campos de formulário e a iteração de opções.
@@ -345,8 +345,9 @@ Aprenda a comparar visualmente dois PDFs usando C# com o Aspose.PDF, destacando 
 Aprenda a reparar arquivos PDF corrompidos usando Aspose.Pdf com este guia passo a passo.
 ### [Salvar PDF Atualizado – Editar Recursos PDF com Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Aprenda a salvar as alterações feitas em um documento PDF usando Aspose.PDF para .NET.
-### [Salvar PDF modificado com Aspose.PDF – Guia completo em C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
-Aprenda a salvar PDFs modificados usando Aspose.PDF em C# com este guia passo a passo.
+### [Salvar PDF modificado com Aspose-PDF – Guia completo em C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+
+### [Como salvar PDF modificado e adicionar numeração Bates usando C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
 
 ## Recursos adicionais
 

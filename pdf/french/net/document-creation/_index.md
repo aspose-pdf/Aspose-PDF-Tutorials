@@ -123,6 +123,8 @@ Apprenez à créer un paragraphe PDF, ajouter des graphiques et insérer une pag
 Apprenez à configurer le client OpenAI en C# et à générer automatiquement un résumé PDF avec Aspose.PDF.
 ### [Comment initialiser le client OpenAI et résumer un PDF avec l'IA](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="Comment créer un client OpenAI et générer un résumé PDF en C#" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

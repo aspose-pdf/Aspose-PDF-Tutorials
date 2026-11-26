@@ -108,10 +108,10 @@ Lär dig hur du effektivt extraherar specifika sidor från PDF-filer i dina .NET
 ### [Extrahera specifika sidor från PDF med Aspose.PDF för .NET](./extract-pdf-pages-aspose-dotnet/)
 En kodhandledning för Aspose.PDF Net
 
-### [Dölj sidnummer i innehållsförteckningen i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./hide-toc-page-numbers-aspose-pdf-dotnet/)
+### [Dölj sidnummer i innehållsförteckningen i PDF-filer med Aspose.PDF för .NET: En steg‑för‑steg‑guide](./hide-toc-page-numbers-aspose-pdf-dotnet/)
 Lär dig hur du tar bort sidnummer från en innehållsförteckning i dina PDF-filer med Aspose.PDF för .NET. Den här guiden erbjuder steg-för-steg-instruktioner och viktiga konfigurationsalternativ.
 
-### [Hur man lägger till olika rubriker i PDF med Aspose.PDF för .NET: En steg-för-steg-guide](./add-different-headers-aspose-pdf-net/)
+### [Hur man lägger till olika rubriker i PDF med Aspose.PDF för .NET: En steg‑för‑steg‑guide](./add-different-headers-aspose-pdf-net/)
 Lär dig hur du lägger till och anpassar olika rubriker på varje sida i ett PDF-dokument med Aspose.PDF för .NET med den här detaljerade C#-handledningen.
 
 ### [Så här lägger du till rubriker i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./add-header-pdf-aspose-dotnet-guide/)
@@ -120,10 +120,10 @@ Lär dig hur du smidigt lägger till rubriker, inklusive text och bilder, i dina
 ### [Så här lägger du till rubriker i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./add-headers-aspose-pdf-dotnet-guide/)
 Lär dig hur du smidigt lägger till textrubriker i dina PDF-filer med Aspose.PDF för .NET, vilket förbättrar dokumentläsbarheten och organisationen.
 
-### [Så här lägger du till ett linjeobjekt i PDF med Aspose.PDF för .NET: En steg-för-steg-guide](./add-line-aspose-pdf-dotnet-tutorial/)
+### [Så här lägger du till ett linjeobjekt i PDF med Aspose.PDF för .NET: En steg‑för‑steg‑guide](./add-line-aspose-pdf-dotnet-tutorial/)
 Lär dig hur du lägger till linjeobjekt i PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, kodningsexempel och praktiska tillämpningar.
 
-### [Så här lägger du till en sidfot för textstämpel i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-text-stamp-footer-aspose-pdf-net/)
+### [Så här lägger du till en sidfot för textstämpel i PDF-filer med Aspose.PDF för .NET: En steg‑för‑steg‑guide](./add-text-stamp-footer-aspose-pdf-net/)
 Lär dig hur du lägger till sidfot med textstämplar på varje sida i dina PDF-dokument med Aspose.PDF för .NET med vår steg-för-steg-guide. Effektivisera dokumenthanteringen.
 
 ### [Hur man lägger till en textstämpel till PDF-filer med Aspose.PDF för .NET](./add-text-stamp-pdf-aspose-dotnet/)
@@ -338,23 +338,31 @@ Lär dig hur du bemästrar PDF-manipulation med Aspose.PDF för .NET. Den här g
 
 ### [Hur man reparerar PDF i C# – Åtgärda korrumperade PDF-filer snabbt](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Lär dig hur du reparerar skadade PDF-filer i C# med Aspose.PDF för .NET snabbt och enkelt.
+
 ### [Hur man maskerar PDF i C# med Aspose PDF – Komplett guide](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Lär dig hur du maskerar känslig information i PDF-filer med Aspose PDF för .NET och C# i denna kompletta steg-för-steg-guide.
+
 ### [Hur man plattar ut PDF med Aspose.PDF – Komplett guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Lär dig hur du plattar ut PDF-filer för att göra dem oföränderliga med Aspose.PDF i .NET.
+
 ### [Platta till PDF-lager i C# – Export- och extraheringsguide](./flatten-pdf-layers-in-c-export-extract-guide/)
 Lär dig hur du plattar till PDF-lager och exporterar eller extraherar dem med Aspose.PDF för .NET i C#.
 
 ### [Visuell PDF-jämförelse i C# – Komplett guide för att jämföra två PDF-filer](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Lär dig hur du visuellt jämför två PDF-filer i C# med Aspose.PDF och identifierar skillnader enkelt.
+
 ### [Hur du reparerar PDF-filer med Aspose.PDF – En komplett guide](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Lär dig steg-för-steg hur du reparerar skadade PDF-filer med Aspose.PDF för .NET och återställer deras integritet.
+
 ### [Spara uppdaterad PDF – Redigera PDF-resurser med Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Lär dig hur du sparar ändrade PDF-filer efter redigering av resurser med Aspose.Pdf för .NET.
+
 ### [Spara modifierad PDF med Aspose.PDF – Komplett C#-guide](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Lär dig hur du sparar ändrade PDF-filer med Aspose.PDF i C# med en komplett steg-för-steg-guide.
 
-### [Hur man sparar modifierad PDF med Aspose.Pdf och lägger till transparens](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+### [Hur du sparar modifierad PDF och lägger till Bates-numrering i C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+
+### [Hur du sparar modifierad PDF med Aspose.Pdf och lägger till transparens](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 
 ## Ytterligare resurser
 

@@ -62,12 +62,11 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan Dokumen PDF dengan Aspose.PDF – panduan lengkap](./save-pdf-document-with-aspose-pdf-complete-guide/) | Pelajari cara menyimpan dokumen PDF menggunakan Aspose.PDF dengan panduan lengkap langkah demi langkah. Bahasa Indonesia:  
 | [Buat bidang formulir PDF di C# – panduan langkah demi langkah](./create-pdf-form-field-in-c-step-by-step-guide/) | Pelajari cara membuat bidang formulir PDF menggunakan C# dengan panduan langkah demi langkah. |
 | [Cara Membuat Dokumen PDF dengan Bidang Formulir Interaktif di C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Pelajari cara membuat dokumen PDF dengan bidang formulir interaktif menggunakan Aspose.PDF untuk .NET dalam C#. |
-
 | [Cara Membuat PDF dengan Aspose – Tambahkan Bidang ke Koleksi](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Pelajari cara menambahkan bidang ke koleksi dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |
-
 | [Menambahkan Bates Numbers ke PDF – Panduan Langkah‑demi‑Langkah C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Pelajari cara menambahkan Bates Numbers ke file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah dalam C#. |
 | [Buat Dokumen PDF dengan Beberapa Widget Kotak Teks – Panduan Langkah‑demi‑Langkah](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Pelajari cara membuat dokumen PDF dengan beberapa widget kotak teks menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |
-| [Cara Menambahkan Kotak Teks PDF – Membuat Kolom Formulir PDF & Menyimpan Dokumen PDF yang Diedit](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Pelajari cara menambahkan kotak teks ke formulir PDF, membuat bidang formulir, dan menyimpan dokumen PDF yang telah diedit menggunakan Aspose.PDF for .NET. |  
+| [Cara Menambahkan Kotak Teks PDF – Membuat Kolom Formulir PDF & Menyimpan Dokumen PDF yang Diedit](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Pelajari cara menambahkan kotak teks ke formulir PDF, membuat bidang formulir, dan menyimpan dokumen PDF yang telah diedit menggunakan Aspose.PDF for .NET. |
+| [Cara Menambahkan Kolom Teks PDF dengan Aspose.PDF di C#](./how-to-add-text-field-pdf-with-aspose-pdf-in-c/) | Pelajari cara menambahkan bidang teks ke PDF menggunakan Aspose.PDF dalam C# dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

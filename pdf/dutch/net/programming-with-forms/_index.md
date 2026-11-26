@@ -62,6 +62,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [FDF importeren in PDF met C# – Complete stap‑voor‑stap‑gids](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Leer hoe u een FDF-bestand in een PDF importeert met C# met deze volledige stap‑voor‑stap‑handleiding. |
 | [PDF-document opslaan met Aspose.PDF – volledige gids](./save-pdf-document-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u PDF-documenten opslaat met Aspose.PDF voor .NET in deze volledige gids. |  
 | [PDF-document maken met interactieve formuliervelden in C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Leer hoe u een PDF-document maakt met interactieve formuliervelden in C# met Aspose.PDF voor .NET. |
+| [Tekstveld toevoegen aan PDF met Aspose.PDF in C#](./how-to-add-text-field-pdf-with-aspose-pdf-in-c/) | Leer hoe u een tekstveld toevoegt aan een PDF met Aspose.PDF in C# in deze stap‑voor‑stap tutorial. |
 
 | [Veld aan collectie toevoegen](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Leer hoe u een veld toevoegt aan een collectie in een PDF met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 

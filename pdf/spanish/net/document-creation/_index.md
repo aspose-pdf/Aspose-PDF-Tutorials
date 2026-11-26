@@ -77,7 +77,7 @@ Aprenda a crear un documento PDF, agregar páginas, etiquetar encabezados y posi
 
 ### [Crear documento PDF con Aspose.PDF – Añadir página, forma y guardar](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aprenda a crear un documento PDF, agregar una página y una forma, y guardarlo usando Aspose.PDF para .NET.
-### [Crear documento PDF con Aspose en C# – Guía paso a paso](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
+### [Crear documento PDF en C# – Guía paso a paso](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Aprenda a crear documentos PDF con Aspose en C# mediante una guía paso a paso y ejemplos de código.
 ### [Crear documento PDF en C# – Añadir página en blanco y dibujar rectángulo](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 ### [Crear documento PDF en C# – Guía de numeración Bates](./create-pdf-document-c-add-bates-numbering-guide/)
@@ -122,6 +122,8 @@ Aprenda a crear un párrafo PDF, añadir gráficos e insertar páginas usando As
 Aprenda a crear un cliente OpenAI en C# y generar un resumen PDF usando Aspose.PDF.
 ### [Cómo inicializar el cliente OpenAI y resumir PDF con IA](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Aprenda a configurar el cliente OpenAI en .NET y generar resúmenes automáticos de documentos PDF usando IA.
+### [Cómo crear un cliente OpenAI y generar un resumen PDF en C#](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
+Aprenda a crear un cliente OpenAI en C# y generar un resumen PDF usando Aspose.PDF.
 
 ## Recursos adicionales
 

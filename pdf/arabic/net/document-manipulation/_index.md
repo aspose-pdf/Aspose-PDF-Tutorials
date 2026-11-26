@@ -141,7 +141,7 @@
 ### [كيفية إضافة ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./append-pdf-files-aspose-pdf-net-guide/)
 تعرف على كيفية إضافة ملفات PDF بكفاءة باستخدام Aspose.PDF لـ .NET باستخدام هذا الدليل التفصيلي، المثالي لتبسيط سير عمل المستندات في C#.
 
-### [كيفية إضافة ملفات PDF باستخدام Aspose.PDF في .NET: دليل شامل](./mastering-pdf-append-aspose-pdf-net/)
+### [كيفية إضافة ملفات PDF في .NET باستخدام Aspose.PDF: دليل شامل](./mastering-pdf-append-aspose-pdf-net/)
 تعرّف على كيفية إضافة ملفات PDF بكفاءة باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المُفصّل. أتقن التعامل مع المستندات لتبسيط سير العمل.
 
 ### [كيفية تغيير أحجام صفحات PDF باستخدام Aspose.PDF لـ .NET (دليل خطوة بخطوة)](./change-pdf-page-sizes-aspose-dotnet/)
@@ -207,13 +207,13 @@
 ### [إزالة الخط من ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 
 ### [كيفية تقسيم صفحات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-pdf-page-splitting-aspose-pdf-net/)
-تعلّم كيفية تقسيم صفحات PDF بكفاءة إلى ملفات منفصلة باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل. طوّر مهاراتك في التعامل مع المستندات اليوم.
+تعلّم كيفية تقسيم صفحات PDF بكفاءة إلى ملفات منفصلة باستخدام Aspose.PDF .NET مع هذا الدليل الشامل. طوّر مهاراتك في التعامل مع المستندات اليوم.
 
 ### [كيفية تقسيم صفحات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./split-pdf-pages-aspose-pdf-net/)
-تعرّف على كيفية تقسيم صفحات محددة من ملف PDF إلى ملفات منفصلة باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل معالجة التدفق وإعداده.
+تعرّف على كيفية تقسيم صفحات محددة من ملف PDF إلى ملفات منفصلة باستخدام Aspose.PDF .NET. يغطي هذا الدليل معالجة التدفق وإعداده.
 
 ### [كيفية تقسيم صفحات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./split-pdf-pages-aspose-pdf-net-guide/)
-تعلّم كيفية تقسيم صفحات PDF باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل. أتقن التعامل مع المستندات بلغة C# وحسّن سير عملك.
+تعلّم كيفية تقسيم صفحات PDF باستخدام Aspose.PDF .NET مع هذا الدليل الشامل. أتقن التعامل مع المستندات بلغة C# وحسّن سير عملك.
 
 ### [كيفية قص المسافات البيضاء من ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./trim-white-space-aspose-pdf-net/)
 تعرّف على كيفية تقليل المساحات الفارغة في مستندات PDF بكفاءة باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد والتقنيات ونصائح التحسين.
@@ -344,11 +344,10 @@
 ### [كيفية إصلاح ملفات PDF باستخدام Aspose.Pdf – دليل شامل](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 تعرف على خطوات إصلاح ملفات PDF التالفة باستخدام Aspose.Pdf في دليل شامل يغطي جميع الجوانب العملية.
 ### [حفظ ملف PDF محدث – تحرير موارد PDF باستخدام Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
-
 ### [حفظ ملف PDF معدل باستخدام Aspose.PDF – دليل كامل C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
-تعلم كيفية حفظ ملفات PDF بعد تعديلها باستخدام Aspose.PDF في C# خطوة بخطوة.
-### [كيفية حفظ ملف PDF معدل باستخدام Aspose.Pdf وإضافة الشفافية](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
-تعرف على طريقة حفظ ملفات PDF المعدلة وإضافة تأثير الشفافية باستخدام Aspose.Pdf في .NET.
+### [كيفية حفظ ملف PDF معدل وإضافة ترقيم Bates في C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+
+### [كيفية حفظ ملف PDF معدل وإضافة الشفافية](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 
 ## موارد إضافية
 

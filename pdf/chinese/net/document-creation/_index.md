@@ -21,6 +21,7 @@
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="使用 Aspose.Pdf for .NET 创建带有三页的 PDF/X‑3 文档" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 {{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="使用 Aspose.PDF for .NET 创建 PDF/X‑1 文档" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
 
 ### [使用 Aspose.PDF for .NET 创建 PDF 小册子：分步指南](./aspose-pdf-net-create-booklets-tutorial/)
 学习如何使用 Aspose.PDF for .NET 创建专业的 PDF 小册子。本教程涵盖设置、实施和实际应用。
@@ -118,7 +119,7 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF 在 C# 中创建 PDF 文档](./create-pdf-document-in-c-with-aspose-pdf/)
 使用 Aspose.PDF 在 C# 中创建 PDF 文档的完整指南。
 ### [创建段落 PDF（Aspose）：添加图形并插入页面](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
-### [如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 学习如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要。
 ### [如何初始化 OpenAI 客户端并使用 AI 摘要 PDF](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 了解如何在 .NET 中初始化 OpenAI 客户端并使用 AI 对 PDF 内容进行摘要。
