@@ -1,0 +1,7 @@
+Title: How to create OpenAI client and generate PDF summary in C#
+Slug: how-to-create-openai-client-and-generate-pdf-summary-in-c
+Category: document-creation
+ProcessedDate: 2026-11-26T01:51:53.412764
+SourceRepo: AI Search API
+Keywords: create openai client, generate pdf summary, convert pdf to summary, create summary copilot, save pdf summary
+PRNumber: 181
