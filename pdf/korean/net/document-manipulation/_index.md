@@ -36,7 +36,7 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 Aspose.PDF for .NET을 사용하여 이미지와 페이지 번호를 추가하여 PDF 문서를 더욱 돋보이게 하는 방법을 알아보세요. 이 단계별 가이드를 따라 전문가 수준의 보고서, 뉴스레터 또는 비즈니스 문서를 만들어 보세요.
 
 ### [.NET용 Aspose.PDF를 사용하여 PDF 버튼에 JavaScript 추가: 종합 가이드](./add-javascript-to-pdf-buttons-aspose-pdf-net/)
-Aspose.PDF for .NET을 사용하여 푸시 버튼 필드에 대화형 JavaScript를 추가하여 PDF 문서를 개선하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
+Aspose.PDF for .NET을 사용하여 푸시 버튼 필드에 대화형 JavaScript를 추가하여 PDF 문서를 개선하는 방법을 알아보세요. 이 가이드는 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [.NET용 Aspose.PDF를 사용하여 PDF에 페이지 나누기 추가: 완전한 가이드](./add-page-breaks-pdf-aspose-dotnet/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 페이지 나누기를 추가하는 방법을 알아보세요. 설치, 설정 및 구현에 대한 단계별 가이드를 따라해 보세요.
@@ -141,6 +141,8 @@ Aspose.PDF for .NET을 사용하여 여러 PDF 파일을 효율적으로 단일 
 
 ### [.NET에서 Aspose.PDF를 사용하여 PDF를 추가하는 방법: 포괄적인 가이드](./mastering-pdf-append-aspose-pdf-net/)
 이 상세 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 효율적으로 추가하는 방법을 알아보세요. 효율적인 워크플로를 위한 문서 조작을 마스터하세요.
+
+### [C#에서 수정된 PDF를 저장하고 베이츠 번호를 추가하는 방법](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
 
 ### [Aspose.PDF .NET을 사용하여 PDF 페이지 크기를 변경하는 방법(단계별 가이드)](./change-pdf-page-sizes-aspose-dotnet/)
 Aspose.PDF for .NET을 사용하여 PDF의 페이지 크기를 효율적으로 변경하는 방법을 알아보세요. 이 단계별 가이드에서는 설치, 사용 방법 및 실제 활용 방법을 다룹니다.

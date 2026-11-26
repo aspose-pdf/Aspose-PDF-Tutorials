@@ -121,10 +121,16 @@ Scopri come aggiungere numerazione Bates a un documento PDF generato con Aspose.
 ### [Creare documento PDF in C# con Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Scopri come creare un documento PDF in C# utilizzando Aspose.PDF.
 ### [Crea paragrafo PDF con Aspose: aggiungi grafica e inserisci pagina](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
-### [Come creare un client OpenAI e generare un riepilogo PDF in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [Come creare un client OpenAI e generare un riepilogo PDF in C#](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 Scopri come configurare un client OpenAI in C# e generare automaticamente un riepilogo PDF con Aspose.PDF.
 ### [Come inizializzare il client OpenAI e riassumere PDF con IA](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Scopri come configurare il client OpenAI e generare riassunti automatici di PDF usando l'intelligenza artificiale.
+
+{{< tutorial-card link="./create-pdf-document-with-aspose-pdf-full-c-guide/" title="Crea documento PDF con Aspose.PDF – Guida completa C#" imgSrc="./create-pdf-document-with-aspose-pdf-full-c-guide/images/thumb.png" >}}
+
+{{< tutorial-card link="./create-pdf-document-in-c-add-page-draw-rectangle/" title="Crea documento PDF in C# – Aggiungi pagina al PDF e disegna un rettangolo" imgSrc="./create-pdf-document-in-c-add-page-draw-rectangle/images/thumb.png" >}}
+
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="Come creare un client OpenAI e generare un riepilogo PDF in C#" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
 
 ## Risorse aggiuntive
 

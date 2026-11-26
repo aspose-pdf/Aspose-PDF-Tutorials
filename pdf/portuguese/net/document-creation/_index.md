@@ -46,6 +46,7 @@ Aprenda a converter PDFs em livretos profissionais usando o Aspose.PDF para .NET
 Aprenda a criar, manipular e aprimorar documentos PDF usando o Aspose.PDF para .NET. Domine a adição de gráficos e texto transparente aos seus PDFs.
 ### [Como inicializar cliente OpenAI e resumir PDF com IA](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Aprenda a configurar o cliente OpenAI e gerar resumos de PDFs usando IA com Aspose.PDF para .NET.
+### [Como criar cliente OpenAI e gerar resumo de PDF em C#](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 ### [Criação de PDF em Java com Aspose: Guia de Orientação Dinâmica de Imagens para Desenvolvedores .NET](./java-pdf-creation-aspose-dynamic-image-orientation-guide/)
 Aprenda a automatizar a criação de PDF baseada em Java usando o Aspose.PDF para .NET, ajustando dinamicamente a orientação da imagem com base nas dimensões.
 ### [Domine o Aspose.PDF .NET para criação e conversão de PDF em C#](./mastering-aspose-pdf-net-pd-creation-conversion/)

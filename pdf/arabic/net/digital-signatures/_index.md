@@ -106,6 +106,8 @@
 دليل شامل للتحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF.
 ### [كيفية الحصول على التوقيعات من مستند Word في C#](./how-to-get-signatures-from-a-word-document-in-c/)
 
+### [كيفية حفظ ملف PDF كـ HTML والتحقق من توقيعات PDF](./how-to-save-pdf-as-html-and-validate-pdf-signatures/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

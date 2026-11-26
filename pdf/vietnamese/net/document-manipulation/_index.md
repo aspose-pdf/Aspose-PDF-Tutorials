@@ -335,30 +335,27 @@ Tìm hiểu cách xóa phông chữ khỏi tài liệu PDF bằng Aspose.PDF cho
 Tìm hiểu cách sửa các tệp PDF bị hỏng nhanh chóng bằng C# và Aspose.PDF.
 ### [Cách xóa nhạy cảm PDF trong C# với Aspose PDF – Hướng dẫn đầy đủ](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Tìm hiểu cách xóa thông tin nhạy cảm khỏi tài liệu PDF bằng Aspose PDF cho .NET trong C# qua hướng dẫn chi tiết từng bước.
+
 ### [Cách Xóa Phông chữ Nhúng trong PDF – Hướng dẫn từng bước C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Tìm hiểu cách xóa phông chữ nhúng khỏi PDF bằng Aspose.PDF cho .NET qua hướng dẫn C# chi tiết từng bước.
+
 ### [Làm phẳng các lớp PDF trong C# – Hướng dẫn xuất & trích xuất](./flatten-pdf-layers-in-c-export-extract-guide/)
 
 ### [So sánh PDF trực quan trong C# – Hướng dẫn đầy đủ để so sánh hai PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 ### [Cách Sửa Các Tệp PDF Với Aspose.Pdf – Hướng Dẫn Toàn Diện](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Tìm hiểu cách khắc phục lỗi và sửa chữa tệp PDF bị hỏng bằng Aspose.Pdf trong .NET với hướng dẫn chi tiết.
+
 ### [Lưu PDF Đã Cập Nhật – Chỉnh sửa Tài Nguyên PDF với Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Hướng dẫn cách lưu tài liệu PDF đã chỉnh sửa và cập nhật tài nguyên PDF bằng Aspose.Pdf trong .NET.
+
 ### [Lưu PDF đã chỉnh sửa bằng Aspose.PDF – Hướng dẫn C# đầy đủ](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 Tìm hiểu cách lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF trong C# với hướng dẫn chi tiết và ví dụ thực tế.
 
-### [Cách lưu PDF đã chỉnh sửa với Aspose.PDF và thêm độ trong suốt](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+### [Cách lưu PDF đã chỉnh sửa và thêm độ trong suốt](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 Tìm hiểu cách lưu PDF đã chỉnh sửa và áp dụng hiệu ứng trong suốt bằng Aspose.PDF cho .NET.
 
-## Tài nguyên bổ sung
-
-- [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)
-- [Aspose.PDF cho Tài liệu tham khảo Net API](https://reference.aspose.com/pdf/net/)
-- [Tải xuống Aspose.PDF cho Net](https://releases.aspose.com/pdf/net/)
-- [Hỗ trợ miễn phí](https://forum.aspose.com/)
-- [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-### [Kết hợp các lớp PDF trong C# – Cách ghép các lớp PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
-Tìm hiểu cách hợp nhất các lớp PDF thành một tệp duy nhất bằng Aspose.PDF cho .NET trong C#.
+### [Cách lưu PDF đã chỉnh sửa và thêm số Bates trong C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+Tìm hiểu cách lưu PDF đã chỉnh sửa và thêm số Bates trong C# bằng Aspose.PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

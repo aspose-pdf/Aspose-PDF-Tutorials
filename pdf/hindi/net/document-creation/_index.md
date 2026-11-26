@@ -72,14 +72,14 @@ C# कोड का उपयोग करके PDF बनाएं, नया 
 
 ### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आकार बनाएं और सहेजें](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF का उपयोग करके पृष्ठ, आकार जोड़कर PDF बनाना और सहेजना सीखें।
-### [Aspose के साथ C# में PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
+### [Aspose के साथ C# में PDF दस्तावेज़ बनाएं – चरण‑दर‑स्टेप मार्गदर्शिका](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Aspose के साथ C# में PDF दस्तावेज़ बनाने के चरण‑दर‑स्टेप निर्देश, सेटअप और कोड उदाहरण।
 ### [PDF दस्तावेज़ C# बनाना – खाली पृष्ठ जोड़ें और आयत बनाएं](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 C# में Aspose.PDF का उपयोग करके PDF में खाली पृष्ठ जोड़ना और आयत आकृति बनाना सीखें।
 ### [C# में PDF दस्तावेज़ बनाएं – खाली पृष्ठ, टैग और स्पैन जोड़ें](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
 C# का उपयोग करके PDF में खाली पृष्ठ, टैग और स्पैन जोड़ने की प्रक्रिया सीखें।
 
-### [C# में PDF दस्तावेज़ बनाएं: चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-in-c-step-by-step-guide/)
+### [C# में PDF दस्तावेज़ बनाएं: चरण‑दर‑स्टेप मार्गदर्शिका](./create-pdf-document-in-c-step-by-step-guide/)
 C# में चरण‑दर‑स्टेप PDF दस्तावेज़ बनाने की प्रक्रिया सीखें। कोड उदाहरण और सेटअप निर्देश शामिल हैं।
 
 ### [C# में PDF दस्तावेज़ बनाना – Bates नंबरिंग जोड़ने का गाइड](./create-pdf-document-c-add-bates-numbering-guide/)
@@ -106,18 +106,8 @@ C# कोड के साथ एक खाली पृष्ठ जोड़�
 Aspose.PDF का उपयोग करके HEIC फ़ॉर्मेट की छवियों को PDF में परिवर्तित करने के चरण‑दर‑स्टेप कोड उदाहरण।
 
 ### [C# में OpenAI क्लाइंट बनाना और PDF सारांश उत्पन्न करना](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
-C# में OpenAI क्लाइंट सेटअप करके PDF सारांश कैसे बनाएं, इस चरण‑दर‑स्टेप मार्गदर्शिका में सीखें।
+### [C# में OpenAI क्लाइंट बनाना और PDF सारांश उत्पन्न करना](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 
-### [Aspose.Pdf के साथ PDF दस्तावेज़ बनाएं – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
-Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने की पूरी प्रक्रिया, सेटअप से कोड उदाहरण तक, सीखें।
-
-### [C# में बेत्स नंबरिंग के साथ नया PDF दस्तावेज़ बनाएं](./create-new-pdf-document-with-bates-numbering-in-c/)
-
-### [C# में PDF/X‑4 दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-x-4-document-c-step-by-step-guide/)
-### [C# के साथ Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाएं](./create-pdf-document-in-c-with-aspose-pdf/)
-C# में Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने का चरण‑दर‑चरण मार्गदर्शन।
-### [पैराग्राफ PDF बनाएं Aspose: ग्राफ़िक्स जोड़ें और पृष्ठ सम्मिलित करें](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
-Aspose के साथ पैराग्राफ PDF बनाएं, ग्राफ़िक्स जोड़ें और नया पृष्ठ सम्मिलित करें।
 ### [OpenAI क्लाइंट को इनिशियलाइज़ करें और AI के साथ PDF का सारांश बनाएं](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## अतिरिक्त संसाधन

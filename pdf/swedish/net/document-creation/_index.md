@@ -122,6 +122,8 @@ Lär dig hur du skapar ett PDF-dokument med stycken, lägger till grafik och inf
 Lär dig hur du integrerar OpenAI i C# och skapar en PDF‑sammanfattning med Aspose.PDF.
 ### [Hur man initierar OpenAI-klient och sammanfattar PDF med AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Lär dig hur du initierar en OpenAI-klient och använder AI för att sammanfatta PDF-dokument med Aspose.PDF.
+### [Hur man skapar OpenAI‑klient och genererar PDF‑sammanfattning i C#](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
+Lär dig hur du skapar en OpenAI‑klient och genererar en PDF‑sammanfattning med Aspose.PDF i C#.
 
 ## Ytterligare resurser
 

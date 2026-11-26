@@ -61,22 +61,12 @@
 | [Создать многостраничную форму в C# с Aspose.Pdf – пошаговое руководство](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Узнайте, как создать многостраничную форму PDF в C# с помощью Aspose.Pdf, следуя пошаговому руководству. |
 | [Импорт FDF в PDF с C# – Полное пошаговое руководство](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Узнайте, как импортировать файлы FDF в PDF с помощью C# и Aspose.PDF для .NET в этом полном пошаговом руководстве. |
 | [Сохранить PDF-документ с Aspose.PDF – полное руководство](./save-pdf-document-with-aspose-pdf-complete-guide/) | Узнайте, как полностью сохранить PDF-документ с помощью Aspose.PDF для .NET в этом подробном руководстве. |
-
 | [Как создать PDF‑документ с интерактивными полями формы в C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Узнайте, как создавать PDF‑документы с интерактивными полями формы на C# с помощью Aspose.PDF. |
-
-
-
-
-
-
 | [Как создать PDF с Aspose – Добавить поле в коллекцию](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Узнайте, как добавить поле в коллекцию при создании PDF с помощью Aspose.PDF для .NET. |
-
-
-
-
-| [Создать PDF‑документ с несколькими виджетами TextBox – пошаговое руководство](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Узнайте, как создавать PDF‑документы с несколькими виджетами TextBox, используя Aspose.PDF для .NET в этом пошаговом руководстве. |
+| [Создать PDF‑документ с несколькими виджетами TextBox – пошаговое руководство](./create-pdf-document-with-multiple-textbox-widgets-step-st/) | Узнайте, как создавать PDF‑документы с несколькими виджетами TextBox, используя Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Добавить номера Бейтса в PDF – пошаговое руководство C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Узнайте, как добавить номера Бейтса в PDF‑файлы с помощью Aspose.PDF для .NET на C# в этом пошаговом руководстве. |
 | [Как добавить текстовое поле в PDF – создать поле формы PDF и сохранить отредактированный документ](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Узнайте, как добавить текстовое поле в PDF, создать поле формы и сохранить изменённый документ с помощью Aspose.PDF для .NET. |
+| [Как добавить текстовое поле PDF с Aspose.PDF в C#](./how-to-add-text-field-pdf-with-aspose-pdf-in-c/) | Узнайте, как добавить текстовое поле в PDF с помощью Aspose.PDF для .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

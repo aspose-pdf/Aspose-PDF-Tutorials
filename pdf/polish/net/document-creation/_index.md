@@ -21,6 +21,7 @@ Nasze samouczki tworzenia dokumentów zapewniają kompleksowe wskazówki dotycz�
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Utwórz dokument PDF/X‑3 z trzema stronami przy użyciu Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 {{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Jak utworzyć dokument PDF/X‑1 przy użyciu Aspose.PDF dla .NET" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="Jak utworzyć klienta OpenAI i wygenerować podsumowanie PDF w C#" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
 ### [Tworzenie broszur PDF przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./aspose-pdf-net-create-booklets-tutorial/)
 Dowiedz się, jak tworzyć profesjonalne broszury PDF za pomocą Aspose.PDF dla .NET. Ten samouczek obejmuje konfigurację, implementację i praktyczne zastosowania.
 ### [Tworzenie plików PDF z XML i XSLT przy użyciu Aspose.PDF .NET: przewodnik krok po kroku](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -119,7 +120,7 @@ Dowiedz się, jak w C# dodać pustą stronę i narysować prostokąt w dokumenci
 Dowiedz się, jak w C# stworzyć dokument PDF przy użyciu biblioteki Aspose.Pdf, dodając strony, kształty i zapisując plik.
 ### [Tworzenie akapitu PDF w Aspose: dodawanie grafiki i wstawianie strony](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Samouczek pokazujący, jak dodać grafikę i wstawić stronę do akapitu PDF przy użyciu Aspose.
-### [Jak utworzyć klienta OpenAI i wygenerować podsumowanie PDF w C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [Jak utworzyć klienta OpenAI i wygenerować podsumowanie PDF w C#](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 ### [Jak zainicjować klienta OpenAI i podsumować PDF za pomocą AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Dowiedz się, jak zainicjować klienta OpenAI i podsumować plik PDF przy użyciu sztucznej inteligencji.
 

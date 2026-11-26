@@ -62,12 +62,11 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 | [Salvar documento PDF com Aspose.PDF – guia completo](./save-pdf-document-with-aspose-pdf-complete-guide/) | Aprenda a salvar documentos PDF usando Aspose.PDF em .NET com este guia passo a passo completo. |
 | [Criar campo de formulário PDF em C# – guia passo a passo](./create-pdf-form-field-in-c-step-by-step-guide/) | Aprenda a criar um campo de formulário PDF em C# usando Aspose.PDF para .NET neste tutorial passo a passo. |
 | [Como criar documento PDF com campos de formulário interativos em C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Aprenda a criar um documento PDF com campos de formulário interativos usando Aspose.PDF para .NET em C# neste tutorial passo a passo. |
-
 | [Como criar PDF com Aspose – Adicionar campo à coleção](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Aprenda a adicionar um campo a uma coleção em um PDF usando Aspose.PDF para .NET neste tutorial passo a passo. |  
-
 | [Criar documento PDF com vários widgets de caixa de texto – Guia passo a passo](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aprenda a criar um PDF com múltiplas caixas de texto usando Aspose.PDF para .NET neste tutorial passo a passo. |
 | [Adicionar Números Bates a PDFs – Guia passo a passo em C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aprenda a inserir números Bates em PDFs usando Aspose.PDF para .NET com este guia passo a passo em C#. |
 | [Como Adicionar Caixa de Texto PDF – Criar Campo de Formulário PDF e Salvar Documento PDF Editado](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Aprenda a adicionar caixa de texto, criar campo de formulário e salvar o PDF editado usando Aspose.PDF para .NET. |
+| [Como adicionar campo de texto PDF com Aspose.PDF em C#](./how-to-add-text-field-pdf-with-aspose-pdf-in-c/) | Aprenda a adicionar um campo de texto a um PDF usando Aspose.PDF em C# neste tutorial passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

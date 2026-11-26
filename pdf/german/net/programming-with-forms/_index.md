@@ -68,6 +68,7 @@ Diese Tutorials bieten detaillierte Codebeispiele, klare Erklärungen und Illust
 | [Bates-Nummern zu PDFs hinzufügen – Schritt‑für‑Schritt C#‑Leitfaden](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates‑Nummern zu PDFs hinzufügen und automatisieren – ein praktischer C#‑Leitfaden. |
 | [PDF-Dokument mit mehreren Textfeld-Widgets erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF‑Dokument mit mehreren Textfeld‑Widgets erstellen. |
 | [Textfeld zu PDF hinzufügen – PDF-Formularfeld erstellen & bearbeitetes PDF speichern](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Textfeld zu einem PDF hinzufügen, das Formularfeld erstellen und das bearbeitete PDF speichern. |
+| [Textfeld zu PDF mit Aspose.PDF in C# hinzufügen](./how-to-add-text-field-pdf-with-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Textfeld zu einem PDF hinzufügen und das Dokument speichern. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

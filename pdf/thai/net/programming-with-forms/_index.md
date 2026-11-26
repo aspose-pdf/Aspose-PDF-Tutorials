@@ -53,7 +53,8 @@
 - [สร้างฟิลด์กล่องข้อความ PDF – คู่มือทีละขั้นตอน](./create-pdf-textbox-field-step-by-step-guide/) | เรียนรู้วิธีสร้างฟิลด์กล่องข้อความใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอนนี้ |  
 | [สร้างเอกสาร PDF ด้วย Aspose – เพิ่มฟิลด์กล่องข้อความ](./create-pdf-document-with-aspose-add-text-box-field/) | เรียนรู้วิธีสร้างเอกสาร PDF พร้อมเพิ่มฟิลด์กล่องข้อความโดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ |  
 | [เพิ่มกล่องข้อความลงในฟอร์ม PDF – คู่มือ C# ฉบับสมบูรณ์](./add-text-box-to-pdf-form-complete-c-guide/) | เรียนรู้วิธีเพิ่มกล่องข้อความในแบบฟอร์ม PDF ด้วย C# อย่างละเอียดในบทช่วยสอนนี้ |  
-| [วิธีสร้าง PDF ด้วย Aspose – เพิ่มฟิลด์ฟอร์มและหน้า](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | เรียนรู้วิธีสร้าง PDF พร้อมเพิ่มฟิลด์ฟอร์มและหน้าต่างๆ ด้วย Aspose.NET ในบทช่วยสอนนี้ |  
+| [วิธีเพิ่มฟิลด์ข้อความ PDF ด้วย Aspose.PDF ใน C#](./how-to-add-text-field-pdf-with-aspose-pdf-in-c/) | เรียนรู้วิธีเพิ่มฟิลด์ข้อความในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C# |  
+| [สร้างเอกสาร PDF ด้วย Aspose – เพิ่มฟิลด์ฟอร์มและหน้า](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | เรียนรู้วิธีสร้าง PDF พร้อมเพิ่มฟิลด์ฟอร์มและหน้าต่างๆ ด้วย Aspose.NET ในบทช่วยสอนนี้ |  
 | [สร้างเอกสาร PDF พร้อมหลายวิดเจ็ต – คู่มือทีละขั้นตอน](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | เรียนรู้วิธีสร้างเอกสาร PDF ที่มีหลายวิดเจ็ตแบบโต้ตอบโดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอนนี้ |  
 | [สร้าง PDF พร้อมหน้าและฟิลด์กล่องข้อความ – คู่มือ C# เต็มรูปแบบ](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | เรียนรู้วิธีสร้าง PDF พร้อมหน้าและฟิลด์กล่องข้อความโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนเต็ม -  |  
 | [สร้างเอกสาร PDF ด้วย C# – คู่มือขั้นตอนการสร้างแบบฟอร์มหลายหน้า](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | เรียนรู้วิธีสร้าง PDF หลายหน้าและเพิ่มฟิลด์ฟอร์มด้วย Aspose.PDF สำหรับ .NET อย่างง่ายดาย |  

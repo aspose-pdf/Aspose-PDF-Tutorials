@@ -351,6 +351,8 @@ Scopri come salvare un PDF modificato utilizzando Aspose.PDF per .NET con esempi
 
 ### [Come salvare PDF modificati con Aspose.PDF e aggiungere trasparenza](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
 
+### [Come salvare PDF modificati e aggiungere la numerazione Bates in C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

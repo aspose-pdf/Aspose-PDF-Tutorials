@@ -59,8 +59,9 @@ Aspose.PDF for .NET을 사용하여 복잡한 PDF 문서를 만드는 방법을 
 Aspose.PDF for .NET을 사용하여 접근성이 뛰어나고 구조화된 태그가 지정된 PDF를 만드는 방법을 알아보세요. 이 가이드에서는 문서 속성 설정, 링크 추가, 이미지 삽입 방법을 다룹니다.
 ### [Aspose.PDF .NET을 활용한 PDF 소책자 제작 마스터하기](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net에 대한 코드 튜토리얼
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="C#에서 OpenAI 클라이언트를 생성하고 PDF 요약을 만들기" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
+
 ### [PDF 문서 만들기 C# – 페이지 추가, 사각형 그리기 및 저장](./create-pdf-document-c-add-page-draw-rectangle-save/)
-C# 코드 예제로 페이지를 추가하고 사각형을 그린 뒤 PDF 파일로 저장하는 방법을 단계별로 안내합니다.
 
 ### [PDF 문서 만들기 – PDF에 페이지 추가, 헤딩 태그 지정 및 요소 위치 지정](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
 
@@ -68,7 +69,7 @@ C# 코드 예제로 페이지를 추가하고 사각형을 그린 뒤 PDF 파일
 C#를 사용해 처음부터 PDF 문서를 만들고, 다양한 기능을 구현하는 방법을 단계별로 안내합니다.
 
 ### [C#에서 PDF 문서 만들기 – PDF에 페이지 추가 및 사각형 그리기](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
-C# 코드를 사용해 PDF에 새 페이지를 삽입하고 사각형을 그리는 방법을 단계별로 안내합니다.
+C# 코드를 사용해 PDF에 새 페이지 삽입하고 사각형을 그리는 방법을 단계별로 안내합니다.
 
 ### [C#에서 PDF 문서 만들기 – 인‑메모리 생성 전체 가이드](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 C#을 사용해 메모리 내에서 PDF 문서를 생성하는 전체 단계별 가이드를 제공합니다.
@@ -98,7 +99,7 @@ Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 �
 
 ### [HEIC 이미지에서 PDF 만들기 – 완전한 C# 가이드](./create-pdf-image-from-heic-complete-c-guide/)
 
-### [C#에서 OpenAI 클라이언트를 생성하고 PDF 요약을 만드는 방법](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [C#에서 OpenAI 클라이언트를 생성하고 PDF 요약을 만드는 방법](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 
 ### [Aspose.Pdf로 PDF 문서 만들기 – 전체 단계별 가이드](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Aspose.Pdf를 사용하여 PDF 문서를 처음부터 완전하게 생성하고 저장하는 과정을 상세히 안내합니다.

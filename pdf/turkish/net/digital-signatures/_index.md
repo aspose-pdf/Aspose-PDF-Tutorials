@@ -79,7 +79,7 @@ Aspose.PDF for .NET kullanarak PDF dosyalarında dijital imzaları nasıl doğru
 ### [C# ile Aspose.PDF ile PDF İmzasını Kontrol Et – Tam Kılavuz](./check-pdf-signature-in-c-with-aspose-pdf-full-guide/)
 C# ve Aspose.PDF kullanarak PDF dosyalarındaki dijital imzaları nasıl kontrol edeceğinizi adım adım öğrenin.
 
-### [PDF'den İmzalayanı Çıkarma – Tam C# Kılavuzu](./how-to-extract-signer-from-pdf-complete-c-guide/)
+### [PDF'den İmzaları Çıkarma – Tam C# Kılavuzu](./how-to-extract-signer-from-pdf-complete-c-guide/)
 C# kullanarak PDF dosyasından imzalayan bilgilerini nasıl çıkaracağınızı adım adım öğrenin.
 
 ### [C# ile PDF İmza Adlarını Alın – Tam Programlama Kılavuzu](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
@@ -147,6 +147,9 @@ C# kullanarak PDF'den imzaları çıkarmayı adım adım öğrenin.
 ### [Aspose.PDF ile PDF İmzalarını Doğrulama](./how-to-verify-pdf-signatures-with-aspose-pdf/)
 ### [C# ile Word Belgesinden İmzaları Nasıl Alırsınız](./how-to-get-signatures-from-a-word-document-in-c/)
 C# kullanarak bir Word belgesinden dijital imzaları nasıl çıkaracağınızı öğrenin.
+
+### [PDF'yi HTML olarak kaydetme ve PDF imzalarını doğrulama](./how-to-save-pdf-as-html-and-validate-pdf-signatures/)
+PDF dosyasını HTML'ye dönüştürüp, dijital imzalarını nasıl doğrulayacağınızı öğrenin.
 
 ## Ek Kaynaklar
 

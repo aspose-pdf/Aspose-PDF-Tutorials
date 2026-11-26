@@ -57,6 +57,8 @@
 ### [PDF ドキュメントを作成する C# – 空白ページの追加と矩形の描画 ステップバイステップ ガイド](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 ### [HEIC 画像から PDF を作成 – 完全 C# ガイド](./create-pdf-image-from-heic-complete-c-guide/)
 
+{{< tutorial-card link="./how-to-create-openai-client-and-generate-pdf-summary-in-c/" title="C# で OpenAI クライアントを作成し、PDF 要約を生成する方法" imgSrc="./how-to-create-openai-client-and-generate-pdf-summary-in-c/images/thumb.png" >}}
+
 ### [Aspose.Pdf を使用した PDF ドキュメントの作成 – 完全ステップバイステップガイド](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Aspose.Pdf を使って .NET で PDF ドキュメントを最初から作成する方法を、詳細な手順で解説します。
 
@@ -72,7 +74,7 @@ Aspose.Pdf を使用して C# で PDF ドキュメントを作成する方法を
 ### [Asposeで段落 PDF を作成: グラフィックの追加とページの挿入](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Aspose.PDF for .NET を使用して、段落を含む PDF にグラフィックを追加し、ページを挿入する方法を学びます。
 
-### [C# で OpenAI クライアントを作成し、PDF 要約を生成する方法](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [C# で OpenAI クライアントを作成し、PDF 要約を生成する方法](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 ### [OpenAI クライアントを初期化し、AIで PDF を要約する方法](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## 追加リソース

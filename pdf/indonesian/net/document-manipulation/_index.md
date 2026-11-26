@@ -204,7 +204,7 @@ Pelajari cara menghilangkan tindakan terbuka yang tidak diinginkan dari file PDF
 Pelajari cara membagi halaman PDF menjadi file-file individual secara efisien menggunakan Aspose.PDF untuk .NET dengan panduan lengkap ini. Tingkatkan keterampilan manipulasi dokumen Anda hari ini.
 
 ### [Cara Membagi Halaman PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./split-pdf-pages-aspose-pdf-net/)
-Pelajari cara membagi halaman tertentu dari PDF ke dalam file terpisah menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penanganan dan pengaturan aliran.
+Pelajari cara membagi halaman PDF tertentu dari PDF ke dalam file terpisah menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penanganan dan pengaturan aliran.
 
 ### [Cara Membagi Halaman PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./split-pdf-pages-aspose-pdf-net-guide/)
 Pelajari cara membagi halaman PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap ini. Kuasai manipulasi dokumen dalam C# dan optimalkan alur kerja Anda.
@@ -317,6 +317,9 @@ Pelajari cara membagi file PDF menjadi beberapa halaman menggunakan Aspose.PDF u
 ### [Memisahkan Halaman PDF ke dalam File Terpisah dengan Aspose.PDF untuk .NET: Panduan Lengkap](./aspose-pdf-split-pdf-pages-net/)
 Pelajari cara membagi halaman PDF menjadi beberapa file terpisah menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
 
+### [Membagi Halaman PDF menjadi File Individual Menggunakan Aspose.PDF .NET (Tutorial C#)](./split-pdf-pages-aspose-net-csharp/)
+Pelajari cara membagi file PDF menjadi beberapa halaman menggunakan Aspose.PDF untuk .NET dan C#. Panduan ini mencakup penyiapan, penerapan, dan aplikasi praktis.
+
 ### [Membagi dan Membuat File PDF Menggunakan Aspose.PDF .NET | Panduan Manipulasi Dokumen](./split-create-pdf-aspose-pdf-net/)
 Pelajari cara membagi PDF multi-halaman dan membuat file PDF baru menggunakan Aspose.PDF .NET. Ikuti panduan lengkap ini dengan contoh kode.
 
@@ -330,6 +333,11 @@ Pelajari cara menggabungkan beberapa lapisan dalam file PDF menggunakan Aspose.P
 ### [Simpan PDF yang Diperbarui – Edit Sumber Daya PDF dengan Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Pelajari cara menyimpan PDF yang telah diperbarui setelah mengedit sumber daya PDF menggunakan Aspose.Pdf.
 ### [Simpan PDF yang Dimodifikasi dengan Aspose.PDF – Panduan Lengkap C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+
+### [Cara menyimpan PDF yang dimodifikasi dan menambahkan penomoran Bates dalam C#](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
+Pelajari cara menyimpan PDF yang telah diubah dan menambahkan penomoran Bates secara otomatis menggunakan Aspose.PDF untuk .NET dengan C#.
+
+### [Simpan PDF yang Diperbarui – Edit Sumber Daya PDF dengan Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 
 ## Sumber Daya Tambahan
 

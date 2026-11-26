@@ -132,6 +132,8 @@ C# का उपयोग करके PDF हस्ताक्षर को �
 ### [C# में Word दस्तावेज़ से हस्ताक्षर प्राप्त करें](./how-to-get-signatures-from-a-word-document-in-c/)
 C# का उपयोग करके Word दस्तावेज़ में डिजिटल हस्ताक्षर निकालने की प्रक्रिया सीखें।
 
+### [PDF को HTML के रूप में सहेजें और PDF हस्ताक्षरों को मान्य करें](./how-to-save-pdf-as-html-and-validate-pdf-signatures/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

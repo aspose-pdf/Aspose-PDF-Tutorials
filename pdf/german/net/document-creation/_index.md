@@ -21,28 +21,28 @@ Unsere Tutorials zur Dokumenterstellung bieten umfassende Anleitungen zur progra
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3‑Dokument mit drei Seiten erstellen mit Aspose.Pdf für .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 {{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="PDF/X‑1‑Dokument mit Aspose.PDF für .NET erstellen" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
-### [Erstellen Sie PDF-Broschüren mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./aspose-pdf-net-create-booklets-tutorial/)
+### [Erstellen Sie PDF-Broschüren mit Aspose.PDF für .NET: Eine Schritt‑für‑Schritt‑Anleitung](./aspose-pdf-net-create-booklets-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET professionelle PDF-Broschüren erstellen. Dieses Tutorial behandelt Einrichtung, Implementierung und praktische Anwendungen.
-### [Erstellen Sie PDFs aus XML und XSLT mit Aspose.PDF .NET: Eine Schritt-für-Schritt-Anleitung](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
+### [Erstellen Sie PDFs aus XML und XSLT mit Aspose.PDF .NET: Eine Schritt‑für‑Schritt‑Anleitung](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
 Erfahren Sie, wie Sie XML-Daten mit Aspose.PDF für .NET und XSLT-Transformationen in das PDF-Format konvertieren. Diese Anleitung behandelt Einrichtung, Bindung und Anpassung.
 ### [Erstellen Sie professionelle PDF-Broschüren in .NET mit Aspose.PDF: Ein umfassender Leitfaden](./create-professional-pdf-booklets-net-aspose-pdf/)
-Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die Erstellung professioneller PDF-Broschüren mit Aspose.PDF für .NET automatisieren.
+Erfahren Sie in unserer Schritt‑für‑Schritt‑Anleitung, wie Sie die Erstellung professioneller PDF-Broschüren mit Aspose.PDF für .NET automatisieren.
 ### [Erstellen Sie professionelle PDFs mit Aspose.PDF für .NET: Ein umfassender Leitfaden](./create-professional-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET professionelle PDF-Dokumente mit präzisen Layouts erstellen. Entdecken Sie Seitenaufbau, schwebende Boxen und nummerierte Überschriften.
 ### [Erstellen Sie professionelle PDFs mit Text und Bildern mit Aspose.PDF für .NET](./create-pdfs-text-images-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET dynamische PDF-Dokumente mit Text und Bildern erstellen. Optimieren Sie Ihren Dokumenterstellungsprozess effektiv.
 ### [Erstellen Sie strukturierte PDFs mit automatischen Seitenumbrüchen in .NET mit Aspose.PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
 Erfahren Sie, wie Sie mit Aspose.PDF programmgesteuert strukturierte PDF-Dokumente in einer .NET-Umgebung erstellen, mit automatischen Seitenumbrüchen für eine präzise Formatierung.
-### [Erstellen Sie eine PDF-Broschüre mit Aspose.PDF .NET: Optimierte Schritt-für-Schritt-Anleitung](./create-pdf-booklet-aspose-pdf-net-guide/)
+### [Erstellen Sie eine PDF-Broschüre mit Aspose.PDF .NET: Optimierte Schritt‑für‑Schritt‑Anleitung](./create-pdf-booklet-aspose-pdf-net-guide/)
 Erfahren Sie, wie Sie die Erstellung von PDF-Broschüren mit Aspose.PDF für .NET automatisieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Optimierung.
 ### [Dynamische PDF-Erstellung mit HTML in Aspose.PDF .NET](./aspose-pdf-net-dynamic-html-pdfs/)
 Ein Code-Tutorial für Aspose.PDF Net
-### [So erstellen Sie PDF-Broschüren mit Aspose.PDF .NET in C#: Schritt-für-Schritt-Anleitung](./create-pdf-booklets-aspose-pdf-net-csharp-guide/)
+### [So erstellen Sie PDF-Broschüren mit Aspose.PDF .NET in C#: Schritt‑für‑Schritt‑Anleitung](./create-pdf-booklets-aspose-pdf-net-csharp-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET und C# professionelle PDF-Broschüren erstellen. Diese Anleitung behandelt Einrichtung, Implementierung und Best Practices.
-### [So erstellen Sie PDFs mit LaTeX unter Verwendung von Aspose.PDF .NET: Eine Schritt-für-Schritt-Anleitung](./create-pdf-latex-aspose-dotnet-guide/)
+### [So erstellen Sie PDFs mit LaTeX unter Verwendung von Aspose.PDF .NET: Eine Schritt‑für‑Schritt‑Anleitung](./create-pdf-latex-aspose-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET professionelle PDF-Dokumente mit LaTeX erstellen. Diese Anleitung umfasst die Einrichtung, Codebeispiele und praktische Anwendungen.
-### [So erstellen Sie professionelle Broschüren mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./creating-booklets-aspose-pdf-net-tutorial/)
-Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs in professionelle Broschüren konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um die Dokumenterstellung in Ihren .NET-Anwendungen zu optimieren.
+### [So erstellen Sie professionelle Broschüren mit Aspose.PDF für .NET: Eine Schritt‑für‑Schritt‑Anleitung](./creating-booklets-aspose-pdf-net-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs in professionelle Broschüren konvertieren. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung, um die Dokumenterstellung in Ihren .NET-Anwendungen zu optimieren.
 ### [So erstellen und bearbeiten Sie PDFs mit Aspose.PDF für .NET: Ein umfassender Leitfaden](./create-manipulate-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET erstellen, bearbeiten und verbessern. Meistern Sie das Hinzufügen von Grafiken und transparentem Text in Ihren PDFs.
 ### [Java-PDF-Erstellung mit Aspose: Leitfaden zur dynamischen Bildausrichtung für .NET-Entwickler](./java-pdf-creation-aspose-dynamic-image-orientation-guide/)
@@ -65,7 +65,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen, eine 
 ### [PDF-Dokument erstellen – Seite zum PDF hinzufügen, Überschrift taggen und Elemente positionieren](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
 Erfahren Sie, wie Sie ein PDF-Dokument erstellen, eine Seite hinzufügen, Überschriften taggen und Elemente exakt positionieren.
 
-### [PDF-Dokument in C# erstellen – Schritt-für-Schritt-Anleitung](./create-pdf-document-in-c-step-by-step-guide/)
+### [PDF-Dokument in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# programmgesteuert erstellen.
 
 ### [PDF-Dokument mit Aspose.PDF erstellen – Seite hinzufügen, Form einfügen & speichern](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
@@ -80,48 +80,50 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen,
 ### [So erstellen Sie ein PDF in C# – Seite hinzufügen, Rechteck zeichnen und speichern](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF in C# erstellen, eine Seite hinzufügen, ein Rechteck zeichnen und das Dokument speichern.
 
-### [Erstellen Sie ein PDF-Dokument in C# – Leitfaden zum Hinzufügen von Bates-Nummerierung](./create-pdf-document-c-add-bates-numbering-guide/)
-Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Bates-Nummerierung zu PDF-Dokumenten hinzufügen.
+### [Erstellen Sie ein PDF-Dokument in C# – Leitfaden zum Hinzufügen von Bates‑Nummerierung](./create-pdf-document-c-add-bates-numbering-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Bates‑Nummerierung zu PDF‑Dokumenten hinzufügen.
 
 ### [PDF-Dokument erstellen – Leere Seite hinzufügen, Rechteck zeichnen & speichern](./create-pdf-document-add-blank-page-draw-rectangle-save/)
-Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen, eine leere Seite hinzufügen, ein Rechteck zeichnen und das Dokument speichern.
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF‑Dokument erstellen, eine leere Seite hinzufügen, ein Rechteck zeichnen und das Dokument speichern.
 
-### [Erstellen Sie ein PDF-Dokument mit Aspose.PDF – Schritt‑für‑Schritt‑Leitfaden](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument Schritt für Schritt erstellen, Seiten hinzufügen, Formen einfügen und speichern.
+### [Erstellen Sie ein PDF‑Dokument mit Aspose.PDF – Schritt‑für‑Schritt‑Leitfaden](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF ein PDF‑Dokument Schritt für Schritt erstellen, Seiten hinzufügen, Formen einfügen und speichern.
 
-### [Erstellen Sie ein PDF-Dokument mit Aspose.PDF – Vollständiger C#‑Leitfaden](./create-pdf-document-with-aspose-pdf-full-c-guide/)
-Erfahren Sie, wie Sie mit Aspose.PDF in C# ein PDF-Dokument von Grund auf erstellen, inklusive Code‑Beispielen und detaillierten Schritten.
+### [Erstellen Sie ein PDF‑Dokument mit Aspose.PDF – Vollständiger C#‑Leitfaden](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF in C# ein PDF‑Dokument von Grund auf erstellen, inklusive Code‑Beispielen und detaillierten Schritten.
 
-### [PDF-Dokument in C# erstellen – Seite hinzufügen & Rechteck zeichnen](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
-Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen, eine Seite hinzufügen und ein Rechteck zeichnen.
+### [PDF‑Dokument in C# erstellen – Seite hinzufügen & Rechteck zeichnen](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF‑Dokument in C# erstellen, eine Seite hinzufügen und ein Rechteck zeichnen.
 
-### [PDF-Dokument in C# erstellen – Vollständiger Leitfaden zur In‑Memory-Generierung](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+### [PDF‑Dokument in C# erstellen – Vollständiger Leitfaden zur In‑Memory‑Generierung](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# PDFs vollständig im Speicher erzeugen und speichern.
 
-### [PDF-Dokument erstellen in C# – Schritt‑für‑Schritt‑Anleitung zum Hinzufügen einer leeren Seite und Zeichnen eines Rechtecks](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+### [PDF‑Dokument erstellen in C# – Schritt‑für‑Schritt‑Anleitung zum Hinzufügen einer leeren Seite und Zeichnen eines Rechtecks](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein PDF erstellen, eine leere Seite hinzufügen und ein Rechteck zeichnen.
 
-### [PDF-Bild aus HEIC erstellen – Vollständiger C#-Leitfaden](./create-pdf-image-from-heic-complete-c-guide/)
+### [PDF‑Bild aus HEIC erstellen – Vollständiger C#‑Leitfaden](./create-pdf-image-from-heic-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET HEIC‑Bilder in PDFs einbinden und konvertieren – ein vollständiger C#‑Leitfaden.
 
-### [PDF-Dokument mit Aspose.PDF erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument von Grund auf erstellen, Seiten hinzufügen und das Ergebnis speichern.
+### [PDF‑Dokument mit Aspose.PDF erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF ein PDF‑Dokument von Grund auf erstellen, Seiten hinzufügen und das Ergebnis speichern.
 
-### [Erstellen Sie ein neues PDF-Dokument mit Bates-Nummerierung in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
-Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen und automatisch Bates‑Nummern hinzufügen.
+### [Erstellen Sie ein neues PDF‑Dokument mit Bates‑Nummerierung in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF‑Dokument erstellen und automatisch Bates‑Nummern hinzufügen.
 
-### [Erstellen Sie ein PDF/X‑4-Dokument in C# – Schritt‑für‑Schritt‑Anleitung](./create-pdf-x-4-document-c-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF/X‑4-Dokument in C# erstellen, inklusive Codebeispielen und Konfiguration.
-### [PDF-Dokument mit einer leeren Seite und Rechteck erstellen](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
-Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument mit einer leeren Seite und einem gezeichneten Rechteck erstellen.
-### [Erstellen Sie ein PDF-Dokument in C# mit Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+### [Erstellen Sie ein PDF/X‑4‑Dokument in C# – Schritt‑für‑Schritt‑Anleitung](./create-pdf-x-4-document-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF/X‑4‑Dokument in C# erstellen, inklusive Codebeispielen und Konfiguration.
+### [PDF‑Dokument mit einer leeren Seite und Rechteck erstellen](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF‑Dokument mit einer leeren Seite und einem gezeichneten Rechteck erstellen.
+### [Erstellen Sie ein PDF‑Dokument in C# mit Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
 Ein Code‑Tutorial zum Erstellen eines PDF‑Dokuments in C# mit Aspose.PDF.
-### [Absatz-PDF mit Aspose erstellen: Grafiken hinzufügen und Seite einfügen](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+### [Absatz‑PDF mit Aspose erstellen: Grafiken hinzufügen und Seite einfügen](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Absätze erstellen, Grafiken hinzufügen und Seiten einfügen.
-### [Wie man einen OpenAI-Client erstellt und eine PDF‑Zusammenfassung in C# generiert](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+### [Wie man einen OpenAI-Client erstellt und eine PDF‑Zusammenfassung in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 Erfahren Sie, wie Sie mit OpenAI einen Client in C# erstellen und daraus eine PDF‑Zusammenfassung generieren.
 ### [Wie man den OpenAI-Client initialisiert und PDFs mit KI zusammenfasst](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 Erfahren Sie, wie Sie den OpenAI-Client initialisieren und PDFs mithilfe von KI zusammenfassen.
+### [Wie man einen OpenAI-Client erstellt und eine PDF‑Zusammenfassung in C# generiert](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
+Erfahren Sie, wie Sie mit OpenAI einen Client in C# erstellen und eine PDF‑Zusammenfassung generieren.
 
 ## Weitere Ressourcen
 

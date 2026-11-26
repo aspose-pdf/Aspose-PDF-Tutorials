@@ -105,10 +105,10 @@ C# kullanarak PDF belgelerine Bates numaralandırması eklemeyi öğrenin. Adım
 Aspose.PDF for .NET kullanarak PDF belgesi oluşturmayı adım adım öğrenin. Kurulum, kod örnekleri ve uygulama ipuçları içerir.
 
 ### [PDF Belgesi Oluşturma C# – Boş Sayfa Ekleyip Dikdörtgen Çizmek için Adım Adım Kılavuz](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
-Aspose.PDF for .NET ile C# kullanarak boş sayfa ekleyip dikdörtgen çizen PDF oluşturmayı öğrenin.
+Aspose.PDF for .NET ile C# kullanarak boş sayfa ekip dikdörtgen çizen PDF oluşturmayı öğrenin.
 
 ### [C#'ta PDF Belgesi Oluşturma – PDF'e Sayfa Ekle ve Dikdörtgen Çiz](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
-C# kullanarak Aspose.PDF ile PDF belgesine sayfa ekleyip dikdörtgen çizmeyi öğrenin.
+C# kullanarak Aspose.PDF ile PDF belgesine sayfa ekip dikdörtgen çizmeyi öğrenin.
 
 ### [C#'ta PDF Belgesi Oluşturma – Bellek İçinde Tam Kılavuz](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 C# ve Aspose.PDF ile bellek içinde PDF belgeleri oluşturmayı adım adım öğrenin.
@@ -133,9 +133,8 @@ C# ile boş bir sayfa ekleyip dikdörtgen çizen basit bir PDF belgesi oluşturu
 ### [Paragraf PDF'si Oluşturma Aspose: Grafik Ekleme ve Sayfa Ekleme](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
 Aspose.PDF kullanarak paragraf PDF'si oluşturma, grafik ekleme ve sayfa ekleme adımlarını öğrenin.
 ### [C#'ta OpenAI istemcisi oluşturma ve PDF özeti oluşturma](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
-C# kullanarak OpenAI istemcisi oluşturup, yanıtları PDF özetine dönüştürmeyi öğrenin.
 ### [OpenAI istemcisini başlatma ve AI ile PDF özetleme](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
-OpenAI istemcisiyle PDF dosyalarını özetlemek için adım adım rehber.
+### [C# ile OpenAI istemcisi oluşturma ve PDF özeti oluşturma](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 
 ## Ek Kaynaklar
 

@@ -332,14 +332,14 @@ Tanuld meg, hogyan oszthatsz fel többoldalas PDF fájlokat és hogyan hozhatsz 
 
 ### [PDF kitakarása C#-ban az Aspose PDF segítségével – Teljes útmutató](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Ismerje meg, hogyan távolíthatja el vagy takarhatja el a PDF dokumentumok érzékeny részeit C#-ban az Aspose PDF használatával.
+
 ### [PDF-fájlok javítása Aspose.PDF segítségével – Teljes útmutató](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
-Ismerje meg, hogyan javíthatja a hibás PDF-fájlokat az Aspose.PDF segítségével ebben a teljes körű útmutatóban.
 
 ### [Frissített PDF mentése – PDF erőforrások szerkesztése az Aspose.PDF segítségével](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
-Tanulja meg, hogyan mentheted el a módosított PDF-et és szerkesztheted a PDF erőforrásokat az Aspose.PDF .NET könyvtárral.
 
 ### [Hogyan mentse el a módosított PDF-et az Aspose.PDF segítségével és adjon hozzá átlátszóságot](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
-Ismerje meg, hogyan menthet el módosított PDF-et és adhat hozzá átlátszóságot az Aspose.PDF for .NET használatával.
+
+### [Módosított PDF mentése és Bates-számozás hozzáadása C#-ban](./how-to-save-modified-pdf-and-add-bates-numbering-in-c/)
 
 ## További források
 

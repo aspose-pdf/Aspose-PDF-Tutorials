@@ -140,6 +140,7 @@
 Μάθετε πώς να δημιουργήσετε παράγραφο PDF, να προσθέσετε γραφικά και να εισάγετε σελίδες με Aspose.PDF για .NET.
 ### [Πώς να δημιουργήσετε πελάτη OpenAI και να δημιουργήσετε σύνοψη PDF σε C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 ### [Πώς να αρχικοποιήσετε τον πελάτη OpenAI και να συνοψίσετε PDF με AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+### [Πώς να δημιουργήσετε πελάτη OpenAI και να δημιουργήσετε σύνοψη PDF σε C#](./how-to-create-openai-client-and-generate-pdf-summary-in-c/)
 Μάθετε πώς να δημιουργήσετε έναν πελάτη OpenAI και να χρησιμοποιήσετε AI για σύνοψη αρχείων PDF με Aspose.PDF για .NET.
 
 ## Πρόσθετοι Πόροι

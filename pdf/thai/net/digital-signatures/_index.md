@@ -147,10 +147,15 @@
 
 ### [วิธีดึงลายเซ็นจาก PDF ด้วย C# – คู่มือทีละขั้นตอน](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 เรียนรู้วิธีดึงลายเซ็นดิจิทัลจากไฟล์ PDF ด้วย C# อย่างละเอียดตามขั้นตอน
+
 ### [วิธีตรวจสอบ PDF ด้วย Aspose.PDF – ตรวจสอบความถูกต้องของลายเซ็น PDF ใน C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
 เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็น PDF ด้วย Aspose.PDF สำหรับ .NET ใน C#
+
 ### [วิธีดึงลายเซ็นจากเอกสาร Word ด้วย C#](./how-to-get-signatures-from-a-word-document-in-c/)
 เรียนรู้วิธีดึงลายเซ็นดิจิทัลจากไฟล์ Word โดยใช้ C# และ Aspose.Words
+
+### [วิธีบันทึก PDF เป็น HTML และตรวจสอบลายเซ็น PDF](./how-to-save-pdf-as-html-and-validate-pdf-signatures/)
+เรียนรู้วิธีแปลง PDF เป็น HTML และตรวจสอบลายเซ็น PDF ด้วย Aspose.PDF สำหรับ .NET
 
 ## แหล่งข้อมูลเพิ่มเติม
 
