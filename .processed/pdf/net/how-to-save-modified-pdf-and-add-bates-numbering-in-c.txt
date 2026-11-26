@@ -1,0 +1,7 @@
+Title: How to save modified PDF and add Bates numbering in C#
+Slug: how-to-save-modified-pdf-and-add-bates-numbering-in-c
+Category: document-manipulation
+ProcessedDate: 2026-11-26T01:51:45.604893
+SourceRepo: AI Search API
+Keywords: save modified pdf, add bates numbering pdf, add bates numbers pdf, add custom shape pdf, load pdf document c#
+PRNumber: 181
