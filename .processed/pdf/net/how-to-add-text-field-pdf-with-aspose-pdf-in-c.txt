@@ -1,0 +1,7 @@
+Title: How to add text field PDF with Aspose.PDF in C#
+Slug: how-to-add-text-field-pdf-with-aspose-pdf-in-c
+Category: programming-with-forms
+ProcessedDate: 2026-11-26T01:51:48.791670
+SourceRepo: AI Search API
+Keywords: add text field pdf, load pdf document, save modified pdf, apply blend mode, set fill opacity
+PRNumber: 181
