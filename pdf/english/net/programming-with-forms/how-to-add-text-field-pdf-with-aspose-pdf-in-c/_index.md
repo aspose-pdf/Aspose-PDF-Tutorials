@@ -53,7 +53,7 @@ tags:
 - Aspose.PDF
 - C#
 - PDF manipulation
-title: How to add text field PDF with Aspose.PDF in C#
+title: Add a Text Field to a PDF using Aspose.PDF for .NET (C#)
 url: /net/programming-with-forms/how-to-add-text-field-pdf-with-aspose-pdf-in-c/
 ---
 
@@ -291,16 +291,19 @@ class Program
 
         // ---------- Step 6: save modified pdf ----------
         var outputPath = @"YOUR_DIRECTORY\output.pdf";
+        pdfDocument.Save(outputPath);
+        Console.WriteLine($"Modified PDF saved to {outputPath}");
+    }
+}
+```
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document](/pdf/english/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/)
-- [Create PDF Document with Aspose – Add Text Box Field](/pdf/english/net/programming-with-forms/create-pdf-document-with-aspose-add-text-box-field/)
-- [Set PDF opacity and change blend mode using Aspose.Pdf for .NET](/pdf/english/net/images-graphics/how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit/)
+- [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document]({{< relref "pdf/english/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd" >}})
+- [Create PDF Document with Aspose – Add Text Box Field]({{< relref "pdf/english/net/programming-with-forms/create-pdf-document-with-aspose-add-text-box-field" >}})
+- [Set PDF opacity and change blend mode using Aspose.Pdf for .NET]({{< relref "pdf/english/net/images-graphics/how-to-set-opacity-in-a-pdf-and-how-to-change-blend-mode-wit" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

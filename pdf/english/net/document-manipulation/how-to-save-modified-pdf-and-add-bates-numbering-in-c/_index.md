@@ -30,7 +30,7 @@ tags:
 - PDF
 - C#
 - Aspose.PDF
-title: How to save modified PDF and add Bates numbering in C#
+title: Implementing document modifications and numbering in .NET
 url: /net/document-manipulation/how-to-save-modified-pdf-and-add-bates-numbering-in-c/
 ---
 
@@ -38,7 +38,7 @@ url: /net/document-manipulation/how-to-save-modified-pdf-and-add-bates-numbering
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to save modified PDF and add Bates numbering in C#
+# Implementing document modifications and numbering in .NET
 
 If you need to **save modified PDF** files after applying legal‑style Bates numbering, the solution is right here. This tutorial walks you through loading a PDF document in C#, adding Bates numbers, inserting a custom shape, and finally **saving the modified PDF** with Aspose.PDF. Whether you’re preparing case files or automating document workflows, you’ll get a complete, runnable example.
 
@@ -132,20 +132,7 @@ pdfDocument.Pages[1].Add(shapePath);
 
 **Why this matters:** Defining a shape via the `Path` syntax gives you vector‑level control, which scales cleanly for any output device. The `VerifyBounds` call prevents runtime errors caused by shapes that spill off the page.
 
-## Step 5: Add a tagged element – optional accessibility enhancement
-
-If you need to improve accessibility, you can add a tagged element that screen readers can interpret.
-
-```csharp
-var taggedElement = new TaggedElement();
-taggedElement.Position = new Position(100, 200); // X=100, Y=200 points
-taggedElement.Tag = "Figure"; // Semantic tag
-pdfDocument.Pages[1].Add(taggedElement);
-```
-
-**Why this matters:** Tagged elements help PDF/UA compliance, making the document usable for assistive technologies.
-
-## Step 6: Save modified PDF – finalizing the output file
+## Step 5: Save modified PDF – finalizing the output file
 
 After all modifications are applied, you **save the modified PDF** to a new location. This step writes the in‑memory changes back to disk.
 
@@ -201,15 +188,7 @@ namespace PdfProcessingDemo
             shapePath.VerifyBounds(); // Ensure shape fits the page
             pdfDocument.Pages[1].Add(shapePath);
 
-            // Step 5: Add a tagged element (optional accessibility aid)
-            var taggedElement = new TaggedElement
-            {
-                Position = new Position(100, 200),
-                Tag = "Figure"
-            };
-            pdfDocument.Pages[1].Add(taggedElement);
-
-            // Step 6: Save the modified PDF (save modified pdf)
+            // Step 5: Save the modified PDF (save modified pdf)
             pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
             Console.WriteLine("Modified PDF saved successfully as output.pdf");
         }
@@ -223,7 +202,6 @@ Running the program produces `output.pdf` with:
 
 * Bates numbers like `CASE-1000`, `CASE-1001`, … on each page.
 * A light‑gray rectangle with a blue border positioned at (100, 200).
-* An optional tagged element for accessibility.
 * All original content preserved unless a compromised signature was detected (you may choose to abort).
 
 ## Conclusion
@@ -239,15 +217,13 @@ From here you can explore further enhancements:
 
 Feel free to experiment with different prefixes, start numbers, or shape geometries to match your organization’s workflow. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Add Shape to PDF with Aspose.PDF in C# – Step‑by‑Step Guide](/pdf/english/net/images-graphics/how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-- [How to save modified PDF with Aspose.Pdf and add transparency](/pdf/english/net/document-manipulation/how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
-- [Create PDF Document with Aspose.PDF – Add Page, Shape & Save](/pdf/english/net/document-creation/create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+- [How to Add Shape to PDF with Aspose.PDF in C# – Step‑by‑Step Guide]([{{< relref "pdf/english/net/images-graphics/how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu" >}}])
+- [How to save modified PDF with Aspose.Pdf and add transparency]([{{< relref "pdf/english/net/document-manipulation/how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc" >}}])
+- [Create PDF Document with Aspose.PDF – Add Page, Shape & Save]([{{< relref "pdf/english/net/document-creation/create-pdf-document-with-aspose-pdf-add-page-shape-save" >}}])
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

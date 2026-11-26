@@ -1,5 +1,5 @@
 ---
-title: "Create and Verify PDF Digital Signatures with Aspose.PDF for .NET API – C# Tutorial"
+title: "How to Create and Verify PDF Digital Signatures Using Aspose.PDF for .NET API – C# Tutorial"
 description: "Step-by-step tutorials for implementing digital signatures, certificates, and signature validation in PDF documents with Aspose.PDF for .NET."
 weight: 16
 url: "/net/digital-signatures/"
@@ -98,7 +98,7 @@ Step-by-step tutorial on validating PDF signatures using C# and Aspose.PDF for .
 ### [How to Verify PDF Signature in C# – Complete Step‑by‑Step Guide](./how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
 Learn how to verify PDF signatures in C# using Aspose.PDF for .NET with detailed steps and best practices.
 
-### [Verify PDF Signature in C# – Complete Step‑by‑Step Guide](./verify-pdf-signature-in-c-complete-step-by-step-guide/)
+### [Verify PDF signature in C# – complete step‑by‑Step guide](./verify-pdf-signature-in-c-complete-step-by-step-guide/)
 Learn how to verify PDF signatures in C# using Aspose.PDF for .NET with a detailed, step‑by‑step guide.
 
 ### [Master PDF Signing & Verification with Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
@@ -164,7 +164,7 @@ Learn how to sign PDFs in C# using Aspose.PDF with a full step‑by‑step guide
 ### [How to Check Signature in a PDF with Aspose.PDF – Complete Guide](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
 Learn how to check and validate a PDF signature using Aspose.PDF for .NET with step-by-step instructions.
 
-### [Validate PDF Signature and List PDF Signatures with Aspose.PDF – Complete Guide](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+### [Validate PDF signature and list PDF signatures with Aspose.PDF – complete guide](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 Learn how to validate a PDF signature and enumerate all signatures in a PDF using Aspose.PDF for .NET. Step‑by‑step guide with C# code.
 
 ### [How to get signatures from a PDF in C# – step‑by‑step guide](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
